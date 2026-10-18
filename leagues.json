@@ -6,25 +6,25 @@
         "from": 1,
         "to": 3,
         "label": "دوري أبطال آسيا للنخبة",
-        "color": "#1E7BFF"
+        "color": "#FFA400"
       },
       {
         "from": 4,
         "to": 5,
         "label": "تصفيات دوري أبطال آسيا للنخبة",
-        "color": "#8DB8FF"
+        "color": "#1E7BFF"
       },
       {
         "from": 6,
         "to": 6,
         "label": "دوري أبطال آسيا 2",
-        "color": "#FFA400"
+        "color": "#6A35C9"
       },
       {
         "from": 7,
         "to": 8,
         "label": "دوري أبطال الخليج",
-        "color": "#2BB673"
+        "color": "#FF6A1F"
       },
       {
         "from": -3,
