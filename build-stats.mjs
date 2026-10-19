@@ -220,10 +220,12 @@ const clean = (s) => s.replace(/<[^>]*>/g, ' ').replace(/&[a-z#0-9]+;/gi, ' ').r
 async function riyadiyahPhoto(l) {
   const tag = AR_TAG[teams[l.id].name] || (/[\u0600-\u06FF]/.test(AR_ESPN[l.id] || '') ? AR_ESPN[l.id] : '');
   if (!tag) return null;
+  const abs = (u) => (u.startsWith('//') ? 'https:' + u : u.startsWith('/') ? 'https://arriyadiyah.com' + u : u);
   const seen = {};
+  const cands = [];
   let tried = 0;
   let stop = false;
-  for (let page = 1; page <= 70 && tried < 25 && !stop; page++) {
+  for (let page = 1; page <= 70 && tried < 30 && !stop; page++) {
     let html;
     try {
       html = await getHtml(`https://arriyadiyah.com/tag/${encodeURIComponent(tag)}${page > 1 ? '?page=' + page : ''}`);
@@ -234,11 +236,12 @@ async function riyadiyahPhoto(l) {
     let m;
     while ((m = re.exec(html))) {
       const id = m[1];
-      const title = clean(m[3]) || decodeURIComponent(m[2]).replace(/-/g, ' ');
+      const slug = decodeURIComponent(m[2]).replace(/-/g, ' ');
+      const title = clean(m[3]) || slug;
       if (seen[id]) continue;
       seen[id] = 1;
-      if (!/تتويج|توج|توّج|لقب|رفع/.test(title)) continue;
-      if (tried >= 25) break;
+      if (!/تتويج|توج|توّج|لقب|رفع|الكأس|حفل/.test(title + ' ' + slug)) continue;
+      if (tried >= 30) break;
       tried++;
       try {
         const art = await getHtml(`https://arriyadiyah.com/${id}/${m[2]}`);
@@ -250,20 +253,23 @@ async function riyadiyahPhoto(l) {
           break;
         }
         if (ts > l.when + 6 * 24 * 3600e3) continue;
+        const t2 = slug + ' ' + title;
+        let score = 0;
+        if (/^\s*تتويج/.test(slug) || /تتويج\s+\S+\s*$/.test(slug)) score += 6;
+        if (/حفل\s+التتويج|يتوج|يتوّج|رفع\s+الكأس|رفع\s+الدرع|كأس\s+الدوري/.test(t2)) score += 4;
+        if (/تتويج/.test(t2)) score += 3;
+        if (/السقوط|أزمة|صفقة|عقد|يخسر|يرحل|انسحب|ينسحب|مليون|مليار|دائرة/.test(t2)) score -= 5;
         const og = art.match(/property="og:image"[^>]*content="([^"]+)"/) || art.match(/content="([^"]+)"[^>]*property="og:image"/);
-        const abs = (u) => (u.startsWith('//') ? 'https:' + u : u.startsWith('/') ? 'https://arriyadiyah.com' + u : u);
         const all = [];
         const keys = {};
         const add = (u, alt) => {
-          const h = u.match(/\/(\d+)_([0-9a-f]+)\.(jpe?g|png|webp)/i);
-          if (!h || keys[h[2]]) return;
-          if (Number(h[1]) < 800) return;
+          const h = u.match(/\/(\d+)_([0-9a-f]+)\.(jpe?g)/i);
+          if (!h || keys[h[2]] || Number(h[1]) < 800) return;
           keys[h[2]] = 1;
           all.push({ url: abs(u).replace(/\/(\d+)_/, '/1200_').replace('//media', '/media'), alt: alt || '' });
         };
         if (og) add(og[1], 'og');
-        const tags = art.match(/<img[^>]*>/gi) || [];
-        for (const tg of tags) {
+        for (const tg of art.match(/<img[^>]*>/gi) || []) {
           const src = tg.match(/(?:data-src|src)="([^"]*\/media\/thumb\/[^"]+)"/);
           if (!src) continue;
           const alt = (tg.match(/alt="([^"]*)"/) || [])[1] || '';
@@ -271,16 +277,19 @@ async function riyadiyahPhoto(l) {
           const cap = (art.slice(at, at + 900).match(/<figcaption[^>]*>([\s\S]*?)<\/figcaption>/) || [])[1] || '';
           add(src[1], clean(alt + ' ' + cap));
         }
-        if (!all.length) continue;
-        const trophy = (x) => /كأس|الكأس|درع|يرفع|رفع|حمل|يحمل|تتويج|لقب|يحتفل|احتفال/.test(x.alt);
-        const flagged = all.filter(trophy);
-        const list = (flagged.length ? flagged : all).slice(0, 12);
-        debug.push(`imgs ${all.length} flagged ${flagged.length} | ` + all.slice(0, 4).map((x) => x.alt.slice(0, 30)).join(' / '));
-        return { url: list[0].url, credit: 'صحيفة الرياضية', source: `https://arriyadiyah.com/${id}`, all: list.map((x) => x.url) };
+        debug.push(`cand ${id} score ${score} imgs ${all.length} ${slug.slice(0, 40)}`);
+        if (all.length && score >= 3) cands.push({ score, id, slug: m[2], all, ts });
       } catch (e) {}
     }
   }
-  return null;
+  if (!cands.length) return null;
+  cands.sort((a, b) => b.score - a.score || a.ts - b.ts);
+  const best = cands[0];
+  const trophy = (x) => /كأس|الكأس|درع|يرفع|رفع|حمل|يحمل|تتويج|لقب|يحتفل|احتفال/.test(x.alt);
+  const flagged = best.all.filter(trophy);
+  const list = (flagged.length ? flagged : best.all).slice(0, 12);
+  debug.push(`picked ${best.id} score ${best.score} imgs ${best.all.length} flagged ${flagged.length}`);
+  return { url: list[0].url, credit: 'صحيفة الرياضية', source: `https://arriyadiyah.com/${best.id}`, all: list.map((x) => x.url) };
 }
 let old = null;
 try {
