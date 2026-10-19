@@ -138,16 +138,65 @@ prevSeason.forEach((x) =>
       }
       return;
     }
-    if (/^final$/i.test((ev.seasonType && ev.seasonType.name) || '') && me.winner === true) prev.push({ id: x.id, label: x.c.label, when });
+    if (/^final$/i.test((ev.seasonType && ev.seasonType.name) || '') && me.winner === true) {
+      prev.push({ id: x.id, label: x.c.label, when, opp: (op.team && op.team.displayName) || '', score: `${scoreOf(me)}-${scoreOf(op)}` });
+    }
   })
 );
 const ranked = Object.keys(pts).filter((id) => played[id] >= 34).sort((a, b) => pts[b] - pts[a]);
 if (ranked.length && (ranked.length === 1 || pts[ranked[0]] > pts[ranked[1]]) && lastLeague[ranked[0]]) {
-  prev.push({ id: ranked[0], label: 'دوري روشن', when: lastLeague[ranked[0]] });
+  prev.push({ id: ranked[0], label: 'دوري روشن', when: lastLeague[ranked[0]], pts: pts[ranked[0]] });
 }
+
+// آخر بطولة بين كل أندية روشن (الموسم الحالي والماضي) + صورة تتويج من Wikimedia Commons إن وُجدت
+const cand = prev.slice();
+if (leagueChamp) cand.push({ id: leagueChamp, label: 'دوري روشن', when: Date.now() });
+games.forEach((g) => {
+  if (g.key !== 'league' && g.won && /^final$/i.test(g.round)) cand.push({ id: g.id, label: g.label, when: g.when, opp: g.opp, score: `${g.gf}-${g.ga}` });
+});
+cand.sort((a, b) => b.when - a.when);
+const last = cand[0] || null;
+
+const EN = { 'دوري روشن': 'Saudi Pro League', 'كأس الملك': "King's Cup", 'كأس السوبر': 'Saudi Super Cup', 'دوري أبطال آسيا': 'AFC Champions League', 'دوري أبطال آسيا 2': 'AFC Champions League Two' };
+async function findPhoto(l) {
+  try {
+    const club = teams[l.id].name;
+    const short = club.replace(/^Al[ -]?/i, '').toLowerCase();
+    const yr = String(new Date(l.when).getFullYear());
+    const queries = [`${club} ${EN[l.label] || ''} ${yr} trophy`, `${club} ${yr} champions trophy celebration`];
+    for (const q of queries) {
+      const url = 'https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=15&prop=imageinfo&iiprop=url|mime|extmetadata&iiurlwidth=900&gsrsearch=' + encodeURIComponent(q);
+      const r = await fetch(url, { headers: { 'User-Agent': 'FT-football-app/1.0 (github.com/uiopjh1/ft-data)' } });
+      if (!r.ok) continue;
+      const j = await r.json();
+      const pages = Object.values((j.query && j.query.pages) || {});
+      const ok = pages
+        .map((p) => ({ p, ii: (p.imageinfo || [])[0] }))
+        .filter(({ p, ii }) => {
+          if (!ii || !/jpeg|png/.test(ii.mime || '')) return false;
+          const name = (p.title || '').toLowerCase();
+          const desc = String((ii.extmetadata && ii.extmetadata.ImageDescription && ii.extmetadata.ImageDescription.value) || '').toLowerCase();
+          const date = String((ii.extmetadata && ii.extmetadata.DateTimeOriginal && ii.extmetadata.DateTimeOriginal.value) || '');
+          const all = name + ' ' + desc;
+          const club1 = all.includes(short) || all.includes(club.toLowerCase());
+          const trophy = /troph|champion|celebrat|lift|winner|cup/.test(all);
+          const recent = all.includes(yr) || date.includes(yr);
+          return club1 && trophy && recent;
+        });
+      if (ok.length) {
+        const { ii } = ok[0];
+        const m = ii.extmetadata || {};
+        const strip = (s) => String((s && s.value) || '').replace(/<[^>]*>/g, '').trim();
+        return { url: ii.thumburl || ii.url, credit: [strip(m.Artist), strip(m.LicenseShortName)].filter(Boolean).join(' · ') };
+      }
+    }
+  } catch (e) {}
+  return null;
+}
+if (last) last.photo = await findPhoto(last);
 
 writeFileSync(
   'stats.json',
-  JSON.stringify({ updated: Date.now(), year: y, teams, games, leagueChamp, finals: Object.values(finals).sort((a, b) => a.when - b.when), prev })
+  JSON.stringify({ updated: Date.now(), year: y, teams, games, leagueChamp, last, finals: Object.values(finals).sort((a, b) => a.when - b.when), prev })
 );
 console.log('teams', ids.length, 'games', games.length, 'prev titles', prev.length);
