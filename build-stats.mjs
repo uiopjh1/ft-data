@@ -6,7 +6,8 @@ const LEAGUE = 'ksa.1';
 // أسماء عربية للبطولات المعروفة (غير المعروفة تظهر باسمها الإنجليزي من ESPN)
 const LABELS = {
   'ksa.1': 'دوري روشن', 'ksa.kings.cup': 'كأس الملك', 'ksa.super_cup': 'كأس السوبر',
-  'afc.champions': 'دوري أبطال آسيا', 'afc.champions.two': 'دوري أبطال آسيا 2',
+  'afc.champions': 'دوري أبطال آسيا', 'afc.champions.two': 'دوري أبطال آسيا 2', 'afc.cup': 'دوري أبطال آسيا 2',
+  'afc.champions_qual': 'تصفيات دوري أبطال آسيا', 'fifa.intercontinental_cup': 'كأس إنتركونتيننتال',
 };
 const now = new Date();
 const y = now.getMonth() >= 6 ? now.getFullYear() : now.getFullYear() - 1;
@@ -273,10 +274,11 @@ async function riyadiyahPhoto(l) {
         if (ts > l.when + 6 * 24 * 3600e3) continue;
         const t2 = slug + ' ' + title;
         let score = 0;
+        if (/^\s*(حفل\s+)?تتويج\s+\S+\s*$/.test(slug)) score += 10;
         if (/^\s*تتويج/.test(slug) || /تتويج\s+\S+\s*$/.test(slug)) score += 6;
         if (/حفل\s+التتويج|يتوج|يتوّج|رفع\s+الكأس|رفع\s+الدرع|كأس\s+الدوري/.test(t2)) score += 4;
         if (/تتويج/.test(t2)) score += 3;
-        if (/السقوط|أزمة|صفقة|عقد|يخسر|يرحل|انسحب|ينسحب|مليون|مليار|دائرة/.test(t2)) score -= 5;
+        if (/السقوط|أزمة|صفقة|عقد|يخسر|يرحل|انسحب|ينسحب|مليون|مليار|دائرة|مشوار|أفكار|ترسم|تمهد|طريق|ليلة|يحتفل|احتفالات/.test(t2)) score -= 5;
         const og = art.match(/property="og:image"[^>]*content="([^"]+)"/) || art.match(/content="([^"]+)"[^>]*property="og:image"/);
         const all = [];
         const keys = {};
@@ -301,7 +303,7 @@ async function riyadiyahPhoto(l) {
     }
   }
   if (!cands.length) return null;
-  cands.sort((a, b) => b.score - a.score || a.ts - b.ts);
+  cands.sort((a, b) => b.score - a.score || b.all.length - a.all.length || a.ts - b.ts);
   const best = cands[0];
   const trophy = (x) => /كأس|الكأس|درع|يرفع|رفع|حمل|يحمل|تتويج|لقب|يحتفل|احتفال/.test(x.alt);
   const flagged = best.all.filter(trophy);
