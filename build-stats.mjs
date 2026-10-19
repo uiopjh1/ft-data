@@ -415,14 +415,14 @@ async function riyadiyahPhoto(l) {
   const list = (flagged.length ? flagged : best.all).slice(0, 12);
   debug.push(`picked ${best.id} score ${best.score} imgs ${best.all.length} flagged ${flagged.length}`);
   const urls = await dedupePhotos(list.map((x) => x.url));
-  return { v: 4, url: urls[0], credit: 'صحيفة الرياضية', source: `https://arriyadiyah.com/${best.id}`, all: urls };
+  return { v: 5, url: urls[0], credit: 'صحيفة الرياضية', source: `https://arriyadiyah.com/${best.id}`, all: urls };
 }
 let old = null;
 try {
   old = JSON.parse(readFileSync('stats.json', 'utf8')).last;
 } catch (e) {}
 if (last) {
-  if (old && old.id === last.id && old.label === last.label && old.photo && old.photo.v === 4 && Math.abs(old.when - last.when) < 36 * 3600e3) last.photo = old.photo;
+  if (old && old.id === last.id && old.label === last.label && old.photo && old.photo.v === 5 && Math.abs(old.when - last.when) < 36 * 3600e3) last.photo = old.photo;
   else last.photo = (await riyadiyahPhoto(last)) || (await findPhoto(last));
 }
 
