@@ -236,6 +236,109 @@ async function getHtml(url) {
   return await r.text();
 }
 const clean = (s) => s.replace(/<[^>]*>/g, ' ').replace(/&[a-z#0-9]+;/gi, ' ').replace(/\s+/g, ' ').trim();
+function bilinear(img, nw) {
+  const nh = Math.max(1, Math.round((img.h * nw) / img.w));
+  const d = new Float32Array(nw * nh);
+  for (let y = 0; y < nh; y++) {
+    const sy = ((y + 0.5) * img.h) / nh - 0.5;
+    const y0 = Math.max(0, Math.min(img.h - 1, Math.floor(sy)));
+    const y1 = Math.min(img.h - 1, y0 + 1);
+    const fy = Math.max(0, sy - y0);
+    for (let x = 0; x < nw; x++) {
+      const sx = ((x + 0.5) * img.w) / nw - 0.5;
+      const x0 = Math.max(0, Math.min(img.w - 1, Math.floor(sx)));
+      const x1 = Math.min(img.w - 1, x0 + 1);
+      const fx = Math.max(0, sx - x0);
+      const a = img.d[y0 * img.w + x0] * (1 - fx) + img.d[y0 * img.w + x1] * fx;
+      const b = img.d[y1 * img.w + x0] * (1 - fx) + img.d[y1 * img.w + x1] * fx;
+      d[y * nw + x] = a * (1 - fy) + b * fy;
+    }
+  }
+  return { w: nw, h: nh, d };
+}
+function stats(d) {
+  let m = 0;
+  for (let i = 0; i < d.length; i++) m += d[i];
+  m /= d.length;
+  let v = 0;
+  for (let i = 0; i < d.length; i++) v += (d[i] - m) * (d[i] - m);
+  return { m, s: Math.sqrt(v) };
+}
+// أعلى ارتباط (NCC) للقالب T داخل A
+function bestMatch(A, T) {
+  if (T.w > A.w || T.h > A.h) return -1;
+  const tz = new Float32Array(T.d.length);
+  const ts = stats(T.d);
+  if (ts.s < 1e-3 || ts.s / Math.sqrt(T.d.length) < 6) return -1; // قالب مسطّح بلا تفاصيل
+  for (let i = 0; i < T.d.length; i++) tz[i] = T.d[i] - ts.m;
+  let best = -1;
+  const win = new Float32Array(T.d.length);
+  for (let y = 0; y <= A.h - T.h; y += 2) {
+    for (let x = 0; x <= A.w - T.w; x += 2) {
+      let k = 0;
+      let m = 0;
+      for (let j = 0; j < T.h; j++) for (let i = 0; i < T.w; i++) { const v = A.d[(y + j) * A.w + x + i]; win[k++] = v; m += v; }
+      m /= win.length;
+      let num = 0;
+      let den = 0;
+      for (let q = 0; q < win.length; q++) { const z = win[q] - m; num += z * tz[q]; den += z * z; }
+      const c = num / (Math.sqrt(den) * ts.s + 1e-9);
+      if (c > best) best = c;
+    }
+  }
+  return best;
+}
+// هل B جزء (مقصوص/مقرّب) من A؟
+function cropOf(A, B) {
+  let best = -1;
+  for (let f = 0.3; f <= 1.001; f += 0.1) {
+    const T = bilinear(B, Math.max(8, Math.round(A.w * f)));
+    const c = bestMatch(A, T);
+    if (c > best) best = c;
+  }
+  return best;
+}
+const SAME = 0.9;
+
+// يحذف الصور المكررة/المقصوصة من نفس الصورة. أي خطأ = نبقي كل الصور.
+async function dedupePhotos(urls) {
+  try {
+    let sharp;
+    try { sharp = (await import('sharp')).default; } catch (e) {
+      const { execSync } = await import('node:child_process');
+      const { createRequire } = await import('node:module');
+      execSync('npm install sharp --no-save --prefix /tmp/sh', { stdio: 'ignore', timeout: 180000 });
+      sharp = createRequire('/tmp/sh/')('sharp');
+    }
+    const imgs = [];
+    for (const u of urls) {
+      try {
+        const r = await fetch(u, { headers: { ...UA, Referer: 'https://arriyadiyah.com/' } });
+        if (!r.ok) { imgs.push(null); continue; }
+        const buf = Buffer.from(await r.arrayBuffer());
+        const o = await sharp(buf).greyscale().resize({ width: 96 }).raw().toBuffer({ resolveWithObject: true });
+        imgs.push({ w: o.info.width, h: o.info.height, d: Float32Array.from(o.data) });
+      } catch (e) { imgs.push(null); }
+    }
+    const drop = new Set();
+    for (let i = 0; i < urls.length; i++) {
+      if (!imgs[i] || drop.has(i)) continue;
+      for (let j = i + 1; j < urls.length; j++) {
+        if (!imgs[j] || drop.has(j)) continue;
+        // ندخل B داخل A (والعكس): الأكبر مساحة (الكاملة) هي التي نبقيها
+        const aInB = cropOf(imgs[i], imgs[j]); // j جزء من i
+        const bInA = cropOf(imgs[j], imgs[i]); // i جزء من j
+        if (aInB >= SAME && aInB >= bInA) { drop.add(j); debug.push(`dedupe: drop ${j + 1} (crop of ${i + 1}) ${aInB.toFixed(2)}`); }
+        else if (bInA >= SAME) { drop.add(i); debug.push(`dedupe: drop ${i + 1} (crop of ${j + 1}) ${bInA.toFixed(2)}`); break; }
+      }
+    }
+    debug.push(`dedupe removed ${drop.size} of ${urls.length}`);
+    return urls.filter((_, i) => !drop.has(i));
+  } catch (e) {
+    debug.push('dedupe failed: ' + String(e.message || e).slice(0, 80));
+    return urls;
+  }
+}
 async function riyadiyahPhoto(l) {
   const tag = AR_TAG[teams[l.id].name] || (/[\u0600-\u06FF]/.test(AR_ESPN[l.id] || '') ? AR_ESPN[l.id] : '');
   if (!tag) return null;
@@ -309,14 +412,15 @@ async function riyadiyahPhoto(l) {
   const flagged = best.all.filter(trophy);
   const list = (flagged.length ? flagged : best.all).slice(0, 12);
   debug.push(`picked ${best.id} score ${best.score} imgs ${best.all.length} flagged ${flagged.length}`);
-  return { v: 3, url: list[0].url, credit: 'صحيفة الرياضية', source: `https://arriyadiyah.com/${best.id}`, all: list.map((x) => x.url) };
+  const urls = await dedupePhotos(list.map((x) => x.url));
+  return { v: 4, url: urls[0], credit: 'صحيفة الرياضية', source: `https://arriyadiyah.com/${best.id}`, all: urls };
 }
 let old = null;
 try {
   old = JSON.parse(readFileSync('stats.json', 'utf8')).last;
 } catch (e) {}
 if (last) {
-  if (old && old.id === last.id && old.label === last.label && old.photo && old.photo.v === 3 && Math.abs(old.when - last.when) < 36 * 3600e3) last.photo = old.photo;
+  if (old && old.id === last.id && old.label === last.label && old.photo && old.photo.v === 4 && Math.abs(old.when - last.when) < 36 * 3600e3) last.photo = old.photo;
   else last.photo = (await riyadiyahPhoto(last)) || (await findPhoto(last));
 }
 
