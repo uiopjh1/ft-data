@@ -39,6 +39,18 @@ async function pool(jobs, size) {
   );
   return out;
 }
+// الفائز: علامة ESPN أولاً، وإلا بالنتيجة، وإلا بركلات الترجيح
+const wonBy = (me, op) => {
+  if (me.winner === true) return true;
+  if (op.winner === true) return false;
+  const a = scoreOf(me);
+  const b = scoreOf(op);
+  if (a > b) return true;
+  if (a < b) return false;
+  const sa = Number(me.shootoutScore);
+  const sb = Number(op.shootoutScore);
+  return !Number.isNaN(sa) && !Number.isNaN(sb) && sa > sb;
+};
 const scoreOf = (c) => {
   const sc = c && c.score;
   if (sc && typeof sc === 'object') return Number(sc.value !== undefined ? sc.value : sc.displayValue);
@@ -129,7 +141,7 @@ cur.forEach((x) =>
     const gf = scoreOf(me);
     const ga = scoreOf(op);
     if (Number.isNaN(gf) || Number.isNaN(ga) || when < start) return;
-    games.push({ id: x.id, mid: ev.id, key: x.c.key, when, gf, ga, opp: (op.team && op.team.displayName) || '', label: x.c.label, round: rn, won: me.winner === true });
+    games.push({ id: x.id, mid: ev.id, key: x.c.key, when, gf, ga, opp: (op.team && op.team.displayName) || '', label: x.c.label, round: rn, won: wonBy(me, op) });
   })
 );
 
@@ -157,7 +169,7 @@ prevSeason.forEach((x) =>
       }
       return;
     }
-    if (/^final$/i.test((ev.seasonType && ev.seasonType.name) || '') && me.winner === true) {
+    if (/^final$/i.test((ev.seasonType && ev.seasonType.name) || '') && wonBy(me, op)) {
       prev.push({ id: x.id, label: x.c.label, when, opp: (op.team && op.team.displayName) || '', score: `${scoreOf(me)}-${scoreOf(op)}` });
     }
   })
