@@ -251,10 +251,32 @@ async function riyadiyahPhoto(l) {
         }
         if (ts > l.when + 6 * 24 * 3600e3) continue;
         const og = art.match(/property="og:image"[^>]*content="([^"]+)"/) || art.match(/content="([^"]+)"[^>]*property="og:image"/);
-        if (!og) continue;
-        const url = og[1].replace(/\/(\d+)_/, '/1200_').replace('//media', '/media');
-        debug.push('photo from ' + id + ' ' + title.slice(0, 40));
-        return { url, credit: 'صحيفة الرياضية', source: `https://arriyadiyah.com/${id}` };
+        const abs = (u) => (u.startsWith('//') ? 'https:' + u : u.startsWith('/') ? 'https://arriyadiyah.com' + u : u);
+        const all = [];
+        const keys = {};
+        const add = (u, alt) => {
+          const h = u.match(/\/(\d+)_([0-9a-f]+)\.(jpe?g|png|webp)/i);
+          if (!h || keys[h[2]]) return;
+          if (Number(h[1]) < 800) return;
+          keys[h[2]] = 1;
+          all.push({ url: abs(u).replace(/\/(\d+)_/, '/1200_').replace('//media', '/media'), alt: alt || '' });
+        };
+        if (og) add(og[1], 'og');
+        const tags = art.match(/<img[^>]*>/gi) || [];
+        for (const tg of tags) {
+          const src = tg.match(/(?:data-src|src)="([^"]*\/media\/thumb\/[^"]+)"/);
+          if (!src) continue;
+          const alt = (tg.match(/alt="([^"]*)"/) || [])[1] || '';
+          const at = art.indexOf(tg);
+          const cap = (art.slice(at, at + 900).match(/<figcaption[^>]*>([\s\S]*?)<\/figcaption>/) || [])[1] || '';
+          add(src[1], clean(alt + ' ' + cap));
+        }
+        if (!all.length) continue;
+        const trophy = (x) => /كأس|الكأس|درع|يرفع|رفع|حمل|يحمل|تتويج|لقب|يحتفل|احتفال/.test(x.alt);
+        const flagged = all.filter(trophy);
+        const list = (flagged.length ? flagged : all).slice(0, 12);
+        debug.push(`imgs ${all.length} flagged ${flagged.length} | ` + all.slice(0, 4).map((x) => x.alt.slice(0, 30)).join(' / '));
+        return { url: list[0].url, credit: 'صحيفة الرياضية', source: `https://arriyadiyah.com/${id}`, all: list.map((x) => x.url) };
       } catch (e) {}
     }
   }
@@ -265,7 +287,7 @@ try {
   old = JSON.parse(readFileSync('stats.json', 'utf8')).last;
 } catch (e) {}
 if (last) {
-  if (old && old.id === last.id && old.label === last.label && old.photo && Math.abs(old.when - last.when) < 36 * 3600e3) last.photo = old.photo;
+  if (old && old.id === last.id && old.label === last.label && old.photo && old.photo.all && Math.abs(old.when - last.when) < 36 * 3600e3) last.photo = old.photo;
   else last.photo = (await riyadiyahPhoto(last)) || (await findPhoto(last));
 }
 
