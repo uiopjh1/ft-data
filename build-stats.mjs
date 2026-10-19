@@ -320,6 +320,7 @@ async function dedupePhotos(urls) {
         imgs.push({ w: o.info.width, h: o.info.height, d: Float32Array.from(o.data) });
       } catch (e) { imgs.push(null); }
     }
+    debug.push(`dedupe loaded ${imgs.filter(Boolean).length}/${urls.length} ` + imgs.map((m) => (m ? m.w + 'x' + m.h : 'x')).join(' '));
     const drop = new Set();
     for (let i = 0; i < urls.length; i++) {
       if (!imgs[i] || drop.has(i)) continue;
@@ -328,6 +329,7 @@ async function dedupePhotos(urls) {
         // ندخل B داخل A (والعكس): الأكبر مساحة (الكاملة) هي التي نبقيها
         const aInB = cropOf(imgs[i], imgs[j]); // j جزء من i
         const bInA = cropOf(imgs[j], imgs[i]); // i جزء من j
+        if (Math.max(aInB, bInA) > 0.6) debug.push(`dedupe pair ${i + 1}-${j + 1}: ${aInB.toFixed(2)} / ${bInA.toFixed(2)}`);
         if (aInB >= SAME && aInB >= bInA) { drop.add(j); debug.push(`dedupe: drop ${j + 1} (crop of ${i + 1}) ${aInB.toFixed(2)}`); }
         else if (bInA >= SAME) { drop.add(i); debug.push(`dedupe: drop ${i + 1} (crop of ${j + 1}) ${bInA.toFixed(2)}`); break; }
       }
