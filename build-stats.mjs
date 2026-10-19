@@ -1,13 +1,13 @@
 // يُشغَّل على خوادم GitHub كل 30 دقيقة ويكتب stats.json الذي يقرؤه التطبيق (طلب واحد بدل المئات)
 import { writeFileSync, readFileSync } from 'node:fs';
 
-const COMPS = [
-  { slug: 'ksa.1', key: 'league', label: 'دوري روشن' },
-  { slug: 'ksa.kings.cup', key: 'kings', label: 'كأس الملك' },
-  { slug: 'ksa.super_cup', key: 'super', label: 'كأس السوبر' },
-  { slug: 'afc.champions', key: 'asia', label: 'دوري أبطال آسيا' },
-  { slug: 'afc.champions.two', key: 'asia', label: 'دوري أبطال آسيا 2' },
-];
+// المعرّف الثابت الوحيد: دوري روشن في ESPN (نظير 955 في Sofascore). بقية البطولات تُكتشف تلقائيًا من جدول كل نادٍ.
+const LEAGUE = 'ksa.1';
+// أسماء عربية للبطولات المعروفة (غير المعروفة تظهر باسمها الإنجليزي من ESPN)
+const LABELS = {
+  'ksa.1': 'دوري روشن', 'ksa.kings.cup': 'كأس الملك', 'ksa.super_cup': 'كأس السوبر',
+  'afc.champions': 'دوري أبطال آسيا', 'afc.champions.two': 'دوري أبطال آسيا 2',
+};
 const now = new Date();
 const y = now.getMonth() >= 6 ? now.getFullYear() : now.getFullYear() - 1;
 const B = 'https://site.api.espn.com/apis';
@@ -69,24 +69,42 @@ const top = entries.find((e) => stat(e, 'rank') === 1);
 if (top && top.team && stat(top, 'gamesPlayed') >= (ids.length - 1) * 2) leagueChamp = String(top.team.id);
 
 // 2) جداول كل نادٍ في كل بطولة
-const lists = await Promise.all(
-  COMPS.filter((c) => c.slug !== 'ksa.1').map((c) =>
-    getJson(`${B}/site/v2/sports/soccer/${c.slug}/teams?limit=300`)
-      .then((j) => (((((j.sports || [])[0] || {}).leagues || [])[0] || {}).teams || []).map((t) => String(t.team && t.team.id)))
-      .catch(() => null)
-  )
-);
-const extra = COMPS.filter((c) => c.slug !== 'ksa.1');
-async function season(year, onlyParticipants) {
+const slugOf = (ev) => {
+  if (ev.league && ev.league.slug) return ev.league.slug;
+  const re = /soccer\/([a-z0-9._]+)\//g;
+  const s = JSON.stringify(ev.links || []) + JSON.stringify(ev.competitions && ev.competitions[0] ? ev.competitions[0].competitors || [] : []);
+  let m;
+  while ((m = re.exec(s))) if (m[1] !== 'all') return m[1];
+  return '';
+};
+const compOf = (ev) => {
+  const slug = slugOf(ev);
+  const name = (ev.league && ev.league.name) || '';
+  if (!slug || /friend/i.test(slug + ' ' + name)) return null;
+  return { slug, key: slug === LEAGUE ? 'league' : slug, label: LABELS[slug] || name || slug };
+};
+// يكتشف بطولات كل نادٍ تلقائيًا من جدوله الشامل (all)، ثم يجلب جدول كل بطولة كاملًا
+async function season(year, full) {
+  const alls = await pool(ids.map((id) => () => getJson(`${B}/site/v2/sports/soccer/all/teams/${id}/schedule?season=${year}`).then((j) => ({ id, events: j.events || [] }))), 6);
+  const out = [];
   const jobs = [];
-  ids.forEach((id) =>
-    COMPS.forEach((c) => {
-      const k = extra.indexOf(c);
-      if (onlyParticipants && k >= 0 && lists[k] && lists[k].length && lists[k].indexOf(id) < 0) return;
-      jobs.push(() => getJson(`${B}/site/v2/sports/soccer/${c.slug}/teams/${id}/schedule?season=${year}`).then((j) => ({ id, c, events: j.events || [] })));
-    })
-  );
-  return (await pool(jobs, 6)).filter((x) => x.ok).map((x) => x.v);
+  alls.filter((x) => x.ok).forEach((x) => {
+    const by = {};
+    x.v.events.forEach((ev) => {
+      const c = compOf(ev);
+      if (!c) return;
+      (by[c.slug] = by[c.slug] || { id: x.v.id, c, events: [] }).events.push(ev);
+    });
+    by[LEAGUE] = by[LEAGUE] || { id: x.v.id, c: { slug: LEAGUE, key: 'league', label: LABELS[LEAGUE] }, events: [] };
+    Object.values(by).forEach((g) => {
+      if (full || g.c.slug === LEAGUE) {
+        jobs.push(() => getJson(`${B}/site/v2/sports/soccer/${g.c.slug}/teams/${g.id}/schedule?season=${year}`).then((j) => { g.events = j.events || g.events; }).catch(() => {}));
+      }
+      out.push(g);
+    });
+  });
+  await pool(jobs, 6);
+  return out;
 }
 
 // 3) الموسم الحالي
@@ -289,14 +307,14 @@ async function riyadiyahPhoto(l) {
   const flagged = best.all.filter(trophy);
   const list = (flagged.length ? flagged : best.all).slice(0, 12);
   debug.push(`picked ${best.id} score ${best.score} imgs ${best.all.length} flagged ${flagged.length}`);
-  return { url: list[0].url, credit: 'صحيفة الرياضية', source: `https://arriyadiyah.com/${best.id}`, all: list.map((x) => x.url) };
+  return { v: 2, url: list[0].url, credit: 'صحيفة الرياضية', source: `https://arriyadiyah.com/${best.id}`, all: list.map((x) => x.url) };
 }
 let old = null;
 try {
   old = JSON.parse(readFileSync('stats.json', 'utf8')).last;
 } catch (e) {}
 if (last) {
-  if (old && old.id === last.id && old.label === last.label && old.photo && old.photo.all && Math.abs(old.when - last.when) < 36 * 3600e3) last.photo = old.photo;
+  if (old && old.id === last.id && old.label === last.label && old.photo && old.photo.v === 2 && Math.abs(old.when - last.when) < 36 * 3600e3) last.photo = old.photo;
   else last.photo = (await riyadiyahPhoto(last)) || (await findPhoto(last));
 }
 
