@@ -212,7 +212,7 @@ const UA = { 'User-Agent': 'Mozilla/5.0 (compatible; FT-app-dev/1.0)', 'Accept-L
 const debug = [];
 async function getHtml(url) {
   const r = await fetch(url, { headers: UA });
-  debug.push(`${r.status} ${decodeURIComponent(url).slice(0, 90)}`);
+  if (!/\/tag\//.test(url) || !r.ok) debug.push(`${r.status} ${decodeURIComponent(url).slice(0, 90)}`);
   if (!r.ok) throw new Error('HTTP ' + r.status);
   return await r.text();
 }
@@ -222,7 +222,8 @@ async function riyadiyahPhoto(l) {
   if (!tag) return null;
   const seen = {};
   let tried = 0;
-  for (let page = 1; page <= 8 && tried < 10; page++) {
+  let stop = false;
+  for (let page = 1; page <= 70 && tried < 25 && !stop; page++) {
     let html;
     try {
       html = await getHtml(`https://arriyadiyah.com/tag/${encodeURIComponent(tag)}${page > 1 ? '?page=' + page : ''}`);
@@ -236,15 +237,19 @@ async function riyadiyahPhoto(l) {
       const title = clean(m[3]) || decodeURIComponent(m[2]).replace(/-/g, ' ');
       if (seen[id]) continue;
       seen[id] = 1;
-      if (!/تتويج|يتوج|لقب|بطل|كأس|ختام|رفع/.test(title)) continue;
-      if (tried >= 10) break;
+      if (!/تتويج|توج|توّج|لقب|رفع/.test(title)) continue;
+      if (tried >= 25) break;
       tried++;
       try {
         const art = await getHtml(`https://arriyadiyah.com/${id}/${m[2]}`);
         const d = art.match(/(\d{4})\.(\d{2})\.(\d{2})/);
         if (!d) continue;
         const ts = new Date(`${d[1]}-${d[2]}-${d[3]}T12:00:00Z`).getTime();
-        if (ts < l.when - 36 * 3600e3 || ts > l.when + 6 * 24 * 3600e3) continue;
+        if (ts < l.when - 3 * 24 * 3600e3) {
+          stop = true;
+          break;
+        }
+        if (ts > l.when + 6 * 24 * 3600e3) continue;
         const og = art.match(/property="og:image"[^>]*content="([^"]+)"/) || art.match(/content="([^"]+)"[^>]*property="og:image"/);
         if (!og) continue;
         const url = og[1].replace(/\/(\d+)_/, '/1200_').replace('//media', '/media');
