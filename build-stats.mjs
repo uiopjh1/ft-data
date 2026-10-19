@@ -1,5 +1,5 @@
 // يُشغَّل على خوادم GitHub كل 30 دقيقة ويكتب stats.json الذي يقرؤه التطبيق (طلب واحد بدل المئات)
-import { writeFileSync } from 'node:fs';
+import { writeFileSync, readFileSync } from 'node:fs';
 
 const COMPS = [
   { slug: 'ksa.1', key: 'league', label: 'دوري روشن' },
@@ -193,10 +193,79 @@ async function findPhoto(l) {
   } catch (e) {}
   return null;
 }
-if (last) last.photo = await findPhoto(last);
+
+// ---- صورة التتويج من صحيفة الرياضية (أثناء التطوير؛ يلزم إذن قبل النشر) ----
+const AR_TAG = {
+  'Al Hilal': 'الهلال', 'Al Ittihad': 'الاتحاد', 'Al Nassr': 'النصر', 'Al Qadsiah': 'القادسية', 'Neom SC': 'نيوم', 'Al Ahli': 'الأهلي',
+  'Al Kholood': 'الخلود', 'Al Diriyah': 'الدرعية', 'Al Ettifaq': 'الاتفاق', 'Al Hazem': 'الحزم', 'Al Riyadh': 'الرياض', 'Al Fayha': 'الفيحاء',
+  'Al Khaleej': 'الخليج', 'Al Shabab': 'الشباب', 'Al Fateh': 'الفتح', 'Al Faisaly': 'الفيصلي', 'Al Taawoun': 'التعاون', 'Abha': 'أبها',
+};
+// اسم النادي بالعربي من ESPN نفسه (للأندية الجديدة التي ليست في القائمة أعلاه)
+const AR_ESPN = {};
+try {
+  const sa = await getJson(`${B}/v2/sports/soccer/ksa.1/standings?lang=ar&region=sa`);
+  (((sa.children && sa.children[0] ? sa.children[0] : sa).standings || {}).entries || []).forEach((e) => {
+    if (e.team && e.team.id) AR_ESPN[String(e.team.id)] = String(e.team.displayName || e.team.name || '').replace(/^نادي\s+/, '').trim();
+  });
+} catch (e) {}
+const UA = { 'User-Agent': 'Mozilla/5.0 (compatible; FT-app-dev/1.0)', 'Accept-Language': 'ar' };
+const debug = [];
+async function getHtml(url) {
+  const r = await fetch(url, { headers: UA });
+  debug.push(`${r.status} ${decodeURIComponent(url).slice(0, 90)}`);
+  if (!r.ok) throw new Error('HTTP ' + r.status);
+  return await r.text();
+}
+const clean = (s) => s.replace(/<[^>]*>/g, ' ').replace(/&[a-z#0-9]+;/gi, ' ').replace(/\s+/g, ' ').trim();
+async function riyadiyahPhoto(l) {
+  const tag = AR_TAG[teams[l.id].name] || (/[\u0600-\u06FF]/.test(AR_ESPN[l.id] || '') ? AR_ESPN[l.id] : '');
+  if (!tag) return null;
+  const seen = {};
+  let tried = 0;
+  for (let page = 1; page <= 8 && tried < 10; page++) {
+    let html;
+    try {
+      html = await getHtml(`https://arriyadiyah.com/tag/${encodeURIComponent(tag)}${page > 1 ? '?page=' + page : ''}`);
+    } catch (e) {
+      break;
+    }
+    const re = /<a[^>]+href="(?:https?:\/\/arriyadiyah\.com)?\/(\d{5,7})\/([^"]*)"[^>]*>([\s\S]*?)<\/a>/g;
+    let m;
+    while ((m = re.exec(html))) {
+      const id = m[1];
+      const title = clean(m[3]) || decodeURIComponent(m[2]).replace(/-/g, ' ');
+      if (seen[id]) continue;
+      seen[id] = 1;
+      if (!/تتويج|يتوج|لقب|بطل|كأس|ختام|رفع/.test(title)) continue;
+      if (tried >= 10) break;
+      tried++;
+      try {
+        const art = await getHtml(`https://arriyadiyah.com/${id}/${m[2]}`);
+        const d = art.match(/(\d{4})\.(\d{2})\.(\d{2})/);
+        if (!d) continue;
+        const ts = new Date(`${d[1]}-${d[2]}-${d[3]}T12:00:00Z`).getTime();
+        if (ts < l.when - 36 * 3600e3 || ts > l.when + 6 * 24 * 3600e3) continue;
+        const og = art.match(/property="og:image"[^>]*content="([^"]+)"/) || art.match(/content="([^"]+)"[^>]*property="og:image"/);
+        if (!og) continue;
+        const url = og[1].replace(/\/(\d+)_/, '/1200_').replace('//media', '/media');
+        debug.push('photo from ' + id + ' ' + title.slice(0, 40));
+        return { url, credit: 'صحيفة الرياضية', source: `https://arriyadiyah.com/${id}` };
+      } catch (e) {}
+    }
+  }
+  return null;
+}
+let old = null;
+try {
+  old = JSON.parse(readFileSync('stats.json', 'utf8')).last;
+} catch (e) {}
+if (last) {
+  if (old && old.id === last.id && old.label === last.label && old.photo && Math.abs(old.when - last.when) < 36 * 3600e3) last.photo = old.photo;
+  else last.photo = (await riyadiyahPhoto(last)) || (await findPhoto(last));
+}
 
 writeFileSync(
   'stats.json',
-  JSON.stringify({ updated: Date.now(), year: y, teams, games, leagueChamp, last, finals: Object.values(finals).sort((a, b) => a.when - b.when), prev })
+  JSON.stringify({ updated: Date.now(), year: y, teams, games, leagueChamp, last, debug, finals: Object.values(finals).sort((a, b) => a.when - b.when), prev })
 );
 console.log('teams', ids.length, 'games', games.length, 'prev titles', prev.length);
