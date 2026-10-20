@@ -170,7 +170,8 @@ try {
   if (Number(tj._asOf)) asOfYear = Number(tj._asOf);
 } catch (e) {}
 const prev = [];
-for (let py = Math.max(asOfYear + 1, y - 4); py <= y - 1; py++) {
+// الموسم الماضي دائماً يُحسب (لعرض "آخر بطولة")، والتطبيق يستبعد من العدّ ما كان ضمن أرقام titles.json
+for (let py = Math.max(Math.min(asOfYear + 1, y - 1), y - 4); py <= y - 1; py++) {
   const prevSeason = await season(py, false);
   const lastLeague = {};
   const pts = {};
