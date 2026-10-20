@@ -7,8 +7,11 @@ const LEAGUE = 'ksa.1';
 const LABELS = {
   'ksa.1': 'دوري روشن', 'ksa.kings.cup': 'كأس الملك', 'ksa.super_cup': 'كأس السوبر',
   'afc.champions': 'دوري أبطال آسيا', 'afc.champions.two': 'دوري أبطال آسيا 2', 'afc.cup': 'دوري أبطال آسيا 2',
-  'afc.champions_qual': 'تصفيات دوري أبطال آسيا', 'fifa.intercontinental_cup': 'كأس إنتركونتيننتال',
+  'afc.champions_qual': 'تصفيات دوري أبطال آسيا', 'fifa.intercontinental_cup': 'كأس القارات للأندية', 'fifa.cwc': 'كأس العالم للأندية',
 };
+// البطولات الرسمية فقط تُحسب بطولات (تُستبعد البطولات الودية/الاستعراضية حتى لو سمّاها ESPN نهائياً)
+const OFFICIAL = new Set(['ksa.1', 'ksa.kings.cup', 'afc.champions', 'afc.cup', 'fifa.cwc', 'fifa.intercontinental_cup']);
+const isSaudiSuper = (name) => /saudi/i.test(name) && /super/i.test(name);
 const now = new Date();
 const y = now.getMonth() >= 6 ? now.getFullYear() : now.getFullYear() - 1;
 const B = 'https://site.api.espn.com/apis';
@@ -94,7 +97,8 @@ const compOf = (ev) => {
   const slug = slugOf(ev);
   const name = (ev.league && ev.league.name) || '';
   if (!slug || /friend/i.test(slug + ' ' + name)) return null;
-  return { slug, key: slug === LEAGUE ? 'league' : slug, label: LABELS[slug] || name || slug };
+  const superCup = isSaudiSuper(name);
+  return { slug, key: slug === LEAGUE ? 'league' : slug, label: superCup ? 'كأس السوبر' : LABELS[slug] || name || slug, official: OFFICIAL.has(slug) || superCup };
 };
 // يكتشف بطولات كل نادٍ تلقائيًا من جدوله الشامل (all)، ثم يجلب جدول كل بطولة كاملًا
 async function season(year, full) {
@@ -141,7 +145,7 @@ cur.forEach((x) =>
     const gf = scoreOf(me);
     const ga = scoreOf(op);
     if (Number.isNaN(gf) || Number.isNaN(ga) || when < start) return;
-    games.push({ id: x.id, mid: ev.id, key: x.c.key, when, gf, ga, opp: (op.team && op.team.displayName) || '', label: x.c.label, round: rn, won: wonBy(me, op) });
+    games.push({ id: x.id, mid: ev.id, key: x.c.key, when, gf, ga, opp: (op.team && op.team.displayName) || '', label: x.c.label, round: rn, won: wonBy(me, op), official: !!x.c.official });
   })
 );
 
@@ -169,7 +173,7 @@ prevSeason.forEach((x) =>
       }
       return;
     }
-    if (/^final$/i.test((ev.seasonType && ev.seasonType.name) || '') && wonBy(me, op)) {
+    if (x.c.official && /^final$/i.test((ev.seasonType && ev.seasonType.name) || '') && wonBy(me, op)) {
       prev.push({ id: x.id, label: x.c.label, when, opp: (op.team && op.team.displayName) || '', score: `${scoreOf(me)}-${scoreOf(op)}` });
     }
   })
@@ -186,7 +190,7 @@ if (leagueChamp) {
   cand.push({ id: leagueChamp, label: 'دوري روشن', when: lw || Date.now() });
 }
 games.forEach((g) => {
-  if (g.key !== 'league' && g.won && /^final$/i.test(g.round)) cand.push({ id: g.id, label: g.label, when: g.when, opp: g.opp, score: `${g.gf}-${g.ga}` });
+  if (g.key !== 'league' && g.official && g.won && /^final$/i.test(g.round)) cand.push({ id: g.id, label: g.label, when: g.when, opp: g.opp, score: `${g.gf}-${g.ga}` });
 });
 cand.sort((a, b) => b.when - a.when);
 const last = cand[0] || null;
