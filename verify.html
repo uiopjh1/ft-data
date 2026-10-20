@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>تفعيل البريد - FT</title>
+<style>
+  body{margin:0;background:#0A0F1F;color:#E8EDF7;font-family:-apple-system,Segoe UI,Tahoma,sans-serif;display:flex;align-items:center;justify-content:center;min-height:100vh;text-align:center}
+  .box{max-width:340px;padding:32px 24px}
+  h1{font-size:22px;margin:0 0 10px}
+  p{color:#8E9BBD;font-size:15px;line-height:1.7;margin:0}
+  .ok{color:#2ECC71}.bad{color:#FF3B3B}
+  .logo{font-size:34px;font-weight:900;color:#1E7BFF;margin-bottom:18px}
+</style>
+</head>
+<body>
+<div class="box">
+  <div class="logo">FT</div>
+  <h1 id="t">جاري التفعيل…</h1>
+  <p id="m">لحظات من فضلك.</p>
+</div>
+<script>
+  var KEY = 'AIzaSyB3GfY9dXoPvw2euI04epYtln1uU7rw504';
+  var q = new URLSearchParams(location.search);
+  var t = document.getElementById('t'), m = document.getElementById('m');
+  function done(ok, title, msg){ t.textContent = title; t.className = ok ? 'ok' : 'bad'; m.textContent = msg; }
+  var code = q.get('oobCode');
+  if (q.get('mode') !== 'verifyEmail' || !code) {
+    done(false, 'رابط غير صالح', 'افتح الرابط من رسالة التفعيل مباشرة.');
+  } else {
+    fetch('https://identitytoolkit.googleapis.com/v1/accounts:update?key=' + KEY, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ oobCode: code })
+    }).then(function (r) { return r.json(); }).then(function (j) {
+      if (j && j.error) {
+        var c = String(j.error.message || '');
+        if (c.indexOf('EXPIRED') >= 0 || c.indexOf('INVALID_OOB') >= 0) done(false, 'الرابط منتهي أو مستخدم', 'إن كان بريدك مفعّلاً فسجّل دخولك من التطبيق، وإلا اطلب رسالة جديدة من شاشة الدخول.');
+        else done(false, 'تعذر التفعيل', 'حاول مرة ثانية أو اطلب رسالة جديدة من التطبيق.');
+      } else {
+        done(true, 'تم تفعيل بريدك ✅', 'ارجع إلى تطبيق FT وسجّل دخولك.');
+      }
+    }).catch(function () { done(false, 'تعذر الاتصال', 'تحقق من الإنترنت وأعد فتح الرابط.'); });
+  }
+</script>
+</body>
+</html>
