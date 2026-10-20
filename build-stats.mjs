@@ -360,7 +360,7 @@ async function dedupePhotos(urls) {
     return urls;
   }
 }
-async function riyadiyahPhoto(l) {
+async function riyadiyahPhoto(l, maxPages = 70) {
   const tag = AR_TAG[teams[l.id].name] || (/[\u0600-\u06FF]/.test(AR_ESPN[l.id] || '') ? AR_ESPN[l.id] : '');
   if (!tag) return null;
   const abs = (u) => (u.startsWith('//') ? 'https:' + u : u.startsWith('/') ? 'https://arriyadiyah.com' + u : u);
@@ -368,7 +368,7 @@ async function riyadiyahPhoto(l) {
   const cands = [];
   let tried = 0;
   let stop = false;
-  for (let page = 1; page <= 70 && tried < 30 && !stop; page++) {
+  for (let page = 1; page <= maxPages && tried < 30 && !stop; page++) {
     let html;
     try {
       html = await getHtml(`https://arriyadiyah.com/tag/${encodeURIComponent(tag)}${page > 1 ? '?page=' + page : ''}`);
@@ -434,7 +434,7 @@ async function riyadiyahPhoto(l) {
   const list = (flagged.length ? flagged : best.all).slice(0, 12);
   debug.push(`picked ${best.id} score ${best.score} imgs ${best.all.length} flagged ${flagged.length}`);
   const urls = await dedupePhotos(list.map((x) => x.url));
-  return { v: 6, url: urls[0], credit: 'صحيفة الرياضية', source: `https://arriyadiyah.com/${best.id}`, all: urls };
+  return { v: 6, url: urls[0], credit: 'صحيفة الرياضية', source: `https://arriyadiyah.com/${best.id}`, all: urls, ts: best.ts };
 }
 let old = null;
 try {
@@ -445,8 +445,28 @@ if (last) {
   else last.photo = (await riyadiyahPhoto(last)) || (await findPhoto(last));
 }
 
+// أحدث صور تتويج لكل نادٍ (آخر 6 أيام): يستخدمها التطبيق لبطولات يكتشفها هو من Sofascore (العربية/الخليج/السوبر...)
+let oldRecent = {};
+try {
+  oldRecent = JSON.parse(readFileSync('stats.json', 'utf8')).recent || {};
+} catch (e) {}
+const recent = {};
+for (const id of ids) {
+  const o = oldRecent[id];
+  if (o && Date.now() - o.checked < 30 * 60e3) {
+    recent[id] = o;
+    continue;
+  }
+  let ph = null;
+  try {
+    ph = await riyadiyahPhoto({ id, when: Date.now() - 3 * 24 * 3600e3 }, 4);
+  } catch (e) {}
+  recent[id] = ph ? { checked: Date.now(), ts: ph.ts, url: ph.url, all: ph.all, source: ph.source, credit: ph.credit } : { checked: Date.now() };
+}
+debug.push('recent photos: ' + Object.values(recent).filter((x) => x.url).length);
+
 writeFileSync(
   'stats.json',
-  JSON.stringify({ updated: Date.now(), year: y, teams, games, leagueChamp, last, debug, finals: Object.values(finals).sort((a, b) => a.when - b.when), prev })
+  JSON.stringify({ updated: Date.now(), year: y, teams, games, leagueChamp, last, recent, debug, finals: Object.values(finals).sort((a, b) => a.when - b.when), prev })
 );
 console.log('teams', ids.length, 'games', games.length, 'prev titles', prev.length);
