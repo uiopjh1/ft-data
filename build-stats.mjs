@@ -181,7 +181,10 @@ if (ranked.length && (ranked.length === 1 || pts[ranked[0]] > pts[ranked[1]]) &&
 
 // آخر بطولة بين كل أندية روشن (الموسم الحالي والماضي) + صورة تتويج من Wikimedia Commons إن وُجدت
 const cand = prev.slice();
-if (leagueChamp) cand.push({ id: leagueChamp, label: 'دوري روشن', when: Date.now() });
+if (leagueChamp) {
+  const lw = games.filter((g) => g.key === 'league' && g.id === leagueChamp).reduce((a, g) => Math.max(a, g.when), 0);
+  cand.push({ id: leagueChamp, label: 'دوري روشن', when: lw || Date.now() });
+}
 games.forEach((g) => {
   if (g.key !== 'league' && g.won && /^final$/i.test(g.round)) cand.push({ id: g.id, label: g.label, when: g.when, opp: g.opp, score: `${g.gf}-${g.ga}` });
 });
