@@ -9,9 +9,23 @@ const LABELS = {
   'afc.champions': 'دوري أبطال آسيا', 'afc.champions.two': 'دوري أبطال آسيا 2', 'afc.cup': 'دوري أبطال آسيا 2',
   'afc.champions_qual': 'تصفيات دوري أبطال آسيا', 'fifa.intercontinental_cup': 'كأس القارات للأندية', 'fifa.cwc': 'كأس العالم للأندية',
 };
-// البطولات الرسمية فقط تُحسب بطولات (تُستبعد البطولات الودية/الاستعراضية حتى لو سمّاها ESPN نهائياً)
-const OFFICIAL = new Set(['ksa.1', 'ksa.kings.cup', 'afc.champions', 'afc.cup', 'fifa.cwc', 'fifa.intercontinental_cup']);
+// البطولات الرسمية فقط تُحسب بطولات: أي بطولة قارية/دولية/سعودية جديدة تظهر في ESPN تُحسب تلقائياً،
+// وتُستبعد الودية والتصفيات والشبابية والنسائية (قاعدة على اسم البطولة بدل قائمة يدوية)
+const OFFICIAL_RE = /^(ksa|afc|fifa|caf|uefa|conmebol|concacaf)\./i;
+const NOT_OFFICIAL_RE = /friend|qual|youth|\.u\d\d|\.w\.|women|olympic|reserve|asian\.cup|nations|world(\.|$)/i;
+const isOfficialSlug = (slug) => OFFICIAL_RE.test(slug) && !NOT_OFFICIAL_RE.test(slug);
 const isSaudiSuper = (name) => /saudi/i.test(name) && /super/i.test(name);
+// تعريب أسماء البطولات الجديدة تلقائياً (وإلا يبقى اسم ESPN)
+const AR_COMP = [
+  [/champions league elite/i, 'دوري أبطال آسيا'], [/champions league two/i, 'دوري أبطال آسيا 2'], [/challenge league/i, 'دوري التحدي الآسيوي'],
+  [/club world cup/i, 'كأس العالم للأندية'], [/intercontinental/i, 'كأس القارات للأندية'], [/arab.*(club|cup|champions)/i, 'البطولة العربية للأندية'],
+  [/gulf.*champions/i, 'دوري أبطال الخليج'], [/king'?s cup/i, 'كأس الملك'], [/(asian|afc).*super|super.*(asian|afc)/i, 'السوبر الآسيوي'],
+  [/super ?cup/i, 'كأس السوبر'], [/champions league/i, 'دوري أبطال'],
+];
+const arComp = (name) => {
+  const m = AR_COMP.find(([re]) => re.test(name || ''));
+  return m ? m[1] : '';
+};
 const now = new Date();
 const y = now.getMonth() >= 6 ? now.getFullYear() : now.getFullYear() - 1;
 const B = 'https://site.api.espn.com/apis';
@@ -98,7 +112,7 @@ const compOf = (ev) => {
   const name = (ev.league && ev.league.name) || '';
   if (!slug || /friend/i.test(slug + ' ' + name)) return null;
   const superCup = isSaudiSuper(name);
-  return { slug, key: slug === LEAGUE ? 'league' : slug, label: superCup ? 'كأس السوبر' : LABELS[slug] || name || slug, official: OFFICIAL.has(slug) || superCup };
+  return { slug, key: slug === LEAGUE ? 'league' : slug, label: superCup ? 'كأس السوبر' : LABELS[slug] || arComp(name) || name || slug, official: slug === LEAGUE || isOfficialSlug(slug) || superCup };
 };
 // يكتشف بطولات كل نادٍ تلقائيًا من جدوله الشامل (all)، ثم يجلب جدول كل بطولة كاملًا
 async function season(year, full) {
@@ -149,38 +163,47 @@ cur.forEach((x) =>
   })
 );
 
-// 4) الموسم الماضي: أبطال آخر بطولات
-const prevSeason = await season(y - 1, false);
+// 4) المواسم الماضية بعد آخر موسم في titles.json (_asOf): أبطالها يُضافون تلقائياً دون أي تعديل يدوي
+let asOfYear = y - 2;
+try {
+  const tj = JSON.parse(readFileSync('titles.json', 'utf8'));
+  if (Number(tj._asOf)) asOfYear = Number(tj._asOf);
+} catch (e) {}
 const prev = [];
-const lastLeague = {};
-const pts = {};
-const played = {};
-prevSeason.forEach((x) =>
-  x.events.forEach((ev) => {
-    const comp = ev.competitions && ev.competitions[0];
-    if (!comp || !isDone(statusOf(ev))) return;
-    const me = (comp.competitors || []).find((c) => String((c.team && c.team.id) || c.id) === x.id);
-    const op = (comp.competitors || []).find((c) => c !== me);
-    if (!me || !op) return;
-    const when = new Date(ev.date).getTime();
-    if (x.c.key === 'league') {
-      lastLeague[x.id] = Math.max(lastLeague[x.id] || 0, when);
-      const a = scoreOf(me);
-      const b = scoreOf(op);
-      if (!Number.isNaN(a) && !Number.isNaN(b)) {
-        played[x.id] = (played[x.id] || 0) + 1;
-        pts[x.id] = (pts[x.id] || 0) + (a > b ? 3 : a === b ? 1 : 0);
+for (let py = Math.max(asOfYear + 1, y - 4); py <= y - 1; py++) {
+  const prevSeason = await season(py, false);
+  const lastLeague = {};
+  const pts = {};
+  const played = {};
+  prevSeason.forEach((x) =>
+    x.events.forEach((ev) => {
+      const comp = ev.competitions && ev.competitions[0];
+      if (!comp || !isDone(statusOf(ev))) return;
+      const me = (comp.competitors || []).find((c) => String((c.team && c.team.id) || c.id) === x.id);
+      const op = (comp.competitors || []).find((c) => c !== me);
+      if (!me || !op) return;
+      const when = new Date(ev.date).getTime();
+      if (x.c.key === 'league') {
+        lastLeague[x.id] = Math.max(lastLeague[x.id] || 0, when);
+        const a = scoreOf(me);
+        const b = scoreOf(op);
+        if (!Number.isNaN(a) && !Number.isNaN(b)) {
+          played[x.id] = (played[x.id] || 0) + 1;
+          pts[x.id] = (pts[x.id] || 0) + (a > b ? 3 : a === b ? 1 : 0);
+        }
+        return;
       }
-      return;
-    }
-    if (x.c.official && /^final$/i.test((ev.seasonType && ev.seasonType.name) || '') && wonBy(me, op)) {
-      prev.push({ id: x.id, label: x.c.label, when, opp: (op.team && op.team.displayName) || '', score: `${scoreOf(me)}-${scoreOf(op)}` });
-    }
-  })
-);
-const ranked = Object.keys(pts).filter((id) => played[id] >= 34).sort((a, b) => pts[b] - pts[a]);
-if (ranked.length && (ranked.length === 1 || pts[ranked[0]] > pts[ranked[1]]) && lastLeague[ranked[0]]) {
-  prev.push({ id: ranked[0], label: 'دوري روشن', when: lastLeague[ranked[0]], pts: pts[ranked[0]] });
+      if (x.c.official && /^final$/i.test((ev.seasonType && ev.seasonType.name) || '') && wonBy(me, op)) {
+        if (!prev.some((q) => q.id === x.id && q.label === x.c.label && Math.abs(q.when - when) < 10 * 86400e3)) {
+          prev.push({ id: x.id, label: x.c.label, when, opp: (op.team && op.team.displayName) || '', score: `${scoreOf(me)}-${scoreOf(op)}` });
+        }
+      }
+    })
+  );
+  const ranked = Object.keys(pts).filter((id) => played[id] >= 34).sort((a, b) => pts[b] - pts[a]);
+  if (ranked.length && (ranked.length === 1 || pts[ranked[0]] > pts[ranked[1]]) && lastLeague[ranked[0]]) {
+    prev.push({ id: ranked[0], label: 'دوري روشن', when: lastLeague[ranked[0]], pts: pts[ranked[0]] });
+  }
 }
 
 // آخر بطولة بين كل أندية روشن (الموسم الحالي والماضي) + صورة تتويج من Wikimedia Commons إن وُجدت
