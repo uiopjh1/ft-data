@@ -1,0 +1,351 @@
+{
+  "version": 1,
+  "scorers": {
+    "ksa.1@2011": [
+      {
+        "name": "Victor Simões",
+        "ar": "فيكتور سيمويس",
+        "team": "Al-Ahli",
+        "goals": 21
+      },
+      {
+        "name": "Nasser Al-Shamrani",
+        "ar": "ناصر الشمراني",
+        "team": "Al-Shabab",
+        "goals": 21
+      },
+      {
+        "name": "Amad Al-Hosni",
+        "ar": "عماد الحوسني",
+        "team": "Al-Ahli",
+        "goals": 15
+      },
+      {
+        "name": "Mohammad Al-Sahlawi",
+        "ar": "محمد السهلاوي",
+        "team": "Al-Nassr",
+        "goals": 15
+      },
+      {
+        "name": "Hadj Bouguèche",
+        "ar": "حاج بوقش",
+        "team": "القادسية / النصر",
+        "goals": 12
+      },
+      {
+        "name": "Youssef El-Arabi",
+        "ar": "يوسف العربي",
+        "team": "Al-Hilal",
+        "goals": 12
+      },
+      {
+        "name": "Bader Al-Kharashi",
+        "ar": "بدر الخراشي",
+        "team": "Al-Faisaly",
+        "goals": 12
+      },
+      {
+        "name": "Yousef Al-Salem",
+        "ar": "يوسف السالم",
+        "team": "Al-Ettifaq",
+        "goals": 11
+      },
+      {
+        "name": "Doris Fuakumputu",
+        "ar": "دوريس فواكومبوتو",
+        "team": "Al-Fateh",
+        "goals": 10
+      },
+      {
+        "name": "Sebastián Tagliabué",
+        "ar": "سيباستيان تاليابوي",
+        "team": "Al-Ettifaq",
+        "goals": 9
+      },
+      {
+        "name": "Wendel",
+        "ar": "وندل",
+        "team": "الاتحاد / الشباب",
+        "goals": 9
+      },
+      {
+        "name": "Hamdan Al-Hamdan",
+        "ar": "حمدان الحمدان",
+        "team": "Al-Fateh",
+        "goals": 9
+      },
+      {
+        "name": "Taisir Al-Jassim",
+        "ar": "تيسير الجاسم",
+        "team": "Al-Ahli",
+        "goals": 9
+      },
+      {
+        "name": "Jehad Al-Hussain",
+        "ar": "جهاد الحسين",
+        "team": "Najran",
+        "goals": 9
+      }
+    ],
+    "ksa.1@2012": [
+      {
+        "name": "Sebastián Tagliabué",
+        "ar": "سيباستيان تاليابوي",
+        "team": "Al-Shabab",
+        "goals": 19
+      },
+      {
+        "name": "Wesley",
+        "ar": "ويسلي",
+        "team": "Al-Hilal",
+        "goals": 17
+      },
+      {
+        "name": "Doris Fuakumputu",
+        "ar": "دوريس فواكومبوتو",
+        "team": "Al-Fateh",
+        "goals": 17
+      },
+      {
+        "name": "Yasser Al-Qahtani",
+        "ar": "ياسر القحطاني",
+        "team": "Al-Hilal",
+        "goals": 13
+      },
+      {
+        "name": "Victor Simões",
+        "ar": "فيكتور سيمويس",
+        "team": "Al-Ahli",
+        "goals": 12
+      },
+      {
+        "name": "Hassan Taïr",
+        "ar": "حسن تير",
+        "team": "Al-Shoulla",
+        "goals": 12
+      },
+      {
+        "name": "Élton Arábia",
+        "ar": "إلتون أرابيا",
+        "team": "Al-Fateh",
+        "goals": 11
+      },
+      {
+        "name": "Yves Diba Ilunga",
+        "ar": "إيف ديبا إيلونغا",
+        "team": "Al-Raed",
+        "goals": 10
+      },
+      {
+        "name": "Hamza Al-Dardour",
+        "ar": "حمزة الدردور",
+        "team": "Najran",
+        "goals": 10
+      },
+      {
+        "name": "Mohammad Al-Sahlawi",
+        "ar": "محمد السهلاوي",
+        "team": "Al-Nassr",
+        "goals": 10
+      },
+      {
+        "name": "Nasser Al-Shamrani",
+        "ar": "ناصر الشمراني",
+        "team": "Al-Shabab",
+        "goals": 10
+      },
+      {
+        "name": "Yoo Byung-soo",
+        "ar": "يو بيونغ سو",
+        "team": "Al-Hilal",
+        "goals": 10
+      }
+    ],
+    "ksa.1@2013": [
+      {
+        "name": "Nasser Al-Shamrani",
+        "ar": "ناصر الشمراني",
+        "team": "Al-Hilal",
+        "goals": 21
+      },
+      {
+        "name": "Mukhtar Fallatah",
+        "ar": "مختار فلاتة",
+        "team": "Al-Ittihad",
+        "goals": 20
+      },
+      {
+        "name": "Mohammad Al-Sahlawi",
+        "ar": "محمد السهلاوي",
+        "team": "Al-Nassr",
+        "goals": 17
+      },
+      {
+        "name": "Élton Brandão",
+        "ar": "إلتون",
+        "team": "Al-Nassr",
+        "goals": 16
+      },
+      {
+        "name": "Jandson",
+        "ar": "جاندسون",
+        "team": "Najran",
+        "goals": 14
+      },
+      {
+        "name": "Thiago Neves",
+        "ar": "تياغو نيفيس",
+        "team": "Al-Hilal",
+        "goals": 13
+      },
+      {
+        "name": "Paul Alo'o",
+        "ar": "بول ألو",
+        "team": "Al-Taawoun",
+        "goals": 12
+      },
+      {
+        "name": "Doris Fuakumputu",
+        "ar": "دوريس فواكومبوتو",
+        "team": "Al-Fateh",
+        "goals": 11
+      },
+      {
+        "name": "Hassan Taïr",
+        "ar": "حسن تير",
+        "team": "Al-Shoulla",
+        "goals": 10
+      },
+      {
+        "name": "Élton Arábia",
+        "ar": "إلتون أرابيا",
+        "team": "Al-Fateh",
+        "goals": 9
+      }
+    ],
+    "ksa.1@2014": [
+      {
+        "name": "Omar Al Somah",
+        "ar": "عمر السومة",
+        "team": "Al-Ahli",
+        "goals": 22
+      },
+      {
+        "name": "Mohammad Al-Sahlawi",
+        "ar": "محمد السهلاوي",
+        "team": "Al-Nassr",
+        "goals": 21
+      },
+      {
+        "name": "Paul Alo'o",
+        "ar": "بول ألو",
+        "team": "Al-Taawoun",
+        "goals": 15
+      },
+      {
+        "name": "Naif Hazazi",
+        "ar": "نايف هزازي",
+        "team": "Al-Shabab",
+        "goals": 14
+      },
+      {
+        "name": "Jandson",
+        "ar": "جاندسون",
+        "team": "Najran",
+        "goals": 13
+      },
+      {
+        "name": "Nasser Al-Shamrani",
+        "ar": "ناصر الشمراني",
+        "team": "Al-Hilal",
+        "goals": 13
+      },
+      {
+        "name": "Élton Arábia",
+        "ar": "إلتون أرابيا",
+        "team": "Al-Fateh",
+        "goals": 10
+      },
+      {
+        "name": "Thiago Neves",
+        "ar": "تياغو نيفيس",
+        "team": "Al-Hilal",
+        "goals": 10
+      },
+      {
+        "name": "Doris Fuakumputu",
+        "ar": "دوريس فواكومبوتو",
+        "team": "Al-Fateh",
+        "goals": 10
+      },
+      {
+        "name": "Hassan Taïr",
+        "ar": "حسن تير",
+        "team": "Al-Raed",
+        "goals": 10
+      }
+    ],
+    "ksa.1@2015": [
+      {
+        "name": "Omar Al Somah",
+        "ar": "عمر السومة",
+        "team": "Al-Ahli",
+        "goals": 27
+      },
+      {
+        "name": "Gelmin Rivas",
+        "ar": "جيلمين ريفاس",
+        "team": "Al-Ittihad",
+        "goals": 19
+      },
+      {
+        "name": "Carlos Eduardo",
+        "ar": "كارلوس إدواردو",
+        "team": "Al-Hilal",
+        "goals": 14
+      },
+      {
+        "name": "Abdulmajeed Al-Ruwaili",
+        "ar": "عبدالمجيد الرويلي",
+        "team": "Al-Taawoun",
+        "goals": 13
+      },
+      {
+        "name": "Élton Arábia",
+        "ar": "إلتون أرابيا",
+        "team": "Al-Fateh",
+        "goals": 12
+      },
+      {
+        "name": "Ali Awaji",
+        "ar": "علي عواجي",
+        "team": "Al-Wehda",
+        "goals": 11
+      },
+      {
+        "name": "Paul Alo'o",
+        "ar": "بول ألو",
+        "team": "Al-Taawoun",
+        "goals": 10
+      },
+      {
+        "name": "Adrian Mierzejewski",
+        "ar": "أدريان ميرزيفيسكي",
+        "team": "Al-Nassr",
+        "goals": 10
+      },
+      {
+        "name": "Javi Balboa",
+        "ar": "خافي بالبوا",
+        "team": "Al-Faisaly",
+        "goals": 8
+      },
+      {
+        "name": "Hamad Al-Juhaim",
+        "ar": "حمد الجهيم",
+        "team": "Al-Fateh",
+        "goals": 8
+      }
+    ]
+  }
+}
