@@ -3,7 +3,39 @@
   "Al Hilal": {
     "name": "نواف بن سعد",
     "en": "Nawaf bin Saad",
-    "since": 2025
+    "since": 2025,
+    "titles": [
+      {
+        "name": "كأس الملك",
+        "detail": "2026",
+        "slug": "ksa.kings.cup"
+      }
+    ],
+    "prev": {
+      "years": "2015 - 2018",
+      "count": 5,
+      "titles": [
+        {
+          "name": "الدوري",
+          "detail": "مرتان · 2017، 2018",
+          "slug": "ksa.1"
+        },
+        {
+          "name": "كأس الملك",
+          "detail": "2017",
+          "slug": "ksa.kings.cup"
+        },
+        {
+          "name": "كأس ولي العهد",
+          "detail": "2016"
+        },
+        {
+          "name": "كأس السوبر",
+          "detail": "2015",
+          "slug": "ksa.super_cup"
+        }
+      ]
+    }
   },
   "Al Nassr": {
     "name": "أحمد السلطان",
