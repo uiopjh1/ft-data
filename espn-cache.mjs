@@ -71,5 +71,19 @@ for (const slug of ['ksa.super_cup', 'eng.league_cup', 'ita.coppa_italia', 'ger.
   } catch (e) {}
   await sleep(250);
 }
+// البطولات السعودية بلا شعار في ESPN: نأخذ الشعار من Sofascore بعد مطابقة الاسم والدولة (وليس تخميناً)
+const DEBUG = {};
+for (const [slug, q, re] of [['ksa.kings.cup', 'Saudi King Cup', /king/i], ['ksa.super_cup', 'Saudi Super Cup', /super/i], ['ksa.crown.prince.cup', 'Saudi Crown Prince Cup', /crown/i]]) {
+  try {
+    const res = await fetch(`https://api.sofascore.com/api/v1/search/all?q=${encodeURIComponent(q)}&page=0`, { headers: { 'user-agent': 'Mozilla/5.0' } });
+    const j = await res.json();
+    const hits = (j.results || []).filter((r) => r.type === 'uniqueTournament' && r.entity).map((r) => r.entity);
+    DEBUG[slug] = hits.map((h) => ({ id: h.id, name: h.name, country: h.category && h.category.name }));
+    const hit = hits.find((h) => h.category && /saudi/i.test(h.category.name) && re.test(h.name));
+    if (hit && !LOGOS[slug]) LOGOS[slug] = `https://api.sofascore.app/api/v1/unique-tournament/${hit.id}/image`;
+  } catch (e) { DEBUG[slug] = String(e.message || e); }
+  await sleep(300);
+}
+writeFileSync('out/logos-debug.json', JSON.stringify(DEBUG, null, 1));
 writeFileSync('out/logos.json', JSON.stringify(LOGOS));
 console.log('logos', Object.keys(LOGOS).length);
