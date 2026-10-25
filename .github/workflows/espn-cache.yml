@@ -1,0 +1,24 @@
+name: espn-cache
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: espn-cache
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node espn-cache.mjs
+      - run: |
+          git config user.name "ft-bot"
+          git config user.email "ft-bot@users.noreply.github.com"
+          git add espn
+          git diff --cached --quiet || (git commit -m "update espn cache" && git pull --rebase -q && git push)
