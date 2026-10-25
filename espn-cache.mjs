@@ -25,3 +25,31 @@ for (const slug of SLUGS) {
   await sleep(1500);
 }
 console.log('ok', ok, 'bad', bad);
+
+// ---- مباريات الأيام (scoreboard) تُنشر على فرع espn-data (يُستبدل كل مرة، فلا يتضخم تاريخ المستودع) ----
+const BOARD = ['ksa.1','eng.1','esp.1','ita.1','ger.1','fra.1','uefa.champions','uefa.europa','uefa.europa.conf','afc.champions','afc.cup','ksa.kings.cup','fifa.cwc','fifa.intercontinental_cup','eng.fa','esp.copa_del_rey','fifa.world','fifa.worldq.afc','fifa.worldq.uefa','afc.asian.cup','caf.nations','fifa.friendly'];
+const riyadh = new Date(Date.now() + 3 * 3600000);
+const keyFor = (off) => {
+  const d = new Date(riyadh.getTime() + off * 86400000);
+  return `${d.getUTCFullYear()}${String(d.getUTCMonth() + 1).padStart(2, '0')}${String(d.getUTCDate()).padStart(2, '0')}`;
+};
+mkdirSync('out/scoreboard', { recursive: true });
+let bOk = 0, bBad = 0;
+for (const slug of BOARD) {
+  const days = {};
+  for (let off = -3; off <= 8; off++) {
+    const k = keyFor(off);
+    try {
+      const res = await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/${slug}/scoreboard?dates=${k}`, { headers: { 'user-agent': 'Mozilla/5.0' } });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const j = await res.json();
+      days[k] = j.events || [];
+      bOk++;
+    } catch (e) {
+      bBad++;
+    }
+    await sleep(250);
+  }
+  if (Object.keys(days).length) writeFileSync(`out/scoreboard/${slug}.json`, JSON.stringify({ _ts: Date.now(), days }));
+}
+console.log('board ok', bOk, 'bad', bBad);
