@@ -198,5 +198,20 @@
     "name": "إنريكي سيريزو",
     "en": "Enrique Cerezo",
     "since": 2003
+  },
+  "Inter Milan": {
+    "name": "جوزيبي ماروتا",
+    "en": "Beppe Marotta",
+    "since": 2024
+  },
+  "Juventus": {
+    "name": "جيانلوكا فيريرو",
+    "en": "Gianluca Ferrero",
+    "since": 2022
+  },
+  "Borussia Dortmund": {
+    "name": "هانس-يواخيم فاتسكه",
+    "en": "Hans-Joachim Watzke",
+    "since": 2025
   }
 }
