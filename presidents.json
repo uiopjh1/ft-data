@@ -192,7 +192,8 @@
   },
   "Paris Saint-Germain": {
     "name": "ناصر الخليفي",
-    "en": "Nasser Al-Khelaifi"
+    "en": "Nasser Al-Khelaifi",
+    "since": 2011
   },
   "Atletico Madrid": {
     "name": "إنريكي سيريزو",
@@ -207,11 +208,52 @@
   "Juventus": {
     "name": "جيانلوكا فيريرو",
     "en": "Gianluca Ferrero",
-    "since": 2022
+    "since": 2023
   },
   "Borussia Dortmund": {
     "name": "هانس-يواخيم فاتسكه",
     "en": "Hans-Joachim Watzke",
     "since": 2025
+  },
+  "Liverpool": {
+    "name": "توم ويرنر",
+    "en": "Tom Werner",
+    "since": 2010,
+    "titlesTotal": 10,
+    "titles": [
+      {
+        "name": "الدوري الإنجليزي الممتاز",
+        "detail": "مرتان · 2020، 2025",
+        "slug": "eng.1"
+      },
+      {
+        "name": "كأس الرابطة",
+        "detail": "3 مرات · 2012، 2022، 2024",
+        "slug": "eng.league_cup"
+      },
+      {
+        "name": "كأس الاتحاد الإنجليزي",
+        "detail": "2022",
+        "slug": "eng.fa"
+      },
+      {
+        "name": "درع المجتمع",
+        "detail": "2022"
+      },
+      {
+        "name": "دوري أبطال أوروبا",
+        "detail": "2019",
+        "slug": "uefa.champions"
+      },
+      {
+        "name": "كأس السوبر الأوروبي",
+        "detail": "2019"
+      },
+      {
+        "name": "كأس العالم للأندية",
+        "detail": "2019",
+        "slug": "fifa.cwc"
+      }
+    ]
   }
 }
