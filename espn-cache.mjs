@@ -34,6 +34,14 @@ const keyFor = (off) => {
   return `${d.getUTCFullYear()}${String(d.getUTCMonth() + 1).padStart(2, '0')}${String(d.getUTCDate()).padStart(2, '0')}`;
 };
 mkdirSync('out/scoreboard', { recursive: true });
+const LOGOS = {};
+const pickLogo = (slug, j) => {
+  if (LOGOS[slug]) return;
+  const lg = (j.leagues || [])[0];
+  const arr = (lg && lg.logos) || [];
+  const l = arr.find((x) => (x.rel || []).includes('default') && !(x.rel || []).includes('dark')) || arr[0];
+  if (l && l.href) LOGOS[slug] = l.href;
+};
 let bOk = 0, bBad = 0;
 for (const slug of BOARD) {
   const days = {};
@@ -44,6 +52,7 @@ for (const slug of BOARD) {
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const j = await res.json();
       days[k] = j.events || [];
+      pickLogo(slug, j);
       bOk++;
     } catch (e) {
       bBad++;
@@ -53,3 +62,14 @@ for (const slug of BOARD) {
   if (Object.keys(days).length) writeFileSync(`out/scoreboard/${slug}.json`, JSON.stringify({ _ts: Date.now(), days }));
 }
 console.log('board ok', bOk, 'bad', bBad);
+
+// شعارات بطولات إضافية (للبطاقات) من ESPN نفسه
+for (const slug of ['ksa.super_cup', 'eng.league_cup', 'ita.coppa_italia', 'ger.dfb_pokal', 'fra.coupe_de_france', 'ksa.crown.prince.cup']) {
+  try {
+    const res = await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/${slug}/scoreboard`, { headers: { 'user-agent': 'Mozilla/5.0' } });
+    if (res.ok) pickLogo(slug, await res.json());
+  } catch (e) {}
+  await sleep(250);
+}
+writeFileSync('out/logos.json', JSON.stringify(LOGOS));
+console.log('logos', Object.keys(LOGOS).length);
