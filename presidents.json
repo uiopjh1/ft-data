@@ -3,38 +3,7 @@
   "Al Hilal": {
     "name": "نواف بن سعد",
     "en": "Nawaf bin Saad",
-    "since": 2025,
-    "titles": [
-      {
-        "name": "كأس الملك",
-        "detail": "موسم 2025-26 · النهائي 8 مايو 2026",
-        "slug": "ksa.kings.cup"
-      }
-    ],
-    "note": "الفترة الحالية حتى نهاية موسم 2025-26. المصادر: ويكيبيديا، الشرق الأوسط، العربية، اليوم.",
-    "prev": {
-      "years": "2015 - 2018",
-      "count": 5,
-      "titles": [
-        {
-          "name": "الدوري",
-          "detail": "مرتين",
-          "slug": "ksa.1"
-        },
-        {
-          "name": "كأس الملك",
-          "slug": "ksa.kings.cup"
-        },
-        {
-          "name": "كأس ولي العهد",
-          "slug": ""
-        },
-        {
-          "name": "كأس السوبر",
-          "slug": "ksa.super_cup"
-        }
-      ]
-    }
+    "since": 2025
   },
   "Al Nassr": {
     "name": "أحمد السلطان",
@@ -191,8 +160,7 @@
   },
   "Paris Saint-Germain": {
     "name": "ناصر الخليفي",
-    "en": "Nasser Al-Khelaifi",
-    "since": 2011
+    "en": "Nasser Al-Khelaifi"
   },
   "Atletico Madrid": {
     "name": "إنريكي سيريزو",
