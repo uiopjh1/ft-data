@@ -183,5 +183,20 @@
         "slug": "fifa.cwc"
       }
     ]
+  },
+  "Real Madrid": {
+    "name": "فلورنتينو بيريز",
+    "en": "Florentino Pérez",
+    "since": 2009
+  },
+  "Paris Saint-Germain": {
+    "name": "ناصر الخليفي",
+    "en": "Nasser Al-Khelaifi",
+    "since": 2011
+  },
+  "Atletico Madrid": {
+    "name": "إنريكي سيريزو",
+    "en": "Enrique Cerezo",
+    "since": 2003
   }
 }
