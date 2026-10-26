@@ -1500,5 +1500,23 @@
     "en": "Martín Peláez",
     "since": 2022,
     "noTitles": true
+  },
+  "Fulham": {
+    "name": "شهيد خان",
+    "en": "Shahid Khan",
+    "since": 2013,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الإنجليزية",
+        "detail": "2022"
+      }
+    ]
+  },
+  "Sunderland": {
+    "name": "كيريل لويس-دريفوس",
+    "en": "Kyril Louis-Dreyfus",
+    "since": 2021,
+    "noTitles": true
   }
 }
