@@ -908,5 +908,63 @@
   "West Ham United": {
     "name": "لم يُعلن رئيس جديد بعد (استقال ديفيد سوليفان في يونيو 2026)",
     "en": ""
+  },
+  "Eintracht Frankfurt": {
+    "name": "ماتياس بيك",
+    "en": "Mathias Beck",
+    "since": 2024,
+    "noTitles": true
+  },
+  "VfB Stuttgart": {
+    "name": "ديتمار ألغايير",
+    "en": "Dietmar Allgaier",
+    "since": 2024,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "كأس ألمانيا",
+        "detail": "2025",
+        "slug": "ger.dfb_pokal"
+      }
+    ]
+  },
+  "Stuttgart": {
+    "name": "ديتمار ألغايير",
+    "en": "Dietmar Allgaier",
+    "since": 2024,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "كأس ألمانيا",
+        "detail": "2025",
+        "slug": "ger.dfb_pokal"
+      }
+    ]
+  },
+  "RC Lens": {
+    "name": "جوزيف أوغورليان",
+    "en": "Joseph Oughourlian",
+    "since": 2018,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "كأس فرنسا",
+        "detail": "2026",
+        "slug": "fra.coupe_de_france"
+      }
+    ]
+  },
+  "Lens": {
+    "name": "جوزيف أوغورليان",
+    "en": "Joseph Oughourlian",
+    "since": 2018,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "كأس فرنسا",
+        "detail": "2026",
+        "slug": "fra.coupe_de_france"
+      }
+    ]
   }
 }
