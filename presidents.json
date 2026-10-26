@@ -34,7 +34,8 @@
           "detail": "2015",
           "slug": "ksa.super_cup"
         }
-      ]
+      ],
+      "club": "الهلال"
     },
     "image": "https://cdn.eremnews.com/media/550b4e1d-9157-47c7-9130-5e00bf82b05d"
   },
@@ -112,7 +113,8 @@
           "detail": "2009",
           "slug": "fifa.cwc"
         }
-      ]
+      ],
+      "club": "برشلونة"
     }
   },
   "Manchester City": {
