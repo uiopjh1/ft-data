@@ -41,19 +41,22 @@
     "name": "أحمد السلطان",
     "en": "Ahmed Al-Sultan",
     "since": 2026,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://cdn.eremnews.com/media/ad3cf4f7-bba5-489e-b0e8-dcb4bcc20bf8_v3"
   },
   "Al Ahli": {
     "name": "عبدالله الصبان",
     "en": "Abdullah Al-Sabban",
     "since": 2026,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://cdn.eremnews.com/media/51985132-5150-4ff5-b6c8-4f89ea5f4916_v3"
   },
   "Al Ittihad": {
     "name": "رضا بترجي",
     "en": "Reda Batarji",
     "since": 2026,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://cdn.eremnews.com/media/b062fed8-fe4d-4e41-9fd1-c887f924f8de_v3"
   },
   "Barcelona": {
     "name": "خوان لابورتا",
@@ -401,13 +404,15 @@
     "name": "رامي التركي (رئيس مكلّف)",
     "en": "Rami Al-Turki",
     "since": 2026,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://www.okaz.com.sa/okaz/uploads/images/2026/07/12/2735955.webp"
   },
   "Al Qadisiyah": {
     "name": "رامي التركي (رئيس مكلّف)",
     "en": "Rami Al-Turki",
     "since": 2026,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://www.okaz.com.sa/okaz/uploads/images/2026/07/12/2735955.webp"
   },
   "Al Okhdood": {
     "name": "سامي آل فاضل",
