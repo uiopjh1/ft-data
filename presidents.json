@@ -1452,5 +1452,17 @@
     "en": "Henrik Köncke",
     "since": 2025,
     "noTitles": true
+  },
+  "Levante": {
+    "name": "بابلو سانشيز",
+    "en": "Pablo Sánchez",
+    "since": 2023,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الإسبانية",
+        "detail": "2025"
+      }
+    ]
   }
 }
