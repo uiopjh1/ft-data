@@ -1631,5 +1631,22 @@
         "slug": "uefa.europa.conf"
       }
     ]
+  },
+  "Pisa": {
+    "name": "داميان كومولي",
+    "en": "Damien Comolli",
+    "since": 2026,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "كأس فرنسا",
+        "detail": "2023 (مع تولوز)",
+        "slug": "fra.coupe_de_france"
+      },
+      {
+        "name": "الدرجة الثانية الفرنسية",
+        "detail": "2022 (مع تولوز)"
+      }
+    ]
   }
 }
