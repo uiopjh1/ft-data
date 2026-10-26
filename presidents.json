@@ -825,5 +825,43 @@
         "detail": "2011"
       }
     ]
+  },
+  "Athletic Club": {
+    "name": "جون أوريارتي",
+    "en": "Jon Uriarte",
+    "since": 2022,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "كأس ملك إسبانيا",
+        "detail": "2024",
+        "slug": "esp.copa_del_rey"
+      }
+    ]
+  },
+  "Real Betis": {
+    "name": "أنخل هارو",
+    "en": "Angel Haro",
+    "since": 2016,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "كأس ملك إسبانيا",
+        "detail": "2022",
+        "slug": "esp.copa_del_rey"
+      }
+    ]
+  },
+  "Valencia": {
+    "name": "لاي هون تشان",
+    "en": "Layhoon Chan",
+    "since": 2022,
+    "noTitles": true
+  },
+  "Fiorentina": {
+    "name": "جوزيبي كوميسو",
+    "en": "Giuseppe Commisso",
+    "since": 2026,
+    "noTitles": true
   }
 }
