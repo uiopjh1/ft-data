@@ -196,27 +196,111 @@
   "Paris Saint-Germain": {
     "name": "ناصر الخليفي",
     "en": "Nasser Al-Khelaifi",
-    "since": 2011
+    "since": 2011,
+    "titlesTotal": 43,
+    "titles": [
+      {
+        "name": "الدوري الفرنسي",
+        "detail": "12 · 2013، 2014، 2015، 2016، 2018، 2019، 2020، 2022، 2023، 2024، 2025، 2026",
+        "slug": "fra.1"
+      },
+      {
+        "name": "كأس فرنسا",
+        "detail": "8 · 2015، 2016، 2017، 2018، 2020، 2021، 2024، 2025",
+        "slug": "fra.coupe_de_france"
+      },
+      {
+        "name": "كأس الرابطة الفرنسية",
+        "detail": "6 · 2014، 2015، 2016، 2017، 2018، 2020"
+      },
+      {
+        "name": "كأس السوبر الفرنسي",
+        "detail": "12 · 2013، 2014، 2015، 2016، 2017، 2018، 2019، 2020، 2022، 2023، 2024، 2025"
+      },
+      {
+        "name": "دوري أبطال أوروبا",
+        "detail": "2025، 2026",
+        "slug": "uefa.champions"
+      },
+      {
+        "name": "كأس السوبر الأوروبي",
+        "detail": "2025، 2026",
+        "slug": "uefa.super_cup"
+      },
+      {
+        "name": "كأس إنتركونتيننتال",
+        "detail": "2025"
+      }
+    ]
   },
   "Atletico Madrid": {
     "name": "إنريكي سيريزو",
     "en": "Enrique Cerezo",
-    "since": 2003
+    "since": 2003,
+    "titlesTotal": 10,
+    "titles": [
+      {
+        "name": "الدوري الإسباني",
+        "detail": "2014، 2021",
+        "slug": "esp.1"
+      },
+      {
+        "name": "كأس ملك إسبانيا",
+        "detail": "2013",
+        "slug": "esp.copa_del_rey"
+      },
+      {
+        "name": "السوبر الإسباني",
+        "detail": "2014"
+      },
+      {
+        "name": "الدوري الأوروبي",
+        "detail": "2010، 2012، 2018",
+        "slug": "uefa.europa"
+      },
+      {
+        "name": "كأس السوبر الأوروبي",
+        "detail": "2010، 2012، 2018",
+        "slug": "uefa.super_cup"
+      }
+    ]
   },
   "Inter Milan": {
     "name": "جوزيبي ماروتا",
     "en": "Beppe Marotta",
-    "since": 2024
+    "since": 2024,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "الدوري الإيطالي",
+        "detail": "2026",
+        "slug": "ita.1"
+      },
+      {
+        "name": "كأس إيطاليا",
+        "detail": "2026",
+        "slug": "ita.coppa_italia"
+      }
+    ]
   },
   "Juventus": {
     "name": "جيانلوكا فيريرو",
     "en": "Gianluca Ferrero",
-    "since": 2023
+    "since": 2023,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "كأس إيطاليا",
+        "detail": "2024",
+        "slug": "ita.coppa_italia"
+      }
+    ]
   },
   "Borussia Dortmund": {
     "name": "هانس-يواخيم فاتسكه",
     "en": "Hans-Joachim Watzke",
-    "since": 2025
+    "since": 2025,
+    "noTitles": true
   },
   "Liverpool": {
     "name": "توم ويرنر",
