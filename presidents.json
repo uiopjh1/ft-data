@@ -344,5 +344,33 @@
     "name": "عبدالعزيز المالك (رئيس مكلّف)",
     "en": "Abdulaziz Al-Malik",
     "since": 2025
+  },
+  "Al Riyadh": {
+    "name": "بندر المقيل",
+    "en": "Bandar Al-Muqayyal"
+  },
+  "Al-Riyadh": {
+    "name": "بندر المقيل",
+    "en": "Bandar Al-Muqayyal"
+  },
+  "Al Hazem": {
+    "name": "طلال الحربي",
+    "en": "Talal Al-Harbi",
+    "since": 2025
+  },
+  "Al-Hazem": {
+    "name": "طلال الحربي",
+    "en": "Talal Al-Harbi",
+    "since": 2025
+  },
+  "Al Hazm": {
+    "name": "طلال الحربي",
+    "en": "Talal Al-Harbi",
+    "since": 2025
+  },
+  "Al-Hazm": {
+    "name": "طلال الحربي",
+    "en": "Talal Al-Harbi",
+    "since": 2025
   }
 }
