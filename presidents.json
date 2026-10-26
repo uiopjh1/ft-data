@@ -1354,5 +1354,17 @@
     "en": "Dan Sucu",
     "since": 2025,
     "noTitles": true
+  },
+  "Udinese": {
+    "name": "فرانكو سولداتي",
+    "en": "Franco Soldati",
+    "since": 1999,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "كأس إنترتوتو الأوروبية",
+        "detail": "2000"
+      }
+    ]
   }
 }
