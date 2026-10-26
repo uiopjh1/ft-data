@@ -426,5 +426,22 @@
     "en": "Abdulmajeed Al-Omaim",
     "since": 2023,
     "noTitles": true
+  },
+  "Arsenal": {
+    "name": "ستان وجوش كرونكي (رئيسان مشاركان)",
+    "en": ""
+  },
+  "Manchester United": {
+    "name": "أفرام وجويل غليزر (رئيسان تنفيذيان مشاركان)",
+    "en": ""
+  },
+  "AC Milan": {
+    "name": "باولو سكاروني",
+    "en": "Paolo Scaroni",
+    "since": 2018
+  },
+  "Chelsea": {
+    "name": "لم يُعلن الرئيس الجديد بعد (ترك تود بوهلي المنصب في سبتمبر 2026)",
+    "en": ""
   }
 }
