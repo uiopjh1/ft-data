@@ -191,7 +191,43 @@
   "Real Madrid": {
     "name": "فلورنتينو بيريز",
     "en": "Florentino Pérez",
-    "since": 2009
+    "since": 2009,
+    "titlesTotal": 30,
+    "titles": [
+      {
+        "name": "دوري أبطال أوروبا",
+        "detail": "6 · 2014، 2016، 2017، 2018، 2022، 2024",
+        "slug": "uefa.champions"
+      },
+      {
+        "name": "الدوري الإسباني",
+        "detail": "5",
+        "slug": "esp.1"
+      },
+      {
+        "name": "كأس ملك إسبانيا",
+        "detail": "3",
+        "slug": "esp.copa_del_rey"
+      },
+      {
+        "name": "السوبر الإسباني",
+        "detail": "5"
+      },
+      {
+        "name": "كأس السوبر الأوروبي",
+        "detail": "5",
+        "slug": "uefa.super_cup"
+      },
+      {
+        "name": "كأس العالم للأندية",
+        "detail": "5",
+        "slug": "fifa.cwc"
+      },
+      {
+        "name": "كأس إنتركونتيننتال",
+        "detail": "2024"
+      }
+    ]
   },
   "Paris Saint-Germain": {
     "name": "ناصر الخليفي",
@@ -522,7 +558,19 @@
   "AC Milan": {
     "name": "باولو سكاروني",
     "en": "Paolo Scaroni",
-    "since": 2018
+    "since": 2018,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "الدوري الإيطالي",
+        "detail": "2022",
+        "slug": "ita.1"
+      },
+      {
+        "name": "السوبر الإيطالي",
+        "detail": "2025"
+      }
+    ]
   },
   "Chelsea": {
     "name": "لم يُعلن الرئيس الجديد بعد (ترك تود بوهلي المنصب في سبتمبر 2026)",
