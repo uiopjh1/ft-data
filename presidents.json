@@ -1296,5 +1296,29 @@
     "en": "Olivier Cloarec",
     "since": 2025,
     "noTitles": true
+  },
+  "Lorient": {
+    "name": "لويك فيري",
+    "en": "Loïc Féry",
+    "since": 2009,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الفرنسية",
+        "detail": "2020، 2025"
+      }
+    ]
+  },
+  "FC Lorient": {
+    "name": "لويك فيري",
+    "en": "Loïc Féry",
+    "since": 2009,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الفرنسية",
+        "detail": "2020، 2025"
+      }
+    ]
   }
 }
