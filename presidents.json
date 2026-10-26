@@ -1320,5 +1320,39 @@
         "detail": "2020، 2025"
       }
     ]
+  },
+  "Cagliari": {
+    "name": "توماسو جوليني",
+    "en": "Tommaso Giulini",
+    "since": 2014,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الإيطالية",
+        "detail": "2016"
+      }
+    ]
+  },
+  "Lecce": {
+    "name": "سافيريو ستيكي داميانّي",
+    "en": "Saverio Sticchi Damiani",
+    "since": 2017,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الإيطالية",
+        "detail": "2022"
+      },
+      {
+        "name": "الدرجة الثالثة الإيطالية",
+        "detail": "2018"
+      }
+    ]
+  },
+  "Genoa": {
+    "name": "دان شوكو",
+    "en": "Dan Sucu",
+    "since": 2025,
+    "noTitles": true
   }
 }
