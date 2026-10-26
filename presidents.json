@@ -706,13 +706,15 @@
     "name": "ستيفان ريتشارد",
     "en": "Stephane Richard",
     "since": 2026,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://madeinmarseille.net/actualites-marseille/stephane-richard-om.jpg"
   },
   "Olympique Marseille": {
     "name": "ستيفان ريتشارد",
     "en": "Stephane Richard",
     "since": 2026,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://madeinmarseille.net/actualites-marseille/stephane-richard-om.jpg"
   },
   "FC Porto": {
     "name": "أندريه فياش بواش",
@@ -859,13 +861,15 @@
         "detail": "2022",
         "slug": "esp.copa_del_rey"
       }
-    ]
+    ],
+    "image": "https://static.futbolfantasy.com/uploads/images/fotos_noticias1920/20260902202709-AngelHaro.png"
   },
   "Valencia": {
     "name": "لاي هون تشان",
     "en": "Layhoon Chan",
     "since": 2022,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://d31u1w5651ly23.cloudfront.net/articulos/articulos-6194.jpg"
   },
   "Fiorentina": {
     "name": "جوزيبي كوميسو",
@@ -927,7 +931,8 @@
     "name": "ماتياس بيك",
     "en": "Mathias Beck",
     "since": 2024,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://www.hessenschau.de/sport/fussball/eintracht-frankfurt/beck-140~_t-1792487053853_v-16to9__medium.jpg"
   },
   "VfB Stuttgart": {
     "name": "ديتمار ألغايير",
@@ -940,7 +945,8 @@
         "detail": "2025",
         "slug": "ger.dfb_pokal"
       }
-    ]
+    ],
+    "image": "https://cdn.schwaebische.de/2025/03/22/c0b8a731-444d-4e19-8bdf-1806fa034233.jpeg?w=1028&auto=compress%2Cformat&fit=scale-down"
   },
   "Stuttgart": {
     "name": "ديتمار ألغايير",
@@ -953,7 +959,8 @@
         "detail": "2025",
         "slug": "ger.dfb_pokal"
       }
-    ]
+    ],
+    "image": "https://cdn.schwaebische.de/2025/03/22/c0b8a731-444d-4e19-8bdf-1806fa034233.jpeg?w=1028&auto=compress%2Cformat&fit=scale-down"
   },
   "RC Lens": {
     "name": "جوزيف أوغورليان",
@@ -996,7 +1003,8 @@
         "name": "كأس السوبر الفرنسي",
         "detail": "2021"
       }
-    ]
+    ],
+    "image": "https://assets.goal.com/images/v3/blt739d0c92702d1ffd/971f473c95c338a9889aa7c2a6b9275ebdf71a34.jpg"
   },
   "LOSC Lille": {
     "name": "أوليفييه ليتانغ",
@@ -1013,7 +1021,8 @@
         "name": "كأس السوبر الفرنسي",
         "detail": "2021"
       }
-    ]
+    ],
+    "image": "https://assets.goal.com/images/v3/blt739d0c92702d1ffd/971f473c95c338a9889aa7c2a6b9275ebdf71a34.jpg"
   },
   "AS Monaco": {
     "name": "ديمتري ريبولوفليف",
@@ -1088,19 +1097,22 @@
         "name": "السوبر الكتالوني",
         "detail": "2019"
       }
-    ]
+    ],
+    "image": "https://assets.goal.com/images/v3/bltbf8746c7843572f2/01a2.png"
   },
   "Borussia Monchengladbach": {
     "name": "راينر بونهوف",
     "en": "Rainer Bonhof",
     "since": 2024,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_7824,h_4401/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/german_site_de_international_web/01hsbx51hnh2ax1scgxp.jpg"
   },
   "Borussia Mönchengladbach": {
     "name": "راينر بونهوف",
     "en": "Rainer Bonhof",
     "since": 2024,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_7824,h_4401/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/german_site_de_international_web/01hsbx51hnh2ax1scgxp.jpg"
   },
   "Getafe": {
     "name": "أنخل توريس",
@@ -1124,7 +1136,8 @@
         "name": "الدرجة الثانية الإسبانية",
         "detail": "2019"
       }
-    ]
+    ],
+    "image": "https://www.osasuna.es/public/Image/2025/7/fotosfutbolbaseosasuna2023-2024_jpu_8964_jpg_Vertical.webp"
   },
   "Rayo Vallecano": {
     "name": "راؤول مارتن بريسا",
@@ -1136,7 +1149,8 @@
         "name": "الدرجة الثانية الإسبانية",
         "detail": "2018"
       }
-    ]
+    ],
+    "image": "https://www.football-espana.net/wp-content/uploads/2025/08/Presa.jpeg"
   },
   "Alaves": {
     "name": "ألفونسو فرنانديز دي تروكونيث",
@@ -1340,7 +1354,8 @@
         "name": "الدرجة الثانية الإيطالية",
         "detail": "2016"
       }
-    ]
+    ],
+    "image": "https://cagliaricalcio.com/wp-content/uploads/2024/06/VSPA9922-giulini-1-scaled-e1718795361380.jpg"
   },
   "Lecce": {
     "name": "سافيريو ستيكي داميانّي",
@@ -1356,7 +1371,8 @@
         "name": "الدرجة الثالثة الإيطالية",
         "detail": "2018"
       }
-    ]
+    ],
+    "image": "https://assets.calciomercato.com/images/v3/cm_229525/sticchi.damiani.lecce.2023.24.perplesso.jpg"
   },
   "Genoa": {
     "name": "دان شوكو",
@@ -1387,7 +1403,8 @@
         "detail": "2024",
         "slug": "ger.2"
       }
-    ]
+    ],
+    "image": "https://reshape.sport1.de/c/t/52b2e297-df0b-4d1d-b8f5-ba668048e634/1290x726"
   },
   "FC St. Pauli": {
     "name": "أوكه غوتليش",
@@ -1400,7 +1417,8 @@
         "detail": "2024",
         "slug": "ger.2"
       }
-    ]
+    ],
+    "image": "https://reshape.sport1.de/c/t/52b2e297-df0b-4d1d-b8f5-ba668048e634/1290x726"
   },
   "Mainz": {
     "name": "شتيفان هوفمان",
@@ -1666,13 +1684,15 @@
     "name": "إيتالو زانزي",
     "en": "Italo Zanzi",
     "since": 2025,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://www.calcioefinanza.it/wp-content/uploads/2024/12/Roma-Fiorentina-ASTA3981.webp"
   },
   "Verona": {
     "name": "إيتالو زانزي",
     "en": "Italo Zanzi",
     "since": 2025,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://www.calcioefinanza.it/wp-content/uploads/2024/12/Roma-Fiorentina-ASTA3981.webp"
   },
   "Cremonese": {
     "name": "فرانشيسكو ديني",
