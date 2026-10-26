@@ -14,42 +14,76 @@
         "record": {
           "name": "ليونيل ميسي",
           "count": 8,
-          "years": "2009 و2010 و2011 و2012 و2015 و2019 و2021 و2023"
+          "years": "2009 و2010 و2011 و2012 و2015 و2019 و2021 و2023",
+          "en": [
+            "Lionel Messi"
+          ]
         },
         "last5": [
           {
             "year": 2025,
             "winner": "عثمان ديمبيلي",
             "club": "باريس سان جيرمان",
-            "nat": "فرنسا"
+            "nat": "فرنسا",
+            "en": [
+              "Ousmane Dembélé"
+            ],
+            "clubs": [
+              "Paris Saint-Germain"
+            ]
           },
           {
             "year": 2024,
             "winner": "رودري",
             "club": "مانشستر سيتي",
-            "nat": "إسبانيا"
+            "nat": "إسبانيا",
+            "en": [
+              "Rodri"
+            ],
+            "clubs": [
+              "Manchester City"
+            ]
           },
           {
             "year": 2023,
             "winner": "ليونيل ميسي",
             "club": "إنتر ميامي",
-            "nat": "الأرجنتين"
+            "nat": "الأرجنتين",
+            "en": [
+              "Lionel Messi"
+            ],
+            "clubs": [
+              "Inter Miami"
+            ]
           },
           {
             "year": 2022,
             "winner": "كريم بنزيما",
             "club": "ريال مدريد",
-            "nat": "فرنسا"
+            "nat": "فرنسا",
+            "en": [
+              "Karim Benzema"
+            ],
+            "clubs": [
+              "Real Madrid"
+            ]
           },
           {
             "year": 2021,
             "winner": "ليونيل ميسي",
             "club": "باريس سان جيرمان",
-            "nat": "الأرجنتين"
+            "nat": "الأرجنتين",
+            "en": [
+              "Lionel Messi"
+            ],
+            "clubs": [
+              "Paris Saint-Germain"
+            ]
           }
         ],
         "source": "ويكيبيديا، سبورتس إلستريتد، يويفا ومصادر أخرى. لم تُمنح في 2020."
-      }
+      },
+      "icon": "ballon"
     },
     {
       "key": "kopa",
@@ -61,42 +95,76 @@
         "record": {
           "name": "لامين يامال",
           "count": 2,
-          "years": "2024 و2025"
+          "years": "2024 و2025",
+          "en": [
+            "Lamine Yamal"
+          ]
         },
         "last5": [
           {
             "year": 2025,
             "winner": "لامين يامال",
             "club": "برشلونة",
-            "nat": "إسبانيا"
+            "nat": "إسبانيا",
+            "en": [
+              "Lamine Yamal"
+            ],
+            "clubs": [
+              "Barcelona"
+            ]
           },
           {
             "year": 2024,
             "winner": "لامين يامال",
             "club": "برشلونة",
-            "nat": "إسبانيا"
+            "nat": "إسبانيا",
+            "en": [
+              "Lamine Yamal"
+            ],
+            "clubs": [
+              "Barcelona"
+            ]
           },
           {
             "year": 2023,
             "winner": "جود بيلينغهام",
             "club": "بوروسيا دورتموند",
-            "nat": "إنجلترا"
+            "nat": "إنجلترا",
+            "en": [
+              "Jude Bellingham"
+            ],
+            "clubs": [
+              "Borussia Dortmund"
+            ]
           },
           {
             "year": 2022,
             "winner": "غافي",
             "club": "برشلونة",
-            "nat": "إسبانيا"
+            "nat": "إسبانيا",
+            "en": [
+              "Gavi"
+            ],
+            "clubs": [
+              "Barcelona"
+            ]
           },
           {
             "year": 2021,
             "winner": "بيدري",
             "club": "برشلونة",
-            "nat": "إسبانيا"
+            "nat": "إسبانيا",
+            "en": [
+              "Pedri"
+            ],
+            "clubs": [
+              "Barcelona"
+            ]
           }
         ],
         "source": "ويكيبيديا، سبورتس إلستريتد، يويفا ومصادر أخرى. لم تُمنح في 2020."
-      }
+      },
+      "icon": "⭐"
     },
     {
       "key": "yashin",
@@ -108,42 +176,77 @@
         "record": {
           "name": "جيانلويجي دوناروما وإيميليانو مارتينيز (بالتساوي)",
           "count": 2,
-          "years": "دوناروما: 2021 و2025، مارتينيز: 2023 و2024"
+          "years": "دوناروما: 2021 و2025، مارتينيز: 2023 و2024",
+          "en": [
+            "Gianluigi Donnarumma",
+            "Emiliano Martínez"
+          ]
         },
         "last5": [
           {
             "year": 2025,
             "winner": "جيانلويجي دوناروما",
             "club": "باريس سان جيرمان",
-            "nat": "إيطاليا"
+            "nat": "إيطاليا",
+            "en": [
+              "Gianluigi Donnarumma"
+            ],
+            "clubs": [
+              "Paris Saint-Germain"
+            ]
           },
           {
             "year": 2024,
             "winner": "إيميليانو مارتينيز",
             "club": "أستون فيلا",
-            "nat": "الأرجنتين"
+            "nat": "الأرجنتين",
+            "en": [
+              "Emiliano Martínez"
+            ],
+            "clubs": [
+              "Aston Villa"
+            ]
           },
           {
             "year": 2023,
             "winner": "إيميليانو مارتينيز",
             "club": "أستون فيلا",
-            "nat": "الأرجنتين"
+            "nat": "الأرجنتين",
+            "en": [
+              "Emiliano Martínez"
+            ],
+            "clubs": [
+              "Aston Villa"
+            ]
           },
           {
             "year": 2022,
             "winner": "تيبو كورتوا",
             "club": "ريال مدريد",
-            "nat": "بلجيكا"
+            "nat": "بلجيكا",
+            "en": [
+              "Thibaut Courtois"
+            ],
+            "clubs": [
+              "Real Madrid"
+            ]
           },
           {
             "year": 2021,
             "winner": "جيانلويجي دوناروما",
             "club": "باريس سان جيرمان",
-            "nat": "إيطاليا"
+            "nat": "إيطاليا",
+            "en": [
+              "Gianluigi Donnarumma"
+            ],
+            "clubs": [
+              "Paris Saint-Germain"
+            ]
           }
         ],
         "source": "ويكيبيديا، سبورتس إلستريتد، يويفا ومصادر أخرى. لم تُمنح في 2020."
-      }
+      },
+      "icon": "🧤"
     },
     {
       "key": "muller",
@@ -155,42 +258,78 @@
         "record": {
           "name": "روبرت ليفاندوفسكي",
           "count": 2,
-          "years": "2021 و2022"
+          "years": "2021 و2022",
+          "en": [
+            "Robert Lewandowski"
+          ]
         },
         "last5": [
           {
             "year": 2025,
             "winner": "فيكتور غيوكيريس",
             "club": "سبورتينغ لشبونة",
-            "nat": "السويد"
+            "nat": "السويد",
+            "en": [
+              "Viktor Gyökeres"
+            ],
+            "clubs": [
+              "Sporting CP"
+            ]
           },
           {
             "year": 2024,
             "winner": "هاري كين وكيليان مبابي (مناصفة)",
             "club": "بايرن ميونخ وباريس سان جيرمان",
-            "nat": "إنجلترا وفرنسا"
+            "nat": "إنجلترا وفرنسا",
+            "en": [
+              "Harry Kane",
+              "Kylian Mbappé"
+            ],
+            "clubs": [
+              "Bayern München",
+              "Paris Saint-Germain"
+            ]
           },
           {
             "year": 2023,
             "winner": "إيرلينغ هالاند",
             "club": "مانشستر سيتي",
-            "nat": "النرويج"
+            "nat": "النرويج",
+            "en": [
+              "Erling Haaland"
+            ],
+            "clubs": [
+              "Manchester City"
+            ]
           },
           {
             "year": 2022,
             "winner": "روبرت ليفاندوفسكي",
             "club": "بايرن ميونخ",
-            "nat": "بولندا"
+            "nat": "بولندا",
+            "en": [
+              "Robert Lewandowski"
+            ],
+            "clubs": [
+              "Bayern München"
+            ]
           },
           {
             "year": 2021,
             "winner": "روبرت ليفاندوفسكي",
             "club": "بايرن ميونخ",
-            "nat": "بولندا"
+            "nat": "بولندا",
+            "en": [
+              "Robert Lewandowski"
+            ],
+            "clubs": [
+              "Bayern München"
+            ]
           }
         ],
         "source": "ويكيبيديا، سبورتس إلستريتد، يويفا ومصادر أخرى. بدأت عام 2021."
-      }
+      },
+      "icon": "👟"
     },
     {
       "key": "cruyff",
@@ -205,17 +344,24 @@
             "year": 2025,
             "winner": "لويس إنريكي",
             "club": "باريس سان جيرمان",
-            "nat": "إسبانيا"
+            "nat": "إسبانيا",
+            "clubs": [
+              "Paris Saint-Germain"
+            ]
           },
           {
             "year": 2024,
             "winner": "كارلو أنشيلوتي",
             "club": "ريال مدريد",
-            "nat": "إيطاليا"
+            "nat": "إيطاليا",
+            "clubs": [
+              "Real Madrid"
+            ]
           }
         ],
         "source": "ويكيبيديا، سبورتس إلستريتد، يويفا ومصادر أخرى. الجائزة حديثة (نسختان فقط) ولكل مدرب فوز واحد."
-      }
+      },
+      "icon": "📋"
     },
     {
       "key": "club",
@@ -227,42 +373,61 @@
         "record": {
           "name": "مانشستر سيتي",
           "count": 2,
-          "years": "2022 و2023"
+          "years": "2022 و2023",
+          "clubs": [
+            "Manchester City"
+          ]
         },
         "last5": [
           {
             "year": 2025,
             "winner": "باريس سان جيرمان",
             "club": null,
-            "nat": "فرنسا"
+            "nat": "فرنسا",
+            "clubs": [
+              "Paris Saint-Germain"
+            ]
           },
           {
             "year": 2024,
             "winner": "ريال مدريد",
             "club": null,
-            "nat": "إسبانيا"
+            "nat": "إسبانيا",
+            "clubs": [
+              "Real Madrid"
+            ]
           },
           {
             "year": 2023,
             "winner": "مانشستر سيتي",
             "club": null,
-            "nat": "إنجلترا"
+            "nat": "إنجلترا",
+            "clubs": [
+              "Manchester City"
+            ]
           },
           {
             "year": 2022,
             "winner": "مانشستر سيتي",
             "club": null,
-            "nat": "إنجلترا"
+            "nat": "إنجلترا",
+            "clubs": [
+              "Manchester City"
+            ]
           },
           {
             "year": 2021,
             "winner": "تشيلسي",
             "club": null,
-            "nat": "إنجلترا"
+            "nat": "إنجلترا",
+            "clubs": [
+              "Chelsea"
+            ]
           }
         ],
         "source": "ويكيبيديا، سبورتس إلستريتد، يويفا ومصادر أخرى"
-      }
+      },
+      "icon": "🛡️"
     }
   ],
   "winners": {},
