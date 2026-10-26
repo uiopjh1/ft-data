@@ -348,11 +348,13 @@
   },
   "Al Riyadh": {
     "name": "بندر المقيل",
-    "en": "Bandar Al-Muqayyal"
+    "en": "Bandar Al-Muqayyal",
+    "since": 2019
   },
   "Al-Riyadh": {
     "name": "بندر المقيل",
-    "en": "Bandar Al-Muqayyal"
+    "en": "Bandar Al-Muqayyal",
+    "since": 2019
   },
   "Al Hazem": {
     "name": "طلال الحربي",
