@@ -575,5 +575,59 @@
   "Chelsea": {
     "name": "لم يُعلن الرئيس الجديد بعد (ترك تود بوهلي المنصب في سبتمبر 2026)",
     "en": ""
+  },
+  "Tottenham Hotspur": {
+    "name": "بيتر شارينغتون (رئيس غير تنفيذي)",
+    "en": "Peter Charrington",
+    "since": 2025,
+    "noTitles": true
+  },
+  "AS Roma": {
+    "name": "دان فريدكين",
+    "en": "Dan Friedkin",
+    "since": 2020,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "دوري المؤتمر الأوروبي",
+        "detail": "2022",
+        "slug": "uefa.europa.conf"
+      }
+    ]
+  },
+  "Newcastle United": {
+    "name": "ياسر الرميان",
+    "en": "Yasir Al-Rumayyan",
+    "since": 2021,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "كأس الرابطة الإنجليزية",
+        "detail": "2025",
+        "slug": "eng.league_cup"
+      }
+    ]
+  },
+  "Napoli": {
+    "name": "أوريليو دي لورينتيس",
+    "en": "Aurelio De Laurentiis",
+    "since": 2004,
+    "titlesTotal": 7,
+    "titles": [
+      {
+        "name": "الدوري الإيطالي",
+        "detail": "2023، 2025",
+        "slug": "ita.1"
+      },
+      {
+        "name": "كأس إيطاليا",
+        "detail": "2012، 2014، 2020",
+        "slug": "ita.coppa_italia"
+      },
+      {
+        "name": "السوبر الإيطالي",
+        "detail": "2014، 2025"
+      }
+    ]
   }
 }
