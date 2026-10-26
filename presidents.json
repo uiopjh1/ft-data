@@ -1034,5 +1034,46 @@
         "detail": "2013"
       }
     ]
+  },
+  "Bologna": {
+    "name": "جوي سابوتو",
+    "en": "Joey Saputo",
+    "since": 2014,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "كأس إيطاليا",
+        "detail": "2025",
+        "slug": "ita.coppa_italia"
+      }
+    ]
+  },
+  "Celta Vigo": {
+    "name": "كارلوس موريينو",
+    "en": "Carlos Mouriño",
+    "since": 2006,
+    "noTitles": true
+  },
+  "Celta": {
+    "name": "كارلوس موريينو",
+    "en": "Carlos Mouriño",
+    "since": 2006,
+    "noTitles": true
+  },
+  "Girona": {
+    "name": "ديلفي جيلي",
+    "en": "Delfí Geli",
+    "since": 2015,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "كأس كتالونيا",
+        "detail": "2025"
+      },
+      {
+        "name": "السوبر الكتالوني",
+        "detail": "2019"
+      }
+    ]
   }
 }
