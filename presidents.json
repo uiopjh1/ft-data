@@ -868,8 +868,13 @@
     "name": "ستيف باريش",
     "en": "Steve Parish",
     "since": 2010,
-    "titlesTotal": 2,
+    "titlesTotal": 3,
     "titles": [
+      {
+        "name": "دوري المؤتمر الأوروبي",
+        "detail": "2026",
+        "slug": "uefa.europa.conf"
+      },
       {
         "name": "كأس الاتحاد الإنجليزي",
         "detail": "2025",
@@ -1099,5 +1104,65 @@
     "en": "Urbano Cairo",
     "since": 2005,
     "noTitles": true
+  },
+  "Osasuna": {
+    "name": "لويس سابالزا",
+    "en": "Luis Sabalza",
+    "since": 2014,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الإسبانية",
+        "detail": "2019"
+      }
+    ]
+  },
+  "Rayo Vallecano": {
+    "name": "راؤول مارتن بريسا",
+    "en": "Raúl Martín Presa",
+    "since": 2011,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الإسبانية",
+        "detail": "2018"
+      }
+    ]
+  },
+  "Alaves": {
+    "name": "ألفونسو فرنانديز دي تروكونيث",
+    "en": "Alfonso Fernández de Trocóniz",
+    "since": 2013,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الإسبانية",
+        "detail": "2016"
+      }
+    ]
+  },
+  "Deportivo Alaves": {
+    "name": "ألفونسو فرنانديز دي تروكونيث",
+    "en": "Alfonso Fernández de Trocóniz",
+    "since": 2013,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الإسبانية",
+        "detail": "2016"
+      }
+    ]
+  },
+  "Deportivo Alavés": {
+    "name": "ألفونسو فرنانديز دي تروكونيث",
+    "en": "Alfonso Fernández de Trocóniz",
+    "since": 2013,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الإسبانية",
+        "detail": "2016"
+      }
+    ]
   }
 }
