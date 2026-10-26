@@ -1236,5 +1236,53 @@
         "detail": "2013"
       }
     ]
+  },
+  "Nice": {
+    "name": "موريس كوهين",
+    "en": "Maurice Cohen",
+    "since": 2026,
+    "noTitles": true
+  },
+  "OGC Nice": {
+    "name": "موريس كوهين",
+    "en": "Maurice Cohen",
+    "since": 2026,
+    "noTitles": true
+  },
+  "Rennes": {
+    "name": "أرنو بوي",
+    "en": "Arnaud Pouille",
+    "since": 2024,
+    "noTitles": true
+  },
+  "Stade Rennais": {
+    "name": "أرنو بوي",
+    "en": "Arnaud Pouille",
+    "since": 2024,
+    "noTitles": true
+  },
+  "Stade Rennais FC": {
+    "name": "أرنو بوي",
+    "en": "Arnaud Pouille",
+    "since": 2024,
+    "noTitles": true
+  },
+  "Brest": {
+    "name": "دوني لو سان",
+    "en": "Denis Le Saint",
+    "since": 2016,
+    "noTitles": true
+  },
+  "Stade Brestois 29": {
+    "name": "دوني لو سان",
+    "en": "Denis Le Saint",
+    "since": 2016,
+    "noTitles": true
+  },
+  "Stade Brestois": {
+    "name": "دوني لو سان",
+    "en": "Denis Le Saint",
+    "since": 2016,
+    "noTitles": true
   }
 }
