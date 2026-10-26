@@ -1366,5 +1366,73 @@
         "detail": "2000"
       }
     ]
+  },
+  "St. Pauli": {
+    "name": "أوكه غوتليش",
+    "en": "Oke Göttlich",
+    "since": 2014,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "الدوري الألماني الدرجة الثانية",
+        "detail": "2024",
+        "slug": "ger.2"
+      }
+    ]
+  },
+  "FC St. Pauli": {
+    "name": "أوكه غوتليش",
+    "en": "Oke Göttlich",
+    "since": 2014,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "الدوري الألماني الدرجة الثانية",
+        "detail": "2024",
+        "slug": "ger.2"
+      }
+    ]
+  },
+  "Mainz": {
+    "name": "شتيفان هوفمان",
+    "en": "Stefan Hofmann",
+    "since": 2018,
+    "noTitles": true
+  },
+  "1. FSV Mainz 05": {
+    "name": "شتيفان هوفمان",
+    "en": "Stefan Hofmann",
+    "since": 2018,
+    "noTitles": true
+  },
+  "Mainz 05": {
+    "name": "شتيفان هوفمان",
+    "en": "Stefan Hofmann",
+    "since": 2018,
+    "noTitles": true
+  },
+  "1. FC Köln": {
+    "name": "يورن شتوبه",
+    "en": "Jörn Stobbe",
+    "since": 2025,
+    "noTitles": true
+  },
+  "FC Cologne": {
+    "name": "يورن شتوبه",
+    "en": "Jörn Stobbe",
+    "since": 2025,
+    "noTitles": true
+  },
+  "Koln": {
+    "name": "يورن شتوبه",
+    "en": "Jörn Stobbe",
+    "since": 2025,
+    "noTitles": true
+  },
+  "Köln": {
+    "name": "يورن شتوبه",
+    "en": "Jörn Stobbe",
+    "since": 2025,
+    "noTitles": true
   }
 }
