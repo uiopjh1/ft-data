@@ -966,5 +966,73 @@
         "slug": "fra.coupe_de_france"
       }
     ]
+  },
+  "Lille": {
+    "name": "أوليفييه ليتانغ",
+    "en": "Olivier Létang",
+    "since": 2020,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "الدوري الفرنسي",
+        "detail": "2021",
+        "slug": "fra.1"
+      },
+      {
+        "name": "كأس السوبر الفرنسي",
+        "detail": "2021"
+      }
+    ]
+  },
+  "LOSC Lille": {
+    "name": "أوليفييه ليتانغ",
+    "en": "Olivier Létang",
+    "since": 2020,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "الدوري الفرنسي",
+        "detail": "2021",
+        "slug": "fra.1"
+      },
+      {
+        "name": "كأس السوبر الفرنسي",
+        "detail": "2021"
+      }
+    ]
+  },
+  "AS Monaco": {
+    "name": "ديمتري ريبولوفليف",
+    "en": "Dmitry Rybolovlev",
+    "since": 2011,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "الدوري الفرنسي",
+        "detail": "2017",
+        "slug": "fra.1"
+      },
+      {
+        "name": "الدرجة الثانية الفرنسية",
+        "detail": "2013"
+      }
+    ]
+  },
+  "Monaco": {
+    "name": "ديمتري ريبولوفليف",
+    "en": "Dmitry Rybolovlev",
+    "since": 2011,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "الدوري الفرنسي",
+        "detail": "2017",
+        "slug": "fra.1"
+      },
+      {
+        "name": "الدرجة الثانية الفرنسية",
+        "detail": "2013"
+      }
+    ]
   }
 }
