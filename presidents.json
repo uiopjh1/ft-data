@@ -268,7 +268,8 @@
   },
   "Al Fayha": {
     "name": "توفيق المديهيم",
-    "en": "Tawfiq Al-Mudaihim"
+    "en": "Tawfiq Al-Mudaihim",
+    "since": 2023
   },
   "Al Qadsiah": {
     "name": "رامي التركي (رئيس مكلّف)",
@@ -385,10 +386,12 @@
   },
   "Al Faisaly": {
     "name": "عبدالمجيد العميم",
-    "en": "Abdulmajeed Al-Omaim"
+    "en": "Abdulmajeed Al-Omaim",
+    "since": 2023
   },
   "Al-Faisaly": {
     "name": "عبدالمجيد العميم",
-    "en": "Abdulmajeed Al-Omaim"
+    "en": "Abdulmajeed Al-Omaim",
+    "since": 2023
   }
 }
