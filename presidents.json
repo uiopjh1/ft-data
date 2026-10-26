@@ -1648,5 +1648,23 @@
         "detail": "2022 (مع تولوز)"
       }
     ]
+  },
+  "Hellas Verona": {
+    "name": "إيتالو زانزي",
+    "en": "Italo Zanzi",
+    "since": 2025,
+    "noTitles": true
+  },
+  "Verona": {
+    "name": "إيتالو زانزي",
+    "en": "Italo Zanzi",
+    "since": 2025,
+    "noTitles": true
+  },
+  "Cremonese": {
+    "name": "فرانشيسكو ديني",
+    "en": "Francesco Dini",
+    "since": 2023,
+    "noTitles": true
   }
 }
