@@ -1075,5 +1075,29 @@
         "detail": "2019"
       }
     ]
+  },
+  "Borussia Monchengladbach": {
+    "name": "راينر بونهوف",
+    "en": "Rainer Bonhof",
+    "since": 2024,
+    "noTitles": true
+  },
+  "Borussia Mönchengladbach": {
+    "name": "راينر بونهوف",
+    "en": "Rainer Bonhof",
+    "since": 2024,
+    "noTitles": true
+  },
+  "Getafe": {
+    "name": "أنخل توريس",
+    "en": "Ángel Torres",
+    "since": 2002,
+    "noTitles": true
+  },
+  "Torino": {
+    "name": "أوربانو كايرو",
+    "en": "Urbano Cairo",
+    "since": 2005,
+    "noTitles": true
   }
 }
