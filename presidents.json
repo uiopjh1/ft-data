@@ -1618,5 +1618,18 @@
         "detail": "2025"
       }
     ]
+  },
+  "Everton": {
+    "name": "دان فريدكين",
+    "en": "Dan Friedkin",
+    "since": 2024,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "دوري المؤتمر الأوروبي",
+        "detail": "2022 (مع روما)",
+        "slug": "uefa.europa.conf"
+      }
+    ]
   }
 }
