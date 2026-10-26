@@ -1464,5 +1464,41 @@
         "detail": "2025"
       }
     ]
+  },
+  "Espanyol": {
+    "name": "آلان بيس",
+    "en": "Alan Pace",
+    "since": 2025,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الإنجليزية",
+        "detail": "2023 (مع بيرنلي)"
+      }
+    ]
+  },
+  "Burnley": {
+    "name": "آلان بيس",
+    "en": "Alan Pace",
+    "since": 2020,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الإنجليزية",
+        "detail": "2023"
+      }
+    ]
+  },
+  "Real Oviedo": {
+    "name": "مارتن بيلايث",
+    "en": "Martín Peláez",
+    "since": 2022,
+    "noTitles": true
+  },
+  "Oviedo": {
+    "name": "مارتن بيلايث",
+    "en": "Martín Peláez",
+    "since": 2022,
+    "noTitles": true
   }
 }
