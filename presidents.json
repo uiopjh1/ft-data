@@ -680,5 +680,84 @@
         "detail": "2014، 2025"
       }
     ]
+  },
+  "Lyon": {
+    "name": "ميشيل كانغ",
+    "en": "Michele Kang",
+    "since": 2025,
+    "noTitles": true
+  },
+  "Olympique Lyonnais": {
+    "name": "ميشيل كانغ",
+    "en": "Michele Kang",
+    "since": 2025,
+    "noTitles": true
+  },
+  "Marseille": {
+    "name": "ستيفان ريتشارد",
+    "en": "Stephane Richard",
+    "since": 2026,
+    "noTitles": true
+  },
+  "Olympique Marseille": {
+    "name": "ستيفان ريتشارد",
+    "en": "Stephane Richard",
+    "since": 2026,
+    "noTitles": true
+  },
+  "FC Porto": {
+    "name": "أندريه فياش بواش",
+    "en": "Andre Villas-Boas",
+    "since": 2024,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "الدوري البرتغالي",
+        "detail": "2026",
+        "slug": "por.1"
+      },
+      {
+        "name": "السوبر البرتغالي",
+        "detail": "2024"
+      }
+    ]
+  },
+  "Porto": {
+    "name": "أندريه فياش بواش",
+    "en": "Andre Villas-Boas",
+    "since": 2024,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "الدوري البرتغالي",
+        "detail": "2026",
+        "slug": "por.1"
+      },
+      {
+        "name": "السوبر البرتغالي",
+        "detail": "2024"
+      }
+    ]
+  },
+  "Benfica": {
+    "name": "روي كوستا",
+    "en": "Rui Costa",
+    "since": 2021,
+    "titlesTotal": 4,
+    "titles": [
+      {
+        "name": "الدوري البرتغالي",
+        "detail": "2023",
+        "slug": "por.1"
+      },
+      {
+        "name": "كأس السوبر البرتغالي",
+        "detail": "2"
+      },
+      {
+        "name": "كأس الرابطة البرتغالية",
+        "detail": "1"
+      }
+    ]
   }
 }
