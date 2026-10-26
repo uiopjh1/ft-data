@@ -863,5 +863,50 @@
     "en": "Giuseppe Commisso",
     "since": 2026,
     "noTitles": true
+  },
+  "Crystal Palace": {
+    "name": "ستيف باريش",
+    "en": "Steve Parish",
+    "since": 2010,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "كأس الاتحاد الإنجليزي",
+        "detail": "2025",
+        "slug": "eng.fa"
+      },
+      {
+        "name": "درع المجتمع",
+        "detail": "2025"
+      }
+    ]
+  },
+  "Brighton & Hove Albion": {
+    "name": "توني بلوم",
+    "en": "Tony Bloom",
+    "since": 2009,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "دوري الدرجة الثالثة الإنجليزي",
+        "detail": "2011"
+      }
+    ]
+  },
+  "Brighton": {
+    "name": "توني بلوم",
+    "en": "Tony Bloom",
+    "since": 2009,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "دوري الدرجة الثالثة الإنجليزي",
+        "detail": "2011"
+      }
+    ]
+  },
+  "West Ham United": {
+    "name": "لم يُعلن رئيس جديد بعد (استقال ديفيد سوليفان في يونيو 2026)",
+    "en": ""
   }
 }
