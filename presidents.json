@@ -292,12 +292,14 @@
   "Al Okhdood": {
     "name": "سامي آل فاضل",
     "en": "Sami Al Fadel",
-    "since": 2023
+    "since": 2023,
+    "noTitles": true
   },
   "Al-Okhdood": {
     "name": "سامي آل فاضل",
     "en": "Sami Al Fadel",
-    "since": 2023
+    "since": 2023,
+    "noTitles": true
   },
   "Al Fateh": {
     "name": "منصور العفالق",
@@ -378,22 +380,26 @@
   "Al Hazem": {
     "name": "طلال الحربي",
     "en": "Talal Al-Harbi",
-    "since": 2025
+    "since": 2025,
+    "noTitles": true
   },
   "Al-Hazem": {
     "name": "طلال الحربي",
     "en": "Talal Al-Harbi",
-    "since": 2025
+    "since": 2025,
+    "noTitles": true
   },
   "Al Hazm": {
     "name": "طلال الحربي",
     "en": "Talal Al-Harbi",
-    "since": 2025
+    "since": 2025,
+    "noTitles": true
   },
   "Al-Hazm": {
     "name": "طلال الحربي",
     "en": "Talal Al-Harbi",
-    "since": 2025
+    "since": 2025,
+    "noTitles": true
   },
   "Al Kholood": {
     "name": "بن هاربورغ",
@@ -410,11 +416,13 @@
   "Al Faisaly": {
     "name": "عبدالمجيد العميم",
     "en": "Abdulmajeed Al-Omaim",
-    "since": 2023
+    "since": 2023,
+    "noTitles": true
   },
   "Al-Faisaly": {
     "name": "عبدالمجيد العميم",
     "en": "Abdulmajeed Al-Omaim",
-    "since": 2023
+    "since": 2023,
+    "noTitles": true
   }
 }
