@@ -255,5 +255,19 @@
         "slug": "fifa.cwc"
       }
     ]
+  },
+  "Al Taawoun": {
+    "name": "بدر الغنام",
+    "en": "Badr Al-Ghannam",
+    "since": 2025
+  },
+  "Al Ettifaq": {
+    "name": "سامر المسحل",
+    "en": "Samer Al-Mashhal",
+    "since": 2023
+  },
+  "Al Fayha": {
+    "name": "توفيق المديهيم",
+    "en": "Tawfiq Al-Mudaihim"
   }
 }
