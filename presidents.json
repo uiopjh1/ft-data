@@ -35,7 +35,8 @@
           "slug": "ksa.super_cup"
         }
       ]
-    }
+    },
+    "image": "https://cdn.eremnews.com/media/550b4e1d-9157-47c7-9130-5e00bf82b05d"
   },
   "Al Nassr": {
     "name": "أحمد السلطان",
@@ -386,7 +387,8 @@
     "name": "بدر الغنام",
     "en": "Badr Al-Ghannam",
     "since": 2025,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://cdn.eremnews.com/media/5625e654-3347-4514-a0b8-7de47dd374f9_v3"
   },
   "Al Ettifaq": {
     "name": "سامر المسحل",
