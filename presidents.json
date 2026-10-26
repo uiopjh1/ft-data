@@ -759,5 +759,71 @@
         "detail": "1"
       }
     ]
+  },
+  "Lazio": {
+    "name": "كلاوديو لوتيتو",
+    "en": "Claudio Lotito",
+    "since": 2004,
+    "titlesTotal": 6,
+    "titles": [
+      {
+        "name": "كأس إيطاليا",
+        "detail": "2009، 2013، 2019",
+        "slug": "ita.coppa_italia"
+      },
+      {
+        "name": "السوبر الإيطالي",
+        "detail": "2009، 2017، 2019"
+      }
+    ]
+  },
+  "Villarreal": {
+    "name": "فيرناندو روج",
+    "en": "Fernando Roig",
+    "since": 1997,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "الدوري الأوروبي",
+        "detail": "2021",
+        "slug": "uefa.europa"
+      }
+    ]
+  },
+  "Real Sociedad": {
+    "name": "جوكين أبيريبايو",
+    "en": "Jokin Aperribay",
+    "since": 2008,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "كأس ملك إسبانيا",
+        "detail": "2020 (النهائي أبريل 2021)، 2026",
+        "slug": "esp.copa_del_rey"
+      }
+    ]
+  },
+  "Sevilla": {
+    "name": "خوسيه ماريا ديل نيدو كاراسكو",
+    "en": "Jose Maria del Nido Carrasco",
+    "since": 2023,
+    "noTitles": true
+  },
+  "Atalanta": {
+    "name": "أنطونيو بيركاسي",
+    "en": "Antonio Percassi",
+    "since": 2010,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "الدوري الأوروبي",
+        "detail": "2024",
+        "slug": "uefa.europa"
+      },
+      {
+        "name": "دوري الدرجة الثانية الإيطالي",
+        "detail": "2011"
+      }
+    ]
   }
 }
