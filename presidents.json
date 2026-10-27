@@ -2142,10 +2142,24 @@
   },
   "Metz": {
     "name": "برنار سيرين",
-    "en": "Bernard Serin"
+    "en": "Bernard Serin",
+    "since": 2009,
+    "titles": [
+      {
+        "name": "دوري الدرجة الثانية الفرنسي",
+        "detail": "2019"
+      }
+    ]
   },
   "FC Metz": {
     "name": "برنار سيرين",
-    "en": "Bernard Serin"
+    "en": "Bernard Serin",
+    "since": 2009,
+    "titles": [
+      {
+        "name": "دوري الدرجة الثانية الفرنسي",
+        "detail": "2019"
+      }
+    ]
   }
 }
