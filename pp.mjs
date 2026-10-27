@@ -2,9 +2,11 @@ import fs from 'fs';
 const d = JSON.parse(fs.readFileSync('presidents.json','utf8'));
 const miss = {};
 for (const [k,v] of Object.entries(d)) if (v&&typeof v==='object'&&v.en&&!v.image&&/^[A-Za-z]/.test(v.en)&&!miss[v.en]) miss[v.en]=k;
-const to = (u)=>fetch(u,{headers:{'user-agent':'ft-football-app/1.0 (https://github.com/uiopjh1/ft-data)'},signal:AbortSignal.timeout(15000)}).then(r=>r.ok?r.json():null).catch(()=>null);
+const sleep=(ms)=>new Promise(r=>setTimeout(r,ms));
+globalThis.E={};
+const to = async (u)=>{ for(let i=0;i<4;i++){ await sleep(700); try{ const r=await fetch(u,{headers:{'user-agent':'ft-football-app/1.0 (https://github.com/uiopjh1/ft-data; contact via github)'},signal:AbortSignal.timeout(15000)}); if(r.status===429){await sleep(4000*(i+1));continue;} if(!r.ok){E[u.slice(8,40)]=r.status;return null;} return await r.json(); }catch(e){E.last=String(e);} } return null; };
 const out={};
-const langs=['en','es','it','de','fr','pt','nl','ar','tr','ja'];
+const langs=['en','es','it','de','fr','pt'];
 for (const [name,club] of Object.entries(miss)) {
   const c=[];
   for (const l of langs) {
@@ -16,4 +18,4 @@ for (const [name,club] of Object.entries(miss)) {
   for (const p of (cm&&cm.query&&Object.values(cm.query.pages))||[]) { const ii=p.imageinfo&&p.imageinfo[0]; if(ii) c.push({l:'commons',title:p.title,thumb:ii.thumburl,extract:((ii.extmetadata&&ii.extmetadata.ImageDescription&&ii.extmetadata.ImageDescription.value)||'').replace(/<[^>]+>/g,'').slice(0,200)}); }
   out[name]={club,c};
 }
-fs.writeFileSync('pp_probe.json',JSON.stringify(out,null,1));
+out._E=E;fs.writeFileSync('pp_probe.json',JSON.stringify(out,null,1));
