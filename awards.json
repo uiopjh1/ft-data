@@ -94,8 +94,8 @@
         "first_year": 2018,
         "record": {
           "name": "لامين يامال",
-          "count": 2,
-          "years": "2024 و2025",
+          "count": 3,
+          "years": "2024 و2025 و2026",
           "en": [
             "Lamine Yamal"
           ]
@@ -256,11 +256,12 @@
       "history": {
         "first_year": 2021,
         "record": {
-          "name": "روبرت ليفاندوفسكي",
+          "name": "روبرت ليفاندوفسكي وهاري كين (بالتساوي)",
           "count": 2,
-          "years": "2021 و2022",
+          "years": "ليفاندوفسكي: 2021 و2022، كين: 2024 (مناصفة) و2026",
           "en": [
-            "Robert Lewandowski"
+            "Robert Lewandowski",
+            "Harry Kane"
           ]
         },
         "last5": [
@@ -377,11 +378,12 @@
       "history": {
         "first_year": 2021,
         "record": {
-          "name": "مانشستر سيتي",
+          "name": "مانشستر سيتي وباريس سان جيرمان (بالتساوي)",
           "count": 2,
-          "years": "2022 و2023",
+          "years": "مانشستر سيتي: 2022 و2023، باريس سان جيرمان: 2025 و2026",
           "clubs": [
-            "Manchester City"
+            "Manchester City",
+            "Paris Saint-Germain"
           ]
         },
         "last5": [
