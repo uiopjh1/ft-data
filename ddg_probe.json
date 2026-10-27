@@ -1,6 +1,665 @@
 {
- "status": 200,
- "vqd": "4-243740327398894572207175674162049858807",
- "i": 200,
- "sample": "{\"ads\":null,\"next\":\"i.js?q=Fernando%20Roig%20Villarreal%20presidente&o=json&p=1&s=100&u=bing&f=,,,,,&l=us-en\",\"query\":\"Fernando Roig Villarreal presidente\",\"queryEncoded\":\"Fernando%20Roig%20Villarreal%20presidente\",\"query_expansions\":[],\"response_type\":\"images\",\"results\":[{\"discovery_date\":\"2023-01-03T00:00:00.0000000Z\",\"encoding_format\":\"jpeg\",\"height\":1024,\"image\":\"https://media.gettyimages.com/id/1453594315/photo/villarreal-cf-v-valencia-cf-laliga-santander.jpg?s=1024x1024&w=gi&k=20&c=aW2Y-pj1wobRJD6oJYV6IfqcYqZ4KiIjT1Vv3EClq9s=\",\"image_token\":\"f1e1189dd79e38dc678d9f49c15745451d6831965fd551d453361de7fc34f112\",\"source\":\"Bing\",\"thumbnail\":\"https://tse2.mm.bing.net/th/id/OIP.nMEKl6Z8MDxJYPsRQ7QmDAHaLG?r=0&pid=Api\",\"thumbnail_token\":\"dc8cee63549a6154f2ea88869d159a649444e30d5967dfed1ba4e593e5a5e95f\",\"title\":\"Fernando Roig, President of Villarreal looks on prior to the La Liga ...\",\"url\":\"https://www.gettyimages.com/detail/news-photo/fernando-roig-president-of-villarreal-looks-on-prior-to-the-news-photo/1453594315\",\"width\":683},{\"discovery_date\":\"2021-05-06T22:06:41.0000000Z\",\"encoding_format\":\"jpeg\",\"height\":1707,\"image\":\"https://getfootballnewsspain.com/wp-content/uploads/2021/05/1002399971-scaled.jpg\",\"image_token\":\"33dafcf50cfac5005f0b0c4485400864fb3427f42df721bc32d03f174fe0c495\",\"source\":\"Bing\",\"thumbnail\":\"https://tse2.mm.bing.net/th/id/OIP.KggeFWm6a5k0UulzxM3GfQHaE8?r=0&pid=Api\",\"thumbnail_token\":\"d31967bc41d7adf5b6eddc99f891a52047e7d9e19bb0ae979e1c470eb37ad11c\",\"title\":\""
+ "Gianluca Ferrero": {
+  "club": "Juventus",
+  "ar": "جيانلوكا فيريرو",
+  "c": [
+   {
+    "img": "https://www.ilriformista.it/wp-content/uploads/2022/11/elkann-scanavino-ferrero-1024x683.jpeg",
+    "title": "Chi sono Gianluca Ferrero e Maurizio Scanavino, presidente e direttore ...",
+    "url": "https://www.ilriformista.it/chi-sono-gianluca-ferrero-e-maurizio-scanavino-presidente-e-direttore-generale-della-juve-la-mossa-di-elkann-dopo-il-buco-in-bilancio-332298/",
+    "w": 1024,
+    "h": 683
+   },
+   {
+    "img": "https://imgresizer.eurosport.com/unsafe/2560x1440/filters:format(jpeg)/origin-imgresizer.eurosport.com/2022/11/29/3499459-71336348-2560-1440.png",
+    "title": "Juventus, chi è Gianluca Ferrero: il nuovo presidente scelto da Exor e ...",
+    "url": "https://www.eurosport.it/calcio/serie-a/2022-2023/juventus-chi-e-gianluca-ferrero-il-nuovo-presidente-scelto-da-exor-per-sostituire-andrea-agnelli_sto9249555/story.shtml",
+    "w": 2560,
+    "h": 1440
+   },
+   {
+    "img": "https://www.juventus.com/images/image/private/t_editorial_landscape_12_desktop/f_auto/dev/jrvtlmzjlu7zjmwtmfln.jpg",
+    "title": "The Words of Gianluca Ferrero and Maurizio Scanavino - Juventus",
+    "url": "https://www.juventus.com/en/news/articles/the-words-of-gianluca-ferrero-and-maurizio-scanavino",
+    "w": 1280,
+    "h": 720
+   },
+   {
+    "img": "https://imgresizer.eurosport.com/unsafe/2560x1440/filters:format(jpeg)/origin-imgresizer.eurosport.com/2023/05/30/3715660-75603128-2560-1440.jpg",
+    "title": "Gianluca Ferrero, presidente Juventus: \"Abbiamo rischiato 2 anni senza ...",
+    "url": "https://www.eurosport.it/calcio/serie-a/2023-2024/gianluca-ferrero-presidente-juventus-abbiamo-rischiato-2-anni-senza-coppe-attendiamo-risvolti-sulla_sto9892980/story.shtml",
+    "w": 2560,
+    "h": 1440
+   }
+  ]
+ },
+ "Tom Werner": {
+  "club": "Liverpool",
+  "ar": "توم ويرنر",
+  "c": [
+   {
+    "img": "https://i2-prod.liverpoolecho.co.uk/article31932606.ece/ALTERNATES/s1023/0_unnamed.png",
+    "title": "Liverpool chairman Tom Werner on Arne Slot, historic transfer spend and ...",
+    "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-chairman-tom-werner-arne-31931838",
+    "w": 1023,
+    "h": 683
+   },
+   {
+    "img": "https://i.dailymail.co.uk/1s/2019/05/13/23/13459122-0-image-m-88_1557785264692.jpg",
+    "title": "Liverpool chairman Tom Werner excited about another title challenge ...",
+    "url": "https://www.dailymail.com/sport/football/article-7025353/Liverpool-chairman-Tom-Werner-excited-title-challenge.html",
+    "w": 634,
+    "h": 530
+   },
+   {
+    "img": "https://media.gettyimages.com/id/601048170/photo/liverpool-england-tom-werner-chairman-of-liverpool-at-the-opening-event-at-anfield-on.jpg?s=612x612&w=gi&k=20&c=hMUWMYf74_74omsCnfY5F8N4uF_6vzMHxNljuypWGKI=",
+    "title": "1,619 Tom Werner Photos & High Res Pictures - Getty Images",
+    "url": "https://www.gettyimages.com/photos/tom-werner",
+    "w": 612,
+    "h": 532
+   },
+   {
+    "img": "https://media.gettyimages.com/id/2147796683/photo/liverpool-chairman-tom-werner-speaks-to-ceo-billy-hogan-ahead-of-the-premier-league-match-at.jpg?s=612x612&w=gi&k=20&c=nwB44Woo-8WhbbHS1Gm2YgtiP-eYn0EohGsDzS8jGVA=",
+    "title": "73 Billy Werner Photos & High Res Pictures - Getty Images",
+    "url": "https://www.gettyimages.com/photos/billy-werner",
+    "w": 612,
+    "h": 427
+   }
+  ]
+ },
+ "Samer Al-Mashhal": {
+  "club": "Al Ettifaq",
+  "ar": "سامر المسحل",
+  "c": []
+ },
+ "Tawfiq Al-Mudaihim": {
+  "club": "Al Fayha",
+  "ar": "توفيق المديهيم",
+  "c": []
+ },
+ "Sami Al Fadel": {
+  "club": "Al Okhdood",
+  "ar": "سامي آل فاضل",
+  "c": [
+   {
+    "img": "https://mediaoffice.ae/-/media/2024/jan/30-01/02/dubai-future-foundation-hosts-great-arab-minds-winner-professor-fadel-adib2.jpg?h=1322&w=2400&hash=127FAEF1AC055D6CC76A458AA2D23480",
+    "title": "Dubai Future Foundation hosts Great Arab Minds winner Professor Fadel Adib",
+    "url": "https://mediaoffice.ae/en/news/2024/January/30-01/Dubai-Future-Foundation",
+    "w": 2400,
+    "h": 1322
+   },
+   {
+    "img": "https://media.gettyimages.com/id/72837335/photo/abu-dhabi-united-arab-emirates-ahmed-shabib-al-dahiri-and-mohammed-fadel-al-hamili-congratulate.jpg?s=612x612&w=gi&k=20&c=BEjoALF6MJfFlvQLcGMhiL_w1sQcpmjBR3KCZpmUJQs=",
+    "title": "235 Ahmed Fadel Stock Photos, High-Res Pictures, and Images - Getty Images",
+    "url": "https://www.gettyimages.com/photos/ahmed-fadel",
+    "w": 612,
+    "h": 421
+   },
+   {
+    "img": "https://asf-fr.org/sites/default/files/styles/1920x740/public/2025-03/thumbnail_IMG_8006.jpg?h=2f83cd36&itok=-2cfM39t",
+    "title": "Sami Fadel, bénévole pour la Mission Drone | Aviation Sans Frontières",
+    "url": "https://asf-fr.org/fr/sami-fadel-benevole-pour-la-mission-drone",
+    "w": 1920,
+    "h": 740
+   },
+   {
+    "img": "https://media.licdn.com/dms/image/v2/D4D05AQHftVyGpa15gA/feedshare-thumbnail_720_1280/feedshare-thumbnail_720_1280/0/1680213647678?e=2147483647&v=beta&t=TRXW8JfXFkKgAnCroNStq_pu76RYAhmjkqPWrPt7L24",
+    "title": "Fadel Al kaby on LinkedIn: This is my family's I'm very proud in my ...",
+    "url": "https://www.linkedin.com/posts/fadel-al-kaby-224620142_this-is-my-familys-im-very-proud-in-my-activity-7047944256522473472-3Xpa",
+    "w": 720,
+    "h": 720
+   }
+  ]
+ },
+ "Mansour Al-Afaliq": {
+  "club": "Al Fateh",
+  "ar": "منصور العفالق",
+  "c": [
+   {
+    "img": "https://pbs.twimg.com/profile_images/1683427363529400320/rfh8GrJP_400x400.jpg",
+    "title": "Mansour I. Al-Afaliq منصور بن ابراهيم العفالق (@Mansour_Afaliq) / Posts / X",
+    "url": "https://x.com/Mansour_Afaliq",
+    "w": 400,
+    "h": 400
+   },
+   {
+    "img": "https://mena.entrepreneur.com/wp-content/uploads/sites/11/2022/12/1671738587-Untitleddesign-2022-12-22T234007798.png?resize=1024,682",
+    "title": "Saleh Al-Afaliq's Team-Centric Leadership Takes Saudi Arabia-Based ...",
+    "url": "https://mena.entrepreneur.com/growth-strategies/saleh-al-afaliqs-team-centric-leadership-takes-saudi/441674",
+    "w": 1024,
+    "h": 682
+   },
+   {
+    "img": "https://assets.entrepreneur.com/images/misc/1671738077_IMG_7996-02.jpg?width=1000",
+    "title": "Saleh Al-Afaliq's Team-Centric Leadership Takes Saudi Arabia-Based ...",
+    "url": "https://mena.entrepreneur.com/growth-strategies/saleh-al-afaliqs-team-centric-leadership-takes-saudi/441674",
+    "w": 1000,
+    "h": 588
+   }
+  ]
+ },
+ "Shaker Oweir": {
+  "club": "Damac",
+  "ar": "شاكر عوير",
+  "c": []
+ },
+ "Fahd Al-Mutawa": {
+  "club": "Al Raed",
+  "ar": "فهد المطوع",
+  "c": []
+ },
+ "Ahmed Akhreeda": {
+  "club": "Al Khaleej",
+  "ar": "أحمد أخريدة",
+  "c": []
+ },
+ "Bandar Al-Muqayyal": {
+  "club": "Al Riyadh",
+  "ar": "بندر المقيل",
+  "c": []
+ },
+ "Talal Al-Harbi": {
+  "club": "Al Hazem",
+  "ar": "طلال الحربي",
+  "c": []
+ },
+ "Ben Harburg": {
+  "club": "Al Kholood",
+  "ar": "بن هاربورغ",
+  "c": []
+ },
+ "Abdulmajeed Al-Omaim": {
+  "club": "Al Faisaly",
+  "ar": "عبدالمجيد العميم",
+  "c": []
+ },
+ "Paolo Scaroni": {
+  "club": "AC Milan",
+  "ar": "باولو سكاروني",
+  "c": []
+ },
+ "Peter Charrington": {
+  "club": "Tottenham Hotspur",
+  "ar": "بيتر شارينغتون (رئيس غير تنفيذي)",
+  "c": []
+ },
+ "Dan Friedkin": {
+  "club": "AS Roma",
+  "ar": "دان فريدكين",
+  "c": []
+ },
+ "Yasir Al-Rumayyan": {
+  "club": "Newcastle United",
+  "ar": "ياسر الرميان",
+  "c": []
+ },
+ "Aurelio De Laurentiis": {
+  "club": "Napoli",
+  "ar": "أوريليو دي لورينتيس",
+  "c": []
+ },
+ "Andre Villas-Boas": {
+  "club": "FC Porto",
+  "ar": "أندريه فياش بواش",
+  "c": []
+ },
+ "Rui Costa": {
+  "club": "Benfica",
+  "ar": "روي كوستا",
+  "c": []
+ },
+ "Claudio Lotito": {
+  "club": "Lazio",
+  "ar": "كلاوديو لوتيتو",
+  "c": []
+ },
+ "Fernando Roig": {
+  "club": "Villarreal",
+  "ar": "فيرناندو روج",
+  "c": []
+ },
+ "Jokin Aperribay": {
+  "club": "Real Sociedad",
+  "ar": "جوكين أبيريبايو",
+  "c": []
+ },
+ "Jose Maria del Nido Carrasco": {
+  "club": "Sevilla",
+  "ar": "خوسيه ماريا ديل نيدو كاراسكو",
+  "c": []
+ },
+ "Antonio Percassi": {
+  "club": "Atalanta",
+  "ar": "أنطونيو بيركاسي",
+  "c": []
+ },
+ "Jon Uriarte": {
+  "club": "Athletic Club",
+  "ar": "جون أوريارتي",
+  "c": []
+ },
+ "Angel Haro": {
+  "club": "Real Betis",
+  "ar": "أنخل هارو",
+  "c": []
+ },
+ "Giuseppe Commisso": {
+  "club": "Fiorentina",
+  "ar": "جوزيبي كوميسو",
+  "c": []
+ },
+ "Steve Parish": {
+  "club": "Crystal Palace",
+  "ar": "ستيف باريش",
+  "c": []
+ },
+ "Tony Bloom": {
+  "club": "Brighton & Hove Albion",
+  "ar": "توني بلوم",
+  "c": []
+ },
+ "Joseph Oughourlian": {
+  "club": "RC Lens",
+  "ar": "جوزيف أوغورليان",
+  "c": []
+ },
+ "Dmitry Rybolovlev": {
+  "club": "AS Monaco",
+  "ar": "ديمتري ريبولوفليف",
+  "c": []
+ },
+ "Joey Saputo": {
+  "club": "Bologna",
+  "ar": "جوي سابوتو",
+  "c": []
+ },
+ "Carlos Mouriño": {
+  "club": "Celta Vigo",
+  "ar": "كارلوس موريينو",
+  "c": []
+ },
+ "Urbano Cairo": {
+  "club": "Torino",
+  "ar": "أوربانو كايرو",
+  "c": []
+ },
+ "Alfonso Fernández de Trocóniz": {
+  "club": "Alaves",
+  "ar": "ألفونسو فرنانديز دي تروكونيث",
+  "c": []
+ },
+ "Marc Keller": {
+  "club": "Strasbourg",
+  "ar": "مارك كيلر",
+  "c": []
+ },
+ "Maurice Cohen": {
+  "club": "Nice",
+  "ar": "موريس كوهين",
+  "c": []
+ },
+ "Arnaud Pouille": {
+  "club": "Rennes",
+  "ar": "أرنو بوي",
+  "c": [
+   {
+    "img": "https://www.getfootballnewsfrance.com/assets/20250131_132314-scaled.jpg",
+    "title": "'Results speak for themselves' - Rennes president Arnaud Pouille ...",
+    "url": "https://www.getfootballnewsfrance.com/2025/results-speak-for-themselves-rennes-president-arnaud-pouille-explains-jorge-sampaolis-dismissal/",
+    "w": 1200,
+    "h": 851
+   },
+   {
+    "img": "https://www.getfootballnewsfrance.com/assets/20260218_162740-scaled.jpg",
+    "title": "Rennes president Arnaud Pouille confirms Habib Beye asked to leave ...",
+    "url": "https://www.getfootballnewsfrance.com/2026/rennes-president-arnaud-pouille-confirms-habib-beye-asked-to-leave-after-3-0-coupe-de-france-loss-to-marseille/",
+    "w": 474,
+    "h": 352
+   },
+   {
+    "img": "https://media.foot-national.com/18/2025/01/photo_article/900585/361871/1200-L-arnaud-pouille-rennes-tacle-ses-joueurs-il-faut-arrter-de-croire-que-cest-le-club-med.jpg",
+    "title": "Arnaud Pouille (Rennes) tacle ses joueurs : \"Il faut arrêter de croire ...",
+    "url": "https://www.foot-national.com/ligue-1/arnaud-pouille-rennes-tacle-ses-joueurs-il-faut-arreter-de-croire-que-c-est-le-club-med-900585",
+    "w": 1200,
+    "h": 640
+   },
+   {
+    "img": "https://www.dailymercato.com/storage/thumbnails/730x411/icon-sport/Arnaud-Pouille,-nouveau-directeur-general-de-Rennes.jpg",
+    "title": "Stade Rennais : 4 choses à savoir sur Arnaud Pouille, nouveau président ...",
+    "url": "https://www.dailymercato.com/news/stade-rennais-4-choses-a-savoir-sur-arnaud-pouille-nouveau-president-executif",
+    "w": 730,
+    "h": 411
+   }
+  ]
+ },
+ "Denis Le Saint": {
+  "club": "Brest",
+  "ar": "دوني لو سان",
+  "c": [
+   {
+    "img": "https://static.actu.fr/uploads/2021/01/denis-le-saint-pdt-sb29-brest.jpg",
+    "title": "VIDÉO Stade brestois 29 : dans ses vœux, le président Denis Le Saint le ...",
+    "url": "https://actu.fr/bretagne/brest_29019/video-stade-brestois-29-dans-ses-voeux-le-president-denis-le-saint-le-promet-francis-paiera-sa-tourn_38457947.html",
+    "w": 1280,
+    "h": 919
+   },
+   {
+    "img": "https://media.foot-national.com/18/2024/01/photo_article/850957/341430/1200-L-brest-le-prsident-denis-le-saint-voque-le-mercato-brestois.jpg",
+    "title": "Brest : le président Denis Le Saint évoque le mercato brestois",
+    "url": "https://www.foot-national.com/ligue-1/brest-le-president-denis-le-saint-evoque-le-mercato-brestois-850957",
+    "w": 1200,
+    "h": 640
+   },
+   {
+    "img": "https://media.letelegramme.fr/api/v1/images/view/63820ceff5f109718120f8fc/web_golden_xl/63820ceff5f109718120f8fc.1",
+    "title": "Stade Brestois 29 : la vie de foot de Denis Le Saint, président ...",
+    "url": "https://www.letelegramme.fr/sports/football/stade-brestois/stade-brestois-29-la-vie-de-foot-de-denis-le-saint-president-supporter-258402.php",
+    "w": 960,
+    "h": 600
+   },
+   {
+    "img": "https://media.letelegramme.fr/api/v1/images/view/66ebeb5f2e743568694ec99a/web_golden_xl/66ebeb5f2e743568694ec99a.1",
+    "title": "« 80 000 personnes au Stade de France… », quand Denis Le Saint se ...",
+    "url": "https://www.letelegramme.fr/sports/football/stade-brestois/80-000-personnes-au-stade-de-france-quand-denis-le-saint-se-projette-sur-les-barrages-de-la-ligue-des-champions-6664690.php",
+    "w": 960,
+    "h": 600
+   }
+  ]
+ },
+ "Olivier Cloarec": {
+  "club": "Toulouse",
+  "ar": "أوليفييه كلوارك",
+  "c": [
+   {
+    "img": "https://media.sudouest.fr/25165565/1200x-1/20250708131703-743512.jpg",
+    "title": "Ligue 1. « Faire perdurer l'évolution du club » : Olivier Cloarec ...",
+    "url": "https://www.sudouest.fr/sport/football/ligue-1-faire-perdurer-l-evolution-du-club-olivier-cloarec-nouveau-president-du-toulouse-fc-25165565.php",
+    "w": 1200,
+    "h": 800
+   },
+   {
+    "img": "https://toulousemetropolefootball.fr/wp-content/uploads/2025/11/43521000.jpg",
+    "title": "Président Toulouse FC : Olivier Cloarec nommé en juillet 2025",
+    "url": "https://toulousemetropolefootball.fr/president-toulouse-fc-olivier-cloarec/",
+    "w": 1024,
+    "h": 768
+   },
+   {
+    "img": "https://media.letelegramme.fr/api/v1/images/view/686d1e6a1b0991b48a05d6e5/web_golden_xl/686d1e6a1b0991b48a05d6e5.1",
+    "title": "Olivier Cloarec devient le nouveau président du Toulouse FC, neuf mois ...",
+    "url": "https://www.letelegramme.fr/sports/football/olivier-cloarec-devient-le-nouveau-president-du-toulouse-fc-neuf-mois-apres-son-depart-de-rennes-6851524.php",
+    "w": 474,
+    "h": 296
+   },
+   {
+    "img": "https://images.lesindesradios.fr/filters:format(webp)/medias/YPRE621iTc/image/thumbnail_image0011751979642637.jpg",
+    "title": "C'est officiel, Olivier Cloarec est le nouveau président du TFC ...",
+    "url": "https://www.toulousefm.fr/c-est-officiel-olivier-cloarec-est-le-nouveau-president-du-tfc",
+    "w": 1920,
+    "h": 1279
+   }
+  ]
+ },
+ "Loïc Féry": {
+  "club": "Lorient",
+  "ar": "لويك فيري",
+  "c": [
+   {
+    "img": "https://maville.com/photosmvi/2026/03/03/P35778489D7213868G.jpg",
+    "title": "Guerre au Moyen-Orient. « On entend les antimissiles » : Loïc Féry ...",
+    "url": "https://lessablesdolonne.maville.com/sport/detail_-guerre-au-moyen-orient.-on-entend-les-antimissiles-loic-fery-president-du-fc-lorient-est-bloque-a-abou-dhabi-_54135-7213868_actu.Htm",
+    "w": 1280,
+    "h": 853
+   },
+   {
+    "img": "https://media.gettyimages.com/id/519202186/photo/fc-lorient-v-olympique-lyonnais-ligue-1.jpg?s=1024x1024&w=gi&k=20&c=4oC3CiALFd9xUmpHoU39NKyOmiyqe-xO0fR6DiVUVk0=",
+    "title": "Loic Fery president of Lorient during the French Ligue 1 match... News ...",
+    "url": "https://www.gettyimages.com/detail/news-photo/loic-fery-president-of-lorient-during-the-french-ligue-1-news-photo/519202186",
+    "w": 1024,
+    "h": 682
+   },
+   {
+    "img": "https://www.fclorient.bzh/voy_content/uploads/2017/09/fery-loic-president-fc-lorient_3000x1997-scaled.jpg",
+    "title": "Joyeux anniversaire Loïc Féry ! - FC Lorient",
+    "url": "https://www.fclorient.bzh/joyeux-anniversaire-loic-fery/",
+    "w": 2600,
+    "h": 1731
+   },
+   {
+    "img": "https://www.fclorient.bzh/voy_content/uploads/2018/05/fery-loic-president-fc-lorient-4_3000x1997.jpg",
+    "title": "Loïc Féry élu au Conseil d'Administration de la LFP - FC Lorient",
+    "url": "https://www.fclorient.bzh/loic-fery-elu-au-conseil-dadministration-de-la-lfp/",
+    "w": 2600,
+    "h": 1731
+   }
+  ]
+ },
+ "Tommaso Giulini": {
+  "club": "Cagliari",
+  "ar": "توماسو جوليني",
+  "c": [
+   {
+    "img": "https://media.gettyimages.com/id/849302828/photo/ferrara-italy-tommaso-giulini-president-of-cagliari-calcio-looks-on-before-the-serie-a-match.jpg?s=612x612&w=gi&k=20&c=2eClqrBBvNipzSQ8cnpEzoTfKFFivfJr-EFciB_ya20=",
+    "title": "169 Cagliari Tommaso Giulini Stock Photos, High-Res Pictures, and ...",
+    "url": "https://www.gettyimages.com/photos/cagliari-tommaso-giulini",
+    "w": 612,
+    "h": 400
+   },
+   {
+    "img": "https://media.gettyimages.com/id/930435612/photo/tommaso-giulini-president-of-cagliari-calcio-looks-on-during-the-serie-a-match-between.jpg?s=612x612&w=gi&k=20&c=qEn3C_IFhfFbJ5Ln659Mv437t-oMRuUPfSP1RlvoPio=",
+    "title": "Tommaso Giulini Photos and Premium High Res Pictures - Getty Images",
+    "url": "https://www.gettyimages.dk/photos/tommaso-giulini",
+    "w": 612,
+    "h": 414
+   },
+   {
+    "img": "https://media.gettyimages.com/id/848330468/photo/ferrara-italy-tommaso-giulini-president-of-cagliari-calcio-before-the-serie-a-match-between.jpg?s=612x612&w=gi&k=20&c=TjekTujwFAQG7tRIlzqtWIC5bWgoTs2FrNRqq2XFVXM=",
+    "title": "169 Cagliari Tommaso Giulini Stock Photos, High-Res Pictures, and ...",
+    "url": "https://www.gettyimages.com/photos/cagliari-tommaso-giulini",
+    "w": 612,
+    "h": 398
+   },
+   {
+    "img": "https://media.gettyimages.com/id/845249352/photo/cagliari-italy-the-president-of-cagliari-tommaso-giulini-during-the-serie-a-match-between.jpg?s=612x612&w=gi&k=20&c=35a5HCOz3HSQgZiuHo8oIgjW5YDvVXDebsL-o0WGmn8=",
+    "title": "Cagliari Tommaso Giulini Photos and Premium High Res Pictures - Getty ...",
+    "url": "https://www.gettyimages.com/photos/cagliari-tommaso-giulini",
+    "w": 612,
+    "h": 408
+   }
+  ]
+ },
+ "Saverio Sticchi Damiani": {
+  "club": "Lecce",
+  "ar": "سافيريو ستيكي داميانّي",
+  "c": [
+   {
+    "img": "https://borsaefinanza.it/wp-content/uploads/2023/07/Saverio-Sticchi-Damiani.jpg",
+    "title": "Saverio Sticchi Damiani, chi è l'avvocato presidente del Lecce - Borsa ...",
+    "url": "https://borsaefinanza.it/saverio-sticchi-damiani-chi-e-avvocato-presidente-lecce/",
+    "w": 1200,
+    "h": 675
+   },
+   {
+    "img": "https://www.antennasud.com/media/2025/06/Saverio-Sticchi-Damiani-Presidente-Lecce-03-1024x683.jpg",
+    "title": "Sticchi Damiani a Ora Lecce: \"Salvezza e stadio nuovo, che sogno\"",
+    "url": "https://www.antennasud.com/sticchi-damiani-a-ora-lecce-quarta-salvezza-e-stadio-nuovo-che-sogno/",
+    "w": 1024,
+    "h": 683
+   },
+   {
+    "img": "https://www.antennasud.com/media/2025/06/Saverio-Sticchi-Damiani-Presidente-Lecce-13-2048x1365.jpg",
+    "title": "Lecce, Sticchi Damiani: \"Fiero di questa squadra, sulla salvezza sono ...",
+    "url": "https://www.antennasud.com/lecce-sticchi-damiani-fiero-di-questa-squadra-sulla-salvezza-sono-ottimista/",
+    "w": 2048,
+    "h": 1365
+   },
+   {
+    "img": "https://slyvi-tstorage.fra1.cdn.digitaloceanspaces.com/l84912521416_tml896224179969_309238977749_1720013443419869.webp",
+    "title": "Buon compleanno presidente: Saverio Sticchi Damiani",
+    "url": "https://www.pianetalecce.it/news/210276617734/buon-compleanno-presidente-saverio-sticchi-damiani",
+    "w": 1024,
+    "h": 769
+   }
+  ]
+ },
+ "Dan Sucu": {
+  "club": "Genoa",
+  "ar": "دان شوكو",
+  "c": []
+ },
+ "Franco Soldati": {
+  "club": "Udinese",
+  "ar": "فرانكو سولداتي",
+  "c": []
+ },
+ "Stefan Hofmann": {
+  "club": "Mainz",
+  "ar": "شتيفان هوفمان",
+  "c": []
+ },
+ "Jörn Stobbe": {
+  "club": "1. FC Köln",
+  "ar": "يورن شتوبه",
+  "c": []
+ },
+ "Henrik Köncke": {
+  "club": "Hamburg SV",
+  "ar": "هنريك كونكه",
+  "c": []
+ },
+ "Pablo Sánchez": {
+  "club": "Levante",
+  "ar": "بابلو سانشيز",
+  "c": []
+ },
+ "Alan Pace": {
+  "club": "Espanyol",
+  "ar": "آلان بيس",
+  "c": []
+ },
+ "Martín Peláez": {
+  "club": "Real Oviedo",
+  "ar": "مارتن بيلايث",
+  "c": []
+ },
+ "Shahid Khan": {
+  "club": "Fulham",
+  "ar": "شهيد خان",
+  "c": []
+ },
+ "Kyril Louis-Dreyfus": {
+  "club": "Sunderland",
+  "ar": "كيريل لويس-دريفوس",
+  "c": []
+ },
+ "Evangelos Marinakis": {
+  "club": "Nottingham Forest",
+  "ar": "إيفانغيلوس ماريناكيس",
+  "c": []
+ },
+ "Damien Comolli": {
+  "club": "Pisa",
+  "ar": "داميان كومولي",
+  "c": []
+ },
+ "Francesco Dini": {
+  "club": "Cremonese",
+  "ar": "فرانشيسكو ديني",
+  "c": []
+ },
+ "Paraag Marathe": {
+  "club": "Leeds United",
+  "ar": "باراغ مارات",
+  "c": []
+ },
+ "Nathan Shi": {
+  "club": "Wolverhampton Wanderers",
+  "ar": "ناثان شي",
+  "c": []
+ },
+ "Kristian Baumgärtner": {
+  "club": "Hoffenheim",
+  "ar": "كريستيان بومغيرتنر",
+  "c": []
+ },
+ "Markus Krapf": {
+  "club": "Augsburg",
+  "ar": "ماركوس كرابف",
+  "c": []
+ },
+ "Holger Sanwald": {
+  "club": "Heidenheim",
+  "ar": "هولغر سانفالد",
+  "c": []
+ },
+ "Andy Kohlberg": {
+  "club": "Mallorca",
+  "ar": "آندي كولبرغ",
+  "c": []
+ },
+ "Kyle Krause": {
+  "club": "Parma",
+  "ar": "كايل كراوس",
+  "c": []
+ },
+ "James Zhou": {
+  "club": "Auxerre",
+  "ar": "جيمس تشو",
+  "c": []
+ },
+ "Jean-Michel Roussier": {
+  "club": "Le Havre",
+  "ar": "جان ميشيل روسييه",
+  "c": []
+ },
+ "Dirk Zingler": {
+  "club": "Union Berlin",
+  "ar": "ديرك تسينغلر",
+  "c": []
+ },
+ "Mirwan Suwarso": {
+  "club": "Como",
+  "ar": "ميروان سوارسو",
+  "c": []
+ },
+ "Romain Chabane": {
+  "club": "Angers",
+  "ar": "رومان شبان",
+  "c": []
+ },
+ "Waldemar Kita": {
+  "club": "Nantes",
+  "ar": "فالديمار كيتا",
+  "c": []
+ },
+ "Cliff Crown": {
+  "club": "Brentford",
+  "ar": "كليف كراون",
+  "c": []
+ },
+ "Fernando Carro": {
+  "club": "Bayer Leverkusen",
+  "ar": "فرناندو كارو",
+  "c": []
+ },
+ "Carlo Rossi": {
+  "club": "Sassuolo",
+  "ar": "كارلو روسي",
+  "c": []
+ },
+ "Bill Foley": {
+  "club": "AFC Bournemouth",
+  "ar": "بيل فولي",
+  "c": []
+ },
+ "Bernard Serin": {
+  "club": "Metz",
+  "ar": "برنار سيرين",
+  "c": []
+ },
+ "Hubertus Hess-Grunewald": {
+  "club": "Werder Bremen",
+  "ar": "هوبرتوس هيس-غرونيفالد",
+  "c": []
+ }
 }
