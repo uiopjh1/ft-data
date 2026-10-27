@@ -2,7 +2,7 @@
  "asOf": "2026-10-27",
  "season": 2025,
  "source": "ESPN (سجل مباريات اللاعب)",
- "scope": "النادي الحالي فقط؛ الموسم من 1 أغسطس إلى 31 يوليو؛ بدون الودية",
+ "scope": "النادي الحالي + المنتخب الأول؛ الموسم من 1 أغسطس إلى 31 يوليو؛ المباريات الرسمية فقط (بدون الودية والشباب)",
  "players": {
   "Jude Bellingham": {
    "ar": "جود بيلينغهام",
@@ -38,9 +38,38 @@
      "assists": 1
     }
    ],
-   "apps": 41,
-   "goals": 8,
-   "assists": 5
+   "national": {
+    "team": "England",
+    "comps": [
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 8,
+      "goals": 7,
+      "assists": 1
+     },
+     {
+      "league": "fifa.worldq.uefa",
+      "name": "WCQ - UEFA",
+      "apps": 2,
+      "goals": 0,
+      "assists": 0
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 41,
+    "goals": 8,
+    "assists": 5
+   },
+   "natTotals": {
+    "apps": 10,
+    "goals": 7,
+    "assists": 1
+   },
+   "apps": 51,
+   "goals": 15,
+   "assists": 6
   },
   "Pau Cubarsí": {
    "ar": "باو كوبارسي",
@@ -76,7 +105,36 @@
      "assists": 0
     }
    ],
-   "apps": 56,
+   "national": {
+    "team": "Spain",
+    "comps": [
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 8,
+      "goals": 0,
+      "assists": 0
+     },
+     {
+      "league": "fifa.worldq.uefa",
+      "name": "WCQ - UEFA",
+      "apps": 6,
+      "goals": 0,
+      "assists": 0
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 56,
+    "goals": 1,
+    "assists": 0
+   },
+   "natTotals": {
+    "apps": 14,
+    "goals": 0,
+    "assists": 0
+   },
+   "apps": 70,
    "goals": 1,
    "assists": 0
   },
@@ -84,18 +142,40 @@
    "ar": "مارك كوكوريا",
    "espnId": "259910",
    "club": "Real Madrid",
-   "comps": [
-    {
-     "league": "uefa.champions",
-     "name": "UEFA Champions League",
-     "apps": 10,
-     "goals": 0,
-     "assists": 0
-    }
-   ],
-   "apps": 10,
-   "goals": 0,
-   "assists": 0
+   "comps": [],
+   "national": {
+    "team": "Spain",
+    "comps": [
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 8,
+      "goals": 0,
+      "assists": 2
+     },
+     {
+      "league": "fifa.worldq.uefa",
+      "name": "WCQ - UEFA",
+      "apps": 6,
+      "goals": 1,
+      "assists": 1
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 0,
+    "goals": 0,
+    "assists": 0
+   },
+   "natTotals": {
+    "apps": 14,
+    "goals": 1,
+    "assists": 3
+   },
+   "apps": 14,
+   "goals": 1,
+   "assists": 3,
+   "warn": "لا أرقام لهذا الموسم"
   },
   "Ousmane Dembélé": {
    "ar": "عثمان ديمبيلي",
@@ -145,9 +225,38 @@
      "assists": 1
     }
    ],
-   "apps": 42,
-   "goals": 20,
-   "assists": 11
+   "national": {
+    "team": "France",
+    "comps": [
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 8,
+      "goals": 6,
+      "assists": 2
+     },
+     {
+      "league": "fifa.worldq.uefa",
+      "name": "WCQ - UEFA",
+      "apps": 1,
+      "goals": 0,
+      "assists": 0
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 42,
+    "goals": 20,
+    "assists": 11
+   },
+   "natTotals": {
+    "apps": 9,
+    "goals": 6,
+    "assists": 2
+   },
+   "apps": 51,
+   "goals": 26,
+   "assists": 13
   },
   "Luis Díaz": {
    "ar": "لويس دياز",
@@ -184,9 +293,31 @@
      "assists": 3
     }
    ],
-   "apps": 51,
-   "goals": 26,
-   "assists": 19
+   "national": {
+    "team": "Colombia",
+    "comps": [
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 5,
+      "goals": 1,
+      "assists": 1
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 51,
+    "goals": 26,
+    "assists": 19
+   },
+   "natTotals": {
+    "apps": 5,
+    "goals": 1,
+    "assists": 1
+   },
+   "apps": 56,
+   "goals": 27,
+   "assists": 20
   },
   "Bruno Fernandes": {
    "ar": "برونو فرنانديش",
@@ -216,9 +347,38 @@
      "assists": 21
     }
    ],
-   "apps": 37,
-   "goals": 9,
-   "assists": 22
+   "national": {
+    "team": "Portugal",
+    "comps": [
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 5,
+      "goals": 0,
+      "assists": 1
+     },
+     {
+      "league": "fifa.worldq.uefa",
+      "name": "WCQ - UEFA",
+      "apps": 5,
+      "goals": 3,
+      "assists": 0
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 37,
+    "goals": 9,
+    "assists": 22
+   },
+   "natTotals": {
+    "apps": 10,
+    "goals": 3,
+    "assists": 1
+   },
+   "apps": 47,
+   "goals": 12,
+   "assists": 23
   },
   "Gabriel Magalhães": {
    "ar": "غابرييل ماغاليش",
@@ -254,9 +414,31 @@
      "assists": 1
     }
    ],
-   "apps": 53,
+   "national": {
+    "team": "Brazil",
+    "comps": [
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 5,
+      "goals": 0,
+      "assists": 1
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 53,
+    "goals": 4,
+    "assists": 5
+   },
+   "natTotals": {
+    "apps": 5,
+    "goals": 0,
+    "assists": 1
+   },
+   "apps": 58,
    "goals": 4,
-   "assists": 5
+   "assists": 6
   },
   "Erling Haaland": {
    "ar": "إرلينغ هالاند",
@@ -292,9 +474,38 @@
      "assists": 0
     }
    ],
-   "apps": 54,
-   "goals": 38,
-   "assists": 9
+   "national": {
+    "team": "Norway",
+    "comps": [
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 6,
+      "goals": 7,
+      "assists": 0
+     },
+     {
+      "league": "fifa.worldq.uefa",
+      "name": "WCQ - UEFA",
+      "apps": 4,
+      "goals": 12,
+      "assists": 2
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 54,
+    "goals": 38,
+    "assists": 9
+   },
+   "natTotals": {
+    "apps": 10,
+    "goals": 19,
+    "assists": 2
+   },
+   "apps": 64,
+   "goals": 57,
+   "assists": 11
   },
   "Achraf Hakimi": {
    "ar": "أشرف حكيمي",
@@ -323,9 +534,38 @@
      "assists": 0
     }
    ],
-   "apps": 33,
-   "goals": 3,
-   "assists": 8
+   "national": {
+    "team": "Morocco",
+    "comps": [
+     {
+      "league": "caf.nations",
+      "name": "Africa Cup of Nations",
+      "apps": 7,
+      "goals": 0,
+      "assists": 1
+     },
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 6,
+      "goals": 1,
+      "assists": 2
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 33,
+    "goals": 3,
+    "assists": 8
+   },
+   "natTotals": {
+    "apps": 13,
+    "goals": 1,
+    "assists": 3
+   },
+   "apps": 46,
+   "goals": 4,
+   "assists": 11
   },
   "Harry Kane": {
    "ar": "هاري كين",
@@ -361,9 +601,38 @@
      "assists": 2
     }
    ],
-   "apps": 53,
-   "goals": 61,
-   "assists": 7
+   "national": {
+    "team": "England",
+    "comps": [
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 8,
+      "goals": 6,
+      "assists": 1
+     },
+     {
+      "league": "fifa.worldq.uefa",
+      "name": "WCQ - UEFA",
+      "apps": 5,
+      "goals": 5,
+      "assists": 0
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 53,
+    "goals": 61,
+    "assists": 7
+   },
+   "natTotals": {
+    "apps": 13,
+    "goals": 11,
+    "assists": 1
+   },
+   "apps": 66,
+   "goals": 72,
+   "assists": 8
   },
   "Khvicha Kvaratskhelia": {
    "ar": "خفيشا كفاراتسخيليا",
@@ -413,8 +682,30 @@
      "assists": 0
     }
    ],
-   "apps": 51,
-   "goals": 19,
+   "national": {
+    "team": "Georgia",
+    "comps": [
+     {
+      "league": "fifa.worldq.uefa",
+      "name": "WCQ - UEFA",
+      "apps": 6,
+      "goals": 2,
+      "assists": 0
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 51,
+    "goals": 19,
+    "assists": 10
+   },
+   "natTotals": {
+    "apps": 6,
+    "goals": 2,
+    "assists": 0
+   },
+   "apps": 57,
+   "goals": 21,
    "assists": 10
   },
   "Lamine Yamal": {
@@ -451,9 +742,38 @@
      "assists": 4
     }
    ],
-   "apps": 45,
-   "goals": 24,
-   "assists": 17
+   "national": {
+    "team": "Spain",
+    "comps": [
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 8,
+      "goals": 1,
+      "assists": 0
+     },
+     {
+      "league": "fifa.worldq.uefa",
+      "name": "WCQ - UEFA",
+      "apps": 2,
+      "goals": 0,
+      "assists": 3
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 45,
+    "goals": 24,
+    "assists": 17
+   },
+   "natTotals": {
+    "apps": 10,
+    "goals": 1,
+    "assists": 3
+   },
+   "apps": 55,
+   "goals": 25,
+   "assists": 20
   },
   "Sadio Mané": {
    "ar": "ساديو ماني",
@@ -482,9 +802,38 @@
      "assists": 6
     }
    ],
-   "apps": 36,
-   "goals": 13,
-   "assists": 9
+   "national": {
+    "team": "Senegal",
+    "comps": [
+     {
+      "league": "caf.nations",
+      "name": "Africa Cup of Nations",
+      "apps": 7,
+      "goals": 2,
+      "assists": 3
+     },
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 4,
+      "goals": 0,
+      "assists": 1
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 36,
+    "goals": 13,
+    "assists": 9
+   },
+   "natTotals": {
+    "apps": 11,
+    "goals": 2,
+    "assists": 4
+   },
+   "apps": 47,
+   "goals": 15,
+   "assists": 13
   },
   "Marquinhos": {
    "ar": "ماركينيوس",
@@ -535,7 +884,29 @@
      "assists": 0
     }
    ],
-   "apps": 49,
+   "national": {
+    "team": "Brazil",
+    "comps": [
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 5,
+      "goals": 0,
+      "assists": 0
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 49,
+    "goals": 2,
+    "assists": 0
+   },
+   "natTotals": {
+    "apps": 5,
+    "goals": 0,
+    "assists": 0
+   },
+   "apps": 54,
    "goals": 2,
    "assists": 0
   },
@@ -573,9 +944,31 @@
      "assists": 0
     }
    ],
-   "apps": 46,
-   "goals": 22,
-   "assists": 6
+   "national": {
+    "team": "Argentina",
+    "comps": [
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 8,
+      "goals": 3,
+      "assists": 1
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 46,
+    "goals": 22,
+    "assists": 6
+   },
+   "natTotals": {
+    "apps": 8,
+    "goals": 3,
+    "assists": 1
+   },
+   "apps": 54,
+   "goals": 25,
+   "assists": 7
   },
   "Kylian Mbappé": {
    "ar": "كيليان مبابي",
@@ -611,9 +1004,38 @@
      "assists": 1
     }
    ],
-   "apps": 46,
-   "goals": 42,
-   "assists": 6
+   "national": {
+    "team": "France",
+    "comps": [
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 8,
+      "goals": 10,
+      "assists": 4
+     },
+     {
+      "league": "fifa.worldq.uefa",
+      "name": "WCQ - UEFA",
+      "apps": 4,
+      "goals": 5,
+      "assists": 3
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 46,
+    "goals": 42,
+    "assists": 6
+   },
+   "natTotals": {
+    "apps": 12,
+    "goals": 15,
+    "assists": 7
+   },
+   "apps": 58,
+   "goals": 57,
+   "assists": 13
   },
   "Nuno Mendes": {
    "ar": "نونو مينديش",
@@ -663,9 +1085,38 @@
      "assists": 0
     }
    ],
-   "apps": 46,
-   "goals": 6,
-   "assists": 7
+   "national": {
+    "team": "Portugal",
+    "comps": [
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 5,
+      "goals": 1,
+      "assists": 0
+     },
+     {
+      "league": "fifa.worldq.uefa",
+      "name": "WCQ - UEFA",
+      "apps": 4,
+      "goals": 0,
+      "assists": 1
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 46,
+    "goals": 6,
+    "assists": 7
+   },
+   "natTotals": {
+    "apps": 9,
+    "goals": 1,
+    "assists": 1
+   },
+   "apps": 55,
+   "goals": 7,
+   "assists": 8
   },
   "João Neves": {
    "ar": "جواو نيفيش",
@@ -708,8 +1159,37 @@
      "assists": 3
     }
    ],
-   "apps": 42,
-   "goals": 7,
+   "national": {
+    "team": "Portugal",
+    "comps": [
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 5,
+      "goals": 1,
+      "assists": 0
+     },
+     {
+      "league": "fifa.worldq.uefa",
+      "name": "WCQ - UEFA",
+      "apps": 4,
+      "goals": 3,
+      "assists": 0
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 42,
+    "goals": 7,
+    "assists": 4
+   },
+   "natTotals": {
+    "apps": 9,
+    "goals": 4,
+    "assists": 0
+   },
+   "apps": 51,
+   "goals": 11,
    "assists": 4
   },
   "Michael Olise": {
@@ -746,9 +1226,38 @@
      "assists": 6
     }
    ],
-   "apps": 53,
-   "goals": 22,
-   "assists": 26
+   "national": {
+    "team": "France",
+    "comps": [
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 8,
+      "goals": 0,
+      "assists": 7
+     },
+     {
+      "league": "fifa.worldq.uefa",
+      "name": "WCQ - UEFA",
+      "apps": 6,
+      "goals": 2,
+      "assists": 0
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 53,
+    "goals": 22,
+    "assists": 26
+   },
+   "natTotals": {
+    "apps": 14,
+    "goals": 2,
+    "assists": 7
+   },
+   "apps": 67,
+   "goals": 24,
+   "assists": 33
   },
   "Willian Pacho": {
    "ar": "ويليان باتشو",
@@ -798,7 +1307,29 @@
      "assists": 0
     }
    ],
-   "apps": 52,
+   "national": {
+    "team": "Ecuador",
+    "comps": [
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 4,
+      "goals": 0,
+      "assists": 0
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 52,
+    "goals": 2,
+    "assists": 1
+   },
+   "natTotals": {
+    "apps": 4,
+    "goals": 0,
+    "assists": 0
+   },
+   "apps": 56,
    "goals": 2,
    "assists": 1
   },
@@ -823,9 +1354,31 @@
      "assists": 4
     }
    ],
-   "apps": 34,
-   "goals": 37,
-   "assists": 4
+   "national": {
+    "team": "Mexico",
+    "comps": [
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 5,
+      "goals": 4,
+      "assists": 1
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 34,
+    "goals": 37,
+    "assists": 4
+   },
+   "natTotals": {
+    "apps": 5,
+    "goals": 4,
+    "assists": 1
+   },
+   "apps": 39,
+   "goals": 41,
+   "assists": 5
   },
   "Declan Rice": {
    "ar": "ديكلان رايس",
@@ -861,26 +1414,77 @@
      "assists": 2
     }
    ],
-   "apps": 58,
-   "goals": 5,
-   "assists": 9
+   "national": {
+    "team": "England",
+    "comps": [
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 8,
+      "goals": 1,
+      "assists": 2
+     },
+     {
+      "league": "fifa.worldq.uefa",
+      "name": "WCQ - UEFA",
+      "apps": 5,
+      "goals": 1,
+      "assists": 2
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 58,
+    "goals": 5,
+    "assists": 9
+   },
+   "natTotals": {
+    "apps": 13,
+    "goals": 2,
+    "assists": 4
+   },
+   "apps": 71,
+   "goals": 7,
+   "assists": 13
   },
   "Rodri": {
    "ar": "رودري",
    "espnId": "231828",
    "club": "Barcelona",
-   "comps": [
-    {
-     "league": "uefa.champions",
-     "name": "UEFA Champions League",
-     "apps": 5,
-     "goals": 0,
-     "assists": 0
-    }
-   ],
-   "apps": 5,
+   "comps": [],
+   "national": {
+    "team": "Spain",
+    "comps": [
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 8,
+      "goals": 0,
+      "assists": 0
+     },
+     {
+      "league": "fifa.worldq.uefa",
+      "name": "WCQ - UEFA",
+      "apps": 2,
+      "goals": 0,
+      "assists": 0
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 0,
+    "goals": 0,
+    "assists": 0
+   },
+   "natTotals": {
+    "apps": 10,
+    "goals": 0,
+    "assists": 0
+   },
+   "apps": 10,
    "goals": 0,
-   "assists": 0
+   "assists": 0,
+   "warn": "لا أرقام لهذا الموسم"
   },
   "Fabián Ruiz": {
    "ar": "فابيان رويز",
@@ -930,9 +1534,38 @@
      "assists": 0
     }
    ],
-   "apps": 34,
-   "goals": 2,
-   "assists": 5
+   "national": {
+    "team": "Spain",
+    "comps": [
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 8,
+      "goals": 1,
+      "assists": 0
+     },
+     {
+      "league": "fifa.worldq.uefa",
+      "name": "WCQ - UEFA",
+      "apps": 2,
+      "goals": 0,
+      "assists": 1
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 34,
+    "goals": 2,
+    "assists": 5
+   },
+   "natTotals": {
+    "apps": 10,
+    "goals": 1,
+    "assists": 1
+   },
+   "apps": 44,
+   "goals": 3,
+   "assists": 6
   },
   "William Saliba": {
    "ar": "ويليام ساليبا",
@@ -968,7 +1601,36 @@
      "assists": 0
     }
    ],
-   "apps": 51,
+   "national": {
+    "team": "France",
+    "comps": [
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 8,
+      "goals": 0,
+      "assists": 0
+     },
+     {
+      "league": "fifa.worldq.uefa",
+      "name": "WCQ - UEFA",
+      "apps": 4,
+      "goals": 0,
+      "assists": 0
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 51,
+    "goals": 1,
+    "assists": 1
+   },
+   "natTotals": {
+    "apps": 12,
+    "goals": 0,
+    "assists": 0
+   },
+   "apps": 63,
    "goals": 1,
    "assists": 1
   },
@@ -976,18 +1638,40 @@
    "ar": "فيران توريس",
    "espnId": "265869",
    "club": "Paris Saint-Germain",
-   "comps": [
-    {
-     "league": "uefa.champions",
-     "name": "UEFA Champions League",
-     "apps": 11,
-     "goals": 3,
-     "assists": 1
-    }
-   ],
-   "apps": 11,
+   "comps": [],
+   "national": {
+    "team": "Spain",
+    "comps": [
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 8,
+      "goals": 1,
+      "assists": 1
+     },
+     {
+      "league": "fifa.worldq.uefa",
+      "name": "WCQ - UEFA",
+      "apps": 5,
+      "goals": 2,
+      "assists": 1
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 0,
+    "goals": 0,
+    "assists": 0
+   },
+   "natTotals": {
+    "apps": 13,
+    "goals": 3,
+    "assists": 2
+   },
+   "apps": 13,
    "goals": 3,
-   "assists": 1
+   "assists": 2,
+   "warn": "لا أرقام لهذا الموسم"
   },
   "Dayot Upamecano": {
    "ar": "دايو أوباميكانو",
@@ -1023,9 +1707,38 @@
      "assists": 2
     }
    ],
-   "apps": 51,
+   "national": {
+    "team": "France",
+    "comps": [
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 8,
+      "goals": 0,
+      "assists": 1
+     },
+     {
+      "league": "fifa.worldq.uefa",
+      "name": "WCQ - UEFA",
+      "apps": 6,
+      "goals": 0,
+      "assists": 0
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 51,
+    "goals": 2,
+    "assists": 3
+   },
+   "natTotals": {
+    "apps": 14,
+    "goals": 0,
+    "assists": 1
+   },
+   "apps": 65,
    "goals": 2,
-   "assists": 3
+   "assists": 4
   },
   "Vinícius Júnior": {
    "ar": "فينيسيوس جونيور",
@@ -1061,9 +1774,31 @@
      "assists": 5
     }
    ],
-   "apps": 54,
-   "goals": 22,
-   "assists": 10
+   "national": {
+    "team": "Brazil",
+    "comps": [
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 5,
+      "goals": 4,
+      "assists": 1
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 54,
+    "goals": 22,
+    "assists": 10
+   },
+   "natTotals": {
+    "apps": 5,
+    "goals": 4,
+    "assists": 1
+   },
+   "apps": 59,
+   "goals": 26,
+   "assists": 11
   },
   "Vitinha": {
    "ar": "فيتينيا",
@@ -1114,7 +1849,36 @@
      "assists": 1
     }
    ],
-   "apps": 53,
+   "national": {
+    "team": "Portugal",
+    "comps": [
+     {
+      "league": "fifa.world",
+      "name": "FIFA World Cup",
+      "apps": 5,
+      "goals": 0,
+      "assists": 0
+     },
+     {
+      "league": "fifa.worldq.uefa",
+      "name": "WCQ - UEFA",
+      "apps": 6,
+      "goals": 0,
+      "assists": 0
+     }
+    ]
+   },
+   "clubTotals": {
+    "apps": 53,
+    "goals": 7,
+    "assists": 10
+   },
+   "natTotals": {
+    "apps": 11,
+    "goals": 0,
+    "assists": 0
+   },
+   "apps": 64,
    "goals": 7,
    "assists": 10
   }
