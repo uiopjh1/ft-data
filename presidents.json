@@ -2011,5 +2011,77 @@
     "en": "Cliff Crown",
     "since": 2013,
     "noTitles": true
+  },
+  "Bayer Leverkusen": {
+    "name": "فرناندو كارو",
+    "en": "Fernando Carro",
+    "since": 2018,
+    "role": "الرئيس التنفيذي",
+    "interim": true,
+    "titles": [
+      {
+        "name": "الدوري الألماني",
+        "detail": "2024",
+        "slug": "ger.1"
+      },
+      {
+        "name": "كأس ألمانيا",
+        "detail": "2024",
+        "slug": "ger.dfb_pokal"
+      },
+      {
+        "name": "كأس السوبر الألماني",
+        "detail": "2024",
+        "slug": "ger.super_cup"
+      }
+    ]
+  },
+  "Leverkusen": {
+    "name": "فرناندو كارو",
+    "en": "Fernando Carro",
+    "since": 2018,
+    "role": "الرئيس التنفيذي",
+    "interim": true,
+    "titles": [
+      {
+        "name": "الدوري الألماني",
+        "detail": "2024",
+        "slug": "ger.1"
+      },
+      {
+        "name": "كأس ألمانيا",
+        "detail": "2024",
+        "slug": "ger.dfb_pokal"
+      },
+      {
+        "name": "كأس السوبر الألماني",
+        "detail": "2024",
+        "slug": "ger.super_cup"
+      }
+    ]
+  },
+  "Bayer 04 Leverkusen": {
+    "name": "فرناندو كارو",
+    "en": "Fernando Carro",
+    "since": 2018,
+    "role": "الرئيس التنفيذي",
+    "interim": true,
+    "titles": [
+      {
+        "name": "الدوري الألماني",
+        "detail": "2024",
+        "slug": "ger.1"
+      },
+      {
+        "name": "كأس ألمانيا",
+        "detail": "2024",
+        "slug": "ger.dfb_pokal"
+      },
+      {
+        "name": "كأس السوبر الألماني",
+        "detail": "2024",
+        "slug": "ger.super_cup"
+      }
+    ]
   }
 }
