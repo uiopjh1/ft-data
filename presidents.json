@@ -2094,7 +2094,8 @@
         "detail": "2026",
         "slug": "uefa.europa"
       }
-    ]
+    ],
+    "since": 2018
   },
   "Sassuolo": {
     "name": "كارلو روسي",
@@ -2108,7 +2109,8 @@
         "name": "الدرجة الثالثة الإيطالية (المجموعة الشمالية)",
         "detail": "2008"
       }
-    ]
+    ],
+    "since": 2004
   },
   "US Sassuolo": {
     "name": "كارلو روسي",
@@ -2122,7 +2124,8 @@
         "name": "الدرجة الثالثة الإيطالية (المجموعة الشمالية)",
         "detail": "2008"
       }
-    ]
+    ],
+    "since": 2004
   },
   "AFC Bournemouth": {
     "name": "بيل فولي",
@@ -2161,5 +2164,17 @@
         "detail": "2019"
       }
     ]
+  },
+  "Werder Bremen": {
+    "name": "هوبرتوس هيس-غرونيفالد",
+    "en": "Hubertus Hess-Grunewald",
+    "since": 2014,
+    "noTitles": true
+  },
+  "SV Werder Bremen": {
+    "name": "هوبرتوس هيس-غرونيفالد",
+    "en": "Hubertus Hess-Grunewald",
+    "since": 2014,
+    "noTitles": true
   }
 }
