@@ -1,0 +1,16 @@
+name: pres-photos
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: node pres-photos.mjs
+      - run: |
+          git config user.name github-actions; git config user.email a@b.c
+          git add pres_photos_probe.json; git commit -m "pres photos probe" || true
+          git pull --rebase -q; git push
