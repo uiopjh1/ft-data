@@ -36,7 +36,7 @@ async function findPlayer(name) {
   return { id: exact.length ? exact[0].id : null, ambiguous: exact.length > 1, found: hits.length };
 }
 
-const out = { asOf: new Date().toISOString().slice(0, 10), season: SEASON, source: 'ESPN (سجل مباريات اللاعب)', scope: 'النادي الحالي فقط؛ الموسم من 1 أغسطس إلى 31 يوليو؛ بدون الودية', players: {} };
+const out = { asOf: new Date().toISOString().slice(0, 10), season: SEASON, source: 'ESPN (سجل مباريات اللاعب)', scope: 'النادي الحالي + المنتخب الأول؛ الموسم من 1 أغسطس إلى 31 يوليو؛ المباريات الرسمية فقط (بدون الودية والشباب)', players: {} };
 for (const p of e.players) {
   const rec = { ar: p.ar };
   try {
@@ -51,38 +51,68 @@ for (const p of e.players) {
     const team = (st.filters || []).find((x) => x.name === 'team');
     const lg = (st.filters || []).find((x) => x.name === 'league');
     rec.club = team && team.options ? (team.options.find((o) => o.value === team.value) || {}).displayValue : null;
+    const lo = Date.parse(`${SEASON}-08-01T00:00:00Z`), hi = Date.parse(`${SEASON + 1}-08-01T00:00:00Z`);
+    const OFFICIAL_BAD = /friend|joan_gamper|club\.friendly|\.u\d\d|youth|\.w\b|women/i;
+    // يجمع مباريات (فريق، بطولة) داخل نافذة الموسم الرسمي من سجل المباريات، ويستبعد الودية
+    async function collect(teamId, league) {
+      let apps = 0, goals = 0, assists = 0;
+      for (const yr of [SEASON, SEASON + 1]) {
+        const gl = await getJson(`${base}/gamelog?season=${yr}&league=${encodeURIComponent(league)}${teamId ? '&team=' + teamId : ''}`);
+        await sleep(200);
+        if (!gl) continue;
+        const labels = gl.labels || [];
+        const iG = labels.indexOf('G'), iA = labels.indexOf('A');
+        const seen = new Set();
+        walk(gl.seasonTypes, (x) => {
+          if (!Array.isArray(x.events)) return;
+          for (const m of x.events) {
+            if (!m || !Array.isArray(m.stats) || seen.has(m.eventId)) continue;
+            const meta = gl.events && gl.events[m.eventId];
+            const d = meta && Date.parse(meta.gameDate);
+            if (!d || d < lo || d >= hi) continue;
+            seen.add(m.eventId);
+            apps++;
+            goals += Number(m.stats[iG]) || 0;
+            assists += Number(m.stats[iA]) || 0;
+          }
+        });
+      }
+      return { apps, goals, assists };
+    }
     const comps = [];
     for (const o of (lg && lg.options) || []) {
-      // نحسب من سجل المباريات نفسه بتواريخها: الموسم الرسمي من 1 أغسطس إلى 31 يوليو (يستبعد كأس العالم للأندية الصيفية وما قبل الموسم)
-      const gl = await getJson(`${base}/gamelog?season=${SEASON}&league=${encodeURIComponent(o.value)}`);
-      await sleep(250);
-      if (!gl) continue;
-      const labels = gl.labels || [];
-      const iG = labels.indexOf('G'), iA = labels.indexOf('A');
-      const lo = Date.parse(`${SEASON}-08-01T00:00:00Z`), hi = Date.parse(`${SEASON + 1}-08-01T00:00:00Z`);
-      let apps = 0, goals = 0, assists = 0, skipped = 0;
-      walk(gl.seasonTypes, (x) => {
-        if (!Array.isArray(x.events)) return;
-        for (const m of x.events) {
-          if (!m || !Array.isArray(m.stats)) continue;
-          const meta = gl.events && gl.events[m.eventId];
-          const d = meta && Date.parse(meta.gameDate);
-          if (!d || d < lo || d >= hi) { skipped++; continue; }
-          apps++;
-          goals += Number(m.stats[iG]) || 0;
-          assists += Number(m.stats[iA]) || 0;
-        }
-      });
-      if (!apps) continue;
-      const g = (lab) => (lab === 'G' ? goals : lab === 'A' ? assists : 0);
-      comps.push({ league: o.value, name: o.displayValue, apps, goals: g('G'), assists: g('A'), outsideWindow: skipped || undefined });
+      if (OFFICIAL_BAD.test(o.value)) continue;
+      const r = await collect(team && team.value, o.value);
+      if (r.apps) comps.push({ league: o.value, name: o.displayValue, ...r });
     }
-    // استبعاد البطولات الودية/غير الرسمية
-    rec.comps = comps.filter((c) => !/friend|joan_gamper|club\.friendly/i.test(c.league));
-    rec.apps = rec.comps.reduce((a, c) => a + c.apps, 0);
-    rec.goals = rec.comps.reduce((a, c) => a + c.goals, 0);
-    rec.assists = rec.comps.reduce((a, c) => a + c.assists, 0);
-    if (!rec.comps.length) rec.warn = (rec.warn ? rec.warn + '؛ ' : '') + 'لا أرقام لهذا الموسم';
+    rec.comps = comps;
+    // المنتخب الأول: فريق تضم بطولاته كأس العالم أو الودية الدولية (يُستبعد الشباب)
+    let nat = null;
+    for (const tm of (team && team.options) || []) {
+      if (tm.value === team.value || /U\d\d|Women/i.test(tm.displayValue)) continue;
+      const sx = await getJson(`${base}/stats?team=${tm.value}`);
+      await sleep(200);
+      const lgs = ((sx && sx.filters) || []).find((x) => x.name === 'league');
+      const opts = (lgs && lgs.options) || [];
+      if (!opts.some((o) => /^fifa\.(world|friendly)/.test(o.value))) continue;
+      const nc = [];
+      for (const o of opts) {
+        if (OFFICIAL_BAD.test(o.value)) continue;
+        const r = await collect(tm.value, o.value);
+        if (r.apps) nc.push({ league: o.value, name: o.displayValue, ...r });
+      }
+      nat = { team: tm.displayValue, comps: nc };
+      break;
+    }
+    if (nat) rec.national = nat;
+    const sum = (arr, k) => arr.reduce((a, c) => a + c[k], 0);
+    rec.clubTotals = { apps: sum(comps, 'apps'), goals: sum(comps, 'goals'), assists: sum(comps, 'assists') };
+    const nl = (nat && nat.comps) || [];
+    rec.natTotals = { apps: sum(nl, 'apps'), goals: sum(nl, 'goals'), assists: sum(nl, 'assists') };
+    rec.apps = rec.clubTotals.apps + rec.natTotals.apps;
+    rec.goals = rec.clubTotals.goals + rec.natTotals.goals;
+    rec.assists = rec.clubTotals.assists + rec.natTotals.assists;
+    if (!comps.length) rec.warn = (rec.warn ? rec.warn + '؛ ' : '') + 'لا أرقام لهذا الموسم';
   } catch (err) {
     rec.error = String(err.message || err);
   }
