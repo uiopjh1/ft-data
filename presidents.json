@@ -1858,5 +1858,49 @@
         "detail": "2024"
       }
     ]
+  },
+  "Auxerre": {
+    "name": "جيمس تشو",
+    "en": "James Zhou",
+    "since": 2021,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الفرنسية",
+        "detail": "2024"
+      }
+    ]
+  },
+  "AJ Auxerre": {
+    "name": "جيمس تشو",
+    "en": "James Zhou",
+    "since": 2021,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الفرنسية",
+        "detail": "2024"
+      }
+    ]
+  },
+  "Le Havre": {
+    "name": "جان ميشيل روسييه",
+    "en": "Jean-Michel Roussier",
+    "since": 2022,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الفرنسية",
+        "detail": "2023"
+      }
+    ]
+  },
+  "Le Havre AC": {
+    "name": "جان ميشيل روسييه",
+    "en": "Jean-Michel Roussier",
+    "since": 2022,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الفرنسية",
+        "detail": "2023"
+      }
+    ]
   }
 }
