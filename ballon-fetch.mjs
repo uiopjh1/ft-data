@@ -36,6 +36,7 @@ async function findPlayer(name) {
   return { id: exact.length ? exact[0].id : null, ambiguous: exact.length > 1, found: hits.length };
 }
 
+const SUMM = new Map();
 const out = { asOf: new Date().toISOString().slice(0, 10), season: SEASON, source: 'ESPN (سجل مباريات اللاعب)', scope: 'النادي الحالي + المنتخب الأول؛ الموسم من 1 أغسطس إلى 31 يوليو؛ المباريات الرسمية فقط (بدون الودية والشباب)', players: {} };
 for (const p of e.players) {
   const rec = { ar: p.ar };
@@ -54,8 +55,25 @@ for (const p of e.players) {
     const lo = Date.parse(`${SEASON}-08-01T00:00:00Z`), hi = Date.parse(`${SEASON + 1}-08-01T00:00:00Z`);
     const OFFICIAL_BAD = /friend|joan_gamper|club\.friendly|\.u\d\d|youth|\.w\b|women/i;
     // يجمع مباريات (فريق، بطولة) داخل نافذة الموسم الرسمي من سجل المباريات، ويستبعد الودية
+    // مباراة اللاعب تُحسب فقط إذا ظهر في تشكيلة المباراة بإحصائية appearances ≥ 1 (يستبعد من بقي على الدكة)
+    async function played(league, eventId) {
+      const k = `${league}|${eventId}`;
+      if (!SUMM.has(k)) {
+        SUMM.set(k, await getJson(`https://site.api.espn.com/apis/site/v2/sports/soccer/${league}/summary?event=${eventId}`));
+        await sleep(120);
+      }
+      const s = SUMM.get(k);
+      if (!s || !Array.isArray(s.rosters)) return null; // غير معروف
+      for (const r of s.rosters) for (const p of r.roster || []) {
+        if (p.athlete && String(p.athlete.id) === String(f.id)) {
+          const a = (p.stats || []).find((x) => x.name === 'appearances');
+          return a ? Number(a.value) >= 1 : !!(p.starter || p.subbedIn);
+        }
+      }
+      return false;
+    }
     async function collect(teamId, league) {
-      let apps = 0, goals = 0, assists = 0;
+      let apps = 0, goals = 0, assists = 0, unknown = 0;
       for (const yr of [SEASON, SEASON + 1]) {
         const gl = await getJson(`${base}/gamelog?season=${yr}&league=${encodeURIComponent(league)}${teamId ? '&team=' + teamId : ''}`);
         await sleep(200);
@@ -63,6 +81,7 @@ for (const p of e.players) {
         const labels = gl.labels || [];
         const iG = labels.indexOf('G'), iA = labels.indexOf('A');
         const seen = new Set();
+        const list = [];
         walk(gl.seasonTypes, (x) => {
           if (!Array.isArray(x.events)) return;
           for (const m of x.events) {
@@ -71,13 +90,19 @@ for (const p of e.players) {
             const d = meta && Date.parse(meta.gameDate);
             if (!d || d < lo || d >= hi) continue;
             seen.add(m.eventId);
-            apps++;
-            goals += Number(m.stats[iG]) || 0;
-            assists += Number(m.stats[iA]) || 0;
+            list.push(m);
           }
         });
+        for (const m of list) {
+          const pl = await played(league, m.eventId);
+          if (pl === false) continue; // لم يشارك
+          if (pl === null) unknown++;
+          apps++;
+          goals += Number(m.stats[iG]) || 0;
+          assists += Number(m.stats[iA]) || 0;
+        }
       }
-      return { apps, goals, assists };
+      return { apps, goals, assists, unknown: unknown || undefined };
     }
     const comps = [];
     for (const o of (lg && lg.options) || []) {
