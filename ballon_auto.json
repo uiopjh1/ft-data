@@ -1,0 +1,1367 @@
+{
+ "asOf": "2026-10-27",
+ "season": 2025,
+ "source": "ESPN (واجهة إحصائيات اللاعب)",
+ "scope": "النادي الحالي فقط؛ أرقام المنتخب غير محسوبة",
+ "players": {
+  "Jude Bellingham": {
+   "ar": "جود بيلينغهام",
+   "espnId": "291281",
+   "club": "Real Madrid",
+   "comps": [
+    {
+     "league": "fifa.cwc",
+     "name": "Club World Cup",
+     "apps": 6,
+     "goals": 1,
+     "assists": 1,
+     "starts": 6
+    },
+    {
+     "league": "esp.copa_del_rey",
+     "name": "Copa del Rey",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 0
+    },
+    {
+     "league": "esp.1",
+     "name": "LALIGA",
+     "apps": 28,
+     "goals": 6,
+     "assists": 4,
+     "starts": 22
+    },
+    {
+     "league": "esp.super_cup",
+     "name": "Spanish Supercopa",
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "starts": 2
+    },
+    {
+     "league": "uefa.champions",
+     "name": "UEFA Champions League",
+     "apps": 10,
+     "goals": 2,
+     "assists": 1,
+     "starts": 6
+    }
+   ],
+   "apps": 47,
+   "goals": 9,
+   "assists": 6
+  },
+  "Pau Cubarsí": {
+   "ar": "باو كوبارسي",
+   "espnId": "368992",
+   "club": "Barcelona",
+   "comps": [
+    {
+     "league": "esp.copa_del_rey",
+     "name": "Copa del Rey",
+     "apps": 5,
+     "goals": 0,
+     "assists": 0,
+     "starts": 3
+    },
+    {
+     "league": "esp.1",
+     "name": "LALIGA",
+     "apps": 38,
+     "goals": 1,
+     "assists": 0,
+     "starts": 31
+    },
+    {
+     "league": "esp.super_cup",
+     "name": "Spanish Supercopa",
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "starts": 2
+    },
+    {
+     "league": "esp.joan_gamper",
+     "name": "Trofeo Joan Gamper",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "uefa.champions",
+     "name": "UEFA Champions League",
+     "apps": 11,
+     "goals": 0,
+     "assists": 0,
+     "starts": 9
+    }
+   ],
+   "apps": 57,
+   "goals": 1,
+   "assists": 0
+  },
+  "Marc Cucurella": {
+   "ar": "مارك كوكوريا",
+   "espnId": "259910",
+   "club": "Real Madrid",
+   "comps": [],
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "warn": "لا أرقام لهذا الموسم"
+  },
+  "Ousmane Dembélé": {
+   "ar": "عثمان ديمبيلي",
+   "espnId": "229744",
+   "club": "Paris Saint-Germain",
+   "comps": [
+    {
+     "league": "fra.coupe_de_france",
+     "name": "Coupe de France",
+     "apps": 2,
+     "goals": 1,
+     "assists": 1,
+     "starts": 1
+    },
+    {
+     "league": "fifa.cwc",
+     "name": "Club World Cup",
+     "apps": 4,
+     "goals": 2,
+     "assists": 1,
+     "starts": 2
+    },
+    {
+     "league": "fifa.intercontinental_cup",
+     "name": "Intercontinental Cup",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 0
+    },
+    {
+     "league": "fra.1",
+     "name": "Ligue 1",
+     "apps": 24,
+     "goals": 10,
+     "assists": 7,
+     "starts": 11
+    },
+    {
+     "league": "fra.super_cup",
+     "name": "Trophee des Champions",
+     "apps": 1,
+     "goals": 1,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "uefa.champions",
+     "name": "UEFA Champions League",
+     "apps": 13,
+     "goals": 8,
+     "assists": 2,
+     "starts": 11
+    },
+    {
+     "league": "uefa.super_cup",
+     "name": "UEFA Super Cup",
+     "apps": 1,
+     "goals": 0,
+     "assists": 1,
+     "starts": 1
+    }
+   ],
+   "apps": 46,
+   "goals": 22,
+   "assists": 12
+  },
+  "Luis Díaz": {
+   "ar": "لويس دياز",
+   "espnId": "257390",
+   "warn": "أكثر من لاعب بنفس الاسم، راجع يدوياً",
+   "club": "Bayern München",
+   "comps": [
+    {
+     "league": "ger.1",
+     "name": "Bundesliga",
+     "apps": 32,
+     "goals": 15,
+     "assists": 14,
+     "starts": 27
+    },
+    {
+     "league": "ger.dfb_pokal",
+     "name": "German Cup",
+     "apps": 6,
+     "goals": 3,
+     "assists": 2,
+     "starts": 6
+    },
+    {
+     "league": "ger.super_cup",
+     "name": "German SuperCup",
+     "apps": 1,
+     "goals": 1,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "uefa.champions",
+     "name": "UEFA Champions League",
+     "apps": 12,
+     "goals": 7,
+     "assists": 3,
+     "starts": 12
+    }
+   ],
+   "apps": 51,
+   "goals": 26,
+   "assists": 19
+  },
+  "Bruno Fernandes": {
+   "ar": "برونو فرنانديش",
+   "espnId": "124091",
+   "warn": "أكثر من لاعب بنفس الاسم، راجع يدوياً",
+   "club": "Manchester United",
+   "comps": [
+    {
+     "league": "eng.league_cup",
+     "name": "Carabao Cup",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 0
+    },
+    {
+     "league": "eng.fa",
+     "name": "English FA Cup",
+     "apps": 1,
+     "goals": 0,
+     "assists": 1,
+     "starts": 1
+    },
+    {
+     "league": "eng.1",
+     "name": "Premier League",
+     "apps": 35,
+     "goals": 9,
+     "assists": 21,
+     "starts": 35
+    }
+   ],
+   "apps": 37,
+   "goals": 9,
+   "assists": 22
+  },
+  "Gabriel Magalhães": {
+   "ar": "غابرييل ماغاليش",
+   "espnId": "236322",
+   "club": "Arsenal",
+   "comps": [
+    {
+     "league": "eng.league_cup",
+     "name": "Carabao Cup",
+     "apps": 5,
+     "goals": 0,
+     "assists": 0,
+     "starts": 3
+    },
+    {
+     "league": "eng.fa",
+     "name": "English FA Cup",
+     "apps": 3,
+     "goals": 0,
+     "assists": 0,
+     "starts": 2
+    },
+    {
+     "league": "eng.1",
+     "name": "Premier League",
+     "apps": 32,
+     "goals": 3,
+     "assists": 4,
+     "starts": 30
+    },
+    {
+     "league": "uefa.champions",
+     "name": "UEFA Champions League",
+     "apps": 13,
+     "goals": 1,
+     "assists": 1,
+     "starts": 11
+    }
+   ],
+   "apps": 53,
+   "goals": 4,
+   "assists": 5
+  },
+  "Erling Haaland": {
+   "ar": "إرلينغ هالاند",
+   "espnId": "253989",
+   "club": "Manchester City",
+   "comps": [
+    {
+     "league": "eng.league_cup",
+     "name": "Carabao Cup",
+     "apps": 4,
+     "goals": 0,
+     "assists": 0,
+     "starts": 2
+    },
+    {
+     "league": "eng.fa",
+     "name": "English FA Cup",
+     "apps": 4,
+     "goals": 3,
+     "assists": 1,
+     "starts": 3
+    },
+    {
+     "league": "eng.1",
+     "name": "Premier League",
+     "apps": 36,
+     "goals": 27,
+     "assists": 8,
+     "starts": 34
+    },
+    {
+     "league": "fifa.cwc",
+     "name": "Club World Cup",
+     "apps": 4,
+     "goals": 3,
+     "assists": 1,
+     "starts": 2
+    },
+    {
+     "league": "uefa.champions",
+     "name": "UEFA Champions League",
+     "apps": 10,
+     "goals": 8,
+     "assists": 0,
+     "starts": 9
+    }
+   ],
+   "apps": 58,
+   "goals": 41,
+   "assists": 10
+  },
+  "Achraf Hakimi": {
+   "ar": "أشرف حكيمي",
+   "espnId": "240233",
+   "club": "Paris Saint-Germain",
+   "comps": [
+    {
+     "league": "fifa.cwc",
+     "name": "Club World Cup",
+     "apps": 7,
+     "goals": 2,
+     "assists": 2,
+     "starts": 7
+    },
+    {
+     "league": "fra.1",
+     "name": "Ligue 1",
+     "apps": 19,
+     "goals": 2,
+     "assists": 2,
+     "starts": 15
+    },
+    {
+     "league": "uefa.champions",
+     "name": "UEFA Champions League",
+     "apps": 13,
+     "goals": 1,
+     "assists": 6,
+     "starts": 13
+    },
+    {
+     "league": "uefa.super_cup",
+     "name": "UEFA Super Cup",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    }
+   ],
+   "apps": 40,
+   "goals": 5,
+   "assists": 10
+  },
+  "Harry Kane": {
+   "ar": "هاري كين",
+   "espnId": "142200",
+   "club": "Bayern München",
+   "comps": [
+    {
+     "league": "fifa.cwc",
+     "name": "Club World Cup",
+     "apps": 5,
+     "goals": 3,
+     "assists": 1,
+     "starts": 4
+    },
+    {
+     "league": "ger.1",
+     "name": "Bundesliga",
+     "apps": 32,
+     "goals": 36,
+     "assists": 5,
+     "starts": 25
+    },
+    {
+     "league": "ger.dfb_pokal",
+     "name": "German Cup",
+     "apps": 6,
+     "goals": 10,
+     "assists": 0,
+     "starts": 6
+    },
+    {
+     "league": "ger.super_cup",
+     "name": "German SuperCup",
+     "apps": 1,
+     "goals": 1,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "uefa.champions",
+     "name": "UEFA Champions League",
+     "apps": 14,
+     "goals": 14,
+     "assists": 2,
+     "starts": 12
+    }
+   ],
+   "apps": 58,
+   "goals": 64,
+   "assists": 8
+  },
+  "Khvicha Kvaratskhelia": {
+   "ar": "خفيشا كفاراتسخيليا",
+   "espnId": "274745",
+   "club": "Paris Saint-Germain",
+   "comps": [
+    {
+     "league": "fra.coupe_de_france",
+     "name": "Coupe de France",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "fifa.cwc",
+     "name": "Club World Cup",
+     "apps": 7,
+     "goals": 1,
+     "assists": 2,
+     "starts": 7
+    },
+    {
+     "league": "fifa.intercontinental_cup",
+     "name": "Intercontinental Cup",
+     "apps": 1,
+     "goals": 1,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "fra.1",
+     "name": "Ligue 1",
+     "apps": 31,
+     "goals": 8,
+     "assists": 4,
+     "starts": 18
+    },
+    {
+     "league": "fra.super_cup",
+     "name": "Trophee des Champions",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "uefa.champions",
+     "name": "UEFA Champions League",
+     "apps": 16,
+     "goals": 10,
+     "assists": 6,
+     "starts": 14
+    },
+    {
+     "league": "uefa.super_cup",
+     "name": "UEFA Super Cup",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    }
+   ],
+   "apps": 58,
+   "goals": 20,
+   "assists": 12
+  },
+  "Lamine Yamal": {
+   "ar": "لامين يامال",
+   "espnId": "362150",
+   "club": "Barcelona",
+   "comps": [
+    {
+     "league": "esp.copa_del_rey",
+     "name": "Copa del Rey",
+     "apps": 5,
+     "goals": 2,
+     "assists": 2,
+     "starts": 5
+    },
+    {
+     "league": "esp.1",
+     "name": "LALIGA",
+     "apps": 28,
+     "goals": 16,
+     "assists": 11,
+     "starts": 26
+    },
+    {
+     "league": "esp.super_cup",
+     "name": "Spanish Supercopa",
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "esp.joan_gamper",
+     "name": "Trofeo Joan Gamper",
+     "apps": 1,
+     "goals": 2,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "uefa.champions",
+     "name": "UEFA Champions League",
+     "apps": 10,
+     "goals": 6,
+     "assists": 4,
+     "starts": 10
+    }
+   ],
+   "apps": 46,
+   "goals": 26,
+   "assists": 17
+  },
+  "Sadio Mané": {
+   "ar": "ساديو ماني",
+   "espnId": "169797",
+   "club": "Al Nassr",
+   "comps": [
+    {
+     "league": "afc.cup",
+     "name": "AFC Champions League Two",
+     "apps": 9,
+     "goals": 3,
+     "assists": 3,
+     "starts": 4
+    },
+    {
+     "league": "ksa.kings.cup",
+     "name": "Saudi King's Cup",
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "ksa.1",
+     "name": "Saudi Pro League",
+     "apps": 25,
+     "goals": 10,
+     "assists": 6,
+     "starts": 25
+    }
+   ],
+   "apps": 36,
+   "goals": 13,
+   "assists": 9
+  },
+  "Marquinhos": {
+   "ar": "ماركينيوس",
+   "espnId": "159047",
+   "warn": "أكثر من لاعب بنفس الاسم، راجع يدوياً",
+   "club": "Paris Saint-Germain",
+   "comps": [
+    {
+     "league": "fra.coupe_de_france",
+     "name": "Coupe de France",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 0
+    },
+    {
+     "league": "fifa.cwc",
+     "name": "Club World Cup",
+     "apps": 7,
+     "goals": 0,
+     "assists": 0,
+     "starts": 6
+    },
+    {
+     "league": "fifa.intercontinental_cup",
+     "name": "Intercontinental Cup",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "fra.1",
+     "name": "Ligue 1",
+     "apps": 29,
+     "goals": 0,
+     "assists": 0,
+     "starts": 11
+    },
+    {
+     "league": "fra.super_cup",
+     "name": "Trophee des Champions",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "uefa.champions",
+     "name": "UEFA Champions League",
+     "apps": 16,
+     "goals": 2,
+     "assists": 0,
+     "starts": 15
+    },
+    {
+     "league": "uefa.super_cup",
+     "name": "UEFA Super Cup",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    }
+   ],
+   "apps": 56,
+   "goals": 2,
+   "assists": 0
+  },
+  "Lautaro Martínez": {
+   "ar": "لاوتارو مارتينيز",
+   "espnId": "219713",
+   "club": "Internazionale",
+   "comps": [
+    {
+     "league": "ita.coppa_italia",
+     "name": "Coppa Italia",
+     "apps": 3,
+     "goals": 1,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "fifa.cwc",
+     "name": "Club World Cup",
+     "apps": 4,
+     "goals": 2,
+     "assists": 0,
+     "starts": 4
+    },
+    {
+     "league": "ita.1",
+     "name": "Serie A",
+     "apps": 33,
+     "goals": 17,
+     "assists": 6,
+     "starts": 27
+    },
+    {
+     "league": "ita.super_cup",
+     "name": "Italian Supercoppa",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 0
+    },
+    {
+     "league": "uefa.champions",
+     "name": "UEFA Champions League",
+     "apps": 9,
+     "goals": 4,
+     "assists": 0,
+     "starts": 7
+    }
+   ],
+   "apps": 50,
+   "goals": 24,
+   "assists": 6
+  },
+  "Kylian Mbappé": {
+   "ar": "كيليان مبابي",
+   "espnId": "231388",
+   "club": "Real Madrid",
+   "comps": [
+    {
+     "league": "fifa.cwc",
+     "name": "Club World Cup",
+     "apps": 3,
+     "goals": 1,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "esp.copa_del_rey",
+     "name": "Copa del Rey",
+     "apps": 1,
+     "goals": 2,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "esp.1",
+     "name": "LALIGA",
+     "apps": 32,
+     "goals": 25,
+     "assists": 5,
+     "starts": 29
+    },
+    {
+     "league": "esp.super_cup",
+     "name": "Spanish Supercopa",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 0
+    },
+    {
+     "league": "uefa.champions",
+     "name": "UEFA Champions League",
+     "apps": 12,
+     "goals": 15,
+     "assists": 1,
+     "starts": 10
+    }
+   ],
+   "apps": 49,
+   "goals": 43,
+   "assists": 6
+  },
+  "Nuno Mendes": {
+   "ar": "نونو مينديش",
+   "espnId": "290591",
+   "club": "Paris Saint-Germain",
+   "comps": [
+    {
+     "league": "fra.coupe_de_france",
+     "name": "Coupe de France",
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "starts": 0
+    },
+    {
+     "league": "fifa.cwc",
+     "name": "Club World Cup",
+     "apps": 7,
+     "goals": 0,
+     "assists": 0,
+     "starts": 6
+    },
+    {
+     "league": "fifa.intercontinental_cup",
+     "name": "Intercontinental Cup",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "fra.1",
+     "name": "Ligue 1",
+     "apps": 24,
+     "goals": 4,
+     "assists": 5,
+     "starts": 13
+    },
+    {
+     "league": "fra.super_cup",
+     "name": "Trophee des Champions",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "uefa.champions",
+     "name": "UEFA Champions League",
+     "apps": 17,
+     "goals": 2,
+     "assists": 2,
+     "starts": 17
+    },
+    {
+     "league": "uefa.super_cup",
+     "name": "UEFA Super Cup",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    }
+   ],
+   "apps": 53,
+   "goals": 6,
+   "assists": 7
+  },
+  "João Neves": {
+   "ar": "جواو نيفيش",
+   "espnId": "355061",
+   "club": "Paris Saint-Germain",
+   "comps": [
+    {
+     "league": "fra.coupe_de_france",
+     "name": "Coupe de France",
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "starts": 0
+    },
+    {
+     "league": "fifa.cwc",
+     "name": "Club World Cup",
+     "apps": 7,
+     "goals": 2,
+     "assists": 1,
+     "starts": 6
+    },
+    {
+     "league": "fifa.intercontinental_cup",
+     "name": "Intercontinental Cup",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "fra.1",
+     "name": "Ligue 1",
+     "apps": 23,
+     "goals": 5,
+     "assists": 1,
+     "starts": 13
+    },
+    {
+     "league": "fra.super_cup",
+     "name": "Trophee des Champions",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "uefa.champions",
+     "name": "UEFA Champions League",
+     "apps": 15,
+     "goals": 2,
+     "assists": 3,
+     "starts": 13
+    }
+   ],
+   "apps": 49,
+   "goals": 9,
+   "assists": 5
+  },
+  "Michael Olise": {
+   "ar": "مايكل أوليز",
+   "espnId": "286831",
+   "club": "Bayern München",
+   "comps": [
+    {
+     "league": "fifa.cwc",
+     "name": "Club World Cup",
+     "apps": 5,
+     "goals": 3,
+     "assists": 2,
+     "starts": 4
+    },
+    {
+     "league": "ger.1",
+     "name": "Bundesliga",
+     "apps": 33,
+     "goals": 15,
+     "assists": 19,
+     "starts": 23
+    },
+    {
+     "league": "ger.dfb_pokal",
+     "name": "German Cup",
+     "apps": 6,
+     "goals": 2,
+     "assists": 1,
+     "starts": 6
+    },
+    {
+     "league": "ger.super_cup",
+     "name": "German SuperCup",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "uefa.champions",
+     "name": "UEFA Champions League",
+     "apps": 13,
+     "goals": 5,
+     "assists": 6,
+     "starts": 12
+    }
+   ],
+   "apps": 58,
+   "goals": 25,
+   "assists": 28
+  },
+  "Willian Pacho": {
+   "ar": "ويليان باتشو",
+   "espnId": "287005",
+   "club": "Paris Saint-Germain",
+   "comps": [
+    {
+     "league": "fra.coupe_de_france",
+     "name": "Coupe de France",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "fifa.cwc",
+     "name": "Club World Cup",
+     "apps": 5,
+     "goals": 0,
+     "assists": 0,
+     "starts": 5
+    },
+    {
+     "league": "fifa.intercontinental_cup",
+     "name": "Intercontinental Cup",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "fra.1",
+     "name": "Ligue 1",
+     "apps": 31,
+     "goals": 0,
+     "assists": 0,
+     "starts": 21
+    },
+    {
+     "league": "fra.super_cup",
+     "name": "Trophee des Champions",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "uefa.champions",
+     "name": "UEFA Champions League",
+     "apps": 17,
+     "goals": 2,
+     "assists": 1,
+     "starts": 17
+    },
+    {
+     "league": "uefa.super_cup",
+     "name": "UEFA Super Cup",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    }
+   ],
+   "apps": 57,
+   "goals": 2,
+   "assists": 1
+  },
+  "Julián Quiñones": {
+   "ar": "خوليان كينيونيس",
+   "espnId": "233075",
+   "warn": "أكثر من لاعب بنفس الاسم، راجع يدوياً",
+   "club": "Al Qadsiah",
+   "comps": [
+    {
+     "league": "ksa.kings.cup",
+     "name": "Saudi King's Cup",
+     "apps": 3,
+     "goals": 4,
+     "assists": 0,
+     "starts": 3
+    },
+    {
+     "league": "ksa.1",
+     "name": "Saudi Pro League",
+     "apps": 31,
+     "goals": 33,
+     "assists": 4,
+     "starts": 31
+    }
+   ],
+   "apps": 34,
+   "goals": 37,
+   "assists": 4
+  },
+  "Declan Rice": {
+   "ar": "ديكلان رايس",
+   "espnId": "238262",
+   "club": "Arsenal",
+   "comps": [
+    {
+     "league": "eng.league_cup",
+     "name": "Carabao Cup",
+     "apps": 6,
+     "goals": 0,
+     "assists": 2,
+     "starts": 3
+    },
+    {
+     "league": "eng.fa",
+     "name": "English FA Cup",
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "starts": 0
+    },
+    {
+     "league": "eng.1",
+     "name": "Premier League",
+     "apps": 37,
+     "goals": 4,
+     "assists": 5,
+     "starts": 35
+    },
+    {
+     "league": "uefa.champions",
+     "name": "UEFA Champions League",
+     "apps": 13,
+     "goals": 1,
+     "assists": 2,
+     "starts": 11
+    }
+   ],
+   "apps": 58,
+   "goals": 5,
+   "assists": 9
+  },
+  "Rodri": {
+   "ar": "رودري",
+   "espnId": "231828",
+   "club": "Barcelona",
+   "comps": [],
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "warn": "لا أرقام لهذا الموسم"
+  },
+  "Fabián Ruiz": {
+   "ar": "فابيان رويز",
+   "espnId": "214596",
+   "club": "Paris Saint-Germain",
+   "comps": [
+    {
+     "league": "fra.coupe_de_france",
+     "name": "Coupe de France",
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "fifa.cwc",
+     "name": "Club World Cup",
+     "apps": 7,
+     "goals": 3,
+     "assists": 1,
+     "starts": 6
+    },
+    {
+     "league": "fifa.intercontinental_cup",
+     "name": "Intercontinental Cup",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "fra.1",
+     "name": "Ligue 1",
+     "apps": 20,
+     "goals": 1,
+     "assists": 4,
+     "starts": 13
+    },
+    {
+     "league": "fra.super_cup",
+     "name": "Trophee des Champions",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "uefa.champions",
+     "name": "UEFA Champions League",
+     "apps": 9,
+     "goals": 1,
+     "assists": 1,
+     "starts": 8
+    },
+    {
+     "league": "uefa.super_cup",
+     "name": "UEFA Super Cup",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 0
+    }
+   ],
+   "apps": 41,
+   "goals": 5,
+   "assists": 6
+  },
+  "William Saliba": {
+   "ar": "ويليام ساليبا",
+   "espnId": "277385",
+   "club": "Arsenal",
+   "comps": [
+    {
+     "league": "eng.league_cup",
+     "name": "Carabao Cup",
+     "apps": 5,
+     "goals": 0,
+     "assists": 1,
+     "starts": 5
+    },
+    {
+     "league": "eng.fa",
+     "name": "English FA Cup",
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "eng.1",
+     "name": "Premier League",
+     "apps": 31,
+     "goals": 1,
+     "assists": 0,
+     "starts": 30
+    },
+    {
+     "league": "uefa.champions",
+     "name": "UEFA Champions League",
+     "apps": 13,
+     "goals": 0,
+     "assists": 0,
+     "starts": 12
+    }
+   ],
+   "apps": 51,
+   "goals": 1,
+   "assists": 1
+  },
+  "Ferran Torres": {
+   "ar": "فيران توريس",
+   "espnId": "265869",
+   "club": "Paris Saint-Germain",
+   "comps": [],
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "warn": "لا أرقام لهذا الموسم"
+  },
+  "Dayot Upamecano": {
+   "ar": "دايو أوباميكانو",
+   "espnId": "222793",
+   "club": "Bayern München",
+   "comps": [
+    {
+     "league": "fifa.cwc",
+     "name": "Club World Cup",
+     "apps": 5,
+     "goals": 0,
+     "assists": 1,
+     "starts": 3
+    },
+    {
+     "league": "ger.1",
+     "name": "Bundesliga",
+     "apps": 31,
+     "goals": 1,
+     "assists": 1,
+     "starts": 21
+    },
+    {
+     "league": "ger.dfb_pokal",
+     "name": "German Cup",
+     "apps": 6,
+     "goals": 0,
+     "assists": 0,
+     "starts": 5
+    },
+    {
+     "league": "ger.super_cup",
+     "name": "German SuperCup",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "uefa.champions",
+     "name": "UEFA Champions League",
+     "apps": 13,
+     "goals": 1,
+     "assists": 2,
+     "starts": 12
+    }
+   ],
+   "apps": 56,
+   "goals": 2,
+   "assists": 4
+  },
+  "Vinícius Júnior": {
+   "ar": "فينيسيوس جونيور",
+   "espnId": "252107",
+   "club": "Real Madrid",
+   "comps": [
+    {
+     "league": "fifa.cwc",
+     "name": "Club World Cup",
+     "apps": 6,
+     "goals": 1,
+     "assists": 1,
+     "starts": 6
+    },
+    {
+     "league": "esp.copa_del_rey",
+     "name": "Copa del Rey",
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "esp.1",
+     "name": "LALIGA",
+     "apps": 36,
+     "goals": 16,
+     "assists": 5,
+     "starts": 32
+    },
+    {
+     "league": "esp.super_cup",
+     "name": "Spanish Supercopa",
+     "apps": 2,
+     "goals": 1,
+     "assists": 0,
+     "starts": 2
+    },
+    {
+     "league": "uefa.champions",
+     "name": "UEFA Champions League",
+     "apps": 14,
+     "goals": 5,
+     "assists": 5,
+     "starts": 13
+    }
+   ],
+   "apps": 60,
+   "goals": 23,
+   "assists": 11
+  },
+  "Vitinha": {
+   "ar": "فيتينيا",
+   "espnId": "288897",
+   "warn": "أكثر من لاعب بنفس الاسم، راجع يدوياً",
+   "club": "Paris Saint-Germain",
+   "comps": [
+    {
+     "league": "fra.coupe_de_france",
+     "name": "Coupe de France",
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "fifa.cwc",
+     "name": "Club World Cup",
+     "apps": 7,
+     "goals": 1,
+     "assists": 1,
+     "starts": 7
+    },
+    {
+     "league": "fifa.intercontinental_cup",
+     "name": "Intercontinental Cup",
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "starts": 1
+    },
+    {
+     "league": "fra.1",
+     "name": "Ligue 1",
+     "apps": 31,
+     "goals": 1,
+     "assists": 7,
+     "starts": 24
+    },
+    {
+     "league": "fra.super_cup",
+     "name": "Trophee des Champions",
+     "apps": 1,
+     "goals": 0,
+     "assists": 1,
+     "starts": 1
+    },
+    {
+     "league": "uefa.champions",
+     "name": "UEFA Champions League",
+     "apps": 17,
+     "goals": 6,
+     "assists": 1,
+     "starts": 17
+    },
+    {
+     "league": "uefa.super_cup",
+     "name": "UEFA Super Cup",
+     "apps": 1,
+     "goals": 0,
+     "assists": 1,
+     "starts": 1
+    }
+   ],
+   "apps": 60,
+   "goals": 8,
+   "assists": 11
+  }
+ }
+}
