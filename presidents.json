@@ -1902,5 +1902,108 @@
         "detail": "2023"
       }
     ]
+  },
+  "Union Berlin": {
+    "name": "ديرك تسينغلر",
+    "en": "Dirk Zingler",
+    "since": 2004,
+    "titles": [
+      {
+        "name": "دوري الدرجة الثالثة الألماني",
+        "detail": "2009"
+      },
+      {
+        "name": "أوبرليغا نورد (الدرجة الرابعة)",
+        "detail": "2006"
+      }
+    ]
+  },
+  "1. FC Union Berlin": {
+    "name": "ديرك تسينغلر",
+    "en": "Dirk Zingler",
+    "since": 2004,
+    "titles": [
+      {
+        "name": "دوري الدرجة الثالثة الألماني",
+        "detail": "2009"
+      },
+      {
+        "name": "أوبرليغا نورد (الدرجة الرابعة)",
+        "detail": "2006"
+      }
+    ]
+  },
+  "FC Union Berlin": {
+    "name": "ديرك تسينغلر",
+    "en": "Dirk Zingler",
+    "since": 2004,
+    "titles": [
+      {
+        "name": "دوري الدرجة الثالثة الألماني",
+        "detail": "2009"
+      },
+      {
+        "name": "أوبرليغا نورد (الدرجة الرابعة)",
+        "detail": "2006"
+      }
+    ]
+  },
+  "Como": {
+    "name": "ميروان سوارسو",
+    "en": "Mirwan Suwarso",
+    "since": 2019,
+    "titles": [
+      {
+        "name": "الدرجة الثالثة الإيطالية",
+        "detail": "2021"
+      }
+    ]
+  },
+  "Como 1907": {
+    "name": "ميروان سوارسو",
+    "en": "Mirwan Suwarso",
+    "since": 2019,
+    "titles": [
+      {
+        "name": "الدرجة الثالثة الإيطالية",
+        "detail": "2021"
+      }
+    ]
+  },
+  "Angers": {
+    "name": "رومان شبان",
+    "en": "Romain Chabane",
+    "since": 2023,
+    "noTitles": true
+  },
+  "Angers SCO": {
+    "name": "رومان شبان",
+    "en": "Romain Chabane",
+    "since": 2023,
+    "noTitles": true
+  },
+  "Nantes": {
+    "name": "فالديمار كيتا",
+    "en": "Waldemar Kita",
+    "since": 2007,
+    "titles": [
+      {
+        "name": "كأس فرنسا",
+        "detail": "2022",
+        "slug": "fra.coupe_de_france"
+      }
+    ]
+  },
+  "FC Nantes": {
+    "name": "فالديمار كيتا",
+    "en": "Waldemar Kita",
+    "since": 2007,
+    "titles": [
+      {
+        "name": "كأس فرنسا",
+        "detail": "2022",
+        "slug": "fra.coupe_de_france"
+      }
+    ]
   }
 }
