@@ -11,7 +11,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: node ballon-probe.mjs > probe-out.txt 2>&1 || true
+      - run: node ballon-probe.mjs || true
       - run: |
           git config user.name "ft-bot"
           git config user.email "ft-bot@users.noreply.github.com"
