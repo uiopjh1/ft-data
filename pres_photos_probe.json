@@ -62,8 +62,8 @@
  },
  "Tom Werner": {
   "club": "Liverpool",
-  "img": "",
-  "how": ""
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/2007-10-31_sox_champs_03web_%281%29.jpg/330px-2007-10-31_sox_champs_03web_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
  },
  "Badr Al-Ghannam": {
   "club": "Al Taawoun",
@@ -144,8 +144,8 @@
  },
  "Paolo Scaroni": {
   "club": "AC Milan",
-  "img": "",
-  "how": ""
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Paolo_Scaroni%2C_April_2012.jpeg/330px-Paolo_Scaroni%2C_April_2012.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
  },
  "لم يُعلن الرئيس الجديد بعد (ترك تود بوهلي المنصب في سبتمبر 2026)": {
   "club": "Chelsea",
@@ -164,13 +164,13 @@
  },
  "Yasir Al-Rumayyan": {
   "club": "Newcastle United",
-  "img": "",
-  "how": ""
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Yasir_Al-Rumayyan_Argentina_v_Spain_19_July_2026-285.jpg/330px-Yasir_Al-Rumayyan_Argentina_v_Spain_19_July_2026-285.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
  },
  "Aurelio De Laurentiis": {
   "club": "Napoli",
-  "img": "",
-  "how": ""
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Aurelio_De_Laurentiis_2019.jpg/330px-Aurelio_De_Laurentiis_2019.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
  },
  "Michele Kang": {
   "club": "Lyon",
@@ -183,18 +183,18 @@
  },
  "Andre Villas-Boas": {
   "club": "FC Porto",
-  "img": "",
-  "how": ""
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/2023_-_Stage_3_ENZ_2128_%2853331827395%29_%28cropped%29.jpg/330px-2023_-_Stage_3_ENZ_2128_%2853331827395%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
  },
  "Rui Costa": {
   "club": "Benfica",
-  "img": "",
-  "how": ""
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Rui_Costa_2026.jpg/330px-Rui_Costa_2026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
  },
  "Claudio Lotito": {
   "club": "Lazio",
-  "img": "",
-  "how": ""
+  "img": "https://upload.wikimedia.org/wikipedia/commons/9/98/Claudio_Lotito_datisenato.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "how": "enwiki"
  },
  "Fernando Roig": {
   "club": "Villarreal",
@@ -213,18 +213,18 @@
  },
  "Antonio Percassi": {
   "club": "Atalanta",
-  "img": "",
-  "how": ""
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Antonio_Percassi_2012.JPG/330px-Antonio_Percassi_2012.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
  },
  "Jon Uriarte": {
   "club": "Athletic Club",
-  "img": "",
-  "how": ""
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Volleyball_Iran-Australia_%28May_2014%29-7.jpg/330px-Volleyball_Iran-Australia_%28May_2014%29-7.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
  },
  "Angel Haro": {
   "club": "Real Betis",
-  "img": "",
-  "how": ""
+  "img": "commons:Ángel Haro.jpg",
+  "how": "wikidata:Q95778226 Spanish painter"
  },
  "Layhoon Chan": {
   "club": "Valencia",
@@ -237,13 +237,13 @@
  },
  "Steve Parish": {
   "club": "Crystal Palace",
-  "img": "",
-  "how": ""
+  "img": "commons:Steve Parish Portrait.jpg",
+  "how": "wikidata:Q7613543 Australian photographer (born 1945)"
  },
  "Tony Bloom": {
   "club": "Brighton & Hove Albion",
-  "img": "",
-  "how": ""
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Tony_bloom.jpg/330px-Tony_bloom.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
  },
  "لم يُعلن رئيس جديد بعد (استقال ديفيد سوليفان في يونيو 2026)": {
   "club": "West Ham United",
@@ -260,8 +260,8 @@
  },
  "Joseph Oughourlian": {
   "club": "RC Lens",
-  "img": "",
-  "how": ""
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/RC_Lens_-_US_Orl%C3%A9ans_%2817-05-2019%29_69.jpg/330px-RC_Lens_-_US_Orl%C3%A9ans_%2817-05-2019%29_69.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
  },
  "Olivier Létang": {
   "club": "Lille",
@@ -269,8 +269,8 @@
  },
  "Dmitry Rybolovlev": {
   "club": "AS Monaco",
-  "img": "",
-  "how": ""
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/DmitryRybolovlev1.JPG/330px-DmitryRybolovlev1.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
  },
  "Joey Saputo": {
   "club": "Bologna",
@@ -279,8 +279,8 @@
  },
  "Carlos Mouriño": {
   "club": "Celta Vigo",
-  "img": "",
-  "how": ""
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/XXIII_Memorial_Quinocho_%28RC_Celta_vs_Mainz_05%29_-_34_%28cropped%29.jpg/330px-XXIII_Memorial_Quinocho_%28RC_Celta_vs_Mainz_05%29_-_34_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
  },
  "Delfí Geli": {
   "club": "Girona",
@@ -292,13 +292,13 @@
  },
  "Ángel Torres": {
   "club": "Getafe",
-  "img": "",
-  "how": ""
+  "img": "commons:Atrk3.jpg",
+  "how": "wikidata:Q5855923 Spanish science fiction writer"
  },
  "Urbano Cairo": {
   "club": "Torino",
-  "img": "",
-  "how": ""
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Urbano_Cairo_alla_106%C2%B0_edizione_del_Giro_d%27Italia%2C_28_maggio_2023_%28cropped%29.jpg/330px-Urbano_Cairo_alla_106%C2%B0_edizione_del_Giro_d%27Italia%2C_28_maggio_2023_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
  },
  "Luis Sabalza": {
   "club": "Osasuna",
@@ -315,8 +315,8 @@
  },
  "Marc Keller": {
   "club": "Strasbourg",
-  "img": "",
-  "how": ""
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Marc_Keller_au_local_des_supporters_du_Racing_Club_de_Strasbourg_en_2017.jpg/330px-Marc_Keller_au_local_des_supporters_du_Racing_Club_de_Strasbourg_en_2017.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
  },
  "Maurice Cohen": {
   "club": "Nice",
@@ -325,8 +325,8 @@
  },
  "Arnaud Pouille": {
   "club": "Rennes",
-  "img": "",
-  "how": ""
+  "img": "commons:Arnaud Pouille, président exécutif du Stade rennais FC — Photo 2-2.jpg",
+  "how": "wikidata:Q46474232 undefined"
  },
  "Denis Le Saint": {
   "club": "Brest",
@@ -340,13 +340,13 @@
  },
  "Loïc Féry": {
   "club": "Lorient",
-  "img": "",
-  "how": ""
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Loic_Fery_au_stade_du_Mousoir.jpg/330px-Loic_Fery_au_stade_du_Mousoir.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
  },
  "Tommaso Giulini": {
   "club": "Cagliari",
-  "img": "",
-  "how": ""
+  "img": "commons:Tommaso Giulini 2022 (cropped).jpg",
+  "how": "wikidata:Q17284985 Italian entrepreneur"
  },
  "Saverio Sticchi Damiani": {
   "club": "Lecce",
@@ -355,8 +355,8 @@
  },
  "Dan Sucu": {
   "club": "Genoa",
-  "img": "",
-  "how": ""
+  "img": "commons:Dan Șucu.png",
+  "how": "wikidata:Q131477312 Businessman"
  },
  "Franco Soldati": {
   "club": "Udinese",
@@ -384,8 +384,8 @@
  },
  "Pablo Sánchez": {
   "club": "Levante",
-  "img": "",
-  "how": ""
+  "img": "commons:Pablo Sánchez, fiscal de la Nación.jpg",
+  "how": "wikidata:Q60483033 Peruvian lawyer and university professor (born 1956)"
  },
  "Alan Pace": {
   "club": "Espanyol",
@@ -409,13 +409,13 @@
  },
  "Evangelos Marinakis": {
   "club": "Nottingham Forest",
-  "img": "",
-  "how": ""
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Evangelos-Marinakis.jpg/330px-Evangelos-Marinakis.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
  },
  "Damien Comolli": {
   "club": "Pisa",
-  "img": "",
-  "how": ""
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Damien_Comolli_Web_Summit_%28cropped%29.jpg/330px-Damien_Comolli_Web_Summit_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
  },
  "Italo Zanzi": {
   "club": "Hellas Verona",
@@ -458,8 +458,8 @@
  },
  "Kyle Krause": {
   "club": "Parma",
-  "img": "",
-  "how": ""
+  "img": "commons:Kyle Krause (Parma, April 2021) (cropped).jpg",
+  "how": "wikidata:Q131826878 American businessman (born 1963)"
  },
  "James Zhou": {
   "club": "Auxerre",
@@ -473,8 +473,8 @@
  },
  "Dirk Zingler": {
   "club": "Union Berlin",
-  "img": "",
-  "how": ""
+  "img": "commons:DirkZingler 06.jpg",
+  "how": "wikidata:Q28051362 undefined"
  },
  "Mirwan Suwarso": {
   "club": "Como",
@@ -488,8 +488,8 @@
  },
  "Waldemar Kita": {
   "club": "Nantes",
-  "img": "",
-  "how": ""
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Waldemar_Kita_%28cropped_2%29.jpg/330px-Waldemar_Kita_%28cropped_2%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
  },
  "Cliff Crown": {
   "club": "Brentford",
@@ -498,8 +498,8 @@
  },
  "Fernando Carro": {
   "club": "Bayer Leverkusen",
-  "img": "",
-  "how": ""
+  "img": "commons:Fernando Carro Rio2016.jpg",
+  "how": "wikidata:Q20895927 Spanish athletics competitor"
  },
  "ناصف ساويرس وويس إدنز": {
   "club": "Aston Villa",
@@ -513,8 +513,8 @@
  },
  "Bill Foley": {
   "club": "AFC Bournemouth",
-  "img": "",
-  "how": ""
+  "img": "commons:Vegas Goldens Knights Bring the Stanley Cup to West Point (53486672358) (cropped).jpg",
+  "how": "wikidata:Q24902200 American businessman and former attorney"
  },
  "Bernard Serin": {
   "club": "Metz",
@@ -523,7 +523,17 @@
  },
  "Hubertus Hess-Grunewald": {
   "club": "Werder Bremen",
-  "img": "",
-  "how": ""
+  "img": "commons:Hubertus Hess-Grunewald (2026).jpg",
+  "how": "wikidata:Q24249327 undefined"
+ },
+ "_errors": {
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Samer_Al-Mashhal": 404,
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Tawfiq_Al-Mudaihim": 404,
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Sami_Al_Fadel": 404,
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Mansour_Al-Afaliq": 404,
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Shaker_Oweir": 404,
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Fahd_Al-Mutawa": 404,
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Ahmed_Akhreeda": 404,
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Bandar_Al-Muqayyal": 404
  }
 }
