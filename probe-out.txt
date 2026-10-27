@@ -1,2 +1,32 @@
-200 https://site.web.api.espn.com/apis/common/v3/sports/soccer/athletes/142200/gamelog?season=2025 122008
-200 https://site.web.api.espn.com/apis/common/v3/sports/soccer/athletes/142200/stats 16466
+
+## 200 stats?season=2025&league=ger.1
+offensive team=ger.bayern_munich league=ger.1 season=2026 stats=["6","3","7","0","0","4","5","31","10","4"] labels=STRT,FC,FA,YC,RC,G,A,SHOT,SOG,OF
+offensive team=ger.bayern_munich league=ger.1 season=2025 stats=["25","25","32","1","0","36","5","119","67","20"] labels=STRT,FC,FA,YC,RC,G,A,SHOT,SOG,OF
+offensive team=ger.bayern_munich league=ger.1 season=2024 stats=["28","8","21","5","0","26","8","113","52","6"] labels=STRT,FC,FA,YC,RC,G,A,SHOT,SOG,OF
+offensive team=ger.bayern_munich league=ger.1 season=2023 stats=["32","9","39","2","0","36","8","140","62","3"] labels=STRT,FC,FA,YC,RC,G,A,SHOT,SOG,OF
+filters=[["team","132"],["league","ger.1"]]
+
+## 200 stats?season=2025
+offensive team=ger.bayern_munich league=ger.1 season=2026 stats=["6","3","7","0","0","4","5","31","10","4"] labels=STRT,FC,FA,YC,RC,G,A,SHOT,SOG,OF
+offensive team=ger.bayern_munich league=ger.1 season=2025 stats=["25","25","32","1","0","36","5","119","67","20"] labels=STRT,FC,FA,YC,RC,G,A,SHOT,SOG,OF
+offensive team=ger.bayern_munich league=ger.1 season=2024 stats=["28","8","21","5","0","26","8","113","52","6"] labels=STRT,FC,FA,YC,RC,G,A,SHOT,SOG,OF
+offensive team=ger.bayern_munich league=ger.1 season=2023 stats=["32","9","39","2","0","36","8","140","62","3"] labels=STRT,FC,FA,YC,RC,G,A,SHOT,SOG,OF
+filters=[["team","132"],["league","ger.1"]]
+
+## 200 stats?league=uefa.champions&season=2025
+offensive team=ger.bayern_munich league=uefa.champions season=2026 stats=["3","1","2","0","0","4","2","15","7","1"] labels=STRT,FC,FA,YC,RC,G,A,SHOT,SOG,OF
+offensive team=ger.bayern_munich league=uefa.champions season=2025 stats=["12","8","23","0","0","14","2","46","25","3"] labels=STRT,FC,FA,YC,RC,G,A,SHOT,SOG,OF
+offensive team=ger.bayern_munich league=uefa.champions season=2024 stats=["13","8","18","1","0","11","2","49","24","2"] labels=STRT,FC,FA,YC,RC,G,A,SHOT,SOG,OF
+offensive team=ger.bayern_munich league=uefa.champions season=2023 stats=["12","13","25","1","0","8","4","36","15","2"] labels=STRT,FC,FA,YC,RC,G,A,SHOT,SOG,OF
+filters=[["team","132"],["league","uefa.champions"]]
+
+## 200 gamelog?season=2025&league=ger.1
+2025-26 German Bundesliga/2025-26 German Bundesliga Stats n=32 totals=undefined
+filters=[["season","2025"],["team","132"],["league","ger.1"]]
+
+## 200 gamelog?season=2025&league=uefa.champions
+League Phase/League Phase Stats n=8 totals=undefined
+Round of 16/Round of 16 Stats n=2 totals=undefined
+Quarterfinals/Quarterfinals Stats n=2 totals=undefined
+Semifinals/Semifinals Stats n=2 totals=undefined
+filters=[["season","2025"],["team","132"],["league","uefa.champions"]]
