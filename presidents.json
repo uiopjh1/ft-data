@@ -2123,5 +2123,21 @@
         "detail": "2008"
       }
     ]
+  },
+  "AFC Bournemouth": {
+    "name": "بيل فولي",
+    "en": "Bill Foley",
+    "since": 2022,
+    "role": "رئيس مجلس الإدارة",
+    "interim": true,
+    "noTitles": true
+  },
+  "Bournemouth": {
+    "name": "بيل فولي",
+    "en": "Bill Foley",
+    "since": 2022,
+    "role": "رئيس مجلس الإدارة",
+    "interim": true,
+    "noTitles": true
   }
 }
