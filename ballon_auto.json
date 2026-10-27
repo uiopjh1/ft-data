@@ -1,8 +1,8 @@
 {
  "asOf": "2026-10-27",
  "season": 2025,
- "source": "ESPN (واجهة إحصائيات اللاعب)",
- "scope": "النادي الحالي فقط؛ أرقام المنتخب غير محسوبة",
+ "source": "ESPN (سجل مباريات اللاعب)",
+ "scope": "النادي الحالي فقط؛ الموسم من 1 أغسطس إلى 31 يوليو؛ بدون الودية",
  "players": {
   "Jude Bellingham": {
    "ar": "جود بيلينغهام",
@@ -10,49 +10,37 @@
    "club": "Real Madrid",
    "comps": [
     {
-     "league": "fifa.cwc",
-     "name": "Club World Cup",
-     "apps": 6,
-     "goals": 1,
-     "assists": 1,
-     "starts": 6
-    },
-    {
      "league": "esp.copa_del_rey",
      "name": "Copa del Rey",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 0
+     "assists": 0
     },
     {
      "league": "esp.1",
      "name": "LALIGA",
      "apps": 28,
      "goals": 6,
-     "assists": 4,
-     "starts": 22
+     "assists": 4
     },
     {
      "league": "esp.super_cup",
      "name": "Spanish Supercopa",
      "apps": 2,
      "goals": 0,
-     "assists": 0,
-     "starts": 2
+     "assists": 0
     },
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
      "apps": 10,
      "goals": 2,
-     "assists": 1,
-     "starts": 6
+     "assists": 1
     }
    ],
-   "apps": 47,
-   "goals": 9,
-   "assists": 6
+   "apps": 41,
+   "goals": 8,
+   "assists": 5
   },
   "Pau Cubarsí": {
    "ar": "باو كوبارسي",
@@ -64,43 +52,31 @@
      "name": "Copa del Rey",
      "apps": 5,
      "goals": 0,
-     "assists": 0,
-     "starts": 3
+     "assists": 0
     },
     {
      "league": "esp.1",
      "name": "LALIGA",
      "apps": 38,
      "goals": 1,
-     "assists": 0,
-     "starts": 31
+     "assists": 0
     },
     {
      "league": "esp.super_cup",
      "name": "Spanish Supercopa",
      "apps": 2,
      "goals": 0,
-     "assists": 0,
-     "starts": 2
-    },
-    {
-     "league": "esp.joan_gamper",
-     "name": "Trofeo Joan Gamper",
-     "apps": 1,
-     "goals": 0,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     },
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
      "apps": 11,
      "goals": 0,
-     "assists": 0,
-     "starts": 9
+     "assists": 0
     }
    ],
-   "apps": 57,
+   "apps": 56,
    "goals": 1,
    "assists": 0
   },
@@ -108,11 +84,18 @@
    "ar": "مارك كوكوريا",
    "espnId": "259910",
    "club": "Real Madrid",
-   "comps": [],
-   "apps": 0,
+   "comps": [
+    {
+     "league": "uefa.champions",
+     "name": "UEFA Champions League",
+     "apps": 10,
+     "goals": 0,
+     "assists": 0
+    }
+   ],
+   "apps": 10,
    "goals": 0,
-   "assists": 0,
-   "warn": "لا أرقام لهذا الموسم"
+   "assists": 0
   },
   "Ousmane Dembélé": {
    "ar": "عثمان ديمبيلي",
@@ -124,61 +107,47 @@
      "name": "Coupe de France",
      "apps": 2,
      "goals": 1,
-     "assists": 1,
-     "starts": 1
-    },
-    {
-     "league": "fifa.cwc",
-     "name": "Club World Cup",
-     "apps": 4,
-     "goals": 2,
-     "assists": 1,
-     "starts": 2
+     "assists": 1
     },
     {
      "league": "fifa.intercontinental_cup",
      "name": "Intercontinental Cup",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 0
+     "assists": 0
     },
     {
      "league": "fra.1",
      "name": "Ligue 1",
      "apps": 24,
      "goals": 10,
-     "assists": 7,
-     "starts": 11
+     "assists": 7
     },
     {
      "league": "fra.super_cup",
      "name": "Trophee des Champions",
      "apps": 1,
      "goals": 1,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     },
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
      "apps": 13,
      "goals": 8,
-     "assists": 2,
-     "starts": 11
+     "assists": 2
     },
     {
      "league": "uefa.super_cup",
      "name": "UEFA Super Cup",
      "apps": 1,
      "goals": 0,
-     "assists": 1,
-     "starts": 1
+     "assists": 1
     }
    ],
-   "apps": 46,
-   "goals": 22,
-   "assists": 12
+   "apps": 42,
+   "goals": 20,
+   "assists": 11
   },
   "Luis Díaz": {
    "ar": "لويس دياز",
@@ -191,32 +160,28 @@
      "name": "Bundesliga",
      "apps": 32,
      "goals": 15,
-     "assists": 14,
-     "starts": 27
+     "assists": 14
     },
     {
      "league": "ger.dfb_pokal",
      "name": "German Cup",
      "apps": 6,
      "goals": 3,
-     "assists": 2,
-     "starts": 6
+     "assists": 2
     },
     {
      "league": "ger.super_cup",
      "name": "German SuperCup",
      "apps": 1,
      "goals": 1,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     },
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
      "apps": 12,
      "goals": 7,
-     "assists": 3,
-     "starts": 12
+     "assists": 3
     }
    ],
    "apps": 51,
@@ -234,24 +199,21 @@
      "name": "Carabao Cup",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 0
+     "assists": 0
     },
     {
      "league": "eng.fa",
      "name": "English FA Cup",
      "apps": 1,
      "goals": 0,
-     "assists": 1,
-     "starts": 1
+     "assists": 1
     },
     {
      "league": "eng.1",
      "name": "Premier League",
      "apps": 35,
      "goals": 9,
-     "assists": 21,
-     "starts": 35
+     "assists": 21
     }
    ],
    "apps": 37,
@@ -268,32 +230,28 @@
      "name": "Carabao Cup",
      "apps": 5,
      "goals": 0,
-     "assists": 0,
-     "starts": 3
+     "assists": 0
     },
     {
      "league": "eng.fa",
      "name": "English FA Cup",
      "apps": 3,
      "goals": 0,
-     "assists": 0,
-     "starts": 2
+     "assists": 0
     },
     {
      "league": "eng.1",
      "name": "Premier League",
      "apps": 32,
      "goals": 3,
-     "assists": 4,
-     "starts": 30
+     "assists": 4
     },
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
      "apps": 13,
      "goals": 1,
-     "assists": 1,
-     "starts": 11
+     "assists": 1
     }
    ],
    "apps": 53,
@@ -310,45 +268,33 @@
      "name": "Carabao Cup",
      "apps": 4,
      "goals": 0,
-     "assists": 0,
-     "starts": 2
+     "assists": 0
     },
     {
      "league": "eng.fa",
      "name": "English FA Cup",
      "apps": 4,
      "goals": 3,
-     "assists": 1,
-     "starts": 3
+     "assists": 1
     },
     {
      "league": "eng.1",
      "name": "Premier League",
      "apps": 36,
      "goals": 27,
-     "assists": 8,
-     "starts": 34
-    },
-    {
-     "league": "fifa.cwc",
-     "name": "Club World Cup",
-     "apps": 4,
-     "goals": 3,
-     "assists": 1,
-     "starts": 2
+     "assists": 8
     },
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
      "apps": 10,
      "goals": 8,
-     "assists": 0,
-     "starts": 9
+     "assists": 0
     }
    ],
-   "apps": 58,
-   "goals": 41,
-   "assists": 10
+   "apps": 54,
+   "goals": 38,
+   "assists": 9
   },
   "Achraf Hakimi": {
    "ar": "أشرف حكيمي",
@@ -356,41 +302,30 @@
    "club": "Paris Saint-Germain",
    "comps": [
     {
-     "league": "fifa.cwc",
-     "name": "Club World Cup",
-     "apps": 7,
-     "goals": 2,
-     "assists": 2,
-     "starts": 7
-    },
-    {
      "league": "fra.1",
      "name": "Ligue 1",
      "apps": 19,
      "goals": 2,
-     "assists": 2,
-     "starts": 15
+     "assists": 2
     },
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
      "apps": 13,
      "goals": 1,
-     "assists": 6,
-     "starts": 13
+     "assists": 6
     },
     {
      "league": "uefa.super_cup",
      "name": "UEFA Super Cup",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     }
    ],
-   "apps": 40,
-   "goals": 5,
-   "assists": 10
+   "apps": 33,
+   "goals": 3,
+   "assists": 8
   },
   "Harry Kane": {
    "ar": "هاري كين",
@@ -398,49 +333,37 @@
    "club": "Bayern München",
    "comps": [
     {
-     "league": "fifa.cwc",
-     "name": "Club World Cup",
-     "apps": 5,
-     "goals": 3,
-     "assists": 1,
-     "starts": 4
-    },
-    {
      "league": "ger.1",
      "name": "Bundesliga",
      "apps": 32,
      "goals": 36,
-     "assists": 5,
-     "starts": 25
+     "assists": 5
     },
     {
      "league": "ger.dfb_pokal",
      "name": "German Cup",
      "apps": 6,
      "goals": 10,
-     "assists": 0,
-     "starts": 6
+     "assists": 0
     },
     {
      "league": "ger.super_cup",
      "name": "German SuperCup",
      "apps": 1,
      "goals": 1,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     },
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
      "apps": 14,
      "goals": 14,
-     "assists": 2,
-     "starts": 12
+     "assists": 2
     }
    ],
-   "apps": 58,
-   "goals": 64,
-   "assists": 8
+   "apps": 53,
+   "goals": 61,
+   "assists": 7
   },
   "Khvicha Kvaratskhelia": {
    "ar": "خفيشا كفاراتسخيليا",
@@ -452,61 +375,47 @@
      "name": "Coupe de France",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
-    },
-    {
-     "league": "fifa.cwc",
-     "name": "Club World Cup",
-     "apps": 7,
-     "goals": 1,
-     "assists": 2,
-     "starts": 7
+     "assists": 0
     },
     {
      "league": "fifa.intercontinental_cup",
      "name": "Intercontinental Cup",
      "apps": 1,
      "goals": 1,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     },
     {
      "league": "fra.1",
      "name": "Ligue 1",
      "apps": 31,
      "goals": 8,
-     "assists": 4,
-     "starts": 18
+     "assists": 4
     },
     {
      "league": "fra.super_cup",
      "name": "Trophee des Champions",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     },
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
      "apps": 16,
      "goals": 10,
-     "assists": 6,
-     "starts": 14
+     "assists": 6
     },
     {
      "league": "uefa.super_cup",
      "name": "UEFA Super Cup",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     }
    ],
-   "apps": 58,
-   "goals": 20,
-   "assists": 12
+   "apps": 51,
+   "goals": 19,
+   "assists": 10
   },
   "Lamine Yamal": {
    "ar": "لامين يامال",
@@ -518,44 +427,32 @@
      "name": "Copa del Rey",
      "apps": 5,
      "goals": 2,
-     "assists": 2,
-     "starts": 5
+     "assists": 2
     },
     {
      "league": "esp.1",
      "name": "LALIGA",
      "apps": 28,
      "goals": 16,
-     "assists": 11,
-     "starts": 26
+     "assists": 11
     },
     {
      "league": "esp.super_cup",
      "name": "Spanish Supercopa",
      "apps": 2,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
-    },
-    {
-     "league": "esp.joan_gamper",
-     "name": "Trofeo Joan Gamper",
-     "apps": 1,
-     "goals": 2,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     },
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
      "apps": 10,
      "goals": 6,
-     "assists": 4,
-     "starts": 10
+     "assists": 4
     }
    ],
-   "apps": 46,
-   "goals": 26,
+   "apps": 45,
+   "goals": 24,
    "assists": 17
   },
   "Sadio Mané": {
@@ -568,24 +465,21 @@
      "name": "AFC Champions League Two",
      "apps": 9,
      "goals": 3,
-     "assists": 3,
-     "starts": 4
+     "assists": 3
     },
     {
      "league": "ksa.kings.cup",
      "name": "Saudi King's Cup",
      "apps": 2,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     },
     {
      "league": "ksa.1",
      "name": "Saudi Pro League",
      "apps": 25,
      "goals": 10,
-     "assists": 6,
-     "starts": 25
+     "assists": 6
     }
    ],
    "apps": 36,
@@ -603,59 +497,45 @@
      "name": "Coupe de France",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 0
-    },
-    {
-     "league": "fifa.cwc",
-     "name": "Club World Cup",
-     "apps": 7,
-     "goals": 0,
-     "assists": 0,
-     "starts": 6
+     "assists": 0
     },
     {
      "league": "fifa.intercontinental_cup",
      "name": "Intercontinental Cup",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     },
     {
      "league": "fra.1",
      "name": "Ligue 1",
      "apps": 29,
      "goals": 0,
-     "assists": 0,
-     "starts": 11
+     "assists": 0
     },
     {
      "league": "fra.super_cup",
      "name": "Trophee des Champions",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     },
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
      "apps": 16,
      "goals": 2,
-     "assists": 0,
-     "starts": 15
+     "assists": 0
     },
     {
      "league": "uefa.super_cup",
      "name": "UEFA Super Cup",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     }
    ],
-   "apps": 56,
+   "apps": 49,
    "goals": 2,
    "assists": 0
   },
@@ -669,44 +549,32 @@
      "name": "Coppa Italia",
      "apps": 3,
      "goals": 1,
-     "assists": 0,
-     "starts": 1
-    },
-    {
-     "league": "fifa.cwc",
-     "name": "Club World Cup",
-     "apps": 4,
-     "goals": 2,
-     "assists": 0,
-     "starts": 4
+     "assists": 0
     },
     {
      "league": "ita.1",
      "name": "Serie A",
      "apps": 33,
      "goals": 17,
-     "assists": 6,
-     "starts": 27
+     "assists": 6
     },
     {
      "league": "ita.super_cup",
      "name": "Italian Supercoppa",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 0
+     "assists": 0
     },
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
      "apps": 9,
      "goals": 4,
-     "assists": 0,
-     "starts": 7
+     "assists": 0
     }
    ],
-   "apps": 50,
-   "goals": 24,
+   "apps": 46,
+   "goals": 22,
    "assists": 6
   },
   "Kylian Mbappé": {
@@ -715,48 +583,36 @@
    "club": "Real Madrid",
    "comps": [
     {
-     "league": "fifa.cwc",
-     "name": "Club World Cup",
-     "apps": 3,
-     "goals": 1,
-     "assists": 0,
-     "starts": 1
-    },
-    {
      "league": "esp.copa_del_rey",
      "name": "Copa del Rey",
      "apps": 1,
      "goals": 2,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     },
     {
      "league": "esp.1",
      "name": "LALIGA",
      "apps": 32,
      "goals": 25,
-     "assists": 5,
-     "starts": 29
+     "assists": 5
     },
     {
      "league": "esp.super_cup",
      "name": "Spanish Supercopa",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 0
+     "assists": 0
     },
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
      "apps": 12,
      "goals": 15,
-     "assists": 1,
-     "starts": 10
+     "assists": 1
     }
    ],
-   "apps": 49,
-   "goals": 43,
+   "apps": 46,
+   "goals": 42,
    "assists": 6
   },
   "Nuno Mendes": {
@@ -769,59 +625,45 @@
      "name": "Coupe de France",
      "apps": 2,
      "goals": 0,
-     "assists": 0,
-     "starts": 0
-    },
-    {
-     "league": "fifa.cwc",
-     "name": "Club World Cup",
-     "apps": 7,
-     "goals": 0,
-     "assists": 0,
-     "starts": 6
+     "assists": 0
     },
     {
      "league": "fifa.intercontinental_cup",
      "name": "Intercontinental Cup",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     },
     {
      "league": "fra.1",
      "name": "Ligue 1",
      "apps": 24,
      "goals": 4,
-     "assists": 5,
-     "starts": 13
+     "assists": 5
     },
     {
      "league": "fra.super_cup",
      "name": "Trophee des Champions",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     },
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
      "apps": 17,
      "goals": 2,
-     "assists": 2,
-     "starts": 17
+     "assists": 2
     },
     {
      "league": "uefa.super_cup",
      "name": "UEFA Super Cup",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     }
    ],
-   "apps": 53,
+   "apps": 46,
    "goals": 6,
    "assists": 7
   },
@@ -835,53 +677,40 @@
      "name": "Coupe de France",
      "apps": 2,
      "goals": 0,
-     "assists": 0,
-     "starts": 0
-    },
-    {
-     "league": "fifa.cwc",
-     "name": "Club World Cup",
-     "apps": 7,
-     "goals": 2,
-     "assists": 1,
-     "starts": 6
+     "assists": 0
     },
     {
      "league": "fifa.intercontinental_cup",
      "name": "Intercontinental Cup",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     },
     {
      "league": "fra.1",
      "name": "Ligue 1",
      "apps": 23,
      "goals": 5,
-     "assists": 1,
-     "starts": 13
+     "assists": 1
     },
     {
      "league": "fra.super_cup",
      "name": "Trophee des Champions",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     },
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
      "apps": 15,
      "goals": 2,
-     "assists": 3,
-     "starts": 13
+     "assists": 3
     }
    ],
-   "apps": 49,
-   "goals": 9,
-   "assists": 5
+   "apps": 42,
+   "goals": 7,
+   "assists": 4
   },
   "Michael Olise": {
    "ar": "مايكل أوليز",
@@ -889,49 +718,37 @@
    "club": "Bayern München",
    "comps": [
     {
-     "league": "fifa.cwc",
-     "name": "Club World Cup",
-     "apps": 5,
-     "goals": 3,
-     "assists": 2,
-     "starts": 4
-    },
-    {
      "league": "ger.1",
      "name": "Bundesliga",
      "apps": 33,
      "goals": 15,
-     "assists": 19,
-     "starts": 23
+     "assists": 19
     },
     {
      "league": "ger.dfb_pokal",
      "name": "German Cup",
      "apps": 6,
      "goals": 2,
-     "assists": 1,
-     "starts": 6
+     "assists": 1
     },
     {
      "league": "ger.super_cup",
      "name": "German SuperCup",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     },
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
      "apps": 13,
      "goals": 5,
-     "assists": 6,
-     "starts": 12
+     "assists": 6
     }
    ],
-   "apps": 58,
-   "goals": 25,
-   "assists": 28
+   "apps": 53,
+   "goals": 22,
+   "assists": 26
   },
   "Willian Pacho": {
    "ar": "ويليان باتشو",
@@ -943,59 +760,45 @@
      "name": "Coupe de France",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
-    },
-    {
-     "league": "fifa.cwc",
-     "name": "Club World Cup",
-     "apps": 5,
-     "goals": 0,
-     "assists": 0,
-     "starts": 5
+     "assists": 0
     },
     {
      "league": "fifa.intercontinental_cup",
      "name": "Intercontinental Cup",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     },
     {
      "league": "fra.1",
      "name": "Ligue 1",
      "apps": 31,
      "goals": 0,
-     "assists": 0,
-     "starts": 21
+     "assists": 0
     },
     {
      "league": "fra.super_cup",
      "name": "Trophee des Champions",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     },
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
      "apps": 17,
      "goals": 2,
-     "assists": 1,
-     "starts": 17
+     "assists": 1
     },
     {
      "league": "uefa.super_cup",
      "name": "UEFA Super Cup",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     }
    ],
-   "apps": 57,
+   "apps": 52,
    "goals": 2,
    "assists": 1
   },
@@ -1010,16 +813,14 @@
      "name": "Saudi King's Cup",
      "apps": 3,
      "goals": 4,
-     "assists": 0,
-     "starts": 3
+     "assists": 0
     },
     {
      "league": "ksa.1",
      "name": "Saudi Pro League",
      "apps": 31,
      "goals": 33,
-     "assists": 4,
-     "starts": 31
+     "assists": 4
     }
    ],
    "apps": 34,
@@ -1036,32 +837,28 @@
      "name": "Carabao Cup",
      "apps": 6,
      "goals": 0,
-     "assists": 2,
-     "starts": 3
+     "assists": 2
     },
     {
      "league": "eng.fa",
      "name": "English FA Cup",
      "apps": 2,
      "goals": 0,
-     "assists": 0,
-     "starts": 0
+     "assists": 0
     },
     {
      "league": "eng.1",
      "name": "Premier League",
      "apps": 37,
      "goals": 4,
-     "assists": 5,
-     "starts": 35
+     "assists": 5
     },
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
      "apps": 13,
      "goals": 1,
-     "assists": 2,
-     "starts": 11
+     "assists": 2
     }
    ],
    "apps": 58,
@@ -1072,11 +869,18 @@
    "ar": "رودري",
    "espnId": "231828",
    "club": "Barcelona",
-   "comps": [],
-   "apps": 0,
+   "comps": [
+    {
+     "league": "uefa.champions",
+     "name": "UEFA Champions League",
+     "apps": 5,
+     "goals": 0,
+     "assists": 0
+    }
+   ],
+   "apps": 5,
    "goals": 0,
-   "assists": 0,
-   "warn": "لا أرقام لهذا الموسم"
+   "assists": 0
   },
   "Fabián Ruiz": {
    "ar": "فابيان رويز",
@@ -1088,61 +892,47 @@
      "name": "Coupe de France",
      "apps": 2,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
-    },
-    {
-     "league": "fifa.cwc",
-     "name": "Club World Cup",
-     "apps": 7,
-     "goals": 3,
-     "assists": 1,
-     "starts": 6
+     "assists": 0
     },
     {
      "league": "fifa.intercontinental_cup",
      "name": "Intercontinental Cup",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     },
     {
      "league": "fra.1",
      "name": "Ligue 1",
      "apps": 20,
      "goals": 1,
-     "assists": 4,
-     "starts": 13
+     "assists": 4
     },
     {
      "league": "fra.super_cup",
      "name": "Trophee des Champions",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     },
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
      "apps": 9,
      "goals": 1,
-     "assists": 1,
-     "starts": 8
+     "assists": 1
     },
     {
      "league": "uefa.super_cup",
      "name": "UEFA Super Cup",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 0
+     "assists": 0
     }
    ],
-   "apps": 41,
-   "goals": 5,
-   "assists": 6
+   "apps": 34,
+   "goals": 2,
+   "assists": 5
   },
   "William Saliba": {
    "ar": "ويليام ساليبا",
@@ -1154,32 +944,28 @@
      "name": "Carabao Cup",
      "apps": 5,
      "goals": 0,
-     "assists": 1,
-     "starts": 5
+     "assists": 1
     },
     {
      "league": "eng.fa",
      "name": "English FA Cup",
      "apps": 2,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     },
     {
      "league": "eng.1",
      "name": "Premier League",
      "apps": 31,
      "goals": 1,
-     "assists": 0,
-     "starts": 30
+     "assists": 0
     },
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
      "apps": 13,
      "goals": 0,
-     "assists": 0,
-     "starts": 12
+     "assists": 0
     }
    ],
    "apps": 51,
@@ -1190,11 +976,18 @@
    "ar": "فيران توريس",
    "espnId": "265869",
    "club": "Paris Saint-Germain",
-   "comps": [],
-   "apps": 0,
-   "goals": 0,
-   "assists": 0,
-   "warn": "لا أرقام لهذا الموسم"
+   "comps": [
+    {
+     "league": "uefa.champions",
+     "name": "UEFA Champions League",
+     "apps": 11,
+     "goals": 3,
+     "assists": 1
+    }
+   ],
+   "apps": 11,
+   "goals": 3,
+   "assists": 1
   },
   "Dayot Upamecano": {
    "ar": "دايو أوباميكانو",
@@ -1202,49 +995,37 @@
    "club": "Bayern München",
    "comps": [
     {
-     "league": "fifa.cwc",
-     "name": "Club World Cup",
-     "apps": 5,
-     "goals": 0,
-     "assists": 1,
-     "starts": 3
-    },
-    {
      "league": "ger.1",
      "name": "Bundesliga",
      "apps": 31,
      "goals": 1,
-     "assists": 1,
-     "starts": 21
+     "assists": 1
     },
     {
      "league": "ger.dfb_pokal",
      "name": "German Cup",
      "apps": 6,
      "goals": 0,
-     "assists": 0,
-     "starts": 5
+     "assists": 0
     },
     {
      "league": "ger.super_cup",
      "name": "German SuperCup",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     },
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
      "apps": 13,
      "goals": 1,
-     "assists": 2,
-     "starts": 12
+     "assists": 2
     }
    ],
-   "apps": 56,
+   "apps": 51,
    "goals": 2,
-   "assists": 4
+   "assists": 3
   },
   "Vinícius Júnior": {
    "ar": "فينيسيوس جونيور",
@@ -1252,49 +1033,37 @@
    "club": "Real Madrid",
    "comps": [
     {
-     "league": "fifa.cwc",
-     "name": "Club World Cup",
-     "apps": 6,
-     "goals": 1,
-     "assists": 1,
-     "starts": 6
-    },
-    {
      "league": "esp.copa_del_rey",
      "name": "Copa del Rey",
      "apps": 2,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     },
     {
      "league": "esp.1",
      "name": "LALIGA",
      "apps": 36,
      "goals": 16,
-     "assists": 5,
-     "starts": 32
+     "assists": 5
     },
     {
      "league": "esp.super_cup",
      "name": "Spanish Supercopa",
      "apps": 2,
      "goals": 1,
-     "assists": 0,
-     "starts": 2
+     "assists": 0
     },
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
      "apps": 14,
      "goals": 5,
-     "assists": 5,
-     "starts": 13
+     "assists": 5
     }
    ],
-   "apps": 60,
-   "goals": 23,
-   "assists": 11
+   "apps": 54,
+   "goals": 22,
+   "assists": 10
   },
   "Vitinha": {
    "ar": "فيتينيا",
@@ -1307,61 +1076,47 @@
      "name": "Coupe de France",
      "apps": 2,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
-    },
-    {
-     "league": "fifa.cwc",
-     "name": "Club World Cup",
-     "apps": 7,
-     "goals": 1,
-     "assists": 1,
-     "starts": 7
+     "assists": 0
     },
     {
      "league": "fifa.intercontinental_cup",
      "name": "Intercontinental Cup",
      "apps": 1,
      "goals": 0,
-     "assists": 0,
-     "starts": 1
+     "assists": 0
     },
     {
      "league": "fra.1",
      "name": "Ligue 1",
      "apps": 31,
      "goals": 1,
-     "assists": 7,
-     "starts": 24
+     "assists": 7
     },
     {
      "league": "fra.super_cup",
      "name": "Trophee des Champions",
      "apps": 1,
      "goals": 0,
-     "assists": 1,
-     "starts": 1
+     "assists": 1
     },
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
      "apps": 17,
      "goals": 6,
-     "assists": 1,
-     "starts": 17
+     "assists": 1
     },
     {
      "league": "uefa.super_cup",
      "name": "UEFA Super Cup",
      "apps": 1,
      "goals": 0,
-     "assists": 1,
-     "starts": 1
+     "assists": 1
     }
    ],
-   "apps": 60,
-   "goals": 8,
-   "assists": 11
+   "apps": 53,
+   "goals": 7,
+   "assists": 10
   }
  }
 }
