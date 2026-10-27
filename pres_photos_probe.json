@@ -1,0 +1,529 @@
+{
+ "Nawaf bin Saad": {
+  "club": "Al Hilal",
+  "src": "manual"
+ },
+ "Ahmed Al-Sultan": {
+  "club": "Al Nassr",
+  "src": "manual"
+ },
+ "Abdullah Al-Sabban": {
+  "club": "Al Ahli",
+  "src": "manual"
+ },
+ "Reda Batarji": {
+  "club": "Al Ittihad",
+  "src": "manual"
+ },
+ "Joan Laporta": {
+  "club": "Barcelona",
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Joan_Laporta_in_2025_%28cropped%29.jpg/330px-Joan_Laporta_in_2025_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
+ },
+ "Khaldoon Al Mubarak": {
+  "club": "Manchester City",
+  "img": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Khaldoon_Al_Mubarak_-_The_White_House_-_54410779860_%28cropped%29_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "how": "enwiki"
+ },
+ "Herbert Hainer": {
+  "club": "Bayern Munich",
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/2026-06-19_ALBA_Berlin_gegen_FC_Bayern_M%C3%BCnchen_%28Basketball-Bundesliga_2025-26%29_by_Sandro_Halank%E2%80%93013.jpg/330px-2026-06-19_ALBA_Berlin_gegen_FC_Bayern_M%C3%BCnchen_%28Basketball-Bundesliga_2025-26%29_by_Sandro_Halank%E2%80%93013.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
+ },
+ "Florentino Pérez": {
+  "club": "Real Madrid",
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Florentino_P%C3%A9rez_-_240422_194826_%28cropped%29.jpg/330px-25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Florentino_P%C3%A9rez_-_240422_194826_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
+ },
+ "Nasser Al-Khelaifi": {
+  "club": "Paris Saint-Germain",
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Neymar_Jr_Presentation_%28cropped_2%29.jpg/330px-Neymar_Jr_Presentation_%28cropped_2%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
+ },
+ "Enrique Cerezo": {
+  "club": "Atletico Madrid",
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Enrique.cerezo.JPG/330px-Enrique.cerezo.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
+ },
+ "Beppe Marotta": {
+  "club": "Inter Milan",
+  "img": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Save_the_Dream_-_Italian_Embassy_Welcoming_Lunch_%2831067266664%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "how": "enwiki"
+ },
+ "Gianluca Ferrero": {
+  "club": "Juventus",
+  "img": "",
+  "how": ""
+ },
+ "Hans-Joachim Watzke": {
+  "club": "Borussia Dortmund",
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Hans-Joachim_Watzke.jpg/330px-Hans-Joachim_Watzke.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
+ },
+ "Tom Werner": {
+  "club": "Liverpool",
+  "img": "",
+  "how": ""
+ },
+ "Badr Al-Ghannam": {
+  "club": "Al Taawoun",
+  "src": "manual"
+ },
+ "Samer Al-Mashhal": {
+  "club": "Al Ettifaq",
+  "img": "",
+  "how": ""
+ },
+ "Tawfiq Al-Mudaihim": {
+  "club": "Al Fayha",
+  "img": "",
+  "how": ""
+ },
+ "Rami Al-Turki": {
+  "club": "Al Qadsiah",
+  "src": "manual"
+ },
+ "Sami Al Fadel": {
+  "club": "Al Okhdood",
+  "img": "",
+  "how": ""
+ },
+ "Mansour Al-Afaliq": {
+  "club": "Al Fateh",
+  "img": "",
+  "how": ""
+ },
+ "Shaker Oweir": {
+  "club": "Damac",
+  "img": "",
+  "how": ""
+ },
+ "Fahd Al-Mutawa": {
+  "club": "Al Raed",
+  "img": "",
+  "how": ""
+ },
+ "Ahmed Akhreeda": {
+  "club": "Al Khaleej",
+  "img": "",
+  "how": ""
+ },
+ "Abdulaziz Al-Malik": {
+  "club": "Al Shabab",
+  "src": "manual"
+ },
+ "Bandar Al-Muqayyal": {
+  "club": "Al Riyadh",
+  "img": "",
+  "how": ""
+ },
+ "Talal Al-Harbi": {
+  "club": "Al Hazem",
+  "img": "",
+  "how": ""
+ },
+ "Ben Harburg": {
+  "club": "Al Kholood",
+  "img": "",
+  "how": ""
+ },
+ "Abdulmajeed Al-Omaim": {
+  "club": "Al Faisaly",
+  "img": "",
+  "how": ""
+ },
+ "ستان وجوش كرونكي (رئيسان مشاركان)": {
+  "club": "Arsenal",
+  "img": "",
+  "how": ""
+ },
+ "أفرام وجويل غليزر (رئيسان تنفيذيان مشاركان)": {
+  "club": "Manchester United",
+  "img": "",
+  "how": ""
+ },
+ "Paolo Scaroni": {
+  "club": "AC Milan",
+  "img": "",
+  "how": ""
+ },
+ "لم يُعلن الرئيس الجديد بعد (ترك تود بوهلي المنصب في سبتمبر 2026)": {
+  "club": "Chelsea",
+  "img": "",
+  "how": ""
+ },
+ "Peter Charrington": {
+  "club": "Tottenham Hotspur",
+  "img": "",
+  "how": ""
+ },
+ "Dan Friedkin": {
+  "club": "AS Roma",
+  "img": "",
+  "how": ""
+ },
+ "Yasir Al-Rumayyan": {
+  "club": "Newcastle United",
+  "img": "",
+  "how": ""
+ },
+ "Aurelio De Laurentiis": {
+  "club": "Napoli",
+  "img": "",
+  "how": ""
+ },
+ "Michele Kang": {
+  "club": "Lyon",
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Michelle_Kang_220917-F-LE393-0304.jpg/330px-Michelle_Kang_220917-F-LE393-0304.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
+ },
+ "Stephane Richard": {
+  "club": "Marseille",
+  "src": "manual"
+ },
+ "Andre Villas-Boas": {
+  "club": "FC Porto",
+  "img": "",
+  "how": ""
+ },
+ "Rui Costa": {
+  "club": "Benfica",
+  "img": "",
+  "how": ""
+ },
+ "Claudio Lotito": {
+  "club": "Lazio",
+  "img": "",
+  "how": ""
+ },
+ "Fernando Roig": {
+  "club": "Villarreal",
+  "img": "",
+  "how": ""
+ },
+ "Jokin Aperribay": {
+  "club": "Real Sociedad",
+  "img": "",
+  "how": ""
+ },
+ "Jose Maria del Nido Carrasco": {
+  "club": "Sevilla",
+  "img": "",
+  "how": ""
+ },
+ "Antonio Percassi": {
+  "club": "Atalanta",
+  "img": "",
+  "how": ""
+ },
+ "Jon Uriarte": {
+  "club": "Athletic Club",
+  "img": "",
+  "how": ""
+ },
+ "Angel Haro": {
+  "club": "Real Betis",
+  "img": "",
+  "how": ""
+ },
+ "Layhoon Chan": {
+  "club": "Valencia",
+  "src": "manual"
+ },
+ "Giuseppe Commisso": {
+  "club": "Fiorentina",
+  "img": "",
+  "how": ""
+ },
+ "Steve Parish": {
+  "club": "Crystal Palace",
+  "img": "",
+  "how": ""
+ },
+ "Tony Bloom": {
+  "club": "Brighton & Hove Albion",
+  "img": "",
+  "how": ""
+ },
+ "لم يُعلن رئيس جديد بعد (استقال ديفيد سوليفان في يونيو 2026)": {
+  "club": "West Ham United",
+  "img": "",
+  "how": ""
+ },
+ "Mathias Beck": {
+  "club": "Eintracht Frankfurt",
+  "src": "manual"
+ },
+ "Dietmar Allgaier": {
+  "club": "VfB Stuttgart",
+  "src": "manual"
+ },
+ "Joseph Oughourlian": {
+  "club": "RC Lens",
+  "img": "",
+  "how": ""
+ },
+ "Olivier Létang": {
+  "club": "Lille",
+  "src": "manual"
+ },
+ "Dmitry Rybolovlev": {
+  "club": "AS Monaco",
+  "img": "",
+  "how": ""
+ },
+ "Joey Saputo": {
+  "club": "Bologna",
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Joey_Saputo.jpg/330px-Joey_Saputo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
+ },
+ "Carlos Mouriño": {
+  "club": "Celta Vigo",
+  "img": "",
+  "how": ""
+ },
+ "Delfí Geli": {
+  "club": "Girona",
+  "src": "manual"
+ },
+ "Rainer Bonhof": {
+  "club": "Borussia Monchengladbach",
+  "src": "manual"
+ },
+ "Ángel Torres": {
+  "club": "Getafe",
+  "img": "",
+  "how": ""
+ },
+ "Urbano Cairo": {
+  "club": "Torino",
+  "img": "",
+  "how": ""
+ },
+ "Luis Sabalza": {
+  "club": "Osasuna",
+  "src": "manual"
+ },
+ "Raúl Martín Presa": {
+  "club": "Rayo Vallecano",
+  "src": "manual"
+ },
+ "Alfonso Fernández de Trocóniz": {
+  "club": "Alaves",
+  "img": "",
+  "how": ""
+ },
+ "Marc Keller": {
+  "club": "Strasbourg",
+  "img": "",
+  "how": ""
+ },
+ "Maurice Cohen": {
+  "club": "Nice",
+  "img": "",
+  "how": ""
+ },
+ "Arnaud Pouille": {
+  "club": "Rennes",
+  "img": "",
+  "how": ""
+ },
+ "Denis Le Saint": {
+  "club": "Brest",
+  "img": "",
+  "how": ""
+ },
+ "Olivier Cloarec": {
+  "club": "Toulouse",
+  "img": "",
+  "how": ""
+ },
+ "Loïc Féry": {
+  "club": "Lorient",
+  "img": "",
+  "how": ""
+ },
+ "Tommaso Giulini": {
+  "club": "Cagliari",
+  "img": "",
+  "how": ""
+ },
+ "Saverio Sticchi Damiani": {
+  "club": "Lecce",
+  "img": "",
+  "how": ""
+ },
+ "Dan Sucu": {
+  "club": "Genoa",
+  "img": "",
+  "how": ""
+ },
+ "Franco Soldati": {
+  "club": "Udinese",
+  "img": "",
+  "how": ""
+ },
+ "Oke Göttlich": {
+  "club": "St. Pauli",
+  "src": "manual"
+ },
+ "Stefan Hofmann": {
+  "club": "Mainz",
+  "img": "",
+  "how": ""
+ },
+ "Jörn Stobbe": {
+  "club": "1. FC Köln",
+  "img": "",
+  "how": ""
+ },
+ "Henrik Köncke": {
+  "club": "Hamburg SV",
+  "img": "",
+  "how": ""
+ },
+ "Pablo Sánchez": {
+  "club": "Levante",
+  "img": "",
+  "how": ""
+ },
+ "Alan Pace": {
+  "club": "Espanyol",
+  "img": "",
+  "how": ""
+ },
+ "Martín Peláez": {
+  "club": "Real Oviedo",
+  "img": "",
+  "how": ""
+ },
+ "Shahid Khan": {
+  "club": "Fulham",
+  "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Shahid_Khan_2015.jpg/330px-Shahid_Khan_2015.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "how": "enwiki"
+ },
+ "Kyril Louis-Dreyfus": {
+  "club": "Sunderland",
+  "img": "",
+  "how": ""
+ },
+ "Evangelos Marinakis": {
+  "club": "Nottingham Forest",
+  "img": "",
+  "how": ""
+ },
+ "Damien Comolli": {
+  "club": "Pisa",
+  "img": "",
+  "how": ""
+ },
+ "Italo Zanzi": {
+  "club": "Hellas Verona",
+  "src": "manual"
+ },
+ "Francesco Dini": {
+  "club": "Cremonese",
+  "img": "",
+  "how": ""
+ },
+ "Paraag Marathe": {
+  "club": "Leeds United",
+  "img": "",
+  "how": ""
+ },
+ "Nathan Shi": {
+  "club": "Wolverhampton Wanderers",
+  "img": "",
+  "how": ""
+ },
+ "Kristian Baumgärtner": {
+  "club": "Hoffenheim",
+  "img": "",
+  "how": ""
+ },
+ "Markus Krapf": {
+  "club": "Augsburg",
+  "img": "",
+  "how": ""
+ },
+ "Holger Sanwald": {
+  "club": "Heidenheim",
+  "img": "",
+  "how": ""
+ },
+ "Andy Kohlberg": {
+  "club": "Mallorca",
+  "img": "",
+  "how": ""
+ },
+ "Kyle Krause": {
+  "club": "Parma",
+  "img": "",
+  "how": ""
+ },
+ "James Zhou": {
+  "club": "Auxerre",
+  "img": "",
+  "how": ""
+ },
+ "Jean-Michel Roussier": {
+  "club": "Le Havre",
+  "img": "",
+  "how": ""
+ },
+ "Dirk Zingler": {
+  "club": "Union Berlin",
+  "img": "",
+  "how": ""
+ },
+ "Mirwan Suwarso": {
+  "club": "Como",
+  "img": "",
+  "how": ""
+ },
+ "Romain Chabane": {
+  "club": "Angers",
+  "img": "",
+  "how": ""
+ },
+ "Waldemar Kita": {
+  "club": "Nantes",
+  "img": "",
+  "how": ""
+ },
+ "Cliff Crown": {
+  "club": "Brentford",
+  "img": "",
+  "how": ""
+ },
+ "Fernando Carro": {
+  "club": "Bayer Leverkusen",
+  "img": "",
+  "how": ""
+ },
+ "ناصف ساويرس وويس إدنز": {
+  "club": "Aston Villa",
+  "img": "",
+  "how": ""
+ },
+ "Carlo Rossi": {
+  "club": "Sassuolo",
+  "img": "",
+  "how": ""
+ },
+ "Bill Foley": {
+  "club": "AFC Bournemouth",
+  "img": "",
+  "how": ""
+ },
+ "Bernard Serin": {
+  "club": "Metz",
+  "img": "",
+  "how": ""
+ },
+ "Hubertus Hess-Grunewald": {
+  "club": "Werder Bremen",
+  "img": "",
+  "how": ""
+ }
+}
