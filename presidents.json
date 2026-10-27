@@ -2139,5 +2139,13 @@
     "role": "رئيس مجلس الإدارة",
     "interim": true,
     "noTitles": true
+  },
+  "Metz": {
+    "name": "برنار سيرين",
+    "en": "Bernard Serin"
+  },
+  "FC Metz": {
+    "name": "برنار سيرين",
+    "en": "Bernard Serin"
   }
 }
