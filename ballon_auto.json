@@ -33,7 +33,7 @@
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
-     "apps": 10,
+     "apps": 9,
      "goals": 2,
      "assists": 1
     }
@@ -58,7 +58,7 @@
     ]
    },
    "clubTotals": {
-    "apps": 41,
+    "apps": 40,
     "goals": 8,
     "assists": 5
    },
@@ -67,7 +67,7 @@
     "goals": 7,
     "assists": 1
    },
-   "apps": 51,
+   "apps": 50,
    "goals": 15,
    "assists": 6
   },
@@ -86,7 +86,7 @@
     {
      "league": "esp.1",
      "name": "LALIGA",
-     "apps": 38,
+     "apps": 31,
      "goals": 1,
      "assists": 0
     },
@@ -100,7 +100,7 @@
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
-     "apps": 11,
+     "apps": 10,
      "goals": 0,
      "assists": 0
     }
@@ -118,23 +118,23 @@
      {
       "league": "fifa.worldq.uefa",
       "name": "WCQ - UEFA",
-      "apps": 6,
+      "apps": 4,
       "goals": 0,
       "assists": 0
      }
     ]
    },
    "clubTotals": {
-    "apps": 56,
+    "apps": 48,
     "goals": 1,
     "assists": 0
    },
    "natTotals": {
-    "apps": 14,
+    "apps": 12,
     "goals": 0,
     "assists": 0
    },
-   "apps": 70,
+   "apps": 60,
    "goals": 1,
    "assists": 0
   },
@@ -156,7 +156,7 @@
      {
       "league": "fifa.worldq.uefa",
       "name": "WCQ - UEFA",
-      "apps": 6,
+      "apps": 5,
       "goals": 1,
       "assists": 1
      }
@@ -168,11 +168,11 @@
     "assists": 0
    },
    "natTotals": {
-    "apps": 14,
+    "apps": 13,
     "goals": 1,
     "assists": 3
    },
-   "apps": 14,
+   "apps": 13,
    "goals": 1,
    "assists": 3,
    "warn": "لا أرقام لهذا الموسم"
@@ -199,7 +199,7 @@
     {
      "league": "fra.1",
      "name": "Ligue 1",
-     "apps": 24,
+     "apps": 22,
      "goals": 10,
      "assists": 7
     },
@@ -245,7 +245,7 @@
     ]
    },
    "clubTotals": {
-    "apps": 42,
+    "apps": 40,
     "goals": 20,
     "assists": 11
    },
@@ -254,7 +254,7 @@
     "goals": 6,
     "assists": 2
    },
-   "apps": 51,
+   "apps": 49,
    "goals": 26,
    "assists": 13
   },
@@ -395,7 +395,7 @@
     {
      "league": "eng.fa",
      "name": "English FA Cup",
-     "apps": 3,
+     "apps": 2,
      "goals": 0,
      "assists": 0
     },
@@ -409,7 +409,7 @@
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
-     "apps": 13,
+     "apps": 12,
      "goals": 1,
      "assists": 1
     }
@@ -427,7 +427,7 @@
     ]
    },
    "clubTotals": {
-    "apps": 53,
+    "apps": 51,
     "goals": 4,
     "assists": 5
    },
@@ -436,7 +436,7 @@
     "goals": 0,
     "assists": 1
    },
-   "apps": 58,
+   "apps": 56,
    "goals": 4,
    "assists": 6
   },
@@ -448,7 +448,7 @@
     {
      "league": "eng.league_cup",
      "name": "Carabao Cup",
-     "apps": 4,
+     "apps": 3,
      "goals": 0,
      "assists": 0
     },
@@ -462,7 +462,7 @@
     {
      "league": "eng.1",
      "name": "Premier League",
-     "apps": 36,
+     "apps": 35,
      "goals": 27,
      "assists": 8
     },
@@ -480,7 +480,7 @@
      {
       "league": "fifa.world",
       "name": "FIFA World Cup",
-      "apps": 6,
+      "apps": 5,
       "goals": 7,
       "assists": 0
      },
@@ -494,16 +494,16 @@
     ]
    },
    "clubTotals": {
-    "apps": 54,
+    "apps": 52,
     "goals": 38,
     "assists": 9
    },
    "natTotals": {
-    "apps": 10,
+    "apps": 9,
     "goals": 19,
     "assists": 2
    },
-   "apps": 64,
+   "apps": 61,
    "goals": 57,
    "assists": 11
   },
@@ -515,7 +515,7 @@
     {
      "league": "fra.1",
      "name": "Ligue 1",
-     "apps": 19,
+     "apps": 18,
      "goals": 2,
      "assists": 2
     },
@@ -540,7 +540,7 @@
      {
       "league": "caf.nations",
       "name": "Africa Cup of Nations",
-      "apps": 7,
+      "apps": 5,
       "goals": 0,
       "assists": 1
      },
@@ -554,16 +554,16 @@
     ]
    },
    "clubTotals": {
-    "apps": 33,
+    "apps": 32,
     "goals": 3,
     "assists": 8
    },
    "natTotals": {
-    "apps": 13,
+    "apps": 11,
     "goals": 1,
     "assists": 3
    },
-   "apps": 46,
+   "apps": 43,
    "goals": 4,
    "assists": 11
   },
@@ -575,7 +575,7 @@
     {
      "league": "ger.1",
      "name": "Bundesliga",
-     "apps": 32,
+     "apps": 31,
      "goals": 36,
      "assists": 5
     },
@@ -596,7 +596,7 @@
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
-     "apps": 14,
+     "apps": 13,
      "goals": 14,
      "assists": 2
     }
@@ -607,7 +607,7 @@
      {
       "league": "fifa.world",
       "name": "FIFA World Cup",
-      "apps": 8,
+      "apps": 7,
       "goals": 6,
       "assists": 1
      },
@@ -621,16 +621,16 @@
     ]
    },
    "clubTotals": {
-    "apps": 53,
+    "apps": 51,
     "goals": 61,
     "assists": 7
    },
    "natTotals": {
-    "apps": 13,
+    "apps": 12,
     "goals": 11,
     "assists": 1
    },
-   "apps": 66,
+   "apps": 63,
    "goals": 72,
    "assists": 8
   },
@@ -656,7 +656,7 @@
     {
      "league": "fra.1",
      "name": "Ligue 1",
-     "apps": 31,
+     "apps": 28,
      "goals": 8,
      "assists": 4
     },
@@ -695,7 +695,7 @@
     ]
    },
    "clubTotals": {
-    "apps": 51,
+    "apps": 48,
     "goals": 19,
     "assists": 10
    },
@@ -704,7 +704,7 @@
     "goals": 2,
     "assists": 0
    },
-   "apps": 57,
+   "apps": 54,
    "goals": 21,
    "assists": 10
   },
@@ -783,7 +783,7 @@
     {
      "league": "afc.cup",
      "name": "AFC Champions League Two",
-     "apps": 9,
+     "apps": 8,
      "goals": 3,
      "assists": 3
     },
@@ -822,7 +822,7 @@
     ]
    },
    "clubTotals": {
-    "apps": 36,
+    "apps": 35,
     "goals": 13,
     "assists": 9
    },
@@ -831,7 +831,7 @@
     "goals": 2,
     "assists": 4
    },
-   "apps": 47,
+   "apps": 46,
    "goals": 15,
    "assists": 13
   },
@@ -842,13 +842,6 @@
    "club": "Paris Saint-Germain",
    "comps": [
     {
-     "league": "fra.coupe_de_france",
-     "name": "Coupe de France",
-     "apps": 1,
-     "goals": 0,
-     "assists": 0
-    },
-    {
      "league": "fifa.intercontinental_cup",
      "name": "Intercontinental Cup",
      "apps": 1,
@@ -858,7 +851,7 @@
     {
      "league": "fra.1",
      "name": "Ligue 1",
-     "apps": 29,
+     "apps": 14,
      "goals": 0,
      "assists": 0
     },
@@ -872,7 +865,7 @@
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
-     "apps": 16,
+     "apps": 15,
      "goals": 2,
      "assists": 0
     },
@@ -897,7 +890,7 @@
     ]
    },
    "clubTotals": {
-    "apps": 49,
+    "apps": 32,
     "goals": 2,
     "assists": 0
    },
@@ -906,7 +899,7 @@
     "goals": 0,
     "assists": 0
    },
-   "apps": 54,
+   "apps": 37,
    "goals": 2,
    "assists": 0
   },
@@ -918,14 +911,14 @@
     {
      "league": "ita.coppa_italia",
      "name": "Coppa Italia",
-     "apps": 3,
+     "apps": 2,
      "goals": 1,
      "assists": 0
     },
     {
      "league": "ita.1",
      "name": "Serie A",
-     "apps": 33,
+     "apps": 30,
      "goals": 17,
      "assists": 6
     },
@@ -939,7 +932,7 @@
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
-     "apps": 9,
+     "apps": 8,
      "goals": 4,
      "assists": 0
     }
@@ -950,23 +943,23 @@
      {
       "league": "fifa.world",
       "name": "FIFA World Cup",
-      "apps": 8,
+      "apps": 7,
       "goals": 3,
       "assists": 1
      }
     ]
    },
    "clubTotals": {
-    "apps": 46,
+    "apps": 41,
     "goals": 22,
     "assists": 6
    },
    "natTotals": {
-    "apps": 8,
+    "apps": 7,
     "goals": 3,
     "assists": 1
    },
-   "apps": 54,
+   "apps": 48,
    "goals": 25,
    "assists": 7
   },
@@ -985,7 +978,7 @@
     {
      "league": "esp.1",
      "name": "LALIGA",
-     "apps": 32,
+     "apps": 31,
      "goals": 25,
      "assists": 5
     },
@@ -999,7 +992,7 @@
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
-     "apps": 12,
+     "apps": 11,
      "goals": 15,
      "assists": 1
     }
@@ -1024,7 +1017,7 @@
     ]
    },
    "clubTotals": {
-    "apps": 46,
+    "apps": 44,
     "goals": 42,
     "assists": 6
    },
@@ -1033,7 +1026,7 @@
     "goals": 15,
     "assists": 7
    },
-   "apps": 58,
+   "apps": 56,
    "goals": 57,
    "assists": 13
   },
@@ -1045,7 +1038,7 @@
     {
      "league": "fra.coupe_de_france",
      "name": "Coupe de France",
-     "apps": 2,
+     "apps": 1,
      "goals": 0,
      "assists": 0
     },
@@ -1059,7 +1052,7 @@
     {
      "league": "fra.1",
      "name": "Ligue 1",
-     "apps": 24,
+     "apps": 20,
      "goals": 4,
      "assists": 5
     },
@@ -1105,7 +1098,7 @@
     ]
    },
    "clubTotals": {
-    "apps": 46,
+    "apps": 41,
     "goals": 6,
     "assists": 7
    },
@@ -1114,7 +1107,7 @@
     "goals": 1,
     "assists": 1
    },
-   "apps": 55,
+   "apps": 50,
    "goals": 7,
    "assists": 8
   },
@@ -1126,7 +1119,7 @@
     {
      "league": "fra.coupe_de_france",
      "name": "Coupe de France",
-     "apps": 2,
+     "apps": 1,
      "goals": 0,
      "assists": 0
     },
@@ -1140,7 +1133,7 @@
     {
      "league": "fra.1",
      "name": "Ligue 1",
-     "apps": 23,
+     "apps": 21,
      "goals": 5,
      "assists": 1
     },
@@ -1154,7 +1147,7 @@
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
-     "apps": 15,
+     "apps": 14,
      "goals": 2,
      "assists": 3
     }
@@ -1179,7 +1172,7 @@
     ]
    },
    "clubTotals": {
-    "apps": 42,
+    "apps": 38,
     "goals": 7,
     "assists": 4
    },
@@ -1188,7 +1181,7 @@
     "goals": 4,
     "assists": 0
    },
-   "apps": 51,
+   "apps": 47,
    "goals": 11,
    "assists": 4
   },
@@ -1200,7 +1193,7 @@
     {
      "league": "ger.1",
      "name": "Bundesliga",
-     "apps": 33,
+     "apps": 32,
      "goals": 15,
      "assists": 19
     },
@@ -1239,23 +1232,23 @@
      {
       "league": "fifa.worldq.uefa",
       "name": "WCQ - UEFA",
-      "apps": 6,
+      "apps": 5,
       "goals": 2,
       "assists": 0
      }
     ]
    },
    "clubTotals": {
-    "apps": 53,
+    "apps": 52,
     "goals": 22,
     "assists": 26
    },
    "natTotals": {
-    "apps": 14,
+    "apps": 13,
     "goals": 2,
     "assists": 7
    },
-   "apps": 67,
+   "apps": 65,
    "goals": 24,
    "assists": 33
   },
@@ -1281,7 +1274,7 @@
     {
      "league": "fra.1",
      "name": "Ligue 1",
-     "apps": 31,
+     "apps": 23,
      "goals": 0,
      "assists": 0
     },
@@ -1320,7 +1313,7 @@
     ]
    },
    "clubTotals": {
-    "apps": 52,
+    "apps": 44,
     "goals": 2,
     "assists": 1
    },
@@ -1329,7 +1322,7 @@
     "goals": 0,
     "assists": 0
    },
-   "apps": 56,
+   "apps": 48,
    "goals": 2,
    "assists": 1
   },
@@ -1393,16 +1386,9 @@
      "assists": 2
     },
     {
-     "league": "eng.fa",
-     "name": "English FA Cup",
-     "apps": 2,
-     "goals": 0,
-     "assists": 0
-    },
-    {
      "league": "eng.1",
      "name": "Premier League",
-     "apps": 37,
+     "apps": 36,
      "goals": 4,
      "assists": 5
     },
@@ -1420,7 +1406,7 @@
      {
       "league": "fifa.world",
       "name": "FIFA World Cup",
-      "apps": 8,
+      "apps": 7,
       "goals": 1,
       "assists": 2
      },
@@ -1434,16 +1420,16 @@
     ]
    },
    "clubTotals": {
-    "apps": 58,
+    "apps": 55,
     "goals": 5,
     "assists": 9
    },
    "natTotals": {
-    "apps": 13,
+    "apps": 12,
     "goals": 2,
     "assists": 4
    },
-   "apps": 71,
+   "apps": 67,
    "goals": 7,
    "assists": 13
   },
@@ -1596,7 +1582,7 @@
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
-     "apps": 13,
+     "apps": 12,
      "goals": 0,
      "assists": 0
     }
@@ -1607,30 +1593,30 @@
      {
       "league": "fifa.world",
       "name": "FIFA World Cup",
-      "apps": 8,
+      "apps": 6,
       "goals": 0,
       "assists": 0
      },
      {
       "league": "fifa.worldq.uefa",
       "name": "WCQ - UEFA",
-      "apps": 4,
+      "apps": 3,
       "goals": 0,
       "assists": 0
      }
     ]
    },
    "clubTotals": {
-    "apps": 51,
+    "apps": 50,
     "goals": 1,
     "assists": 1
    },
    "natTotals": {
-    "apps": 12,
+    "apps": 9,
     "goals": 0,
     "assists": 0
    },
-   "apps": 63,
+   "apps": 59,
    "goals": 1,
    "assists": 1
   },
@@ -1652,7 +1638,7 @@
      {
       "league": "fifa.worldq.uefa",
       "name": "WCQ - UEFA",
-      "apps": 5,
+      "apps": 4,
       "goals": 2,
       "assists": 1
      }
@@ -1664,11 +1650,11 @@
     "assists": 0
    },
    "natTotals": {
-    "apps": 13,
+    "apps": 12,
     "goals": 3,
     "assists": 2
    },
-   "apps": 13,
+   "apps": 12,
    "goals": 3,
    "assists": 2,
    "warn": "لا أرقام لهذا الموسم"
@@ -1681,14 +1667,14 @@
     {
      "league": "ger.1",
      "name": "Bundesliga",
-     "apps": 31,
+     "apps": 24,
      "goals": 1,
      "assists": 1
     },
     {
      "league": "ger.dfb_pokal",
      "name": "German Cup",
-     "apps": 6,
+     "apps": 5,
      "goals": 0,
      "assists": 0
     },
@@ -1702,7 +1688,7 @@
     {
      "league": "uefa.champions",
      "name": "UEFA Champions League",
-     "apps": 13,
+     "apps": 12,
      "goals": 1,
      "assists": 2
     }
@@ -1720,23 +1706,23 @@
      {
       "league": "fifa.worldq.uefa",
       "name": "WCQ - UEFA",
-      "apps": 6,
+      "apps": 5,
       "goals": 0,
       "assists": 0
      }
     ]
    },
    "clubTotals": {
-    "apps": 51,
+    "apps": 42,
     "goals": 2,
     "assists": 3
    },
    "natTotals": {
-    "apps": 14,
+    "apps": 13,
     "goals": 0,
     "assists": 1
    },
-   "apps": 65,
+   "apps": 55,
    "goals": 2,
    "assists": 4
   },
@@ -1748,7 +1734,7 @@
     {
      "league": "esp.copa_del_rey",
      "name": "Copa del Rey",
-     "apps": 2,
+     "apps": 1,
      "goals": 0,
      "assists": 0
     },
@@ -1787,7 +1773,7 @@
     ]
    },
    "clubTotals": {
-    "apps": 54,
+    "apps": 53,
     "goals": 22,
     "assists": 10
    },
@@ -1796,7 +1782,7 @@
     "goals": 4,
     "assists": 1
    },
-   "apps": 59,
+   "apps": 58,
    "goals": 26,
    "assists": 11
   },
@@ -1809,7 +1795,7 @@
     {
      "league": "fra.coupe_de_france",
      "name": "Coupe de France",
-     "apps": 2,
+     "apps": 1,
      "goals": 0,
      "assists": 0
     },
@@ -1823,7 +1809,7 @@
     {
      "league": "fra.1",
      "name": "Ligue 1",
-     "apps": 31,
+     "apps": 29,
      "goals": 1,
      "assists": 7
     },
@@ -1869,7 +1855,7 @@
     ]
    },
    "clubTotals": {
-    "apps": 53,
+    "apps": 50,
     "goals": 7,
     "assists": 10
    },
@@ -1878,7 +1864,7 @@
     "goals": 0,
     "assists": 0
    },
-   "apps": 64,
+   "apps": 61,
    "goals": 7,
    "assists": 10
   }
