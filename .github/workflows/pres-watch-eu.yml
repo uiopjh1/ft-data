@@ -23,7 +23,7 @@ jobs:
         env:
           WATCH_BACKTEST: ${{ github.event.inputs.mode == 'backtest' && '1' || '' }}
           WATCH_APPLY: ${{ (github.event.inputs.mode == 'backtest' || startsWith(github.event.inputs.mode, 'ar:')) && '' || '1' }}
-          WATCH_TEST_AR: ${{ startsWith(github.event.inputs.mode, 'ar:') && substr(github.event.inputs.mode, 3, 200) || '' }}
+          WATCH_TEST_AR: ${{ startsWith(github.event.inputs.mode, 'ar:') && github.event.inputs.mode || '' }}
         run: python pres_watch_eu.py
       - run: |
           git config user.name github-actions; git config user.email a@b.c

@@ -154,7 +154,7 @@ def upgrade_pending(d, alerts, now):
 def main():
     if os.environ.get('WATCH_TEST_AR'):
         out = {}
-        for nm in os.environ['WATCH_TEST_AR'].split('|'):
+        for nm in os.environ['WATCH_TEST_AR'][3:].split('|'):
             out[nm] = {'wikidata': ar_label(nm), 'wikipedia': ar_wikipedia(nm)}
         json.dump(out, open('pres_ar_test.json', 'w'), ensure_ascii=False, indent=1)
         return
