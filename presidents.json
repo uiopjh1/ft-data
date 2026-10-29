@@ -1195,11 +1195,7 @@
   "name": "أنخل توريس",
   "en": "Ángel Torres",
   "since": 2002,
-  "noTitles": true,
-  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/1910-03-17%2C_Nuevo_Mundo%2C_Autores_del_sainete_%27%27El_chico_del_cafet%C3%ADn%27%27_%28cropped%29_%C3%81ngel_Torres_del_%C3%81lamo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-  "imageAuto": true,
-  "imageFor": "Ángel Torres",
-  "imageSrc": "https://commons.wikimedia.org/wiki/File%3A1910-03-17%2C_Nuevo_Mundo%2C_Autores_del_sainete_%27%27El_chico_del_cafet%C3%ADn%27%27_%28cropped%29_%C3%81ngel_Torres_del_%C3%81lamo.jpg"
+  "noTitles": true
  },
  "Torino": {
   "name": "أوربانو كايرو",
@@ -1573,11 +1569,7 @@
     "name": "الدرجة الثانية الإسبانية",
     "detail": "2025"
    }
-  ],
-  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Pablo_S%C3%A1nchez_en_2021.jpg/960px-Pablo_S%C3%A1nchez_en_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "imageAuto": true,
-  "imageFor": "Pablo Sánchez",
-  "imageSrc": "https://commons.wikimedia.org/wiki/File%3APablo_S%C3%A1nchez_en_2021.jpg"
+  ]
  },
  "Espanyol": {
   "name": "آلان بيس",
@@ -2128,11 +2120,7 @@
     "detail": "2024",
     "slug": "ger.super_cup"
    }
-  ],
-  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Fernando_Carro_2011_%286504821199%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-  "imageAuto": true,
-  "imageFor": "Fernando Carro",
-  "imageSrc": "https://commons.wikimedia.org/wiki/File%3AFernando_Carro_2011_%286504821199%29_%28cropped%29.jpg"
+  ]
  },
  "Leverkusen": {
   "name": "فرناندو كارو",
@@ -2156,11 +2144,7 @@
     "detail": "2024",
     "slug": "ger.super_cup"
    }
-  ],
-  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Fernando_Carro_2011_%286504821199%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-  "imageAuto": true,
-  "imageFor": "Fernando Carro",
-  "imageSrc": "https://commons.wikimedia.org/wiki/File%3AFernando_Carro_2011_%286504821199%29_%28cropped%29.jpg"
+  ]
  },
  "Bayer 04 Leverkusen": {
   "name": "فرناندو كارو",
@@ -2184,11 +2168,7 @@
     "detail": "2024",
     "slug": "ger.super_cup"
    }
-  ],
-  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Fernando_Carro_2011_%286504821199%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-  "imageAuto": true,
-  "imageFor": "Fernando Carro",
-  "imageSrc": "https://commons.wikimedia.org/wiki/File%3AFernando_Carro_2011_%286504821199%29_%28cropped%29.jpg"
+  ]
  },
  "Aston Villa": {
   "name": "ناصف ساويرس وويس إدنز",
@@ -2216,11 +2196,7 @@
     "detail": "2008"
    }
   ],
-  "since": 2004,
-  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Cardinal_Rossi_%28cropped%29.JPG/960px-Cardinal_Rossi_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "imageAuto": true,
-  "imageFor": "Carlo Rossi",
-  "imageSrc": "https://commons.wikimedia.org/wiki/File%3ACardinal_Rossi_%28cropped%29.JPG"
+  "since": 2004
  },
  "US Sassuolo": {
   "name": "كارلو روسي",
@@ -2235,11 +2211,7 @@
     "detail": "2008"
    }
   ],
-  "since": 2004,
-  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Cardinal_Rossi_%28cropped%29.JPG/960px-Cardinal_Rossi_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "imageAuto": true,
-  "imageFor": "Carlo Rossi",
-  "imageSrc": "https://commons.wikimedia.org/wiki/File%3ACardinal_Rossi_%28cropped%29.JPG"
+  "since": 2004
  },
  "AFC Bournemouth": {
   "name": "بيل فولي",
@@ -2247,11 +2219,7 @@
   "since": 2022,
   "role": "رئيس مجلس الإدارة",
   "interim": true,
-  "noTitles": true,
-  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Bill_Foley%2C_2009.jpg/960px-Bill_Foley%2C_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "imageAuto": true,
-  "imageFor": "Bill Foley",
-  "imageSrc": "https://commons.wikimedia.org/wiki/File%3ABill_Foley%2C_2009.jpg"
+  "noTitles": true
  },
  "Bournemouth": {
   "name": "بيل فولي",
@@ -2259,11 +2227,7 @@
   "since": 2022,
   "role": "رئيس مجلس الإدارة",
   "interim": true,
-  "noTitles": true,
-  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Bill_Foley%2C_2009.jpg/960px-Bill_Foley%2C_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "imageAuto": true,
-  "imageFor": "Bill Foley",
-  "imageSrc": "https://commons.wikimedia.org/wiki/File%3ABill_Foley%2C_2009.jpg"
+  "noTitles": true
  },
  "Metz": {
   "name": "برنار سيرين",
