@@ -1,24 +1,14 @@
 {
  "أحمد البلوشي": {
   "checked": "2026-10-29",
-  "img_conf": "single",
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/98653067.jpg",
-  "img_src": [
-   "https://www.albayan.ae/across-the-uae/news-and-reports/2015-10-02-1.2471740",
-   "https://www.albayan.ae/across-the-uae/news-and-reports/2015-10-02-1.2471740"
-  ]
+  "photo_rejected": "manual review 2026-10-29"
  },
  "أحمد الحامد": {
   "checked": "2026-10-29"
  },
  "أحمد فؤاد": {
   "checked": "2026-10-29",
-  "img_conf": "single",
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/12573467.jpg",
-  "img_src": [
-   "https://gate.ahram.org.eg/News/4606388.aspx",
-   "https://gate.ahram.org.eg/News/4606388.aspx"
-  ]
+  "photo_rejected": "manual review 2026-10-29"
  },
  "أيمن الكاشف": {
   "checked": "2026-10-29",
@@ -43,19 +33,11 @@
  },
  "عبد الإله العمري": {
   "checked": "2026-10-29",
-  "img_conf": "single",
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/56947427.jpg",
-  "img_src": [
-   "https://www.sportksa.net/main/archives/473767"
-  ]
+  "photo_rejected": "manual review 2026-10-29"
  },
  "عبدالله الغامدي": {
   "checked": "2026-10-29",
-  "img_conf": "single",
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/69668883.jpg",
-  "img_src": [
-   "https://www.pscp.tv/AbdullaAlGhamdi/1jMJgnqdXdqGL"
-  ]
+  "photo_rejected": "manual review 2026-10-29"
  },
  "عصام الشوالي": {
   "checked": "2026-10-29",
@@ -84,11 +66,7 @@
  },
  "مشعل الشمري": {
   "checked": "2026-10-29",
-  "img_conf": "single",
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/39447114.jpg",
-  "img_src": [
-   "https://www.bigo.tv/pl/user/393892533"
-  ]
+  "photo_rejected": "manual review 2026-10-29"
  },
  "آسيا عبد الله": {
   "checked": "2026-10-29",
@@ -148,12 +126,7 @@
  },
  "حسن خالد": {
   "checked": "2026-10-29",
-  "img_conf": "single",
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/44703480.jpg",
-  "img_src": [
-   "https://www.marefa.org/%D8%AD%D8%B3%D9%86_%D8%AE%D8%A7%D9%84%D8%AF",
-   "https://www.marefa.org/%D8%AD%D8%B3%D9%86_%D8%AE%D8%A7%D9%84%D8%AF"
-  ]
+  "photo_rejected": "manual review 2026-10-29"
  },
  "حفيظ دراجي": {
   "checked": "2026-10-29",
@@ -225,35 +198,21 @@
  },
  "فارس عوض": {
   "checked": "2026-10-29",
-  "img_conf": "single",
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/28625747.jpg",
-  "img_src": [
-   "https://www.emaratalyoum.com/sports/local/2019-01-19-1.1174145?ot=ot.AMPPageLayout"
-  ]
+  "photo_rejected": "manual review 2026-10-29"
  },
  "فهد العتيبي": {
   "checked": "2026-10-29",
   "bio": "فهد خالد الرويس العتيبي معلق رياضي سعودي يعمل في ثمانية.",
   "src": "ar.wikipedia.org/wiki/%D9%81%D9%87%D8%AF_%D8%A7%D9%84%D8%B9%D8%AA%D9%8A%D8%A8%D9%8A",
   "wiki": "فهد العتيبي",
-  "img_conf": "single",
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/67847364.jpg",
-  "img_src": [
-   "https://www.speakrj.com/audit/report/FhadOtaibi/twitter",
-   "https://www.speakrj.com/audit/report/FhadOtaibi/twitter"
-  ]
+  "photo_rejected": "manual review 2026-10-29"
  },
  "مجيد بوطمين": {
   "checked": "2026-10-29"
  },
  "محمد عفيفي": {
   "checked": "2026-10-29",
-  "img_conf": "single",
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/51419967.jpg",
-  "img_src": [
-   "https://www.elwatannews.com/news/details/7094662",
-   "https://www.elwatannews.com/news/details/7094662"
-  ]
+  "photo_rejected": "manual review 2026-10-29"
  },
  "مدحت شلبي": {
   "checked": "2026-10-29",

@@ -30,7 +30,7 @@ def items(name, q=None):
         out.append({'title': sn.group(1), 'domain': re.sub(r'^www\.', '', sn.group(2)), 'page': sn.group(3), 'orig': f('origUrl'), 'thumb': th})
     return out
 
-BAD = ('youtube.com', 'youtu.be', 'soundcloud.com', 'music.', 'genius.com', 'iheart.com', 'pinterest', 'yandex', 'flickr.com', 'facebook.com', 'instagram.com', 'x.com', 'twitter.com', 'tiktok.com', 'archive.org')
+BAD = ('youtube.com', 'youtu.be', 'soundcloud.com', 'music.', 'genius.com', 'iheart.com', 'pinterest', 'yandex', 'flickr.com', 'facebook.com', 'instagram.com', 'x.com', 'twitter.com', 'tiktok.com', 'archive.org', 'pscp.tv', 'bigo.tv', 'speakrj', 'periscope')
 def news_items(name):
     t = get('https://www.bing.com/news/search?format=rss&q=' + urllib.parse.quote('"%s" معلق' % name))
     out = []
@@ -73,7 +73,7 @@ def main():
     for n in names:
         if only and n not in only.split('|'): continue
         e = info[n]
-        if e.get('image'): continue
+        if e.get('image') or e.get('photo_rejected'): continue
         try:
             its = items(n)
             if its is not None:
