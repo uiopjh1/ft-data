@@ -4,21 +4,221 @@
    "AS Roma"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "resp",
+    [
+     [
+      "Associazione Sportiva Roma",
+      false
+     ],
+     [
+      "Associazione Sportiva Roma (femenino)",
+      false
+     ],
+     [
+      "Everton Football Club",
+      false
+     ],
+     [
+      "Hot Summer Nights",
+      false
+     ]
+    ]
+   ],
+   [
+    "de",
+    "resp",
+    []
+   ],
+   [
+    "it",
+    "resp",
+    [
+     [
+      "Allenatori e presidenti dell'Associazione Sportiva Roma",
+      false
+     ],
+     [
+      "Associazione Sportiva Roma",
+      true
+     ],
+     [
+      "Associazione Sportiva Roma 2020-2021 (femminile)",
+      false
+     ],
+     [
+      "Dan Friedkin",
+      false
+     ]
+    ]
+   ],
+   [
+    "fr",
+    "resp",
+    []
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
+   ]
+  ]
  },
  "Jokin Aperribay": {
   "keys": [
    "Real Sociedad"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "resp",
+    []
+   ],
+   [
+    "de",
+    "resp",
+    [
+     [
+      "Real Sociedad San Sebastián",
+      true
+     ],
+     [
+      "Real Sociedad San Sebastián (Frauenfußball)",
+      true
+     ]
+    ]
+   ],
+   [
+    "it",
+    "resp",
+    [
+     [
+      "Jokin Aperribay",
+      false
+     ],
+     [
+      "Real Sociedad de Fútbol",
+      true
+     ],
+     [
+      "Real Sociedad de Fútbol (femminile)",
+      true
+     ],
+     [
+      "Real Sociedad de Fútbol 2015-2016",
+      false
+     ]
+    ]
+   ],
+   [
+    "fr",
+    "resp",
+    [
+     [
+      "Real Sociedad B",
+      true
+     ],
+     [
+      "Real Sociedad de Fútbol",
+      true
+     ],
+     [
+      "Real Sociedad de Fútbol (féminines)",
+      true
+     ]
+    ]
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
+   ]
+  ]
  },
  "Jose Maria del Nido Carrasco": {
   "keys": [
    "Sevilla"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "resp",
+    [
+     [
+      "José María del Nido",
+      true
+     ],
+     [
+      "Presidentes del Sevilla Fútbol Club",
+      false
+     ],
+     [
+      "Sevilla Atlético Club",
+      false
+     ],
+     [
+      "Sevilla Fútbol Club",
+      false
+     ]
+    ]
+   ],
+   [
+    "de",
+    "resp",
+    [
+     [
+      "FC Sevilla",
+      false
+     ]
+    ]
+   ],
+   [
+    "it",
+    "resp",
+    [
+     [
+      "Sevilla Fútbol Club",
+      true
+     ],
+     [
+      "Sevilla Fútbol Club 2013-2014",
+      true
+     ],
+     [
+      "Sevilla Fútbol Club 2023-2024",
+      false
+     ],
+     [
+      "Sevilla Fútbol Club 2024-2025",
+      false
+     ]
+    ]
+   ],
+   [
+    "fr",
+    "resp",
+    [
+     [
+      "Sevilla Fútbol Club",
+      true
+     ]
+    ]
+   ],
+   [
+    "pt",
+    "resp",
+    [
+     [
+      "Sevilla Fútbol Club",
+      true
+     ]
+    ]
+   ]
+  ]
  },
  "Jon Uriarte": {
   "keys": [
@@ -28,8 +228,28 @@
   "log": [
    [
     "es",
-    "Jon Emili Uriarte",
-    "club/role not in intro"
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "de",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "fr",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
    ]
   ]
  },
@@ -41,15 +261,28 @@
   "log": [
    [
     "es",
-    "Ángel Haro",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/2022_04_28_Recepci%C3%B3n_oficial_Del_Real_Betis_Balompi%C3%A9_por_la_consecuci%C3%B3n_de_la_Copa_del_Rey._%2852036281092%29.jpg/500px-2022_04_28_Recepci%C3%B3n_oficial_Del_Real_Betis_Balompi%C3%A9_por_la_consecuci%C3%B3n_de_la_Copa_del_Rey._%2852036281092%29.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    false,
-    "face small"
+    "EMPTY-RESP",
+    []
    ],
    [
-    "es",
-    "Ángel Haro (artista)",
-    "club/role not in intro"
+    "de",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "fr",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
    ]
   ]
  },
@@ -58,98 +291,564 @@
    "Fiorentina"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "de",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "fr",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
+   ]
+  ]
  },
  "Ángel Torres": {
   "keys": [
    "Getafe"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "de",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "fr",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
+   ]
+  ]
  },
  "Alfonso Fernández de Trocóniz": {
   "keys": [
    "Alaves"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "de",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "fr",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
+   ]
+  ]
  },
  "Marc Keller": {
   "keys": [
    "Strasbourg"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "de",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "fr",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
+   ]
+  ]
  },
  "Maurice Cohen": {
   "keys": [
    "Nice"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "resp",
+    []
+   ],
+   [
+    "de",
+    "resp",
+    []
+   ],
+   [
+    "it",
+    "resp",
+    [
+     [
+      "Olympique Gymnaste Club de Nice Côte d'Azur 2002-2003",
+      false
+     ],
+     [
+      "Olympique Gymnaste Club de Nice Côte d'Azur 2003-2004",
+      false
+     ],
+     [
+      "Olympique Gymnaste Club de Nice Côte d'Azur 2004-2005",
+      false
+     ],
+     [
+      "Olympique Gymnaste Club de Nice Côte d'Azur 2006-2007",
+      false
+     ]
+    ]
+   ],
+   [
+    "fr",
+    "resp",
+    [
+     [
+      "10 juin 1944",
+      false
+     ],
+     [
+      "Maurice Cohen (juriste)",
+      false
+     ],
+     [
+      "Maurice Cohen (réalisateur)",
+      false
+     ],
+     [
+      "Maurice Cohen (sport)",
+      false
+     ]
+    ]
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
+   ]
+  ]
  },
  "Arnaud Pouille": {
   "keys": [
    "Rennes"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "resp",
+    []
+   ],
+   [
+    "de",
+    "resp",
+    [
+     [
+      "Joseph Oughourlian",
+      true
+     ]
+    ]
+   ],
+   [
+    "it",
+    "resp",
+    [
+     [
+      "Ligue 1 2024-2025",
+      true
+     ],
+     [
+      "Stade Rennais Football Club 2026-2027",
+      false
+     ]
+    ]
+   ],
+   [
+    "fr",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
+   ]
+  ]
  },
  "Denis Le Saint": {
   "keys": [
    "Brest"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "resp",
+    [
+     [
+      "Brest Bretagne Handball",
+      false
+     ],
+     [
+      "Stade Brestois 29",
+      false
+     ]
+    ]
+   ],
+   [
+    "de",
+    "resp",
+    [
+     [
+      "Brest Bretagne Handball",
+      false
+     ],
+     [
+      "Stade Brest",
+      false
+     ]
+    ]
+   ],
+   [
+    "it",
+    "resp",
+    []
+   ],
+   [
+    "fr",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
+   ]
+  ]
  },
  "Olivier Cloarec": {
   "keys": [
    "Toulouse"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "de",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "fr",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
+   ]
+  ]
  },
  "Saverio Sticchi Damiani": {
   "keys": [
    "Lecce"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "de",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "fr",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
+   ]
+  ]
  },
  "Dan Sucu": {
   "keys": [
    "Genoa"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "de",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "fr",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
+   ]
+  ]
  },
  "Franco Soldati": {
   "keys": [
    "Udinese"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "de",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "fr",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "pt",
+    "resp",
+    [
+     [
+      "Udinese Calcio",
+      true
+     ]
+    ]
+   ]
+  ]
  },
  "Stefan Hofmann": {
   "keys": [
    "Mainz"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "de",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "fr",
+    "resp",
+    [
+     [
+      "1. FSV Mayence 05",
+      true
+     ],
+     [
+      "Gravitation quantique à boucles",
+      true
+     ],
+     [
+      "Hatred",
+      true
+     ],
+     [
+      "Jusqu'à la lie (film)",
+      false
+     ]
+    ]
+   ],
+   [
+    "pt",
+    "resp",
+    [
+     [
+      "1. FSV Mainz 05",
+      true
+     ],
+     [
+      "Campeonato Mundial de Ginástica Acrobática de 1986",
+      false
+     ]
+    ]
+   ]
+  ]
  },
  "Jörn Stobbe": {
   "keys": [
    "1. FC Köln"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "de",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "fr",
+    "resp",
+    [
+     [
+      "1. FC Cologne",
+      true
+     ]
+    ]
+   ],
+   [
+    "pt",
+    "resp",
+    []
+   ]
+  ]
  },
  "Henrik Köncke": {
   "keys": [
    "Hamburg SV"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "resp",
+    []
+   ],
+   [
+    "de",
+    "resp",
+    []
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "fr",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
+   ]
+  ]
  },
  "Pablo Sánchez": {
   "keys": [
@@ -158,24 +857,29 @@
   "found": null,
   "log": [
    [
-    "fr",
-    "Pablo Sánchez López",
-    "club/role not in intro"
+    "es",
+    "resp",
+    []
+   ],
+   [
+    "de",
+    "resp",
+    []
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
    ],
    [
     "fr",
-    "Pablo Sánchez",
-    "club/role not in intro"
-   ],
-   [
-    "fr",
-    "Pablo Martín Sánchez",
-    "club/role not in intro"
+    "EMPTY-RESP",
+    []
    ],
    [
     "pt",
-    "Pablo Sánchez Velarde",
-    "club/role not in intro"
+    "EMPTY-RESP",
+    []
    ]
   ]
  },
@@ -184,125 +888,741 @@
    "Real Oviedo"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "resp",
+    [
+     [
+      "Club de Fútbol Pachuca",
+      false
+     ],
+     [
+      "Nuevo Central Argentino",
+      true
+     ],
+     [
+      "Plenti App",
+      false
+     ],
+     [
+      "Real Oviedo",
+      false
+     ]
+    ]
+   ],
+   [
+    "de",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "fr",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
+   ]
+  ]
  },
  "Kyril Louis-Dreyfus": {
   "keys": [
    "Sunderland"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "de",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "fr",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
+   ]
+  ]
  },
  "Maurizio Calcinoni": {
   "keys": [
    "Cremonese"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "de",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "fr",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
+   ]
+  ]
  },
  "Paraag Marathe": {
   "keys": [
    "Leeds United"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "de",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "fr",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
+   ]
+  ]
  },
  "André Kreuzwieser": {
   "keys": [
    "Hoffenheim"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "de",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "it",
+    "resp",
+    []
+   ],
+   [
+    "fr",
+    "resp",
+    []
+   ],
+   [
+    "pt",
+    "resp",
+    []
+   ]
+  ]
  },
  "Holger Sanwald": {
   "keys": [
    "Heidenheim"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "de",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "it",
+    "resp",
+    []
+   ],
+   [
+    "fr",
+    "resp",
+    []
+   ],
+   [
+    "pt",
+    "resp",
+    []
+   ]
+  ]
  },
  "Kyle Krause": {
   "keys": [
    "Parma"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "de",
+    "resp",
+    [
+     [
+      "Parma Calcio 1913",
+      true
+     ]
+    ]
+   ],
+   [
+    "it",
+    "resp",
+    [
+     [
+      "Des Moines Menace",
+      true
+     ],
+     [
+      "Kyle Krause",
+      true
+     ],
+     [
+      "Parma Calcio 1913",
+      true
+     ],
+     [
+      "Parma Calcio 1913 (femminile)",
+      true
+     ]
+    ]
+   ],
+   [
+    "it",
+    "Kyle Krause",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Kyle_Krause_%28Parma%2C_April_2021%29_%28cropped%29.jpg/500px-Kyle_Krause_%28Parma%2C_April_2021%29_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    false,
+    "faces=0"
+   ],
+   [
+    "fr",
+    "resp",
+    []
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
+   ]
+  ]
  },
  "James Zhou": {
   "keys": [
    "Auxerre"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "resp",
+    []
+   ],
+   [
+    "de",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "fr",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
+   ]
+  ]
  },
  "Jean-Michel Roussier": {
   "keys": [
    "Le Havre"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "de",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "fr",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
+   ]
+  ]
  },
  "Dirk Zingler": {
   "keys": [
    "Union Berlin"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "de",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "fr",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
+   ]
+  ]
  },
  "Mirwan Suwarso": {
   "keys": [
    "Como"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "de",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "fr",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
+   ]
+  ]
  },
  "Romain Chabane": {
   "keys": [
    "Angers"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "de",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "fr",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
+   ]
+  ]
  },
  "Cliff Crown": {
   "keys": [
    "Brentford"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "de",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "fr",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "pt",
+    "resp",
+    [
+     [
+      "Brentford Football Club",
+      true
+     ]
+    ]
+   ]
+  ]
  },
  "Fernando Carro": {
   "keys": [
    "Bayer Leverkusen"
   ],
-  "found": null,
-  "log": []
+  "found": {
+   "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Fernando_Carro_2011_%286504821199%29_%28cropped%29.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "src": "https://de.wikipedia.org/wiki/Fernando_Carro_%28Manager%29",
+   "lang": "de",
+   "intro": "Fernando Carro de Prada (* 27. Juli 1964 in Barcelona) ist ein spanischer Manager. Er fungiert seit dem 1. Juli 2018 als Vorsitzender der Geschäftsführung bei d"
+  },
+  "log": [
+   [
+    "es",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "de",
+    "resp",
+    [
+     [
+      "Carro",
+      false
+     ],
+     [
+      "DirectGroup Bertelsmann",
+      false
+     ],
+     [
+      "Fernando Carro",
+      false
+     ],
+     [
+      "Fernando Carro (Manager)",
+      true
+     ]
+    ]
+   ],
+   [
+    "de",
+    "Fernando Carro Morillo",
+    "club/role not in intro"
+   ],
+   [
+    "de",
+    "Fernando Carro (Manager)",
+    "https://upload.wikimedia.org/wikipedia/commons/c/c5/Fernando_Carro_2011_%286504821199%29_%28cropped%29.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    true,
+    "face 0.54x0.45"
+   ]
+  ]
  },
  "Carlo Rossi": {
   "keys": [
    "Sassuolo"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "resp",
+    [
+     [
+      "Arquitectura neoclásica en Rusia",
+      true
+     ],
+     [
+      "Carlo Rossi",
+      false
+     ],
+     [
+      "Carlo Rossi (arquitecto)",
+      true
+     ],
+     [
+      "Edificio del Estado Mayor",
+      true
+     ]
+    ]
+   ],
+   [
+    "es",
+    "Carlo Rossi (arquitecto)",
+    "club/role not in intro"
+   ],
+   [
+    "de",
+    "resp",
+    []
+   ],
+   [
+    "it",
+    "resp",
+    []
+   ],
+   [
+    "fr",
+    "resp",
+    []
+   ],
+   [
+    "pt",
+    "resp",
+    [
+     [
+      "Adeodato Giovanni Piazza",
+      true
+     ],
+     [
+      "Karl Ivanovitch Rossi",
+      true
+     ],
+     [
+      "Palácio Mikhailovsky",
+      true
+     ],
+     [
+      "Palácio Stroganov",
+      true
+     ]
+    ]
+   ],
+   [
+    "pt",
+    "Raffaele Carlo Rossi",
+    "club/role not in intro"
+   ]
+  ]
  },
  "Bill Foley": {
   "keys": [
    "AFC Bournemouth"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "resp",
+    [
+     [
+      "AFC Bournemouth",
+      false
+     ],
+     [
+      "Auckland Football Club",
+      false
+     ],
+     [
+      "Football Club Lorient",
+      false
+     ],
+     [
+      "Loïc Féry",
+      true
+     ]
+    ]
+   ],
+   [
+    "de",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "fr",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
+   ]
+  ]
  },
  "Bernard Serin": {
   "keys": [
    "Metz"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "resp",
+    []
+   ],
+   [
+    "de",
+    "resp",
+    [
+     [
+      "Arc Majeur",
+      true
+     ],
+     [
+      "Bernard Serin",
+      false
+     ],
+     [
+      "Elihu Abrahams",
+      false
+     ],
+     [
+      "FC Metz",
+      true
+     ]
+    ]
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "fr",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
+   ]
+  ]
  },
  "Hubertus Hess-Grunewald": {
   "keys": [
    "Werder Bremen"
   ],
   "found": null,
-  "log": []
+  "log": [
+   [
+    "es",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "de",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "it",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "fr",
+    "EMPTY-RESP",
+    []
+   ],
+   [
+    "pt",
+    "EMPTY-RESP",
+    []
+   ]
+  ]
  }
 }
