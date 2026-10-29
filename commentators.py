@@ -99,7 +99,9 @@ def main():
         urls = discover(d); dbg[key] = {'urls': urls[:4]}
         got = None
         for u in urls:
-            try: rows = parse(get(u))
+            try:
+                pg = get(u); i = pg.find('الخلود', pg.find('الجولة 12') if 'الجولة 12' in pg else 0); dbg[key]['raw'] = re.sub(r'\s+', ' ', pg[max(0, i - 300):i + 900])
+                rows = parse(pg)
             except Exception as e: dbg[key]['err'] = str(e)[:80]; continue
             dbg[key]['rows'] = len(rows)
             if len(rows) >= 2: got = {'src': u, 'rows': rows}; break
