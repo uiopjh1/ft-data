@@ -1312,7 +1312,11 @@
     "name": "ناسيونال 2 (الدرجة الرابعة)",
     "detail": "2013"
    }
-  ]
+  ],
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/marc_keller.jpg",
+  "imageAuto": true,
+  "imageFor": "Marc Keller",
+  "imageSrc": "https://www.dna.fr/sport/2026/09/07/mercato-supporters-ambitions-l-interview-exclusive-de-marc-keller-le-president-du-racing-club-de-strasbourg"
  },
  "RC Strasbourg": {
   "name": "مارك كيلر",
@@ -1336,7 +1340,11 @@
     "name": "ناسيونال 2 (الدرجة الرابعة)",
     "detail": "2013"
    }
-  ]
+  ],
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/marc_keller.jpg",
+  "imageAuto": true,
+  "imageFor": "Marc Keller",
+  "imageSrc": "https://www.dna.fr/sport/2026/09/07/mercato-supporters-ambitions-l-interview-exclusive-de-marc-keller-le-president-du-racing-club-de-strasbourg"
  },
  "RC Strasbourg Alsace": {
   "name": "مارك كيلر",
@@ -1360,7 +1368,11 @@
     "name": "ناسيونال 2 (الدرجة الرابعة)",
     "detail": "2013"
    }
-  ]
+  ],
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/marc_keller.jpg",
+  "imageAuto": true,
+  "imageFor": "Marc Keller",
+  "imageSrc": "https://www.dna.fr/sport/2026/09/07/mercato-supporters-ambitions-l-interview-exclusive-de-marc-keller-le-president-du-racing-club-de-strasbourg"
  },
  "Nice": {
   "name": "موريس كوهين",
@@ -1892,7 +1904,11 @@
     "name": "دوري الدرجة الأولى الإنجليزي (التشامبيونشيب)",
     "detail": "2025"
    }
-  ]
+  ],
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/paraag_marathe.jpg",
+  "imageAuto": true,
+  "imageFor": "Paraag Marathe",
+  "imageSrc": "https://www.rangersnews.uk/news/who-is-paraag-marathe-meet-the-49ers-enterprises-president-spearheading-rangers-takeover-talks/"
  },
  "Leeds": {
   "name": "باراغ مارات",
@@ -1904,7 +1920,11 @@
     "name": "دوري الدرجة الأولى الإنجليزي (التشامبيونشيب)",
     "detail": "2025"
    }
-  ]
+  ],
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/paraag_marathe.jpg",
+  "imageAuto": true,
+  "imageFor": "Paraag Marathe",
+  "imageSrc": "https://www.rangersnews.uk/news/who-is-paraag-marathe-meet-the-49ers-enterprises-president-spearheading-rangers-takeover-talks/"
  },
  "Wolverhampton Wanderers": {
   "name": "ناثان شي",
@@ -1924,19 +1944,31 @@
   "name": "أندريه كرويتسفيزر",
   "en": "André Kreuzwieser",
   "since": 2026,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/andre_kreuzwieser.jpg",
+  "imageAuto": true,
+  "imageFor": "André Kreuzwieser",
+  "imageSrc": "https://www.fupa.net/news/andre-kreuzwieser-zum-neuen-tsg-praesidenten-gewaehlt-3165318"
  },
  "TSG Hoffenheim": {
   "name": "أندريه كرويتسفيزر",
   "en": "André Kreuzwieser",
   "since": 2026,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/andre_kreuzwieser.jpg",
+  "imageAuto": true,
+  "imageFor": "André Kreuzwieser",
+  "imageSrc": "https://www.fupa.net/news/andre-kreuzwieser-zum-neuen-tsg-praesidenten-gewaehlt-3165318"
  },
  "1899 Hoffenheim": {
   "name": "أندريه كرويتسفيزر",
   "en": "André Kreuzwieser",
   "since": 2026,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/andre_kreuzwieser.jpg",
+  "imageAuto": true,
+  "imageFor": "André Kreuzwieser",
+  "imageSrc": "https://www.fupa.net/news/andre-kreuzwieser-zum-neuen-tsg-praesidenten-gewaehlt-3165318"
  },
  "Augsburg": {
   "name": "ماركوس كرابف",
