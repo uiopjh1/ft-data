@@ -27,26 +27,50 @@ def norm(s):
 def host_of(u):
     return urllib.parse.urlparse(u).netloc.replace('www.', '').replace('m.', '')
 
-def rss(url):
+def rss(url, gnews=False):
+    """tolerant RSS parser (regex) - several Saudi feeds are not well-formed XML."""
     out = []
     try:
-        root = ET.fromstring(get(url))
-        for it in root.iter('item'):
-            t = html.unescape(it.findtext('title') or ''); l = it.findtext('link') or ''
+        x = get(url)
+        for blk in re.findall(r'<item[ >].*?</item>', x, re.S):
+            def tag(n):
+                m = re.search(r'<' + n + r'[^>]*>(.*?)</' + n + '>', blk, re.S)
+                if not m: return ''
+                v = m.group(1).strip()
+                v = re.sub(r'^<!\[CDATA\[(.*?)\]\]>$', r'\1', v, flags=re.S)
+                return html.unescape(v).strip()
+            t = tag('title'); l = tag('link') or (re.search(r'<link>(.*?)<', blk) or [None, ''])[1]
+            if not l:
+                m = re.search(r'<guid[^>]*>(.*?)</guid>', blk, re.S); l = html.unescape(m.group(1)).strip() if m else ''
             m = re.search(r'[?&]url=([^&]+)', l)
-            if m: l = urllib.parse.unquote(m.group(1))
-            d = it.findtext('pubDate') or ''
-            try: dt = email.utils.parsedate_to_datetime(d).replace(tzinfo=None)
+            if m and 'bing.com' in l: l = urllib.parse.unquote(m.group(1))
+            host = ''
+            sm = re.search(r'<source[^>]*url="([^"]+)"', blk)
+            if sm: host = host_of(sm.group(1))
+            try: dt = email.utils.parsedate_to_datetime(tag('pubDate')).replace(tzinfo=None)
             except Exception: dt = None
-            out.append({'title': t, 'link': l, 'date': dt})
+            out.append({'title': t, 'link': l, 'date': dt, 'host': host})
     except Exception as e:
         print('rss fail', url[:90], str(e)[:60])
     return out
 
 def bing(q): return rss('https://www.bing.com/news/search?format=rss&setlang=ar&q=' + urllib.parse.quote(q))
+def gnews(q, when): return rss('https://news.google.com/rss/search?hl=ar&gl=SA&ceid=SA:ar&q=' + urllib.parse.quote(q + ' when:' + when), True)
 
-QUERIES = ['رئيسا لنادي', 'رئيسًا لنادي السعودي رسميا', 'تكليف برئاسة نادي', 'استقالة رئيس نادي', 'قبول استقالة رئيس نادي', 'تزكية رئيسا لنادي', 'رئيس جديد لنادي', 'رئيس مجلس إدارة شركة النادي الجديد']
-FEEDS = ['https://aawsat.com/feed/sport', 'https://aawsat.com/rss.xml', 'https://www.okaz.com.sa/rss', 'https://www.okaz.com.sa/rss/sport', 'https://arriyadiyah.com/rss', 'https://sabq.org/rss', 'https://slaati.com/feed/', 'https://www.alyaum.com/rss']
+def resolve(link):
+    """Google News redirect -> real article url (best effort)."""
+    if 'news.google.com' not in link: return link
+    try:
+        from googlenewsdecoder import gnewsdecoder
+        r = gnewsdecoder(link, interval=0.3)
+        if r.get('status'): return r['decoded_url']
+    except Exception as e:
+        print('decode fail', str(e)[:60])
+    return None
+
+QUERIES = ['رئيسا لنادي', 'تكليف برئاسة نادي', 'استقالة رئيس نادي', 'تزكية رئيسا لنادي']
+SITES = ['okaz.com.sa', 'aawsat.com', 'sabq.org', 'alyaum.com', 'arriyadiyah.com', 'al-madina.com', 'alwatan.com.sa', 'slaati.com', 'ajel.sa', 'alriyadh.com', 'al-jazirah.com']
+FEEDS = ['https://aawsat.com/feed', 'https://arriyadiyah.com/rss', 'https://slaati.com/feed/', 'https://ajel.sa/rss', 'https://www.okaz.com.sa/rss', 'https://sabq.org/rss', 'https://sabq.org/rss/sports', 'https://www.alyaum.com/rss', 'https://www.alwatan.com.sa/rss']
 
 def clean_name(n):
     n = re.sub(r'[‎‏«»"“”\(\)\[\]،,؛:\.\-–—]', ' ', n)
@@ -89,6 +113,11 @@ def confirm(url, name):
     ok_name = sum(1 for t in toks if t in h) >= min(2, len(toks))
     return bool(ok_name and re.search(r'روشن|الدوري السعودي|السعوديه|المملكه|الهيئه', h) and re.search(r'رياس|رييس|رئيس', h))
 
+def confirm_src(url, name):
+    real = resolve(url)
+    if not real: return None   # cannot open page -> not confirmed
+    return confirm(real, name)
+
 def same_person(a, b):
     ta = {t for t in norm(re.sub(r'\(.*?\)', '', a)).split() if len(t) > 2 and t not in ('بن', 'ال')}
     tb = {t for t in norm(re.sub(r'\(.*?\)', '', b)).split() if len(t) > 2 and t not in ('بن', 'ال')}
@@ -103,23 +132,23 @@ def main():
     alerts = load('presidents_alerts.json', [])
     now = datetime.datetime.utcnow()
     items = []
-    for f in FEEDS:
-        got = rss(f); items += got
-        if BACKTEST: print('feed', f, len(got))
-    for q in QUERIES: items += bing(q)
-    for key, ar in CLUBS.items():
-        items += bing(f'رئيس نادي {ar}')
+    when = '120d' if BACKTEST else '2d'
+    for f in FEEDS: items += rss(f)
+    for q in QUERIES: items += gnews(q, when)
+    for st in SITES:
+        items += gnews(f'site:{st} (استقالة OR رئيسا OR تكليف) نادي', when)
     seen = set(state['seen']); log = []
     for it in items:
         l = it['link']
         if not l or l in seen: continue
-        if not any(host_of(l).endswith(d) for d in SAUDI): continue
+        h0 = it.get('host') or host_of(l)
+        if not any(h0.endswith(d) for d in SAUDI): continue
         if not BACKTEST and it['date'] and (now - it['date']).days > 10: continue
         evs = extract(it['title'])
         if not evs: continue
         seen.add(l)
         for key, kind, name, interim in evs:
-            log.append({'club': key, 'kind': kind, 'name': name, 'interim': interim, 'title': it['title'], 'link': l, 'date': str(it['date'])})
+            log.append({'club': key, 'kind': kind, 'name': name, 'interim': interim, 'title': it['title'], 'link': l, 'host': h0, 'date': str(it['date'])})
     state['seen'] = list(seen)[-4000:]
     json.dump(log, open('pres_watch_log.json', 'w'), indent=1, ensure_ascii=False)
     if BACKTEST:
@@ -127,7 +156,7 @@ def main():
     d = load('presidents.json', {})
     changed = False
     for e in log:
-        host = host_of(e['link'])
+        host = e.get('host') or host_of(e['link'])
         if e['kind'] == 'resign':
             alerts.append({'t': str(now), 'club': e['club'], 'type': 'resign', 'title': e['title'], 'src': e['link']}); continue
         cur = d.get(e['club'])
@@ -143,7 +172,7 @@ def main():
             cur = d.get(club)
             if cur and same_person(cur['name'], ev['name']): del evs[k]; continue
             if len(ev['sources']) >= 2:
-                good = [h for h, s in ev['sources'].items() if confirm(s['url'], ev['name'])]
+                good = [h for h, s in ev['sources'].items() if confirm_src(s['url'], ev['name'])]
                 if len(good) >= 2 and APPLY and cur:
                     old = cur['name']
                     group = [kk for kk, vv in d.items() if isinstance(vv, dict) and vv.get('name') == old and vv.get('en') == cur.get('en')]
