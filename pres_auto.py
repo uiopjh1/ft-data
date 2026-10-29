@@ -32,6 +32,20 @@ def search(q):
         print('search fail', q, e)
     return out
 
+def search_mkt(q, mkt):
+    out = []
+    try:
+        x = get('https://www.bing.com/news/search?format=rss&mkt=' + mkt + '&q=' + urllib.parse.quote(q))
+        root = ET.fromstring(x)
+        for it in root.iter('item'):
+            t = it.findtext('title') or ''; l = it.findtext('link') or ''
+            m = re.search(r'[?&]url=([^&]+)', l)
+            if m: l = urllib.parse.unquote(m.group(1))
+            out.append((html.unescape(t), l, it.findtext('pubDate') or ''))
+    except Exception as e:
+        print('search fail', q, e)
+    return out
+
 face = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 def portrait_ok(buf):
     a = cv2.imdecode(np.frombuffer(buf, np.uint8), cv2.IMREAD_COLOR)

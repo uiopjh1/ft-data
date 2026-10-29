@@ -8,8 +8,12 @@ from pres_auto_eu import fold
 ED = {'en': 'hl=en-GB&gl=GB&ceid=GB:en', 'es': 'hl=es&gl=ES&ceid=ES:es', 'it': 'hl=it&gl=IT&ceid=IT:it', 'de': 'hl=de&gl=DE&ceid=DE:de', 'fr': 'hl=fr&gl=FR&ceid=FR:fr'}
 ROLE = re.compile(r'president|presidente|praesident|prasident|chairman|vorsitz|président|owner|propriet|besitzer|eigent|dueno|dueño|patron|patrón|presidenza|presidencia|chief|boss|dirigente|club president', re.I)
 BAD = re.compile(r'dies|death|died|muere|muerto|funeral|arrest|trial|wife|daughter|lawsuit|lutto|stirbt|mort |decede|sentenc', re.I)
+MKT = {'en': 'en-GB', 'es': 'es-ES', 'it': 'it-IT', 'de': 'de-DE', 'fr': 'fr-FR'}
 def news(q, ed):
-    return pw.rss('https://news.google.com/rss/search?' + ED[ed] + '&q=' + urllib.parse.quote(q + ' when:365d'), True)
+    # Bing News RSS: links point straight at the article (no Google redirect to decode)
+    out = []
+    for t, l, d in pa.search_mkt(q, MKT[ed]): out.append({'title': t, 'link': l, 'host': urllib.parse.urlparse(l).netloc.replace('www.', '')})
+    return out
 def run(en, key, log):
     fn = fold(en).split(); first, last = fn[0], fn[-1]
     seen = set(); n = 0
@@ -22,7 +26,7 @@ def run(en, key, log):
             if it['link'] in seen: continue
             seen.add(it['link']); n += 1
             if n > 8: return None
-            real = pw.resolve(it['link'])
+            real = it['link']
             if not real: log.append(['cand', it['title'][:60], 'RESOLVE-FAIL']); continue
             try: img = pa.og(real)
             except Exception as e: log.append(['cand', it['title'][:60], real[:60], 'PAGE-FAIL ' + str(e)[:40]]); continue
