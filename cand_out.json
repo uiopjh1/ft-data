@@ -1,0 +1,80 @@
+{
+ "Napoli_Laurentiis": {
+  "status": 200,
+  "imgs": []
+ },
+ "Lazio_Lotito": {
+  "status": 200,
+  "imgs": [
+   {
+    "f": "cand/Lazio_Lotito_0.png",
+    "src": "https://sslazio.it/images/placeholder/placeholder_16-9.png",
+    "bytes": 1806107
+   }
+  ]
+ },
+ "Atalanta_Percassi": {
+  "status": 200,
+  "imgs": [
+   {
+    "f": "cand/Atalanta_Percassi_0.jpg",
+    "src": "https://images.atalanta.it/image/private/t_ratio16_9-size60/v1736498681/prd/vpwx6f3bvsfd12gevict",
+    "bytes": 166969
+   }
+  ]
+ },
+ "Athletic_Uriarte": {
+  "status": 403,
+  "imgs": []
+ },
+ "RealSociedad_Aperribay": {
+  "status": 200,
+  "imgs": [
+   {
+    "f": "cand/RealSociedad_Aperribay_0.jpg",
+    "src": "https://cdn.realsociedad.eus//Uploads/contenidos/thumbs/_2_5D1_3700_338_.jpg?v=1265523642",
+    "bytes": 33285
+   }
+  ]
+ },
+ "Brighton_Bloom": {
+  "status": 200,
+  "imgs": [
+   {
+    "f": "cand/Brighton_Bloom_0.jpg",
+    "src": "https://contentful-assets.yinzcam.com/images/rrpvignygaa1/3GYHxssT6OiDk99MgSw9Cz/a7e4b36d573e34671b3fd0a34496e58c/Tony_Bloom.jpg",
+    "bytes": 750839
+   },
+   {
+    "f": "cand/Brighton_Bloom_1.webp",
+    "src": "https://contentful-assets.yinzcam.com/images/rrpvignygaa1/3GYHxssT6OiDk99MgSw9Cz/a7e4b36d573e34671b3fd0a34496e58c/Tony_Bloom.jpg?clxf=t_general_large",
+    "bytes": 382062
+   }
+  ]
+ },
+ "Villarreal_Roig": {
+  "status": 200,
+  "imgs": [
+   {
+    "f": "cand/Villarreal_Roig_0.jpg",
+    "src": "https://panel.villarrealcf.es/wp-content/uploads/2023/05/presi.jpg",
+    "bytes": 316801
+   }
+  ]
+ },
+ "Juventus_Ferrero": {
+  "status": 200,
+  "imgs": [
+   {
+    "f": "cand/Juventus_Ferrero_0.jpg",
+    "src": "https://www.juventus.com/images/image/private/t_editorial_landscape_12_desktop/dev/ofc3pktnrvfaiuqjblpd.jpg",
+    "bytes": 40543
+   },
+   {
+    "f": "cand/Juventus_Ferrero_1.jpg",
+    "src": "https://www.juventus.com/images/image/private/t_editorial_landscape_12_desktop/f_auto/dev/ofc3pktnrvfaiuqjblpd.jpg",
+    "bytes": 40543
+   }
+  ]
+ }
+}
