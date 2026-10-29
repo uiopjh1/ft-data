@@ -1932,7 +1932,11 @@
     "name": "الدرجة الثانية الإيطالية",
     "detail": "2024"
    }
-  ]
+  ],
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Kyle_Krause_%28Parma%2C_April_2021%29_%28cropped%29.jpg/500px-Kyle_Krause_%28Parma%2C_April_2021%29_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "imageAuto": true,
+  "imageFor": "Kyle Krause",
+  "imageSrc": "https://it.wikipedia.org/wiki/Kyle_Krause"
  },
  "Parma Calcio 1913": {
   "name": "كايل كراوس",
@@ -1943,7 +1947,11 @@
     "name": "الدرجة الثانية الإيطالية",
     "detail": "2024"
    }
-  ]
+  ],
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Kyle_Krause_%28Parma%2C_April_2021%29_%28cropped%29.jpg/500px-Kyle_Krause_%28Parma%2C_April_2021%29_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "imageAuto": true,
+  "imageFor": "Kyle Krause",
+  "imageSrc": "https://it.wikipedia.org/wiki/Kyle_Krause"
  },
  "Auxerre": {
   "name": "جيمس تشو",
