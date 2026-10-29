@@ -78,24 +78,29 @@ def find(name_ar, log):
             if ok: return {'image': img, 'src': l, 'title': t}
     return None
 
-p = 'presidents.json'
-d = json.load(open(p))
-done = {}
-changed = 0
-dbg = {}
-for k, v in d.items():
-    if not isinstance(v, dict) or not re.match(r'(Al[ -]|Damac|Neom|NEOM)', k): continue
-    name = v.get('name', '')
-    clean = re.sub(r'\(.*?\)', '', name).strip()
-    if v.get('imageFor') and v.get('imageFor') != clean:   # president changed -> drop stale auto photo
-        v.pop('image', None); v.pop('imageAuto', None); v.pop('imageFor', None); v.pop('imageSrc', None); changed += 1
-    if v.get('image'): continue
-    if clean in done:
-        r = done[clean]
-    else:
-        log = []; r = find(clean, log); done[clean] = r; dbg[clean] = log
-    if r:
-        v['image'] = r['image']; v['imageAuto'] = True; v['imageFor'] = clean; v['imageSrc'] = r['src']; changed += 1
-json.dump(d, open(p, 'w'), indent=2, ensure_ascii=False)
-json.dump(dbg, open('pres_auto_log.json', 'w'), indent=1, ensure_ascii=False)
-print('changed', changed)
+def main():
+    p = 'presidents.json'
+    d = json.load(open(p))
+    done = {}
+    changed = 0
+    dbg = {}
+    for k, v in d.items():
+        if not isinstance(v, dict) or not re.match(r'(Al[ -]|Damac|Neom|NEOM)', k): continue
+        name = v.get('name', '')
+        clean = re.sub(r'\(.*?\)', '', name).strip()
+        if v.get('imageFor') and v.get('imageFor') != clean:   # president changed -> drop stale auto photo
+            v.pop('image', None); v.pop('imageAuto', None); v.pop('imageFor', None); v.pop('imageSrc', None); changed += 1
+        if v.get('image'): continue
+        if clean in done:
+            r = done[clean]
+        else:
+            log = []; r = find(clean, log); done[clean] = r; dbg[clean] = log
+        if r:
+            v['image'] = r['image']; v['imageAuto'] = True; v['imageFor'] = clean; v['imageSrc'] = r['src']; changed += 1
+    json.dump(d, open(p, 'w'), indent=2, ensure_ascii=False)
+    json.dump(dbg, open('pres_auto_log.json', 'w'), indent=1, ensure_ascii=False)
+    print('changed', changed)
+
+
+if __name__ == '__main__':
+    main()
