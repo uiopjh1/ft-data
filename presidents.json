@@ -871,11 +871,10 @@
     "image": ""
   },
   "Valencia": {
-    "name": "لاي هون تشان",
-    "en": "Layhoon Chan",
-    "since": 2022,
-    "noTitles": true,
-    "image": "https://d31u1w5651ly23.cloudfront.net/articulos/articulos-6194.jpg"
+    "name": "كيات ليم",
+    "en": "Kiat Lim",
+    "since": 2025,
+    "noTitles": true
   },
   "Fiorentina": {
     "name": "جوزيبي كوميسو",
@@ -1708,9 +1707,9 @@
     "image": "https://www.calcioefinanza.it/wp-content/uploads/2024/12/Roma-Fiorentina-ASTA3981.webp"
   },
   "Cremonese": {
-    "name": "فرانشيسكو ديني",
-    "en": "Francesco Dini",
-    "since": 2023,
+    "name": "موريتسيو كالتشينوني",
+    "en": "Maurizio Calcinoni",
+    "since": 2026,
     "noTitles": true
   },
   "Leeds United": {
