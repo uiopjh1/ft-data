@@ -1,0 +1,21 @@
+name: comm-avatar
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          mkdir -p comm_img
+          python3 - <<'P'
+          import json, urllib.request, urllib.parse
+          h = json.load(open('comm_handles.json'))
+          for n, v in h.items():
+              u = 'https://unavatar.io/x/' + v['handle']
+              b = urllib.request.urlopen(urllib.request.Request(u, headers={'User-Agent': 'FTapp/1.0'}), timeout=40).read()
+              open('comm_img/' + v['handle'] + '.jpg', 'wb').write(b); print(n, len(b))
+          P
+          git config user.name github-actions; git config user.email a@b.c
+          git add comm_img; git commit -qm "comm avatars"; for i in 1 2 3 4 5; do git pull --rebase --autostash -q && git push -q && break; sleep 3; done
