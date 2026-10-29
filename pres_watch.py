@@ -197,7 +197,8 @@ def main():
                 old = cur['name']
                 group = [kk for kk, vv in d.items() if isinstance(vv, dict) and vv.get('name') == old and vv.get('en') == cur.get('en')]
                 months = ['يناير','فبراير','مارس','أبريل','مايو','يونيو','يوليو','أغسطس','سبتمبر','أكتوبر','نوفمبر','ديسمبر']
-                nm = f"لم يُعلن الرئيس الجديد بعد (استقال {re.sub(r'\s*\([^)]*\)', '', old).strip()} في {months[now.month-1]} {now.year})"
+                oldc = re.sub(r'\s*\([^)]*\)', '', old).strip()
+                nm = 'لم يُعلن الرئيس الجديد بعد (استقال ' + oldc + ' في ' + months[now.month - 1] + ' ' + str(now.year) + ')'
                 for kk in group:
                     v = d[kk]
                     for f in ('image', 'imageAuto', 'imageFor', 'imageSrc', 'titles', 'titlesTotal', 'prev', 'titlesLabel', 'note', 'interim'): v.pop(f, None)
