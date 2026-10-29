@@ -1,0 +1,144 @@
+{
+ "Jon Uriarte": {
+  "club": "Athletic Club",
+  "found": null,
+  "log": [
+   [
+    "en",
+    "raw",
+    25,
+    "name",
+    24,
+    [
+     "Jon Uriarte confirmed as Athletic Club’s new president",
+     "Athletic president blasts Spanish FA after ‘excessive’ Nico Williams d"
+    ]
+   ],
+   [
+    "Jon Uriarte confirmed as Athletic Club’s new president",
+    "football-espana.net",
+    "https://www.football-espana.net/2022/06/24/jon-uriarte-confirmed-as-athletic-clubs-new-president",
+    "https://www.football-espana.net/wp-content/uploads/2021/12/San-Mames.jpeg",
+    false,
+    "crop"
+   ],
+   [
+    "es",
+    "raw",
+    24,
+    "name",
+    21,
+    [
+     "Jon Uriarte salva la asamblea del Athletic con un perdón, un enfado y ",
+     "Jon Uriarte: \"El Athletic se ha situado como el cuarto club con mejor "
+    ]
+   ],
+   [
+    "it",
+    "raw",
+    24,
+    "name",
+    23,
+    [
+     "Jon Uriarte salva la asamblea del Athletic con un perdón, un enfado y ",
+     "Jon Uriarte: \"El Athletic se ha situado como el cuarto club con mejor "
+    ]
+   ],
+   [
+    "de",
+    "raw",
+    24,
+    "name",
+    23,
+    [
+     "Jon Uriarte salva la asamblea del Athletic con un perdón, un enfado y ",
+     "Jon Uriarte: \"El Athletic se ha situado como el cuarto club con mejor "
+    ]
+   ],
+   [
+    "fr",
+    "raw",
+    23,
+    "name",
+    23,
+    [
+     "It's official, Jon Uriarte seeks re-election at Athletic",
+     "Jon Uriarte salva la asamblea del Athletic con un perdón, un enfado y "
+    ]
+   ]
+  ]
+ },
+ "Romain Chabane": {
+  "club": "Angers",
+  "found": null,
+  "log": [
+   [
+    "en",
+    "raw",
+    15,
+    "name",
+    13,
+    [
+     "Romain Chabane",
+     "Angers Sco. L’étrange absence du président délégué Teddy Kefalas pour "
+    ]
+   ],
+   [
+    "cand",
+    "SCO Angers : Saïd Chabane démissionne de son poste de présid",
+    "https://www.eurosport.fr/football/ligue-1/2022-2023/sco-ange",
+    "PAGE-FAIL HTTP Error 403: Forbidden"
+   ],
+   [
+    "es",
+    "raw",
+    8,
+    "name",
+    8,
+    [
+     "Romain Chabane",
+     "Angers : Saïd Chabane démissionne de son poste de président !"
+    ]
+   ],
+   [
+    "it",
+    "raw",
+    8,
+    "name",
+    8,
+    [
+     "Romain Chabane",
+     "Dernières actualités sur Romain Chabane"
+    ]
+   ],
+   [
+    "de",
+    "raw",
+    11,
+    "name",
+    10,
+    [
+     "Romain Chabane",
+     "Postes actifs de Romain Chabane"
+    ]
+   ],
+   [
+    "fr",
+    "raw",
+    8,
+    "name",
+    8,
+    [
+     "Angers Sco. Le président Romain Chabane présent pour la réception du P",
+     "Romain Chabane"
+    ]
+   ],
+   [
+    "cand",
+    "Angers Sco. Le président Romain Chabane présent pour la réce",
+    "https://www.ouest-france.fr/sport/football/angers-sco/angers",
+    "PAGE-FAIL HTTP Error 403: Forbidden"
+   ]
+  ]
+ }
+}
