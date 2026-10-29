@@ -40,8 +40,9 @@ def discover(d):
     return seen
 class TP(HTMLParser):
     def __init__(self):
-        super().__init__(); self.tables = []; self.cur = None; self.row = None; self.cell = None; self.last = ''; self.buf = ''; self.depth = 0
+        super().__init__(); self.tables = []; self.cur = None; self.row = None; self.cell = None; self.last = ''; self.buf = ''; self.depth = 0; self.hb = None
     def handle_starttag(self, t, a):
+        if t in ('h1', 'h2', 'h3', 'h4') and self.cur is None: self.hb = ''
         if t == 'table':
             self.depth += 1
             if self.depth == 1: self.cur = {'comp': self.last, 'rows': []}
@@ -57,12 +58,12 @@ class TP(HTMLParser):
             self.row.append(self.cell); self.cell = None
         elif t == 'tr' and self.row is not None and self.cur is not None:
             self.cur['rows'].append(self.row); self.row = None
-        elif t in ('div', 'p', 'h1', 'h2', 'h3', 'h4', 'span') and self.cur is None and self.buf.strip():
-            self.last = self.buf.strip(); self.buf = ''
+        elif t in ('h1', 'h2', 'h3', 'h4') and self.hb is not None:
+            if self.hb.strip(): self.last = self.hb.strip()
+            self.hb = None
     def handle_data(self, d):
         if self.cell is not None: self.cell += d
-        elif self.cur is None:
-            if d.strip(): self.buf = d.strip() if len(d.strip()) > 3 else self.buf
+        elif self.hb is not None: self.hb += d
 def names(cell):
     out = []
     for p in re.split(r'[\n،,]| و | - |/', cell or ''):
@@ -82,6 +83,8 @@ def parse(page):
                     hdr = {('m' if 'المباراة' in c else 't' if 'الموعد' in c else 'ch' if 'القنوات' in c else 'cm' if ('المعلق' in c or 'التعليق' in c) else str(i)): i for i, c in enumerate(cells)}
                 elif len(cells) == 1 and cells[0]: comp = cells[0]
                 continue
+            if len(cells) == 1 and rows and 'cm' in hdr and rows[-1]['comp'] == comp:
+                rows[-1]['comm'] += [n for n in names(cells[0]) if n not in rows[-1]['comm']]; continue
             if len(cells) < 3 or 'm' not in hdr or hdr['m'] >= len(cells): continue
             mt = [x.strip() for x in re.split(r'\s+[-–]\s+', cells[hdr['m']].replace('\n', ' '))]
             if len(mt) != 2 or not all(mt): continue
