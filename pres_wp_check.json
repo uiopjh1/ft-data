@@ -1,0 +1,262 @@
+{
+ "Barcelona": {
+  "en": "Joan Laporta",
+  "wp": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Joan_Laporta_in_2025_%28cropped%29.jpg/500px-Joan_Laporta_in_2025_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+ },
+ "Manchester City": {
+  "en": "Khaldoon Al Mubarak",
+  "wp": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Khaldoon_Al_Mubarak_-_The_White_House_-_54410779860_%28cropped%29_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "Bayern Munich": {
+  "en": "Herbert Hainer",
+  "wp": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/2026-06-19_ALBA_Berlin_gegen_FC_Bayern_M%C3%BCnchen_%28Basketball-Bundesliga_2025-26%29_by_Sandro_Halank%E2%80%93013.jpg/500px-2026-06-19_ALBA_Berlin_gegen_FC_Bayern_M%C3%BCnchen_%28Basketball-Bundesliga_2025-26%29_by_Sandro_Halank%E2%80%93013.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+ },
+ "Real Madrid": {
+  "en": "Florentino Pérez",
+  "wp": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Florentino_P%C3%A9rez_-_240422_194826_%28cropped%29.jpg/500px-25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Florentino_P%C3%A9rez_-_240422_194826_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+ },
+ "Paris Saint-Germain": {
+  "en": "Nasser Al-Khelaifi",
+  "wp": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Neymar_Jr_Presentation_%28cropped_2%29.jpg/500px-Neymar_Jr_Presentation_%28cropped_2%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+ },
+ "Atletico Madrid": {
+  "en": "Enrique Cerezo",
+  "wp": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Enrique.cerezo.JPG/500px-Enrique.cerezo.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+ },
+ "Inter Milan": {
+  "en": "Beppe Marotta",
+  "wp": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Save_the_Dream_-_Italian_Embassy_Welcoming_Lunch_%2831067266664%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "Borussia Dortmund": {
+  "en": "Hans-Joachim Watzke",
+  "wp": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Hans-Joachim_Watzke.jpg/500px-Hans-Joachim_Watzke.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+ },
+ "Liverpool": {
+  "en": "Tom Werner",
+  "wp": "https://upload.wikimedia.org/wikipedia/commons/1/15/2007-10-31_sox_champs_03web_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "Dhamk": {
+  "en": "Shaker Oweir",
+  "wp": null
+ },
+ "AC Milan": {
+  "en": "Paolo Scaroni",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "AS Roma": {
+  "en": "Dan Friedkin",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Newcastle United": {
+  "en": "Yasir Al-Rumayyan",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Napoli": {
+  "en": "Aurelio De Laurentiis",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Lyon": {
+  "en": "Michele Kang",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "FC Porto": {
+  "en": "Andre Villas-Boas",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Benfica": {
+  "en": "Rui Costa",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Lazio": {
+  "en": "Claudio Lotito",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Real Sociedad": {
+  "en": "Jokin Aperribay",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Sevilla": {
+  "en": "Jose Maria del Nido Carrasco",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Athletic Club": {
+  "en": "Jon Uriarte",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Real Betis": {
+  "en": "Angel Haro",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Valencia": {
+  "en": "Kiat Lim",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Fiorentina": {
+  "en": "Giuseppe Commisso",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "RC Lens": {
+  "en": "Joseph Oughourlian",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "AS Monaco": {
+  "en": "Dmitry Rybolovlev",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Bologna": {
+  "en": "Joey Saputo",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Celta Vigo": {
+  "en": "Marián Mouriño",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Getafe": {
+  "en": "Ángel Torres",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Torino": {
+  "en": "Urbano Cairo",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Alaves": {
+  "en": "Alfonso Fernández de Trocóniz",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Strasbourg": {
+  "en": "Marc Keller",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Nice": {
+  "en": "Maurice Cohen",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Rennes": {
+  "en": "Arnaud Pouille",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Brest": {
+  "en": "Denis Le Saint",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Toulouse": {
+  "en": "Olivier Cloarec",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Lecce": {
+  "en": "Saverio Sticchi Damiani",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Genoa": {
+  "en": "Dan Sucu",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Udinese": {
+  "en": "Franco Soldati",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Mainz": {
+  "en": "Stefan Hofmann",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "1. FC Köln": {
+  "en": "Jörn Stobbe",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Hamburg SV": {
+  "en": "Henrik Köncke",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Levante": {
+  "en": "Pablo Sánchez",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Real Oviedo": {
+  "en": "Martín Peláez",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Fulham": {
+  "en": "Shahid Khan",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Sunderland": {
+  "en": "Kyril Louis-Dreyfus",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Nottingham Forest": {
+  "en": "Evangelos Marinakis",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Pisa": {
+  "en": "Damien Comolli",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Cremonese": {
+  "en": "Maurizio Calcinoni",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Leeds United": {
+  "en": "Paraag Marathe",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Hoffenheim": {
+  "en": "André Kreuzwieser",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Heidenheim": {
+  "en": "Holger Sanwald",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Parma": {
+  "en": "Kyle Krause",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Auxerre": {
+  "en": "James Zhou",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Le Havre": {
+  "en": "Jean-Michel Roussier",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Union Berlin": {
+  "en": "Dirk Zingler",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Como": {
+  "en": "Mirwan Suwarso",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Angers": {
+  "en": "Romain Chabane",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Nantes": {
+  "en": "Waldemar Kita",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Brentford": {
+  "en": "Cliff Crown",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Bayer Leverkusen": {
+  "en": "Fernando Carro",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Sassuolo": {
+  "en": "Carlo Rossi",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "AFC Bournemouth": {
+  "en": "Bill Foley",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Metz": {
+  "en": "Bernard Serin",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ },
+ "Werder Bremen": {
+  "en": "Hubertus Hess-Grunewald",
+  "wp": "ERR HTTP Error 429: Too Many Requests"
+ }
+}
