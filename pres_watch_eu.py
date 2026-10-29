@@ -114,7 +114,10 @@ def main():
         for key, kind, name, interim in evs:
             log.append({'club': key, 'kind': kind, 'name': name, 'interim': interim, 'title': it['title'], 'link': l, 'host': h0, 'date': str(it['date'])})
     state['seen'] = list(seen)[-4000:]
-    json.dump(log, open('pres_watch_log_eu.json', 'w'), indent=1, ensure_ascii=False)
+    from collections import Counter
+    pc = [(it['title'][:90], it.get('host') or host_of(it['link']), str(it['date'])[:10]) for it in items if re.search(r'(?i)president|chairman', it['title'])]
+    stats = {'n_items': len(items), 'hosts': Counter((it.get('host') or host_of(it['link'])) for it in items).most_common(25), 'n_pres_titles': len(pc), 'pres_titles': pc[:60]}
+    json.dump({'events': log, 'stats': stats}, open('pres_watch_log_eu.json', 'w'), indent=1, ensure_ascii=False)
     if BACKTEST:
         print('events', len(log)); return
     changed = False
