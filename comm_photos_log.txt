@@ -1,27 +1,18 @@
 آسيا عبد الله {'cands': 0, 'clusters': [], 'ok': False}
 أحمد الحامد {'cands': 3, 'clusters': [['youtube.com']], 'ok': False}
-أحمد الطيب {'cands': 40, 'clusters': [['alwatansport.com', 'btolat.com', 'elwatannews.com', 'youtube.com', 'zamalektoday.com'], ['alimamaltayeb.com', 'alwasatnews.com', 'pngitem.com', 'youtube.com'], ['music.yandex.com', 'music.yandex.kz'], ['youtube.com']], 'ok': True, 'confirmed_existing': True}
-أيمن الكاشف {'cands': 32, 'clusters': [['btolat.com', 'el-ahly.com', 'elbotola.com', 'lite.almasryalyoum.com', 'youtube.com'], ['youtube.com'], ['youtube.com'], ['members.landscapeinstitute.org'], ['youtube.com'], ['youtube.com'], ['youtube.com'], ['youtube.com'], ['youtube.com'], ['youtube.com']], 'ok': True, 'confirmed_existing': True}
-أيمن جادة {'cands': 6, 'clusters': [['ijnet.org', 'youtube.com']], 'ok': True}
 باسم الزير {'cands': 0, 'clusters': [], 'ok': False}
-جواد بدة {'cands': 7, 'clusters': [['ar.le360.ma', 'youtube.com'], ['youtube.com']], 'ok': True, 'confirmed_existing': True}
 حازم الكاديكي {'cands': 3, 'clusters': [['youtube.com']], 'ok': False}
-حفيظ دراجي {'cands': 26, 'clusters': [['alaraby.co.uk', 'aljarida24.ma', 'almountakhab.com', 'alwatanvoice.com', 'enabbaladi.net', 'fotmob.com', 'in.pinterest.com', 'ultraalgeria.ultrasawt.com', 'youtube.com'], ['btolat.com']], 'ok': True, 'confirmed_existing': True}
-خالد الحدي {'cands': 1, 'clusters': [['youtube.com']], 'ok': False}
-خالد الحربان {'cands': 12, 'clusters': [['alqabas.com', 'youtube.com'], ['youtube.com']], 'ok': True, 'confirmed_existing': True}
+خالد الحدي {'cands': 2, 'clusters': [['youtube.com']], 'ok': False}
 خالد الغول {'cands': 0, 'clusters': [], 'ok': False}
 خالد المديفر {'cands': 3, 'clusters': [['youtube.com']], 'ok': False}
 سوار الذهب علي {'cands': 0, 'clusters': [], 'ok': False}
 عامر الخوذيري {'cands': 1, 'clusters': [['youtube.com']], 'ok': False}
 عبد الله الحربي {'cands': 0, 'clusters': [], 'ok': False}
-علي سعيد الكعبي {'cands': 8, 'clusters': [['emaratalyoum.com', 'youtube.com']], 'ok': True}
-علي محمد علي {'cands': 3, 'clusters': [['youtube.com'], ['youtube.com']], 'ok': False}
+علي محمد علي {'cands': 5, 'clusters': [['youtube.com'], ['youtube.com']], 'ok': False}
 عيسى الحربين {'cands': 2, 'clusters': [['m.soundcloud.com']], 'ok': False}
 مجيد بوطمين {'cands': 6, 'clusters': [['youtube.com']], 'ok': False}
 محمد العدالي {'cands': 0, 'clusters': [], 'ok': False}
 محمد المبروكي {'cands': 0, 'clusters': [], 'ok': False}
 محمد مصطفى عفيفي {'cands': 0, 'clusters': [], 'ok': False}
-مدحت شلبي {'cands': 53, 'clusters': [['ahlmasrnews.com', 'alarabiya.net', 'altreeq.com', 'alwatanvoice.com', 'btolat.com', 'elbalad.news', 'elwatannews.com', 'filfan.com', 'gate.ahram.org.eg', 'khabrabyad.com', 'masrawy.com', 'mercatoday.com', 'msn.com', 'one3.news', 'rassd.com', 'youtube.com']], 'ok': True, 'confirmed_existing': True}
 مشاري القرني {'cands': 0, 'clusters': [], 'ok': False}
 هيلة الفراج {'cands': 3, 'clusters': [['youtube.com']], 'ok': False}
-يوسف سيف {'cands': 8, 'clusters': [['jadeedoha.com', 'snd.ps', 'soundcloud.com']], 'ok': True, 'confirmed_existing': True}

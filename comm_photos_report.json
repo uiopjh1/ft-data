@@ -13,102 +13,10 @@
   ],
   "ok": false
  },
- "أحمد الطيب": {
-  "cands": 40,
-  "clusters": [
-   [
-    "alwatansport.com",
-    "btolat.com",
-    "elwatannews.com",
-    "youtube.com",
-    "zamalektoday.com"
-   ],
-   [
-    "alimamaltayeb.com",
-    "alwasatnews.com",
-    "pngitem.com",
-    "youtube.com"
-   ],
-   [
-    "music.yandex.com",
-    "music.yandex.kz"
-   ],
-   [
-    "youtube.com"
-   ]
-  ],
-  "ok": true,
-  "confirmed_existing": true
- },
- "أيمن الكاشف": {
-  "cands": 32,
-  "clusters": [
-   [
-    "btolat.com",
-    "el-ahly.com",
-    "elbotola.com",
-    "lite.almasryalyoum.com",
-    "youtube.com"
-   ],
-   [
-    "youtube.com"
-   ],
-   [
-    "youtube.com"
-   ],
-   [
-    "members.landscapeinstitute.org"
-   ],
-   [
-    "youtube.com"
-   ],
-   [
-    "youtube.com"
-   ],
-   [
-    "youtube.com"
-   ],
-   [
-    "youtube.com"
-   ],
-   [
-    "youtube.com"
-   ],
-   [
-    "youtube.com"
-   ]
-  ],
-  "ok": true,
-  "confirmed_existing": true
- },
- "أيمن جادة": {
-  "cands": 6,
-  "clusters": [
-   [
-    "ijnet.org",
-    "youtube.com"
-   ]
-  ],
-  "ok": true
- },
  "باسم الزير": {
   "cands": 0,
   "clusters": [],
   "ok": false
- },
- "جواد بدة": {
-  "cands": 7,
-  "clusters": [
-   [
-    "ar.le360.ma",
-    "youtube.com"
-   ],
-   [
-    "youtube.com"
-   ]
-  ],
-  "ok": true,
-  "confirmed_existing": true
  },
  "حازم الكاديكي": {
   "cands": 3,
@@ -119,49 +27,14 @@
   ],
   "ok": false
  },
- "حفيظ دراجي": {
-  "cands": 26,
-  "clusters": [
-   [
-    "alaraby.co.uk",
-    "aljarida24.ma",
-    "almountakhab.com",
-    "alwatanvoice.com",
-    "enabbaladi.net",
-    "fotmob.com",
-    "in.pinterest.com",
-    "ultraalgeria.ultrasawt.com",
-    "youtube.com"
-   ],
-   [
-    "btolat.com"
-   ]
-  ],
-  "ok": true,
-  "confirmed_existing": true
- },
  "خالد الحدي": {
-  "cands": 1,
+  "cands": 2,
   "clusters": [
    [
     "youtube.com"
    ]
   ],
   "ok": false
- },
- "خالد الحربان": {
-  "cands": 12,
-  "clusters": [
-   [
-    "alqabas.com",
-    "youtube.com"
-   ],
-   [
-    "youtube.com"
-   ]
-  ],
-  "ok": true,
-  "confirmed_existing": true
  },
  "خالد الغول": {
   "cands": 0,
@@ -196,18 +69,8 @@
   "clusters": [],
   "ok": false
  },
- "علي سعيد الكعبي": {
-  "cands": 8,
-  "clusters": [
-   [
-    "emaratalyoum.com",
-    "youtube.com"
-   ]
-  ],
-  "ok": true
- },
  "علي محمد علي": {
-  "cands": 3,
+  "cands": 5,
   "clusters": [
    [
     "youtube.com"
@@ -251,31 +114,6 @@
   "clusters": [],
   "ok": false
  },
- "مدحت شلبي": {
-  "cands": 53,
-  "clusters": [
-   [
-    "ahlmasrnews.com",
-    "alarabiya.net",
-    "altreeq.com",
-    "alwatanvoice.com",
-    "btolat.com",
-    "elbalad.news",
-    "elwatannews.com",
-    "filfan.com",
-    "gate.ahram.org.eg",
-    "khabrabyad.com",
-    "masrawy.com",
-    "mercatoday.com",
-    "msn.com",
-    "one3.news",
-    "rassd.com",
-    "youtube.com"
-   ]
-  ],
-  "ok": true,
-  "confirmed_existing": true
- },
  "مشاري القرني": {
   "cands": 0,
   "clusters": [],
@@ -289,17 +127,5 @@
    ]
   ],
   "ok": false
- },
- "يوسف سيف": {
-  "cands": 8,
-  "clusters": [
-   [
-    "jadeedoha.com",
-    "snd.ps",
-    "soundcloud.com"
-   ]
-  ],
-  "ok": true,
-  "confirmed_existing": true
  }
 }
