@@ -1,0 +1,595 @@
+{
+ "https://aawsat.com/feed/sport": {
+  "status": 200,
+  "n": 20,
+  "sample": [
+   [
+    "نقابة الصحافيين المصرية تتضامن مع أعضائها ضد حسام حسن",
+    "https://aawsat.com/node/5329593",
+    "Wed, 14 Oct 2026 15:50:12 +0100",
+    ""
+   ],
+   [
+    "هل تعود كأس أمم أفريقيا لنظام العامين؟",
+    "https://aawsat.com/node/5327789",
+    "Fri, 09 Oct 2026 17:37:40 +0100",
+    ""
+   ],
+   [
+    "لندن تستضيف «أسبوع القادة الرياضي»... وعيون صناع القرار تتجه نحو استراتيجيات «ال",
+    "https://aawsat.com/node/5326949",
+    "Wed, 07 Oct 2026 11:43:16 +0100",
+    ""
+   ],
+   [
+    "إيقاف برنامج مجدي عبد الغني يجدد الجدل حول «التعصب الكروي» بمصر",
+    "https://aawsat.com/node/5320578",
+    "Sun, 20 Sep 2026 18:18:59 +0100",
+    ""
+   ],
+   [
+    "اختباران سهلان على الورق لبايرن ودورتموند في الدوري الألماني",
+    "https://aawsat.com/node/5314797",
+    "Fri, 04 Sep 2026 19:19:54 +0100",
+    ""
+   ],
+   [
+    "ليونيل ميسي... رحلة «البرغوث» من أزقة الأرجنتين إلى فصول الوداع الأخير",
+    "https://aawsat.com/node/5313946",
+    "Wed, 02 Sep 2026 16:23:49 +0100",
+    ""
+   ]
+  ],
+  "newest": "Wed, 14 Oct 2026 15:50:12 +0100"
+ },
+ "https://aawsat.com/feed": {
+  "status": 200,
+  "n": 300,
+  "sample": [
+   [
+    "مستشارون يابانيون يدعون إلى استخدام فائض حساب النقد الأجنبي لتمويل الإنفاق",
+    "https://aawsat.com/node/5335109",
+    "Thu, 29 Oct 2026 10:42:03 +0000 ",
+    null
+   ],
+   [
+    "شاهد... الملك تشارلز يرقص في شوارع البهاما وسط احتفالات صاخبة",
+    "https://aawsat.com/node/5335108",
+    "Thu, 29 Oct 2026 10:38:14 +0000 ",
+    null
+   ],
+   [
+    "واشنطن تحظر واردات شركات صينية لعلوم الجينات إثر مخاوف متعلّقة بالعمالة القسرية",
+    "https://aawsat.com/node/5335106",
+    "Thu, 29 Oct 2026 10:36:16 +0000 ",
+    null
+   ],
+   [
+    "«الشاباك» يُحقق في شبهات تمويل أجنبي للتأثير على نتائج الانتخابات الإسرائيلية",
+    "https://aawsat.com/node/5335105",
+    "Thu, 29 Oct 2026 10:34:34 +0000 ",
+    null
+   ],
+   [
+    "هيئة السوق المالية السعودية تقترح قواعد جديدة لحوكمة الشركات المدرجة",
+    "https://aawsat.com/node/5335104",
+    "Thu, 29 Oct 2026 10:33:39 +0000 ",
+    null
+   ],
+   [
+    "لاغارد تستقيل من رئاسة «المركزي الأوروبي» اعتباراً من 7 فبراير 2027",
+    "https://aawsat.com/node/5335103",
+    "Thu, 29 Oct 2026 10:31:36 +0000 ",
+    null
+   ]
+  ],
+  "newest": "Thu, 29 Oct 2026 10:42:03 +0000 "
+ },
+ "https://aawsat.com/rss.xml": {
+  "err": "HTTP Error 404: Not Found"
+ },
+ "https://aawsat.com/feed/sports": {
+  "status": 200,
+  "n": 50,
+  "sample": [
+   [
+    "نقابة الصحافيين المصرية تتضامن مع أعضائها ضد حسام حسن",
+    "https://aawsat.com/node/5329593",
+    "Wed, 14 Oct 2026 15:50:12 +0100 ",
+    null
+   ],
+   [
+    "هل تعود كأس أمم أفريقيا لنظام العامين؟",
+    "https://aawsat.com/node/5327789",
+    "Fri, 09 Oct 2026 17:37:40 +0100 ",
+    null
+   ],
+   [
+    "لندن تستضيف «أسبوع القادة الرياضي»... وعيون صناع القرار تتجه نحو استراتيجيات «ال",
+    "https://aawsat.com/node/5326949",
+    "Wed, 07 Oct 2026 11:43:16 +0100 ",
+    null
+   ],
+   [
+    "إيقاف برنامج مجدي عبد الغني يجدد الجدل حول «التعصب الكروي» بمصر",
+    "https://aawsat.com/node/5320578",
+    "Sun, 20 Sep 2026 18:18:59 +0100 ",
+    null
+   ],
+   [
+    "اختباران سهلان على الورق لبايرن ودورتموند في الدوري الألماني",
+    "https://aawsat.com/node/5314797",
+    "Fri, 04 Sep 2026 19:19:54 +0100 ",
+    null
+   ],
+   [
+    "ليونيل ميسي... رحلة «البرغوث» من أزقة الأرجنتين إلى فصول الوداع الأخير",
+    "https://aawsat.com/node/5313946",
+    "Wed, 02 Sep 2026 16:23:49 +0100 ",
+    null
+   ]
+  ],
+  "newest": "Wed, 14 Oct 2026 15:50:12 +0100 "
+ },
+ "https://www.okaz.com.sa/rss": {
+  "status": 200,
+  "parse": "not well-formed (invalid token): line 17, column 70",
+  "head": "<!DOCTYPE html>\n<html lang=\"ar\" dir=\"rtl\">\n<head>\n\t<meta charset=\"utf-8\"/> \n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n"
+ },
+ "https://www.okaz.com.sa/rss/sport": {
+  "status": 200,
+  "n": 0,
+  "sample": [],
+  "newest": ""
+ },
+ "https://www.okaz.com.sa/rss/saudi": {
+  "status": 200,
+  "n": 0,
+  "sample": [],
+  "newest": ""
+ },
+ "https://www.okaz.com.sa/sport/rss": {
+  "err": "HTTP Error 404: Not Found"
+ },
+ "https://arriyadiyah.com/rss": {
+  "status": 200,
+  "n": 30,
+  "sample": [
+   [
+    "بـ«الترجيحية» السيتي يعبر برايتون",
+    "https://arriyadiyah.com/903550",
+    "Thu, 29 Oct 2026 01:38:13 +0300",
+    ""
+   ],
+   [
+    "ليفربول يقصي تشيلسي من كأس الرابطة",
+    "https://arriyadiyah.com/903548",
+    "Thu, 29 Oct 2026 01:32:39 +0300",
+    ""
+   ],
+   [
+    "بايرن يستعرض بسداسية ماجديبورج",
+    "https://arriyadiyah.com/903546",
+    "Thu, 29 Oct 2026 01:09:53 +0300",
+    ""
+   ],
+   [
+    "قبل الأهلي.. الشباب كامل العدد",
+    "https://arriyadiyah.com/903545",
+    "Thu, 29 Oct 2026 00:35:12 +0300",
+    ""
+   ],
+   [
+    "تفوق على ميسي.. قائد النصر أفضل فائز بالكرة الذهبية",
+    "https://arriyadiyah.com/903547",
+    "Thu, 29 Oct 2026 00:29:30 +0300",
+    ""
+   ],
+   [
+    "إنتر يستعيد الصدارة بالانتصار الرابع تواليا",
+    "https://arriyadiyah.com/903542",
+    "Thu, 29 Oct 2026 00:04:25 +0300",
+    ""
+   ]
+  ],
+  "newest": "Thu, 29 Oct 2026 01:38:13 +0300"
+ },
+ "https://arriyadiyah.com/feed": {
+  "err": "HTTP Error 404: Not Found"
+ },
+ "https://sabq.org/rss": {
+  "status": 200,
+  "parse": "not well-formed (invalid token): line 12, column 33",
+  "head": "<!DOCTYPE html>\n<html lang=\"ar\" dir=\"rtl\">\n  <head>\n    <meta name=\"sabq-build-id\" content=\"1793270053946\">\n    <!-- Apply the saved/system theme befo"
+ },
+ "https://sabq.org/rss/sports": {
+  "status": 200,
+  "parse": "not well-formed (invalid token): line 12, column 33",
+  "head": "<!DOCTYPE html>\n<html lang=\"ar\" dir=\"rtl\">\n  <head>\n    <meta name=\"sabq-build-id\" content=\"1793270053946\">\n    <!-- Apply the saved/system theme befo"
+ },
+ "https://slaati.com/feed/": {
+  "status": 200,
+  "n": 10,
+  "sample": [
+   [
+    "ترامب يسخر من إلهان عمر: عليها القفز إلى أول طائرة",
+    "https://slaati.com/2026/10/29/p2876622.html/",
+    "Thu, 29 Oct 2026 10:42:18 +0000",
+    ""
+   ],
+   [
+    "الشيخ السليمان: الإنسان قد يصيب نفسه أو ممتلكاته بالعين.. فيديو",
+    "https://slaati.com/2026/10/29/p2876617.html/",
+    "Thu, 29 Oct 2026 10:32:14 +0000",
+    ""
+   ],
+   [
+    "شقيقان يرويان تفاصيل ما شاهداه خلال الهجوم الحوثي على مطار الملك خالد.. فيديو",
+    "https://slaati.com/2026/10/29/p2876610.html/",
+    "Thu, 29 Oct 2026 10:09:37 +0000",
+    ""
+   ],
+   [
+    "بدر الشعيبي يُعلن عن قدوم ابنه الأول بعد اربعة بنات.. فيديو",
+    "https://slaati.com/2026/10/29/p2876611.html/",
+    "Thu, 29 Oct 2026 10:09:14 +0000",
+    ""
+   ],
+   [
+    "هدف يرفع الحد الأدنى للأجر المدعوم في منتج دعم التوظيف",
+    "https://slaati.com/2026/10/29/p2876595.html/",
+    "Thu, 29 Oct 2026 10:05:20 +0000",
+    ""
+   ],
+   [
+    "خالد الزيد: بدر الرزيزاء كفاءة وطنية وسيقود اتحاد القدم لمرحلة مختلفة ومميزة.. ف",
+    "https://slaati.com/2026/10/29/p2876604.html/",
+    "Thu, 29 Oct 2026 10:04:29 +0000",
+    ""
+   ]
+  ],
+  "newest": "Thu, 29 Oct 2026 10:42:18 +0000"
+ },
+ "https://slaati.com/category/sports/feed/": {
+  "status": 200,
+  "n": 0,
+  "sample": [],
+  "newest": ""
+ },
+ "https://www.alyaum.com/rss": {
+  "status": 200,
+  "parse": "not well-formed (invalid token): line 8, column 67",
+  "head": "\n<!DOCTYPE html >\n<html  lang=\"ar\" dir=\"rtl\">\n\n<head>\n\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https:"
+ },
+ "https://www.alwatan.com.sa/rss": {
+  "status": 200,
+  "parse": "mismatched tag: line 82, column 2",
+  "head": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtm"
+ },
+ "https://www.al-jazirah.com/rss": {
+  "err": "HTTP Error 403: Forbidden"
+ },
+ "https://www.eremnews.com/rss": {
+  "err": "HTTP Error 404: Not Found"
+ },
+ "https://www.eremnews.com/rss/sports": {
+  "err": "HTTP Error 404: Not Found"
+ },
+ "https://ajel.sa/rss": {
+  "status": 200,
+  "n": 50,
+  "sample": [
+   [
+    "الحكومة اليمنية تطالب بتحقيق دولي في استخدام الحوثيين قذائف سامة بتعز",
+    "https://ajel.sa/international/hbvwb8pcf",
+    "Thu, 29 Oct 2026 10:11:00 GMT",
+    ""
+   ],
+   [
+    "القيادة تهنى رئيس تركيا بمناسبة ذكرى يوم الجمهورية لبلاده",
+    "https://ajel.sa/local/ygq5r5on1",
+    "Thu, 29 Oct 2026 10:03:28 GMT",
+    ""
+   ],
+   [
+    "الحرس الثوري الإيراني يعلن اصطدام 3 ناقلات نفط بألغام في مضيق هرمز",
+    "https://ajel.sa/international/kccrwfi78",
+    "Thu, 29 Oct 2026 09:49:40 GMT",
+    ""
+   ],
+   [
+    "متحدث «التجارة»: نظام المعاملات التجارية يشكّل إطارًا تشريعيًا شاملًا ينظّم لأول",
+    "https://ajel.sa/local/9iu18i5nk",
+    "Thu, 29 Oct 2026 09:31:07 GMT",
+    ""
+   ],
+   [
+    "الإدارة العامة للمرور تحذر من التشتت أثناء القيادة: مخاطرة للسائق والآخرين",
+    "https://ajel.sa/thehour/6wefa4fz8",
+    "Thu, 29 Oct 2026 09:24:00 GMT",
+    ""
+   ],
+   [
+    "تعليم الباحة يطبّق الدوام الشتوي ابتداءً من الأحد المقبل",
+    "https://ajel.sa/local/3oxsdtm58",
+    "Thu, 29 Oct 2026 09:16:51 GMT",
+    ""
+   ]
+  ],
+  "newest": "Thu, 29 Oct 2026 10:11:00 GMT"
+ },
+ "https://www.kooora.com/rss": {
+  "err": "HTTP Error 404: Not Found"
+ },
+ "https://www.goal.com/feeds/ar/news": {
+  "err": "HTTP Error 404: Not Found"
+ },
+ "https://www.spl.com.sa/ar/rss": {
+  "err": "HTTP Error 404: Not Found"
+ },
+ "bing_iv4": {
+  "status": 200,
+  "n": 1,
+  "sample": [
+   [
+    "البنهاوي: حكم الأهلي وبيراميدز من الدوريات الخمسة الكبرى.. وزملكاوي غاضب من منسي",
+    "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae32371eeaa40c6b83feee605ab4d5",
+    "Thu, 29 Oct 2026 02:52:00 GMT",
+    ""
+   ]
+  ],
+  "newest": "Thu, 29 Oct 2026 02:52:00 GMT"
+ },
+ "bing_iv7": {
+  "status": 200,
+  "n": 12,
+  "sample": [
+   [
+    "بريميرو دي أوغستو يتحدى الأهلي برسالة نارية عبر winwin",
+    "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae3237192ab470a83c26ccda23695f",
+    "Wed, 28 Oct 2026 15:21:00 GMT",
+    ""
+   ],
+   [
+    "هل ينتقل مصطفى إبراهيم إلى الأهلي في يناير المقبل؟.. رئيس الاتحاد يجيب",
+    "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae3237192ab470a83c26ccda23695f",
+    "Wed, 28 Oct 2026 07:10:00 GMT",
+    ""
+   ],
+   [
+    "رئيس الاتحاد السكندري يحسم حقيقة انتقال مصطفى إبراهيم إلى الأهلي",
+    "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae3237192ab470a83c26ccda23695f",
+    "Wed, 28 Oct 2026 08:57:00 GMT",
+    ""
+   ],
+   [
+    "رئيس الاتحاد السكندري يكشف حقيقة مفاوضات الأهلي لضم مصطفى إبراهيم",
+    "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae3237192ab470a83c26ccda23695f",
+    "Wed, 28 Oct 2026 04:28:00 GMT",
+    ""
+   ],
+   [
+    "رئيس الاتحاد السكندري: إصابة بلعمري عطلت صفقة انتقال مصطفى إبراهيم للأهلي",
+    "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae3237192ab470a83c26ccda23695f",
+    "Wed, 28 Oct 2026 11:48:00 GMT",
+    ""
+   ],
+   [
+    "رحيل وشيك.. أزمة تضرب الرجاء المغربي قبل صدام الأهلي في الكونفدرالية",
+    "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae3237192ab470a83c26ccda23695f",
+    "Thu, 29 Oct 2026 01:54:00 GMT",
+    ""
+   ]
+  ],
+  "newest": "Wed, 28 Oct 2026 15:21:00 GMT"
+ },
+ "bing_iv8": {
+  "status": 200,
+  "n": 12,
+  "sample": [
+   [
+    "بريميرو دي أوغستو يتحدى الأهلي برسالة نارية عبر winwin",
+    "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae32372592a4ce086b694fee7d5a86",
+    "Wed, 28 Oct 2026 15:21:00 GMT",
+    ""
+   ],
+   [
+    "هل ينتقل مصطفى إبراهيم إلى الأهلي في يناير المقبل؟.. رئيس الاتحاد يجيب",
+    "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae32372592a4ce086b694fee7d5a86",
+    "Wed, 28 Oct 2026 07:10:00 GMT",
+    ""
+   ],
+   [
+    "رئيس الاتحاد السكندري يحسم حقيقة انتقال مصطفى إبراهيم إلى الأهلي",
+    "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae32372592a4ce086b694fee7d5a86",
+    "Wed, 28 Oct 2026 08:57:00 GMT",
+    ""
+   ],
+   [
+    "رئيس الاتحاد السكندري يكشف حقيقة مفاوضات الأهلي لضم مصطفى إبراهيم",
+    "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae32372592a4ce086b694fee7d5a86",
+    "Wed, 28 Oct 2026 04:28:00 GMT",
+    ""
+   ],
+   [
+    "رئيس الاتحاد السكندري: إصابة بلعمري عطلت صفقة انتقال مصطفى إبراهيم للأهلي",
+    "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae32372592a4ce086b694fee7d5a86",
+    "Wed, 28 Oct 2026 11:48:00 GMT",
+    ""
+   ],
+   [
+    "فرج عامر يشيد بلاعبي القناة ومدربهم بعد مواجهة الأهلي",
+    "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae32372592a4ce086b694fee7d5a86",
+    "Mon, 26 Oct 2026 15:03:00 GMT",
+    ""
+   ]
+  ],
+  "newest": "Wed, 28 Oct 2026 15:21:00 GMT"
+ },
+ "bing_plain": {
+  "status": 200,
+  "n": 5,
+  "sample": [
+   [
+    "رئيس الاتحاد السكندري يكشف حقيقة مفاوضات الأهلي لضم مصطفى إبراهيم",
+    "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae32372eaaa474ca82d4726aa94e9e",
+    "Wed, 28 Oct 2026 04:28:00 GMT",
+    ""
+   ],
+   [
+    "الخطيب يجتمع مع رئيس برشلونة بشأن استاد الأهلي الجديد",
+    "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae32372eaaa474ca82d4726aa94e9e",
+    "Tue, 22 Jul 2025 00:00:00 GMT",
+    ""
+   ],
+   [
+    "مصطفى يونس: هذا أنجح رئيس نادي في تاريخ الأهلي",
+    "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae32372eaaa474ca82d4726aa94e9e",
+    "Fri, 10 Apr 2026 04:39:00 GMT",
+    ""
+   ],
+   [
+    "انضمام رئيس نادي الاتحاد السكندري ومسؤول بالبنك الأهلى لعضوية مجلس «علوم سياسية ",
+    "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae32372eaaa474ca82d4726aa94e9e",
+    "Fri, 16 Oct 2026 14:17:00 GMT",
+    ""
+   ],
+   [
+    "الأهلي: زعيم إفريقيا يطمح لصناعة التاريخ في كأس العالم للأندية FIFA 2025™",
+    "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae32372eaaa474ca82d4726aa94e9e",
+    "Sat, 23 Nov 2024 23:00:00 GMT",
+    ""
+   ]
+  ],
+  "newest": "Wed, 28 Oct 2026 04:28:00 GMT"
+ },
+ "bing_sort": {
+  "status": 200,
+  "n": 11,
+  "sample": [
+   [
+    "رئيس الاتحاد السكندري: إصابة بلعمري عطلت صفقة انتقال مصطفى إبراهيم للأهلي",
+    "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae3237203c24242baa5e714569e903",
+    "Wed, 28 Oct 2026 11:48:00 GMT",
+    ""
+   ],
+   [
+    "رئيس الاتحاد السكندري يحسم حقيقة انتقال مصطفى إبراهيم إلى الأهلي",
+    "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae3237203c24242baa5e714569e903",
+    "Wed, 28 Oct 2026 08:57:00 GMT",
+    ""
+   ],
+   [
+    "هل ينتقل مصطفى إبراهيم إلى الأهلي في يناير المقبل؟.. رئيس الاتحاد يجيب",
+    "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae3237203c24242baa5e714569e903",
+    "Wed, 28 Oct 2026 07:10:00 GMT",
+    ""
+   ],
+   [
+    "رئيس الاتحاد السكندري يكشف حقيقة مفاوضات الأهلي لضم مصطفى إبراهيم",
+    "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae3237203c24242baa5e714569e903",
+    "Wed, 28 Oct 2026 04:28:00 GMT",
+    ""
+   ],
+   [
+    "رئيس رابطة الأندية الأفريقية: الأهلي يضيف قيمة كبيرة للكونفدرالية.. وأرشحه للتتو",
+    "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae3237203c24242baa5e714569e903",
+    "Wed, 28 Oct 2026 01:31:00 GMT",
+    ""
+   ],
+   [
+    "نجم الأهلي: «مشوفتش في حياتي فريق يقعد في فندقين أو يكون من غير رئيس بعثة»",
+    "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae3237203c24242baa5e714569e903",
+    "Tue, 27 Oct 2026 17:00:00 GMT",
+    ""
+   ]
+  ],
+  "newest": "Wed, 28 Oct 2026 11:48:00 GMT"
+ },
+ "google": {
+  "status": 200,
+  "n": 41,
+  "sample": [
+   [
+    "\"لا يلوم إلا نفسه\".. رسالة تحذير من الخطيب للاعبي الأهلي المصري - الجزيرة نت",
+    "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOOEg0VnVpN1hjNlNGZ2Ffb3p6VGNaX1llcmU5Q",
+    "Fri, 23 Oct 2026 08:07:13 GMT",
+    "https://www.aljazeera.net"
+   ],
+   [
+    "الأهلي يبحث عن «مدير» ويتمسك بالصلاحيات - صحيفة الرياضية",
+    "https://news.google.com/rss/articles/CBMi3AJBVV95cUxOaDFfSF91YVB0TDIwdENqWVRhcXNQTlZqNnBCb",
+    "Thu, 22 Oct 2026 11:56:04 GMT",
+    "https://arriyadiyah.com"
+   ],
+   [
+    "مصادر لـ«عكاظ»: الأهلي يستعين بجهات متخصصة لاختيار مديره الرياضي - عكاظ",
+    "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCTGRSTGlkWHh0TXJZYVgtRmE0RmF0Y2dRRzVCd",
+    "Thu, 22 Oct 2026 12:42:00 GMT",
+    "https://www.okaz.com.sa"
+   ],
+   [
+    "الأهلي السعودي يكشف لكووورة حقيقة الأسماء المرشحة لمنصب المدير الرياضي - Kooora",
+    "https://news.google.com/rss/articles/CBMitgVBVV95cUxQZldhYW5wVkFIdmFWX0hzbkE2OS1uZHJzOG16X",
+    "Sun, 25 Oct 2026 20:18:35 GMT",
+    "https://www.kooora.com"
+   ],
+   [
+    "الخطيب يوجه رسالة تحذيرية للاعبي الأهلي (فيديو) - Masrawy",
+    "https://news.google.com/rss/articles/CBMiuwNBVV95cUxQamFoWkZBOTJLYjI0UEtYZnczdEE4RmxYNk5GN",
+    "Thu, 22 Oct 2026 19:10:00 GMT",
+    "https://www.masrawy.com"
+   ],
+   [
+    "الخطيب: أي لاعب غير مخلص في الأهلي لا يلوم إلا نفسه - 365Scores",
+    "https://news.google.com/rss/articles/CBMi4AJBVV95cUxQSkl1SEMxNE41Nmw4NzFBRUxudno5RWprd016R",
+    "Thu, 22 Oct 2026 20:25:50 GMT",
+    "https://www.365scores.com"
+   ]
+  ],
+  "newest": "Fri, 23 Oct 2026 08:07:13 GMT"
+ },
+ "google_aawsat": {
+  "status": 200,
+  "n": 100,
+  "sample": [
+   [
+    "سلة: استجواب رئيس الاتحاد اليوناني وحَكَمة بارزة في قضية تلاعب - الشرق الأوسط",
+    "https://news.google.com/rss/articles/CBMigAVBVV95cUxPOVdKcnlJRzhiZHctM0l6Z0dFSzVuWC1aWnl4O",
+    "Thu, 29 Oct 2026 08:50:55 GMT",
+    "https://aawsat.com"
+   ],
+   [
+    "issue17500 - الشرق الأوسط",
+    "https://news.google.com/rss/articles/CBMiV0FVX3lxTE14SUQ1b2J2ZXJ3b3B5UGV3TzkzZVZhNEhib2EzN",
+    "Mon, 26 Oct 2026 22:55:52 GMT",
+    "https://aawsat.com"
+   ],
+   [
+    "issue17501 - الشرق الأوسط",
+    "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9relFCWk15U1k1RTllSm8zdFl0bml4bHNRaVhFd",
+    "Tue, 27 Oct 2026 23:03:33 GMT",
+    "https://aawsat.com"
+   ],
+   [
+    "لماذا كان بايرن ميونيخ مهووساً بفوز هاري كين بالكرة الذهبية؟ - الشرق الأوسط",
+    "https://news.google.com/rss/articles/CBMitAVBVV95cUxPV3J2QlJNOFNHMFJncGlPQjlwWl82YVlUUFdaN",
+    "Tue, 27 Oct 2026 10:20:00 GMT",
+    "https://aawsat.com"
+   ],
+   [
+    "إيراولا سعيد بأول فوز لليفربول بالبريميرليغ في «آنفيلد» - الشرق الأوسط",
+    "https://news.google.com/rss/articles/CBMizgRBVV95cUxNOE12Zm9QSFNUNXlTbG9lS3h1TTdFZGtUWDRrR",
+    "Tue, 27 Oct 2026 09:24:26 GMT",
+    "https://aawsat.com"
+   ],
+   [
+    "«الكونفدرالية الأفريقية»: اتحاد العاصمة «البطل» يصطدم بالصفاقسي... والأهلي والرج",
+    "https://news.google.com/rss/articles/CBMirgVBVV95cUxNU0xFTFNQbElFbUMxX2ZrTVlTX28tR2Y5ZXB6L",
+    "Wed, 28 Oct 2026 15:59:00 GMT",
+    "https://aawsat.com"
+   ]
+  ],
+  "newest": "Thu, 29 Oct 2026 08:50:55 GMT"
+ }
+}
