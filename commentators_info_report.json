@@ -47,12 +47,7 @@
   ]
  },
  "أحمد الحامد": {
-  "found": {
-   "title": "أحمد الحامد",
-   "bio": "أحمد الحامد (1971 -) إعلامي من فئة البدون في الكويت  يقيم في الإمارات",
-   "thumb": null,
-   "src": "ar.wikipedia.org/wiki/%D8%A3%D8%AD%D9%85%D8%AF_%D8%A7%D9%84%D8%AD%D8%A7%D9%85%D8%AF"
-  },
+  "found": null,
   "log": [
    [
     "ar",
@@ -78,6 +73,17 @@
       false
      ]
     ]
+   ],
+   [
+    "ar",
+    "أحمد الحامد",
+    "role not in intro"
+   ],
+   [
+    "wd",
+    "أحمد الحامد",
+    "إعلامي كويتي",
+    "role?"
    ]
   ]
  },
@@ -88,6 +94,10 @@
     "ar",
     [
      [
+      "24 ساعة حب (فلم)",
+      false
+     ],
+     [
       "أحمد فؤاد الثاني",
       true
      ],
@@ -97,10 +107,6 @@
      ],
      [
       "الكل عاوز يحب (فلم)",
-      false
-     ],
-     [
-      "رجب فوق صفيح ساخن (فلم)",
       false
      ],
      [
@@ -317,8 +323,7 @@
    "title": "عصام الشوالي",
    "bio": "عصام الشوالي (مواليد 25 سبتمبر 1970) هو معلق رياضي تونسي، يعمل معلقًا رياضيًا بشبكة بي إن سبورتس.",
    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Issam_Chaouali.png?utm_source=ar.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "src": "ar.wikipedia.org/wiki/%D8%B9%D8%B5%D8%A7%D9%85_%D8%A7%D9%84%D8%B4%D9%88%D8%A7%D9%84%D9%8A",
-   "file": "comm_img_cand/عصام_الشوالي.jpg"
+   "src": "ar.wikipedia.org/wiki/%D8%B9%D8%B5%D8%A7%D9%85_%D8%A7%D9%84%D8%B4%D9%88%D8%A7%D9%84%D9%8A"
   },
   "log": [
    [
@@ -461,7 +466,38 @@
   "log": [
    [
     "ar",
-    []
+    [
+     [
+      "قنوات الكاس الرياضية",
+      false
+     ],
+     [
+      "مشعل الشمري (لاعب كرة قدم سعودي)",
+      false
+     ],
+     [
+      "مشعل الشمري (لاعب كرة قدم قطري)",
+      false
+     ],
+     [
+      "نادي أم صلال",
+      false
+     ],
+     [
+      "نادي اللواء",
+      false
+     ]
+    ]
+   ],
+   [
+    "ar",
+    "مشعل الشمري (لاعب كرة قدم قطري)",
+    "role not in intro"
+   ],
+   [
+    "ar",
+    "مشعل الشمري (لاعب كرة قدم سعودي)",
+    "role not in intro"
    ],
    [
     "wd",
