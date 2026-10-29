@@ -47,8 +47,9 @@ class TP(HTMLParser):
             if self.depth == 1: self.cur = {'comp': self.last, 'rows': []}
         elif self.cur is not None and t == 'tr': self.row = []
         elif self.cur is not None and t in ('td', 'th'): self.cell = ''
-        elif t == 'br' and self.cell is not None: self.cell += '\n'
+        elif t in ('br', 'p', 'div', 'li') and self.cell is not None: self.cell += '\n'
     def handle_endtag(self, t):
+        if t in ('p', 'div', 'li') and self.cell is not None: self.cell += '\n'
         if t == 'table' and self.depth:
             self.depth -= 1
             if self.depth == 0 and self.cur is not None: self.tables.append(self.cur); self.cur = None
