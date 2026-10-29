@@ -1,2 +1,0 @@
-unavatar http=200 type=image/jpeg size=28705
-x.com http=403
