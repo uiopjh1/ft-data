@@ -24,8 +24,10 @@ def find(en, key, log):
     for lang in LANGS:
         u = (f'https://{lang}.wikipedia.org/w/api.php?action=query&format=json&generator=search&gsrlimit=6&gsrsearch=' + urllib.parse.quote(f'"{en}"') +
              '&prop=pageimages|extracts&piprop=thumbnail&pithumbsize=500&exintro=1&explaintext=1&exlimit=6')
-        pages = (jget(u).get('query') or {}).get('pages', {})
-        time.sleep(0.4)
+        resp = jget(u)
+        pages = (resp.get('query') or {}).get('pages', {})
+        log.append([lang, 'resp' if resp else 'EMPTY-RESP', [ (p.get('title'), bool(p.get('thumbnail'))) for p in pages.values()][:4]])
+        time.sleep(1.0)
         for p in sorted(pages.values(), key=lambda p: p.get('index', 99)):
             title = fold(p.get('title', '')); ex = fold(p.get('extract', ''))
             th = (p.get('thumbnail') or {}).get('source')
@@ -52,10 +54,10 @@ def main():
         log = []; r = find(en, keys[0], log)
         return en, keys, log, r
     items = [(e, k) for e, k in todo.items() if not d[k[0]].get('image')]
-    with concurrent.futures.ThreadPoolExecutor(6) as ex:
+    with concurrent.futures.ThreadPoolExecutor(3) as ex:
         results = list(ex.map(work, items))
     for en, keys, log, r in results:
-        rep[en] = {'keys': keys, 'found': r, 'log': log[:4]}
+        rep[en] = {'keys': keys, 'found': r, 'log': log[:12]}
         if r:
             for vv in d.values():
                 if isinstance(vv, dict) and vv.get('en') == en and not vv.get('image'):
