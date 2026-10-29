@@ -1,8 +1,14 @@
 import json, re, urllib.request, urllib.parse
 UA = {'User-Agent': 'FTapp/1.0 (football app; contact via github uiopjh1)'}
 DBG = {}
+import time
 def get(u):
-    return json.loads(urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=20).read())
+    for i in range(5):
+        try:
+            return json.loads(urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=20).read())
+        except Exception as e:
+            time.sleep(3 * (i + 1)); last = e
+    raise last
 def wp_image(en):
     try:
         u = 'https://en.wikipedia.org/w/api.php?action=query&format=json&redirects=1&prop=pageimages&piprop=thumbnail&pithumbsize=400&titles=' + urllib.parse.quote(en)
@@ -22,5 +28,6 @@ for k, v in d.items():
     if not en or v.get('image') or en in seen: continue
     seen.add(en)
     out[k] = {'en': en, 'wp': wp_image(en)}
+    time.sleep(1)
 json.dump({'dbg': {k: DBG[k] for k in list(DBG)[:6]}, **out}, open('pres_wp_check.json', 'w'), ensure_ascii=False, indent=1)
 print(sum(1 for x in out.values() if not x['wp']), 'missing of', len(out))
