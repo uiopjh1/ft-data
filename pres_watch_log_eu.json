@@ -1,129 +1,46 @@
 {
- "events": [
-  {
-   "club": "Real Madrid",
-   "kind": "resign",
-   "name": null,
-   "interim": false,
-   "title": "Real Madrid demand La Liga president resign over Goebbels comparison - The Guardian",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSjIzeTJDb3lNb1RvVzJwc0h4Mkg0Zm5MaE16NW50RDZMV2x1a3UzY1h2RjJWOW8ydlE5X2ZGUjBGeGRzdXJBZ3Z2dE5EVFdWeDc3bHJkQWVsQ2ZISngtZklHTDlzUzBveFNNcXJNRm53VG05Z0ZmU3E5MklhWndOQ2VDWEF0Mi1kbFVXZFd3UEZ6Q0c2eU13VlNTUzZXVU4yWjhETG1DRWd5LThKMGhNUVk2Ym0yYjFPWGNCNll0UFAyVzhPeW81emJR?oc=5",
-   "host": "theguardian.com",
-   "date": "2026-10-16 07:00:00"
-  },
-  {
-   "club": "Chelsea",
-   "kind": "resign",
-   "name": null,
-   "interim": false,
-   "title": "Todd Boehly sells up and steps down as Chelsea chairman - The Telegraph",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVjJPR0VzMzB4ZkR6dUN1Mm4yTnE4VU8wVlZORWVicmdfdHA4WWhsR0RyVjR5cmd6YUQ5WVdKb2JsRTFNV3VqVjU5ZDhVeXJRSWFwdVBZSXFQZ05LUFNMblFWdkx2MGNQemdZZXdzQV9hZGJObW1nSmZ6emdhN2swOTBYY0M1SE54eU1qTTZRWklaQkFwdEE?oc=5",
-   "host": "telegraph.co.uk",
-   "date": "2026-09-17 07:00:00"
-  },
-  {
-   "club": "Athletic Club",
-   "kind": "resign",
-   "name": null,
-   "interim": false,
-   "title": "UEFA, Concacaf and AFC maintain pressure on FIFA president Gianni Infantino to resign - The Athletic - The New York Times",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYjllNEYwWUVWM0Myc19vZ3pYMmZzVmJTN2hFaUJlRFFTT00yXzMzU2Y2enF2Rnd4eEhEd290bnpaMWluYjNkd25oQWNnSlplMU1oM0VnWE5nUVlJSjFRM3FkenhhUzRVX3prTnVYUjlQZmxZamZKR2szWS1RR2N0VXN2S1k3SG1tNjhkN3JkVEVLd3lhQ3lxTHotbw?oc=5",
-   "host": "nytimes.com",
-   "date": "2026-08-12 07:00:00"
-  },
-  {
-   "club": "Manchester City",
-   "kind": "resign",
-   "name": null,
-   "interim": false,
-   "title": "Ex-Man City chairman calls for club's directors to resign after Premier League guilty verdict - ESPN",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNzYtcGpuLUhOQ2RoVGJ0VTl4WTNsUmtFTF9Fd205ZzJWQWdUdVhYLVNFaEVMdmVka0FaMGVSQjNRRkJ0WlhSaXJwU01VQnpIRFNhM251N3F4UkhXazlMX3poT25DaHJRZmFjbGxuUUI2TmZVblBvYU9SbHE4X18xT2gwSGJXTkd2REtsVzcwell4aG15QldkeDV3OWNhWWJSNG1HbzBrQkZiNlRKLV9UZ2xTdU5NVWtVNHg3YQ?oc=5",
-   "host": "espn.com",
-   "date": "2026-09-30 07:00:00"
-  },
-  {
-   "club": "AS Roma",
-   "kind": "resign",
-   "name": null,
-   "interim": false,
-   "title": "Ismail Kartal quits! Fenerbahce boss resigns after Roma draw but president Aziz Yildirim refuses to accept departure - Goal.com",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNmlxcThpMmp1ckxvWXhMX05yV3ZuTUE2Y1RrQktKaXhGTjJzVHFtWDY3Nm4yY0xPa0VLUnlEUW05M1k0NTZ1Q2hJUGpWWHd5TnJ2cXlGMVFfUTRycC1EUkp6MHl2dEMwby1SYVVlcEFTZzRtTjZuXzd5Qng4Y2hZY0lZel94TGF4OUQ0cGd2ekdWRksybmtBMHlOT3lYSk1kWDFGemplV1JYZ3pYdC1PYno3aWhXa1JqVW13?oc=5",
-   "host": "goal.com",
-   "date": "2026-09-11 07:00:00"
-  },
-  {
-   "club": "Real Madrid",
-   "kind": "resign",
-   "name": null,
-   "interim": false,
-   "title": "'I fully agree!' - La Liga president Javier Tebas launches blistering counter-attack against Real Madrid after Los Blancos demand his resignation - Goal.com",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNajliUm8wN3NPdG5NNTROSkg1SEhvbjZWd3Q3cEVtY3hGdmRsSnpPV2JkLTVSX3FYWTNVVXpXQlNoc3VFeVFaemc4YkhQanNubUNlSjZxWm5ndnE5VFhHSi1DSjFjaUgwakhZeEh1YjNLcThHck5QaHpaWURyLXpuZ3M0M1RoczJsU1hVMXloYTlfVVVYRDhYcmlQWW1MSjJnZkE?oc=5",
-   "host": "goal.com",
-   "date": "2026-09-24 07:00:00"
-  },
-  {
-   "club": "Chelsea",
-   "kind": "resign",
-   "name": null,
-   "interim": false,
-   "title": "A new era for Chelsea: club president officially steps down - Goal.com",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWWNNd05yZ3BNaGlTMDJyRlNLUGNDcVJDbWhYVFh0cnk3Smh5eTBFZl8yVlVtcEhFNDlhbTViMFFDLTFOa01LRHQ0MmREWGxsYWwxYkJuLTNwbnc3bDJ1V3d3OFRoWXBWMWN0WkNWRHBsRVgzYm9XTkVLc1VjMnZaaEY1enJQZDFKZVoydnV5RnR3aENnbVE4QzVsZjA2S3FydFRVYTVrd3dlUQ?oc=5",
-   "host": "goal.com",
-   "date": "2026-09-17 07:00:00"
-  }
- ],
+ "events": [],
  "stats": {
-  "n_items": 1162,
+  "n_items": 520,
   "hosts": [
    [
     "bbc.co.uk",
-    194
+    164
    ],
    [
     "theguardian.com",
-    173
-   ],
-   [
-    "football-italia.net",
-    120
-   ],
-   [
-    "goal.com",
-    100
-   ],
-   [
-    "skysports.com",
-    99
-   ],
-   [
-    "reuters.com",
-    83
-   ],
-   [
-    "en.as.com",
-    67
-   ],
-   [
-    "espn.com",
-    54
+    62
    ],
    [
     "fourfourtwo.com",
     50
    ],
    [
-    "marca.com",
-    48
+    "skysports.com",
+    27
    ],
    [
-    "bbc.com",
-    30
+    "goal.com",
+    27
    ],
    [
-    "nytimes.com",
-    8
+    "football-italia.net",
+    26
    ],
    [
-    "aljazeera.com",
+    "news.bbc.co.uk",
+    22
+   ],
+   [
+    "reuters.com",
+    11
+   ],
+   [
+    "onefootball.com",
+    6
+   ],
+   [
+    "timesofindia.indiatimes.com",
     6
    ],
    [
@@ -131,351 +48,293 @@
     4
    ],
    [
-    "kentonline.co.uk",
+    "sportstar.thehindu.com",
     3
    ],
    [
-    "britannica.com",
+    "insideworldfootball.com",
     3
    ],
    [
-    "lafc.com",
+    "uk.sports.yahoo.com",
     3
    ],
    [
-    "essendonfc.coau",
-    3
-   ],
-   [
-    "thetimes.com",
+    "news.coau",
     2
    ],
    [
-    "news24.coau",
+    "uk.news.yahoo.com",
     2
    ],
    [
-    "abc.net.au",
+    "english.mathrubhumi.com",
     2
    ],
    [
-    "northwalespioneer.co.uk",
+    "soccernews.com",
     2
    ],
    [
-    "portadownfc.co.uk",
+    "centredevils.co.uk",
     2
    ],
    [
-    "agcc.co.uk",
+    "daveockop.com",
     2
    ],
    [
-    "footballinberkshire.co.uk",
+    "bbc.com",
+    2
+   ],
+   [
+    "birmingham-now.co.uk",
+    2
+   ],
+   [
+    "breakingnews.ie",
+    2
+   ],
+   [
+    "ca.sports.yahoo.com",
+    2
+   ],
+   [
+    "theaustralian.coau",
     2
    ]
   ],
-  "n_pres_titles": 192,
+  "n_pres_titles": 46,
   "pres_titles": [
-   [
-    "Fenerbahce coach resigns after draw with Roma – but president insists he will stay - The G",
-    "theguardian.com",
-    "2026-09-10"
-   ],
-   [
-    "Gianni Infantino: Norway call for Fifa president to resign but Mexico and Conmebol chief s",
-    "bbc.com",
-    "2026-08-07"
-   ],
-   [
-    "Fenerbahce coach announces resignation, club president tells him to stay - Reuters",
-    "reuters.com",
-    "2026-09-10"
-   ],
-   [
-    "Real Madrid demand La Liga president resign over Goebbels comparison - The Guardian",
-    "theguardian.com",
-    "2026-10-16"
-   ],
-   [
-    "Fenerbahçe coach quits, president insists he'll remain in charge | Daily Sabah - Daily Sab",
-    "dailysabah.com",
-    "2026-09-10"
-   ],
    [
     "Footy club president resigns over rape comment - News.com.au",
     "news.coau",
     "2026-10-29"
    ],
    [
-    "Northern Tasmania FC president resigns after former coach charged with rape - News24",
-    "news24.coau",
-    "2026-10-24"
+    "Takeshi Okada resigns as JFA vice-president over FIFA governance concerns - OneFootball",
+    "onefootball.com",
+    "2026-10-28"
    ],
    [
-    "Real Madrid Demand La Liga President Resigns After Comparing Attacks On Referees With Nazi",
-    "sports.ndtv.com",
-    "2026-10-16"
+    "Robin Stubbs, Torquay United Centre Forward and Honorary Life President, Dies at 85 - That",
+    "thatericalper.com",
+    "2026-10-28"
    ],
    [
-    "Infantino’s FIFA World Cup crisis: Who could replace president? - Al Jazeera",
-    "aljazeera.com",
-    "2026-08-01"
+    "Japan FA vice-president resigns over Gianni Infantino concerns as Asia bloc fractures - Ya",
+    "sports.yahoo.com",
+    "2026-10-28"
    ],
    [
-    "Real Madrid Demands La Liga President Resign After Being Compared to Nazi Propaganda - new",
-    "news.sbs.co.kr",
-    "2026-10-17"
+    "Former Japan coach Takeshi Okada resigns as JFA vice president over FIFA politics - Mathru",
+    "english.mathrubhumi.com",
+    "2026-10-29"
    ],
    [
-    "Clive Nates to step down as co-vice chairman - Lincoln City Football Club",
-    "weareimps.com",
-    "2026-07-24"
+    "Footy president resigns over rape comment - News.com.au",
+    "news.coau",
+    "2026-10-29"
    ],
    [
-    "Colwyn Bay chairman steps down as club praises 'very special seagull' - North Wales Pionee",
-    "northwalespioneer.co.uk",
-    "2026-09-22"
+    "Takeshi Okada resigns as JFA vice-president over FIFA governance concerns - OneFootball",
+    "onefootball.com",
+    "2026-10-28"
    ],
    [
-    "Fenerbahce coach resigns after draw with Roma – but president insists he will stay - The G",
-    "theguardian.com",
-    "2026-09-10"
-   ],
-   [
-    "Cobblers confirm board changes as Pato joins and chairman Thomas steps down - Northampton ",
-    "northamptonchron.co.uk",
-    "2026-09-30"
-   ],
-   [
-    "Mike steps down as Tangerines chairman - Around Wellington",
-    "aroundwellington.co.uk",
-    "2026-08-21"
-   ],
-   [
-    "Todd Boehly sells up and steps down as Chelsea chairman - The Telegraph",
-    "telegraph.co.uk",
-    "2026-09-17"
-   ],
-   [
-    "Chelsea FC chairman Todd Boehly steps down as club make major announcement - My London",
-    "mylondon.news",
-    "2026-09-17"
-   ],
-   [
-    "Non-league football chairman apologises over conduct as management resigns - Oxford Mail",
-    "oxfordmail.co.uk",
-    "2026-08-18"
-   ],
-   [
-    "Holyport chairman Tony Andrews to step down after 30 years - Football in Berkshire",
-    "footballinberkshire.co.uk",
-    "2026-09-29"
-   ],
-   [
-    "Football Club begins its search for a new chairman - Kent Online",
-    "kentonline.co.uk",
-    "2026-10-05"
-   ],
-   [
-    "Gianni Infantino: Norway call for Fifa president to resign but Mexico and Conmebol chief s",
+    "Gianni Infantino: FAW chief Noel Mooney renews call for Fifa president to step down - BBC",
     "bbc.com",
-    "2026-08-07"
+    "2026-10-27"
    ],
    [
-    "Real Madrid demand La Liga president resign over Goebbels comparison - The Guardian",
-    "theguardian.com",
-    "2026-10-16"
+    "Japan FA vice-president resigns over Gianni Infantino concerns as Asia bloc fractures - Ya",
+    "sports.yahoo.com",
+    "2026-10-28"
    ],
    [
-    "“We used to serve tea out the back of a car” Holyport chairman Tony Andrews reflects on 30",
-    "footballinberkshire.co.uk",
-    "2026-09-29"
+    "Local footy president referred to the AFL over alleged rape comments - The Mercury",
+    "themercury.coau",
+    "2026-10-28"
    ],
    [
-    "Walter Mennekes to step down as 2nd vice-president – executive committee names Marko Pesic",
-    "fcbayern.com",
-    "2026-09-23"
+    "Japan legend Takeshi Okada abruptly quits as JFA vice-president over AFC's backing of FIFA",
+    "ca.sports.yahoo.com",
+    "2026-10-28"
    ],
    [
-    "Coleraine FC majority shareholder replaced as chairman by stepfather: ‘My commitment remai",
-    "belfasttelegraph.co.uk",
-    "2026-07-20"
+    "Luther Tarpeh Resigns as Lone Star Mobilization Team Chairman - liberianobserver.com",
+    "liberianobserver.com",
+    "2026-10-28"
    ],
    [
-    "A new era for Chelsea: club chairman officially steps down from his post - LiveScore",
-    "livescore.com",
-    "2026-09-17"
+    "UK Supreme Court reserves judgment on public inquiry into murder of GAA chairman Sean Brow",
+    "breakingnews.ie",
+    "2026-10-27"
    ],
    [
-    "Holyport seek new chairman as Tony Andrews prepares to step aside after 30 years - Maidenh",
-    "maidenhead-advertiser.co.uk",
-    "2026-09-29"
+    "Japanese football association vice president resigns over actions surrounding FIFA World C",
+    "aa.cotr",
+    "2026-10-28"
    ],
    [
-    "Long-serving chairman steps aside as Easter Ross club prepare for ‘next level up’ - Ross-s",
-    "ross-shirejournal.co.uk",
-    "2026-07-08"
+    "Hearts chairman breaks silence over 'completely unacceptable' scenes, chief executive sear",
+    "edinburghnews.scotsman.com",
+    "2026-10-27"
    ],
    [
-    "Todd Boehly SELLS his Chelsea stake in £1billion deal & steps down as chairman - The Sun",
-    "thesun.co.uk",
-    "2026-09-17"
+    "Wellingborough Town FC pays tribute to club president Laurie Owen - Northamptonshire Teleg",
+    "northantstelegraph.co.uk",
+    "2026-10-27"
    ],
    [
-    "Why long-serving chairman decided the time was right to step aside - Kent Online",
-    "kentonline.co.uk",
-    "2026-09-28"
+    "'These decisions are never easy' - Burnley chairman Alan Pace on Nicky Hayen exit - Lancas",
+    "lancashiretelegraph.co.uk",
+    "2026-10-27"
    ],
    [
-    "Cheshire reveals why he quit FC Stratford as chairman rejects key claim - Stratford Herald",
-    "stratford-herald.com",
-    "2026-10-08"
+    "Dibba Al Hisn FC president visits under-13 and under-9 teams - Sharjah24",
+    "sharjah24.ae",
+    "2026-10-28"
    ],
    [
-    "Gala Fairydean Rovers chairman Ryan Cass steps down after 7.5 years - Border Telegraph",
-    "bordertelegraph.com",
-    "2026-07-31"
+    "KCCA FC Chairman Sserunjogi appeals for mercy after floodlight failure in abandoned UPDF m",
+    "kawowo.com",
+    "2026-10-29"
    ],
    [
-    "UEFA, Concacaf and AFC maintain pressure on FIFA president Gianni Infantino to resign - Th",
-    "nytimes.com",
-    "2026-08-12"
+    "Colorado State University president Amy Parsons stepping down - The Coloradoan",
+    "coloradoan.com",
+    "2026-10-28"
    ],
    [
-    "Leeds United receive new Elland Road expansion boost as chairman makes critical business d",
-    "footballgroundguide.com",
-    "2026-08-03"
+    "The FIFA President sent a letter congratulating Ho Chi Minh City's women's football team o",
+    "vietnavn",
+    "2026-10-27"
    ],
    [
-    "Nigeria soccer federation president resigns after teams fail to reach major tournaments - ",
-    "washingtonpost.com",
-    "2026-08-27"
+    "Hearts chairman reignites Celtic title controversy with fresh Parkhead criticism - Celtic ",
+    "celticshorts.com",
+    "2026-10-27"
    ],
    [
-    "Ex-Man City chairman calls for club's directors to resign after Premier League guilty verd",
-    "espn.com",
-    "2026-09-30"
+    "Former Japan coach Takeshi Okada resigns as JFA vice president over FIFA politics - Mathru",
+    "english.mathrubhumi.com",
+    "2026-10-29"
    ],
    [
-    "Buckie Thistle president Garry Farquhar steps down after 14 years - Press and Journal",
-    "pressandjournal.co.uk",
-    "2026-08-13"
+    "Long-serving Probus member elected as club president - Bridport News",
+    "bridportnews.co.uk",
+    "2026-10-29"
    ],
    [
-    "OFFICIAL: Real Madrid call for La Liga president Javier Tebas to step down - Managing Madr",
-    "managingmadrid.com",
-    "2026-09-22"
+    "Stabile to consult Corinthians presidential candidates before any contract renewals - OneF",
+    "onefootball.com",
+    "2026-10-28"
    ],
    [
-    "Tom Garfinkel steps down as Dolphins president, CEO; Daniel Sillman to oversee football op",
-    "nfl.com",
-    "2026-08-04"
+    "Google's AI declines to say who won 2020 presidential election - A.V. Club",
+    "avclub.com",
+    "2026-10-28"
    ],
    [
-    "Al-Ittihad chairman resigns citing pressure and poor football results - The Libya Observer",
-    "libyaobserver.ly",
-    "2026-07-26"
+    "The former president wrote to an alleged rape victim: ‘Home and Away has better plots’ - H",
+    "heraldsun.coau",
+    "2026-10-29"
    ],
    [
-    "Luís Figo joins calls for FIFA president Gianni Infantino to resign - ESPN",
-    "espn.com",
-    "2026-08-05"
-   ],
-   [
-    "Northern Tasmania FC president resigns after former coach charged with rape - News24",
-    "news24.coau",
-    "2026-10-24"
-   ],
-   [
-    "Fever president Kelly Krauskopf stepping down ahead of important offseason for franchise -",
-    "nytimes.com",
-    "2026-10-23"
-   ],
-   [
-    "LaLiga president Javier Tebas blasts FIFA, calls on Gianni Infantino to resign - ESPN",
-    "espn.com",
-    "2026-07-21"
-   ],
-   [
-    "Tom Garfinkel steps down as president, CEO of Dolphins after 13 years, will remain with or",
-    "wptv.com",
-    "2026-08-04"
-   ],
-   [
-    "Park Hang-seo resigns as Korean Football Association vice president after early World Cup ",
-    "e.vnexpress.net",
-    "2026-07-07"
-   ],
-   [
-    "Alberton Football Club mourns chairman Spencer Gordon after sudden death - The Citizen",
-    "citizen.co.za",
-    "2026-08-18"
-   ],
-   [
-    "AFL chairman said he didn’t consider stepping down over concussion saga - The Age",
-    "theage.coau",
-    "2026-08-27"
-   ],
-   [
-    "Everything Leeds United fans need to know as chairman Paraag Marathe leaves San Francisco ",
-    "leeds-live.co.uk",
-    "2026-08-02"
-   ],
-   [
-    "“GFA President Kurt Okraku should resign”- Alhaji Grusah [VIDEO] - Citi Sports Online",
-    "citisportsonline.com",
-    "2026-10-03"
-   ],
-   [
-    "Will anyone topple Infantino? How Fifa president is trying to cling on after World Cup sel",
-    "theguardian.com",
-    "2026-09-22"
-   ],
-   [
-    "Fifa: Ex-Spurs player Ramon Vega intends to stand in 2027 presidential election - BBC",
-    "bbc.com",
-    "2026-10-07"
-   ],
-   [
-    "Sacked Ukrainian defence minister calls for presidential election - BBC",
+    "Trump v Obama - which president has the star power to get out the vote? - BBC",
     "bbc.co.uk",
-    "2026-08-19"
+    "2026-10-27"
    ],
    [
-    "FIFA President Infantino’s crisis: UEFA details new candidate criteria - Al Jazeera",
-    "aljazeera.com",
-    "2026-10-08"
+    "Re-elected leader: Paul Philipp confirmed as FLF President, two new faces join board - RTL",
+    "today.rtl.lu",
+    "2026-10-28"
    ],
    [
-    "UEFA continue plot to oppose Gianni Infantino as FIFA president after $15million move - ta",
-    "talksport.com",
-    "2026-10-15"
+    "Valanka Alemao makes history as GFA’s first woman president - Oherald",
+    "heraldgoa.in",
+    "2026-10-28"
    ],
    [
-    "Gianni Infantino: Why Fifa president is pushing World Cup sell off plan - BBC",
-    "bbc.com",
-    "2026-07-29"
+    "Calgary Booster Club Elects New President - Calgary Booster Club",
+    "calgaryboosterclub.com",
+    "2026-10-27"
    ],
    [
-    "Brazil's Lula bans online gambling ahead of presidential election - BBC",
+    "Florentino Perez re-elected as “Real” president - Turkmenportal.com",
+    "turkmenportal.com",
+    "2026-10-28"
+   ],
+   [
+    "Elected GFA president, Valanka is first woman to head state football association in India ",
+    "timesofindia.indiatimes.com",
+    "2026-10-27"
+   ],
+   [
+    "Valanka Alemao elected president of Goa Football Association, follows father Churchill’s f",
+    "sportstar.thehindu.com",
+    "2026-10-27"
+   ],
+   [
+    "Mamady Doumbouya elected president of Guinean Football Federation - Pan Africa Football",
+    "panafricafootball.com",
+    "2026-10-27"
+   ],
+   [
+    "RAF Sgt Josh McNally named Chairman of Welsh Rugby Players Association - Forces News",
+    "forcesnews.com",
+    "2026-10-27"
+   ],
+   [
+    "'These decisions are never easy' - Burnley chairman Alan Pace on Nicky Hayen exit - Yahoo",
+    "uk.sports.yahoo.com",
+    "2026-10-27"
+   ],
+   [
+    "Abington Names New Commissioners Chairman - Patch",
+    "patch.com",
+    "2026-10-28"
+   ],
+   [
+    "DePaoli named Centreville Stadium president of business operations - The Valley Breeze",
+    "valleybreeze.com",
+    "2026-10-28"
+   ],
+   [
+    "Calgary Booster Club Elects New President - Calgary Booster Club",
+    "calgaryboosterclub.com",
+    "2026-10-27"
+   ],
+   [
+    "Google's AI declines to say who won 2020 presidential election - A.V. Club",
+    "avclub.com",
+    "2026-10-28"
+   ],
+   [
+    "Elected GFA president, Valanka is first woman to head state football association in India ",
+    "timesofindia.indiatimes.com",
+    "2026-10-27"
+   ],
+   [
+    "Trump v Obama - which president has the star power to get out the vote? - BBC",
     "bbc.co.uk",
-    "2026-09-26"
+    "2026-10-27"
    ],
    [
-    "How do FIFA presidential elections work? Who can challenge Gianni Infantino? - The Athleti",
-    "nytimes.com",
-    "2026-08-04"
+    "Trump v Obama - which president has the star power to get out the vote? - BBC",
+    "bbc.co.uk",
+    "2026-10-27"
    ],
    [
-    "Gianni Infantino: Norway call for Fifa president to resign but Mexico and Conmebol chief s",
-    "bbc.com",
-    "2026-08-07"
+    "Watch: The Mbappé-Chairman Mao controversy explained - BBC",
+    "bbc.co.uk",
+    "2026-10-27"
    ],
    [
-    "Will anyone stop re-election of Infantino as Fifa president? - BBC",
-    "bbc.com",
-    "2026-10-09"
+    "Former Japan coach Okada quits JFA vice-president role over FIFA concerns - Reuters",
+    "reuters.com",
+    "2026-10-28"
    ]
   ]
  }
