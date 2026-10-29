@@ -162,9 +162,13 @@ def main():
                 pw.CLUBS = {ck: car}
                 evs = []
                 for q in ['رئيسا لنادي ' + car, 'تكليف برئاسة نادي ' + car, car + ' رئيس جديد رسميا']:
-                    for it in pw.gnews(q, '900d'):
+                    for it in pw.gnews(q, '365d'):
                         for e in pw.extract(it['title']): evs.append([e[1], e[2], it['title'][:70], it.get('host'), str(it['date'])[:10]])
-                out[nm] = {'ar_news': ar_news(ck, None, '900d'), 'events': evs[:12]}
+                raw = []
+                for q in ['رئيس نادي ' + car, car + ' رئيس جديد', 'رئاسة نادي ' + car]:
+                    its = pw.gnews(q, '365d')
+                    raw.append([q, len(its), [i['title'][:80] for i in its[:4]]])
+                out[nm] = {'ar_news': ar_news(ck, None, '365d'), 'events': evs[:12], 'raw': raw}
             else:
                 out[nm] = {'wikidata': ar_label(nm), 'wikipedia': ar_wikipedia(nm)}
         json.dump(out, open('pres_ar_test.json', 'w'), ensure_ascii=False, indent=1)
