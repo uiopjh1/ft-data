@@ -8,7 +8,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: pres-watch
+  group: pres-watch-manual
   cancel-in-progress: false
 jobs:
   run:
