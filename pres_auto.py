@@ -47,7 +47,7 @@ def portrait_ok(buf):
     fs2 = face.detectMultiScale(g, 1.1, 4, minSize=(int(W * .05), int(W * .05)))
     if len(fs2) > 1: return False, f'other faces={len(fs2)}'
     x, y, fw, fh = fs[0]
-    if fw / W < 0.17 and fh / H < 0.17: return False, 'face small'
+    if fw / W < 0.25 and fh / H < 0.30: return False, 'face small'
     return True, f'face {fw/W:.2f}x{fh/H:.2f}'
 
 def og(url):
