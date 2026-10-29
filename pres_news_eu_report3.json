@@ -1,0 +1,279 @@
+{
+ "Jon Uriarte": {
+  "club": "Athletic Club",
+  "found": null,
+  "log": [
+   [
+    "en",
+    "raw",
+    11,
+    "name",
+    10,
+    [
+     "Jon Uriarte confirmed as Athletic Club’s new president",
+     "Athletic president blasts Spanish FA after ‘excessive’ Nico Williams d"
+    ]
+   ],
+   [
+    "Jon Uriarte confirmed as Athletic Club’s new president",
+    "football-espana.net",
+    "https://www.football-espana.net/2022/06/24/jon-uriarte-confirmed-as-athletic-clubs-new-president",
+    "https://www.football-espana.net/wp-content/uploads/2021/12/San-Mames.jpeg",
+    false,
+    "faces=0"
+   ],
+   [
+    "es",
+    "raw",
+    12,
+    "name",
+    10,
+    [
+     "Jon Uriarte salva la asamblea del Athletic con un perdón, un enfado y ",
+     "Jon Uriarte: \"El Athletic se ha situado como el cuarto club con mejor "
+    ]
+   ],
+   [
+    "it",
+    "raw",
+    12,
+    "name",
+    11,
+    [
+     "Jon Uriarte salva la asamblea del Athletic con un perdón, un enfado y ",
+     "Jon Uriarte prevé un «cambio de tendencia» en la economía del Athletic"
+    ]
+   ],
+   [
+    "de",
+    "raw",
+    12,
+    "name",
+    11,
+    [
+     "Jon Uriarte salva la asamblea del Athletic con un perdón, un enfado y ",
+     "Jon Uriarte: \"El Athletic se ha situado como el cuarto club con mejor "
+    ]
+   ],
+   [
+    "fr",
+    "raw",
+    11,
+    "name",
+    11,
+    [
+     "It's official, Jon Uriarte seeks re-election at Athletic",
+     "Jon Uriarte salva la asamblea del Athletic con un perdón, un enfado y "
+    ]
+   ]
+  ]
+ },
+ "Denis Le Saint": {
+  "club": "Brest",
+  "found": null,
+  "log": [
+   [
+    "en",
+    "raw",
+    3,
+    "name",
+    3,
+    [
+     "« Denis Le Saint n’a pas la volonté de vendre le Stade Brestois », mar",
+     "Denis Le Saint, président de Brest, sur la disparition d'Éric Roy : « "
+    ]
+   ],
+   [
+    "cand",
+    "Denis Le Saint, président de Brest, sur la disparition d'Éri",
+    "https://www.lequipe.fr/Football/Actualites/Denis-le-saint-pr",
+    "PAGE-FAIL HTTP Error 403: Forbidden"
+   ],
+   [
+    "es",
+    "raw",
+    3,
+    "name",
+    3,
+    [
+     "« Denis Le Saint n’a pas la volonté de vendre le Stade Brestois », mar",
+     "Denis Le Saint, président de Brest, sur la disparition d'Éric Roy : « "
+    ]
+   ],
+   [
+    "it",
+    "raw",
+    3,
+    "name",
+    3,
+    [
+     "« Denis Le Saint n’a pas la volonté de vendre le Stade Brestois », mar",
+     "Denis Le Saint, président de Brest, sur la disparition d'Éric Roy : « "
+    ]
+   ],
+   [
+    "de",
+    "raw",
+    4,
+    "name",
+    4,
+    [
+     "« Denis Le Saint n’a pas la volonté de vendre le Stade Brestois », mar",
+     "Denis Le Saint, président de Brest, sur la disparition d'Éric Roy : « "
+    ]
+   ],
+   [
+    "Denis Le Saint, président du Stade Brestois : «C’était impossible de ne pas se b",
+    "lejdd.fr",
+    "https://www.lejdd.fr/sport/denis-le-saint-president-du-stade-brestois-cetait-impossible-de-ne-pas-se-battre-pour-eric-roy-183273",
+    "https://static.lejdd.fr/lmnr/var/jdd/public/media/image/2026/09/12/16/itw-le-saint-grande-photo-premier-choix-cguillaume-saligot_ouest-france_maxppp_master-1.jpg?VersionId=j83FPACedthygBjxJwhBqCtwmanBXRSx",
+    false,
+    "faces=0"
+   ],
+   [
+    "fr",
+    "raw",
+    4,
+    "name",
+    4,
+    [
+     "« Denis Le Saint n’a pas la volonté de vendre le Stade Brestois », mar",
+     "Denis Le Saint, président du Stade Brestois : «C’était impossible de n"
+    ]
+   ]
+  ]
+ },
+ "Pablo Sánchez": {
+  "club": "Levante",
+  "found": {
+   "file": "pres_img_cand/pablo_sanchez.jpg",
+   "image": "https://estaticos-cdn.prensaiberica.es/clip/a87dbb97-b06e-4180-a368-42d34abac399_16-9-discover-aspect-ratio_default_0_x800y330.jpg",
+   "src": "https://www.levante-emv.com/deportes/2026/05/29/pablo-sanchez-presidente-levante-club-130807043.html",
+   "title": "Pablo Sánchez, presidente del Levante: \"Somos un club vendedor y habrá ventas\""
+  },
+  "log": [
+   [
+    "en",
+    "raw",
+    9,
+    "name",
+    5,
+    [
+     "Pablo Sánchez actualiza el mercado de fichajes del Levante UD: \"Nuestr",
+     "Pablo Sánchez: «La salvación es el único objetivo del Levante»"
+    ]
+   ],
+   [
+    "es",
+    "raw",
+    12,
+    "name",
+    7,
+    [
+     "El Levante UD y Grupo JV Facility Services prolongan su compromiso una",
+     "Pablo Sánchez actualiza el mercado de fichajes del Levante UD: \"Nuestr"
+    ]
+   ],
+   [
+    "Pablo Sánchez, presidente del Levante: \"Somos un club vendedor y habrá ventas\"",
+    "levante-emv.com",
+    "https://www.levante-emv.com/deportes/2026/05/29/pablo-sanchez-presidente-levante-club-130807043.html",
+    "https://estaticos-cdn.prensaiberica.es/clip/a87dbb97-b06e-4180-a368-42d34abac399_16-9-discover-aspect-ratio_default_0_x800y330.jpg",
+    true,
+    "face 0.33x0.59"
+   ]
+  ]
+ },
+ "Jean-Michel Roussier": {
+  "club": "Le Havre",
+  "found": {
+   "file": "pres_img_cand/jean_michel_roussier.jpg",
+   "image": "https://sofoot.s3.eu-central-1.amazonaws.com/wp-content/uploads/2024/12/03214733/ICONSPORT_246009_0008-1400x934.jpg",
+   "src": "https://www.sofoot.com/breves/le-president-du-havre-jean-michel-roussier-reagit-a-linterdiction-de-stade-dun-supporter-de-six-ans",
+   "title": "Le président du Havre Jean-Michel Roussier réagit à l’interdiction de stade d’un supporter de six ans"
+  },
+  "log": [
+   [
+    "en",
+    "raw",
+    3,
+    "name",
+    2,
+    [
+     "Jean-Michel Roussier (Le Havre) sur l'affaire Dönnum-Ebonog : \"Le suje",
+     "Jean-Michel Roussier, le président du Havre, concernant l'affaire Aron"
+    ]
+   ],
+   [
+    "cand",
+    "Jean-Michel Roussier, le président du Havre, concernant l'af",
+    "https://www.msn.com/fr-fr/sport/other/jean-michel-roussier-l",
+    "NO-OG"
+   ],
+   [
+    "es",
+    "raw",
+    3,
+    "name",
+    2,
+    [
+     "Jean-Michel Roussier (Le Havre) sur l'affaire Dönnum-Ebonog : \"Le suje",
+     "Jean-Michel Roussier, le président du Havre, concernant l'affaire Aron"
+    ]
+   ],
+   [
+    "it",
+    "raw",
+    3,
+    "name",
+    2,
+    [
+     "Jean-Michel Roussier (Le Havre) sur l'affaire Dönnum-Ebonog : \"Le suje",
+     "Jean-Michel Roussier, le président du Havre, concernant l'affaire Aron"
+    ]
+   ],
+   [
+    "de",
+    "raw",
+    3,
+    "name",
+    2,
+    [
+     "Jean-Michel Roussier (Le Havre) sur l'affaire Dönnum-Ebonog : \"Le suje",
+     "Jean-Michel Roussier, le président du Havre, concernant l'affaire Aron"
+    ]
+   ],
+   [
+    "cand",
+    "Jean-Michel Roussier, le président du Havre, concernant l'af",
+    "https://www.msn.com/fr-fr/sport/other/jean-michel-roussier-l",
+    "NO-OG"
+   ],
+   [
+    "fr",
+    "raw",
+    10,
+    "name",
+    6,
+    [
+     "Jean-Michel Roussier, président du Havre : « Éviter de tomber dans la ",
+     "Le président du Havre Jean-Michel Roussier réagit à l’interdiction de "
+    ]
+   ],
+   [
+    "cand",
+    "Jean-Michel Roussier, président du Havre : « Éviter de tombe",
+    "https://www.lequipe.fr/Football/Article/Jean-michel-roussier",
+    "PAGE-FAIL HTTP Error 403: Forbidden"
+   ],
+   [
+    "Le président du Havre Jean-Michel Roussier réagit à l’interdiction de stade d’un",
+    "sofoot.com",
+    "https://www.sofoot.com/breves/le-president-du-havre-jean-michel-roussier-reagit-a-linterdiction-de-stade-dun-supporter-de-six-ans",
+    "https://sofoot.s3.eu-central-1.amazonaws.com/wp-content/uploads/2024/12/03214733/ICONSPORT_246009_0008-1400x934.jpg",
+    true,
+    "face 0.24x0.37"
+   ]
+  ]
+ }
+}
