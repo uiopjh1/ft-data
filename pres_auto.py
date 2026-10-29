@@ -66,7 +66,7 @@ def find(name_ar, log):
             seen.add(l)
             nt = norm(t)
             if key not in nt: continue
-            if not re.search('رييس|رئيس|مجلس اداره|مجلس ادارة', nt) or re.search('مسلسل|ممثل|فنان|العاصوف|دراما|فيلم|برنامج|رمضان', nt):
+            if not re.search('رياس|رييس|رئاس|مالك|نادي|الحزم|الخلود|الفيصلي|الاخدود|الرايد|الفتح|الخليج|الاتفاق|الفيحاء|الرياض', nt) or re.search('مسلسل|ممثل|فنان|العاصوف|دراما|فيلم|وفاه|حادث|رحيل|عزاء|رمضان|مذيع|اعلامي', nt):
                 log.append([t[:60], 'skip title']); continue
             try: img = og(l)
             except Exception as e: log.append([l, 'page fail']); continue
