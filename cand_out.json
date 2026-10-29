@@ -1,0 +1,94 @@
+{
+ "kholood_a_harburg": {
+  "status": 404,
+  "imgs": [
+   {
+    "f": "cand/kholood_a_harburg_0.jpg",
+    "src": "https://images.spl.com.sa/image/private/t_q-good/prd/assets/site%20image/Slide_16_9_-_1_clou9h.jpg",
+    "bytes": 55301
+   }
+  ]
+ },
+ "kholood_b_harburg": {
+  "status": 403,
+  "imgs": []
+ },
+ "okhdood_a_home": {
+  "status": 200,
+  "imgs": []
+ },
+ "okhdood_b_hist": {
+  "status": 200,
+  "imgs": []
+ },
+ "fateh_a_home": {
+  "status": 200,
+  "imgs": [
+   {
+    "f": "cand/fateh_a_home_0.png",
+    "src": "https://fatehclub.com/logo-light.png",
+    "bytes": 40062
+   }
+  ]
+ },
+ "fateh_b_blog": {
+  "status": 200,
+  "imgs": [
+   {
+    "f": "cand/fateh_b_blog_0.jpg",
+    "src": "https://fatehclub.com/web/image/973-6a367f0b/%D8%B5%D8%A7%D9%84%D8%A9%20%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AF_%282%29.jpg",
+    "bytes": 193840
+   }
+  ]
+ },
+ "khaleej_a_news": {
+  "status": 200,
+  "imgs": [
+   {
+    "f": "cand/khaleej_a_news_0.webp",
+    "src": "https://www.okaz.com.sa/okaz/uploads/images/2026/08/08/2748067.webp",
+    "bytes": 225214
+   }
+  ]
+ },
+ "khaleej_b_news": {
+  "status": 200,
+  "imgs": [
+   {
+    "f": "cand/khaleej_b_news_0.jpg",
+    "src": "https://www.okaz.com.sa/uploads/images/2025/07/23/2558826.jpeg",
+    "bytes": 530443
+   }
+  ]
+ },
+ "raed_a_news": {
+  "status": 200,
+  "imgs": [
+   {
+    "f": "cand/raed_a_news_0.webp",
+    "src": "https://www.okaz.com.sa/okaz/uploads/images/2026/09/10/2763962.webp",
+    "bytes": 335858
+   }
+  ]
+ },
+ "hazem_a_news": {
+  "status": 200,
+  "imgs": [
+   {
+    "f": "cand/hazem_a_news_0.webp",
+    "src": "https://www.okaz.com.sa/okaz/uploads/images/2026/01/14/2646071.webp",
+    "bytes": 85910
+   }
+  ]
+ },
+ "hazem_b_news": {
+  "status": 200,
+  "imgs": [
+   {
+    "f": "cand/hazem_b_news_0.jpg",
+    "src": "https://www.okaz.com.sa/uploads/images/2025/05/30/2532947.jpg",
+    "bytes": 266368
+   }
+  ]
+ }
+}
