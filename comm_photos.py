@@ -27,11 +27,13 @@ def run(name, log):
     def ok_title(t): ft = fold(t); return all(w in ft for w in toks) and ROLE.search(ft) and not BAD.search(ft)
     cands = []
     for q in (f'{name} معلق', f'المعلق {name}', f'{name} معلق رياضي ثمانية'):
-        for t, mu, pu in bing_images(q):
+        bi = bing_images(q); log.append(['bing', q, len(bi), [x[0][:50] for x in bi[:3]]])
+        for t, mu, pu in bi:
             if mu and ok_title(t): cands.append(('img', t, mu, pu))
         time.sleep(0.8)
     for q in (f'"{name}" معلق', f'{name} معلق ثمانية'):
-        for t, l, d in pa.search_mkt(q, 'ar-SA'):
+        nn = pa.search_mkt(q, 'ar-SA'); log.append(['news', q, len(nn), [x[0][:50] for x in nn[:3]]])
+        for t, l, d in nn:
             if ok_title(t): cands.append(('news', t, l, l))
         time.sleep(0.5)
     log.append(['cands', len(cands)])
@@ -64,7 +66,7 @@ def main():
         if only and n not in only.split('|'): continue
         cur = info.get(n, {})
         if cur.get('image') or cur.get('photoChecked', '') > old: continue
-        log = []; r = run(n, log); rep[n] = {'found': r, 'log': log[:16]}
+        log = []; r = run(n, log); rep[n] = {'found': r, 'log': log[:20]}
         print(n, len(r), flush=True)
         if apply:
             e = info.setdefault(n, {}); e['photoChecked'] = today
