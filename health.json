@@ -1,0 +1,54 @@
+{
+ "checked": "2026-10-29T23:31:38.629173+00:00",
+ "all_ok": true,
+ "items": [
+  {
+   "name": "الرؤساء (فحص ساعي)",
+   "target": "pres-live.yml",
+   "last_ok": "2026-10-29T21:12:14+00:00",
+   "age_h": 2.3,
+   "max_h": 3,
+   "ok": true
+  },
+  {
+   "name": "المعلقون (الجدول)",
+   "target": "commentators.yml",
+   "last_ok": "2026-10-29T22:53:07+00:00",
+   "age_h": 0.6,
+   "max_h": 8,
+   "ok": true
+  },
+  {
+   "name": "صور المعلقين (يومي)",
+   "target": "comm-photos.yml",
+   "last_ok": "2026-10-29T20:57:39+00:00",
+   "age_h": 2.6,
+   "max_h": 30,
+   "ok": true
+  },
+  {
+   "name": "ملف المعلقين commentators.json",
+   "target": "commentators.json",
+   "last_ok": "2026-10-29T23:31:03+00:00",
+   "age_h": 0.0,
+   "max_h": 12,
+   "ok": true
+  },
+  {
+   "name": "ملف الرؤساء presidents.json",
+   "target": "presidents.json",
+   "last_ok": "2026-10-29T14:36:30+00:00",
+   "age_h": 8.9,
+   "max_h": 336,
+   "ok": true
+  },
+  {
+   "name": "نبضة فحص الرؤساء",
+   "target": "pres_live_status.json",
+   "last_ok": "2026-10-29T23:15:05Z",
+   "age_h": 0.3,
+   "max_h": 2,
+   "ok": true
+  }
+ ]
+}
