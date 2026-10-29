@@ -1,0 +1,181 @@
+{
+ "Denis Le Saint": {
+  "club": "Brest",
+  "found": [
+   {
+    "file": "pres_img_cand/denis_le_saint__0.jpg",
+    "src": "https://www.lequotidiendusport.fr/qui-est-denis-le-saint-stade-brestois-le-president-que-personne-ne-connait/",
+    "title": "Qui est Denis Le Saint (Stade Brestois), le président que personne ne connait ?"
+   },
+   {
+    "file": "pres_img_cand/denis_le_saint__1.jpg",
+    "src": "https://www.lejdd.fr/sport/denis-le-saint-president-du-stade-brestois-cetait-impossible-de-ne-pas-se-battre-pour-eric-roy-183273",
+    "title": "Denis Le Saint, président du Stade Brestois : «C’était impossible de ne pas se battre pour Éric Roy»"
+   }
+  ],
+  "log": [
+   [
+    "en",
+    "raw",
+    11,
+    "name",
+    10,
+    [
+     "« Denis Le Saint n’a pas la volonté de vendre le Stade Brestois », mar",
+     "Denis Le Saint, président de Brest, sur la disparition d'Éric Roy : « "
+    ]
+   ],
+   [
+    "cand",
+    "Denis Le Saint, président de Brest, sur la disparition d'Éri",
+    "https://www.lequipe.fr/Football/Actualites/Denis-le-saint-pr",
+    "PAGE-FAIL HTTP Error 403: Forbidden"
+   ],
+   [
+    "Qui est Denis Le Saint (Stade Brestois), le président que personne ne connait ?",
+    "lequotidiendusport.fr",
+    "https://www.lequotidiendusport.fr/qui-est-denis-le-saint-stade-brestois-le-president-que-personne-ne-connait/",
+    "https://www.lequotidiendusport.fr/wp-content/uploads/2023/02/Attachment-1-13.jpg",
+    true,
+    "crop"
+   ],
+   [
+    "cand",
+    "« Il faut qu'on se prépare à trouver une solution » : le pré",
+    "https://www.lequipe.fr/Football/Article/-il-faut-qu-on-se-pr",
+    "PAGE-FAIL HTTP Error 403: Forbidden"
+   ],
+   [
+    "es",
+    "raw",
+    14,
+    "name",
+    13,
+    [
+     "« Denis Le Saint n’a pas la volonté de vendre le Stade Brestois », mar",
+     "Denis Le Saint, président de Brest, sur la disparition d'Éric Roy : « "
+    ]
+   ],
+   [
+    "Denis Le Saint, président du Stade Brestois : «C’était impossible de ne pas se b",
+    "lejdd.fr",
+    "https://www.lejdd.fr/sport/denis-le-saint-president-du-stade-brestois-cetait-impossible-de-ne-pas-se-battre-pour-eric-roy-183273",
+    "https://static.lejdd.fr/lmnr/var/jdd/public/media/image/2026/09/12/16/itw-le-saint-grande-photo-premier-choix-cguillaume-saligot_ouest-france_maxppp_master-1.jpg?VersionId=j83FPACedthygBjxJwhBqCtwmanBXRSx",
+    true,
+    "crop"
+   ],
+   [
+    "it",
+    "raw",
+    7,
+    "name",
+    6,
+    [
+     "« Denis Le Saint n’a pas la volonté de vendre le Stade Brestois », mar",
+     "Denis Le Saint, président de Brest, sur la disparition d'Éric Roy : « "
+    ]
+   ],
+   [
+    "cand",
+    "Denis Le Saint, un patron discret en pleine lucarne",
+    "https://www.letelegramme.fr/bretagne/brest-psg-denis-le-sain",
+    "PAGE-FAIL HTTP Error 403: Forbidden"
+   ],
+   [
+    "de",
+    "raw",
+    8,
+    "name",
+    8,
+    [
+     "« Denis Le Saint n’a pas la volonté de vendre le Stade Brestois », mar",
+     "Denis Le Saint, président de Brest, sur la disparition d'Éric Roy : « "
+    ]
+   ],
+   [
+    "fr",
+    "raw",
+    13,
+    "name",
+    12,
+    [
+     "« Denis Le Saint n’a pas la volonté de vendre le Stade Brestois », mar",
+     "Denis Le Saint, président du Stade Brestois : «C’était impossible de n"
+    ]
+   ]
+  ]
+ },
+ "Romain Chabane": {
+  "club": "Angers",
+  "found": null,
+  "log": [
+   [
+    "en",
+    "raw",
+    15,
+    "name",
+    13,
+    [
+     "Romain Chabane",
+     "Angers : Saïd Chabane démissionne de son poste de président !"
+    ]
+   ],
+   [
+    "cand",
+    "SCO Angers : Saïd Chabane démissionne de son poste de présid",
+    "https://www.eurosport.fr/football/ligue-1/2022-2023/sco-ange",
+    "PAGE-FAIL HTTP Error 403: Forbidden"
+   ],
+   [
+    "es",
+    "raw",
+    9,
+    "name",
+    9,
+    [
+     "Romain Chabane",
+     "Angers : Saïd Chabane démissionne de son poste de président !"
+    ]
+   ],
+   [
+    "it",
+    "raw",
+    9,
+    "name",
+    9,
+    [
+     "Romain Chabane",
+     "Dernières actualités sur Romain Chabane"
+    ]
+   ],
+   [
+    "de",
+    "raw",
+    11,
+    "name",
+    10,
+    [
+     "Romain Chabane",
+     "Postes actifs de Romain Chabane"
+    ]
+   ],
+   [
+    "fr",
+    "raw",
+    8,
+    "name",
+    8,
+    [
+     "Angers Sco. Le président Romain Chabane présent pour la réception du P",
+     "Romain Chabane"
+    ]
+   ],
+   [
+    "cand",
+    "Angers Sco. Le président Romain Chabane présent pour la réce",
+    "https://www.ouest-france.fr/sport/football/angers-sco/angers",
+    "PAGE-FAIL HTTP Error 403: Forbidden"
+   ]
+  ]
+ }
+}
