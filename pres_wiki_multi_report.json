@@ -30,7 +30,24 @@
    [
     "de",
     "resp",
-    []
+    [
+     [
+      "AS Rom",
+      true
+     ],
+     [
+      "Bradley Thomas",
+      true
+     ],
+     [
+      "Dan Friedkin",
+      false
+     ],
+     [
+      "Friedkin",
+      false
+     ]
+    ]
    ],
    [
     "it",
@@ -57,12 +74,46 @@
    [
     "fr",
     "resp",
-    []
+    [
+     [
+      "Associazione Sportiva Roma",
+      true
+     ],
+     [
+      "Dan Friedkin",
+      false
+     ],
+     [
+      "Le Dernier Vermeer",
+      true
+     ],
+     [
+      "Roland Møller",
+      true
+     ]
+    ]
    ],
    [
     "pt",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Associazione Sportiva Roma",
+      true
+     ],
+     [
+      "BAFTA de melhor filme",
+      false
+     ],
+     [
+      "Everton Football Club",
+      true
+     ],
+     [
+      "Producers Guild of America de melhor filme",
+      false
+     ]
+    ]
    ]
   ]
  },
@@ -75,7 +126,24 @@
    [
     "es",
     "resp",
-    []
+    [
+     [
+      "Indra Sistemas",
+      true
+     ],
+     [
+      "Iñaki Badiola",
+      false
+     ],
+     [
+      "Jokin Aperribay",
+      false
+     ],
+     [
+      "Real Sociedad de Fútbol \"C\"",
+      false
+     ]
+    ]
    ],
    [
     "de",
@@ -133,8 +201,17 @@
    ],
    [
     "pt",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "La Liga de 2010–11",
+      true
+     ],
+     [
+      "Real Sociedad de Fútbol",
+      true
+     ]
+    ]
    ]
   ]
  },
@@ -169,12 +246,7 @@
    [
     "de",
     "resp",
-    [
-     [
-      "FC Sevilla",
-      false
-     ]
-    ]
+    []
    ],
    [
     "it",
@@ -228,28 +300,84 @@
   "log": [
    [
     "es",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Athletic Club",
+      false
+     ],
+     [
+      "Carlos Javier Weber",
+      true
+     ],
+     [
+      "Herrera en COPE",
+      true
+     ],
+     [
+      "Herri Norte Taldea",
+      false
+     ]
+    ]
+   ],
+   [
+    "es",
+    "Jon Emili Uriarte",
+    "club/role not in intro"
    ],
    [
     "de",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Athletic Bilbao (Frauenfußball)",
+      false
+     ],
+     [
+      "Bilbao Athletic",
+      false
+     ],
+     [
+      "CD Basconia",
+      true
+     ],
+     [
+      "Lezama (Jugendakademie)",
+      false
+     ]
+    ]
    ],
    [
     "it",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "fr",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "pt",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Athletic Club",
+      true
+     ],
+     [
+      "Esporte da Argentina",
+      true
+     ],
+     [
+      "Jon Uriarte",
+      false
+     ],
+     [
+      "Medalhistas olímpicos do voleibol",
+      true
+     ]
+    ]
    ]
   ]
  },
@@ -261,28 +389,67 @@
   "log": [
    [
     "es",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "de",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "it",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Real Betis Balompié",
+      true
+     ],
+     [
+      "Real Betis Balompié (calcio femminile)",
+      true
+     ],
+     [
+      "Real Betis Balompié 2016-2017",
+      false
+     ],
+     [
+      "Real Betis Balompié 2020-2021",
+      false
+     ]
+    ]
    ],
    [
     "fr",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Betis Deportivo Balompié",
+      true
+     ],
+     [
+      "Didier Digard",
+      true
+     ],
+     [
+      "Real Betis Balompié",
+      true
+     ],
+     [
+      "Real Betis Balompié (féminines)",
+      true
+     ]
+    ]
    ],
    [
     "pt",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Real Betis Balompié",
+      true
+     ]
+    ]
    ]
   ]
  },
@@ -294,28 +461,60 @@
   "log": [
    [
     "es",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "ACF Fiorentina",
+      true
+     ],
+     [
+      "ACF Fiorentina Femminile",
+      true
+     ]
+    ]
    ],
    [
     "de",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "AC Florenz",
+      true
+     ],
+     [
+      "’Ndrangheta",
+      false
+     ]
+    ]
    ],
    [
     "it",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "fr",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "2026 en Italie",
+      false
+     ]
+    ]
    ],
    [
     "pt",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "'Ndrangheta",
+      true
+     ],
+     [
+      "Associazione Calcio Firenze Fiorentina",
+      true
+     ]
+    ]
    ]
   ]
  },
@@ -327,28 +526,101 @@
   "log": [
    [
     "es",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "de",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Emilio Capacetti",
+      false
+     ],
+     [
+      "Movistar Open 2009/Qualifikation",
+      false
+     ],
+     [
+      "Olympische Jugend-Sommerspiele 2010/Teilnehmer (Puerto Rico)",
+      true
+     ],
+     [
+      "Ángel Torres",
+      false
+     ]
+    ]
    ],
    [
     "it",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Balzan Football Club",
+      false
+     ],
+     [
+      "Copa México 1945-1946",
+      false
+     ],
+     [
+      "Miguel Torres",
+      false
+     ],
+     [
+      "Miguel Ángel Torres",
+      false
+     ]
+    ]
+   ],
+   [
+    "it",
+    "Miguel Ángel Torres Quintana",
+    "club/role not in intro"
    ],
    [
     "fr",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Circonscription électorale de Majorque",
+      true
+     ],
+     [
+      "Copa Interamericana 1991",
+      false
+     ],
+     [
+      "Getafe Club de Fútbol",
+      true
+     ],
+     [
+      "Javier Rey",
+      true
+     ]
+    ]
    ],
    [
     "pt",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Basquetebol nos Jogos Olímpicos de Verão da Juventude de 2010 - Masculino",
+      false
+     ],
+     [
+      "Evoga",
+      false
+     ],
+     [
+      "Getafe Club de Fútbol",
+      true
+     ],
+     [
+      "La Liga de 2010–11",
+      true
+     ]
+    ]
    ]
   ]
  },
@@ -360,28 +632,68 @@
   "log": [
    [
     "es",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Deportivo Alavés",
+      false
+     ],
+     [
+      "Deportivo Alavés Gloriosas",
+      false
+     ]
+    ]
    ],
    [
     "de",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Deportivo Alavés",
+      false
+     ],
+     [
+      "Deportivo Alavés Gloriosas",
+      false
+     ]
+    ]
    ],
    [
     "it",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Deportivo Alavés",
+      true
+     ],
+     [
+      "Deportivo Alavés 2016-2017",
+      false
+     ],
+     [
+      "Deportivo Alavés 2019-2020",
+      false
+     ],
+     [
+      "Deportivo Alavés 2020-2021",
+      false
+     ]
+    ]
    ],
    [
     "fr",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "pt",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Deportivo Alavés",
+      false
+     ]
+    ]
    ]
   ]
  },
@@ -393,28 +705,101 @@
   "log": [
    [
     "es",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "de",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Colmar",
+      true
+     ],
+     [
+      "Coupe de France 1994/95",
+      false
+     ],
+     [
+      "Marc Keller",
+      true
+     ],
+     [
+      "Mark Keller",
+      false
+     ]
+    ]
+   ],
+   [
+    "de",
+    "Marc Keller",
+    "club/role not in intro"
    ],
    [
     "it",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Marc Keller",
+      true
+     ],
+     [
+      "Nati il 14 gennaio",
+      false
+     ],
+     [
+      "Racing Club de Strasbourg 1994-1995",
+      false
+     ],
+     [
+      "Racing Club de Strasbourg Alsace",
+      true
+     ]
+    ]
+   ],
+   [
+    "it",
+    "Marc Keller",
+    "club/role not in intro"
    ],
    [
     "fr",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Direction du Racing Club de Strasbourg",
+      true
+     ],
+     [
+      "François Keller",
+      false
+     ],
+     [
+      "Marc Keller",
+      true
+     ],
+     [
+      "Saison 2018-2019 du Racing Club de Strasbourg Alsace",
+      true
+     ]
+    ]
+   ],
+   [
+    "fr",
+    "Marc Keller",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Marc_Keller_au_local_des_supporters_du_Racing_Club_de_Strasbourg_en_2017.jpg/500px-Marc_Keller_au_local_des_supporters_du_Racing_Club_de_Strasbourg_en_2017.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    false,
+    "faces=0"
    ],
    [
     "pt",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Racing Club de Strasbourg Alsace",
+      true
+     ]
+    ]
    ]
   ]
  },
@@ -427,12 +812,46 @@
    [
     "es",
     "resp",
-    []
+    [
+     [
+      "Claude Puel",
+      true
+     ],
+     [
+      "Cohen (desambiguación)",
+      false
+     ],
+     [
+      "Eli Cohen",
+      true
+     ],
+     [
+      "Gernot Rohr",
+      true
+     ]
+    ]
    ],
    [
     "de",
     "resp",
-    []
+    [
+     [
+      "Eli Cohen",
+      true
+     ],
+     [
+      "Gernot Rohr",
+      true
+     ],
+     [
+      "Jean-Vigo-Preis",
+      true
+     ],
+     [
+      "Liste der Stolpersteine in der Provinz Antwerpen",
+      true
+     ]
+    ]
    ],
    [
     "it",
@@ -480,7 +899,7 @@
    ],
    [
     "pt",
-    "EMPTY-RESP",
+    "resp",
     []
    ]
   ]
@@ -499,12 +918,7 @@
    [
     "de",
     "resp",
-    [
-     [
-      "Joseph Oughourlian",
-      true
-     ]
-    ]
+    []
    ],
    [
     "it",
@@ -522,13 +936,40 @@
    ],
    [
     "fr",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Arnaud Pouille",
+      true
+     ],
+     [
+      "Jonathan Gradit",
+      true
+     ],
+     [
+      "Joseph Oughourlian",
+      true
+     ],
+     [
+      "Olivier Cloarec (football)",
+      false
+     ]
+    ]
+   ],
+   [
+    "fr",
+    "Arnaud Pouille",
+    "club/role not in intro"
    ],
    [
     "pt",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Stade Rennais Football Club",
+      true
+     ]
+    ]
    ]
   ]
  },
@@ -569,17 +1010,56 @@
    [
     "it",
     "resp",
-    []
+    [
+     [
+      "Brest Bretagne Handball",
+      false
+     ],
+     [
+      "Stade Brestois 29",
+      true
+     ],
+     [
+      "Stade Brestois 29 2016-2017",
+      false
+     ],
+     [
+      "Stade Brestois 29 2017-2018",
+      false
+     ]
+    ]
    ],
    [
     "fr",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Arkéa Park",
+      true
+     ],
+     [
+      "Championnat de France de football 2022-2023",
+      true
+     ],
+     [
+      "Roberto Cabañas",
+      true
+     ],
+     [
+      "Saison 2016-2017 du Stade brestois 29",
+      true
+     ]
+    ]
    ],
    [
     "pt",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Stade Brestois 29",
+      true
+     ]
+    ]
    ]
   ]
  },
@@ -591,27 +1071,67 @@
   "log": [
    [
     "es",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Rugby Club Vannes",
+      false
+     ]
+    ]
    ],
    [
     "de",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "FC Toulouse",
+      false
+     ],
+     [
+      "Stade Rennes",
+      true
+     ]
+    ]
    ],
    [
     "it",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Damien Comolli",
+      true
+     ],
+     [
+      "Toulouse Football Club (femminile)",
+      true
+     ]
+    ]
    ],
    [
     "fr",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Cloarec",
+      false
+     ],
+     [
+      "Olivier Cloarec",
+      false
+     ],
+     [
+      "Olivier Cloarec (football)",
+      false
+     ],
+     [
+      "Rugby club vannetais",
+      true
+     ]
+    ]
    ],
    [
     "pt",
-    "EMPTY-RESP",
+    "resp",
     []
    ]
   ]
@@ -624,28 +1144,64 @@
   "log": [
    [
     "es",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Lameck Banda",
+      true
+     ],
+     [
+      "Unione Sportiva Lecce",
+      false
+     ]
+    ]
    ],
    [
     "de",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "US Lecce",
+      true
+     ]
+    ]
    ],
    [
     "it",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Damiani",
+      false
+     ],
+     [
+      "Joan González",
+      true
+     ],
+     [
+      "Presidenti dell'Unione Sportiva Lecce",
+      true
+     ],
+     [
+      "Saverio Sticchi Damiani",
+      false
+     ]
+    ]
    ],
    [
     "fr",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "pt",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Unione Sportiva Lecce",
+      true
+     ]
+    ]
    ]
   ]
  },
@@ -657,28 +1213,93 @@
   "log": [
    [
     "es",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Genoa Cricket & Football Club",
+      false
+     ],
+     [
+      "Genoa Cricket & Football Club (femenino)",
+      false
+     ],
+     [
+      "Rapid de Bucarest",
+      false
+     ]
+    ]
    ],
    [
     "de",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "CFC Genua",
+      true
+     ],
+     [
+      "Rapid Bukarest",
+      false
+     ]
+    ]
    ],
    [
     "it",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Fotbal Club Rapid București",
+      false
+     ],
+     [
+      "Fotbal Club Rapid București 2026-2027",
+      false
+     ],
+     [
+      "Genoa Cricket and Football Club",
+      true
+     ],
+     [
+      "Jakub Hromada",
+      true
+     ]
+    ]
    ],
    [
     "fr",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Championnat d'Italie de football 2024-2025",
+      true
+     ],
+     [
+      "Championnat d'Italie de football 2025-2026",
+      true
+     ],
+     [
+      "Ermal Krasniqi",
+      true
+     ],
+     [
+      "Genoa Cricket and Football Club",
+      true
+     ]
+    ]
    ],
    [
     "pt",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Genoa Cricket and Football Club",
+      true
+     ],
+     [
+      "Rapid București",
+      true
+     ]
+    ]
    ]
   ]
  },
@@ -690,23 +1311,79 @@
   "log": [
    [
     "es",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Comisión Nacional de Rallies de México",
+      true
+     ],
+     [
+      "Sociedad Comercial del Plata",
+      false
+     ],
+     [
+      "Udinese Calcio",
+      true
+     ]
+    ]
    ],
    [
     "de",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Serie A 2013/14",
+      false
+     ],
+     [
+      "Serie A 2015/16",
+      false
+     ],
+     [
+      "Serie A 2016/17",
+      false
+     ],
+     [
+      "Serie A 2017/18",
+      true
+     ]
+    ]
    ],
    [
     "it",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Migliore società AIC",
+      false
+     ],
+     [
+      "Udinese Calcio",
+      true
+     ],
+     [
+      "Udinese Calcio 2002-2003",
+      false
+     ],
+     [
+      "Udinese Calcio 2003-2004",
+      false
+     ]
+    ]
    ],
    [
     "fr",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "L'Homme à la croix",
+      true
+     ],
+     [
+      "Udinese Calcio",
+      true
+     ]
+    ]
    ],
    [
     "pt",
@@ -728,17 +1405,47 @@
   "log": [
    [
     "es",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "1. F.S.V. Mainz 05",
+      true
+     ],
+     [
+      "Steven C. Hayes",
+      false
+     ],
+     [
+      "Terapia de aceptación y compromiso",
+      false
+     ]
+    ]
    ],
    [
     "de",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "MCI WorldCom",
+      false
+     ],
+     [
+      "Schweighausen",
+      true
+     ],
+     [
+      "Stefan Hofmann",
+      false
+     ],
+     [
+      "Stefan Hofmann (Psychologe)",
+      false
+     ]
+    ]
    ],
    [
     "it",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
@@ -787,18 +1494,44 @@
   "log": [
    [
     "es",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "de",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "1. FC Köln",
+      true
+     ],
+     [
+      "1. FC Köln (Frauenfußball)",
+      true
+     ],
+     [
+      "Dieter Becken",
+      false
+     ],
+     [
+      "Jörn Stobbe",
+      false
+     ]
+    ]
    ],
    [
     "it",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "1. Fußball-Club Köln 01/07",
+      true
+     ],
+     [
+      "1. Fußball-Club Köln 01/07 (calcio femminile)",
+      true
+     ]
+    ]
    ],
    [
     "fr",
@@ -813,7 +1546,12 @@
    [
     "pt",
     "resp",
-    []
+    [
+     [
+      "1. FC Köln",
+      true
+     ]
+    ]
    ]
   ]
  },
@@ -835,17 +1573,17 @@
    ],
    [
     "it",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "fr",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "pt",
-    "EMPTY-RESP",
+    "resp",
     []
    ]
   ]
@@ -859,7 +1597,39 @@
    [
     "es",
     "resp",
-    []
+    [
+     [
+      "Copa Conmebol 1995",
+      true
+     ],
+     [
+      "Pablo Sánchez",
+      true
+     ],
+     [
+      "Pablo Sánchez-Valladares",
+      false
+     ],
+     [
+      "Pablo Sánchez (abogado)",
+      true
+     ]
+    ]
+   ],
+   [
+    "es",
+    "Pablo Sánchez",
+    "club/role not in intro"
+   ],
+   [
+    "es",
+    "Pablo Sánchez (abogado)",
+    "club/role not in intro"
+   ],
+   [
+    "es",
+    "Pablo Sánchez López",
+    "club/role not in intro"
    ],
    [
     "de",
@@ -868,17 +1638,71 @@
    ],
    [
     "it",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Associazione Sportiva Giana Erminio 2018-2019",
+      false
+     ],
+     [
+      "Campionato italiano di Formula 3 2009",
+      false
+     ],
+     [
+      "Pablo Sánchez",
+      false
+     ],
+     [
+      "Pablo Sánchez (calciatore 1973)",
+      true
+     ]
+    ]
+   ],
+   [
+    "it",
+    "Pablo Sánchez (calciatore 1973)",
+    "club/role not in intro"
    ],
    [
     "fr",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Circonscription électorale de Guadalajara",
+      true
+     ],
+     [
+      "Pablo Martín Sánchez",
+      true
+     ],
+     [
+      "Pablo Sánchez",
+      true
+     ],
+     [
+      "Pablo Sánchez (homonymie)",
+      false
+     ]
+    ]
+   ],
+   [
+    "fr",
+    "Pablo Sánchez López",
+    "club/role not in intro"
+   ],
+   [
+    "fr",
+    "Pablo Sánchez",
+    "club/role not in intro"
+   ],
+   [
+    "fr",
+    "Pablo Martín Sánchez",
+    "club/role not in intro"
    ],
    [
     "pt",
-    "EMPTY-RESP",
+    "resp",
     []
    ]
   ]
@@ -913,23 +1737,58 @@
    ],
    [
     "de",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Real Oviedo",
+      false
+     ],
+     [
+      "Santiagoorden",
+      true
+     ]
+    ]
    ],
    [
     "it",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Ordine di Santiago",
+      true
+     ],
+     [
+      "Real Oviedo",
+      true
+     ],
+     [
+      "Real Oviedo 2024-2025",
+      false
+     ]
+    ]
    ],
    [
     "fr",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "pt",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Martim Pais Barregão",
+      false
+     ],
+     [
+      "Ordem de Santiago",
+      true
+     ],
+     [
+      "Real Oviedo",
+      true
+     ]
+    ]
    ]
   ]
  },
@@ -941,28 +1800,63 @@
   "log": [
    [
     "es",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Sunderland Association Football Club",
+      false
+     ]
+    ]
    ],
    [
     "de",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "it",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Sunderland Association Football Club",
+      true
+     ],
+     [
+      "Sunderland Association Football Club 2020-2021",
+      false
+     ],
+     [
+      "Sunderland Association Football Club 2021-2022",
+      false
+     ],
+     [
+      "Sunderland Association Football Club 2022-2023",
+      false
+     ]
+    ]
    ],
    [
     "fr",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "pt",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Danny Batth",
+      true
+     ],
+     [
+      "Robert Louis-Dreyfus",
+      true
+     ],
+     [
+      "Sunderland Association Football Club",
+      true
+     ]
+    ]
    ]
   ]
  },
@@ -974,27 +1868,44 @@
   "log": [
    [
     "es",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "de",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "it",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Luigi Simoni",
+      true
+     ],
+     [
+      "Studio 1 (rete televisiva)",
+      false
+     ],
+     [
+      "Unione Sportiva Cremonese",
+      true
+     ],
+     [
+      "Unione Sportiva Cremonese 2011-2012",
+      false
+     ]
+    ]
    ],
    [
     "fr",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "pt",
-    "EMPTY-RESP",
+    "resp",
     []
    ]
   ]
@@ -1007,28 +1918,64 @@
   "log": [
    [
     "es",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Leeds United Football Club",
+      false
+     ]
+    ]
    ],
    [
     "de",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "it",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Leeds United Football Club",
+      true
+     ],
+     [
+      "San Francisco 49ers",
+      true
+     ],
+     [
+      "San Francisco 49ers 2020",
+      true
+     ],
+     [
+      "San Francisco 49ers 2022",
+      true
+     ]
+    ]
    ],
    [
     "fr",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Championnat d'Angleterre de football 2025-2026",
+      true
+     ],
+     [
+      "Leeds United Football Club",
+      true
+     ]
+    ]
    ],
    [
     "pt",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Leeds United Football Club",
+      true
+     ]
+    ]
    ]
   ]
  },
@@ -1040,13 +1987,26 @@
   "log": [
    [
     "es",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "de",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "TSG 1899 Hoffenheim",
+      true
+     ],
+     [
+      "TSG 1899 Hoffenheim/Namen und Zahlen",
+      true
+     ],
+     [
+      "TSG 1899 Hoffenheim (Frauenfußball)",
+      true
+     ]
+    ]
    ],
    [
     "it",
@@ -1073,13 +2033,30 @@
   "log": [
    [
     "es",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "de",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "1. FC Heidenheim",
+      true
+     ],
+     [
+      "Bastian Heidenfelder",
+      false
+     ],
+     [
+      "Giengen an der Brenz",
+      true
+     ],
+     [
+      "Hellenstein-Gymnasium Heidenheim",
+      true
+     ]
+    ]
    ],
    [
     "it",
@@ -1094,7 +2071,12 @@
    [
     "pt",
     "resp",
-    []
+    [
+     [
+      "1. Fußballclub Heidenheim 1846",
+      true
+     ]
+    ]
    ]
   ]
  },
@@ -1106,8 +2088,21 @@
   "log": [
    [
     "es",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Des Moines Menace",
+      false
+     ],
+     [
+      "Parma Calcio 1913",
+      true
+     ],
+     [
+      "Parma Calcio 2022",
+      true
+     ]
+    ]
    ],
    [
     "de",
@@ -1151,12 +2146,30 @@
    [
     "fr",
     "resp",
-    []
+    [
+     [
+      "Gianluigi Buffon",
+      true
+     ],
+     [
+      "Parma Calcio 1913",
+      true
+     ],
+     [
+      "Parma Calcio 1913 (féminines)",
+      true
+     ]
+    ]
    ],
    [
     "pt",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Parma Calcio 1913",
+      true
+     ]
+    ]
    ]
   ]
  },
@@ -1173,23 +2186,54 @@
    ],
    [
     "de",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "it",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Antenna elettricamente piccola",
+      false
+     ],
+     [
+      "Association de la Jeunesse Auxerroise",
+      true
+     ]
+    ]
    ],
    [
     "fr",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Association de la jeunesse auxerroise",
+      true
+     ],
+     [
+      "James Zhou",
+      false
+     ],
+     [
+      "Mai 1801",
+      false
+     ],
+     [
+      "Saison 2016-2017 de l'AJ Auxerre",
+      false
+     ]
+    ]
    ],
    [
     "pt",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Association de la Jeunesse Auxerroise",
+      true
+     ]
+    ]
    ]
   ]
  },
@@ -1201,28 +2245,51 @@
   "log": [
    [
     "es",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "de",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Le Havre AC",
+      true
+     ]
+    ]
    ],
    [
     "it",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Association Sportive Nancy-Lorraine (femminile)",
+      true
+     ],
+     [
+      "Havre Athletic Club 2025-2026",
+      false
+     ],
+     [
+      "Olympique de Marseille",
+      true
+     ]
+    ]
    ],
    [
     "fr",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "pt",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Lista de treinadores e presidentes do Olympique de Marseille",
+      false
+     ]
+    ]
    ]
   ]
  },
@@ -1234,28 +2301,100 @@
   "log": [
    [
     "es",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Clásico de Berlín",
+      true
+     ],
+     [
+      "F. C. Union Berlin",
+      true
+     ],
+     [
+      "F. C. Unión Berlín II",
+      false
+     ]
+    ]
    ],
    [
     "de",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "1. FC Union Berlin",
+      true
+     ],
+     [
+      "23. August",
+      false
+     ],
+     [
+      "Antonio Hurtado",
+      false
+     ],
+     [
+      "Dirk Zingler",
+      true
+     ]
+    ]
+   ],
+   [
+    "de",
+    "Dirk Zingler",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/DirkZingler_06.jpg/500px-DirkZingler_06.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    false,
+    "faces=0"
    ],
    [
     "it",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "1. Fußballclub Union Berlin",
+      true
+     ],
+     [
+      "1. Fußballclub Union Berlin (femminile)",
+      true
+     ],
+     [
+      "1. Fußballclub Union Berlin 2018-2019",
+      false
+     ],
+     [
+      "1. Fußballclub Union Berlin 2019-2020",
+      false
+     ]
+    ]
    ],
    [
     "fr",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "1. FC Union Berlin",
+      true
+     ],
+     [
+      "1. FC Union Berlin (féminines)",
+      true
+     ]
+    ]
    ],
    [
     "pt",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "1. FC Union Berlin",
+      true
+     ],
+     [
+      "Futebol na Alemanha Oriental",
+      true
+     ]
+    ]
    ]
   ]
  },
@@ -1267,28 +2406,64 @@
   "log": [
    [
     "es",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Como 1907",
+      true
+     ],
+     [
+      "Como 1907 (femenino)",
+      true
+     ]
+    ]
    ],
    [
     "de",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Como 1907",
+      true
+     ]
+    ]
    ],
    [
     "it",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "fr",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Como 1907",
+      true
+     ],
+     [
+      "Costas Mandylor",
+      true
+     ],
+     [
+      "Frank Lebœuf",
+      true
+     ],
+     [
+      "Jimmy Jean-Louis",
+      true
+     ]
+    ]
    ],
    [
     "pt",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Como 1907",
+      true
+     ]
+    ]
    ]
   ]
  },
@@ -1300,28 +2475,60 @@
   "log": [
    [
     "es",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Angers Sporting Club Ouest",
+      true
+     ]
+    ]
    ],
    [
     "de",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "it",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Angers Sporting Club de l'Ouest",
+      true
+     ]
+    ]
    ],
    [
     "fr",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Angers Sporting Club de l'Ouest",
+      true
+     ],
+     [
+      "Championnat de France de football 2025-2026",
+      true
+     ],
+     [
+      "Championnat de France de football de deuxième division 2023-2024",
+      true
+     ],
+     [
+      "Saison 2023-2024 du SCO d'Angers",
+      true
+     ]
+    ]
    ],
    [
     "pt",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Angers Sporting Club de l'Ouest",
+      true
+     ]
+    ]
    ]
   ]
  },
@@ -1333,22 +2540,36 @@
   "log": [
    [
     "es",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Asociación Deportiva Mérida",
+      false
+     ],
+     [
+      "Brentford Football Club",
+      false
+     ]
+    ]
    ],
    [
     "de",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "FC Brentford",
+      false
+     ]
+    ]
    ],
    [
     "it",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "fr",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
@@ -1360,58 +2581,6 @@
       true
      ]
     ]
-   ]
-  ]
- },
- "Fernando Carro": {
-  "keys": [
-   "Bayer Leverkusen"
-  ],
-  "found": {
-   "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Fernando_Carro_2011_%286504821199%29_%28cropped%29.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "src": "https://de.wikipedia.org/wiki/Fernando_Carro_%28Manager%29",
-   "lang": "de",
-   "intro": "Fernando Carro de Prada (* 27. Juli 1964 in Barcelona) ist ein spanischer Manager. Er fungiert seit dem 1. Juli 2018 als Vorsitzender der Geschäftsführung bei d"
-  },
-  "log": [
-   [
-    "es",
-    "EMPTY-RESP",
-    []
-   ],
-   [
-    "de",
-    "resp",
-    [
-     [
-      "Carro",
-      false
-     ],
-     [
-      "DirectGroup Bertelsmann",
-      false
-     ],
-     [
-      "Fernando Carro",
-      false
-     ],
-     [
-      "Fernando Carro (Manager)",
-      true
-     ]
-    ]
-   ],
-   [
-    "de",
-    "Fernando Carro Morillo",
-    "club/role not in intro"
-   ],
-   [
-    "de",
-    "Fernando Carro (Manager)",
-    "https://upload.wikimedia.org/wikipedia/commons/c/c5/Fernando_Carro_2011_%286504821199%29_%28cropped%29.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    true,
-    "face 0.54x0.45"
    ]
   ]
  },
@@ -1451,42 +2620,101 @@
    [
     "de",
     "resp",
-    []
-   ],
-   [
-    "it",
-    "resp",
-    []
-   ],
-   [
-    "fr",
-    "resp",
-    []
-   ],
-   [
-    "pt",
-    "resp",
     [
      [
-      "Adeodato Giovanni Piazza",
+      "Carlo Rossi",
+      false
+     ],
+     [
+      "Carlo Rossi (Architekt)",
       true
      ],
      [
-      "Karl Ivanovitch Rossi",
+      "Carlo Rossi (General)",
       true
      ],
      [
-      "Palácio Mikhailovsky",
-      true
-     ],
-     [
-      "Palácio Stroganov",
+      "Itala (Filmgesellschaft)",
       true
      ]
     ]
    ],
    [
-    "pt",
+    "de",
+    "Carlo Rossi (Architekt)",
+    "club/role not in intro"
+   ],
+   [
+    "de",
+    "Raffaele Carlo Rossi",
+    "club/role not in intro"
+   ],
+   [
+    "de",
+    "Carlo Rossi (General)",
+    "club/role not in intro"
+   ],
+   [
+    "it",
+    "resp",
+    [
+     [
+      "Carlo Rossi (generale)",
+      true
+     ],
+     [
+      "Carlo Rossi (paroliere)",
+      false
+     ],
+     [
+      "Itala Film",
+      true
+     ],
+     [
+      "Marcello Marrocchi",
+      false
+     ]
+    ]
+   ],
+   [
+    "it",
+    "Raffaele Carlo Rossi",
+    "club/role not in intro"
+   ],
+   [
+    "it",
+    "Carlo Rossi (generale)",
+    "club/role not in intro"
+   ],
+   [
+    "fr",
+    "resp",
+    [
+     [
+      "Carlo Rossi (architecte)",
+      true
+     ],
+     [
+      "Cathédrale Saint-Pierre-et-Saint-Paul de Tallinn",
+      true
+     ],
+     [
+      "Chili aux Jeux olympiques d'été de 1984",
+      true
+     ],
+     [
+      "Itala Film",
+      true
+     ]
+    ]
+   ],
+   [
+    "fr",
+    "Carlo Rossi (architecte)",
+    "club/role not in intro"
+   ],
+   [
+    "fr",
     "Raffaele Carlo Rossi",
     "club/role not in intro"
    ]
@@ -1522,22 +2750,56 @@
    ],
    [
     "de",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "AFC Bournemouth",
+      false
+     ],
+     [
+      "Auckland FC",
+      false
+     ],
+     [
+      "CPJ International Press Freedom Awards",
+      false
+     ],
+     [
+      "FC Lorient",
+      true
+     ]
+    ]
    ],
    [
     "it",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Athletic Football Club Bournemouth",
+      true
+     ],
+     [
+      "Auckland Football Club",
+      true
+     ],
+     [
+      "Episodi di The Big Story (seconda stagione)",
+      false
+     ],
+     [
+      "National Hockey League 2015-2016",
+      true
+     ]
+    ]
    ],
    [
     "fr",
-    "EMPTY-RESP",
+    "resp",
     []
    ],
    [
     "pt",
-    "EMPTY-RESP",
+    "resp",
     []
    ]
   ]
@@ -1551,7 +2813,20 @@
    [
     "es",
     "resp",
-    []
+    [
+     [
+      "Football Club Metz Femenino",
+      false
+     ],
+     [
+      "Football Club de Metz",
+      true
+     ],
+     [
+      "Luc Holtz",
+      true
+     ]
+    ]
    ],
    [
     "de",
@@ -1577,18 +2852,61 @@
    ],
    [
     "it",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Football Club de Metz",
+      true
+     ],
+     [
+      "Football Club de Metz 2009-2010",
+      false
+     ],
+     [
+      "Football Club de Metz 2013-2014",
+      false
+     ],
+     [
+      "Football Club de Metz 2016-2017",
+      false
+     ]
+    ]
    ],
    [
     "fr",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Arquus",
+      true
+     ],
+     [
+      "Bernard Serin",
+      false
+     ],
+     [
+      "Carlo Molinari",
+      false
+     ],
+     [
+      "Ebenis",
+      false
+     ]
+    ]
    ],
    [
     "pt",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Football Club de Metz",
+      true
+     ],
+     [
+      "Handbuch der Physik",
+      false
+     ]
+    ]
    ]
   ]
  },
@@ -1596,32 +2914,51 @@
   "keys": [
    "Werder Bremen"
   ],
-  "found": null,
+  "found": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Hubertus_Hess-Grunewald_%282026%29.jpg/500px-Hubertus_Hess-Grunewald_%282026%29.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "src": "https://de.wikipedia.org/wiki/Hubertus_Hess-Grunewald",
+   "lang": "de",
+   "intro": "Hubertus Hess-Grunewald (* 14. Oktober 1960 in Varel) ist ein deutscher Rechtsanwalt, Fußballfunktionär und Politiker (SPD). Er ist Präsident des Sportvereins S"
+  },
   "log": [
    [
     "es",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "Werder Bremen",
+      true
+     ]
+    ]
    ],
    [
     "de",
-    "EMPTY-RESP",
-    []
+    "resp",
+    [
+     [
+      "14. Oktober",
+      false
+     ],
+     [
+      "Grunewald",
+      false
+     ],
+     [
+      "Hubertus Hess-Grunewald",
+      true
+     ],
+     [
+      "Marco Fuchs",
+      false
+     ]
+    ]
    ],
    [
-    "it",
-    "EMPTY-RESP",
-    []
-   ],
-   [
-    "fr",
-    "EMPTY-RESP",
-    []
-   ],
-   [
-    "pt",
-    "EMPTY-RESP",
-    []
+    "de",
+    "Hubertus Hess-Grunewald",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Hubertus_Hess-Grunewald_%282026%29.jpg/500px-Hubertus_Hess-Grunewald_%282026%29.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    true,
+    "face 0.30x0.30"
    ]
   ]
  }

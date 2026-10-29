@@ -2267,12 +2267,20 @@
   "name": "هوبرتوس هيس-غرونيفالد",
   "en": "Hubertus Hess-Grunewald",
   "since": 2014,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Hubertus_Hess-Grunewald_%282026%29.jpg/500px-Hubertus_Hess-Grunewald_%282026%29.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "imageAuto": true,
+  "imageFor": "Hubertus Hess-Grunewald",
+  "imageSrc": "https://de.wikipedia.org/wiki/Hubertus_Hess-Grunewald"
  },
  "SV Werder Bremen": {
   "name": "هوبرتوس هيس-غرونيفالد",
   "en": "Hubertus Hess-Grunewald",
   "since": 2014,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Hubertus_Hess-Grunewald_%282026%29.jpg/500px-Hubertus_Hess-Grunewald_%282026%29.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "imageAuto": true,
+  "imageFor": "Hubertus Hess-Grunewald",
+  "imageSrc": "https://de.wikipedia.org/wiki/Hubertus_Hess-Grunewald"
  }
 }
