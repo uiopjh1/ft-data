@@ -24,12 +24,12 @@ def dl(u):
     return r.read()
 def run(name, log):
     toks = fold(name).split(); res = []; seen = set()
-    def ok_title(t): ft = fold(t); return all(w in ft for w in toks) and ROLE.search(ft) and not BAD.search(ft)
+    def ok_title(t, need_role=True): ft = fold(t); return all(w in ft for w in toks) and (ROLE.search(ft) or not need_role) and not BAD.search(ft)
     cands = []
     for q in (f'{name} معلق', f'المعلق {name}', f'{name} معلق رياضي ثمانية'):
         bi = bing_images(q); log.append(['bing', q, len(bi), [x[0][:50] for x in bi[:3]]])
         for t, mu, pu in bi:
-            if mu and ok_title(t): cands.append(('img', t, mu, pu))
+            if mu and ok_title(t, False): cands.append(('img', t, mu, pu))
         time.sleep(0.8)
     for q in (f'"{name}" معلق', f'{name} معلق ثمانية'):
         nn = pa.search_mkt(q, 'ar-SA'); log.append(['news', q, len(nn), [x[0][:50] for x in nn[:3]]])
