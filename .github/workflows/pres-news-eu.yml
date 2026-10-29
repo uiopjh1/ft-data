@@ -5,20 +5,26 @@ on:
       only: { default: '' }
 permissions:
   contents: write
-concurrency:
-  group: pres-news-eu
 jobs:
   run:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: '3.11' }
       - run: pip install "opencv-python-headless==4.10.0.84" "numpy<2" googlenewsdecoder
-      - run: timeout 1500 python pres_news_eu.py
+      - run: timeout 900 python pres_news_eu.py
         env:
           ONLY: ${{ github.event.inputs.only }}
+          SHARD: ${{ matrix.shard }}
+          NSH: '8'
       - run: |
           git config user.name github-actions; git config user.email a@b.c
-          git add pres_img_cand pres_news_eu_report.json
-          git diff --cached --quiet || { git commit -qm "pres-news-eu candidates" && (git pull --rebase --autostash -q; git push -q); }
+          git add pres_news_eu_report*.json; [ -d pres_img_cand ] && git add pres_img_cand || true
+          git diff --cached --quiet && exit 0
+          git commit -qm "pres-news-eu shard ${{ matrix.shard }}"
+          for i in 1 2 3 4 5 6; do git pull --rebase --autostash -q && git push -q && break; sleep $((RANDOM % 8 + 2)); done

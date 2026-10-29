@@ -45,10 +45,12 @@ def main():
         if re.search(r'(Al[ -]|Damac|Neom|NEOM|Dhamk)', k): continue
         todo.setdefault(v['en'], k)
     rep = {}
-    for en, key in todo.items():
+    sh = os.environ.get('SHARD'); N = int(os.environ.get('NSH', '1'))
+    for i, (en, key) in enumerate(todo.items()):
         if only and en not in only.split('|'): continue
+        if sh is not None and sh != '' and i % N != int(sh): continue
         log = []; r = run(en, key, log)
         rep[en] = {'club': key, 'found': r, 'log': log[:6]}
-    json.dump(rep, open('pres_news_eu_report.json', 'w'), ensure_ascii=False, indent=1)
+    json.dump(rep, open('pres_news_eu_report' + (os.environ.get('SHARD') or '') + '.json', 'w'), ensure_ascii=False, indent=1)
     print(sum(1 for v in rep.values() if v['found']), 'of', len(rep))
 if __name__ == '__main__': main()
