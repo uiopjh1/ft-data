@@ -47,7 +47,7 @@ def extract(title, clubs):
         cr = club_re(aliases)
         if not re.search(r'\b' + cr + r'\b', title): continue
         # resignation
-        if re.search(r'(?i)\b(resign\w*|steps? down|quits?|stepping down|leaves? (?:his|her) post|departs?|ousted|sacked|dismissed)\b', title) and re.search(r'(?i)\b(president|chairman)\b', title) and not re.search(r'(?i)\b(manager|coach|head coach|director|captain|player|striker|goalkeeper|defender|midfielder|vice|chief executive|ceo|sporting)\b', title):
+        if re.search(r'(?i)\b(resign\w*|steps? down|quits?|stepping down|leaves? (?:his|her) post|departs?|ousted|sacked|dismissed)\b', title) and re.search(r'(?i)\b(president|chairman)\b', title) and not re.search(r'(?i)\b(manager|coach|head coach|director|captain|player|striker|goalkeeper|defender|midfielder|vice|chief executive|ceo|sporting|boss|fifa|uefa|la liga|laliga|league|federation|association|concacaf|conmebol|afc|ex-|former|calls? for|demand\w*)\b', title, re.I):
             res.append((key, 'resign', None, False))
         m = re.search(r'\b' + cr + r"\b\s+(?:have\s+)?" + VERB_OK + r"\s+" + NAME + r"\s+(?:as\s+)?(?:their\s+)?(?:new\s+|interim\s+|acting\s+)?" + ROLE, title) \
             or re.search(NAME + r"\s+(?:is\s+|has been\s+|was\s+)?" + VERB_OK + r"\s+(?:as\s+)?(?:new\s+|interim\s+|acting\s+)?" + ROLE + r"\s+(?:of|at)\s+" + cr, title) \
