@@ -3,13 +3,17 @@ name: pres-live
 # then starts its own successor (workflow_dispatch by GITHUB_TOKEN is allowed). The hourly cron only revives the chain if it ever breaks.
 on:
   workflow_dispatch:
+    inputs:
+      secs: { default: '18000' }
+      gap: { default: '3600' }
+      test: { default: '0' }
   schedule:
     - cron: '7 * * * *'
 permissions:
   contents: write
   actions: write
 concurrency:
-  group: pres-watch
+  group: pres-watch${{ github.event.inputs.test == '1' && '-test' || '' }}
   cancel-in-progress: false
 jobs:
   loop:
@@ -22,10 +26,12 @@ jobs:
       - run: pip install "opencv-python-headless==4.10.0.84" "numpy<2" googlenewsdecoder
       - name: poll
         env:
-          WATCH_APPLY: '1'
+          WATCH_APPLY: ${{ github.event.inputs.test == '1' && '0' || '1' }}
+          SECS: ${{ github.event.inputs.secs || '18000' }}
+          GAP: ${{ github.event.inputs.gap || '3600' }}
         run: |
           git config user.name github-actions; git config user.email a@b.c
-          end=$((SECONDS+18000)); n=0
+          end=$((SECONDS+SECS)); n=0
           while [ $SECONDS -lt $end ]; do
             git pull --rebase --autostash -q || true
             python pres_watch.py || true
@@ -34,12 +40,12 @@ jobs:
             git add presidents.json presidents_alerts.json 2>/dev/null
             if true; then for f in pres_watch_state.json pres_watch_state_eu.json; do [ -f "$f" ] && git add "$f"; done; fi
             if ! git diff --cached --quiet; then git commit -qm "pres-live" && (git pull --rebase --autostash -q; git push -q) || true; fi
-            sleep 3600
+            sleep $GAP
           done
           for f in pres_watch_state.json pres_watch_state_eu.json; do [ -f "$f" ] && git add "$f"; done
           git diff --cached --quiet || { git commit -qm "pres-live state" && (git pull --rebase --autostash -q; git push -q) || true; }
       - name: start successor
-        if: always()
+        if: always() && github.event.inputs.test != '1'
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run pres-live.yml --ref main
