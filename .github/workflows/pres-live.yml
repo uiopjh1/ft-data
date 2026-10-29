@@ -33,14 +33,14 @@ jobs:
           git config user.name github-actions; git config user.email a@b.c
           end=$((SECONDS+SECS)); n=0
           while [ $SECONDS -lt $end ]; do
-            git pull --rebase --autostash -q || true
-            python pres_watch.py; a=$?
-            python pres_watch_eu.py; b=$?
+            timeout 90 git pull --rebase --autostash -q || true
+            timeout 600 python pres_watch.py; a=$?
+            timeout 900 python pres_watch_eu.py; b=$?
             echo "{\"last_run_utc\": \"$(date -u +%FT%TZ)\", \"saudi_exit\": $a, \"eu_exit\": $b, \"cycle\": $n, \"test\": \"${{ github.event.inputs.test }}\"}" > pres_live_status.json
             n=$((n+1))
             git add presidents.json presidents_alerts.json pres_live_status.json 2>/dev/null
             if true; then for f in pres_watch_state.json pres_watch_state_eu.json; do [ -f "$f" ] && git add "$f"; done; fi
-            if ! git diff --cached --quiet; then git commit -qm "pres-live" && (git pull --rebase --autostash -q; git push -q) || true; fi
+            if ! git diff --cached --quiet; then git commit -qm "pres-live" && (timeout 90 git pull --rebase --autostash -q; timeout 90 git push -q) || true; fi
             sleep $GAP
           done
           for f in pres_watch_state.json pres_watch_state_eu.json; do [ -f "$f" ] && git add "$f"; done
