@@ -404,7 +404,8 @@
     "name": "توفيق المديهيم",
     "en": "Tawfiq Al-Mudaihim",
     "since": 2023,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://cp.slaati.com/wp-content/uploads/2024/02/3e2e366e-8289-406b-9bd4-2902a0d9bed3.jpeg"
   },
   "Al Qadsiah": {
     "name": "رامي التركي (رئيس مكلّف)",
@@ -504,13 +505,15 @@
     "name": "بندر المقيل",
     "en": "Bandar Al-Muqayyal",
     "since": 2019,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://cp.slaati.com/wp-content/uploads/2023/08/caffa6f1-5062-451b-8295-b28c234485ae.jpg"
   },
   "Al-Riyadh": {
     "name": "بندر المقيل",
     "en": "Bandar Al-Muqayyal",
     "since": 2019,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://cp.slaati.com/wp-content/uploads/2023/08/caffa6f1-5062-451b-8295-b28c234485ae.jpg"
   },
   "Al Hazem": {
     "name": "طلال الحربي",
