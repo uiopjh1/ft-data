@@ -892,7 +892,11 @@
   "name": "خوسيه ماريا ديل نيدو كاراسكو",
   "en": "Jose Maria del Nido Carrasco",
   "since": 2023,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/jose_maria_del_nido_carrasco.jpg",
+  "imageAuto": true,
+  "imageFor": "Jose Maria del Nido Carrasco",
+  "imageSrc": "https://www.abc.es/deportes/orgullodenervion/noticias-sevilla-fc/presidente-sevilla-jose-maria-nido-carrasco-viaja-20261020102229-nts.html"
  },
  "Atalanta": {
   "name": "أنطونيو بيركاسي",
@@ -937,7 +941,10 @@
     "slug": "esp.copa_del_rey"
    }
   ],
-  "image": ""
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/angel_haro.jpg",
+  "imageAuto": true,
+  "imageFor": "Angel Haro",
+  "imageSrc": "https://www.football-espana.net/2022/02/16/real-betis-president-angel-haro-responds-to-barcelonas-reported-interest-in-nabil-fekir"
  },
  "Valencia": {
   "name": "كيات ليم",
@@ -949,7 +956,11 @@
   "name": "جوزيبي كوميسو",
   "en": "Giuseppe Commisso",
   "since": 2026,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/giuseppe_commisso.jpg",
+  "imageAuto": true,
+  "imageFor": "Giuseppe Commisso",
+  "imageSrc": "https://www.tuttomercatoweb.com/serie-a/giuseppe-commisso-arrivato-lega-assemblea-presidente-fiorentina-2273938"
  },
  "Crystal Palace": {
   "name": "ستيف باريش",
@@ -1239,7 +1250,11 @@
     "name": "الدرجة الثانية الإسبانية",
     "detail": "2016"
    }
-  ]
+  ],
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/alfonso_fernandez_de_troconiz.jpg",
+  "imageAuto": true,
+  "imageFor": "Alfonso Fernández de Trocóniz",
+  "imageSrc": "https://elcierredigital.com/pizarra-deportiva/imperio-alfonso-fernandez-de-troconiz-todopoderoso-presidente-hombre-palco-alaves"
  },
  "Deportivo Alaves": {
   "name": "ألفونسو فرنانديز دي تروكونيث",
@@ -1251,7 +1266,11 @@
     "name": "الدرجة الثانية الإسبانية",
     "detail": "2016"
    }
-  ]
+  ],
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/alfonso_fernandez_de_troconiz.jpg",
+  "imageAuto": true,
+  "imageFor": "Alfonso Fernández de Trocóniz",
+  "imageSrc": "https://elcierredigital.com/pizarra-deportiva/imperio-alfonso-fernandez-de-troconiz-todopoderoso-presidente-hombre-palco-alaves"
  },
  "Deportivo Alavés": {
   "name": "ألفونسو فرنانديز دي تروكونيث",
@@ -1263,7 +1282,11 @@
     "name": "الدرجة الثانية الإسبانية",
     "detail": "2016"
    }
-  ]
+  ],
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/alfonso_fernandez_de_troconiz.jpg",
+  "imageAuto": true,
+  "imageFor": "Alfonso Fernández de Trocóniz",
+  "imageSrc": "https://elcierredigital.com/pizarra-deportiva/imperio-alfonso-fernandez-de-troconiz-todopoderoso-presidente-hombre-palco-alaves"
  },
  "Strasbourg": {
   "name": "مارك كيلر",
@@ -1341,31 +1364,51 @@
   "name": "موريس كوهين",
   "en": "Maurice Cohen",
   "since": 2026,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/maurice_cohen.jpg",
+  "imageAuto": true,
+  "imageFor": "Maurice Cohen",
+  "imageSrc": "https://www.nicematin.com/sports/football/maurice-cohen-vice-president-delegue-de-l-ogc-nice-est-l-invite-de-gym-tonic-10668106"
  },
  "OGC Nice": {
   "name": "موريس كوهين",
   "en": "Maurice Cohen",
   "since": 2026,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/maurice_cohen.jpg",
+  "imageAuto": true,
+  "imageFor": "Maurice Cohen",
+  "imageSrc": "https://www.nicematin.com/sports/football/maurice-cohen-vice-president-delegue-de-l-ogc-nice-est-l-invite-de-gym-tonic-10668106"
  },
  "Rennes": {
   "name": "أرنو بوي",
   "en": "Arnaud Pouille",
   "since": 2024,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/arnaud_pouille.jpg",
+  "imageAuto": true,
+  "imageFor": "Arnaud Pouille",
+  "imageSrc": "https://actu.fr/bretagne/rennes_35238/football-qui-est-arnaud-pouille-le-nouveau-president-du-stade-rennais-qui-succede-a-olivier-cloarec_61692447.html"
  },
  "Stade Rennais": {
   "name": "أرنو بوي",
   "en": "Arnaud Pouille",
   "since": 2024,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/arnaud_pouille.jpg",
+  "imageAuto": true,
+  "imageFor": "Arnaud Pouille",
+  "imageSrc": "https://actu.fr/bretagne/rennes_35238/football-qui-est-arnaud-pouille-le-nouveau-president-du-stade-rennais-qui-succede-a-olivier-cloarec_61692447.html"
  },
  "Stade Rennais FC": {
   "name": "أرنو بوي",
   "en": "Arnaud Pouille",
   "since": 2024,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/arnaud_pouille.jpg",
+  "imageAuto": true,
+  "imageFor": "Arnaud Pouille",
+  "imageSrc": "https://actu.fr/bretagne/rennes_35238/football-qui-est-arnaud-pouille-le-nouveau-president-du-stade-rennais-qui-succede-a-olivier-cloarec_61692447.html"
  },
  "Brest": {
   "name": "دوني لو سان",
@@ -1569,19 +1612,31 @@
   "name": "هنريك كونكه",
   "en": "Henrik Köncke",
   "since": 2025,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/henrik_koncke.jpg",
+  "imageAuto": true,
+  "imageFor": "Henrik Köncke",
+  "imageSrc": "https://www.spiegel.de/sport/fussball/hamburger-sv-henrik-koencke-folgt-auf-marcell-jansen-als-praesident-a-f02ac8d4-e903-4527-907e-11ad2aa45ccb"
  },
  "Hamburger SV": {
   "name": "هنريك كونكه",
   "en": "Henrik Köncke",
   "since": 2025,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/henrik_koncke.jpg",
+  "imageAuto": true,
+  "imageFor": "Henrik Köncke",
+  "imageSrc": "https://www.spiegel.de/sport/fussball/hamburger-sv-henrik-koencke-folgt-auf-marcell-jansen-als-praesident-a-f02ac8d4-e903-4527-907e-11ad2aa45ccb"
  },
  "Hamburg": {
   "name": "هنريك كونكه",
   "en": "Henrik Köncke",
   "since": 2025,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/henrik_koncke.jpg",
+  "imageAuto": true,
+  "imageFor": "Henrik Köncke",
+  "imageSrc": "https://www.spiegel.de/sport/fussball/hamburger-sv-henrik-koencke-folgt-auf-marcell-jansen-als-praesident-a-f02ac8d4-e903-4527-907e-11ad2aa45ccb"
  },
  "Levante": {
   "name": "بابلو سانشيز",
@@ -1662,7 +1717,11 @@
   "name": "كيريل لويس-دريفوس",
   "en": "Kyril Louis-Dreyfus",
   "since": 2021,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/kyril_louis_dreyfus.jpg",
+  "imageAuto": true,
+  "imageFor": "Kyril Louis-Dreyfus",
+  "imageSrc": "https://www.chroniclelive.co.uk/sport/football/football-news/sunderland-owner-kyril-louis-dreyfus-22374997?t"
  },
  "Nottingham Forest": {
   "name": "إيفانغيلوس ماريناكيس",
@@ -1901,7 +1960,11 @@
     "detail": "2023",
     "slug": "ger.2"
    }
-  ]
+  ],
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/holger_sanwald.jpg",
+  "imageAuto": true,
+  "imageFor": "Holger Sanwald",
+  "imageSrc": "https://www.sportschau.de/regional/swr/swr-heidenheim-boss-holger-sanwald-wir-duerfen-gar-nicht-so-viel-rechnen-100.html"
  },
  "1. FC Heidenheim": {
   "name": "هولغر سانفالد",
@@ -1913,7 +1976,11 @@
     "detail": "2023",
     "slug": "ger.2"
    }
-  ]
+  ],
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/holger_sanwald.jpg",
+  "imageAuto": true,
+  "imageFor": "Holger Sanwald",
+  "imageSrc": "https://www.sportschau.de/regional/swr/swr-heidenheim-boss-holger-sanwald-wir-duerfen-gar-nicht-so-viel-rechnen-100.html"
  },
  "1. FC Heidenheim 1846": {
   "name": "هولغر سانفالد",
@@ -1925,7 +1992,11 @@
     "detail": "2023",
     "slug": "ger.2"
    }
-  ]
+  ],
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/holger_sanwald.jpg",
+  "imageAuto": true,
+  "imageFor": "Holger Sanwald",
+  "imageSrc": "https://www.sportschau.de/regional/swr/swr-heidenheim-boss-holger-sanwald-wir-duerfen-gar-nicht-so-viel-rechnen-100.html"
  },
  "Mallorca": {
   "name": "آندي كولبرغ",
