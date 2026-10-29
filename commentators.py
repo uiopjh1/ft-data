@@ -91,6 +91,31 @@ def parse(page):
             g = lambda k: cells[hdr[k]] if k in hdr and hdr[k] < len(cells) else ''
             rows.append({'comp': comp, 'home': mt[0], 'away': mt[1], 'time': g('t').replace('\n', ' '), 'channel': re.sub(r'\s+', ' ', g('ch').replace('\n', ' ')).strip(), 'comm': names(g('cm'))})
     return rows
+def update_stats(out, today):
+    # comm_stats.json: per commentator, matches counted once the match day is over (day < today) + the list of recent/upcoming matches
+    try: st = json.load(open('comm_stats.json'))
+    except Exception: st = {'since': today.isoformat(), 'counted': {}, 'names': {}}
+    names = st.setdefault('names', {}); counted = st.setdefault('counted', {})
+    for day, v in out.get('days', {}).items():
+        for r in v['rows']:
+            key = f"{r['home']}|{r['away']}"
+            for n in r['comm']:
+                e = names.setdefault(n, {'n': 0, 'last': '', 'm': []})
+                item = {'d': day, 'h': r['home'], 'a': r['away'], 'ch': r['channel'], 't': r['time'].split('،')[0].replace('السعودية', '').strip()}
+                e['m'] = [x for x in e['m'] if not (x['d'] == day and x['h'] == r['home'] and x['a'] == r['away'])] + [item]
+                if day < today.isoformat() and key not in counted.get(day, []):
+                    e['n'] += 1; e['last'] = max(e['last'], day)
+            if day < today.isoformat(): counted.setdefault(day, [])
+    for day, v in out.get('days', {}).items():
+        if day < today.isoformat():
+            for r in v['rows']:
+                key = f"{r['home']}|{r['away']}"
+                if key not in counted.setdefault(day, []): counted[day].append(key)
+    for e in names.values(): e['m'] = sorted(e['m'], key=lambda x: x['d'])[-25:]
+    cut = (today - datetime.timedelta(days=7)).isoformat()
+    st['counted'] = {d: k for d, k in counted.items() if d >= cut}
+    json.dump(st, open('comm_stats.json', 'w'), ensure_ascii=False, indent=1)
+
 def main():
     now = datetime.datetime.utcnow() + datetime.timedelta(hours=3)
     today = now.date()
@@ -112,6 +137,7 @@ def main():
     cut = (today - datetime.timedelta(days=3)).isoformat()
     out['days'] = {k: v for k, v in out.get('days', {}).items() if k >= cut}
     out['updated'] = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%MZ')
+    update_stats(out, today)
     json.dump(out, open('commentators.json', 'w'), ensure_ascii=False, indent=1)
     json.dump(dbg, open('commentators_debug.json', 'w'), ensure_ascii=False, indent=1)
     print(json.dumps(dbg, ensure_ascii=False))

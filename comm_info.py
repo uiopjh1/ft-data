@@ -5,7 +5,7 @@ import json, re, os, time, urllib.parse, urllib.request, urllib.error, socket
 from commentators import fold
 socket.setdefaulttimeout(20)
 UAH = {'User-Agent': 'FTapp/1.0 (football app; github uiopjh1)'}
-ROLE = re.compile(r'معلق|تعليق|مذيع|إعلامي|اعلامي|صحفي|مقدم|commentator|broadcast|sportscaster|announcer', re.I)
+ROLE = re.compile(r'معلق|تعليق|commentator|sportscaster', re.I)  # strict: a presenter/media person is not enough to prove identity
 def jget(u):
     for i in range(6):
         try: return json.loads(urllib.request.urlopen(urllib.request.Request(u, headers=UAH), timeout=20).read())
@@ -47,26 +47,31 @@ def wikidata(name, log):
         return {'title': e['label'], 'bio': e.get('description', ''), 'thumb': th, 'src': 'wikidata.org/wiki/' + e['id']}
     return None
 def main():
+    import datetime
     names = set()
     for v in json.load(open('commentators.json'))['days'].values():
         for r in v['rows']: names.update(r['comm'])
-    only = os.environ.get('ONLY', '')
-    try: done = json.load(open('commentators_info.json'))
-    except Exception: done = {}
+    try: st = json.load(open('comm_stats.json')); names.update(st.get('names', {}).keys())
+    except Exception: pass
+    only = os.environ.get('ONLY', ''); apply = os.environ.get('APPLY') == '1'
+    today = datetime.date.today().isoformat(); old = (datetime.date.today() - datetime.timedelta(days=14)).isoformat()
+    try: info = json.load(open('commentators_info.json'))
+    except Exception: info = {}
     rep = {}
     for n in sorted(names):
         if only and n not in only.split('|'): continue
-        if n in done: continue
+        cur = info.get(n)
+        if cur and (cur.get('image') or cur.get('checked', '') > old): continue   # found with photo, or checked recently
         log = []
         r = ar_wiki(n, log) or wikidata(n, log)
         time.sleep(1.2)
-        if r and r.get('thumb'):
-            b = dl(r['thumb'])
-            if b and len(b) > 3000:
-                os.makedirs('comm_img_cand', exist_ok=True)
-                f = 'comm_img_cand/' + re.sub(r'[^0-9a-zA-Z؀-ۿ]+', '_', n) + '.jpg'
-                open(f, 'wb').write(b); r['file'] = f
+        ent = {'checked': today}
+        if r:
+            ent.update({'bio': (r.get('bio') or '')[:420], 'src': r.get('src', ''), 'wiki': r.get('title', '')})
+            if r.get('thumb'): ent['image'] = r['thumb']
         rep[n] = {'found': r, 'log': log}
-        print(n, bool(r), bool(r and r.get('file')), flush=True)
+        if apply: info[n] = ent
+        print(n, bool(r), bool(r and r.get('thumb')), flush=True)
     json.dump(rep, open('commentators_info_report.json', 'w'), ensure_ascii=False, indent=1)
+    if apply: json.dump(info, open('commentators_info.json', 'w'), ensure_ascii=False, indent=1)
 if __name__ == '__main__': main()
