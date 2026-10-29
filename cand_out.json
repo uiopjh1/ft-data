@@ -1,0 +1,76 @@
+{
+ "Leeds_Marathe": {
+  "status": 200,
+  "imgs": []
+ },
+ "Leeds_Marathe2": {
+  "status": 200,
+  "imgs": []
+ },
+ "Wolves_Shi": {
+  "status": 200,
+  "imgs": [
+   {
+    "f": "cand/Wolves_Shi_0.jpg",
+    "src": "https://www.wolves.co.uk/media/c4dlrqmv/nathan-shi.jpg",
+    "bytes": 201847
+   }
+  ]
+ },
+ "Cagliari_Giulini": {
+  "status": 200,
+  "imgs": [
+   {
+    "f": "cand/Cagliari_Giulini_0.jpg",
+    "src": "https://cagliaricalcio.com/wp-content/uploads/2024/06/VSPA9922-giulini-1-scaled-e1718795361380.jpg",
+    "bytes": 572196
+   }
+  ]
+ },
+ "Cagliari_Giulini2": {
+  "status": 200,
+  "imgs": [
+   {
+    "f": "cand/Cagliari_Giulini2_0.webp",
+    "src": "https://cagliaricalcio.com/wp-content/uploads/2026/03/VSPA1375-giulini-1.webp",
+    "bytes": 784600
+   }
+  ]
+ },
+ "Fiorentina_Commisso": {
+  "status": 200,
+  "imgs": [
+   {
+    "f": "cand/Fiorentina_Commisso_0.webp",
+    "src": "https://www.acffiorentina.com/getContentAsset/ca4316db-615b-496f-981b-4fca32152293/fdc2628b-8d67-425c-b6d0-a02576381c81/n2ynqtqw-aaj.webp?language=it",
+    "bytes": 18172
+   }
+  ]
+ },
+ "Sunderland_Louis": {
+  "status": 200,
+  "imgs": []
+ },
+ "Villarreal_Roig2": {
+  "status": 200,
+  "imgs": [
+   {
+    "f": "cand/Villarreal_Roig2_0.jpg",
+    "src": "https://panel.villarrealcf.es/wp-content/uploads/2025/08/Fernando-Roig-declaraciones.jpg",
+    "bytes": 683442
+   }
+  ]
+ },
+ "Villarreal_Roig3": {
+  "status": 200,
+  "imgs": []
+ },
+ "Sevilla_Nido": {
+  "status": 404,
+  "imgs": []
+ },
+ "Brest_LeSaint": {
+  "status": 200,
+  "imgs": []
+ }
+}
