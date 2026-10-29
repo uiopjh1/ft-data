@@ -1,75 +1,4 @@
 {
- "Denis Le Saint": {
-  "sources": 6,
-  "cands": [
-   {
-    "file": "pres_img_cand2/denis_le_saint__0.jpg",
-    "from": "commons",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Basilique_Saint-Denis_Louis_XII_Anne_de_Bretagne_tombeau.jpg/960px-Basilique_Saint-Denis_Louis_XII_Anne_de_Bretagne_tombeau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "title": "File:Basilique Saint-Denis Louis XII Anne de Bretagne tombeau.jpg"
-   },
-   {
-    "file": "pres_img_cand2/denis_le_saint__1.jpg",
-    "from": "commons",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/%C3%89glise_Saint-Denis_de_Saint-Denis-le-V%C3%AAtu.JPG/960px-%C3%89glise_Saint-Denis_de_Saint-Denis-le-V%C3%AAtu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "title": "File:Église Saint-Denis de Saint-Denis-le-Vêtu.JPG"
-   }
-  ]
- },
- "Ángel Torres": {
-  "sources": 8,
-  "cands": [
-   {
-    "file": "pres_img_cand2/angel_torres__0.jpg",
-    "from": "wikidata Q5855923 Spanish science fiction writer",
-    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Atrk3.jpg?width=900",
-    "title": "Atrk3.jpg"
-   },
-   {
-    "file": "pres_img_cand2/angel_torres__1.jpg",
-    "from": "commons",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/%28%C3%81ngel_V%C3%ADctor_Torres%29_Foro_%E2%80%98Dos_presidentes._Dos_respuestas_ante_la_crisis%E2%80%99_%28cropped%29.jpg/960px-%28%C3%81ngel_V%C3%ADctor_Torres%29_Foro_%E2%80%98Dos_presidentes._Dos_respuestas_ante_la_crisis%E2%80%99_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "title": "File:(Ángel Víctor Torres) Foro ‘Dos presidentes. Dos respuestas ante la crisis’ (cropped).jpg"
-   },
-   {
-    "file": "pres_img_cand2/angel_torres__2.jpg",
-    "from": "commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/%28%C3%81ngel_V%C3%ADctor_Torres%29_Torres_sobre_los_convenios_de_Vivienda_y_Carreteras_para_Canarias._AcfiPress_Noticias_Canarias.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "title": "File:(Ángel Víctor Torres) Torres sobre los convenios de Vivienda y Carreteras para Canarias. AcfiPress Noticias Canarias.jpg"
-   }
-  ]
- },
- "Jokin Aperribay": {
-  "sources": 0,
-  "cands": []
- },
- "Saverio Sticchi Damiani": {
-  "sources": 0,
-  "cands": []
- },
- "Carlo Rossi": {
-  "sources": 7,
-  "cands": [
-   {
-    "file": "pres_img_cand2/carlo_rossi__0.jpg",
-    "from": "commons",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Carlo_Alberto_Rossi_anni_sessanta.png/960px-Carlo_Alberto_Rossi_anni_sessanta.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "title": "File:Carlo Alberto Rossi anni sessanta.png"
-   },
-   {
-    "file": "pres_img_cand2/carlo_rossi__1.jpg",
-    "from": "commons",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Carlo_Rossi_1.JPG/960px-Carlo_Rossi_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "title": "File:Carlo Rossi 1.JPG"
-   },
-   {
-    "file": "pres_img_cand2/carlo_rossi__2.jpg",
-    "from": "commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Vescovo_Carlo_Rossi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "title": "File:Vescovo Carlo Rossi.jpg"
-   }
-  ]
- },
  "Cliff Crown": {
   "sources": 3,
   "cands": []
@@ -78,35 +7,73 @@
   "sources": 0,
   "cands": []
  },
- "Franco Soldati": {
-  "sources": 0,
-  "cands": []
- },
  "James Zhou": {
   "sources": 0,
   "cands": []
  },
- "Jon Uriarte": {
-  "sources": 3,
-  "cands": [
-   {
-    "file": "pres_img_cand2/jon_uriarte__0.jpg",
-    "from": "wikidata Q1626457 volleyball player",
-    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Volleyball%20Iran-Australia%20%28May%202014%29-7.jpg?width=900",
-    "title": "Volleyball Iran-Australia (May 2014)-7.jpg"
-   }
+ "_dbg": [
+  [
+   "Cliff Crown Brentford presidente",
+   297942,
+   36,
+   73,
+   "<!DOCTYPE html><html dir=\"rtl\" lang=\"ar\" xml:lang=\"ar\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"><script type=\"tex"
+  ],
+  [
+   "Cliff Crown president Brentford",
+   303242,
+   36,
+   73,
+   "<!DOCTYPE html><html dir=\"rtl\" lang=\"ar\" xml:lang=\"ar\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"><script type=\"tex"
+  ],
+  [
+   "\"Cliff Crown\"",
+   294164,
+   36,
+   73,
+   "<!DOCTYPE html><html dir=\"rtl\" lang=\"ar\" xml:lang=\"ar\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"><script type=\"tex"
+  ],
+  [
+   "Dan Friedkin Roma presidente",
+   139334,
+   0,
+   0,
+   "<!DOCTYPE html><html dir=\"rtl\" lang=\"ar\" xml:lang=\"ar\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"><script type=\"tex"
+  ],
+  [
+   "Dan Friedkin president Roma",
+   144043,
+   0,
+   0,
+   "<!DOCTYPE html><html dir=\"rtl\" lang=\"ar\" xml:lang=\"ar\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"><script type=\"tex"
+  ],
+  [
+   "\"Dan Friedkin\"",
+   143752,
+   0,
+   0,
+   "<!DOCTYPE html><html dir=\"rtl\" lang=\"ar\" xml:lang=\"ar\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"><script type=\"tex"
+  ],
+  [
+   "James Zhou Auxerre presidente",
+   213340,
+   13,
+   27,
+   "<!DOCTYPE html><html dir=\"rtl\" lang=\"ar\" xml:lang=\"ar\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"><script type=\"tex"
+  ],
+  [
+   "James Zhou president Auxerre",
+   212388,
+   13,
+   27,
+   "<!DOCTYPE html><html dir=\"rtl\" lang=\"ar\" xml:lang=\"ar\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"><script type=\"tex"
+  ],
+  [
+   "\"James Zhou\"",
+   216181,
+   13,
+   27,
+   "<!DOCTYPE html><html dir=\"rtl\" lang=\"ar\" xml:lang=\"ar\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"><script type=\"tex"
   ]
- },
- "Jörn Stobbe": {
-  "sources": 0,
-  "cands": []
- },
- "Mirwan Suwarso": {
-  "sources": 0,
-  "cands": []
- },
- "Romain Chabane": {
-  "sources": 0,
-  "cands": []
- }
+ ]
 }
