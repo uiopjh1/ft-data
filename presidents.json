@@ -425,25 +425,41 @@
     "name": "سامي آل فاضل",
     "en": "Sami Al Fadel",
     "since": 2023,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://www.okaz.com.sa/uploads/images/2023/06/09/2121100.jpg",
+    "imageAuto": true,
+    "imageFor": "سامي آل فاضل",
+    "imageSrc": "https://www.okaz.com.sa/sport/saudi/2135572"
   },
   "Al-Okhdood": {
     "name": "سامي آل فاضل",
     "en": "Sami Al Fadel",
     "since": 2023,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://www.okaz.com.sa/uploads/images/2023/06/09/2121100.jpg",
+    "imageAuto": true,
+    "imageFor": "سامي آل فاضل",
+    "imageSrc": "https://www.okaz.com.sa/sport/saudi/2135572"
   },
   "Al Fateh": {
     "name": "منصور العفالق",
     "en": "Mansour Al-Afaliq",
     "since": 2023,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://static.srpcdigital.com/styles/1200x600/public/2023-07/245637.jpeg.webp",
+    "imageAuto": true,
+    "imageFor": "منصور العفالق",
+    "imageSrc": "https://aawsat.com/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/4421391-%D8%A7%D9%84%D9%81%D8%AA%D8%AD-%D8%A7%D9%84%D8%A3%D8%B9%D8%B6%D8%A7%D8%A1-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A%D9%88%D9%86-%D9%8A%D8%B1%D8%B4%D8%AD%D9%88%D9%86-%D9%85%D9%86%D8%B5%D9%88%D8%B1-%D8%A7%D9%84%D8%B9%D9%81%D8%A7%D9%84%D9%82-%D8%B1%D8%A6%D9%8A%D8%B3%D8%A7%D9%8B"
   },
   "Al-Fateh": {
     "name": "منصور العفالق",
     "en": "Mansour Al-Afaliq",
     "since": 2023,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://static.srpcdigital.com/styles/1200x600/public/2023-07/245637.jpeg.webp",
+    "imageAuto": true,
+    "imageFor": "منصور العفالق",
+    "imageSrc": "https://aawsat.com/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/4421391-%D8%A7%D9%84%D9%81%D8%AA%D8%AD-%D8%A7%D9%84%D8%A3%D8%B9%D8%B6%D8%A7%D8%A1-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A%D9%88%D9%86-%D9%8A%D8%B1%D8%B4%D8%AD%D9%88%D9%86-%D9%85%D9%86%D8%B5%D9%88%D8%B1-%D8%A7%D9%84%D8%B9%D9%81%D8%A7%D9%84%D9%82-%D8%B1%D8%A6%D9%8A%D8%B3%D8%A7%D9%8B"
   },
   "Damac": {
     "name": "شاكر عوير",
@@ -467,13 +483,21 @@
     "name": "فهد المطوع",
     "en": "Fahd Al-Mutawa",
     "since": 2023,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://static.srpcdigital.com/styles/1200x600/public/2017/10/03/sport-041017-5.jpg.webp",
+    "imageAuto": true,
+    "imageFor": "فهد المطوع",
+    "imageSrc": "https://aawsat.com/home/article/1041656/%D9%81%D9%87%D8%AF-%D8%A7%D9%84%D9%85%D8%B7%D9%88%D8%B9-%D8%B1%D8%AC%D9%84-%D8%A7%D9%84%D9%80%C2%AB50-%D9%85%D9%84%D9%8A%D9%88%D9%86%D8%A7%D9%8B%C2%BB-%D9%81%D9%8A-%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D9%84-%D8%A7%D9%84%D8%B1%D8%A7%D8%A6%D8%AF"
   },
   "Al-Raed": {
     "name": "فهد المطوع",
     "en": "Fahd Al-Mutawa",
     "since": 2023,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://static.srpcdigital.com/styles/1200x600/public/2017/10/03/sport-041017-5.jpg.webp",
+    "imageAuto": true,
+    "imageFor": "فهد المطوع",
+    "imageSrc": "https://aawsat.com/home/article/1041656/%D9%81%D9%87%D8%AF-%D8%A7%D9%84%D9%85%D8%B7%D9%88%D8%B9-%D8%B1%D8%AC%D9%84-%D8%A7%D9%84%D9%80%C2%AB50-%D9%85%D9%84%D9%8A%D9%88%D9%86%D8%A7%D9%8B%C2%BB-%D9%81%D9%8A-%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D9%84-%D8%A7%D9%84%D8%B1%D8%A7%D8%A6%D8%AF"
   },
   "Al Khaleej": {
     "name": "أحمد أخريدة",
@@ -521,37 +545,61 @@
     "name": "طلال الحربي",
     "en": "Talal Al-Harbi",
     "since": 2025,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://www.okaz.com.sa/uploads/images/2019/10/21/1392643.jpg",
+    "imageAuto": true,
+    "imageFor": "طلال الحربي",
+    "imageSrc": "https://www.okaz.com.sa/people-situations/na/1752331"
   },
   "Al-Hazem": {
     "name": "طلال الحربي",
     "en": "Talal Al-Harbi",
     "since": 2025,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://www.okaz.com.sa/uploads/images/2019/10/21/1392643.jpg",
+    "imageAuto": true,
+    "imageFor": "طلال الحربي",
+    "imageSrc": "https://www.okaz.com.sa/people-situations/na/1752331"
   },
   "Al Hazm": {
     "name": "طلال الحربي",
     "en": "Talal Al-Harbi",
     "since": 2025,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://www.okaz.com.sa/uploads/images/2019/10/21/1392643.jpg",
+    "imageAuto": true,
+    "imageFor": "طلال الحربي",
+    "imageSrc": "https://www.okaz.com.sa/people-situations/na/1752331"
   },
   "Al-Hazm": {
     "name": "طلال الحربي",
     "en": "Talal Al-Harbi",
     "since": 2025,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://www.okaz.com.sa/uploads/images/2019/10/21/1392643.jpg",
+    "imageAuto": true,
+    "imageFor": "طلال الحربي",
+    "imageSrc": "https://www.okaz.com.sa/people-situations/na/1752331"
   },
   "Al Kholood": {
     "name": "بن هاربورغ",
     "en": "Ben Harburg",
     "since": 2025,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://static.srpcdigital.com/styles/1200x600/public/2025-09/1203676.jpeg.webp",
+    "imageAuto": true,
+    "imageFor": "بن هاربورغ",
+    "imageSrc": "https://aawsat.com/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/5187786-%D8%A8%D9%86-%D9%87%D8%A7%D8%B1%D8%A8%D9%88%D8%B1%D8%BA-%D9%87%D8%AF%D9%81%D9%8A-%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1-%D8%A5%D9%84%D9%89-%D9%85%D8%AF%D8%B1%D8%AC%D8%A7%D8%AA-%D8%A7%D9%84%D8%AE%D9%84%D9%88%D8%AF"
   },
   "Al-Kholood": {
     "name": "بن هاربورغ",
     "en": "Ben Harburg",
     "since": 2025,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://static.srpcdigital.com/styles/1200x600/public/2025-09/1203676.jpeg.webp",
+    "imageAuto": true,
+    "imageFor": "بن هاربورغ",
+    "imageSrc": "https://aawsat.com/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/5187786-%D8%A8%D9%86-%D9%87%D8%A7%D8%B1%D8%A8%D9%88%D8%B1%D8%BA-%D9%87%D8%AF%D9%81%D9%8A-%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1-%D8%A5%D9%84%D9%89-%D9%85%D8%AF%D8%B1%D8%AC%D8%A7%D8%AA-%D8%A7%D9%84%D8%AE%D9%84%D9%88%D8%AF"
   },
   "Al Faisaly": {
     "name": "عبدالمجيد العميم",
