@@ -29,12 +29,17 @@ def feat(b):
     box = (int(max(0, cx - s / 2)), int(max(0, cy - s / 2)), int(min(w, cx + s / 2)), int(min(h, cy + s / 2)))
     c = im.crop(box); d = min(c.size); c = c.crop((0, 0, d, d)).resize((400, 400), Image.LANCZOS)
     return ft.flatten(), c, float(f[2])
+def drop(e, path):
+    try: os.remove(path)
+    except Exception: pass
+    for k in ('image', 'img_src', 'img_conf'): e.pop(k, None)
 def main():
     info = json.load(open('commentators_info.json')); today = datetime.date.today().isoformat(); rep = {}
     os.makedirs('comm_img', exist_ok=True)
     for n in sorted(info):
         e = info[n]
-        if e.get('photo_rejected') or (e.get('image') and e.get('img_conf') != 'single'): continue
+        if e.get('photo_rejected') or 'wikimedia' in (e.get('image') or ''): continue
+        if e.get('image') and e.get('img_conf') not in ('single', 'face_multi', None): continue
         its = cp.items(n)
         if its is None: print(n, 'blocked', flush=True); continue
         for q2 in ('"%s"' % n, '"%s" المعلق الرياضي' % n):
@@ -45,7 +50,7 @@ def main():
         cs = []
         for it in its[:200]:
             try:
-                if not cp.title_ok(it['title'], n): continue
+                if not cp.title_ok(it['title'], n) or any(b in it['domain'] for b in cp.BAD): continue
                 b = cp.get(it['orig'], True, 1) or (cp.get(it['thumb'], True, 1) if it['thumb'] else None)
                 r = feat(b) if b else None
                 if r: cs.append({**it, 'f': r[0], 'crop': r[1], 'w': r[2]})
@@ -65,10 +70,13 @@ def main():
                 except Exception: ok = False
                 if ok: e['img_conf'] = 'face_multi'; e['img_src'] = [c['page'] for c in g][:4]
                 rep[n]['confirmed_existing'] = ok
+                if not ok: drop(e, old)
             else:
                 fn = 'comm_img/%d.jpg' % (abs(hash(n)) % 10**8); rp['crop'].save(fn, quality=88)
                 e['image'] = cp.RAW + os.path.basename(fn); e['img_conf'] = 'face_multi'; e['img_src'] = [c['page'] for c in g][:4]
             e['checked'] = today; info[n] = e
+        if not good and e.get('image'):
+            drop(e, os.path.join('comm_img', e['image'].split('/')[-1])); rep[n]['dropped'] = True
         print(n, rep[n], flush=True)
         json.dump(info, open('commentators_info.json', 'w'), ensure_ascii=False, indent=1)
     json.dump(rep, open('comm_photos_report.json', 'w'), ensure_ascii=False, indent=1)

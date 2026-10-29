@@ -1,5 +1,8 @@
 name: comm-photos
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 2 * * *'
 permissions: { contents: write }
 concurrency: { group: commentators }
 jobs:
