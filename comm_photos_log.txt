@@ -1,37 +1,36 @@
 آسيا عبد الله {'cands': 0, 'groups': [], 'applied': False}
-أحمد البلوشي {'cands': 2, 'groups': [['alnaba.news'], ['albayan.ae']], 'applied': False}
+أحمد البلوشي {'cands': 3, 'groups': [['alnaba.news'], ['albayan.ae', 'albayan.ae']], 'applied': 'single'}
 أحمد الحامد {'cands': 0, 'groups': [], 'applied': False}
-أحمد الطيب {'cands': 13, 'groups': [['btolat.com'], ['youtube.com'], ['alimamaltayeb.com'], ['music.yandex.com'], ['btolat.com'], ['elwatannews.com'], ['youtube.com'], ['youtube.com'], ['youtube.com'], ['zamalektoday.com'], ['youtube.com'], ['youtube.com'], ['youtube.com']], 'applied': False}
-أحمد شوبير {'cands': 18, 'groups': [['archive.org', 'youtube.com'], ['btolat.com'], ['youtube.com'], ['e3lam.com'], ['youtube.com'], ['youtube.com'], ['youtube.com'], ['ie.pinterest.com'], ['youtube.com'], ['youtube.com'], ['youtube.com'], ['fotmob.com'], ['youtube.com'], ['youtube.com'], ['youtube.com'], ['btolat.com'], ['youtube.com']], 'applied': True}
-أحمد فؤاد {'cands': 9, 'groups': [['genius.com'], ['gate.ahram.org.eg'], ['youtube.com'], ['youtube.com'], ['yandex.ru'], ['youtube.com'], ['filfan.com'], ['youtube.com'], ['soundcloud.com']], 'applied': False}
-أيمن الكاشف {'cands': 7, 'groups': [['elbotola.com'], ['youtube.com'], ['el-ahly.com'], ['youtube.com'], ['youtube.com'], ['youtube.com'], ['youtube.com']], 'applied': False}
-أيمن جادة {'cands': 1, 'groups': [['youtube.com']], 'applied': False}
+أحمد الطيب {'cands': 27, 'groups': [['btolat.com', 'btolat.com'], ['youtube.com'], ['alimamaltayeb.com', 'alimamaltayeb.com'], ['music.yandex.com', 'music.yandex.com'], ['btolat.com', 'btolat.com'], ['elwatannews.com', 'elwatannews.com'], ['youtube.com', 'youtube.com'], ['youtube.com', 'youtube.com'], ['youtube.com'], ['zamalektoday.com', 'zamalektoday.com'], ['youtube.com', 'youtube.com'], ['youtube.com', 'youtube.com'], ['youtube.com'], ['pngitem.com'], ['music.yandex.kz'], ['youtube.com'], ['alwasatnews.com']], 'applied': 'single'}
+أحمد فؤاد {'cands': 26, 'groups': [['genius.com', 'genius.com'], ['gate.ahram.org.eg', 'gate.ahram.org.eg'], ['youtube.com', 'youtube.com'], ['youtube.com'], ['yandex.ru', 'yandex.ru'], ['youtube.com', 'youtube.com'], ['filfan.com', 'filfan.com'], ['youtube.com', 'youtube.com'], ['soundcloud.com', 'soundcloud.com'], ['pinterest.com'], ['behance.net'], ['l2tat.com'], ['in.pinterest.com'], ['m.soundcloud.com'], ['youtube.com'], ['youtube.com'], ['archive.org'], ['soutalomma.com']], 'applied': 'single'}
+أيمن الكاشف {'cands': 20, 'groups': [['elbotola.com', 'elbotola.com'], ['youtube.com', 'youtube.com'], ['el-ahly.com', 'el-ahly.com'], ['youtube.com', 'youtube.com'], ['youtube.com', 'youtube.com'], ['youtube.com', 'youtube.com'], ['youtube.com', 'youtube.com'], ['lite.almasryalyoum.com'], ['btolat.com'], ['youtube.com'], ['youtube.com'], ['youtube.com'], ['youtube.com']], 'applied': 'single'}
+أيمن جادة {'cands': 2, 'groups': [['youtube.com', 'youtube.com']], 'applied': False}
 باسم الزير {'cands': 0, 'groups': [], 'applied': False}
-جواد بدة {'cands': 2, 'groups': [['ar.le360.ma'], ['youtube.com']], 'applied': False}
-حازم الكاديكي {'cands': 1, 'groups': [['youtube.com']], 'applied': False}
-حسن خالد {'cands': 5, 'groups': [['marefa.org'], ['ilkha.com'], ['youtube.com'], ['shafaq.com'], ['youtube.com']], 'applied': False}
-حفيظ دراجي {'cands': 14, 'groups': [['youtube.com'], ['alwatanvoice.com'], ['iheart.com'], ['youtube.com'], ['youtube.com'], ['aljarida24.ma'], ['youtube.com'], ['youtube.com'], ['ultraalgeria.ultrasawt.com'], ['btolat.com'], ['fotmob.com'], ['youtube.com'], ['almountakhab.com'], ['alaraby.co.uk']], 'applied': False}
-خالد الحدي {'cands': 2, 'groups': [['youtube.com'], ['youtube.com']], 'applied': False}
-خالد الحربان {'cands': 2, 'groups': [['alqabas.com'], ['youtube.com']], 'applied': False}
+جواد بدة {'cands': 4, 'groups': [['ar.le360.ma'], ['youtube.com', 'youtube.com'], ['youtube.com']], 'applied': 'single'}
+حازم الكاديكي {'cands': 2, 'groups': [['youtube.com', 'youtube.com']], 'applied': False}
+حسن خالد {'cands': 8, 'groups': [['marefa.org', 'marefa.org'], ['youtube.com', 'youtube.com'], ['shafaq.com'], ['ilkha.com'], ['youtube.com', 'youtube.com']], 'applied': 'single'}
+حفيظ دراجي {'cands': 25, 'groups': [['youtube.com', 'youtube.com'], ['alwatanvoice.com'], ['iheart.com', 'iheart.com'], ['youtube.com', 'youtube.com'], ['youtube.com'], ['aljarida24.ma'], ['youtube.com', 'youtube.com'], ['youtube.com'], ['ultraalgeria.ultrasawt.com', 'ultraalgeria.ultrasawt.com'], ['btolat.com'], ['fotmob.com', 'fotmob.com'], ['youtube.com'], ['almountakhab.com'], ['alaraby.co.uk', 'alaraby.co.uk'], ['youtube.com'], ['youtube.com'], ['youtube.com'], ['youtube.com']], 'applied': 'single'}
+خالد الحدي {'cands': 3, 'groups': [['youtube.com', 'youtube.com'], ['youtube.com']], 'applied': False}
+خالد الحربان {'cands': 4, 'groups': [['alqabas.com', 'alqabas.com'], ['youtube.com', 'youtube.com']], 'applied': 'single'}
 خالد الغول {'cands': 0, 'groups': [], 'applied': False}
-خالد المديفر {'cands': 1, 'groups': [['youtube.com']], 'applied': False}
+خالد المديفر {'cands': 2, 'groups': [['youtube.com', 'youtube.com']], 'applied': False}
 سوار الذهب علي {'cands': 0, 'groups': [], 'applied': False}
-عامر الخوذيري {'cands': 1, 'groups': [['youtube.com']], 'applied': False}
-عبد الإله العمري {'cands': 2, 'groups': [['sportksa.net'], ['mogazmasr.com']], 'applied': False}
+عامر الخوذيري {'cands': 3, 'groups': [['youtube.com', 'youtube.com'], ['youtube.com']], 'applied': False}
+عبد الإله العمري {'cands': 2, 'groups': [['sportksa.net'], ['mogazmasr.com']], 'applied': 'single'}
 عبد الله الحربي {'cands': 0, 'groups': [], 'applied': False}
-عبدالله الغامدي {'cands': 4, 'groups': [['youtube.com'], ['youtube.com'], ['youtube.com'], ['music.mts.ru']], 'applied': False}
+عبدالله الغامدي {'cands': 8, 'groups': [['youtube.com', 'youtube.com'], ['youtube.com'], ['youtube.com', 'youtube.com'], ['music.mts.ru', 'music.mts.ru'], ['pscp.tv']], 'applied': 'single'}
 علي سعيد الكعبي {'cands': 2, 'groups': [['youtube.com'], ['youtube.com']], 'applied': False}
 علي محمد علي {'cands': 0, 'groups': [], 'applied': False}
 عيسى الحربين {'cands': 1, 'groups': [['m.soundcloud.com']], 'applied': False}
-فارس عوض {'cands': 8, 'groups': [['youtube.com'], ['flickr.com'], ['youtube.com'], ['flickr.com'], ['youtube.com'], ['youtube.com'], ['youtube.com'], ['youtube.com']], 'applied': False}
-فهد العتيبي {'cands': 7, 'groups': [['youtube.com'], ['youtube.com'], ['soundcloud.com'], ['elwatannews.com'], ['youtube.com'], ['speakrj.com'], ['youtube.com']], 'applied': False}
-مجيد بوطمين {'cands': 2, 'groups': [['youtube.com'], ['youtube.com']], 'applied': False}
+فارس عوض {'cands': 16, 'groups': [['youtube.com'], ['flickr.com', 'flickr.com'], ['youtube.com', 'youtube.com'], ['flickr.com', 'flickr.com'], ['youtube.com'], ['youtube.com'], ['youtube.com'], ['youtube.com', 'youtube.com'], ['emaratalyoum.com'], ['al-ain.com'], ['youtube.com'], ['apkpure.com']], 'applied': 'single'}
+فهد العتيبي {'cands': 12, 'groups': [['youtube.com'], ['youtube.com'], ['soundcloud.com', 'soundcloud.com'], ['elwatannews.com'], ['youtube.com'], ['speakrj.com', 'speakrj.com'], ['youtube.com', 'youtube.com'], ['youtube.com'], ['periscope.tv']], 'applied': 'single'}
+مجيد بوطمين {'cands': 4, 'groups': [['youtube.com', 'youtube.com'], ['youtube.com', 'youtube.com']], 'applied': False}
 محمد العدالي {'cands': 0, 'groups': [], 'applied': False}
 محمد المبروكي {'cands': 0, 'groups': [], 'applied': False}
-محمد عفيفي {'cands': 12, 'groups': [['youtube.com'], ['youtube.com'], ['elwatannews.com'], ['youtube.com'], ['aljadidnews.ma'], ['soutalomma.com'], ['altibrah.ae'], ['youtube.com'], ['youtube.com'], ['youtube.com'], ['youtube.com'], ['youtube.com']], 'applied': False}
+محمد عفيفي {'cands': 24, 'groups': [['youtube.com', 'youtube.com'], ['elwatannews.com', 'elwatannews.com'], ['soutalomma.com', 'soutalomma.com'], ['youtube.com', 'youtube.com'], ['youtube.com', 'youtube.com'], ['youtube.com', 'youtube.com'], ['youtube.com', 'youtube.com'], ['youtube.com'], ['youtube.com', 'youtube.com'], ['youtube.com', 'youtube.com'], ['youtube.com'], ['youtube.com', 'youtube.com'], ['soundcloud.com'], ['youtube.com']], 'applied': 'single'}
 محمد مصطفى عفيفي {'cands': 0, 'groups': [], 'applied': False}
-مدحت شلبي {'cands': 16, 'groups': [['elbalad.news'], ['ahlmasrnews.com'], ['skynewsarabia.com'], ['youtube.com'], ['btolat.com'], ['youtube.com'], ['youtube.com'], ['youtube.com'], ['filfan.com'], ['alwatanvoice.com'], ['msn.com'], ['gate.ahram.org.eg'], ['altreeq.com'], ['khabrabyad.com'], ['youtube.com'], ['dailymotion.com']], 'applied': False}
+مدحت شلبي {'cands': 37, 'groups': [['elbalad.news', 'elbalad.news'], ['ahlmasrnews.com', 'ahlmasrnews.com'], ['skynewsarabia.com'], ['youtube.com', 'youtube.com'], ['btolat.com'], ['youtube.com', 'youtube.com'], ['youtube.com'], ['youtube.com', 'youtube.com', 'youtube.com'], ['filfan.com', 'filfan.com'], ['alwatanvoice.com', 'alwatanvoice.com'], ['msn.com'], ['gate.ahram.org.eg'], ['altreeq.com'], ['khabrabyad.com'], ['youtube.com'], ['dailymotion.com'], ['alarabiya.net'], ['mercatoday.com'], ['btolat.com'], ['rassd.com'], ['youtube.com'], ['btolat.com'], ['youtube.com'], ['btolat.com'], ['filfan.com'], ['youtube.com'], ['masrawy.com'], ['elwatannews.com'], ['youtube.com']], 'applied': 'single'}
 مشاري القرني {'cands': 0, 'groups': [], 'applied': False}
-مشعل الشمري {'cands': 2, 'groups': [['youtube.com'], ['youtube.com']], 'applied': False}
-هيلة الفراج {'cands': 1, 'groups': [['youtube.com']], 'applied': False}
-يوسف سيف {'cands': 3, 'groups': [['snd.ps'], ['soundcloud.com'], ['jadeedoha.com']], 'applied': False}
+مشعل الشمري {'cands': 4, 'groups': [['youtube.com', 'youtube.com'], ['youtube.com'], ['bigo.tv']], 'applied': 'single'}
+هيلة الفراج {'cands': 2, 'groups': [['youtube.com', 'youtube.com']], 'applied': False}
+يوسف سيف {'cands': 5, 'groups': [['snd.ps'], ['soundcloud.com', 'soundcloud.com'], ['jadeedoha.com', 'jadeedoha.com']], 'applied': 'single'}
