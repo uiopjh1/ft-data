@@ -1,0 +1,564 @@
+{
+ "Dan Friedkin": {
+  "keys": [
+   "AS Roma"
+  ],
+  "found": false,
+  "src": null,
+  "tried": []
+ },
+ "Jokin Aperribay": {
+  "keys": [
+   "Real Sociedad"
+  ],
+  "found": false,
+  "src": null,
+  "tried": []
+ },
+ "Jose Maria del Nido Carrasco": {
+  "keys": [
+   "Sevilla"
+  ],
+  "found": false,
+  "src": null,
+  "tried": []
+ },
+ "Jon Uriarte": {
+  "keys": [
+   "Athletic Club"
+  ],
+  "found": false,
+  "src": null,
+  "tried": [
+   [
+    "File:Foto 1 - Joan Saura, Rafael Olmos, Antonio Camacho, Jon Uriarte i Esther Giménez-Salinas.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Foto_1_-_Joan_Saura%2C_Rafael_Olmos%2C_Antonio_Camacho%2C_Jon_Uriarte_i_Esther_Gim%C3%A9nez-Salinas.jpg/960px-Foto_1_-_Joan_Saura%2C_Rafael_Olmos%2C_Antonio_Camacho%2C_Jon_Uriarte_i_Esther_Gim%C3%A9nez-Salinas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    false,
+    "other faces=4"
+   ],
+   [
+    "File:Foto 2 - Joan Saura, Antonio Camacho, Jon Uriarte i Esther Giménez-Salinas.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Foto_2_-_Joan_Saura%2C_Antonio_Camacho%2C_Jon_Uriarte_i_Esther_Gim%C3%A9nez-Salinas.jpg/960px-Foto_2_-_Joan_Saura%2C_Antonio_Camacho%2C_Jon_Uriarte_i_Esther_Gim%C3%A9nez-Salinas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    false,
+    "faces=2"
+   ]
+  ]
+ },
+ "Angel Haro": {
+  "keys": [
+   "Real Betis"
+  ],
+  "found": false,
+  "src": null,
+  "tried": [
+   [
+    "File:Ángel Haro.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/f/f9/%C3%81ngel_Haro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    false,
+    "faces=0"
+   ]
+  ]
+ },
+ "Giuseppe Commisso": {
+  "keys": [
+   "Fiorentina"
+  ],
+  "found": false,
+  "src": null,
+  "tried": []
+ },
+ "Ángel Torres": {
+  "keys": [
+   "Getafe"
+  ],
+  "found": true,
+  "src": "https://commons.wikimedia.org/wiki/File%3A1910-03-17%2C_Nuevo_Mundo%2C_Autores_del_sainete_%27%27El_chico_del_cafet%C3%ADn%27%27_%28cropped%29_%C3%81ngel_Torres_del_%C3%81lamo.jpg",
+  "tried": [
+   [
+    "File:1910-03-17, Nuevo Mundo, Autores del sainete ''El chico del cafetín'' (cropped) Ángel Torres del Álamo.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/f/f6/1910-03-17%2C_Nuevo_Mundo%2C_Autores_del_sainete_%27%27El_chico_del_cafet%C3%ADn%27%27_%28cropped%29_%C3%81ngel_Torres_del_%C3%81lamo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    true,
+    "face 0.69x0.56"
+   ]
+  ]
+ },
+ "Alfonso Fernández de Trocóniz": {
+  "keys": [
+   "Alaves"
+  ],
+  "found": false,
+  "src": null,
+  "tried": []
+ },
+ "Marc Keller": {
+  "keys": [
+   "Strasbourg"
+  ],
+  "found": false,
+  "src": null,
+  "tried": [
+   [
+    "File:Marc Keller au local des supporters du Racing Club de Strasbourg en 2017.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Marc_Keller_au_local_des_supporters_du_Racing_Club_de_Strasbourg_en_2017.jpg/960px-Marc_Keller_au_local_des_supporters_du_Racing_Club_de_Strasbourg_en_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    false,
+    "faces=0"
+   ],
+   [
+    "Strasbourg are not Chelsea's feeder club - Keller",
+    "https://www.bbc.com/sport/football/articles/cde67gwddp2o",
+    "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/2ec5/live/93bb1fd0-c9f5-11f0-bd31-8fd3ec515046.jpg",
+    false,
+    "faces=0"
+   ],
+   [
+    "Strasbourg are not Chelsea's feeder club - Keller",
+    "https://www.bbc.co.uk/sport/football/articles/cde67gwddp2o",
+    "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/2ec5/live/93bb1fd0-c9f5-11f0-bd31-8fd3ec515046.jpg",
+    false,
+    "faces=0"
+   ]
+  ]
+ },
+ "Maurice Cohen": {
+  "keys": [
+   "Nice"
+  ],
+  "found": false,
+  "src": null,
+  "tried": [
+   [
+    "File:Romance sans paroles pour piano - par Maurice Cohen ; (orn. par) L. Denis - bpt6k3964312 (1 of 8).jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Romance_sans_paroles_pour_piano_-_par_Maurice_Cohen_%3B_%28orn._par%29_L._Denis_-_bpt6k3964312_%281_of_8%29.jpg/960px-Romance_sans_paroles_pour_piano_-_par_Maurice_Cohen_%3B_%28orn._par%29_L._Denis_-_bpt6k3964312_%281_of_8%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    false,
+    "faces=0"
+   ],
+   [
+    "File:Deux airs roumains - pour piano - par Maurice Cohen ; (ill. par) L. Denis - bpt6k396432f (01 of 12).jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Deux_airs_roumains_-_pour_piano_-_par_Maurice_Cohen_%3B_%28ill._par%29_L._Denis_-_bpt6k396432f_%2801_of_12%29.jpg/960px-Deux_airs_roumains_-_pour_piano_-_par_Maurice_Cohen_%3B_%28ill._par%29_L._Denis_-_bpt6k396432f_%2801_of_12%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    false,
+    "faces=0"
+   ],
+   [
+    "File:Deux airs roumains - pour piano - par Maurice Cohen ; (ill. par) L. Denis - bpt6k396432f (12 of 12).jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Deux_airs_roumains_-_pour_piano_-_par_Maurice_Cohen_%3B_%28ill._par%29_L._Denis_-_bpt6k396432f_%2812_of_12%29.jpg/960px-Deux_airs_roumains_-_pour_piano_-_par_Maurice_Cohen_%3B_%28ill._par%29_L._Denis_-_bpt6k396432f_%2812_of_12%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    false,
+    "faces=0"
+   ],
+   [
+    "File:Joyeux événement - polka pour piano - par Maurice Cohen - bpt6k396433t (8 of 8).jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Joyeux_%C3%A9v%C3%A9nement_-_polka_pour_piano_-_par_Maurice_Cohen_-_bpt6k396433t_%288_of_8%29.jpg/960px-Joyeux_%C3%A9v%C3%A9nement_-_polka_pour_piano_-_par_Maurice_Cohen_-_bpt6k396433t_%288_of_8%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    false,
+    "faces=0"
+   ],
+   [
+    "File:1ère ronde roumaine - Hora - pour piano - par Maurice Cohen ; (ill. par) L. Denis - bpt6k396430p (7 of 8).jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/1%C3%A8re_ronde_roumaine_-_Hora_-_pour_piano_-_par_Maurice_Cohen_%3B_%28ill._par%29_L._Denis_-_bpt6k396430p_%287_of_8%29.jpg/960px-1%C3%A8re_ronde_roumaine_-_Hora_-_pour_piano_-_par_Maurice_Cohen_%3B_%28ill._par%29_L._Denis_-_bpt6k396430p_%287_of_8%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    false,
+    "faces=0"
+   ],
+   [
+    "File:Polka des Houris - pour piano - par Maurice Cohen ; (ill. par) Barbizet - bpt6k396429r (1 of 8).jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Polka_des_Houris_-_pour_piano_-_par_Maurice_Cohen_%3B_%28ill._par%29_Barbizet_-_bpt6k396429r_%281_of_8%29.jpg/960px-Polka_des_Houris_-_pour_piano_-_par_Maurice_Cohen_%3B_%28ill._par%29_Barbizet_-_bpt6k396429r_%281_of_8%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    false,
+    "faces=0"
+   ]
+  ]
+ },
+ "Arnaud Pouille": {
+  "keys": [
+   "Rennes"
+  ],
+  "found": false,
+  "src": null,
+  "tried": []
+ },
+ "Denis Le Saint": {
+  "keys": [
+   "Brest"
+  ],
+  "found": false,
+  "src": null,
+  "tried": []
+ },
+ "Olivier Cloarec": {
+  "keys": [
+   "Toulouse"
+  ],
+  "found": false,
+  "src": null,
+  "tried": []
+ },
+ "Saverio Sticchi Damiani": {
+  "keys": [
+   "Lecce"
+  ],
+  "found": false,
+  "src": null,
+  "tried": []
+ },
+ "Dan Sucu": {
+  "keys": [
+   "Genoa"
+  ],
+  "found": false,
+  "src": null,
+  "tried": [
+   [
+    "File:Dan Șucu.png",
+    "https://upload.wikimedia.org/wikipedia/commons/d/dd/Dan_%C8%98ucu.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    false,
+    "other faces=2"
+   ]
+  ]
+ },
+ "Franco Soldati": {
+  "keys": [
+   "Udinese"
+  ],
+  "found": false,
+  "src": null,
+  "tried": []
+ },
+ "Stefan Hofmann": {
+  "keys": [
+   "Mainz"
+  ],
+  "found": false,
+  "src": null,
+  "tried": []
+ },
+ "Jörn Stobbe": {
+  "keys": [
+   "1. FC Köln"
+  ],
+  "found": false,
+  "src": null,
+  "tried": []
+ },
+ "Henrik Köncke": {
+  "keys": [
+   "Hamburg SV"
+  ],
+  "found": false,
+  "src": null,
+  "tried": []
+ },
+ "Pablo Sánchez": {
+  "keys": [
+   "Levante"
+  ],
+  "found": true,
+  "src": "https://commons.wikimedia.org/wiki/File%3APablo_S%C3%A1nchez_en_2021.jpg",
+  "tried": [
+   [
+    "File:Pablo Sánchez en 2021.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Pablo_S%C3%A1nchez_en_2021.jpg/960px-Pablo_S%C3%A1nchez_en_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    true,
+    "face 0.25x0.34"
+   ]
+  ]
+ },
+ "Martín Peláez": {
+  "keys": [
+   "Real Oviedo"
+  ],
+  "found": false,
+  "src": null,
+  "tried": [
+   [
+    "Martín Peláez, presidente del Oviedo, se pronuncia sobre el futuro de ",
+    "https://www.mundodeportivo.com/futbol/20260703/1004202355/martin-pelaez-presidente-oviedo-pronuncia-sobre-futuro-santi-cazorla-club.html",
+    "https://imagenes2.mundodeportivo.com/files/og_thumbnail/files/fp/uploads/2026/07/02/6a46409221ae9.r_d.1500-1000-4000.jpeg",
+    false,
+    "face small"
+   ],
+   [
+    "Martín Peláez: “Las puertas de esta institución siempre estarán abiert",
+    "https://as.com/futbol/segunda/martin-pelaez-las-puertas-de-esta-institucion-siempre-estaran-abiertas-para-santi-cazorla-f202607-n/",
+    "https://img.asmedia.epimg.net/resizer/v2/O7XQZCJBDJOWRB65JJBL6KT2QA.jpg?auth=f87ee7b9eafe8d15155a7dccf92d36bbc1c1f980da610508d92083e21fabc861&width=1472&height=828&smart=true",
+    false,
+    "faces=0"
+   ],
+   [
+    "Martín Peláez: \"Solo el tiempo dirá lo que hizo Santi Cazorla por esta",
+    "https://www.marca.com/futbol/oviedo/2026/07/03/martin-pelaez-dira-hizo-santi-cazorla-institucion.html",
+    "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/07/03/6a47c9eed903a.jpeg",
+    false,
+    "faces=2"
+   ],
+   [
+    "Martín Peláez realiza una visita institucional a Adrián Barbón",
+    "https://as.com/futbol/segunda/martin-pelaez-realiza-una-visita-institucional-a-adrian-barbon-f202608-n/",
+    "https://img.asmedia.epimg.net/resizer/v2/L3QMW32KKJK7ZCSYQEYB4JHEJU.jpg?auth=47999ab590c6be6a4e5ebbb3a4f16c5204b81ec08328b31acbf801fcf9bd8897&width=1472&height=828&smart=true",
+    false,
+    "faces=0"
+   ]
+  ]
+ },
+ "Kyril Louis-Dreyfus": {
+  "keys": [
+   "Sunderland"
+  ],
+  "found": false,
+  "src": null,
+  "tried": []
+ },
+ "Maurizio Calcinoni": {
+  "keys": [
+   "Cremonese"
+  ],
+  "found": false,
+  "src": null,
+  "tried": []
+ },
+ "Paraag Marathe": {
+  "keys": [
+   "Leeds United"
+  ],
+  "found": false,
+  "src": null,
+  "tried": [
+   [
+    "Daniel Farke: Leeds chairman Paraag Marathe says he hopes the German m",
+    "https://www.skysports.com/football/news/13550727/daniel-farke-leeds-chairman-paraag-marathe-says-he-hopes-the-german-manager-stays-at-elland-road-much-beyond-this-year",
+    "https://e0.365dm.com/26/06/1600x900/skysports-daniel-farke-leeds_7265235.jpg?20260604122028",
+    false,
+    "other faces=2"
+   ]
+  ]
+ },
+ "André Kreuzwieser": {
+  "keys": [
+   "Hoffenheim"
+  ],
+  "found": false,
+  "src": null,
+  "tried": []
+ },
+ "Holger Sanwald": {
+  "keys": [
+   "Heidenheim"
+  ],
+  "found": false,
+  "src": null,
+  "tried": []
+ },
+ "Kyle Krause": {
+  "keys": [
+   "Parma"
+  ],
+  "found": false,
+  "src": null,
+  "tried": [
+   [
+    "File:Kyle Krause (Parma, April 2021) (cropped).jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/a/a7/Kyle_Krause_%28Parma%2C_April_2021%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    false,
+    "faces=0"
+   ],
+   [
+    "File:Kyle Krause (Parma, April 2021).jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Kyle_Krause_%28Parma%2C_April_2021%29.jpg/960px-Kyle_Krause_%28Parma%2C_April_2021%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    false,
+    "faces=0"
+   ],
+   [
+    "File:US Navy 111218-N-OY799-361 Aviation Boatswain's Mate (Handling) 2nd Class Kyle Krause directs a fixed wing aircraft onto a catapult on the flight d.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/US_Navy_111218-N-OY799-361_Aviation_Boatswain%27s_Mate_%28Handling%29_2nd_Class_Kyle_Krause_directs_a_fixed_wing_aircraft_onto_a_catapult_on_the_flight_d.jpg/960px-US_Navy_111218-N-OY799-361_Aviation_Boatswain%27s_Mate_%28Handling%29_2nd_Class_Kyle_Krause_directs_a_fixed_wing_aircraft_onto_a_catapult_on_the_flight_d.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    false,
+    "faces=0"
+   ],
+   [
+    "File:US Navy 110602-N-OY799-305 Aviation Boatswain's Mate (Handling) 2nd Class Kyle Krause directs an aircraft onto catapult four aboard USS John C. Ste.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/US_Navy_110602-N-OY799-305_Aviation_Boatswain%27s_Mate_%28Handling%29_2nd_Class_Kyle_Krause_directs_an_aircraft_onto_catapult_four_aboard_USS_John_C._Ste.jpg/960px-US_Navy_110602-N-OY799-305_Aviation_Boatswain%27s_Mate_%28Handling%29_2nd_Class_Kyle_Krause_directs_an_aircraft_onto_catapult_four_aboard_USS_John_C._Ste.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    false,
+    "faces=0"
+   ]
+  ]
+ },
+ "James Zhou": {
+  "keys": [
+   "Auxerre"
+  ],
+  "found": false,
+  "src": null,
+  "tried": []
+ },
+ "Jean-Michel Roussier": {
+  "keys": [
+   "Le Havre"
+  ],
+  "found": false,
+  "src": null,
+  "tried": []
+ },
+ "Dirk Zingler": {
+  "keys": [
+   "Union Berlin"
+  ],
+  "found": false,
+  "src": null,
+  "tried": [
+   [
+    "File:DirkZingler 07.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/DirkZingler_07.jpg/960px-DirkZingler_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    false,
+    "other faces=3"
+   ],
+   [
+    "File:DirkZingler 02.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/DirkZingler_02.jpg/960px-DirkZingler_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    false,
+    "faces=0"
+   ],
+   [
+    "File:DirkZingler 06.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/DirkZingler_06.jpg/960px-DirkZingler_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    false,
+    "other faces=2"
+   ],
+   [
+    "File:DirkZingler 03.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/DirkZingler_03.jpg/960px-DirkZingler_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    false,
+    "other faces=3"
+   ],
+   [
+    "File:DirkZingler 01.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/DirkZingler_01.jpg/960px-DirkZingler_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    false,
+    "faces=0"
+   ],
+   [
+    "File:DirkZingler 05.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/DirkZingler_05.jpg/960px-DirkZingler_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    false,
+    "face small"
+   ]
+  ]
+ },
+ "Mirwan Suwarso": {
+  "keys": [
+   "Como"
+  ],
+  "found": false,
+  "src": null,
+  "tried": [
+   [
+    "Suwarso: Como hosting Manchester United ‘is unreal, like a gift’ for c",
+    "https://football-italia.net/suwarso-como-hosting-manchester-united-unreal/",
+    "https://icdn.football-italia.net/wp-content/uploads/2025/05/Mirwan-Suworso-Como-President.jpg",
+    false,
+    "faces=0"
+   ],
+   [
+    "Como president Mirwan Suwarso surrenders VIP seat to oldest fans for c",
+    "https://www.goal.com/en-my/lists/como-mirwan-suwarso-vip-champions-league-debut/blt771bd62287108cc5",
+    "https://assets.goal.com/images/v3/getty-2273617557/crop/MM5DINJQGA5DENJTGE5G433XMU5DAORSGM2A====/GettyImages-2273617557.jpg",
+    false,
+    "faces=0"
+   ],
+   [
+    "El presidente del Como, Mirwan Suwarso, cede su asiento VIP a los afic",
+    "https://www.goal.com/es/listados/el-presidente-del-como-mirwan-suwarso-cede-su-asiento-vip-a-los-aficionados-mas-veteranos-para-el-historico-debut-del-club-en-la-champions-league/blt771bd62287108cc5",
+    "https://assets.goal.com/images/v3/getty-2273617557/crop/MM5DINJQGA5DENJTGE5G433XMU5DAORSGM2A====/GettyImages-2273617557.jpg",
+    false,
+    "faces=0"
+   ],
+   [
+    "Como, Suwarso: «Fábregas ha rechazado tres clubes italianos en los últ",
+    "https://www.goal.com/es/listados/como-suwarso-fabregas-ha-rechazado-tres-clubes-italianos-en-los-ultimos-meses-uno-de-ellos-es-el-napoles-nadie-ha-crecido-tanto-como-nosotros-muchos-equipos-se-han-arruinado-para-ganar-titulos/blt7c9ca8a963288fe3",
+    "https://assets.goal.com/images/v3/blteb52c1b9b9f623d6/suwarso.jpg",
+    false,
+    "faces=2"
+   ]
+  ]
+ },
+ "Romain Chabane": {
+  "keys": [
+   "Angers"
+  ],
+  "found": false,
+  "src": null,
+  "tried": []
+ },
+ "Cliff Crown": {
+  "keys": [
+   "Brentford"
+  ],
+  "found": false,
+  "src": null,
+  "tried": []
+ },
+ "Fernando Carro": {
+  "keys": [
+   "Bayer Leverkusen"
+  ],
+  "found": true,
+  "src": "https://commons.wikimedia.org/wiki/File%3AFernando_Carro_2011_%286504821199%29_%28cropped%29.jpg",
+  "tried": [
+   [
+    "File:Fernando Carro Rio2016.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/4/43/Fernando_Carro_Rio2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    false,
+    "face small"
+   ],
+   [
+    "File:Fernando Carro 2011 (6504821199) (cropped).jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/c/c5/Fernando_Carro_2011_%286504821199%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    true,
+    "face 0.54x0.45"
+   ]
+  ]
+ },
+ "Carlo Rossi": {
+  "keys": [
+   "Sassuolo"
+  ],
+  "found": true,
+  "src": "https://commons.wikimedia.org/wiki/File%3ACardinal_Rossi_%28cropped%29.JPG",
+  "tried": [
+   [
+    "File:Vescovo Carlo Rossi.jpg",
+    "img fail"
+   ],
+   [
+    "File:Cardinal Rossi (cropped).JPG",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Cardinal_Rossi_%28cropped%29.JPG/960px-Cardinal_Rossi_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    true,
+    "face 0.61x0.41"
+   ]
+  ]
+ },
+ "Bill Foley": {
+  "keys": [
+   "AFC Bournemouth"
+  ],
+  "found": true,
+  "src": "https://commons.wikimedia.org/wiki/File%3ABill_Foley%2C_2009.jpg",
+  "tried": [
+   [
+    "File:Bill Foley, 2009.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Bill_Foley%2C_2009.jpg/960px-Bill_Foley%2C_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    true,
+    "face 0.30x0.20"
+   ]
+  ]
+ },
+ "Bernard Serin": {
+  "keys": [
+   "Metz"
+  ],
+  "found": false,
+  "src": null,
+  "tried": []
+ },
+ "Hubertus Hess-Grunewald": {
+  "keys": [
+   "Werder Bremen"
+  ],
+  "found": false,
+  "src": null,
+  "tried": []
+ }
+}
