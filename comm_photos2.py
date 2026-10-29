@@ -14,6 +14,7 @@ def model(path, fn):
     raise SystemExit('model download failed ' + path)
 DET = cv2.FaceDetectorYN.create(model('face_detection_yunet/face_detection_yunet_2023mar.onnx', 'yunet.onnx'), '', (320, 320), 0.9)
 REC = cv2.FaceRecognizerSF.create(model('face_recognition_sface/face_recognition_sface_2021dec.onnx', 'sface.onnx'), '')
+SITES = ['arriyadiyah.com','aawsat.com','alriyadh.com','okaz.com.sa','sabq.org','alwatan.com.sa','al-madina.com','kooora.com','yallakora.com','filgoal.com','btolat.com','skynewsarabia.com','alarabiya.net','beinsports.com','thmanyah.com','aljazeera.net','almasryalyoum.com','youm7.com','elwatannews.com','alkass.net']
 def feat(b):
     try: im = Image.open(io.BytesIO(b)).convert('RGB')
     except Exception: return None
@@ -39,8 +40,10 @@ def main():
         for q2 in ('"%s"' % n, '"%s" المعلق الرياضي' % n):
             time.sleep(3); its += cp.items(n, q2) or []
         its += cp.news_items(n)
+        for sd in SITES:
+            time.sleep(2.5); its += cp.items(n, '"%s" site:%s' % (n, sd)) or []
         cs = []
-        for it in its[:70]:
+        for it in its[:200]:
             try:
                 if not cp.title_ok(it['title'], n): continue
                 b = cp.get(it['orig'], True, 1) or (cp.get(it['thumb'], True, 1) if it['thumb'] else None)

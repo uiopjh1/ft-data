@@ -10,7 +10,7 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: '3.11' }
       - run: pip install "opencv-python-headless==4.10.0.84" "numpy<2.1" pillow
-      - run: timeout 2700 python -u comm_photos2.py 2>&1 | tee comm_photos_log.txt
+      - run: timeout 5400 python -u comm_photos2.py 2>&1 | tee comm_photos_log.txt
         continue-on-error: true
       - run: |
           git config user.name github-actions; git config user.email a@b.c
