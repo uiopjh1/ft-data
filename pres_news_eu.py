@@ -14,18 +14,39 @@ def news(q, ed):
     out = []
     for t, l, d in pa.search_mkt(q, MKT[ed]): out.append({'title': t, 'link': l, 'host': urllib.parse.urlparse(l).netloc.replace('www.', '')})
     return out
+def crop_portrait(buf):
+    import cv2, numpy as np
+    a = cv2.imdecode(np.frombuffer(buf, np.uint8), cv2.IMREAD_COLOR)
+    if a is None: return None
+    H, W = a.shape[:2]
+    if min(H, W) < 250: return None
+    g = cv2.cvtColor(a, cv2.COLOR_BGR2GRAY)
+    fs = sorted(pa.face.detectMultiScale(g, 1.1, 5, minSize=(int(W * .08),) * 2), key=lambda f: -f[2])
+    if not fs: return None
+    x, y, w, h = fs[0]
+    if len(fs) > 1 and fs[1][2] > 0.6 * w: return None  # two similar-size faces = group shot
+    cx, cy = x + w / 2, y + h / 2
+    cw = min(W, w * 3.0); ch = cw * 1.25
+    if ch > H: ch = H; cw = ch / 1.25
+    x0 = int(max(0, min(W - cw, cx - cw / 2))); y0 = int(max(0, min(H - ch, cy - ch * 0.42)))
+    c = a[y0:y0 + int(ch), x0:x0 + int(cw)]
+    sc = 640 / c.shape[0]
+    if sc < 1: c = cv2.resize(c, None, fx=sc, fy=sc, interpolation=cv2.INTER_AREA)
+    ok, enc = cv2.imencode('.jpg', c, [cv2.IMWRITE_JPEG_QUALITY, 88])
+    return enc.tobytes() if ok else None
+
 def run(en, key, log):
     fn = fold(en).split(); first, last = fn[0], fn[-1]
-    seen = set(); n = 0
+    seen = set(); n = 0; cands = []
     for ed in ['en', 'es', 'it', 'de', 'fr']:
-        items = news(f'"{en}" {key}', ed)
+        items = news(f'"{en}" {key}', ed) + news(f'"{en}" president', ed)
         log.append([ed, 'raw', len(items), 'name', sum(1 for i in items if fold(en).split()[-1] in fold(i['title'])), [i['title'][:70] for i in items[:2]]])
         for it in items:
             t = fold(it['title'])
             if last not in t or first[:3] not in t or not ROLE.search(t) or BAD.search(t): continue
             if it['link'] in seen: continue
             seen.add(it['link']); n += 1
-            if n > 8: return None
+            if n > 16: return cands or None
             real = it['link']
             if not real: log.append(['cand', it['title'][:60], 'RESOLVE-FAIL']); continue
             try: img = pa.og(real)
@@ -33,15 +54,17 @@ def run(en, key, log):
             if not img: log.append(['cand', it['title'][:60], real[:60], 'NO-OG']); continue
             try: buf = pa.get(img, True)
             except Exception as e: log.append(['cand', it['title'][:60], img[:60], 'IMG-FAIL ' + str(e)[:40]]); continue
-            ok, why = pa.portrait_ok(buf)
-            log.append([it['title'][:80], it.get('host'), real, img, ok, why])
-            if ok:
-                fname = 'pres_img_cand/' + re.sub(r'[^a-z0-9]+', '_', fold(en)) + '.jpg'
+            c = crop_portrait(buf)
+            log.append([it['title'][:80], it.get('host'), real, img, bool(c), 'crop'])
+            if c:
+                slug = re.sub(r'[^a-z0-9]+', '_', fold(en))
                 os.makedirs('pres_img_cand', exist_ok=True)
-                open(fname, 'wb').write(buf)
-                return {'file': fname, 'image': img, 'src': real, 'title': it['title']}
+                fname = f'pres_img_cand/{slug}__{len(cands)}.jpg'
+                open(fname, 'wb').write(c)
+                cands.append({'file': fname, 'src': real, 'title': it['title']})
+                if len(cands) >= 3: return cands
         time.sleep(0.5)
-    return None
+    return cands or None
 def main():
     d = json.load(open('presidents.json'))
     only = os.environ.get('ONLY', '')
