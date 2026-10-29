@@ -1,127 +1,22 @@
 {
- "Kyle Krause": {
+ "Dirk Zingler": {
   "keys": [
-   "Parma"
+   "Union Berlin"
   ],
   "found": {
-   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Kyle_Krause_%28Parma%2C_April_2021%29_%28cropped%29.jpg/500px-Kyle_Krause_%28Parma%2C_April_2021%29_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "src": "https://it.wikipedia.org/wiki/Kyle_Krause",
-   "lang": "it",
-   "intro": "Kyle Joseph Krause (10 gennaio 1963) è un imprenditore statunitense, presidente e CEO di Krause Group, proprietario e presidente del Parma Calcio."
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/DirkZingler_06.jpg/500px-DirkZingler_06.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "src": "https://de.wikipedia.org/wiki/Dirk_Zingler",
+   "lang": "de",
+   "intro": "Dirk Zingler (* 23. August 1964 in Königs Wusterhausen, DDR) ist ein deutscher Unternehmer und Fußballfunktionär. Seit 2004 ist er Präsident des 1. FC Union Ber"
   },
   "log": [
    [
     "es",
     "resp",
-    [
-     [
-      "Des Moines Menace",
-      false
-     ],
-     [
-      "Parma Calcio 1913",
-      true
-     ],
-     [
-      "Parma Calcio 2022",
-      true
-     ]
-    ]
-   ],
-   [
-    "de",
-    "resp",
-    [
-     [
-      "Parma Calcio 1913",
-      true
-     ]
-    ]
-   ],
-   [
-    "it",
-    "resp",
-    [
-     [
-      "Des Moines Menace",
-      true
-     ],
-     [
-      "Kyle Krause",
-      true
-     ],
-     [
-      "Parma Calcio 1913",
-      true
-     ],
-     [
-      "Parma Calcio 1913 (femminile)",
-      true
-     ]
-    ]
-   ],
-   [
-    "it",
-    "Kyle Krause",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Kyle_Krause_%28Parma%2C_April_2021%29_%28cropped%29.jpg/500px-Kyle_Krause_%28Parma%2C_April_2021%29_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    true,
-    "faces=0 but filename carries surname (identity-verified lead image)"
-   ]
-  ]
- },
- "Dirk Zingler": {
-  "keys": [
-   "Union Berlin"
-  ],
-  "found": null,
-  "log": [
-   [
-    "es",
-    "resp",
-    [
-     [
-      "Clásico de Berlín",
-      true
-     ],
-     [
-      "F. C. Union Berlin",
-      true
-     ],
-     [
-      "F. C. Unión Berlín II",
-      false
-     ]
-    ]
-   ],
-   [
-    "de",
-    "resp",
     []
    ],
    [
-    "it",
-    "resp",
-    [
-     [
-      "1. Fußballclub Union Berlin",
-      true
-     ],
-     [
-      "1. Fußballclub Union Berlin (femminile)",
-      true
-     ],
-     [
-      "1. Fußballclub Union Berlin 2018-2019",
-      false
-     ],
-     [
-      "1. Fußballclub Union Berlin 2019-2020",
-      false
-     ]
-    ]
-   ],
-   [
-    "fr",
+    "de",
     "resp",
     [
      [
@@ -129,15 +24,25 @@
       true
      ],
      [
-      "1. FC Union Berlin (féminines)",
+      "23. August",
+      false
+     ],
+     [
+      "Antonio Hurtado",
+      false
+     ],
+     [
+      "Dirk Zingler",
       true
      ]
     ]
    ],
    [
-    "pt",
-    "resp",
-    []
+    "de",
+    "Dirk Zingler",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/DirkZingler_06.jpg/500px-DirkZingler_06.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    true,
+    "faces=0 but filename carries surname (identity-verified lead image)"
    ]
   ]
  }
