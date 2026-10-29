@@ -1,0 +1,20 @@
+name: pres-photos-auto
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3 * * 1'
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install opencv-python-headless numpy
+      - run: python pres_auto.py
+      - run: |
+          git config user.name github-actions; git config user.email a@b.c
+          git add presidents.json pres_auto_log.json; git commit -m "auto president photos" || true
+          git pull --rebase -q; git push
