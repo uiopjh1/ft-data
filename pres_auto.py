@@ -84,7 +84,7 @@ done = {}
 changed = 0
 dbg = {}
 for k, v in d.items():
-    if not isinstance(v, dict) or not re.match(r'Al[ -]', k): continue
+    if not isinstance(v, dict) or not re.match(r'(Al[ -]|Damac|Neom|NEOM)', k): continue
     name = v.get('name', '')
     clean = re.sub(r'\(.*?\)', '', name).strip()
     if v.get('imageAuto') and v.get('imageFor') != clean:   # president changed -> drop stale auto photo
