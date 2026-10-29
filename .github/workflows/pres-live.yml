@@ -1,0 +1,45 @@
+name: pres-live
+# GitHub's cron is best-effort and often hours late, so this job polls by itself every ~5 min for ~5h,
+# then starts its own successor (workflow_dispatch by GITHUB_TOKEN is allowed). The hourly cron only revives the chain if it ever breaks.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 * * * *'
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: pres-watch
+  cancel-in-progress: false
+jobs:
+  loop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 345
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install "opencv-python-headless==4.10.0.84" "numpy<2" googlenewsdecoder
+      - name: poll
+        env:
+          WATCH_APPLY: '1'
+        run: |
+          git config user.name github-actions; git config user.email a@b.c
+          end=$((SECONDS+18000)); n=0
+          while [ $SECONDS -lt $end ]; do
+            git pull --rebase -q || true
+            python pres_watch.py || true
+            python pres_watch_eu.py || true
+            n=$((n+1))
+            git add presidents.json presidents_alerts.json 2>/dev/null
+            if [ $((n % 12)) -eq 0 ]; then for f in pres_watch_state.json pres_watch_state_eu.json; do [ -f "$f" ] && git add "$f"; done; fi
+            if ! git diff --cached --quiet; then git commit -qm "pres-live" && (git pull --rebase -q; git push -q) || true; fi
+            sleep 180
+          done
+          for f in pres_watch_state.json pres_watch_state_eu.json; do [ -f "$f" ] && git add "$f"; done
+          git diff --cached --quiet || { git commit -qm "pres-live state" && (git pull --rebase -q; git push -q) || true; }
+      - name: start successor
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pres-live.yml --ref main

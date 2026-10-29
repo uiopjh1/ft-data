@@ -5,8 +5,6 @@ on:
       mode:
         description: 'backtest (log only) or live'
         default: 'live'
-  schedule:
-    - cron: '5-59/10 * * * *'
 permissions:
   contents: write
 concurrency:
