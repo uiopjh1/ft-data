@@ -14,6 +14,6 @@ jobs:
         continue-on-error: true
       - run: |
           git config user.name github-actions; git config user.email a@b.c
-          git add comm_photos_log.txt commentators_info.json comm_photos_report.json comm_img 2>/dev/null
-          git diff --cached --quiet && exit 0
+          for f in comm_photos_log.txt commentators_info.json comm_photos_report.json comm_img; do [ -e $f ] && git add $f; done
+          if git diff --cached --quiet; then exit 0; fi
           git commit -qm "commentator photos"; for i in 1 2 3 4 5 6; do git pull --rebase --autostash -q && git push -q && break; sleep 5; done
