@@ -1,0 +1,234 @@
+{
+ "Angel Haro": {
+  "club": "Real Betis",
+  "found": {
+   "file": "pres_img_cand/angel_haro.jpg",
+   "image": "https://www.football-espana.net/wp-content/uploads/2022/02/Angel-Haro.jpeg",
+   "src": "https://www.football-espana.net/2022/02/16/real-betis-president-angel-haro-responds-to-barcelonas-reported-interest-in-nabil-fekir",
+   "title": "Real Betis president Angel Haro responds to Barcelona’s reported interest in Nabil Fekir"
+  },
+  "log": [
+   [
+    "en",
+    "raw",
+    10,
+    "name",
+    5,
+    [
+     "Ceballos to sign for Real Madrid, Betis boss Haro says",
+     "Real Betis President Angel Haro opens up on the possibility of re-sign"
+    ]
+   ],
+   [
+    "Real Betis President Angel Haro opens up on the possibility of re-signing Dani C",
+    "football-espana.net",
+    "https://www.football-espana.net/2023/05/16/real-betis-president-angel-haro-opens-up-on-the-possibility-of-re-signing-dani-ceballos-this-summer",
+    "https://www.football-espana.net/wp-content/uploads/2023/02/Dani-Ceballos-Valencia.jpg",
+    false,
+    "face small"
+   ],
+   [
+    "Real Betis president Angel Haro responds to Barcelona’s reported interest in Nab",
+    "football-espana.net",
+    "https://www.football-espana.net/2022/02/16/real-betis-president-angel-haro-responds-to-barcelonas-reported-interest-in-nabil-fekir",
+    "https://www.football-espana.net/wp-content/uploads/2022/02/Angel-Haro.jpeg",
+    true,
+    "face 0.19x0.34"
+   ]
+  ]
+ },
+ "Olivier Cloarec": {
+  "club": "Toulouse",
+  "found": {
+   "file": "pres_img_cand/olivier_cloarec.jpg",
+   "image": "https://assets-fr.imgfoot.com/media/cache/1200x675/olivier-cloarec.jpg",
+   "src": "https://www.footmercato.net/a8867169101746044331-olivier-cloarec-nouveau-president-de-toulouse",
+   "title": "Olivier Cloarec nommé nouveau président de Toulouse"
+  },
+  "log": [
+   [
+    "en",
+    "raw",
+    12,
+    "name",
+    11,
+    [
+     "Olivier Cloarec président de Toulouse, c'est officiel",
+     "Le Finistérien Olivier Cloarec, passé par le Stade Rennais et Brest, p"
+    ]
+   ],
+   [
+    "cand",
+    "Olivier Cloarec président de Toulouse, c'est officiel",
+    "https://www.lequipe.fr/Football/Actualites/Olivier-cloarec-p",
+    "PAGE-FAIL HTTP Error 403: Forbidden"
+   ],
+   [
+    "cand",
+    "Toulouse : Olivier Cloarec nommé président du TFC",
+    "https://www.msn.com/fr-fr/sport/football/toulouse-olivier-cl",
+    "NO-OG"
+   ],
+   [
+    "cand",
+    "Stade Rennais. Olivier Cloarec devrait devenir le nouveau pr",
+    "https://www.ouest-france.fr/sport/football/stade-rennais/sta",
+    "PAGE-FAIL HTTP Error 403: Forbidden"
+   ],
+   [
+    "cand",
+    "Olivier Cloarec, président de Toulouse, veut nommer le nouve",
+    "https://www.msn.com/fr-fr/sport/football/olivier-cloarec-pr%",
+    "NO-OG"
+   ],
+   [
+    "Olivier Cloarec nommé nouveau président de Toulouse",
+    "footmercato.net",
+    "https://www.footmercato.net/a8867169101746044331-olivier-cloarec-nouveau-president-de-toulouse",
+    "https://assets-fr.imgfoot.com/media/cache/1200x675/olivier-cloarec.jpg",
+    true,
+    "face 0.32x0.57"
+   ]
+  ]
+ },
+ "Martín Peláez": {
+  "club": "Real Oviedo",
+  "found": {
+   "file": "pres_img_cand/martin_pelaez.jpg",
+   "image": "https://img.lavdg.com/sc/cLgGZ0r6a4s0_lPCL1n3Z-aeh2Y=/1280x/2025/11/26/00121764159531002664159/Foto/mon.jpg",
+   "src": "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/02/26/martin-pelaez-presidente-real-oviedo-grupo-pachuca-va-vender-va-estar-anos/00031772110927990812741.htm",
+   "title": "Martín Peláez, presidente del Real Oviedo: «El Grupo Pachuca no va a vender y va a estar aquí muchos años»"
+  },
+  "log": [
+   [
+    "en",
+    "raw",
+    11,
+    "name",
+    10,
+    [
+     "Martín Peláez, presidente del Real Oviedo: «La Reina Letizia me dijo q",
+     "Martín Peláez, presidente del Real Oviedo: \"Cazorla tomará un descanso"
+    ]
+   ],
+   [
+    "Martín Peláez, presidente del Real Oviedo: «La Reina Letizia me dijo que hay que",
+    "elcomercio.es",
+    "https://www.elcomercio.es/real-oviedo/premios-princesa-asturias-martin-pelaez-reina-primera-20261023133835-nt.html",
+    "https://s1.ppllstatics.com/elcomercio/www/multimedia/real-oviedo/2026/10/23/martin-pelaez-kozG-U302391926071XeH-1200x840@El%20Comercio.jpg",
+    false,
+    "faces=2"
+   ],
+   [
+    "Martín Peláez, presidente del Real Oviedo: \"Cazorla tomará un descanso y definir",
+    "lne.es",
+    "https://www.lne.es/real-oviedo/2026/07/03/martin-pelaez-presidente-real-oviedo-132082337.html",
+    "https://estaticos-cdn.prensaiberica.es/clip/6332985c-4355-4d73-a903-86070a257439_16-9-discover-aspect-ratio_default_0_x609y270.jpg",
+    false,
+    "faces=0"
+   ],
+   [
+    "Martín Peláez, presidente del Real Oviedo: «El modelo de Pachuca va mucho más al",
+    "elcomercio.es",
+    "https://www.elcomercio.es/real-oviedo/martin-pelaez-presidente-real-oviedo-modelo-pachuca-20260627204908-nt.html",
+    "https://s2.ppllstatics.com/elcomercio/www/multimedia/real-oviedo/2026/06/27/pachuca-RS9RIjPNygMYKHMvxoGIUmI-1200x840@El%20Comercio.jpg",
+    false,
+    "face small"
+   ],
+   [
+    "cand",
+    "Martín Peláez, presidente del Oviedo, se pronuncia sobre el ",
+    "https://www.msn.com/es-es/deportes/futbol/mart%C3%ADn-pel%C3",
+    "NO-OG"
+   ],
+   [
+    "es",
+    "raw",
+    12,
+    "name",
+    10,
+    [
+     "Martín Peláez, presidente del Real Oviedo, en su pregón de la Semana S",
+     "Martín Peláez, presidente del Real Oviedo: «El Grupo Pachuca no va a v"
+    ]
+   ],
+   [
+    "Martín Peláez, presidente del Real Oviedo, en su pregón de la Semana Santa: \"Las",
+    "lne.es",
+    "https://www.lne.es/oviedo/2026/03/13/martin-pelaez-presidente-real-oviedo-127944259.html",
+    "https://estaticos-cdn.prensaiberica.es/clip/f0e9559d-e242-466c-a2d5-db175677a08f_16-9-discover-aspect-ratio_default_0_x1000y444.jpg",
+    false,
+    "other faces=2"
+   ],
+   [
+    "Martín Peláez, presidente del Real Oviedo: «El Grupo Pachuca no va a vender y va",
+    "lavozdeasturias.es",
+    "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/02/26/martin-pelaez-presidente-real-oviedo-grupo-pachuca-va-vender-va-estar-anos/00031772110927990812741.htm",
+    "https://img.lavdg.com/sc/cLgGZ0r6a4s0_lPCL1n3Z-aeh2Y=/1280x/2025/11/26/00121764159531002664159/Foto/mon.jpg",
+    true,
+    "face 0.23x0.41"
+   ]
+  ]
+ },
+ "Mirwan Suwarso": {
+  "club": "Como",
+  "found": null,
+  "log": [
+   [
+    "en",
+    "raw",
+    12,
+    "name",
+    7,
+    [
+     "Wyjątkowy gest prezesa przed debiutem w LM. Ukłon w stronę kibiców",
+     "Cesc Fabregas dostał niestandardowe zadanie"
+    ]
+   ],
+   [
+    "es",
+    "raw",
+    12,
+    "name",
+    7,
+    [
+     "Wyjątkowy gest prezesa przed debiutem w LM. Ukłon w stronę kibiców",
+     "Cesc Fabregas dostał niestandardowe zadanie"
+    ]
+   ],
+   [
+    "it",
+    "raw",
+    12,
+    "name",
+    7,
+    [
+     "Wyjątkowy gest prezesa przed debiutem w LM. Ukłon w stronę kibiców",
+     "Cesc Fabregas dostał niestandardowe zadanie"
+    ]
+   ],
+   [
+    "de",
+    "raw",
+    11,
+    "name",
+    7,
+    [
+     "Wyjątkowy gest prezesa przed debiutem w LM. Ukłon w stronę kibiców",
+     "Como dąży do Ligi Mistrzów. „Chcemy, by ten krok był naturalny”"
+    ]
+   ],
+   [
+    "fr",
+    "raw",
+    12,
+    "name",
+    7,
+    [
+     "Wyjątkowy gest prezesa przed debiutem w LM. Ukłon w stronę kibiców",
+     "Cesc Fabregas dostał niestandardowe zadanie"
+    ]
+   ]
+  ]
+ }
+}
