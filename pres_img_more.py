@@ -35,13 +35,14 @@ def commons(en, last):
 DBG = []
 def bing(q, last):
     out = []
-    try: h = pa.get('https://www.bing.com/images/search?q=' + urllib.parse.quote(q) + '&form=HDRSC2&first=1', timeout=25)
-    except Exception as e: return out
+    try: h = urllib.request.urlopen(urllib.request.Request('https://www.bing.com/images/search?setlang=en&cc=GB&q=' + urllib.parse.quote(q), headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15', 'Accept-Language': 'en-GB,en;q=0.9'}), timeout=25).read().decode('utf8', 'ignore')
+    except Exception as e: DBG.append([q, 'ERR', str(e)[:80]]); return out
     DBG.append([q, len(h), h.count('murl'), h.count('iusc'), re.sub(r'\s+', ' ', h[:150])])
     for m in re.finditer(r'm="(\{[^"]*?murl[^"]*?\})"', h):
         try: j = json.loads(html.unescape(m.group(1)))
         except Exception: continue
-        t = j.get('t', '') + ' ' + j.get('desc', '')
+        t = j.get('t', '') + ' ' + j.get('desc', '') + ' ' + j.get('purl', '') + ' ' + j.get('murl', '')
+        if len(DBG) < 14: DBG.append([q[:30], (j.get('t') or '')[:60], (j.get('purl') or '')[:60]])
         if last in fold(t): out.append(('bing ' + j.get('purl', '')[:80], j.get('murl'), j.get('t', '')))
     return out
 def run(en, key, club_words):
