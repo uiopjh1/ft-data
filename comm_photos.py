@@ -11,7 +11,7 @@ def slug(n): return re.sub(r'[^0-9a-zA-Z؀-ۿ]+', '_', n)
 def bing_images(q):
     out = []
     try:
-        h = urllib.request.urlopen(urllib.request.Request('https://www.bing.com/images/search?setlang=ar&cc=SA&q=' + urllib.parse.quote(q), headers={'User-Agent': UA, 'Accept-Language': 'ar,en;q=0.8'}), timeout=25).read().decode('utf8', 'ignore')
+        h = urllib.request.urlopen(urllib.request.Request('https://www.bing.com/images/search?setlang=en&cc=GB&q=' + urllib.parse.quote(q), headers={'User-Agent': UA, 'Accept-Language': 'en-GB,en;q=0.9'}), timeout=25).read().decode('utf8', 'ignore')
     except Exception as e:
         return out
     for m in re.finditer(r'm="(\{[^"]*?murl[^"]*?\})"', h):
