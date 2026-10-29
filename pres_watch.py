@@ -57,7 +57,7 @@ def rss(url, gnews=False):
 
 def bing(q): return rss('https://www.bing.com/news/search?format=rss&setlang=ar&q=' + urllib.parse.quote(q))
 def gnews(q, when, ed='ar'):
-    loc = 'hl=en-GB&gl=GB&ceid=GB:en' if ed == 'en' else 'hl=ar&gl=SA&ceid=SA:ar'
+    loc = {'en': 'hl=en-GB&gl=GB&ceid=GB:en', 'es': 'hl=es&gl=ES&ceid=ES:es', 'it': 'hl=it&gl=IT&ceid=IT:it', 'de': 'hl=de&gl=DE&ceid=DE:de', 'fr': 'hl=fr&gl=FR&ceid=FR:fr', 'pt': 'hl=pt-PT&gl=PT&ceid=PT:pt-150'}.get(ed, 'hl=ar&gl=SA&ceid=SA:ar')
     return rss('https://news.google.com/rss/search?' + loc + '&q=' + urllib.parse.quote(q + ' when:' + when), True)
 
 def resolve(link):

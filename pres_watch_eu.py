@@ -3,13 +3,15 @@
 # page confirms. Resignations -> vacancy text; appointments -> new name (+ Arabic label from Wikidata when it exists).
 import json, re, os, html, urllib.parse, urllib.request, datetime
 from pres_watch import get, rss, gnews, resolve, host_of, load, norm
+import pres_local as PL
+SRC_EXTRA = PL.LOCAL_SRC
 APPLY = os.environ.get('WATCH_APPLY') == '1'
 BACKTEST = os.environ.get('WATCH_BACKTEST') == '1'
 SRC = ['bbc.co.uk', 'bbc.com', 'skysports.com', 'theguardian.com', 'espn.com', 'reuters.com', 'apnews.com', 'nytimes.com', 'theathletic.com', 'goal.com', 'marca.com', 'as.com', 'football-italia.net', 'bundesliga.com', 'premierleague.com', 'laliga.com', 'legaseriea.it', 'ligue1.com', 'uefa.com', 'independent.co.uk', 'telegraph.co.uk', 'standard.co.uk', 'dailymail.co.uk', 'mirror.co.uk', 'sportsmole.co.uk', '90min.com', 'fourfourtwo.com', 'forbes.com', 'bloomberg.com', 'ft.com', 'dw.com', 'france24.com', 'lequipe.fr', 'kicker.de', 'gazzetta.it', 'tuttosport.com', 'mundodeportivo.com', 'sport.es', 'record.pt', 'abola.pt', 'maisfutebol.iol.pt']
 FEEDS = ['https://feeds.bbci.co.uk/sport/football/rss.xml', 'https://www.theguardian.com/football/rss', 'https://www.skysports.com/rss/12040', 'https://www.espn.com/espn/rss/soccer/news', 'https://football-italia.net/feed/', 'https://www.fourfourtwo.com/feeds/all', 'https://www.independent.co.uk/sport/football/rss']
 QUERIES = ['club president resigns football', 'football club chairman steps down', 'new club president elected football', 'appointed chairman football club official', 'named president of football club', 'club president election result football']
 SITES = ['bbc.co.uk', 'skysports.com', 'theguardian.com', 'espn.com', 'reuters.com', 'marca.com', 'football-italia.net', 'goal.com', 'as.com', 'theathletic.com']
-ALIAS = {'Manchester City': ['Man City'], 'Manchester United': ['Man United', 'Man Utd'], 'Tottenham Hotspur': ['Spurs', 'Tottenham'], 'Atletico Madrid': ['Atletico', 'Atlético Madrid', 'Atlético de Madrid'], 'Paris Saint-Germain': ['PSG', 'Paris St-Germain', 'Paris Saint Germain'], 'Inter Milan': ['Inter', 'Internazionale'], 'AC Milan': ['Milan'], 'Bayern Munich': ['Bayern', 'Bayern München'], 'Borussia Dortmund': ['Dortmund'], 'Bayer Leverkusen': ['Leverkusen'], 'Newcastle United': ['Newcastle'], 'West Ham United': ['West Ham'], 'Leeds United': ['Leeds'], 'Nottingham Forest': ['Forest'], 'Aston Villa': ['Villa'], 'AFC Bournemouth': ['Bournemouth'], 'Wolves': ['Wolverhampton Wanderers', 'Wolverhampton'], 'Brighton': ['Brighton & Hove Albion', 'Brighton and Hove Albion'], 'Athletic Club': ['Athletic Bilbao', 'Athletic'], 'Real Betis': ['Betis'], 'Real Sociedad': ['La Real'], 'FC Porto': ['Porto'], 'Benfica': ['SL Benfica'], 'Lyon': ['Olympique Lyonnais', 'Olympique Lyon'], 'Marseille': ['Olympique de Marseille', 'Olympique Marseille'], 'AS Monaco': ['Monaco'], 'AS Roma': ['Roma'], 'Hamburg SV': ['Hamburg', 'Hamburger SV'], 'Werder Bremen': ['Bremen', 'SV Werder Bremen'], '1. FC Köln': ['Cologne', 'FC Köln', 'Koln'], 'Union Berlin': ['1. FC Union Berlin'], 'Mainz': ['Mainz 05', '1. FSV Mainz 05'], 'Heidenheim': ['1. FC Heidenheim'], 'Real Oviedo': ['Oviedo'], 'Celta Vigo': ['Celta'], 'RC Lens': ['Lens'], 'Atalanta': ['Atalanta BC'], 'Sevilla': ['Sevilla FC']}
+ALIAS = {'Manchester City': ['Man City'], 'Manchester United': ['Man United', 'Man Utd'], 'Tottenham Hotspur': ['Spurs', 'Tottenham'], 'Atletico Madrid': ['Atletico', 'Atlético Madrid', 'Atlético de Madrid', 'Atletico de Madrid'], 'Paris Saint-Germain': ['PSG', 'Paris St-Germain', 'Paris Saint Germain'], 'Inter Milan': ['Inter', 'Internazionale'], 'AC Milan': ['Milan'], 'Bayern Munich': ['Bayern', 'Bayern München', 'Bayern Múnich', 'Bayern de Múnich', 'Bayern Monaco', 'Bayern Munich'], 'Borussia Dortmund': ['Dortmund'], 'Bayer Leverkusen': ['Leverkusen'], 'Newcastle United': ['Newcastle'], 'West Ham United': ['West Ham'], 'Leeds United': ['Leeds'], 'Nottingham Forest': ['Forest'], 'Aston Villa': ['Villa'], 'AFC Bournemouth': ['Bournemouth'], 'Wolves': ['Wolverhampton Wanderers', 'Wolverhampton'], 'Brighton': ['Brighton & Hove Albion', 'Brighton and Hove Albion'], 'Athletic Club': ['Athletic Bilbao', 'Athletic'], 'Real Betis': ['Betis'], 'Real Sociedad': ['La Real', 'Real Sociedad de Fútbol'], 'FC Porto': ['Porto'], 'Benfica': ['SL Benfica'], 'Lyon': ['Olympique Lyonnais', 'Olympique Lyon', 'Olympique lyonnais', 'OL'], 'Marseille': ['Olympique de Marseille', 'Olympique Marseille', 'OM'], 'AS Monaco': ['Monaco'], 'AS Roma': ['Roma'], 'Hamburg SV': ['Hamburg', 'Hamburger SV'], 'Werder Bremen': ['Bremen', 'SV Werder Bremen'], '1. FC Köln': ['Cologne', 'FC Köln', 'Koln', 'Köln', 'Colonia', 'Cologne'], 'Union Berlin': ['1. FC Union Berlin'], 'Mainz': ['Mainz 05', '1. FSV Mainz 05'], 'Heidenheim': ['1. FC Heidenheim'], 'Real Oviedo': ['Oviedo'], 'Celta Vigo': ['Celta'], 'RC Lens': ['Lens'], 'Atalanta': ['Atalanta BC'], 'Sevilla': ['Sevilla FC']}
 VERB_OK = r'(?:named|appointed|elected|confirmed|re-?elected|unveiled|installed|names?|appoints?|elects?|confirms?|unveils?|installs?|becomes?)'
 NOT_FINAL = r'(?i)\b(reportedly|set to|in talks|expected|could|may|might|rumou?r|tipped|favou?rite|candidate|bid|plans?|considering|likely|poised|sources?|wants?|eyeing|eyes|frontrunner|race|shortlist|would|should|will be|to be named|to appoint|to name|hopes?|denies|deny|denied|rejects?|claims?|speculation|why|how|what|who|\?)\b|\?'
 OFFICIAL = r'(?i)\b(official|officially|confirm\w*|announce\w*|statement|elected|appointed|unveil\w*|named|ratif\w*|vote[sd]?)\b'
@@ -66,14 +68,15 @@ def confirm_page(url, name, aliases, kind):
     try: h = norm_en(re.sub(r'<[^>]+>', ' ', get(real)))
     except Exception: return None
     toks = [t for t in norm_en(name).split() if len(t) > 2]
-    ok = sum(1 for t in toks if t in h) >= min(2, len(toks)) and re.search(r'president|chairman', h) and any(norm_en(a) in h for a in aliases)
-    if kind == 'resign': ok = ok and re.search(r'resign|step down|stepped down|quit|steps down|departure', h)
-    return (bool(ok), bool(re.search(OFFICIAL.replace('(?i)', ''), h, re.I)))
+    ok = sum(1 for t in toks if t in h) >= min(2, len(toks)) and re.search(r'president|chairman|prasident', h) and any(norm_en(a) in h for a in aliases)
+    if kind == 'resign': ok = ok and re.search(r'resign|step down|stepped down|quit|steps down|departure|dimit|dimission|rucktritt|zuruck|demission|demite', h)
+    off = re.search(OFFICIAL.replace('(?i)', ''), h, re.I) or re.search(r'oficial|ufficial|offiziell|officiel|elegido|eletto|gewahlt|\belu\b|nomme', h)
+    return (bool(ok), bool(off))
 
-def norm_en(s): return re.sub(r'\s+', ' ', (s or '').lower())
+def norm_en(s): return PL.fold(s)
 
 def same_person_en(cur_name, cur_en, new):
-    toks = lambda s: {t for t in re.split(r'[\s\-]+', (s or '').lower()) if len(t) > 2 and t not in ('del', 'van', 'von', 'der')}
+    toks = lambda s: {t for t in re.split(r'[\s\-]+', PL.fold(s)) if len(t) > 2 and t not in ('del', 'van', 'von', 'der')}
     a = toks(cur_en); b = toks(new)
     return bool(a and b and (len(a & b) >= min(2, len(a), len(b)) or (list(re.split(r'\s+', cur_en.strip()))[-1].lower() == list(re.split(r'\s+', new.strip()))[-1].lower() if cur_en else False)))
 
@@ -193,17 +196,20 @@ def main():
     now = datetime.datetime.utcnow()
     items = []
     when = '120d' if BACKTEST else '2d'
-    for f in FEEDS: items += rss(f)
+    for f in FEEDS + PL.LOCAL_FEEDS: items += rss(f)
     for q in QUERIES: items += gnews(q, when, 'en')
     for st in SITES: items += gnews('site:%s (president OR chairman) (resigns OR appointed OR elected OR named) club' % st, when, 'en')
+    for lg, qs in PL.LOCAL_QUERIES.items():
+        for q in qs: items += gnews(q, when, lg)
+        for st in PL.LOCAL_SITES[lg]: items += gnews('site:%s presidente OR président OR Präsident (dimite OR dimissioni OR Rücktritt OR démission OR elegido OR eletto OR gewählt OR élu)' % st, when, lg)
     seen = set(state['seen']); log = []
     for it in items:
         l = it['link']
         if not l or l in seen: continue
         h0 = it.get('host') or host_of(l)
-        if not any(h0.endswith(x) for x in SRC): continue
+        if not any(h0.endswith(x) for x in SRC + SRC_EXTRA): continue
         if not BACKTEST and it['date'] and (now - it['date']).days > 10: continue
-        evs = extract(it['title'], clubs)
+        evs = extract(it['title'], clubs) or PL.extract_local(it['title'], clubs)
         if not evs: continue
         seen.add(l)
         for key, kind, name, interim in evs:
@@ -256,7 +262,7 @@ def main():
             if len(ev['sources']) >= 2:
                 res = {h: confirm_page(s['url'], ev['name'], amap[club], 'appoint') for h, s in ev['sources'].items()}
                 good = [h for h, r in res.items() if r and r[0]]
-                official = any(res[h][1] or re.search(OFFICIAL, ev['sources'][h]['title']) for h in good)
+                official = any(res[h][1] or re.search(OFFICIAL, ev['sources'][h]['title']) or re.search(PL.OFFICIAL, ev['sources'][h]['title']) for h in good)
                 if len(good) >= 2 and official and recent(ev['sources']) and APPLY and cur:
                     ar = resolve_arabic(ev['name'], club, None)
                     mt = None if ar else ar_machine(ev['name'])  # provisional machine transliteration until a verified Arabic name appears
