@@ -802,7 +802,8 @@
         "detail": "2021",
         "slug": "uefa.europa"
       }
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/roig.jpg"
   },
   "Real Sociedad": {
     "name": "جوكين أبيريبايو",
@@ -1364,7 +1365,7 @@
         "detail": "2016"
       }
     ],
-    "image": ""
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/giulini.jpg"
   },
   "Lecce": {
     "name": "سافيريو ستيكي داميانّي",
@@ -1737,13 +1738,15 @@
     "name": "ناثان شي",
     "en": "Nathan Shi",
     "since": 2025,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/shi.jpg"
   },
   "Wolves": {
     "name": "ناثان شي",
     "en": "Nathan Shi",
     "since": 2025,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/shi.jpg"
   },
   "Hoffenheim": {
     "name": "كريستيان بومغيرتنر",
