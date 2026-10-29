@@ -64,11 +64,18 @@ class TP(HTMLParser):
     def handle_data(self, d):
         if self.cell is not None: self.cell += d
         elif self.hb is not None: self.hb += d
+def _aliases():
+    try: return {fold(k): v for k, v in json.load(open('commentator_aliases.json')).items() if k[0] != '_'}
+    except Exception: return {}
+ALIASES = _aliases()
+def canon(n): return ALIASES.get(fold(n), n)
 def names(cell):
     out = []
     for p in re.split(r'[\n،,]| و | - |/', cell or ''):
         p = re.sub(r'\s+', ' ', p).strip()
-        if p and re.fullmatch(r'[؀-ۿ ]{3,40}', p) and 1 <= len(p.split()) <= 4: out.append(p)
+        if p and re.fullmatch(r'[؀-ۿ ]{3,40}', p) and 1 <= len(p.split()) <= 4:
+            p = canon(p)
+            if p not in out: out.append(p)
     return out
 def parse(page):
     p = TP(); p.feed(re.sub(r'<(script|style).*?</\1>', '', page, flags=re.S | re.I))
