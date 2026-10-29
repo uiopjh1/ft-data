@@ -1,0 +1,19 @@
+name: comm-deep
+on: workflow_dispatch
+permissions: { contents: write }
+concurrency: { group: commdeep }
+jobs:
+  r:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install "opencv-python-headless==4.10.0.84" "numpy<2.1" pillow
+      - run: timeout 1500 python -u comm_deep.py
+        continue-on-error: true
+      - run: |
+          git config user.name github-actions; git config user.email a@b.c
+          for f in comm_deep.json comm_deep; do [ -e $f ] && git add $f; done
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -qm "deep candidates"; for i in 1 2 3 4 5 6; do git pull --rebase --autostash -q && git push -q && break; sleep 5; done
