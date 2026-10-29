@@ -108,7 +108,7 @@ def ar_wikipedia(en):
         print('wikipedia fail', str(e)[:60])
     return None
 
-def ar_news(club_key, event_date):
+def ar_news(club_key, event_date, when='10d'):
     """Arabic outlets: >=2 distinct outlets naming the same new president of this club within a few days of the English news."""
     import pres_watch as pw
     car = CLUB_AR.get(club_key)
@@ -116,7 +116,7 @@ def ar_news(club_key, event_date):
     old = pw.CLUBS
     pw.CLUBS = {club_key: car}
     try:
-        items = pw.gnews('رئيسا لنادي ' + car, '10d') + pw.gnews('تكليف برئاسة نادي ' + car, '10d') + pw.gnews(car + ' رئيس جديد رسميا', '10d')
+        items = pw.gnews('رئيسا لنادي ' + car, when) + pw.gnews('تكليف برئاسة نادي ' + car, when) + pw.gnews(car + ' رئيس جديد رسميا', when)
         votes = {}
         for it in items:
             if it['date'] and event_date and abs((it['date'] - event_date).days) > 7: continue
@@ -155,7 +155,18 @@ def main():
     if os.environ.get('WATCH_TEST_AR'):
         out = {}
         for nm in os.environ['WATCH_TEST_AR'][3:].split('|'):
-            out[nm] = {'wikidata': ar_label(nm), 'wikipedia': ar_wikipedia(nm)}
+            if '@' in nm:
+                en, ck = nm.split('@')
+                import pres_watch as pw
+                car = CLUB_AR.get(ck)
+                pw.CLUBS = {ck: car}
+                evs = []
+                for q in ['رئيسا لنادي ' + car, 'تكليف برئاسة نادي ' + car, car + ' رئيس جديد رسميا']:
+                    for it in pw.gnews(q, '900d'):
+                        for e in pw.extract(it['title']): evs.append([e[1], e[2], it['title'][:70], it.get('host'), str(it['date'])[:10]])
+                out[nm] = {'ar_news': ar_news(ck, None, '900d'), 'events': evs[:12]}
+            else:
+                out[nm] = {'wikidata': ar_label(nm), 'wikipedia': ar_wikipedia(nm)}
         json.dump(out, open('pres_ar_test.json', 'w'), ensure_ascii=False, indent=1)
         return
     d = load('presidents.json', {})
