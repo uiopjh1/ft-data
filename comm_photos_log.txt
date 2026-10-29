@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/runner/work/ft-data/ft-data/comm_photos.py", line 10, in <module>
+    FACE = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cv2' has no attribute 'CascadeClassifier'
