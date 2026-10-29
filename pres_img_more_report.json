@@ -1,4 +1,74 @@
 {
+ "Denis Le Saint": {
+  "sources": 0,
+  "cands": []
+ },
+ "Ángel Torres": {
+  "sources": 8,
+  "cands": [
+   {
+    "file": "pres_img_cand2/angel_torres__0.jpg",
+    "from": "wikidata Q5855923 Spanish science fiction writer",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Atrk3.jpg?width=900",
+    "title": "Atrk3.jpg"
+   },
+   {
+    "file": "pres_img_cand2/angel_torres__1.jpg",
+    "from": "commons",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/%28%C3%81ngel_V%C3%ADctor_Torres%29_Foro_%E2%80%98Dos_presidentes._Dos_respuestas_ante_la_crisis%E2%80%99_%28cropped%29.jpg/960px-%28%C3%81ngel_V%C3%ADctor_Torres%29_Foro_%E2%80%98Dos_presidentes._Dos_respuestas_ante_la_crisis%E2%80%99_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "title": "File:(Ángel Víctor Torres) Foro ‘Dos presidentes. Dos respuestas ante la crisis’ (cropped).jpg"
+   },
+   {
+    "file": "pres_img_cand2/angel_torres__2.jpg",
+    "from": "commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/%28%C3%81ngel_V%C3%ADctor_Torres%29_Torres_sobre_los_convenios_de_Vivienda_y_Carreteras_para_Canarias._AcfiPress_Noticias_Canarias.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "title": "File:(Ángel Víctor Torres) Torres sobre los convenios de Vivienda y Carreteras para Canarias. AcfiPress Noticias Canarias.jpg"
+   },
+   {
+    "file": "pres_img_cand2/angel_torres__3.jpg",
+    "from": "commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/%28%C3%81ngel_V%C3%ADctor_Torres%29_Torres_sobre_los_convenios_de_Vivienda_y_Carreteras_para_Canarias._AcfiPress_Noticias_Canarias_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "title": "File:(Ángel Víctor Torres) Torres sobre los convenios de Vivienda y Carreteras para Canarias. AcfiPress Noticias Canarias (cropped).jpg"
+   },
+   {
+    "file": "pres_img_cand2/angel_torres__4.jpg",
+    "from": "commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/%C3%81ngel_V%C3%ADctor_Torres_2023_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "title": "File:Ángel Víctor Torres 2023 (cropped).jpg"
+   }
+  ]
+ },
+ "Jokin Aperribay": {
+  "sources": 0,
+  "cands": []
+ },
+ "Saverio Sticchi Damiani": {
+  "sources": 0,
+  "cands": []
+ },
+ "Carlo Rossi": {
+  "sources": 7,
+  "cands": [
+   {
+    "file": "pres_img_cand2/carlo_rossi__0.jpg",
+    "from": "commons",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Carlo_Alberto_Rossi_anni_sessanta.png/960px-Carlo_Alberto_Rossi_anni_sessanta.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "title": "File:Carlo Alberto Rossi anni sessanta.png"
+   },
+   {
+    "file": "pres_img_cand2/carlo_rossi__1.jpg",
+    "from": "commons",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Carlo_Rossi_1.JPG/960px-Carlo_Rossi_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "title": "File:Carlo Rossi 1.JPG"
+   },
+   {
+    "file": "pres_img_cand2/carlo_rossi__2.jpg",
+    "from": "commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Vescovo_Carlo_Rossi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "title": "File:Vescovo Carlo Rossi.jpg"
+   }
+  ]
+ },
  "Cliff Crown": {
   "sources": 3,
   "cands": []
@@ -7,73 +77,101 @@
   "sources": 0,
   "cands": []
  },
+ "Franco Soldati": {
+  "sources": 0,
+  "cands": []
+ },
  "James Zhou": {
+  "sources": 0,
+  "cands": []
+ },
+ "Jon Uriarte": {
+  "sources": 3,
+  "cands": [
+   {
+    "file": "pres_img_cand2/jon_uriarte__0.jpg",
+    "from": "wikidata Q1626457 volleyball player",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Volleyball%20Iran-Australia%20%28May%202014%29-7.jpg?width=900",
+    "title": "Volleyball Iran-Australia (May 2014)-7.jpg"
+   }
+  ]
+ },
+ "Jörn Stobbe": {
+  "sources": 0,
+  "cands": []
+ },
+ "Mirwan Suwarso": {
+  "sources": 0,
+  "cands": []
+ },
+ "Romain Chabane": {
   "sources": 0,
   "cands": []
  },
  "_dbg": [
   [
-   "Cliff Crown Brentford presidente",
-   297942,
-   36,
-   73,
-   "<!DOCTYPE html><html dir=\"rtl\" lang=\"ar\" xml:lang=\"ar\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"><script type=\"tex"
-  ],
-  [
-   "Cliff Crown president Brentford",
-   303242,
-   36,
-   73,
-   "<!DOCTYPE html><html dir=\"rtl\" lang=\"ar\" xml:lang=\"ar\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"><script type=\"tex"
-  ],
-  [
-   "\"Cliff Crown\"",
-   294164,
-   36,
-   73,
-   "<!DOCTYPE html><html dir=\"rtl\" lang=\"ar\" xml:lang=\"ar\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"><script type=\"tex"
-  ],
-  [
-   "Dan Friedkin Roma presidente",
-   139334,
+   "Denis Le Saint Brest presidente",
+   128779,
    0,
    0,
-   "<!DOCTYPE html><html dir=\"rtl\" lang=\"ar\" xml:lang=\"ar\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"><script type=\"tex"
+   "<!DOCTYPE html><html dir=\"ltr\" lang=\"en\" xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"><script type=\"tex"
   ],
   [
-   "Dan Friedkin president Roma",
-   144043,
-   0,
-   0,
-   "<!DOCTYPE html><html dir=\"rtl\" lang=\"ar\" xml:lang=\"ar\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"><script type=\"tex"
+   "Denis Le Saint president Brest",
+   352564,
+   51,
+   103,
+   "<!DOCTYPE html><html dir=\"ltr\" lang=\"en\" xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"><script type=\"tex"
   ],
   [
-   "\"Dan Friedkin\"",
-   143752,
-   0,
-   0,
-   "<!DOCTYPE html><html dir=\"rtl\" lang=\"ar\" xml:lang=\"ar\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"><script type=\"tex"
+   "Denis Le Saint president Brest",
+   "20 Pièces 75 * 533mm Papier Abrasif Papier a Poncer Grains 8",
+   "https://www.leroymerlin.fr/produits/20-pieces-75-533mm-papie"
   ],
   [
-   "James Zhou Auxerre presidente",
-   213340,
-   13,
-   27,
-   "<!DOCTYPE html><html dir=\"rtl\" lang=\"ar\" xml:lang=\"ar\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"><script type=\"tex"
+   "Denis Le Saint president Brest",
+   "20 pièces 75*533mm bandes abrasives 533*75mm papie... – Gran",
+   "https://fr.grandado.com/products/20-pieces-75-533mm-bandes-a"
   ],
   [
-   "James Zhou president Auxerre",
-   212388,
-   13,
-   27,
-   "<!DOCTYPE html><html dir=\"rtl\" lang=\"ar\" xml:lang=\"ar\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"><script type=\"tex"
+   "Denis Le Saint president Brest",
+   "Meuleuse,Bandes abrasives 75x533mm,10 pièces,accessoires pou",
+   "https://www.cdiscount.com/bricolage/outillage/meuleuse-bande"
   ],
   [
-   "\"James Zhou\"",
-   216181,
-   13,
-   27,
-   "<!DOCTYPE html><html dir=\"rtl\" lang=\"ar\" xml:lang=\"ar\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"><script type=\"tex"
+   "Denis Le Saint president Brest",
+   "2 bandes abrasives 75 x 533 mm pour ponceuses à bande (bois ",
+   "https://www.leroymerlin.fr/produits/2-bandes-abrasives-75-x-"
+  ],
+  [
+   "Denis Le Saint president Brest",
+   "Bande Abrasives, 75 x 533 mm Kit de Bandes Abrasives 3 x Gra",
+   "https://www.amazon.fr/Abrasives-Bandes-Ponceuse-Stationnaire"
+  ],
+  [
+   "Denis Le Saint president Brest",
+   "Lot de 20 bandes abrasives pour mélange 75 x 533, papier abr",
+   "https://www.amazon.fr/20-bandes-abrasives-mélange-abrasif-po"
+  ],
+  [
+   "Denis Le Saint president Brest",
+   "Lot de 25 bandes abrasives 75 x 533 mm Grains (P80x5, P120x5",
+   "https://www.manomano.fr/p/lot-de-25-bandes-abrasives-75-x-53"
+  ],
+  [
+   "Denis Le Saint president Brest",
+   "Bande Abrasive 75 x 533 mm, Bandes Abrasives Mixte (3x grain",
+   "https://www.leroymerlin.fr/produits/bande-abrasive-75-x-533-"
+  ],
+  [
+   "Denis Le Saint president Brest",
+   "Bandes abrasives 75 x 533 mm – 10 bandes abrasives grain 80 ",
+   "https://www.manomano.fr/p/bandes-abrasives-75-x-533-mm-10-ba"
+  ],
+  [
+   "Denis Le Saint president Brest",
+   "RHG Bande Abrasive,75 x 533 mm, Bandes Abrasives Mixte (600)",
+   "https://www.manomano.fr/p/rhg-bande-abrasive75-x-533-mm-band"
   ]
  ]
 }
