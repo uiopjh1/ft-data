@@ -18,9 +18,8 @@ jobs:
           s=re.sub(r'<script.*?</script>|<style.*?</style>','',s,flags=re.S)
           t=html.unescape(re.sub(r'<[^>]+>','\n',s))
           t=re.sub(r'\n\s*\n+','\n',t)
-          i=t.find('المعلق')
-          print('has_commentator_word',i)
-          print(t[max(0,i-1500):i+2500] if i>=0 else t[:1500])
+          i=t.find('تعرف على مباريات اليوم')
+          print(t[i:i+9000])
           P
           git config user.name github-actions; git config user.email a@b.c
           git add goal_probe.txt; git commit -qm "goal probe"; for i in 1 2 3; do git pull --rebase --autostash -q && git push -q && break; sleep 3; done
