@@ -336,7 +336,8 @@
         "detail": "2024",
         "slug": "ita.coppa_italia"
       }
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/ferrero.jpg"
   },
   "Borussia Dortmund": {
     "name": "هانس-يواخيم فاتسكه",
@@ -911,7 +912,8 @@
         "name": "دوري الدرجة الثالثة الإنجليزي",
         "detail": "2011"
       }
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/bloom.jpg"
   },
   "Brighton": {
     "name": "توني بلوم",
@@ -923,7 +925,8 @@
         "name": "دوري الدرجة الثالثة الإنجليزي",
         "detail": "2011"
       }
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/bloom.jpg"
   },
   "West Ham United": {
     "name": "لم يُعلن رئيس جديد بعد (استقال ديفيد سوليفان في يونيو 2026)",
