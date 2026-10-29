@@ -1,0 +1,15 @@
+name: avatar-probe
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          mkdir -p probe
+          curl -sL -m 40 -o probe/qarni.jpg -w "unavatar http=%{http_code} type=%{content_type} size=%{size_download}\n" "https://unavatar.io/x/1MshariGarni" > probe/result.txt 2>&1
+          curl -sL -m 30 -o /dev/null -w "x.com http=%{http_code}\n" "https://x.com/1MshariGarni" >> probe/result.txt 2>&1
+          git config user.name github-actions; git config user.email a@b.c
+          git add probe; git commit -qm "avatar probe"; for i in 1 2 3; do git pull --rebase --autostash -q && git push -q && break; sleep 3; done
