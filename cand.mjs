@@ -1,6 +1,7 @@
 import fs from 'fs';
 const UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36';
 const T=JSON.parse(fs.readFileSync('cand_urls.json','utf8'));
+fs.mkdirSync('cand',{recursive:true});
 const out={};
 const abs=(b,u)=>{try{return new URL(u,b).href}catch{return null}};
 for (const [k,u] of Object.entries(T)) {
