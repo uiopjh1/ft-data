@@ -1,0 +1,33 @@
+name: pres-watch-eu
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'backtest (log only) or live'
+        default: 'live'
+  schedule:
+    - cron: '5-59/10 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: pres-watch
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install googlenewsdecoder
+      - name: watch
+        env:
+          WATCH_BACKTEST: ${{ github.event.inputs.mode == 'backtest' && '1' || '' }}
+          WATCH_APPLY: ${{ github.event.inputs.mode == 'backtest' && '' || '1' }}
+        run: python pres_watch_eu.py
+      - run: |
+          git config user.name github-actions; git config user.email a@b.c
+          for f in presidents.json presidents_alerts.json pres_watch_state_eu.json pres_watch_log_eu.json; do [ -f "$f" ] && git add "$f"; done
+          git commit -m "pres-watch-eu" || exit 0
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break || sleep 4; done
