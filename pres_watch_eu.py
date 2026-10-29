@@ -131,6 +131,17 @@ def ar_news(club_key, event_date, when='10d'):
         pw.CLUBS = old
     return None
 
+def ar_machine(en):
+    """Last resort: machine transliteration/translation of a person's name (Google Translate public endpoint). Always provisional."""
+    try:
+        u = 'https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ar&dt=t&q=' + urllib.parse.quote(en)
+        j = json.loads(urllib.request.urlopen(urllib.request.Request(u, headers={'User-Agent': 'Mozilla/5.0'}), timeout=15).read())
+        out = ''.join(seg[0] for seg in j[0] if seg and seg[0]).strip()
+        if out and re.fullmatch(r'[\u0600-\u06FF \-]+', out) and 2 <= len(out.split()) <= 5: return out
+    except Exception as e:
+        print('machine ar fail', str(e)[:50])
+    return None
+
 def resolve_arabic(en, club_key, event_date=None):
     return ar_label(en) or ar_wikipedia(en) or ar_news(club_key, event_date)
 
@@ -155,7 +166,9 @@ def main():
     if os.environ.get('WATCH_TEST_AR'):
         out = {}
         for nm in os.environ['WATCH_TEST_AR'][3:].split('|'):
-            if '@' in nm:
+            if nm.startswith('!'):
+                out[nm] = {'machine': ar_machine(nm[1:])}
+            elif '@' in nm:
                 en, ck = nm.split('@')
                 import pres_watch as pw
                 car = CLUB_AR.get(ck)
