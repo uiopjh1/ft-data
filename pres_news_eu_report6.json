@@ -1,0 +1,146 @@
+{
+ "Saverio Sticchi Damiani": {
+  "club": "Lecce",
+  "found": [
+   {
+    "file": "pres_img_cand/saverio_sticchi_damiani__0.jpg",
+    "src": "https://www.quotidianodipuglia.it/sport/news/saverio_sticchi_damiani_presidente_lecce_vincente-8591178.html",
+    "title": "Saverio Sticchi Damiani è il presidente più vincente della storia del Lecce in Serie A"
+   }
+  ],
+  "log": [
+   [
+    "en",
+    "raw",
+    22,
+    "name",
+    22,
+    [
+     "Lecce, parla Saverio Sticchi Damiani: «Falcone, un simbolo quel rigore",
+     "Lecce, Sticchi Damiani non boccia la prova dei giallorossi con la Juve"
+    ]
+   ],
+   [
+    "Saverio Sticchi Damiani è il presidente più vincente della storia del Lecce in S",
+    "quotidianodipuglia.it",
+    "https://www.quotidianodipuglia.it/sport/news/saverio_sticchi_damiani_presidente_lecce_vincente-8591178.html",
+    "https://statics.cedscdn.it/photos/MED_HIGH/11/78/8591178_13190743_onecms_1fj04a4prqhxosb4kjf_xehzij1ips.jpg",
+    true,
+    "crop"
+   ],
+   [
+    "es",
+    "raw",
+    21,
+    "name",
+    21,
+    [
+     "Lecce, parla Saverio Sticchi Damiani: «Falcone, un simbolo quel rigore",
+     "Lecce, Sticchi Damiani: \"Via del Mare per Euro32? Altri stadi esistono"
+    ]
+   ],
+   [
+    "it",
+    "raw",
+    26,
+    "name",
+    24,
+    [
+     "Lecce, Sticchi Damiani non boccia la prova dei giallorossi con la Juve",
+     "Lecce, parla Saverio Sticchi Damiani: «Falcone, un simbolo quel rigore"
+    ]
+   ],
+   [
+    "de",
+    "raw",
+    26,
+    "name",
+    23,
+    [
+     "Lecce, parla Saverio Sticchi Damiani: «Falcone, un simbolo quel rigore",
+     "Sticchi Damiani si gode la vittoria: \"Questa squadra ha grandi valori\""
+    ]
+   ],
+   [
+    "fr",
+    "raw",
+    23,
+    "name",
+    22,
+    [
+     "Lecce, parla Saverio Sticchi Damiani: «Falcone, un simbolo quel rigore",
+     "Lecce, Sticchi Damiani: \"Via del Mare per Euro32? Altri stadi esistono"
+    ]
+   ]
+  ]
+ },
+ "Cliff Crown": {
+  "club": "Brentford",
+  "found": null,
+  "log": [
+   [
+    "en",
+    "raw",
+    6,
+    "name",
+    4,
+    [
+     "Brentford owners buy Spanish third-tier club Mérida",
+     "New Brentford boss Lee Carsley hailed as 'outstanding leader' by bees "
+    ]
+   ],
+   [
+    "es",
+    "raw",
+    2,
+    "name",
+    2,
+    [
+     "Cliff Crown: Reflecting on 2025",
+     "Cliff crowned new Bees chief"
+    ]
+   ],
+   [
+    "Cliff crowned new Bees chief",
+    "foxsports.com",
+    "https://www.foxsports.com/stories/soccer/cliff-crowned-new-bees-chief",
+    "https://a57.foxsports.com/statics.foxsports.com/static/orion/images/defaults/1294/728/story-card.jpg?ve=1&tl=1",
+    false,
+    "crop"
+   ],
+   [
+    "it",
+    "raw",
+    5,
+    "name",
+    5,
+    [
+     "Cliff Crown: Reflecting on 2025",
+     "Cliff Crown: Reflecting on 2025"
+    ]
+   ],
+   [
+    "de",
+    "raw",
+    3,
+    "name",
+    3,
+    [
+     "Cliff Crown: Reflecting on 2025",
+     "Cliff Crown: Reflecting on 2025"
+    ]
+   ],
+   [
+    "fr",
+    "raw",
+    3,
+    "name",
+    3,
+    [
+     "Cliff Crown: Reflecting on 2025",
+     "Cliff Crown: Reflecting on 2025"
+    ]
+   ]
+  ]
+ }
+}
