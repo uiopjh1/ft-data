@@ -30,7 +30,7 @@ def items(name):
         out.append({'title': sn.group(1), 'domain': re.sub(r'^www\.', '', sn.group(2)), 'page': sn.group(3), 'orig': f('origUrl'), 'thumb': th})
     return out
 def title_ok(title, name):
-    t = set(fold(title).split()); return all(w in t for w in fold(name).split())
+    return ' ' + fold(name) + ' ' in ' ' + ' '.join(fold(title).split()) + ' '
 def dhash(im):
     g = np.asarray(im.convert('L').resize((9, 8), Image.LANCZOS), dtype=np.int16)
     return (g[:, 1:] > g[:, :-1]).flatten()
@@ -55,16 +55,20 @@ def main():
         if only and n not in only.split('|'): continue
         e = info[n]
         if e.get('image'): continue
-        its = items(n); time.sleep(4)
+        try: its = items(n)
+        except Exception as ex: rep[n] = 'err ' + repr(ex); print(n, rep[n], flush=True); continue
+        time.sleep(4)
         if its is None: rep[n] = 'blocked'; print(n, 'blocked', flush=True); continue
         cand = []
         for it in its[:30]:
+          try:
             if not title_ok(it['title'], n): continue
             b = get(it['orig'], True, 1) or (get(it['thumb'], True, 1) if it['thumb'] else None)
             if not b: continue
             c = face_crop(b)
             if c is None: continue
             cand.append({**it, 'h': dhash(c), 'crop': c})
+          except Exception as ex: print('  item err', repr(ex), flush=True)
         groups = []
         for c in cand:
             for g in groups:
