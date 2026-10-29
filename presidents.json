@@ -490,7 +490,9 @@
   "name": "شاكر عوير",
   "en": "Shaker Oweir",
   "since": 2026,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/awair.jpg",
+  "imageFor": "شاكر عوير"
  },
  "Al Raed": {
   "name": "فهد المطوع",

@@ -8,6 +8,11 @@ from pres_auto_eu import fold
 ED = {'en': 'hl=en-GB&gl=GB&ceid=GB:en', 'es': 'hl=es&gl=ES&ceid=ES:es', 'it': 'hl=it&gl=IT&ceid=IT:it', 'de': 'hl=de&gl=DE&ceid=DE:de', 'fr': 'hl=fr&gl=FR&ceid=FR:fr'}
 ROLE = re.compile(r'president|presidente|praesident|prasident|chairman|vorsitz|président|owner|propriet|besitzer|eigent|dueno|dueño|patron|patrón|presidenza|presidencia|chief|boss|dirigente|club president', re.I)
 BAD = re.compile(r'dies|death|died|muere|muerto|funeral|arrest|trial|wife|daughter|lawsuit|lutto|stirbt|mort |decede|sentenc', re.I)
+def tw(url):
+    import html as _h
+    h = pa.get(url)
+    m = re.search(r'name=["\']twitter:image[^"\']*["\'][^>]*content=["\']([^"\']+)', h, re.I) or re.search(r'content=["\']([^"\']+)["\'][^>]*name=["\']twitter:image', h, re.I)
+    return urllib.parse.urljoin(url, _h.unescape(m.group(1))) if m else None
 MKT = {'en': 'en-GB', 'es': 'es-ES', 'it': 'it-IT', 'de': 'de-DE', 'fr': 'fr-FR'}
 def news(q, ed):
     # Bing News RSS: links point straight at the article (no Google redirect to decode)
@@ -39,17 +44,17 @@ def run(en, key, log):
     fn = fold(en).split(); first, last = fn[0], fn[-1]
     seen = set(); n = 0; cands = []
     for ed in ['en', 'es', 'it', 'de', 'fr']:
-        items = news(f'"{en}" {key}', ed) + news(f'"{en}" president', ed)
+        items = news(f'"{en}" {key}', ed) + news(f'"{en}" president', ed) + news(f'{en}', ed) + news(f'{en} {key} presidente OR président OR Präsident OR chairman', ed)
         log.append([ed, 'raw', len(items), 'name', sum(1 for i in items if fold(en).split()[-1] in fold(i['title'])), [i['title'][:70] for i in items[:2]]])
         for it in items:
             t = fold(it['title'])
             if last not in t or first[:3] not in t or not ROLE.search(t) or BAD.search(t): continue
             if it['link'] in seen: continue
             seen.add(it['link']); n += 1
-            if n > 16: return cands or None
+            if n > 40: return cands or None
             real = it['link']
             if not real: log.append(['cand', it['title'][:60], 'RESOLVE-FAIL']); continue
-            try: img = pa.og(real)
+            try: img = pa.og(real) or tw(real)
             except Exception as e: log.append(['cand', it['title'][:60], real[:60], 'PAGE-FAIL ' + str(e)[:40]]); continue
             if not img: log.append(['cand', it['title'][:60], real[:60], 'NO-OG']); continue
             try: buf = pa.get(img, True)
@@ -62,7 +67,7 @@ def run(en, key, log):
                 fname = f'pres_img_cand/{slug}__{len(cands)}.jpg'
                 open(fname, 'wb').write(c)
                 cands.append({'file': fname, 'src': real, 'title': it['title']})
-                if len(cands) >= 3: return cands
+                if len(cands) >= 4: return cands
         time.sleep(0.5)
     return cands or None
 def main():
