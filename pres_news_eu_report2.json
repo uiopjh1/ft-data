@@ -1,0 +1,303 @@
+{
+ "Jose Maria del Nido Carrasco": {
+  "club": "Sevilla",
+  "found": null,
+  "log": [
+   [
+    "en",
+    "raw",
+    9,
+    "name",
+    4,
+    [
+     "José María del Nido Carrasco habla de la “supervivencia” del Sevilla F",
+     "El presidente del Sevilla FC, José María del Nido Carrasco, comparecer"
+    ]
+   ],
+   [
+    "cand",
+    "El presidente del Sevilla FC, José María del Nido Carrasco, ",
+    "https://www.abc.es/deportes/orgullodenervion/noticias-sevill",
+    "PAGE-FAIL HTTP Error 403: Forbidden"
+   ],
+   [
+    "cand",
+    "El presidente del Sevilla FC, José María del Nido Carrasco, ",
+    "https://www.abc.es/deportes/orgullodenervion/noticias-sevill",
+    "PAGE-FAIL HTTP Error 403: Forbidden"
+   ],
+   [
+    "es",
+    "raw",
+    10,
+    "name",
+    6,
+    [
+     "Rueda de prensa de Del Nido Carrasco, en directo: situación del Sevill",
+     "Entrenamiento Sevilla FC 28 octubre 2026"
+    ]
+   ],
+   [
+    "it",
+    "raw",
+    8,
+    "name",
+    5,
+    [
+     "José María del Nido Carrasco habla de la “supervivencia” del Sevilla F",
+     "Rueda de prensa de Del Nido Carrasco, en directo: situación del Sevill"
+    ]
+   ],
+   [
+    "de",
+    "raw",
+    10,
+    "name",
+    7,
+    [
+     "Rueda de prensa de Del Nido Carrasco, en directo: situación del Sevill",
+     "José María del Nido Carrasco habla de la “supervivencia” del Sevilla F"
+    ]
+   ],
+   [
+    "fr",
+    "raw",
+    8,
+    "name",
+    4,
+    [
+     "Rueda de prensa de Del Nido Carrasco, en directo: situación del Sevill",
+     "José María del Nido Carrasco habla de la “supervivencia” del Sevilla F"
+    ]
+   ]
+  ]
+ },
+ "Arnaud Pouille": {
+  "club": "Rennes",
+  "found": null,
+  "log": [
+   [
+    "en",
+    "raw",
+    12,
+    "name",
+    11,
+    [
+     "Arnaud Pouille : Suivi de son actualité au Stade rennais",
+     "\"Des joueurs qui savent placer Rennes sur une carte\": Arnaud Pouille d"
+    ]
+   ],
+   [
+    "cand",
+    "« Appliquer le règlement » : avant une réunion fin août, le ",
+    "https://www.letelegramme.fr/sports/football/stade-rennais/ap",
+    "PAGE-FAIL HTTP Error 403: Forbidden"
+   ],
+   [
+    "cand",
+    "Arnaud Pouille, président du Stade Rennais : « Il faudra for",
+    "https://www.lequipe.fr/Football/Actualites/Arnaud-pouille-pr",
+    "PAGE-FAIL HTTP Error 403: Forbidden"
+   ],
+   [
+    "es",
+    "raw",
+    12,
+    "name",
+    11,
+    [
+     "Arnaud Pouille : Suivi de son actualité au Stade rennais",
+     "\"Des joueurs qui savent placer Rennes sur une carte\": Arnaud Pouille d"
+    ]
+   ],
+   [
+    "it",
+    "raw",
+    12,
+    "name",
+    11,
+    [
+     "Arnaud Pouille : Suivi de son actualité au Stade rennais",
+     "\"Des joueurs qui savent placer Rennes sur une carte\": Arnaud Pouille d"
+    ]
+   ],
+   [
+    "de",
+    "raw",
+    12,
+    "name",
+    11,
+    [
+     "Arnaud Pouille : Suivi de son actualité au Stade rennais",
+     "\"Des joueurs qui savent placer Rennes sur une carte\": Arnaud Pouille d"
+    ]
+   ],
+   [
+    "fr",
+    "raw",
+    12,
+    "name",
+    10,
+    [
+     "Arnaud Pouille : Suivi de son actualité au Stade rennais",
+     "Stade Rennais. Le président exécutif Arnaud Pouille invité de Pleine L"
+    ]
+   ],
+   [
+    "cand",
+    "Stade Rennais. Le président exécutif Arnaud Pouille invité d",
+    "https://www.ouest-france.fr/sport/football/stade-rennais/sta",
+    "PAGE-FAIL HTTP Error 403: Forbidden"
+   ],
+   [
+    "cand",
+    "« Les circonstances nous ont amenés à une réflexion » : le p",
+    "https://www.lequipe.fr/Football/Article/-les-circonstances-n",
+    "PAGE-FAIL HTTP Error 403: Forbidden"
+   ]
+  ]
+ },
+ "Henrik Köncke": {
+  "club": "Hamburg SV",
+  "found": null,
+  "log": [
+   [
+    "en",
+    "raw",
+    3,
+    "name",
+    2,
+    [
+     "Hamburg & Schleswig-HolsteinHSV-Präsident Köncke und Sportchef Costa b",
+     "Ex-Ultra ist neuer HSV-Präsident"
+    ]
+   ],
+   [
+    "es",
+    "raw",
+    1,
+    "name",
+    1,
+    [
+     "Hamburger SV: Henrik Köncke folgt auf Marcell Jansen als Präsident"
+    ]
+   ],
+   [
+    "Hamburger SV: Henrik Köncke folgt auf Marcell Jansen als Präsident",
+    "spiegel.de",
+    "https://www.spiegel.de/sport/fussball/hamburger-sv-henrik-koencke-folgt-auf-marcell-jansen-als-praesident-a-f02ac8d4-e903-4527-907e-11ad2aa45ccb",
+    "https://cdn.prod.www.spiegel.de/images/d4539dd4-1ab2-4141-a43c-ff0075ccdb0d_w1200_r1.778_fpx51_fpy29.jpg",
+    false,
+    "other faces=3"
+   ],
+   [
+    "it",
+    "raw",
+    4,
+    "name",
+    2,
+    [
+     "HSV-Präsident Köncke und Sportchef Costa bei Hyrox dabei",
+     "Hamburg & Schleswig-HolsteinHSV-Präsident Köncke und Sportchef Costa b"
+    ]
+   ],
+   [
+    "de",
+    "raw",
+    3,
+    "name",
+    2,
+    [
+     "Fußball-Bundesliga: HSV-Präsident Köncke und Sportchef Costa bei Hyrox",
+     "Hamburg & Schleswig-HolsteinHSV-Präsident Köncke und Sportchef Costa b"
+    ]
+   ],
+   [
+    "fr",
+    "raw",
+    2,
+    "name",
+    2,
+    [
+     "Hamburger SV: Henrik Köncke folgt auf Marcell Jansen als Präsident",
+     "Hamburg & Schleswig-HolsteinHSV-Präsident Köncke und Sportchef Costa b"
+    ]
+   ]
+  ]
+ },
+ "James Zhou": {
+  "club": "Auxerre",
+  "found": null,
+  "log": [
+   [
+    "en",
+    "raw",
+    10,
+    "name",
+    9,
+    [
+     "James Zhou, dix ans à la tête de l’AJ Auxerre : un projet qui s’inscri",
+     "James Zhou espère \"trouver [s]on remplaçant le plus vite possible\" à l"
+    ]
+   ],
+   [
+    "es",
+    "raw",
+    11,
+    "name",
+    10,
+    [
+     "James Zhou, dix ans à la tête de l’AJ Auxerre : un projet qui s’inscri",
+     "James Zhou nomme deux directeurs généraux adjoints à l'AJ Auxerre"
+    ]
+   ],
+   [
+    "James Zhou, propriétaire de l'AJ Auxerre : \"Oui, j'étais très fâché !\"",
+    "ici.fr",
+    "https://www.ici.fr/sports/football/james-zhou-proprietaire-de-l-aj-auxerre-oui-j-etais-tres-fache-1558637435",
+    "https://www.ici.fr/pikapi/images/2982d4a5-0b51-4759-b77d-99445c47cbbd/1200x630?webp=false",
+    false,
+    "faces=2"
+   ],
+   [
+    "it",
+    "raw",
+    11,
+    "name",
+    10,
+    [
+     "James Zhou, dix ans à la tête de l’AJ Auxerre : un projet qui s’inscri",
+     "James Zhou espère \"trouver [s]on remplaçant le plus vite possible\" à l"
+    ]
+   ],
+   [
+    "de",
+    "raw",
+    10,
+    "name",
+    9,
+    [
+     "James Zhou, dix ans à la tête de l’AJ Auxerre : un projet qui s’inscri",
+     "James Zhou veut un hôtel cinq étoiles à Auxerre"
+    ]
+   ],
+   [
+    "fr",
+    "raw",
+    9,
+    "name",
+    8,
+    [
+     "James Zhou, dix ans à la tête de l’AJ Auxerre : un projet qui s’inscri",
+     "AJ Auxerre - Les grandes ambitions de James Zhou pour l'AJA"
+    ]
+   ],
+   [
+    "cand",
+    "Ligue 2. Le Chinois James Zhou, nouveau président de l’AJ Au",
+    "https://www.ouest-france.fr/sport/football/ligue-2/ligue-2-l",
+    "PAGE-FAIL HTTP Error 403: Forbidden"
+   ]
+  ]
+ }
+}
