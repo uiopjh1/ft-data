@@ -1,0 +1,26 @@
+{
+ "ettifaq": {
+  "status": 200,
+  "ct": "image/jpeg",
+  "bytes": 561056,
+  "f": "cand/ettifaq.jpg"
+ },
+ "kholood": {
+  "status": 200,
+  "ct": "image/webp",
+  "bytes": 170380,
+  "f": "cand/kholood.webp"
+ },
+ "fayha": {
+  "status": 200,
+  "ct": "image/webp",
+  "bytes": 63418,
+  "f": "cand/fayha.webp"
+ },
+ "riyadh": {
+  "status": 200,
+  "ct": "image/webp",
+  "bytes": 108910,
+  "f": "cand/riyadh.webp"
+ }
+}
