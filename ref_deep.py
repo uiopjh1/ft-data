@@ -2,7 +2,7 @@
 import json, os, time
 import comm_photos as cp, comm_photos2 as c2
 from commentators import fold
-NAMES = {'عبد الصمد بكري': ['حكم', 'حكم كرة قدم سعودي', 'حكم دولي'], 'فريح الجلعود': ['حكم', 'حكم كرة قدم سعودي', 'حكم دولي'], 'خالد الأحمري': ['حكم', 'حكم كرة قدم سعودي', 'حكم دولي']}
+NAMES = {'عبدالصمد بكري': ['حكم', 'حكم الدوري السعودي', 'مباراة'], 'عبد الصمد بكري': ['حكم', 'حكم الدوري السعودي'], 'فريح الجلعود': ['حكم', 'حكم الدوري السعودي', 'مباراة'], 'خالد الأحمري': ['حكم', 'حكم الدوري السعودي', 'مباراة'], 'فريح الجلعود': ['حكم']}
 os.makedirs('ref_deep', exist_ok=True); out = {}
 for n, ks in NAMES.items():
     its = []
@@ -13,7 +13,7 @@ for n, ks in NAMES.items():
     for it in its:
         if it['orig'] in seen: continue
         seen.add(it['orig'])
-        if ' ' + fold(n) + ' ' not in ' ' + ' '.join(fold(it['title']).split()) + ' ': continue
+        if not all(w in set(fold(it['title']).split()) for w in fold(n).split()): continue
         try:
             b = cp.get(it['orig'], True, 1) or (cp.get(it['thumb'], True, 1) if it['thumb'] else None)
             r = c2.feat(b) if b else None
