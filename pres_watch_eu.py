@@ -99,8 +99,8 @@ def main():
     items = []
     when = '120d' if BACKTEST else '2d'
     for f in FEEDS: items += rss(f)
-    for q in QUERIES: items += gnews(q, when)
-    for st in SITES: items += gnews('site:%s (president OR chairman) (resigns OR appointed OR elected OR named) club' % st, when)
+    for q in QUERIES: items += gnews(q, when, 'en')
+    for st in SITES: items += gnews('site:%s (president OR chairman) (resigns OR appointed OR elected OR named) club' % st, when, 'en')
     seen = set(state['seen']); log = []
     for it in items:
         l = it['link']

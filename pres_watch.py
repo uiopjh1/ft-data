@@ -56,7 +56,9 @@ def rss(url, gnews=False):
     return out
 
 def bing(q): return rss('https://www.bing.com/news/search?format=rss&setlang=ar&q=' + urllib.parse.quote(q))
-def gnews(q, when): return rss('https://news.google.com/rss/search?hl=ar&gl=SA&ceid=SA:ar&q=' + urllib.parse.quote(q + ' when:' + when), True)
+def gnews(q, when, ed='ar'):
+    loc = 'hl=en-GB&gl=GB&ceid=GB:en' if ed == 'en' else 'hl=ar&gl=SA&ceid=SA:ar'
+    return rss('https://news.google.com/rss/search?' + loc + '&q=' + urllib.parse.quote(q + ' when:' + when), True)
 
 def resolve(link):
     """Google News redirect -> real article url (best effort)."""
