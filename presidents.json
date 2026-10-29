@@ -1389,13 +1389,21 @@
   "name": "أوليفييه كلوارك",
   "en": "Olivier Cloarec",
   "since": 2025,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/olivier_cloarec.jpg",
+  "imageAuto": true,
+  "imageFor": "Olivier Cloarec",
+  "imageSrc": "https://www.footmercato.net/a8867169101746044331-olivier-cloarec-nouveau-president-de-toulouse"
  },
  "Toulouse FC": {
   "name": "أوليفييه كلوارك",
   "en": "Olivier Cloarec",
   "since": 2025,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/olivier_cloarec.jpg",
+  "imageAuto": true,
+  "imageFor": "Olivier Cloarec",
+  "imageSrc": "https://www.footmercato.net/a8867169101746044331-olivier-cloarec-nouveau-president-de-toulouse"
  },
  "Lorient": {
   "name": "لويك فيري",
@@ -1457,7 +1465,11 @@
   "name": "دان شوكو",
   "en": "Dan Sucu",
   "since": 2025,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/dan_sucu.jpg",
+  "imageAuto": true,
+  "imageFor": "Dan Sucu",
+  "imageSrc": "https://www.rainews.it/articoli/2024/12/genoa-chi-e-dan-sucu-il-nuovo-proprietario-del-club-28019336-3a13-414f-a861-d1dd149c464e.html"
  },
  "Udinese": {
   "name": "فرانكو سولداتي",
@@ -1503,19 +1515,31 @@
   "name": "شتيفان هوفمان",
   "en": "Stefan Hofmann",
   "since": 2018,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/stefan_hofmann.jpg",
+  "imageAuto": true,
+  "imageFor": "Stefan Hofmann",
+  "imageSrc": "https://www.sueddeutsche.de/sport/mainz-stefan-hofmann-bleibt-vorsitzender-des-fsv-mainz-dpa.urn-newsml-dpa-com-20090101-210629-99-196323"
  },
  "1. FSV Mainz 05": {
   "name": "شتيفان هوفمان",
   "en": "Stefan Hofmann",
   "since": 2018,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/stefan_hofmann.jpg",
+  "imageAuto": true,
+  "imageFor": "Stefan Hofmann",
+  "imageSrc": "https://www.sueddeutsche.de/sport/mainz-stefan-hofmann-bleibt-vorsitzender-des-fsv-mainz-dpa.urn-newsml-dpa-com-20090101-210629-99-196323"
  },
  "Mainz 05": {
   "name": "شتيفان هوفمان",
   "en": "Stefan Hofmann",
   "since": 2018,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/stefan_hofmann.jpg",
+  "imageAuto": true,
+  "imageFor": "Stefan Hofmann",
+  "imageSrc": "https://www.sueddeutsche.de/sport/mainz-stefan-hofmann-bleibt-vorsitzender-des-fsv-mainz-dpa.urn-newsml-dpa-com-20090101-210629-99-196323"
  },
  "1. FC Köln": {
   "name": "يورن شتوبه",
@@ -1569,7 +1593,11 @@
     "name": "الدرجة الثانية الإسبانية",
     "detail": "2025"
    }
-  ]
+  ],
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/pablo_sanchez.jpg",
+  "imageAuto": true,
+  "imageFor": "Pablo Sánchez",
+  "imageSrc": "https://www.levante-emv.com/deportes/2026/05/29/pablo-sanchez-presidente-levante-club-130807043.html"
  },
  "Espanyol": {
   "name": "آلان بيس",
@@ -1602,13 +1630,21 @@
   "name": "مارتن بيلايث",
   "en": "Martín Peláez",
   "since": 2022,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/martin_pelaez.jpg",
+  "imageAuto": true,
+  "imageFor": "Martín Peláez",
+  "imageSrc": "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/02/26/martin-pelaez-presidente-real-oviedo-grupo-pachuca-va-vender-va-estar-anos/00031772110927990812741.htm"
  },
  "Oviedo": {
   "name": "مارتن بيلايث",
   "en": "Martín Peláez",
   "since": 2022,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/martin_pelaez.jpg",
+  "imageAuto": true,
+  "imageFor": "Martín Peláez",
+  "imageSrc": "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/02/26/martin-pelaez-presidente-real-oviedo-grupo-pachuca-va-vender-va-estar-anos/00031772110927990812741.htm"
  },
  "Fulham": {
   "name": "شهيد خان",
@@ -1779,7 +1815,11 @@
   "name": "موريتسيو كالتشينوني",
   "en": "Maurizio Calcinoni",
   "since": 2026,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/maurizio_calcinoni.jpg",
+  "imageAuto": true,
+  "imageFor": "Maurizio Calcinoni",
+  "imageSrc": "https://www.ilovepalermocalcio.com/cremonese-ufficiale-maurizio-calcinoni-e-il-nuovo-presidente/"
  },
  "Leeds United": {
   "name": "باراغ مارات",
@@ -1984,7 +2024,11 @@
     "name": "الدرجة الثانية الفرنسية",
     "detail": "2023"
    }
-  ]
+  ],
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/jean_michel_roussier.jpg",
+  "imageAuto": true,
+  "imageFor": "Jean-Michel Roussier",
+  "imageSrc": "https://www.sofoot.com/breves/le-president-du-havre-jean-michel-roussier-reagit-a-linterdiction-de-stade-dun-supporter-de-six-ans"
  },
  "Le Havre AC": {
   "name": "جان ميشيل روسييه",
@@ -1995,7 +2039,11 @@
     "name": "الدرجة الثانية الفرنسية",
     "detail": "2023"
    }
-  ]
+  ],
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/jean_michel_roussier.jpg",
+  "imageAuto": true,
+  "imageFor": "Jean-Michel Roussier",
+  "imageSrc": "https://www.sofoot.com/breves/le-president-du-havre-jean-michel-roussier-reagit-a-linterdiction-de-stade-dun-supporter-de-six-ans"
  },
  "Union Berlin": {
   "name": "ديرك تسينغلر",
@@ -2251,7 +2299,11 @@
   "since": 2022,
   "role": "رئيس مجلس الإدارة",
   "interim": true,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/bill_foley.jpg",
+  "imageAuto": true,
+  "imageFor": "Bill Foley",
+  "imageSrc": "https://www.bournemouthecho.co.uk/sport/26141737.afc-bournemouths-progression-owner-bill-foley/"
  },
  "Bournemouth": {
   "name": "بيل فولي",
@@ -2259,7 +2311,11 @@
   "since": 2022,
   "role": "رئيس مجلس الإدارة",
   "interim": true,
-  "noTitles": true
+  "noTitles": true,
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/bill_foley.jpg",
+  "imageAuto": true,
+  "imageFor": "Bill Foley",
+  "imageSrc": "https://www.bournemouthecho.co.uk/sport/26141737.afc-bournemouths-progression-owner-bill-foley/"
  },
  "Metz": {
   "name": "برنار سيرين",
@@ -2270,7 +2326,11 @@
     "name": "دوري الدرجة الثانية الفرنسي",
     "detail": "2019"
    }
-  ]
+  ],
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/bernard_serin.jpg",
+  "imageAuto": true,
+  "imageFor": "Bernard Serin",
+  "imageSrc": "https://www.republicain-lorrain.fr/sport/2024/01/25/bernard-serin-president-du-fc-metz-degager-une-marge-suffisante-pour-recruter-des-joueurs-interessants"
  },
  "FC Metz": {
   "name": "برنار سيرين",
@@ -2281,7 +2341,11 @@
     "name": "دوري الدرجة الثانية الفرنسي",
     "detail": "2019"
    }
-  ]
+  ],
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/bernard_serin.jpg",
+  "imageAuto": true,
+  "imageFor": "Bernard Serin",
+  "imageSrc": "https://www.republicain-lorrain.fr/sport/2024/01/25/bernard-serin-president-du-fc-metz-degager-une-marge-suffisante-pour-recruter-des-joueurs-interessants"
  },
  "Werder Bremen": {
   "name": "هوبرتوس هيس-غرونيفالد",
