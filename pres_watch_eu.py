@@ -157,7 +157,7 @@ def upgrade_pending(d, alerts, now):
             for kk, vv in d.items():
                 if isinstance(vv, dict) and vv.get('arPending') and vv.get('en') == en:
                     vv['name'] = ar + (' (رئيس مكلّف)' if vv.get('interim') else '')
-                    vv.pop('arPending', None); vv.pop('arClub', None)
+                    vv.pop('arPending', None); vv.pop('arClub', None); vv.pop('arMachine', None)
             alerts.append({'t': str(now), 'club': k, 'type': 'arabic-name-resolved', 'en': en, 'ar': ar})
             done = True
     return done
@@ -259,13 +259,16 @@ def main():
                 official = any(res[h][1] or re.search(OFFICIAL, ev['sources'][h]['title']) for h in good)
                 if len(good) >= 2 and official and recent(ev['sources']) and APPLY and cur:
                     ar = resolve_arabic(ev['name'], club, None)
-                    nm = (ar or ev['name']) + (' (رئيس مكلّف)' if ev['interim'] else '')
+                    mt = None if ar else ar_machine(ev['name'])  # provisional machine transliteration until a verified Arabic name appears
+                    nm = (ar or mt or ev['name']) + (' (رئيس مكلّف)' if ev['interim'] else '')
                     for kk in group_of(cur):
                         v = d[kk]
                         for f in ('image', 'imageAuto', 'imageFor', 'imageSrc', 'titles', 'titlesTotal', 'prev', 'titlesLabel', 'note', 'interim'): v.pop(f, None)
                         v.update({'name': nm, 'en': ev['name'], 'since': now.year, 'noTitles': True})
-                        if not ar: v['arPending'] = True; v['arClub'] = club
-                        else: v.pop('arPending', None); v.pop('arClub', None)
+                        if not ar:
+                            v['arPending'] = True; v['arClub'] = club
+                            if mt: v['arMachine'] = True
+                        else: v.pop('arPending', None); v.pop('arClub', None); v.pop('arMachine', None)
                         if ev['interim']: v['interim'] = True
                     try:  # photo for the new president: identity-verified Wikipedia lead image in other languages (the app itself already tries English Wikipedia)
                         import pres_wiki_multi as pwm
@@ -275,7 +278,7 @@ def main():
                                 d[kk].update({'image': ph['image'], 'imageAuto': True, 'imageFor': ev['name'], 'imageSrc': ph['src']})
                     except Exception as e:
                         print('photo lookup fail', str(e)[:60])
-                    alerts.append({'t': str(now), 'club': club, 'type': 'applied', 'old': cur['name'], 'new': nm, 'arabic_label_found': bool(ar), 'sources': {h: ev['sources'][h]['url'] for h in good}})
+                    alerts.append({'t': str(now), 'club': club, 'type': 'applied', 'old': cur['name'], 'new': nm, 'arabic_label_found': bool(ar), 'machine_translated': bool(mt), 'sources': {h: ev['sources'][h]['url'] for h in good}})
                     changed = True; del evs[k]
             elif (now - datetime.datetime.fromisoformat(ev['first'])).days >= 7:
                 alerts.append({'t': str(now), 'club': club, 'type': 'single-source', 'name': ev['name'], 'src': list(ev['sources'].values())[0]['url']}); del evs[k]
