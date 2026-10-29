@@ -44,6 +44,8 @@ def portrait_ok(buf):
     H, W = g.shape
     fs = face.detectMultiScale(g, 1.1, 6, minSize=(int(W * .12), int(W * .12)))
     if len(fs) != 1: return False, f'faces={len(fs)}'
+    fs2 = face.detectMultiScale(g, 1.1, 4, minSize=(int(W * .05), int(W * .05)))
+    if len(fs2) > 1: return False, f'other faces={len(fs2)}'
     x, y, fw, fh = fs[0]
     if fw / W < 0.17 and fh / H < 0.17: return False, 'face small'
     return True, f'face {fw/W:.2f}x{fh/H:.2f}'
@@ -62,7 +64,10 @@ def find(name_ar, log):
             host = urllib.parse.urlparse(l).netloc.replace('www.', '')
             if l in seen or not any(host.endswith(x) for x in OK_DOMAINS): continue
             seen.add(l)
-            if key not in norm(t): continue
+            nt = norm(t)
+            if key not in nt: continue
+            if not re.search('رييس|رئيس|مجلس اداره|مجلس ادارة', nt) or re.search('مسلسل|ممثل|فنان|العاصوف|دراما|فيلم|برنامج|رمضان', nt):
+                log.append([t[:60], 'skip title']); continue
             try: img = og(l)
             except Exception as e: log.append([l, 'page fail']); continue
             if not img: continue
