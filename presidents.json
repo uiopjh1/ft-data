@@ -643,7 +643,8 @@
     "name": "بيتر شارينغتون (رئيس غير تنفيذي)",
     "en": "Peter Charrington",
     "since": 2025,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/charrington.jpg"
   },
   "AS Roma": {
     "name": "دان فريدكين",
@@ -1513,7 +1514,8 @@
         "detail": "2023 (مع بيرنلي)"
       }
     ],
-    "titlesLabel": "بطولاته كرئيس"
+    "titlesLabel": "بطولاته كرئيس",
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/pace.jpg"
   },
   "Burnley": {
     "name": "آلان بيس",
@@ -1525,7 +1527,8 @@
         "name": "الدرجة الثانية الإنجليزية",
         "detail": "2023"
       }
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/pace.jpg"
   },
   "Real Oviedo": {
     "name": "مارتن بيلايث",
@@ -1770,13 +1773,15 @@
     "name": "ماركوس كرابف",
     "en": "Markus Krapf",
     "since": 2022,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/krapf.jpg"
   },
   "FC Augsburg": {
     "name": "ماركوس كرابف",
     "en": "Markus Krapf",
     "since": 2022,
-    "noTitles": true
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/krapf.jpg"
   },
   "Heidenheim": {
     "name": "هولغر سانفالد",
@@ -1823,7 +1828,8 @@
         "name": "الدرجة الثالثة الإسبانية (المجموعة 3)",
         "detail": "2018"
       }
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/kohlberg.jpg"
   },
   "Real Mallorca": {
     "name": "آندي كولبرغ",
@@ -1834,7 +1840,8 @@
         "name": "الدرجة الثالثة الإسبانية (المجموعة 3)",
         "detail": "2018"
       }
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/kohlberg.jpg"
   },
   "RCD Mallorca": {
     "name": "آندي كولبرغ",
@@ -1845,7 +1852,8 @@
         "name": "الدرجة الثالثة الإسبانية (المجموعة 3)",
         "detail": "2018"
       }
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/kohlberg.jpg"
   },
   "Parma": {
     "name": "كايل كراوس",
