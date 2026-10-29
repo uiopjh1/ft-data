@@ -1,0 +1,18 @@
+name: comm-photos
+on: workflow_dispatch
+permissions: { contents: write }
+concurrency: { group: commentators }
+jobs:
+  r:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install opencv-python-headless pillow numpy
+      - run: timeout 1500 python comm_photos.py
+      - run: |
+          git config user.name github-actions; git config user.email a@b.c
+          git add commentators_info.json comm_photos_report.json comm_img 2>/dev/null
+          git diff --cached --quiet && exit 0
+          git commit -qm "commentator photos"; for i in 1 2 3 4 5 6; do git pull --rebase --autostash -q && git push -q && break; sleep 5; done
