@@ -90,7 +90,74 @@ def ar_label(en):
         print('wikidata fail', str(e)[:60])
     return None
 
+
+CLUB_AR = load('club_ar.json', {})
+
+def ar_wikipedia(en):
+    """Arabic Wikipedia title via the English page's language link (person must look like a football/business figure)."""
+    try:
+        u = 'https://en.wikipedia.org/w/api.php?action=query&format=json&redirects=1&prop=langlinks|extracts&lllang=ar&exintro=1&explaintext=1&exchars=400&titles=' + urllib.parse.quote(en)
+        for pg in json.loads(get(u)).get('query', {}).get('pages', {}).values():
+            ext = (pg.get('extract') or '').lower()
+            ll = pg.get('langlinks') or []
+            if ll and re.search(r'chairman|president|businessman|owner|executive|football|club|investor|banker|politician|lawyer', ext):
+                t = ll[0].get('*') or ll[0].get('title') or ''
+                t = re.sub(r'\s*\(.*?\)', '', t).strip()
+                if re.search('[\u0600-\u06ff]', t): return t
+    except Exception as e:
+        print('wikipedia fail', str(e)[:60])
+    return None
+
+def ar_news(club_key, event_date):
+    """Arabic outlets: >=2 distinct outlets naming the same new president of this club within a few days of the English news."""
+    import pres_watch as pw
+    car = CLUB_AR.get(club_key)
+    if not car: return None
+    old = pw.CLUBS
+    pw.CLUBS = {club_key: car}
+    try:
+        items = pw.gnews('رئيسا لنادي ' + car, '10d') + pw.gnews('تكليف برئاسة نادي ' + car, '10d') + pw.gnews(car + ' رئيس جديد رسميا', '10d')
+        votes = {}
+        for it in items:
+            if it['date'] and event_date and abs((it['date'] - event_date).days) > 7: continue
+            for k, kind, name, interim in pw.extract(it['title']):
+                if kind == 'appoint' and name and len(name.split()) >= 2:
+                    votes.setdefault(pw.norm(name), {'name': name, 'hosts': set()})['hosts'].add(it.get('host') or host_of(it['link']))
+        for v in votes.values():
+            if len(v['hosts']) >= 2: return v['name']
+    except Exception as e:
+        print('ar_news fail', str(e)[:60])
+    finally:
+        pw.CLUBS = old
+    return None
+
+def resolve_arabic(en, club_key, event_date=None):
+    return ar_label(en) or ar_wikipedia(en) or ar_news(club_key, event_date)
+
+def upgrade_pending(d, alerts, now):
+    """Entries that were applied with an English name wait for an Arabic name; retry every cycle."""
+    done = False
+    for k, v in list(d.items()):
+        if not isinstance(v, dict) or not v.get('arPending'): continue
+        en = v.get('en')
+        club = next((kk for kk, vv in d.items() if vv is v), k)
+        ar = resolve_arabic(en, v.get('arClub') or k, None)
+        if ar:
+            for kk, vv in d.items():
+                if isinstance(vv, dict) and vv.get('arPending') and vv.get('en') == en:
+                    vv['name'] = ar + (' (رئيس مكلّف)' if vv.get('interim') else '')
+                    vv.pop('arPending', None); vv.pop('arClub', None)
+            alerts.append({'t': str(now), 'club': k, 'type': 'arabic-name-resolved', 'en': en, 'ar': ar})
+            done = True
+    return done
+
 def main():
+    if os.environ.get('WATCH_TEST_AR'):
+        out = {}
+        for nm in os.environ['WATCH_TEST_AR'].split('|'):
+            out[nm] = {'wikidata': ar_label(nm), 'wikipedia': ar_wikipedia(nm)}
+        json.dump(out, open('pres_ar_test.json', 'w'), ensure_ascii=False, indent=1)
+        return
     d = load('presidents.json', {})
     state = load('pres_watch_state_eu.json', {'seen': [], 'events': {}, 'resign': {}})
     alerts = load('presidents_alerts.json', [])
@@ -163,17 +230,20 @@ def main():
                 good = [h for h, r in res.items() if r and r[0]]
                 official = any(res[h][1] or re.search(OFFICIAL, ev['sources'][h]['title']) for h in good)
                 if len(good) >= 2 and official and recent(ev['sources']) and APPLY and cur:
-                    ar = ar_label(ev['name'])
+                    ar = resolve_arabic(ev['name'], club, None)
                     nm = (ar or ev['name']) + (' (رئيس مكلّف)' if ev['interim'] else '')
                     for kk in group_of(cur):
                         v = d[kk]
                         for f in ('image', 'imageAuto', 'imageFor', 'imageSrc', 'titles', 'titlesTotal', 'prev', 'titlesLabel', 'note', 'interim'): v.pop(f, None)
                         v.update({'name': nm, 'en': ev['name'], 'since': now.year, 'noTitles': True})
+                        if not ar: v['arPending'] = True; v['arClub'] = club
+                        else: v.pop('arPending', None); v.pop('arClub', None)
                         if ev['interim']: v['interim'] = True
                     alerts.append({'t': str(now), 'club': club, 'type': 'applied', 'old': cur['name'], 'new': nm, 'arabic_label_found': bool(ar), 'sources': {h: ev['sources'][h]['url'] for h in good}})
                     changed = True; del evs[k]
             elif (now - datetime.datetime.fromisoformat(ev['first'])).days >= 7:
                 alerts.append({'t': str(now), 'club': club, 'type': 'single-source', 'name': ev['name'], 'src': list(ev['sources'].values())[0]['url']}); del evs[k]
+    if APPLY and upgrade_pending(d, alerts, now): changed = True
     json.dump(state, open('pres_watch_state_eu.json', 'w'), indent=1, ensure_ascii=False)
     json.dump(alerts[-200:], open('presidents_alerts.json', 'w'), indent=1, ensure_ascii=False)
     if changed: json.dump(d, open('presidents.json', 'w'), indent=2, ensure_ascii=False)
