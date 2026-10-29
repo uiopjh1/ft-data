@@ -1,0 +1,72 @@
+{
+ "Hoffenheim": {
+  "name": "André Kreuzwieser",
+  "found": null,
+  "log": [
+   [
+    "https://www.tsg-hoffenheim.de/teams/profis/spielplan/",
+    "fail HTTP Error 403: Forbidden"
+   ],
+   [
+    "https://www.tsg-hoffenheim.de/teams/profis/tabelle/",
+    "fail HTTP Error 403: Forbidden"
+   ],
+   [
+    "https://www.tsg-hoffenheim.de/aktuelles/news/2026/10/kinderfussballuebung-des-monats-ueberzahl-express",
+    "fail HTTP Error 403: Forbidden"
+   ],
+   [
+    "https://www.tsg-hoffenheim.de/teams/profis/team/aktuelles/tsg-ergebnisse",
+    "fail HTTP Error 403: Forbidden"
+   ],
+   [
+    "https://www.tsg-hoffenheim.de/teams/profis/team/tsg-radio",
+    "fail HTTP Error 403: Forbidden"
+   ],
+   [
+    "https://www.tsg-hoffenheim.de/en/teams/first-team/team-en-us",
+    "fail HTTP Error 403: Forbidden"
+   ],
+   [
+    "https://www.tsg-hoffenheim.de/teams/profis/spielplan",
+    "fail HTTP Error 403: Forbidden"
+   ],
+   [
+    "https://www.tsg-hoffenheim.de/teams/profis/tabelle",
+    "fail HTTP Error 403: Forbidden"
+   ]
+  ]
+ },
+ "Union Berlin": {
+  "name": "Dirk Zingler",
+  "found": null,
+  "log": []
+ },
+ "Heidenheim": {
+  "name": "Holger Sanwald",
+  "found": null,
+  "log": []
+ },
+ "Werder Bremen": {
+  "name": "Hubertus Hess-Grunewald",
+  "found": null,
+  "log": [
+   [
+    "https://www.werder.de",
+    "fail HTTP Error 429: Too Many Reque"
+   ]
+  ]
+ },
+ "Mainz": {
+  "name": "Stefan Hofmann",
+  "found": null,
+  "log": [
+   [
+    "https://www.mainz05.de/vorstand",
+    "https://www.mainz05.de/getContentAsset/6ca5bd6a-0a57-4e90-b12e-7bff578bda6e/1c457d02-c081-4a55-b6c8-5b026d97b66e/csm_stefan-hofmann-2223_hp_8bc6ddbf2f.jpg?language=de-DE&vd=638181166944407202",
+    false,
+    "small"
+   ]
+  ]
+ }
+}
