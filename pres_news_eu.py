@@ -23,12 +23,12 @@ def run(en, key, log):
             seen.add(it['link']); n += 1
             if n > 8: return None
             real = pw.resolve(it['link'])
-            if not real: continue
+            if not real: log.append(['cand', it['title'][:60], 'RESOLVE-FAIL']); continue
             try: img = pa.og(real)
-            except Exception: continue
-            if not img: continue
+            except Exception as e: log.append(['cand', it['title'][:60], real[:60], 'PAGE-FAIL ' + str(e)[:40]]); continue
+            if not img: log.append(['cand', it['title'][:60], real[:60], 'NO-OG']); continue
             try: buf = pa.get(img, True)
-            except Exception: continue
+            except Exception as e: log.append(['cand', it['title'][:60], img[:60], 'IMG-FAIL ' + str(e)[:40]]); continue
             ok, why = pa.portrait_ok(buf)
             log.append([it['title'][:80], it.get('host'), real, img, ok, why])
             if ok:
@@ -54,7 +54,7 @@ def main():
         if only and en not in only.split('|'): continue
         if sh is not None and sh != '' and i % N != int(sh): continue
         log = []; r = run(en, key, log)
-        rep[en] = {'club': key, 'found': r, 'log': log[:14]}
+        rep[en] = {'club': key, 'found': r, 'log': log[:20]}
     json.dump(rep, open('pres_news_eu_report' + (os.environ.get('SHARD') or '') + '.json', 'w'), ensure_ascii=False, indent=1)
     print(sum(1 for v in rep.values() if v['found']), 'of', len(rep))
 if __name__ == '__main__': main()
