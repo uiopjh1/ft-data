@@ -27,7 +27,7 @@ def run(name, log):
     def ok_title(t, need_role=True): ft = fold(t); return all(w in ft for w in toks) and (ROLE.search(ft) or not need_role) and not BAD.search(ft)
     cands = []
     for q in (f'{name} معلق', f'المعلق {name}', f'{name} معلق رياضي ثمانية'):
-        bi = bing_images(q); log.append(['bing', q, len(bi), [x[0][:50] for x in bi[:3]]])
+        bi = bing_images(q); log.append(['bing', q, len(bi), [x[0][:60] for x in bi[:5]]])
         for t, mu, pu in bi:
             if mu and ok_title(t, False): cands.append(('img', t, mu, pu))
         time.sleep(0.8)
