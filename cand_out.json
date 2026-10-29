@@ -1,0 +1,87 @@
+{
+ "Liverpool_Werner": {
+  "status": 404,
+  "imgs": []
+ },
+ "Palace_Parish": {
+  "status": 200,
+  "imgs": [
+   {
+    "f": "cand/Palace_Parish_0.jpg",
+    "src": "https://media-cdn.cortextech.io/a8142e7d-0b43-42d3-8e2b-b99a9780d087.jpg?width=1200",
+    "bytes": 130822
+   }
+  ]
+ },
+ "Brentford_Crown": {
+  "status": 200,
+  "imgs": [
+   {
+    "f": "cand/Brentford_Crown_0.jpg",
+    "src": "https://res.cloudinary.com/brentford-fc/image/upload/g_auto,f_auto,q_auto/Web-GenericThumb_nrafpo?w=1200&amp;h=630&amp;fit=crop&amp;f=face",
+    "bytes": 55304
+   }
+  ]
+ },
+ "Cologne_Stobbe": {
+  "status": 200,
+  "imgs": []
+ },
+ "Hamburg_Koncke": {
+  "status": 200,
+  "imgs": [
+   {
+    "f": "cand/Hamburg_Koncke_0.jpg",
+    "src": "https://reshape.sport1.de/c/t/be4c4752-b8f9-4000-afc7-bb1588e85810/1290x726",
+    "bytes": 83094
+   },
+   {
+    "f": "cand/Hamburg_Koncke_1.jpg",
+    "src": "https://reshape.sport1.de/c/t/2debbc81-9c2e-46fb-8ddd-ce1484b4ca07/1280x720",
+    "bytes": 139097
+   }
+  ]
+ },
+ "Strasbourg_Keller": {
+  "status": 200,
+  "imgs": [
+   {
+    "f": "cand/Strasbourg_Keller_0.jpg",
+    "src": "https://www.rcstrasbourgalsace.fr/wp-content/uploads/2023/06/charte-logo-RCSA.jpg",
+    "bytes": 715227
+   }
+  ]
+ },
+ "Atalanta_Percassi2": {
+  "status": 200,
+  "imgs": [
+   {
+    "f": "cand/Atalanta_Percassi2_0.jpg",
+    "src": "https://images.atalanta.it/image/private/t_ratio16_9-size60/v1749025793/prd/ydqj2irp9rauc6j99gmf",
+    "bytes": 92450
+   }
+  ]
+ },
+ "Atalanta_Percassi3": {
+  "status": 200,
+  "imgs": [
+   {
+    "f": "cand/Atalanta_Percassi3_0.jpg",
+    "src": "https://images.atalanta.it/image/private/t_ratio16_9-size60/prd/szkhhujv9ilwviqjkwq5",
+    "bytes": 92289
+   }
+  ]
+ },
+ "Athletic_Uriarte2": {
+  "status": 403,
+  "imgs": []
+ },
+ "Napoli_Laurentiis2": {
+  "status": 200,
+  "imgs": []
+ },
+ "Lazio_Lotito2": {
+  "status": 200,
+  "imgs": []
+ }
+}
