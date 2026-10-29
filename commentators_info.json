@@ -225,14 +225,27 @@
  },
  "فارس عوض": {
   "checked": "2026-10-29",
-  "photo_rejected": "manual review 2026-10-29"
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/782746_1.jpg",
+  "img_conf": "manual_review",
+  "img_src": [
+   "https://al-ain.com/article/fares-awad-joins-ssc-channels",
+   "https://www.flickr.com/photos/aljalawi/6268052074/",
+   "https://www.sportksa.net/main/archives/158173",
+   "https://www.flickr.com/photos/68592786@N03/7285350588/"
+  ]
  },
  "فهد العتيبي": {
   "checked": "2026-10-29",
   "bio": "فهد خالد الرويس العتيبي معلق رياضي سعودي يعمل في ثمانية.",
   "src": "ar.wikipedia.org/wiki/%D9%81%D9%87%D8%AF_%D8%A7%D9%84%D8%B9%D8%AA%D9%8A%D8%A8%D9%8A",
   "wiki": "فهد العتيبي",
-  "photo_rejected": "manual review 2026-10-29"
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/944460_6.jpg",
+  "img_conf": "manual_review",
+  "img_src": [
+   "https://www.mawazin.net/Details.aspx?jimare=15416",
+   "https://soundcloud.com/bein-sports/pxrni0a4uzyr",
+   "https://beingames.net/pes2016-fahd-elotaiby-communtry"
+  ]
  },
  "مجيد بوطمين": {
   "checked": "2026-10-29"
