@@ -838,7 +838,8 @@
         "name": "دوري الدرجة الثانية الإيطالي",
         "detail": "2011"
       }
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/percassi.jpg"
   },
   "Athletic Club": {
     "name": "جون أوريارتي",
@@ -900,7 +901,8 @@
         "name": "درع المجتمع",
         "detail": "2025"
       }
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/parish.jpg"
   },
   "Brighton & Hove Albion": {
     "name": "توني بلوم",
