@@ -254,6 +254,14 @@ def main():
                         if not ar: v['arPending'] = True; v['arClub'] = club
                         else: v.pop('arPending', None); v.pop('arClub', None)
                         if ev['interim']: v['interim'] = True
+                    try:  # photo for the new president: identity-verified Wikipedia lead image in other languages (the app itself already tries English Wikipedia)
+                        import pres_wiki_multi as pwm
+                        ph = pwm.find(ev['name'], club, [])
+                        if ph:
+                            for kk in group_of(cur):
+                                d[kk].update({'image': ph['image'], 'imageAuto': True, 'imageFor': ev['name'], 'imageSrc': ph['src']})
+                    except Exception as e:
+                        print('photo lookup fail', str(e)[:60])
                     alerts.append({'t': str(now), 'club': club, 'type': 'applied', 'old': cur['name'], 'new': nm, 'arabic_label_found': bool(ar), 'sources': {h: ev['sources'][h]['url'] for h in good}})
                     changed = True; del evs[k]
             elif (now - datetime.datetime.fromisoformat(ev['first'])).days >= 7:
