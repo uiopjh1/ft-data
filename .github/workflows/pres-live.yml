@@ -1,5 +1,5 @@
 name: pres-live
-# GitHub's cron is best-effort and often hours late, so this job polls by itself every ~5 min for ~5h,
+# GitHub's cron is best-effort and often hours late, so this job polls by itself every hour for ~5h,
 # then starts its own successor (workflow_dispatch by GITHUB_TOKEN is allowed). The hourly cron only revives the chain if it ever breaks.
 on:
   workflow_dispatch:
@@ -32,9 +32,9 @@ jobs:
             python pres_watch_eu.py || true
             n=$((n+1))
             git add presidents.json presidents_alerts.json 2>/dev/null
-            if [ $((n % 12)) -eq 0 ]; then for f in pres_watch_state.json pres_watch_state_eu.json; do [ -f "$f" ] && git add "$f"; done; fi
+            if true; then for f in pres_watch_state.json pres_watch_state_eu.json; do [ -f "$f" ] && git add "$f"; done; fi
             if ! git diff --cached --quiet; then git commit -qm "pres-live" && (git pull --rebase --autostash -q; git push -q) || true; fi
-            sleep 180
+            sleep 3600
           done
           for f in pres_watch_state.json pres_watch_state_eu.json; do [ -f "$f" ] && git add "$f"; done
           git diff --cached --quiet || { git commit -qm "pres-live state" && (git pull --rebase --autostash -q; git push -q) || true; }
