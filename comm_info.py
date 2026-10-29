@@ -6,7 +6,7 @@ from commentators import fold
 socket.setdefaulttimeout(20)
 UAH = {'User-Agent': 'FTapp/1.0 (football app; github uiopjh1)'}
 ROLE = re.compile(r'معلق|تعليق|commentator|sportscaster', re.I)  # strict: a presenter/media person is not enough to prove identity
-SEED = ['عصام الشوالي','خالد الحربان','فارس عوض','خليل البلوشي','حفيظ دراجي','فهد العتيبي','حسن العيدروس','رؤوف خليف','علي سعيد الكعبي','أيمن جادة','جواد بدة','سوار الذهب علي','علي محمد علي','عبد الله الحربي','خالد الغول','آسيا عبد الله','حازم الكاديكي','أحمد الطيب','يوسف سيف','خالد الحدي','هيلة الفراج','عيسى الحربين','محمد عفيفي','حسن خالد','أحمد شوبير','مجيد بوطمين','مدحت شلبي','عامر الخوذيري']  # names only (ranksarabia.com list); photos always come from Wikipedia/Wikidata with identity check
+SEED = ['عصام الشوالي','خالد الحربان','فارس عوض','خليل البلوشي','حفيظ دراجي','فهد العتيبي','حسن العيدروس','رؤوف خليف','علي سعيد الكعبي','أيمن جادة','جواد بدة','سوار الذهب علي','علي محمد علي','عبد الله الحربي','خالد الغول','حازم الكاديكي','أحمد الطيب','يوسف سيف','خالد الحدي','عيسى الحربين','محمد عفيفي','حسن خالد','أحمد شوبير','مجيد بوطمين','مدحت شلبي','عامر الخوذيري']  # names only (ranksarabia.com list); photos always come from Wikipedia/Wikidata with identity check
 def jget(u):
     for i in range(6):
         try: return json.loads(urllib.request.urlopen(urllib.request.Request(u, headers=UAH), timeout=20).read())
@@ -68,6 +68,7 @@ def main():
         r = ar_wiki(n, log) or wikidata(n, log)
         time.sleep(1.2)
         ent = {'checked': today}
+        if cur and cur.get('photo_rejected'): ent['photo_rejected'] = cur['photo_rejected']
         if r:
             ent.update({'bio': (r.get('bio') or '')[:420], 'src': r.get('src', ''), 'wiki': r.get('title', '')})
             if r.get('thumb'): ent['image'] = r['thumb']
