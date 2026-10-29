@@ -6,9 +6,13 @@ from pres_auto_eu import fold
 import urllib.request
 UAH = {'User-Agent': 'FTapp/1.0 (football app; github uiopjh1)'}
 def jget(u):
-    for i in range(2):
-        try: return json.loads(urllib.request.urlopen(urllib.request.Request(u, headers=UAH), timeout=12).read())
-        except Exception as e: time.sleep(2)
+    import urllib.error
+    for i in range(7):
+        try: return json.loads(urllib.request.urlopen(urllib.request.Request(u, headers=UAH), timeout=15).read())
+        except urllib.error.HTTPError as e:
+            ra = e.headers.get('Retry-After') if e.headers else None
+            time.sleep(min(int(ra), 40) if ra and ra.isdigit() else 3 * (2 ** i) if i < 4 else 30)
+        except Exception as e: time.sleep(3)
     return {}
 LANGS = ['es', 'de', 'it', 'fr', 'pt']
 import socket, concurrent.futures
@@ -27,7 +31,7 @@ def find(en, key, log):
         resp = jget(u)
         pages = (resp.get('query') or {}).get('pages', {})
         log.append([lang, 'resp' if resp else 'EMPTY-RESP', [ (p.get('title'), bool(p.get('thumbnail'))) for p in pages.values()][:4]])
-        time.sleep(1.0)
+        time.sleep(1.5)
         for p in sorted(pages.values(), key=lambda p: p.get('index', 99)):
             title = fold(p.get('title', '')); ex = fold(p.get('extract', ''))
             th = (p.get('thumbnail') or {}).get('source')
@@ -54,7 +58,7 @@ def main():
         log = []; r = find(en, keys[0], log)
         return en, keys, log, r
     items = [(e, k) for e, k in todo.items() if not d[k[0]].get('image')]
-    with concurrent.futures.ThreadPoolExecutor(3) as ex:
+    with concurrent.futures.ThreadPoolExecutor(1) as ex:
         results = list(ex.map(work, items))
     for en, keys, log, r in results:
         rep[en] = {'keys': keys, 'found': r, 'log': log[:12]}
