@@ -6,6 +6,7 @@ from commentators import fold
 socket.setdefaulttimeout(20)
 UAH = {'User-Agent': 'FTapp/1.0 (football app; github uiopjh1)'}
 ROLE = re.compile(r'معلق|تعليق|commentator|sportscaster', re.I)  # strict: a presenter/media person is not enough to prove identity
+SEED = ['عصام الشوالي','خالد الحربان','فارس عوض','خليل البلوشي','حفيظ دراجي','فهد العتيبي','حسن العيدروس','رؤوف خليف','علي سعيد الكعبي','أيمن جادة','جواد بدة','سوار الذهب علي','علي محمد علي','عبد الله الحربي','خالد الغول','آسيا عبد الله','حازم الكاديكي','أحمد الطيب','يوسف سيف','خالد الحدي','هيلة الفراج','عيسى الحربين','محمد عفيفي','حسن خالد','أحمد شوبير','مجيد بوطمين','مدحت شلبي','عامر الخوذيري']  # names only (ranksarabia.com list); photos always come from Wikipedia/Wikidata with identity check
 def jget(u):
     for i in range(6):
         try: return json.loads(urllib.request.urlopen(urllib.request.Request(u, headers=UAH), timeout=20).read())
@@ -53,6 +54,7 @@ def main():
         for r in v['rows']: names.update(r['comm'])
     try: st = json.load(open('comm_stats.json')); names.update(st.get('names', {}).keys())
     except Exception: pass
+    names.update(SEED)
     only = os.environ.get('ONLY', ''); apply = os.environ.get('APPLY') == '1'
     today = datetime.date.today().isoformat(); old = (datetime.date.today() - datetime.timedelta(days=14)).isoformat()
     try: info = json.load(open('commentators_info.json'))
