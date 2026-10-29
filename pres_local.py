@@ -28,7 +28,7 @@ PRES = r'(?:presidente|presidenta|président|présidente|präsident|präsidentin
 NEW_CUE = r'(?:nuevo presidente|nueva presidenta|nuevo presidente del|elegido presidente|elegida presidenta|nombrado presidente|nuovo presidente|nuova presidente|eletto presidente|nominato presidente|neuer präsident|neue präsidentin|neuen präsidenten|nouveau président|nouvelle présidente|élu président|élue présidente|nommé président|novo presidente|nova presidente|eleito presidente)'
 NOT_FINAL = r'(?i)\b(podría|podrá|según|se perfila|candidat[oa]s?|candidatura|posible|rumor\w*|sueña|quiere|apunta|será|serán|estudia|valora|potrebbe|verso|ipotesi|pronto|sarà|vorrebbe|tentazione|könnte|soll|gerücht\w*|wird|will|kandidat\w*|pourrait|rumeur\w*|serait|sera|vers|envisage|veut|poderá|poderia|querem|quer|candidatos?)\b|\?'
 OFFICIAL = r'(?i)\b(oficial\w*|elegid[oa]|nombrad[oa]|confirma\w*|anuncia\w*|proclamad[oa]|ufficial\w*|elett[oa]|nominat[oa]|annuncia\w*|offiziell\w*|gewählt|ernannt|bestätigt|mitgliederversammlung|officiel\w*|élu\w*|nommé\w*|confirmé\w*|eleit[oa]|oficializ\w*)\b'
-COACH = r'(?i)\b(entrenador|técnico|allenatore|mister|trainer|entraîneur|treinador|director deportivo|direttore sportivo|sportdirektor|sportvorstand|directeur sportif|vicepresidente|vice-président|vizepräsident|vice-presidente|federación|federazione|verband|fédération|federação|liga|lega|fifa|uefa|capitán|capitano|kapitän|jugador|giocatore|spieler|joueur)\b'
+COACH = r'(?i)\b(rugby|basket\w*|baloncesto|pallacanestro|handball|hockey|volley\w*|tennis|ciclismo|laliga|la liga|ligue 1|bundesliga|serie a|premier league|régulateur|regulador|regolatore|entrenador|técnico|allenatore|mister|trainer|entraîneur|treinador|director deportivo|direttore sportivo|sportdirektor|sportvorstand|directeur sportif|vicepresidente|vice-président|vizepräsident|vice-presidente|federación|federazione|verband|fédération|federação|liga|lega|fifa|uefa|capitán|capitano|kapitän|jugador|giocatore|spieler|joueur)\b'
 RESIGN = r'(?i)\b(dimite|dimisión|renuncia|dimitió|si dimette|dimissioni|dimesso|rücktritt|tritt zurück|zurückgetreten|démission\w*|quitte la présidence|demite-se|demissão|demitiu)\b'
 
 def extract_local(title, clubs):
@@ -38,9 +38,12 @@ def extract_local(title, clubs):
     out = []
     for key, aliases in clubs:
         cr = '(?:' + '|'.join(re.escape(a) for a in aliases) + ')'
-        if not re.search(r'\b' + cr + r'\b', title): continue
+        cm = re.search(r'\b' + cr + r'\b', title)
+        if not cm: continue
         if re.search(RESIGN, title) and re.search(PRES, title, re.I) and not re.search(COACH, title):
-            out.append((key, 'resign', None, False)); continue
+            ok = re.search(PRES + r"\s+(?:del|della|dello|de la|de l'|de|du|des|von|do|da|di|d')\s*" + cr + r'\b', title, re.I) or re.search(cr + r'\b.{0,25}?' + PRES, title, re.I)
+            if ok: out.append((key, 'resign', None, False))
+            continue
         if re.search(COACH, title): continue
         m = re.search(NAME + r'\s*[,:–\-]?\s*(?:(?:nommé|nommée|élu|élue|eletto|eletta|nominato|elegido|elegida|nombrado|nombrada|gewählt|ernannt|eleito)\s+)?(?:es\s+el\s+|es\s+|è\s+il\s+|è\s+la\s+|ist\s+|est\s+|foi\s+|é\s+o\s+)?(?:el\s+|il\s+|der\s+|le\s+|o\s+)?(?:' + NEW_CUE + r')', title, re.I) \
             or re.search(r'(?:' + NEW_CUE + r')\s*(?:del|della|dello|dell\'|de|du|des|von|des|do|da|di|al|a)?\s*\b' + cr + r'\b\s*[,:–\-]?\s*' + NAME, title, re.I) \
@@ -52,5 +55,10 @@ def extract_local(title, clubs):
             nm = m.group('n').strip(' .,-')
             bad = {fold(a) for _, al in clubs for a in al}
             if len(nm.split()) >= 2 and fold(nm) not in bad:
-                out.append((key, 'appoint', nm, bool(re.search(r'(?i)interin\w*|provisional|reggente|kommissarisch|intérim|provisório', title))))
-    return out
+                out.append((key, 'appoint', nm, bool(re.search(r'(?i)interin\w*|provisional|reggente|kommissarisch|intérim|provisório', title)), abs(cm.start() - m.start('n'))))
+    # several clubs named in one headline: keep the appointment for the club nearest the name only
+    ap = [o for o in out if o[1] == 'appoint']
+    if len(ap) > 1:
+        best = min(ap, key=lambda o: o[4])
+        out = [o for o in out if o[1] != 'appoint'] + [best]
+    return [o[:4] for o in out]
