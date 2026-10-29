@@ -32,10 +32,12 @@ def commons(en, last):
             ii = (p.get('imageinfo') or [{}])[0]
             if ii.get('thumburl'): out.append(('commons', ii['thumburl'], t))
     return out
+DBG = []
 def bing(q, last):
     out = []
     try: h = pa.get('https://www.bing.com/images/search?q=' + urllib.parse.quote(q) + '&form=HDRSC2&first=1', timeout=25)
     except Exception as e: return out
+    DBG.append([q, len(h), h.count('murl'), h.count('iusc'), re.sub(r'\s+', ' ', h[:150])])
     for m in re.finditer(r'm="(\{[^"]*?murl[^"]*?\})"', h):
         try: j = json.loads(html.unescape(m.group(1)))
         except Exception: continue
@@ -66,4 +68,4 @@ if __name__ == '__main__':
     for en, cl in CLUB.items():
         if only and en not in only.split('|'): continue
         r, n = run(en, None, cl); rep[en] = {'sources': n, 'cands': r}; print(en, n, len(r), flush=True)
-    json.dump(rep, open('pres_img_more_report.json', 'w'), ensure_ascii=False, indent=1)
+    rep['_dbg'] = DBG[:12]; json.dump(rep, open('pres_img_more_report.json', 'w'), ensure_ascii=False, indent=1)
