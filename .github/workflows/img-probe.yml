@@ -11,4 +11,4 @@ jobs:
       - run: timeout 300 python img_probe.py
       - run: |
           git config user.name github-actions; git config user.email a@b.c
-          git add img_probe_out.json; git commit -qm probe; for i in 1 2 3; do git pull --rebase -q && git push -q && break; done
+          git add yandex_sample.html; git commit -qm probe; for i in 1 2 3; do git pull --rebase -q && git push -q && break; done
