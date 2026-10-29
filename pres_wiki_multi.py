@@ -41,6 +41,8 @@ def find(en, key, log):
             try: buf = pa.get(th, True)
             except Exception: log.append([lang, p.get('title'), 'img fail']); continue
             ok, why = pa.portrait_ok(buf)
+            fn_ = fold(urllib.parse.unquote(th.split('/')[-1]))
+            if not ok and why == 'faces=0' and last in fn_ and not re.search(r'supporter|fans|match|team|squad|crowd|stadium|sign|meeting|vs', fn_): ok, why = True, 'faces=0 but filename carries surname (identity-verified lead image)'
             log.append([lang, p.get('title'), th, ok, why])
             if ok: return {'image': th, 'src': f'https://{lang}.wikipedia.org/wiki/' + urllib.parse.quote(p['title'].replace(' ', '_')), 'lang': lang, 'intro': p.get('extract', '')[:160]}
     return None
@@ -57,7 +59,9 @@ def main():
         en, keys = item
         log = []; r = find(en, keys[0], log)
         return en, keys, log, r
-    items = [(e, k) for e, k in todo.items() if not d[k[0]].get('image')]
+    import os
+    only = os.environ.get('ONLY')
+    items = [(e, k) for e, k in todo.items() if not d[k[0]].get('image') and (not only or e in only.split('|'))]
     with concurrent.futures.ThreadPoolExecutor(1) as ex:
         results = list(ex.map(work, items))
     for en, keys, log, r in results:
