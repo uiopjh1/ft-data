@@ -75,7 +75,12 @@
   ]
  },
  "محمد العدالي": {
-  "checked": "2026-10-29"
+  "checked": "2026-10-29",
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/mohamed_aladali.jpg",
+  "img_conf": "user",
+  "img_src": [
+   "provided by app owner"
+  ]
  },
  "محمد المبروكي": {
   "checked": "2026-10-29",
