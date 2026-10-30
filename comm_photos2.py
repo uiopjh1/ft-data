@@ -39,7 +39,7 @@ def main():
     for n in sorted(info):
         e = info[n]
         if e.get('photo_rejected') or 'wikimedia' in (e.get('image') or ''): continue
-        if e.get('image') and e.get('img_conf') not in ('single', 'face_multi', None): continue
+        if e.get('image') and e.get('img_conf') not in ('single', None): continue   # face_multi/user/... are never re-checked or dropped
         its = cp.items(n)
         if its is None: print(n, 'blocked', flush=True); continue
         for q2 in ('"%s"' % n, '"%s" المعلق الرياضي' % n):

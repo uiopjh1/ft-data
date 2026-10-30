@@ -125,13 +125,29 @@
   "checked": "2026-10-29",
   "bio": "أيمن جادة (ولد 1378 هـ / 1958 م) إعلامي رياضي سوري، يُعَدُّ من روَّاد الإعلام الرياضي في سورية، ومشاهير الإعلاميين الرياضيين العرب. مذيع ومقدِّم برامج ومعلِّق رياضي وصحفي ورئيس تحرير. تولى رئاسة تحرير مجلة الصقر الرياضية القطرية، وإدارة قنوات بي إن سبورت الرياضية. اشتَهَر بتعليقه على نهائيات بعض البطولات العالمية مثل المباراة النهائية لكأس العالم 1994 وكأس العالم 1998. حصل على الجنسية القطرية.",
   "src": "ar.wikipedia.org/wiki/%D8%A3%D9%8A%D9%85%D9%86_%D8%AC%D8%A7%D8%AF%D8%A9",
-  "wiki": "أيمن جادة"
+  "wiki": "أيمن جادة",
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/42023914.jpg",
+  "img_conf": "face_multi",
+  "img_src": [
+   "https://www.youtube.com/watch?v=7GoKPbRyIq8",
+   "https://www.youtube.com/watch?v=KCXtA7LRWVs",
+   "https://www.youtube.com/watch?v=KCXtA7LRWVs",
+   "https://www.youtube.com/watch?v=KCXtA7LRWVs"
+  ]
  },
  "جواد بدة": {
   "checked": "2026-10-29",
   "bio": "جواد بدة (مواليد سنة 1982) هو صحفي ومعلق رياضي مغربي يعمل في شبكة قنوات بي إن سبورتس العربية.",
   "src": "ar.wikipedia.org/wiki/%D8%AC%D9%88%D8%A7%D8%AF_%D8%A8%D8%AF%D8%A9",
-  "wiki": "جواد بدة"
+  "wiki": "جواد بدة",
+  "img_conf": "face_multi",
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/17686051.jpg",
+  "img_src": [
+   "https://ar.le360.ma/people/STDDUAROWVCWNG7JIRBVSUMUAE/",
+   "https://www.youtube.com/watch?v=nAyek-mS5y4",
+   "https://www.youtube.com/watch?v=nAyek-mS5y4",
+   "https://www.youtube.com/watch?v=nAyek-mS5y4"
+  ]
  },
  "حازم الكاديكي": {
   "checked": "2026-10-29",
@@ -181,7 +197,15 @@
   "checked": "2026-10-29",
   "bio": "خالد يوسف الحربان (3 ديسمبر 1944م) مقدم برامج تلفزيونية ومعلق رياضي وتربوي  كويتي ، يلقب بشيخ المعلقين ، اشتهر منذ السبعينيات والثمانينات ومن خلال الراديو تحديداً، انتشرت تعليقاته عبر كل الأوساط العربية والرياضية.",
   "src": "ar.wikipedia.org/wiki/%D8%AE%D8%A7%D9%84%D8%AF_%D8%A7%D9%84%D8%AD%D8%B1%D8%A8%D8%A7%D9%86",
-  "wiki": "خالد الحربان"
+  "wiki": "خالد الحربان",
+  "img_conf": "face_multi",
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/93343243.jpg",
+  "img_src": [
+   "https://www.youtube.com/watch?v=2r3Tzff8TTA",
+   "https://www.alqabas.com/article/99014/",
+   "https://www.youtube.com/watch?v=C_Dp9Qf7AjQ",
+   "https://www.alqabas.com/article/99014/"
+  ]
  },
  "خالد الغول": {
   "checked": "2026-10-29",
@@ -231,7 +255,15 @@
   "checked": "2026-10-29",
   "bio": "علي سعيد الكعبي (ولد 1966 م) معلق إماراتي يكنى بأبي فيصل، ومعلق في قنوات bein sport يعتبر واحدا من مشاهير الإعلام في مجال التعليق الرياضي، شارك في التعليق على مباريات كأس العالم لكرة القدم، ويتابعه عبر مواقع التواصل الاجتماعي أكثر من مليون مشترك.",
   "src": "ar.wikipedia.org/wiki/%D8%B9%D9%84%D9%8A_%D8%B3%D8%B9%D9%8A%D8%AF_%D8%A7%D9%84%D9%83%D8%B9%D8%A8%D9%8A",
-  "wiki": "علي سعيد الكعبي"
+  "wiki": "علي سعيد الكعبي",
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/68441071.jpg",
+  "img_conf": "face_multi",
+  "img_src": [
+   "https://www.emaratalyoum.com/sports/local/2023-05-17-1.1748672?ot=ot.AMPPageLayout",
+   "https://www.youtube.com/watch?v=icFwsOeDDDM",
+   "https://www.youtube.com/watch?app=desktop&v=slE6Fuj_ZO0",
+   "https://www.emaratalyoum.com/sports/local/2023-05-17-1.1748672?ot=ot.AMPPageLayout"
+  ]
  },
  "علي محمد علي": {
   "checked": "2026-10-29",
