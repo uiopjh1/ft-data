@@ -1,4 +1,61 @@
 {
- "updated": 1793393690130,
- "items": []
+ "updated": 1793393997640,
+ "items": [
+  {
+   "club": "Espanyol",
+   "club_ar": "",
+   "type": "hire",
+   "first": "2026-10-28T17:35:21",
+   "sources": [
+    {
+     "host": "es-us.noticias.yahoo.com",
+     "title": "Eder Sarabia, nuevo entrenador del Espanyol - Yahoo",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVUx4Y1hwX2k3Y25tUVY3Rzc4OW9DVERqdndtMWdWeS1VRS1SajIwRjZEeGxDa1VNQlQzM0NSREZGVk5ZQmdkbHo1TDZNWVZ5QWtxMHJLZV9pbmhXLTRPeGZWSTVGN1luRVdQRm9FMzFQZ001TUF1TVpUVE1GQnhmb2s0TGxOUjVEM19GcE5mOHYzSmM?oc=5"
+    },
+    {
+     "host": "elmundo.es",
+     "title": "Eder Sarabia, nuevo entrenador del RCD Espanyol tras la destitución de Manolo González - El Mundo",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOS29mWWhONUppTkdZczVlbFh3R3BpWE40V2lVUHh6cGhiVkNSYThvRjdRM1FOek1SS0lid3Y1UnRtUUxHdl94MDYwRWtiaTNTeG45QjE4UFVXc0RYbVpFMV9NeW5temFTTGljLWhXVHNQSDRCQWVjam50djJ0Z2l0U2hneTdBTFF6bTNfcXdwRVJJVElzdVY0endlY3fSAZwBQVVfeXFMTTlvZ2laU0hLS3A2REtOVUpBYThYQ1ZEMzV0MWN1Q2FXTFRBTWRicE9nM2FtMXp0ci1jSGU4MS03bG03YVNBR2c0MkJEc3dhekl5OUtjQ1c2WVBCX3Z6dnU4aldiY1RadUxBVVhiMjdCRVNTZjlKc1FuS3R2ci1EVVd4LUd2WGJmUzJ4T2JUZi1kQW96ZGRTOFhsQXRq?oc=5"
+    },
+    {
+     "host": "as.com",
+     "title": "Oficial: Sarabia es el nuevo entrenador del Espanyol - Diario AS",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWVR3b1ZLRFhhRzBUQkhNZWNReUEyTm9ma2RMa3RROVlkbEZTUmF1d01rYTBPdEFlTnJheUFLaWRyTmRIMzJZT2RUbmNUMjk1alhyczlzMHhtUUwwX3BhZjhrUFdCRmZlMzNpc2x4LUJ4NmdfR3RaSjhUX1U5QXBNYzhOVWdncGdicU5BYjlPVW5fVDY0aHZKSHFvdVlwSDVmU3JxUUtwMGdIRU3SAasBQVVfeXFMUFlUd29WS0RYYUcwVEJITWVjUXlBMk5vZmtkTGt0UTlZZGxGU1JhdXdNa2EwT3RBZU5yYXlBS2lkck5kSDMyWU9kVG5jVDI5NWpYcnM5czB4bVFMMF9wYWY4a1BXQkZmZTMzaXNseC1CeDZnX0d0Wko4VF9VOUFwTWM4TlVnZ3BnYnFOQWI5T1VuX1Q2NGh2Skhxb3VZcEg1ZlNycVFLcDBnSEVN?oc=5"
+    },
+    {
+     "host": "amp.sport.es",
+     "title": "Oficial: Sarabia, nuevo entrenador del Espanyol - SPORT",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNT0EzekU4SXpTZ2ptTlZsc1dSR2FMTUlHYU4tUnpuMWkxNEZYcXFHdFIwckFFWlczTGlBTGxKbjRHMzhoQmJXOHJPcjdXN3ZuLVNCMEphQ3RkNExHSTA2R09PS01HVFU4T1JPSV9XdHkzYWlJWWJLVFNJaWhqZUw4MEpvM3VHdFUtOWlsZjdhWi01eVZ5dWdUcNIBmAFBVV95cUxNT0EzekU4SXpTZ2ptTlZsc1dSR2FMTUlHYU4tUnpuMWkxNEZYcXFHdFIwckFFWlczTGlBTGxKbjRHMzhoQmJXOHJPcjdXN3ZuLVNCMEphQ3RkNExHSTA2R09PS01HVFU4T1JPSV9XdHkzYWlJWWJLVFNJaWhqZUw4MEpvM3VHdFUtOWlsZjdhWi01eVZ5dWdUcA?oc=5"
+    }
+   ]
+  },
+  {
+   "club": "Espanyol",
+   "club_ar": "",
+   "type": "sack",
+   "first": "2026-10-27T21:22:09",
+   "sources": [
+    {
+     "host": "sport.es",
+     "title": "Oficial: Monchi destituye a Manolo González como entrenador del Espanyol - SPORT",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNak5kWGVGSF8ySnZQYXBBUHZfX3lYZnJ2RXNRZG00Nk9qeXVHSUhaclhUekE3QTdScWFlQVkzMHo3cnR3YjZXVEdGb2hxeVNMaEFERklwUXJtczNvYjk4VFZEVU90OHM0RXNBZU9TV1lvWmxhdF84V3IwY3AwaGhGMFhGejNaNkRwWWFFdkI0TnFFdHJqTHpr0gGXAUFVX3lxTE4zekZVbmpSQlZHNHhwcVNEN1NWanNBZHFTaDY1V3k1VUdYT0pfaF9Wd3Uxc2dONnFPRXc0UEdPcU5mb0R2ZWlBZnd5a3VlanNfT192Y3ZXQUNCcC1nT2RYNDVyaHFteWxpZHBrc3ZNUktRbkctQzVYMUUwUzhoLTQwdjdFZmVoV0M4NVRLMzkxZ2ZPV21jVHc?oc=5"
+    },
+    {
+     "host": "es-us.noticias.yahoo.com",
+     "title": "El Espanyol destituye a su entrenador Manolo Gonzalez tras la humillante eliminación de la Copa del Rey ante el Sestao, de cuarta categoría - Yahoo",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMkdIVHpDQUg4ZUJGcVdPeXBqcTFlLW5YVjhmZmkxYWJ0UlBKU1FQSkd4dXVmYTBLZWJEV2NfcEUtejRKTEhMeEFiSmt2TGxicFB3ZHVCaktOMF94ODhvc2RySkFDUUc4NXNJeWd6cEpIcWdiQUZHYklKV19VWkNBN3IzdHN1TWVVckRFTmFsdFUwSm0tOEFfbUIzczRFUmtWV1dSNw?oc=5"
+    },
+    {
+     "host": "goal.com",
+     "title": "Espanyol sack manager Manolo Gonzalez after humiliating Copa del Rey exit to fourth-tier Sestao - Goal.com",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcXlVZVd0MnU0VVFEN0s1VFFJTzBFVHNfbWY0RkxEcmRoUzM5blZjc0E0b1pNZlpvbTQ5SEhaWXRWQjRkX3lyVHpWNEhxeTRBNzI1VnRTb0I5UGZMSGF5UFBjVklPeVg3S2xDaWJia3RyYmhRZWlTdzdrNzBrZkNrTEMtUThub3JMMGMwVEJxTjVVdUJLak5xdw?oc=5"
+    },
+    {
+     "host": "espn.com",
+     "title": "Espanyol, with Watt among owners, sack González after loss to 4th-tier side - ESPN",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVDI1ZzBvcVoxY2czcnNLSnN1RVpaOWJiSW9Kc0FtRDdEVVpFWUctc1o2amZWNUYxTi01SEhiTGw0NXFOQU45YUJyNkI5ZUZaM1FTclQxT2ZJb3BLeDdONG81WDNaM2tmZ0pCQ1VJWTRJZTBMMm9zZmkxMUl4TVJ5elVua3YyMzVvT1puVFpIdUp6d0lDU2xDMnF3aDU3QlIyYWxF?oc=5"
+    }
+   ]
+  }
+ ]
 }

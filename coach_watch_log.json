@@ -1,5 +1,5 @@
 {
- "t": "2026-10-30T20:54:24.024694",
+ "t": "2026-10-30T20:59:08.097719",
  "seen": [
   {
    "club": "Al Ahli",
@@ -15,6 +15,86 @@
    "n": 1,
    "hosts": [
     "al-madina.com"
+   ]
+  },
+  {
+   "club": "Liverpool",
+   "type": "hire",
+   "n": 1,
+   "hosts": [
+    "bbc.com"
+   ]
+  },
+  {
+   "club": "Espanyol",
+   "type": "hire",
+   "n": 4,
+   "hosts": [
+    "es-us.noticias.yahoo.com",
+    "elmundo.es",
+    "as.com",
+    "amp.sport.es"
+   ]
+  },
+  {
+   "club": "Espanyol",
+   "type": "sack",
+   "n": 5,
+   "hosts": [
+    "sport.es",
+    "es-us.noticias.yahoo.com",
+    "goal.com",
+    "espn.com",
+    "ca.sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Bayern Munich",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "sueddeutsche.de"
+   ]
+  }
+ ],
+ "eu": [
+  {
+   "club": "Liverpool",
+   "type": "hire",
+   "n": 1,
+   "hosts": [
+    "bbc.com"
+   ]
+  },
+  {
+   "club": "Espanyol",
+   "type": "hire",
+   "n": 4,
+   "hosts": [
+    "es-us.noticias.yahoo.com",
+    "elmundo.es",
+    "as.com",
+    "amp.sport.es"
+   ]
+  },
+  {
+   "club": "Espanyol",
+   "type": "sack",
+   "n": 5,
+   "hosts": [
+    "sport.es",
+    "es-us.noticias.yahoo.com",
+    "goal.com",
+    "espn.com",
+    "ca.sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Bayern Munich",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "sueddeutsche.de"
    ]
   }
  ]
