@@ -1675,7 +1675,8 @@
    "ar": "الدعجاني"
   },
   "A. Al Yuhaybi": {
-   "ar": "اليحيبي"
+   "ar": "عمار اليهيبي",
+   "short": "اليهيبي"
   },
   "K. Al Karani": {
    "ar": "كشيم القحطاني",
@@ -1900,6 +1901,46 @@
   "Faisal Al-Sobyani": {
    "ar": "فيصل الصبياني",
    "short": "فيصل الصبياني"
+  },
+  "Amar Hamed Al Yuhaybi": {
+   "ar": "عمار اليهيبي",
+   "short": "اليهيبي"
+  },
+  "Amar Hamed Al-Yuhaybi": {
+   "ar": "عمار اليهيبي",
+   "short": "اليهيبي"
+  },
+  "Amar Al Yuhaybi": {
+   "ar": "عمار اليهيبي",
+   "short": "اليهيبي"
+  },
+  "Amar Al-Yuhaybi": {
+   "ar": "عمار اليهيبي",
+   "short": "اليهيبي"
+  },
+  "Ammar Al-Yuhaybi": {
+   "ar": "عمار اليهيبي",
+   "short": "اليهيبي"
+  },
+  "Ammar Al Yuhaybi": {
+   "ar": "عمار اليهيبي",
+   "short": "اليهيبي"
+  },
+  "Amar Al-Yuhaibi": {
+   "ar": "عمار اليهيبي",
+   "short": "اليهيبي"
+  },
+  "Amar Alyuhaybi": {
+   "ar": "عمار اليهيبي",
+   "short": "اليهيبي"
+  },
+  "A. Al-Yuhaybi": {
+   "ar": "عمار اليهيبي",
+   "short": "اليهيبي"
+  },
+  "Amar Hamed Al Yuhaibi": {
+   "ar": "عمار اليهيبي",
+   "short": "اليهيبي"
   }
  }
 }
