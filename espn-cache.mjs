@@ -14,7 +14,8 @@ for (const slug of SLUGS) {
     if (!hasRows) throw new Error('no rows');
     let same = false;
     if (existsSync(file)) {
-      try { const o = JSON.parse(readFileSync(file, 'utf8')); delete o._ts; same = JSON.stringify(o) === JSON.stringify(j); } catch (e) {}
+      // إن لم يتغير الترتيب نعيد الكتابة مرة كل 6 ساعات فقط ليبقى ختم الوقت حديثاً (التطبيق يتجاهل النسخة الأقدم من 36 ساعة)
+      try { const o = JSON.parse(readFileSync(file, 'utf8')); const ts = o._ts || 0; delete o._ts; same = JSON.stringify(o) === JSON.stringify(j) && Date.now() - ts < 6 * 3600000; } catch (e) {}
     }
     if (!same) writeFileSync(file, JSON.stringify({ ...j, _ts: Date.now() }));
     ok++;
