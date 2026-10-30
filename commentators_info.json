@@ -331,7 +331,12 @@
   ]
  },
  "جعفر الصليح": {
-  "checked": "2026-10-29"
+  "checked": "2026-10-29",
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/jaafar_alsulaih.jpg",
+  "img_conf": "user",
+  "img_src": [
+   "provided by app owner"
+  ]
  },
  "راشد الدوسري": {
   "checked": "2026-10-29"
