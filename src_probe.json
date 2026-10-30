@@ -1,0 +1,140 @@
+{
+ "worldreferee": {
+  "home_status": 403,
+  "home_title": "HTTP Error 403: Forbidden",
+  "robots_status": 403,
+  "robots": "",
+  "terms_links": [],
+  "sample_pages": [
+   [
+    "WorldReferee.com - Karol Galba matches",
+    "https://worldreferee.com/site/match.php?matchID=15598&refID=2194"
+   ],
+   [
+    "WC 2014 qualifiers Playoffs Referees WorldReferee",
+    "https://worldreferee.com/competition/WC+2014+qualifiers+Playoffs"
+   ],
+   [
+    "Football Referee Database - Profiles, Stats & Match History WorldReferee",
+    "https://worldreferee.com/"
+   ],
+   [
+    "The Referees of the 2023 FIFA Womens World Cup WorldReferee",
+    "https://worldreferee.com/story/the-referees-of-the-2023-fifa-womens-world-cup"
+   ],
+   [
+    "WorldReferee.com - Pasquale Rodomonti matches",
+    "https://worldreferee.com/site/match.php?refID=933&matchID=3921"
+   ]
+  ],
+  "profiles": [
+   {
+    "url": "https://worldreferee.com/site/match.php?matchID=15598&refID=2194",
+    "status": 403,
+    "og_image": null,
+    "title": ""
+   },
+   {
+    "url": "https://worldreferee.com/competition/WC+2014+qualifiers+Playoffs",
+    "status": 403,
+    "og_image": null,
+    "title": ""
+   }
+  ]
+ },
+ "playmakerstats": {
+  "home_status": 403,
+  "home_title": "HTTP Error 403: Forbidden",
+  "robots_status": 403,
+  "robots": "",
+  "terms_links": [],
+  "sample_pages": [
+   [
+    "Danny Imray - Bromley - Player Profile & Stats",
+    "https://www.playmakerstats.com/player/danny-imray/782757"
+   ],
+   [
+    "Verona :: Completed Matches 1997/1998 :: playmakerstats.com",
+    "https://www.playmakerstats.com/player/verona/33/results?tpstats=club&epoca_id=127&equipa_id=3532&eve=ass"
+   ],
+   [
+    "playmakerstats.com :: World`s Largest Football Database",
+    "https://www.playmakerstats.com/?id=499073&redirm=1"
+   ],
+   [
+    "Martina Brustia :: Martina Brustia :: Internazionale",
+    "https://www.playmakerstats.com/player_awards.php?id=699511"
+   ],
+   [
+    "Photos :: River Plate 3-1 Urawa Reds :: FIFA Club World Cup 2025",
+    "https://www.playmakerstats.com/match/2025-06-17-river-plate-urawa-reds/10667694/photos"
+   ]
+  ],
+  "profiles": [
+   {
+    "url": "https://www.playmakerstats.com/player/danny-imray/782757",
+    "status": 403,
+    "og_image": null,
+    "title": ""
+   },
+   {
+    "url": "https://www.playmakerstats.com/player/verona/33/results?tpstats=club&epoca_id=127&equipa_id=3532&eve=ass",
+    "status": 403,
+    "og_image": null,
+    "title": ""
+   }
+  ]
+ },
+ "transfermarkt": {
+  "home_status": 202,
+  "home_title": "",
+  "robots_status": 200,
+  "robots": "User-agent: Slurp\nCrawl-delay: 2\n\nUser-agent: Mediapartners-Google\nDisallow:\n\nUser-agent: wget\nDisallow: /\n\nUser-agent: *\nAllow: /\n",
+  "terms_links": [],
+  "sample_pages": [
+   [
+    "Composite Pavlovskiy Posad (-2025) - Transfers 21/22 Transfermarkt",
+    "https://www.transfermarkt.com/composite-pavlovskiy-posad-2025-/transfers/verein/102743/saison_id/2021/sort/abloese.desc"
+   ],
+   [
+    "Ibrahim Majed - Transfer history Transfermarkt",
+    "https://www.transfermarkt.com/jumplist/transfers/spieler/86071/transfer_id/2721795"
+   ],
+   [
+    "FC Aktobe U18 - Transfers 25/26 (Detailed view) Transfermarkt",
+    "https://www.transfermarkt.com/fc-aktobe-u18/transfers/verein/120361/saison_id/2025/pos/detailpos/0/w_s/skip_loans/skip_youth/plus/1"
+   ],
+   [
+    "SShOR-1 Kristall St. Petersburg - Detailed squad 25/26 (Gallery) Page 32 Transfe",
+    "https://www.transfermarkt.com/sshor-1-kristall-st-petersburg/kader/verein/121100/saison_id/2025/galerie/1/page/32"
+   ],
+   [
+    "Majed Abdullah - Record against Kopetdag Asgabat Transfermarkt",
+    "https://www.transfermarkt.com/majed-abdullah/bilanzdetails/spieler/101764/gegner_id/19968"
+   ]
+  ],
+  "profiles": [
+   {
+    "url": "https://www.transfermarkt.com/composite-pavlovskiy-posad-2025-/transfers/verein/102743/saison_id/2021/sort/abloese.desc",
+    "status": 202,
+    "og_image": null,
+    "title": ""
+   },
+   {
+    "url": "https://www.transfermarkt.com/jumplist/transfers/spieler/86071/transfer_id/2721795",
+    "status": 202,
+    "og_image": null,
+    "title": ""
+   }
+  ]
+ },
+ "refereeobserver": {
+  "home_status": 0,
+  "home_title": "<urlopen error [Errno -2] Name or service not known>",
+  "robots_status": 0,
+  "robots": "",
+  "terms_links": [],
+  "sample_pages": [],
+  "profiles": []
+ }
+}
