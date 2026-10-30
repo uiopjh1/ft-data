@@ -121,7 +121,11 @@
  },
  "مشعل الشمري": {
   "checked": "2026-10-29",
-  "photo_rejected": "manual review 2026-10-29"
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/mishaal_alshammari.jpg",
+  "img_conf": "user",
+  "img_src": [
+   "provided by app owner"
+  ]
  },
  "آسيا عبد الله": {
   "photo_rejected": "removed at owner request 2026-10-30",
