@@ -9,7 +9,7 @@ def get(u,raw=False):
             r=urllib.request.urlopen(urllib.request.Request(u,headers=H),timeout=25).read()
             return r if raw else json.loads(r)
         except Exception as e:
-            err=str(e);time.sleep(2)
+            open('kit/net.txt','a').write(u+' '+str(e)+'\n');time.sleep(2)
     return None
 def hexrgb(h):
     h=h.lstrip('#');return np.array([int(h[i:i+2],16) for i in (0,2,4)],float)
@@ -55,4 +55,6 @@ def main(team_name):
         x,y=(i%cols_n)*125,(i//cols_n)*175;S.paste(im,(x,y))
         d.text((x+2,y+152),nm[:20],fill='red' if v=='suspect' else 'black')
     S.save('kit/sheet.jpg',quality=80)
-main(sys.argv[1])
+import traceback
+try: main(sys.argv[1])
+except Exception: open('kit/error.txt','w').write(traceback.format_exc())

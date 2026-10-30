@@ -11,6 +11,7 @@ jobs:
         with: {python-version: '3.11'}
       - run: pip install pillow numpy
       - run: python kit/kit_check.py "Abha"
-      - run: |
+      - if: always()
+        run: |
           git config user.name ft-bot; git config user.email bot@ft
           git add kit && git commit -m "kit test" && git pull -q --rebase && git push || true
