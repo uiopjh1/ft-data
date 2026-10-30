@@ -1,1816 +1,1833 @@
 {
-  "version": 1,
-  "players": {
-    "Yassine Bounou": {
-      "ar": "ياسين بونو",
-      "short": "بونو"
-    },
-    "Joao Cancelo": {
-      "ar": "جواو كانسيلو",
-      "short": "كانسيلو"
-    },
-    "Kalidou Koulibaly": {
-      "ar": "كاليدو كوليبالي",
-      "short": "كوليبالي"
-    },
-    "Ruben Neves": {
-      "ar": "روبن نيفيز",
-      "short": "نيفيز"
-    },
-    "Sergej Milinkovic-Savic": {
-      "ar": "سيرجي سافيتش",
-      "short": "سافيتش"
-    },
-    "Malcom": {
-      "ar": "مالكوم"
-    },
-    "Salem Al-Dawsari": {
-      "ar": "سالم الدوسري",
-      "short": "سالم الدوسري"
-    },
-    "Mohammed Al-Qahtani": {
-      "ar": "محمد القحطاني",
-      "short": "محمد القحطاني"
-    },
-    "Aleksandar Mitrovic": {
-      "ar": "ألكسندر ميتروفيتش",
-      "short": "ميتروفيتش"
-    },
-    "Theo Hernandez": {
-      "ar": "ثيو هيرنانديز",
-      "short": "هيرنانديز"
-    },
-    "Marcos Leonardo": {
-      "ar": "ماركوس ليوناردو",
-      "short": "ليوناردو"
-    },
-    "Mohamed Kanno": {
-      "ar": "محمد كنو",
-      "short": "كنو"
-    },
-    "Nasser Al-Dawsari": {
-      "ar": "ناصر الدوسري",
-      "short": "ناصر الدوسري"
-    },
-    "Hassan Tambakti": {
-      "ar": "حسان تمبكتي",
-      "short": "تمبكتي"
-    },
-    "Ali Al-Bulaihi": {
-      "ar": "علي البليهي",
-      "short": "علي البليهي"
-    },
-    "Yasser Al-Shahrani": {
-      "ar": "ياسر الشهراني",
-      "short": "ياسر الشهراني"
-    },
-    "Mohammed Al-Burayk": {
-      "ar": "محمد البريك",
-      "short": "محمد البريك"
-    },
-    "Khalifah Al-Dawsari": {
-      "ar": "خليفة الدوسري",
-      "short": "خليفة الدوسري"
-    },
-    "Sultan Mandash": {
-      "ar": "سلطان مندش",
-      "short": "مندش"
-    },
-    "Musab Al-Juwayr": {
-      "ar": "مصعب الجوير",
-      "short": "مصعب الجوير"
-    },
-    "Turki Al-Ammar": {
-      "ar": "تركي العمار",
-      "short": "تركي العمار"
-    },
-    "Darwin Nunez": {
-      "ar": "داروين نونيز",
-      "short": "نونيز"
-    },
-    "Cristiano Ronaldo": {
-      "ar": "كريستيانو رونالدو",
-      "short": "رونالدو"
-    },
-    "Sadio Mane": {
-      "ar": "ساديو ماني",
-      "short": "ماني"
-    },
-    "Joao Felix": {
-      "ar": "جواو فيليكس",
-      "short": "فيليكس"
-    },
-    "Kingsley Coman": {
-      "ar": "كينغسلي كومان",
-      "short": "كومان"
-    },
-    "Aymeric Laporte": {
-      "ar": "أيمريك لابورت",
-      "short": "لابورت"
-    },
-    "Inigo Martinez": {
-      "ar": "إينيغو مارتينيز",
-      "short": "مارتينيز"
-    },
-    "Marcelo Brozovic": {
-      "ar": "مارسيلو بروزوفيتش",
-      "short": "بروزوفيتش"
-    },
-    "Otavio": {
-      "ar": "أوتافيو"
-    },
-    "Mohamed Simakan": {
-      "ar": "محمد سيماكان",
-      "short": "سيماكان"
-    },
-    "Nawaf Boushal": {
-      "ar": "نواف بوشل",
-      "short": "بوشل"
-    },
-    "Abdulelah Al-Amri": {
-      "ar": "عبدالإله العمري",
-      "short": "عبدالإله العمري"
-    },
-    "Ayman Yahya": {
-      "ar": "أيمن يحيى",
-      "short": "يحيى"
-    },
-    "Sultan Al-Ghannam": {
-      "ar": "سلطان الغنام",
-      "short": "سلطان الغنام"
-    },
-    "Bento": {
-      "ar": "بينتو"
-    },
-    "Angelo Gabriel": {
-      "ar": "أنجيلو"
-    },
-    "Wesley": {
-      "ar": "ويسلي"
-    },
-    "Abdullah Al-Khaibari": {
-      "ar": "عبدالله الخيبري",
-      "short": "عبدالله الخيبري"
-    },
-    "Mohammed Maran": {
-      "ar": "محمد مران",
-      "short": "مران"
-    },
-    "Ali Al-Hassan": {
-      "ar": "علي الحسن",
-      "short": "علي الحسن"
-    },
-    "Karim Benzema": {
-      "ar": "كريم بنزيما",
-      "short": "بنزيما"
-    },
-    "N'Golo Kante": {
-      "ar": "نغولو كانتي",
-      "short": "كانتي"
-    },
-    "Fabinho": {
-      "ar": "فابينيو"
-    },
-    "Houssem Aouar": {
-      "ar": "حسام عوار",
-      "short": "عوار"
-    },
-    "Steven Bergwijn": {
-      "ar": "ستيفن بيرغفاين",
-      "short": "بيرغفاين"
-    },
-    "Moussa Diaby": {
-      "ar": "موسى ديابي",
-      "short": "ديابي"
-    },
-    "Abdulrahman Al-Oboud": {
-      "ar": "عبدالرحمن العبود",
-      "short": "عبدالرحمن العبود"
-    },
-    "Ahmed Hegazi": {
-      "ar": "أحمد حجازي",
-      "short": "حجازي"
-    },
-    "Romarinho": {
-      "ar": "روماريو"
-    },
-    "Danilo Pereira": {
-      "ar": "دانيلو بيريرا",
-      "short": "بيريرا"
-    },
-    "Jota": {
-      "ar": "جوتا"
-    },
-    "Mario Mitaj": {
-      "ar": "ماريو ميتاي",
-      "short": "ميتاي"
-    },
-    "Hamed Al-Ghamdi": {
-      "ar": "حمد الغامدي",
-      "short": "حمد الغامدي"
-    },
-    "Marwane Saadane": {
-      "ar": "مروان سعدان",
-      "short": "سعدان"
-    },
-    "Predrag Rajkovic": {
-      "ar": "بريدراغ راييكوفيتش",
-      "short": "راييكوفيتش"
-    },
-    "Faisal Al-Ghamdi": {
-      "ar": "فيصل الغامدي",
-      "short": "فيصل الغامدي"
-    },
-    "Riyad Mahrez": {
-      "ar": "رياض محرز",
-      "short": "محرز"
-    },
-    "Roberto Firmino": {
-      "ar": "روبرتو فيرمينو",
-      "short": "فيرمينو"
-    },
-    "Allan Saint-Maximin": {
-      "ar": "آلان سان ماكسيمان",
-      "short": "سان ماكسيمان"
-    },
-    "Franck Kessie": {
-      "ar": "فرانك كيسيه",
-      "short": "كيسيه"
-    },
-    "Edouard Mendy": {
-      "ar": "إدوارد ميندي",
-      "short": "ميندي"
-    },
-    "Ivan Toney": {
-      "ar": "إيفان توني",
-      "short": "توني"
-    },
-    "Galeno": {
-      "ar": "غاليينو"
-    },
-    "Merih Demiral": {
-      "ar": "ميريح ديميرال",
-      "short": "ديميرال"
-    },
-    "Zakaria Hawsawi": {
-      "ar": "زكريا هوساوي",
-      "short": "هوساوي"
-    },
-    "Ali Majrashi": {
-      "ar": "علي مجرشي",
-      "short": "مجرشي"
-    },
-    "Matheus Goncalves": {
-      "ar": "ماتيوس غونسالفيس",
-      "short": "غونسالفيس"
-    },
-    "Abdulrahman Al-Sanbi": {
-      "ar": "عبدالرحمن السنبي",
-      "short": "عبدالرحمن السنبي"
-    },
-    "Ibanez": {
-      "ar": "إيبانيز"
-    },
-    "Valentin Atangana": {
-      "ar": "فالنتين أتانغانا",
-      "short": "أتانغانا"
-    },
-    "Mohammed Abu Al-Shamat": {
-      "ar": "محمد أبو الشامات",
-      "short": "أبو الشامات"
-    },
-    "Ziyad Al-Johani": {
-      "ar": "زياد الجهني",
-      "short": "زياد الجهني"
-    },
-    "Pierre-Emerick Aubameyang": {
-      "ar": "بيير إيميريك أوباميانغ",
-      "short": "أوباميانغ"
-    },
-    "Mateo Retegui": {
-      "ar": "ماتيو ريتيغي",
-      "short": "ريتيغي"
-    },
-    "Nahitan Nandez": {
-      "ar": "ناهيتان ناندز",
-      "short": "ناندز"
-    },
-    "Julian Quinones": {
-      "ar": "خوليان كينيونيس",
-      "short": "كينيونيس"
-    },
-    "Musa Barrow": {
-      "ar": "موسى بارو",
-      "short": "بارو"
-    },
-    "Nacho Fernandez": {
-      "ar": "ناتشو فرنانديز",
-      "short": "ناتشو"
-    },
-    "Ahmed Al-Kassar": {
-      "ar": "أحمد الكسار",
-      "short": "أحمد الكسار"
-    },
-    "Salem Al-Najdi": {
-      "ar": "سالم النجدي",
-      "short": "سالم النجدي"
-    },
-    "Ali Lajami": {
-      "ar": "علي لاجامي",
-      "short": "لاجامي"
-    },
-    "Abdullah Radif": {
-      "ar": "عبدالله رديف",
-      "short": "رديف"
-    },
-    "Moteb Al-Harbi": {
-      "ar": "متعب الحربي",
-      "short": "متعب الحربي"
-    },
-    "Moussa Dembele": {
-      "ar": "موسى ديمبيلي",
-      "short": "ديمبيلي"
-    },
-    "Demarai Gray": {
-      "ar": "ديماري غراي",
-      "short": "غراي"
-    },
-    "Jack Hendry": {
-      "ar": "جاك هندري",
-      "short": "هندري"
-    },
-    "Robin Quaison": {
-      "ar": "روبن كوايسون",
-      "short": "كوايسون"
-    },
-    "Ali Hazazi": {
-      "ar": "علي هزازي",
-      "short": "هزازي"
-    },
-    "Mohammed Al-Owais": {
-      "ar": "محمد العويس",
-      "short": "محمد العويس"
-    },
-    "Saud Abdulhamid": {
-      "ar": "سعود عبدالحميد",
-      "short": "عبدالحميد"
-    },
-    "Saleh Al-Shehri": {
-      "ar": "صالح الشهري",
-      "short": "صالح الشهري"
-    },
-    "Firas Al-Buraikan": {
-      "ar": "فراس البريكان",
-      "short": "فراس البريكان"
-    },
-    "Abdullah Al-Hamdan": {
-      "ar": "عبدالله الحمدان",
-      "short": "عبدالله الحمدان"
-    },
-    "Nawaf Al-Aqidi": {
-      "ar": "نواف العقيدي",
-      "short": "نواف العقيدي"
-    },
-    "Sami Al-Najei": {
-      "ar": "سامي النجعي",
-      "short": "سامي النجعي"
-    },
-    "Abdulrahman Ghareeb": {
-      "ar": "عبدالرحمن غريب",
-      "short": "غريب"
-    },
-    "Salman Al-Faraj": {
-      "ar": "سلمان الفرج",
-      "short": "سلمان الفرج"
-    },
-    "Abdulelah Al-Malki": {
-      "ar": "عبدالإله المالكي",
-      "short": "عبدالإله المالكي"
-    },
-    "Fahad Al-Muwallad": {
-      "ar": "فهد المولد",
-      "short": "فهد المولد"
-    },
-    "Hattan Bahebri": {
-      "ar": "حتان باهبري",
-      "short": "باهبري"
-    },
-    "Haroune Camara": {
-      "ar": "هارون كمارا",
-      "short": "كمارا"
-    },
-    "Gabriel Martinelli": {
-      "ar": "غابرييل مارتينيلي",
-      "short": "مارتينيلي"
-    },
-    "Ollie Watkins": {
-      "ar": "أولي واتكينز",
-      "short": "واتكينز"
-    },
-    "Mohammed Al-Rubaie": {
-      "ar": "محمد الربيعي",
-      "short": "محمد الربيعي"
-    },
-    "Murad Hawsawi": {
-      "ar": "مراد هوساوي",
-      "short": "هوساوي"
-    },
-    "Rayan Al-Ghamdi": {
-      "ar": "ريان الغامدي",
-      "short": "ريان الغامدي"
-    },
-    "Crysencio Summerville": {
-      "ar": "كريسينسيو سامرفيل",
-      "short": "سامرفيل"
-    },
-    "Saad Al-Mutairi": {
-      "ar": "سعد المطيري",
-      "short": "سعد المطيري"
-    },
-    "Mishal Al-Dawood": {
-      "ar": "مشعل الداود",
-      "short": "مشعل الداود"
-    },
-    "Saimon Bouabre": {
-      "ar": "سايمون بوابري",
-      "short": "بوابري"
-    },
-    "Sabri Dahal": {
-      "ar": "صبري دهل",
-      "short": "دهل"
-    },
-    "Mohammed Al-Sarnoukh": {
-      "ar": "محمد السرنوخ",
-      "short": "محمد السرنوخ"
-    },
-    "Mohamed Kader Meite": {
-      "ar": "محمد قادر ميتي",
-      "short": "ميتي"
-    },
-    "Nawaf Al-Habashi": {
-      "ar": "نواف الحبشي",
-      "short": "نواف الحبشي"
-    },
-    "Abdullah Al-Anazi": {
-      "ar": "عبدالله العنزي",
-      "short": "عبدالله العنزي"
-    },
-    "Suhayb Al-Zaid": {
-      "ar": "صهيب الزيد",
-      "short": "صهيب الزيد"
-    },
-    "Pablo Mari": {
-      "ar": "بابلو ماري",
-      "short": "ماري"
-    },
-    "Mathieu Patouillet": {
-      "ar": "ماتيو باتويي",
-      "short": "باتويي"
-    },
-    "Rayan Al-Dossary": {
-      "ar": "ريان الدوسري",
-      "short": "ريان الدوسري"
-    },
-    "Yusuf Akcicek": {
-      "ar": "يوسف أكتشيتشيك",
-      "short": "أكتشيتشيك"
-    },
-    "Mohammed Al-Muhaysh": {
-      "ar": "محمد المحيش",
-      "short": "محمد المحيش"
-    },
-    "Saud Haroun": {
-      "ar": "سعود هارون",
-      "short": "هارون"
-    },
-    "Saad Al-Muthary": {
-      "ar": "سعد المثري",
-      "short": "سعد المثري"
-    },
-    "Saleh Barnawi": {
-      "ar": "صالح برناوي",
-      "short": "برناوي"
-    },
-    "Hamad Al-Yami": {
-      "ar": "حمد اليامي",
-      "short": "حمد اليامي"
-    },
-    "Mohammed Al-Yami": {
-      "ar": "محمد اليامي",
-      "short": "محمد اليامي"
-    },
-    "Mohammed Mahzari": {
-      "ar": "محمد محزري",
-      "short": "محزري"
-    },
-    "Raghid Al-Najjar": {
-      "ar": "رغيد النجار",
-      "short": "رغيد النجار"
-    },
-    "Mubarak Al-Buainain": {
-      "ar": "مبارك البوعينين",
-      "short": "مبارك البوعينين"
-    },
-    "Abdulrahman Al-Otaibi": {
-      "ar": "عبدالرحمن العتيبي",
-      "short": "عبدالرحمن العتيبي"
-    },
-    "Saad Al-Nasser": {
-      "ar": "سعد الناصر",
-      "short": "سعد الناصر"
-    },
-    "Nader Al-Sharari": {
-      "ar": "نادر الشراري",
-      "short": "نادر الشراري"
-    },
-    "Aser Hwsawi": {
-      "ar": "عاصر هوساوي",
-      "short": "هوساوي"
-    },
-    "Majed Qasheesh": {
-      "ar": "ماجد قشيش",
-      "short": "قشيش"
-    },
-    "Awad Aman": {
-      "ar": "عوض أمان",
-      "short": "أمان"
-    },
-    "Abdulmajeed Al-Sulaiheem": {
-      "ar": "عبدالمجيد السليهم",
-      "short": "عبدالمجيد السليهم"
-    },
-    "Samu Costa": {
-      "ar": "ساميو كوستا",
-      "short": "كوستا"
-    },
-    "Hayder Abdulkareem": {
-      "ar": "حيدر عبدالكريم",
-      "short": "عبدالكريم"
-    },
-    "Youssef Al-Tahan": {
-      "ar": "يوسف الطحان",
-      "short": "يوسف الطحان"
-    },
-    "Muhannad Barah": {
-      "ar": "مهند بارة",
-      "short": "بارة"
-    },
-    "Abdulrahman Al-Enazi": {
-      "ar": "عبدالرحمن العنزي",
-      "short": "عبدالرحمن العنزي"
-    },
-    "Walid Saber": {
-      "ar": "وليد صابر",
-      "short": "صابر"
-    },
-    "Mubarak Al-Dawsari": {
-      "ar": "مبارك الدوسري",
-      "short": "مبارك الدوسري"
-    },
-    "Faris Salem": {
-      "ar": "فارس سالم",
-      "short": "سالم"
-    },
-    "Mohammed Marran": {
-      "ar": "محمد مران",
-      "short": "مران"
-    },
-    "Angelo": {
-      "ar": "أنجيلو"
-    },
-    "Raghed Al-Najjar": {
-      "ar": "رغيد النجار",
-      "short": "رغيد النجار"
-    },
-    "Youssef En-Nesyri": {
-      "ar": "يوسف النصيري",
-      "short": "يوسف النصيري"
-    },
-    "George Ilenikhena": {
-      "ar": "جورج إيلينيخينا",
-      "short": "إيلينيخينا"
-    },
-    "Marwan Al-Sahafi": {
-      "ar": "مروان الصحفي",
-      "short": "مروان الصحفي"
-    },
-    "Talal Haji": {
-      "ar": "طلال حاجي",
-      "short": "حاجي"
-    },
-    "Ahmed Al-Ghamdi": {
-      "ar": "أحمد الغامدي",
-      "short": "أحمد الغامدي"
-    },
-    "Richard Rios": {
-      "ar": "ريتشارد ريوس",
-      "short": "ريوس"
-    },
-    "Georginio Wijnaldum": {
-      "ar": "جورجينيو فينالدوم",
-      "short": "فينالدوم"
-    },
-    "Mahamadou Doumbia": {
-      "ar": "ماهامادو دومبيا",
-      "short": "دومبيا"
-    },
-    "Stephane Keller": {
-      "ar": "ستيفان كيلر",
-      "short": "كيلر"
-    },
-    "Jan-Carlo Simic": {
-      "ar": "يان كارلو سيميتش",
-      "short": "سيميتش"
-    },
-    "Saad Al-Mousa": {
-      "ar": "سعد الموسى",
-      "short": "سعد الموسى"
-    },
-    "Roger Fernandes": {
-      "ar": "روجر فرنانديز",
-      "short": "فرنانديز"
-    },
-    "Mukhtar Ali": {
-      "ar": "مختار علي",
-      "short": "مختار"
-    },
-    "Muhannad Al-Shanqeeti": {
-      "ar": "مهند الشنقيطي",
-      "short": "مهند الشنقيطي"
-    },
-    "Hamed Al-Shanqiti": {
-      "ar": "حامد الشنقيطي",
-      "short": "حامد الشنقيطي"
-    },
-    "Hassan Kadesh": {
-      "ar": "حسن كادش",
-      "short": "كادش"
-    },
-    "Ahmed Sharahili": {
-      "ar": "أحمد شراحيلي",
-      "short": "شراحيلي"
-    },
-    "Fawaz Al-Sqoor": {
-      "ar": "فواز الصقور",
-      "short": "فواز الصقور"
-    },
-    "Muath Faqeehi": {
-      "ar": "معاذ فقيهي",
-      "short": "فقيهي"
-    },
-    "Mohammed Al-Absi": {
-      "ar": "محمد العبسي",
-      "short": "محمد العبسي"
-    },
-    "Isaias Rodriguez": {
-      "ar": "إيزايا رودريغيز",
-      "short": "رودريغيز"
-    },
-    "Mateo Borrell": {
-      "ar": "ماتيو بوريل",
-      "short": "بوريل"
-    },
-    "Rakan Kaabi": {
-      "ar": "راكان كعبي",
-      "short": "كعبي"
-    },
-    "Mohammed Barnawi": {
-      "ar": "محمد برناوي",
-      "short": "برناوي"
-    },
-    "Abdulelah Hawsawi": {
-      "ar": "عبدالإله هوساوي",
-      "short": "هوساوي"
-    },
-    "Osama Al-Marwash": {
-      "ar": "أسامة المرواش",
-      "short": "أسامة المرواش"
-    },
-    "Faris Abdi": {
-      "ar": "فارس عابدي",
-      "short": "عابدي"
-    },
-    "Bryant Ortega": {
-      "ar": "براينت أورتيغا",
-      "short": "أورتيغا"
-    },
-    "Farhah Al-Shamrani": {
-      "ar": "فرحة الشمراني",
-      "short": "فرحة الشمراني"
-    },
-    "Dion Lopy": {
-      "ar": "ديون لوبي",
-      "short": "لوبي"
-    },
-    "Ahmed Al-Julaydan": {
-      "ar": "أحمد الجليدان",
-      "short": "أحمد الجليدان"
-    },
-    "Unai Hernandez": {
-      "ar": "أوناي هيرنانديز",
-      "short": "هيرنانديز"
-    },
-    "Yaseen Khalid": {
-      "ar": "ياسين خالد",
-      "short": "خالد"
-    },
-    "Abdulrahman Hazazi": {
-      "ar": "عبدالرحمن هزازي",
-      "short": "هزازي"
-    },
-    "Mohammed Alabsi": {
-      "ar": "محمد العبسي",
-      "short": "محمد العبسي"
-    },
-    "Francisco Trincao": {
-      "ar": "فرانسيسكو تريكاو",
-      "short": "تريكاو"
-    },
-    "Eduard Spertsyan": {
-      "ar": "إدوارد سبيرتسيان",
-      "short": "سبيرتسيان"
-    },
-    "Meshal Al-Mutairi": {
-      "ar": "مشعل المطيري",
-      "short": "مشعل المطيري"
-    },
-    "Eid Al-Muwallad": {
-      "ar": "عيد المولد",
-      "short": "عيد المولد"
-    },
-    "Artem Bondarenko": {
-      "ar": "أرتيم بوندارينكو",
-      "short": "بوندارينكو"
-    },
-    "Abubacarr Kinteh": {
-      "ar": "أبوبكر كينتيه",
-      "short": "كينتيه"
-    },
-    "Mohammed Abdulrahman": {
-      "ar": "محمد عبدالرحمن",
-      "short": "عبدالرحمن"
-    },
-    "Saad Balobaid": {
-      "ar": "سعد بالعبيد",
-      "short": "بالعبيد"
-    },
-    "Rayan Hamed": {
-      "ar": "ريان حامد",
-      "short": "حامد"
-    },
-    "Saleh Abu Al-Shamat": {
-      "ar": "صالح أبو الشامات",
-      "short": "أبو الشامات"
-    },
-    "Yazan Madani": {
-      "ar": "يزن مدني",
-      "short": "مدني"
-    },
-    "Abdullah Abdoh": {
-      "ar": "عبدالله عبده",
-      "short": "عبده"
-    },
-    "Naif Masoud": {
-      "ar": "نايف مسعود",
-      "short": "مسعود"
-    },
-    "Ricardo Mathias": {
-      "ar": "ريكاردو ماتياس",
-      "short": "ماتياس"
-    },
-    "Ayman Fallatah": {
-      "ar": "أيمن فلاتة",
-      "short": "فلاتة"
-    },
-    "Ali Bakhashwin": {
-      "ar": "علي باخشوين",
-      "short": "باخشوين"
-    },
-    "Ibrahim Azzam": {
-      "ar": "إبراهيم عزام",
-      "short": "عزام"
-    },
-    "Faisal Fallatah": {
-      "ar": "فيصل فلاتة",
-      "short": "فلاتة"
-    },
-    "Salman Al-Jadani": {
-      "ar": "سلمان الجداني",
-      "short": "سلمان الجداني"
-    },
-    "Wenderson Galeno": {
-      "ar": "غاليينو"
-    },
-    "Aboubakkar Moussa": {
-      "ar": "أبوبكر موسى",
-      "short": "موسى"
-    },
-    "Mohammed Sulaiman": {
-      "ar": "محمد سليمان",
-      "short": "سليمان"
-    },
-    "Mohammed Yousef": {
-      "ar": "محمد يوسف",
-      "short": "يوسف"
-    },
-    "Roger Ibanez": {
-      "ar": "روجر إيبانيز",
-      "short": "إيبانيز"
-    },
-    "Jerry Afriyie": {
-      "ar": "جيري أفريي",
-      "short": "أفريي"
-    },
-    "Gabriel Carvalho": {
-      "ar": "غابرييل كارفاليو",
-      "short": "كارفاليو"
-    },
-    "Mohammed Alqahtani": {
-      "ar": "محمد القحطاني",
-      "short": "محمد القحطاني"
-    },
-    "Abdullah Al-Salem": {
-      "ar": "عبدالله السالم",
-      "short": "عبدالله السالم"
-    },
-    "Guga": {
-      "ar": "غوغا"
-    },
-    "Haitham Asiri": {
-      "ar": "هيثم عسيري",
-      "short": "عسيري"
-    },
-    "Abdulaziz Al-Othman": {
-      "ar": "عبدالعزيز العثمان",
-      "short": "عبدالعزيز العثمان"
-    },
-    "Sultan Harun": {
-      "ar": "سلطان هارون",
-      "short": "هارون"
-    },
-    "Anas Al-Ahmadi": {
-      "ar": "أنس الأحمدي",
-      "short": "أنس الأحمدي"
-    },
-    "Christopher Baah": {
-      "ar": "كريستوفر باه",
-      "short": "باه"
-    },
-    "Koen Casteels": {
-      "ar": "كون كاستيلس",
-      "short": "كاستيلس"
-    },
-    "Meshari Sunyur": {
-      "ar": "مشاري صنيور",
-      "short": "صنيور"
-    },
-    "Wafi Al-Aklabi": {
-      "ar": "وافي الأكلبي",
-      "short": "وافي الأكلبي"
-    },
-    "Abdullah Almuhaysin": {
-      "ar": "عبدالله المحيسن",
-      "short": "عبدالله المحيسن"
-    },
-    "Gaston Alvarez": {
-      "ar": "غاستون ألفاريز",
-      "short": "ألفاريز"
-    },
-    "Mohammed Qasem": {
-      "ar": "محمد قاسم",
-      "short": "قاسم"
-    },
-    "Waleed Al-Ahmed": {
-      "ar": "وليد الأحمد",
-      "short": "وليد الأحمد"
-    },
-    "Jehad Thakri": {
-      "ar": "جهاد ذكري",
-      "short": "ذكري"
-    },
-    "Ali Diabate": {
-      "ar": "علي دياباتي",
-      "short": "دياباتي"
-    },
-    "Abdulah Al-Jwayzan": {
-      "ar": "عبدالله الجويزان",
-      "short": "عبدالله الجويزان"
-    },
-    "Julian Weigl": {
-      "ar": "يوليان فايغل",
-      "short": "فايغل"
-    },
-    "Nacho": {
-      "ar": "ناتشو"
-    },
-    "Carlos Junior": {
-      "ar": "كارلوس جونيور",
-      "short": "جونيور"
-    },
-    "Hammam Al-Hammami": {
-      "ar": "همام الهمامي",
-      "short": "همام الهمامي"
-    },
-    "Majed Abdullah": {
-      "ar": "ماجد عبدالله",
-      "short": "عبدالله"
-    },
-    "Hisham Al-Dubais": {
-      "ar": "هشام الدبيس",
-      "short": "هشام الدبيس"
-    },
-    "Yannick Carrasco": {
-      "ar": "يانيك كاراسكو",
-      "short": "كاراسكو"
-    },
-    "Yacine Adli": {
-      "ar": "ياسين عدلي",
-      "short": "عدلي"
-    },
-    "Daniel Podence": {
-      "ar": "دانيال بودنسي",
-      "short": "بودنسي"
-    },
-    "Josh Brownhill": {
-      "ar": "جوش براونهيل",
-      "short": "براونهيل"
-    },
-    "Vincent Sierro": {
-      "ar": "فينسنت سييرو",
-      "short": "سييرو"
-    },
-    "Awad Al-Nashri": {
-      "ar": "عوض النشري",
-      "short": "عوض النشري"
-    },
-    "Ali Al-Asmari": {
-      "ar": "علي الأسمري",
-      "short": "علي الأسمري"
-    },
-    "Mory Diaw": {
-      "ar": "موري ديوف",
-      "short": "ديوف"
-    },
-    "Abdulaziz Rahma": {
-      "ar": "عبدالعزيز رحمة",
-      "short": "رحمة"
-    },
-    "Mohammed Al-Mahasna": {
-      "ar": "محمد المحاسنة",
-      "short": "محمد المحاسنة"
-    },
-    "Muhammad Al-Otaibi": {
-      "ar": "محمد العتيبي",
-      "short": "محمد العتيبي"
-    },
-    "Tin Jedvaj": {
-      "ar": "تين يدفاي",
-      "short": "يدفاي"
-    },
-    "Mamadou Barry": {
-      "ar": "مامادو باري",
-      "short": "باري"
-    },
-    "Hussain Al-Sabiyani": {
-      "ar": "حسين السبياني",
-      "short": "حسين السبياني"
-    },
-    "Mohammed Harbush": {
-      "ar": "محمد حربوش",
-      "short": "حربوش"
-    },
-    "Mubarak Al-Rajeh": {
-      "ar": "مبارك الراجح",
-      "short": "مبارك الراجح"
-    },
-    "Ali Makki": {
-      "ar": "علي مكي",
-      "short": "مكي"
-    },
-    "Dhari Al-Anazi": {
-      "ar": "ضاري العنزي",
-      "short": "ضاري العنزي"
-    },
-    "Mohammed Al-Shwirekh": {
-      "ar": "محمد الشويرخ",
-      "short": "محمد الشويرخ"
-    },
-    "Mohammed Al-Thani": {
-      "ar": "محمد الثاني",
-      "short": "محمد الثاني"
-    },
-    "Lazar Stojanovic": {
-      "ar": "لازار ستويانوفيتش",
-      "short": "ستويانوفيتش"
-    },
-    "Rayane Messi": {
-      "ar": "ريان ميسي",
-      "short": "ميسي"
-    },
-    "Khalid Al-Ghannam": {
-      "ar": "خالد الغنام",
-      "short": "خالد الغنام"
-    },
-    "Ziyad Al-Ghamdi": {
-      "ar": "زياد الغامدي",
-      "short": "زياد الغامدي"
-    },
-    "Jalal Al-Salem": {
-      "ar": "جلال السالم",
-      "short": "جلال السالم"
-    },
-    "Jordan Larsson": {
-      "ar": "يوردان لارسون",
-      "short": "لارسون"
-    },
-    "Ondrej Duda": {
-      "ar": "أوندريه دودا",
-      "short": "دودا"
-    },
-    "Bersant Celina": {
-      "ar": "بيرسانت سيلينا",
-      "short": "سيلينا"
-    },
-    "Abdoulaye Kante": {
-      "ar": "عبدولاي كانتي",
-      "short": "كانتي"
-    },
-    "Alvaro Medran": {
-      "ar": "ألفارو ميدران",
-      "short": "ميدران"
-    },
-    "Lukas Haraslin": {
-      "ar": "لوكاس هاراسلين",
-      "short": "هاراسلين"
-    },
-    "Mourad Batna": {
-      "ar": "مراد باتنا",
-      "short": "باتنا"
-    },
-    "Wilfried Kanga": {
-      "ar": "ويلفريد كانغا",
-      "short": "كانغا"
-    },
-    "Fahad Zubaidi": {
-      "ar": "فهد الزبيدي",
-      "short": "فهد الزبيدي"
-    },
-    "Jefferson Ramos": {
-      "ar": "جيفرسون راموس",
-      "short": "راموس"
-    },
-    "Faisal Al-Abdulwahed": {
-      "ar": "فيصل العبدالواحد",
-      "short": "فيصل العبدالواحد"
-    },
-    "Saad Al-Shurafa": {
-      "ar": "سعد الشرفا",
-      "short": "سعد الشرفا"
-    },
-    "Ali Al-Masoud": {
-      "ar": "علي المسعود",
-      "short": "علي المسعود"
-    },
-    "Abderazak Hamdallah": {
-      "ar": "عبدالرزاق حمدالله",
-      "short": "حمدالله"
-    },
-    "Younes El Bahraoui": {
-      "ar": "يونس البحراوي",
-      "short": "يونس البحراوي"
-    },
-    "Saif Rashad": {
-      "ar": "سيف رشاد",
-      "short": "رشاد"
-    },
-    "Mohammed Al-Kuwaykibi": {
-      "ar": "محمد الكويكبي",
-      "short": "محمد الكويكبي"
-    },
-    "Bassem Al-Arini": {
-      "ar": "باسم العريني",
-      "short": "باسم العريني"
-    },
-    "Parfait Guiagon": {
-      "ar": "بارفيه غيايغون",
-      "short": "غيايغون"
-    },
-    "Nedim Bajrami": {
-      "ar": "نديم بايرامي",
-      "short": "بايرامي"
-    },
-    "Oscar Dorley": {
-      "ar": "أوسكار دورلي",
-      "short": "دورلي"
-    },
-    "Ashraf El Mahdioui": {
-      "ar": "أشرف المهديوي",
-      "short": "أشرف المهديوي"
-    },
-    "Marin Petkov": {
-      "ar": "مارين بيتكوف",
-      "short": "بيتكوف"
-    },
-    "Rakan Al-Tulayhi": {
-      "ar": "راكان الطليحي",
-      "short": "راكان الطليحي"
-    },
-    "Lazaro": {
-      "ar": "لازارو"
-    },
-    "Jason": {
-      "ar": "جاسون"
-    },
-    "Malek Al-Abdulmonam": {
-      "ar": "مالك العبدالمنعم",
-      "short": "مالك العبدالمنعم"
-    },
-    "Sultan Al-Jabri": {
-      "ar": "سلطان الجبري",
-      "short": "سلطان الجبري"
-    },
-    "Mohammed Hakami": {
-      "ar": "محمد حكمي",
-      "short": "حكمي"
-    },
-    "Fashion Sakala": {
-      "ar": "فاشيون ساكالا",
-      "short": "ساكالا"
-    },
-    "Hugo Moura": {
-      "ar": "هوغو مورا",
-      "short": "مورا"
-    },
-    "Alfa Semedo": {
-      "ar": "ألفا سيميدو",
-      "short": "سيميدو"
-    },
-    "Yago Souza": {
-      "ar": "ياغو سوزا",
-      "short": "سوزا"
-    },
-    "Abdullah Al-Qahtani": {
-      "ar": "عبدالله القحطاني",
-      "short": "عبدالله القحطاني"
-    },
-    "Ali Al-Hussain": {
-      "ar": "علي الحسين",
-      "short": "علي الحسين"
-    },
-    "Rayan Enad": {
-      "ar": "ريان عناد",
-      "short": "عناد"
-    },
-    "Joshua King": {
-      "ar": "جوشوا كينغ",
-      "short": "كينغ"
-    },
-    "Fahad Al-Rashidi": {
-      "ar": "فهد الرشيدي",
-      "short": "فهد الرشيدي"
-    },
-    "Thamer Al-Khaibri": {
-      "ar": "ثامر الخيبري",
-      "short": "ثامر الخيبري"
-    },
-    "Hussain Al-Issa": {
-      "ar": "حسين العيسى",
-      "short": "حسين العيسى"
-    },
-    "Miguel Crespo": {
-      "ar": "ميغيل كريسبو",
-      "short": "كريسبو"
-    },
-    "Angelo Fulgini": {
-      "ar": "أنجيلو فولجيني",
-      "short": "فولجيني"
-    },
-    "Omar Mascarell": {
-      "ar": "عمر ماسكاريل",
-      "short": "ماسكاريل"
-    },
-    "Saleh Al-Amri": {
-      "ar": "صالح العمري",
-      "short": "صالح العمري"
-    },
-    "Leandro Antunes": {
-      "ar": "ليأندرو أنتونيس",
-      "short": "أنتونيس"
-    },
-    "Hassan Al-Ali": {
-      "ar": "حسن العلي",
-      "short": "حسن العلي"
-    },
-    "Salman Matar": {
-      "ar": "سلمان مطر",
-      "short": "مطر"
-    },
-    "Battal Al-Harthi": {
-      "ar": "بطال الحارثي",
-      "short": "بطال الحارثي"
-    },
-    "Mahmoud Trezeguet": {
-      "ar": "محمود تريزيغيه",
-      "short": "تريزيغيه"
-    },
-    "Victor Lekhal": {
-      "ar": "فيكتور لخال",
-      "short": "لخال"
-    },
-    "Bernard Mensah": {
-      "ar": "برنارد مينساه",
-      "short": "مينساه"
-    },
-    "Teddy Okou": {
-      "ar": "تيدي أوكو",
-      "short": "أوكو"
-    },
-    "Kader Keita": {
-      "ar": "قادر كيتا",
-      "short": "كيتا"
-    },
-    "Yahya Al-Shehri": {
-      "ar": "يحيى الشهري",
-      "short": "يحيى الشهري"
-    },
-    "Hussain Al-Shurafa": {
-      "ar": "حسين الشرفا",
-      "short": "حسين الشرفا"
-    },
-    "Ramiro Enrique": {
-      "ar": "رامييرو إنريكي",
-      "short": "إنريكي"
-    },
-    "Abdullah Al-Ajyan": {
-      "ar": "عبدالله العجيان",
-      "short": "عبدالله العجيان"
-    },
-    "Seydouba Cisse": {
-      "ar": "سيدوبا سيسيه",
-      "short": "سيسيه"
-    },
-    "John Buckley": {
-      "ar": "جون باكلي",
-      "short": "باكلي"
-    },
-    "Edgaras Utkus": {
-      "ar": "إدغاراس أوتكوس",
-      "short": "أوتكوس"
-    },
-    "Afimico Pululu": {
-      "ar": "أفيميكو بولولو",
-      "short": "بولولو"
-    },
-    "Sofiane Bendebka": {
-      "ar": "سفيان بن دبكة",
-      "short": "بن دبكة"
-    },
-    "Amir Saayoud": {
-      "ar": "أمير سعيود",
-      "short": "سعيود"
-    },
-    "Elton Acolatse": {
-      "ar": "إلتون أكولاتسي",
-      "short": "أكولاتسي"
-    },
-    "Ahmed Al-Shamrani": {
-      "ar": "أحمد الشمراني",
-      "short": "أحمد الشمراني"
-    },
-    "Michy Batshuayi": {
-      "ar": "ميشي باتشواي",
-      "short": "باتشواي"
-    },
-    "Abdulkarim Darisi": {
-      "ar": "عبدالكريم دريسي",
-      "short": "دريسي"
-    },
-    "Alimami Gory": {
-      "ar": "أليمامي غوري",
-      "short": "غوري"
-    },
-    "Nabil Fekir": {
-      "ar": "نبيل فقير",
-      "short": "فقير"
-    },
-    "Georges-Kevin N'Koudou": {
-      "ar": "جورج كيفن نكودو",
-      "short": "نكودو"
-    },
-    "Mohammed Al-Zaid": {
-      "ar": "محمد الزيد",
-      "short": "محمد الزيد"
-    },
-    "Loreintz Rosier": {
-      "ar": "لورينتز روسييه",
-      "short": "روسييه"
-    },
-    "Faisal Al-Sibyani": {
-      "ar": "فيصل السبياني",
-      "short": "فيصل السبياني"
-    },
-    "Alexandre Lacazette": {
-      "ar": "ألكسندر لاكازيت",
-      "short": "لاكازيت"
-    },
-    "Muhannad Al-Saad": {
-      "ar": "مهند السعد",
-      "short": "مهند السعد"
-    },
-    "Khalil Al-Absi": {
-      "ar": "خليل العبسي",
-      "short": "خليل العبسي"
-    },
-    "Said Benrahma": {
-      "ar": "سعيد بن رحمة",
-      "short": "بن رحمة"
-    },
-    "Giorgos Masouras": {
-      "ar": "جورجوس ماسوراس",
-      "short": "ماسوراس"
-    },
-    "Amadou Kone": {
-      "ar": "أمادو كوني",
-      "short": "كوني"
-    },
-    "Mohannad Abu Taha": {
-      "ar": "مهند أبو طه",
-      "short": "أبو طه"
-    },
-    "Valentin Vada": {
-      "ar": "فالنتين فادا",
-      "short": "فادا"
-    },
-    "Alaa Al-Hejji": {
-      "ar": "علاء الحجي",
-      "short": "علاء الحجي"
-    },
-    "Abdulaziz Noor": {
-      "ar": "عبدالعزيز نور",
-      "short": "نور"
-    },
-    "Ahmed Al-Anzi": {
-      "ar": "أحمد العنزي",
-      "short": "أحمد العنزي"
-    },
-    "Malang Sarr": {
-      "ar": "مالانغ سار",
-      "short": "سار"
-    },
-    "Gaetan Laborde": {
-      "ar": "غايتان لابورد",
-      "short": "لابورد"
-    },
-    "Meshari Al-Nemer": {
-      "ar": "مشاري النمر",
-      "short": "مشاري النمر"
-    },
-    "Idrissa Gana Gueye": {
-      "ar": "إدريسا غانا غاي",
-      "short": "غاي"
-    },
-    "Adil Boulbina": {
-      "ar": "عادل بولبينة",
-      "short": "بولبينة"
-    },
-    "Enzo Millot": {
-      "ar": "إنزو ميلو",
-      "short": "ميلو"
-    },
-    "Oscar Rodriguez": {
-      "ar": "أوسكار رودريغيز",
-      "short": "رودريغيز"
-    },
-    "Mathys de Carvalho": {
-      "ar": "ماتيس دي كارفاليو",
-      "short": "كارفاليو"
-    },
-    "Clayton Diandy": {
-      "ar": "كلايتون ديندي",
-      "short": "ديندي"
-    },
-    "Alexandre Mendy": {
-      "ar": "ألكسندر مندي",
-      "short": "مندي"
-    },
-    "Ahmed Abdu": {
-      "ar": "أحمد عبده",
-      "short": "عبده"
-    },
-    "Yousef Al-Shammari": {
-      "ar": "يوسف الشمري",
-      "short": "يوسف الشمري"
-    },
-    "Abdullah Al-Mogren": {
-      "ar": "عبدالله المقرن",
-      "short": "عبدالله المقرن"
-    },
-    "Theo Bongonda": {
-      "ar": "ثيو بونغوندا",
-      "short": "بونغوندا"
-    },
-    "Christian Bassogog": {
-      "ar": "كريستيان باسوغوغ",
-      "short": "باسوغوغ"
-    },
-    "Flavio": {
-      "ar": "فلافيو"
-    },
-    "Jaime Seoane": {
-      "ar": "خايمي سيوان",
-      "short": "سيوان"
-    },
-    "Ali Al-Bulayhi": {
-      "ar": "علي البليهي",
-      "short": "علي البليهي"
-    },
-    "Rúben Neves": {
-      "ar": "روبن نيفيز",
-      "short": "نيفيز"
-    },
-    "O. Mosquera": {
-      "ar": "أورلاندو موسكيرا",
-      "short": "موسكيرا"
-    },
-    "A. Bamasud": {
-      "ar": "بامسعود"
-    },
-    "O. Colley": {
-      "ar": "عمر كولي",
-      "short": "كولي"
-    },
-    "M. Al Rashidi": {
-      "ar": "محمد الرشيدي",
-      "short": "محمد الرشيدي"
-    },
-    "M. Al Baqawi": {
-      "ar": "محمد البقاوي",
-      "short": "محمد البقاوي"
-    },
-    "Z. Al Sahafi": {
-      "ar": "زياد الصحفي",
-      "short": "زياد الصحفي"
-    },
-    "Sultan Al Jarbi": {
-      "ar": "سلطان الجربي",
-      "short": "سلطان الجربي"
-    },
-    "M. Al-Beshe": {
-      "ar": "محمد البيشي",
-      "short": "محمد البيشي"
-    },
-    "N. Al-Harthi": {
-      "ar": "نواف الحارثي",
-      "short": "نواف الحارثي"
-    },
-    "A. Al Dakheel": {
-      "ar": "أحمد الدخيل",
-      "short": "أحمد الدخيل"
-    },
-    "F. Alhubayshi": {
-      "ar": "الحبيشي"
-    },
-    "A. Al-Nakhli": {
-      "ar": "النخلي"
-    },
-    "A. Bah": {
-      "ar": "أبوبكر باه",
-      "short": "باه"
-    },
-    "A. Sayoud": {
-      "ar": "أمير سعيود",
-      "short": "سعيود"
-    },
-    "B. Mugisha": {
-      "ar": "بونير موغيشا",
-      "short": "موغيشا"
-    },
-    "S. Tanker": {
-      "ar": "سلطان تانكر",
-      "short": "تانكر"
-    },
-    "J. Stanek": {
-      "ar": "يندريتش ستانيك",
-      "short": "ستانيك"
-    },
-    "W. Al Shanqiti": {
-      "ar": "وليد الشنقيطي",
-      "short": "وليد الشنقيطي"
-    },
-    "A. Diakite": {
-      "ar": "أبوبكر دياكيتي",
-      "short": "دياكيتي"
-    },
-    "M. Konate": {
-      "ar": "كوناتي"
-    },
-    "M. Ben Hamida": {
-      "ar": "محمد بن حميدة",
-      "short": "بن حميدة"
-    },
-    "Mohammed Issa": {
-      "ar": "محمد عيسى",
-      "short": "عيسى"
-    },
-    "I. Zaid": {
-      "ar": "الزيد"
-    },
-    "M. Al Hamdani": {
-      "ar": "محمد الحمداني",
-      "short": "محمد الحمداني"
-    },
-    "J. Ateeq": {
-      "ar": "عتيق"
-    },
-    "Z. Youssef": {
-      "ar": "يوسف"
-    },
-    "Suwailem": {
-      "ar": "سويلم"
-    },
-    "K. Boateng": {
-      "ar": "بواتينغ"
-    },
-    "A. Semper": {
-      "ar": "سيمبر"
-    },
-    "R. Kelder": {
-      "ar": "كيلدر"
-    },
-    "W. Al Enazi": {
-      "ar": "العنزي"
-    },
-    "M. Lixandru": {
-      "ar": "ليكساندرو"
-    },
-    "O. Al Othman": {
-      "ar": "العثمان"
-    },
-    "A. Al Fawaz": {
-      "ar": "الفواز"
-    },
-    "J. Domingues": {
-      "ar": "دومينغيس"
-    },
-    "I. Kortajarena": {
-      "ar": "إيكر كورتاخارينا",
-      "short": "كورتاخارينا"
-    },
-    "C. da Costa": {
-      "ar": "كوبا دا كوستا",
-      "short": "دا كوستا"
-    },
-    "A. Al-Dossari": {
-      "ar": "الدوسري"
-    },
-    "Yaseen Al Zubaidi": {
-      "ar": "ياسين الزبيدي",
-      "short": "ياسين الزبيدي"
-    },
-    "S. Pinas": {
-      "ar": "شاكيل بيناس",
-      "short": "بيناس"
-    },
-    "M. Camara": {
-      "ar": "محمد كمارا",
-      "short": "كمارا"
-    },
-    "R. Solan": {
-      "ar": "سولان"
-    },
-    "M. Al Yahya": {
-      "ar": "محمد اليحيى",
-      "short": "محمد اليحيى"
-    },
-    "M. Al Rashdi": {
-      "ar": "الرشدي"
-    },
-    "M. Alshammari": {
-      "ar": "محمد الشمري",
-      "short": "محمد الشمري"
-    },
-    "I. Barabaa": {
-      "ar": "برابعة"
-    },
-    "A. Bikoula": {
-      "ar": "بيكولا"
-    },
-    "A. Adi": {
-      "ar": "عدي"
-    },
-    "Muhammad Sawan": {
-      "ar": "محمد صوان",
-      "short": "صوان"
-    },
-    "A. Al Obaid": {
-      "ar": "العبيد"
-    },
-    "A. Al-Bishi": {
-      "ar": "البيشي"
-    },
-    "A. Girotto": {
-      "ar": "جيروتو"
-    },
-    "A. Seck": {
-      "ar": "سيك"
-    },
-    "Y. Barnawi": {
-      "ar": "ياسر برناوي",
-      "short": "برناوي"
-    },
-    "F. Pacheco": {
-      "ar": "باتشيكو"
-    },
-    "K. Al-Harbi": {
-      "ar": "الحربي"
-    },
-    "S. Haddad": {
-      "ar": "حداد"
-    },
-    "M. Jahfali": {
-      "ar": "جحفلي"
-    },
-    "Abdullah Subayt": {
-      "ar": "عبدالله سبيت",
-      "short": "سبيت"
-    },
-    "F. Al Fahad": {
-      "ar": "الفهد"
-    },
-    "A. Al Sharif": {
-      "ar": "الشريف"
-    },
-    "M. Al-Hasawi": {
-      "ar": "الحساوي"
-    },
-    "A. Almogren": {
-      "ar": "المقرن"
-    },
-    "A. Hindi": {
-      "ar": "عبدالباسط هندي",
-      "short": "عبدالباسط هندي"
-    },
-    "A. Al Fahad": {
-      "ar": "الفهد"
-    },
-    "J. Gaari": {
-      "ar": "غاري"
-    },
-    "K. Al Shamri": {
-      "ar": "الشمري"
-    },
-    "A. Al Bouq": {
-      "ar": "البوق"
-    },
-    "K. Boumedmed": {
-      "ar": "بومدمد"
-    },
-    "B. Al Mutairi": {
-      "ar": "المطيري"
-    },
-    "M. Malaika": {
-      "ar": "ملايكة"
-    },
-    "N. Al-Daajani": {
-      "ar": "الدعجاني"
-    },
-    "A. Al Yuhaybi": {
-      "ar": "اليحيبي"
-    },
-    "K. Al Karani": {
-      "ar": "القرني"
-    },
-    "Tijjani Reijnders": {
-      "ar": "تيجاني ريندرز",
-      "short": "ريندرز"
-    },
-    "A. Al Siyahi": {
-      "ar": "السياحي"
-    },
-    "E. Houssa": {
-      "ar": "هوسا"
-    },
-    "A. Al Jaber": {
-      "ar": "الجابر"
-    },
-    "A. Al-Aliwa": {
-      "ar": "العليوة"
-    },
-    "Fabio Carille": {
-      "ar": "فابيو كاريلي",
-      "short": "كاريلي"
-    },
-    "Jalel Kadri": {
-      "ar": "جلال القادري",
-      "short": "جلال القادري"
-    },
-    "Jamal Sellami": {
-      "ar": "جمال السلامي",
-      "short": "جمال السلامي"
-    },
-    "Des Buckingham": {
-      "ar": "ديس باكينغهام",
-      "short": "باكينغهام"
-    },
-    "Tarek Moustafa": {
-      "ar": "طارق مصطفى",
-      "short": "مصطفى"
-    },
-    "Damir Buric": {
-      "ar": "داميير بوريتش",
-      "short": "بوريتش"
-    },
-    "Brendan Rodgers": {
-      "ar": "برندان رودجرز",
-      "short": "رودجرز"
-    },
-    "Xabi Alonso": {
-      "ar": "تشابي ألونسو",
-      "short": "ألونسو"
-    },
-    "Jose Mourinho": {
-      "ar": "جوزيه مورينيو",
-      "short": "مورينيو"
-    },
-    "Simone Inzaghi": {
-      "ar": "سيموني إنزاغي",
-      "short": "إنزاغي"
-    },
-    "Jorge Jesus": {
-      "ar": "خورخي جيسوس",
-      "short": "جيسوس"
-    },
-    "Stefano Pioli": {
-      "ar": "ستيفانو بيولي",
-      "short": "بيولي"
-    },
-    "Matthias Jaissle": {
-      "ar": "ماتياس يايسله",
-      "short": "يايسله"
-    },
-    "Steven Gerrard": {
-      "ar": "ستيفن جيرارد",
-      "short": "جيرارد"
-    },
-    "Hossam Essadak": {
-      "ar": "حسام الصادق",
-      "short": "حسام الصادق"
-    },
-    "Ali Alamine": {
-      "ar": "علي الأمين",
-      "short": "علي الأمين"
-    },
-    "Ali Alamine Ali": {
-      "ar": "علي الأمين علي",
-      "short": "الأمين"
-    },
-    "Jamal Salami": {
-      "ar": "جمال السلامي",
-      "short": "جمال السلامي"
-    },
-    "Nawaf Al-Saadi": {
-      "ar": "نواف السعدي",
-      "short": "نواف السعدي"
-    },
-    "Nawaf Al Saadi": {
-      "ar": "نواف السعدي",
-      "short": "نواف السعدي"
-    },
-    "Fawaz Al-Saqour": {
-      "ar": "فواز الصقور",
-      "short": "فواز الصقور"
-    },
-    "Fawaz Al-Sagour": {
-      "ar": "فواز الصقور",
-      "short": "فواز الصقور"
-    },
-    "Mohammed Al-Khubrani": {
-      "ar": "محمد الخبراني",
-      "short": "محمد الخبراني"
-    },
-    "Mohammed Khubrani": {
-      "ar": "محمد الخبراني",
-      "short": "محمد الخبراني"
-    },
-    "Saleh Al-Jamaan": {
-      "ar": "صالح العمري",
-      "short": "صالح العمري"
-    },
-    "Saleh Al Amari": {
-      "ar": "صالح العمري",
-      "short": "صالح العمري"
-    },
-    "Ziyad Aljari": {
-      "ar": "زياد الجري",
-      "short": "زياد الجري"
-    },
-    "Ziyad Al-Jari": {
-      "ar": "زياد الجري",
-      "short": "زياد الجري"
-    },
-    "Z. Aljari": {
-      "ar": "زياد الجري",
-      "short": "زياد الجري"
-    }
+ "version": 1,
+ "players": {
+  "Yassine Bounou": {
+   "ar": "ياسين بونو",
+   "short": "بونو"
+  },
+  "Joao Cancelo": {
+   "ar": "جواو كانسيلو",
+   "short": "كانسيلو"
+  },
+  "Kalidou Koulibaly": {
+   "ar": "كاليدو كوليبالي",
+   "short": "كوليبالي"
+  },
+  "Ruben Neves": {
+   "ar": "روبن نيفيز",
+   "short": "نيفيز"
+  },
+  "Sergej Milinkovic-Savic": {
+   "ar": "سيرجي سافيتش",
+   "short": "سافيتش"
+  },
+  "Malcom": {
+   "ar": "مالكوم"
+  },
+  "Salem Al-Dawsari": {
+   "ar": "سالم الدوسري",
+   "short": "سالم الدوسري"
+  },
+  "Mohammed Al-Qahtani": {
+   "ar": "محمد القحطاني",
+   "short": "محمد القحطاني"
+  },
+  "Aleksandar Mitrovic": {
+   "ar": "ألكسندر ميتروفيتش",
+   "short": "ميتروفيتش"
+  },
+  "Theo Hernandez": {
+   "ar": "ثيو هيرنانديز",
+   "short": "هيرنانديز"
+  },
+  "Marcos Leonardo": {
+   "ar": "ماركوس ليوناردو",
+   "short": "ليوناردو"
+  },
+  "Mohamed Kanno": {
+   "ar": "محمد كنو",
+   "short": "كنو"
+  },
+  "Nasser Al-Dawsari": {
+   "ar": "ناصر الدوسري",
+   "short": "ناصر الدوسري"
+  },
+  "Hassan Tambakti": {
+   "ar": "حسان تمبكتي",
+   "short": "تمبكتي"
+  },
+  "Ali Al-Bulaihi": {
+   "ar": "علي البليهي",
+   "short": "علي البليهي"
+  },
+  "Yasser Al-Shahrani": {
+   "ar": "ياسر الشهراني",
+   "short": "ياسر الشهراني"
+  },
+  "Mohammed Al-Burayk": {
+   "ar": "محمد البريك",
+   "short": "محمد البريك"
+  },
+  "Khalifah Al-Dawsari": {
+   "ar": "خليفة الدوسري",
+   "short": "خليفة الدوسري"
+  },
+  "Sultan Mandash": {
+   "ar": "سلطان مندش",
+   "short": "مندش"
+  },
+  "Musab Al-Juwayr": {
+   "ar": "مصعب الجوير",
+   "short": "مصعب الجوير"
+  },
+  "Turki Al-Ammar": {
+   "ar": "تركي العمار",
+   "short": "تركي العمار"
+  },
+  "Darwin Nunez": {
+   "ar": "داروين نونيز",
+   "short": "نونيز"
+  },
+  "Cristiano Ronaldo": {
+   "ar": "كريستيانو رونالدو",
+   "short": "رونالدو"
+  },
+  "Sadio Mane": {
+   "ar": "ساديو ماني",
+   "short": "ماني"
+  },
+  "Joao Felix": {
+   "ar": "جواو فيليكس",
+   "short": "فيليكس"
+  },
+  "Kingsley Coman": {
+   "ar": "كينغسلي كومان",
+   "short": "كومان"
+  },
+  "Aymeric Laporte": {
+   "ar": "أيمريك لابورت",
+   "short": "لابورت"
+  },
+  "Inigo Martinez": {
+   "ar": "إينيغو مارتينيز",
+   "short": "مارتينيز"
+  },
+  "Marcelo Brozovic": {
+   "ar": "مارسيلو بروزوفيتش",
+   "short": "بروزوفيتش"
+  },
+  "Otavio": {
+   "ar": "أوتافيو"
+  },
+  "Mohamed Simakan": {
+   "ar": "محمد سيماكان",
+   "short": "سيماكان"
+  },
+  "Nawaf Boushal": {
+   "ar": "نواف بوشل",
+   "short": "بوشل"
+  },
+  "Abdulelah Al-Amri": {
+   "ar": "عبدالإله العمري",
+   "short": "عبدالإله العمري"
+  },
+  "Ayman Yahya": {
+   "ar": "أيمن يحيى",
+   "short": "يحيى"
+  },
+  "Sultan Al-Ghannam": {
+   "ar": "سلطان الغنام",
+   "short": "سلطان الغنام"
+  },
+  "Bento": {
+   "ar": "بينتو"
+  },
+  "Angelo Gabriel": {
+   "ar": "أنجيلو"
+  },
+  "Wesley": {
+   "ar": "ويسلي"
+  },
+  "Abdullah Al-Khaibari": {
+   "ar": "عبدالله الخيبري",
+   "short": "عبدالله الخيبري"
+  },
+  "Mohammed Maran": {
+   "ar": "محمد مران",
+   "short": "مران"
+  },
+  "Ali Al-Hassan": {
+   "ar": "علي الحسن",
+   "short": "علي الحسن"
+  },
+  "Karim Benzema": {
+   "ar": "كريم بنزيما",
+   "short": "بنزيما"
+  },
+  "N'Golo Kante": {
+   "ar": "نغولو كانتي",
+   "short": "كانتي"
+  },
+  "Fabinho": {
+   "ar": "فابينيو"
+  },
+  "Houssem Aouar": {
+   "ar": "حسام عوار",
+   "short": "عوار"
+  },
+  "Steven Bergwijn": {
+   "ar": "ستيفن بيرغفاين",
+   "short": "بيرغفاين"
+  },
+  "Moussa Diaby": {
+   "ar": "موسى ديابي",
+   "short": "ديابي"
+  },
+  "Abdulrahman Al-Oboud": {
+   "ar": "عبدالرحمن العبود",
+   "short": "عبدالرحمن العبود"
+  },
+  "Ahmed Hegazi": {
+   "ar": "أحمد حجازي",
+   "short": "حجازي"
+  },
+  "Romarinho": {
+   "ar": "روماريو"
+  },
+  "Danilo Pereira": {
+   "ar": "دانيلو بيريرا",
+   "short": "بيريرا"
+  },
+  "Jota": {
+   "ar": "جوتا"
+  },
+  "Mario Mitaj": {
+   "ar": "ماريو ميتاي",
+   "short": "ميتاي"
+  },
+  "Hamed Al-Ghamdi": {
+   "ar": "حمد الغامدي",
+   "short": "حمد الغامدي"
+  },
+  "Marwane Saadane": {
+   "ar": "مروان سعدان",
+   "short": "سعدان"
+  },
+  "Predrag Rajkovic": {
+   "ar": "بريدراغ راييكوفيتش",
+   "short": "راييكوفيتش"
+  },
+  "Faisal Al-Ghamdi": {
+   "ar": "فيصل الغامدي",
+   "short": "فيصل الغامدي"
+  },
+  "Riyad Mahrez": {
+   "ar": "رياض محرز",
+   "short": "محرز"
+  },
+  "Roberto Firmino": {
+   "ar": "روبرتو فيرمينو",
+   "short": "فيرمينو"
+  },
+  "Allan Saint-Maximin": {
+   "ar": "آلان سان ماكسيمان",
+   "short": "سان ماكسيمان"
+  },
+  "Franck Kessie": {
+   "ar": "فرانك كيسيه",
+   "short": "كيسيه"
+  },
+  "Edouard Mendy": {
+   "ar": "إدوارد ميندي",
+   "short": "ميندي"
+  },
+  "Ivan Toney": {
+   "ar": "إيفان توني",
+   "short": "توني"
+  },
+  "Galeno": {
+   "ar": "غاليينو"
+  },
+  "Merih Demiral": {
+   "ar": "ميريح ديميرال",
+   "short": "ديميرال"
+  },
+  "Zakaria Hawsawi": {
+   "ar": "زكريا هوساوي",
+   "short": "هوساوي"
+  },
+  "Ali Majrashi": {
+   "ar": "علي مجرشي",
+   "short": "مجرشي"
+  },
+  "Matheus Goncalves": {
+   "ar": "ماتيوس غونسالفيس",
+   "short": "غونسالفيس"
+  },
+  "Abdulrahman Al-Sanbi": {
+   "ar": "عبدالرحمن السنبي",
+   "short": "عبدالرحمن السنبي"
+  },
+  "Ibanez": {
+   "ar": "إيبانيز"
+  },
+  "Valentin Atangana": {
+   "ar": "فالنتين أتانغانا",
+   "short": "أتانغانا"
+  },
+  "Mohammed Abu Al-Shamat": {
+   "ar": "محمد أبو الشامات",
+   "short": "أبو الشامات"
+  },
+  "Ziyad Al-Johani": {
+   "ar": "زياد الجهني",
+   "short": "زياد الجهني"
+  },
+  "Pierre-Emerick Aubameyang": {
+   "ar": "بيير إيميريك أوباميانغ",
+   "short": "أوباميانغ"
+  },
+  "Mateo Retegui": {
+   "ar": "ماتيو ريتيغي",
+   "short": "ريتيغي"
+  },
+  "Nahitan Nandez": {
+   "ar": "ناهيتان ناندز",
+   "short": "ناندز"
+  },
+  "Julian Quinones": {
+   "ar": "خوليان كينيونيس",
+   "short": "كينيونيس"
+  },
+  "Musa Barrow": {
+   "ar": "موسى بارو",
+   "short": "بارو"
+  },
+  "Nacho Fernandez": {
+   "ar": "ناتشو فرنانديز",
+   "short": "ناتشو"
+  },
+  "Ahmed Al-Kassar": {
+   "ar": "أحمد الكسار",
+   "short": "أحمد الكسار"
+  },
+  "Salem Al-Najdi": {
+   "ar": "سالم النجدي",
+   "short": "سالم النجدي"
+  },
+  "Ali Lajami": {
+   "ar": "علي لاجامي",
+   "short": "لاجامي"
+  },
+  "Abdullah Radif": {
+   "ar": "عبدالله رديف",
+   "short": "رديف"
+  },
+  "Moteb Al-Harbi": {
+   "ar": "متعب الحربي",
+   "short": "متعب الحربي"
+  },
+  "Moussa Dembele": {
+   "ar": "موسى ديمبيلي",
+   "short": "ديمبيلي"
+  },
+  "Demarai Gray": {
+   "ar": "ديماري غراي",
+   "short": "غراي"
+  },
+  "Jack Hendry": {
+   "ar": "جاك هندري",
+   "short": "هندري"
+  },
+  "Robin Quaison": {
+   "ar": "روبن كوايسون",
+   "short": "كوايسون"
+  },
+  "Ali Hazazi": {
+   "ar": "علي هزازي",
+   "short": "هزازي"
+  },
+  "Mohammed Al-Owais": {
+   "ar": "محمد العويس",
+   "short": "محمد العويس"
+  },
+  "Saud Abdulhamid": {
+   "ar": "سعود عبدالحميد",
+   "short": "عبدالحميد"
+  },
+  "Saleh Al-Shehri": {
+   "ar": "صالح الشهري",
+   "short": "صالح الشهري"
+  },
+  "Firas Al-Buraikan": {
+   "ar": "فراس البريكان",
+   "short": "فراس البريكان"
+  },
+  "Abdullah Al-Hamdan": {
+   "ar": "عبدالله الحمدان",
+   "short": "عبدالله الحمدان"
+  },
+  "Nawaf Al-Aqidi": {
+   "ar": "نواف العقيدي",
+   "short": "نواف العقيدي"
+  },
+  "Sami Al-Najei": {
+   "ar": "سامي النجعي",
+   "short": "سامي النجعي"
+  },
+  "Abdulrahman Ghareeb": {
+   "ar": "عبدالرحمن غريب",
+   "short": "غريب"
+  },
+  "Salman Al-Faraj": {
+   "ar": "سلمان الفرج",
+   "short": "سلمان الفرج"
+  },
+  "Abdulelah Al-Malki": {
+   "ar": "عبدالإله المالكي",
+   "short": "عبدالإله المالكي"
+  },
+  "Fahad Al-Muwallad": {
+   "ar": "فهد المولد",
+   "short": "فهد المولد"
+  },
+  "Hattan Bahebri": {
+   "ar": "حتان باهبري",
+   "short": "باهبري"
+  },
+  "Haroune Camara": {
+   "ar": "هارون كمارا",
+   "short": "كمارا"
+  },
+  "Gabriel Martinelli": {
+   "ar": "غابرييل مارتينيلي",
+   "short": "مارتينيلي"
+  },
+  "Ollie Watkins": {
+   "ar": "أولي واتكينز",
+   "short": "واتكينز"
+  },
+  "Mohammed Al-Rubaie": {
+   "ar": "محمد الربيعي",
+   "short": "محمد الربيعي"
+  },
+  "Murad Hawsawi": {
+   "ar": "مراد هوساوي",
+   "short": "هوساوي"
+  },
+  "Rayan Al-Ghamdi": {
+   "ar": "ريان الغامدي",
+   "short": "ريان الغامدي"
+  },
+  "Crysencio Summerville": {
+   "ar": "كريسينسيو سامرفيل",
+   "short": "سامرفيل"
+  },
+  "Saad Al-Mutairi": {
+   "ar": "سعد المطيري",
+   "short": "سعد المطيري"
+  },
+  "Mishal Al-Dawood": {
+   "ar": "مشعل الداود",
+   "short": "مشعل الداود"
+  },
+  "Saimon Bouabre": {
+   "ar": "سايمون بوابري",
+   "short": "بوابري"
+  },
+  "Sabri Dahal": {
+   "ar": "صبري دهل",
+   "short": "دهل"
+  },
+  "Mohammed Al-Sarnoukh": {
+   "ar": "محمد السرنوخ",
+   "short": "محمد السرنوخ"
+  },
+  "Mohamed Kader Meite": {
+   "ar": "محمد قادر ميتي",
+   "short": "ميتي"
+  },
+  "Nawaf Al-Habashi": {
+   "ar": "نواف الحبشي",
+   "short": "نواف الحبشي"
+  },
+  "Abdullah Al-Anazi": {
+   "ar": "عبدالله العنزي",
+   "short": "عبدالله العنزي"
+  },
+  "Suhayb Al-Zaid": {
+   "ar": "صهيب الزيد",
+   "short": "صهيب الزيد"
+  },
+  "Pablo Mari": {
+   "ar": "بابلو ماري",
+   "short": "ماري"
+  },
+  "Mathieu Patouillet": {
+   "ar": "ماتيو باتويي",
+   "short": "باتويي"
+  },
+  "Rayan Al-Dossary": {
+   "ar": "ريان الدوسري",
+   "short": "ريان الدوسري"
+  },
+  "Yusuf Akcicek": {
+   "ar": "يوسف أكتشيتشيك",
+   "short": "أكتشيتشيك"
+  },
+  "Mohammed Al-Muhaysh": {
+   "ar": "محمد المحيش",
+   "short": "محمد المحيش"
+  },
+  "Saud Haroun": {
+   "ar": "سعود هارون",
+   "short": "هارون"
+  },
+  "Saad Al-Muthary": {
+   "ar": "سعد المثري",
+   "short": "سعد المثري"
+  },
+  "Saleh Barnawi": {
+   "ar": "صالح برناوي",
+   "short": "برناوي"
+  },
+  "Hamad Al-Yami": {
+   "ar": "حمد اليامي",
+   "short": "حمد اليامي"
+  },
+  "Mohammed Al-Yami": {
+   "ar": "محمد اليامي",
+   "short": "محمد اليامي"
+  },
+  "Mohammed Mahzari": {
+   "ar": "محمد محزري",
+   "short": "محزري"
+  },
+  "Raghid Al-Najjar": {
+   "ar": "رغيد النجار",
+   "short": "رغيد النجار"
+  },
+  "Mubarak Al-Buainain": {
+   "ar": "مبارك البوعينين",
+   "short": "مبارك البوعينين"
+  },
+  "Abdulrahman Al-Otaibi": {
+   "ar": "عبدالرحمن العتيبي",
+   "short": "عبدالرحمن العتيبي"
+  },
+  "Saad Al-Nasser": {
+   "ar": "سعد الناصر",
+   "short": "سعد الناصر"
+  },
+  "Nader Al-Sharari": {
+   "ar": "نادر الشراري",
+   "short": "نادر الشراري"
+  },
+  "Aser Hwsawi": {
+   "ar": "عاصر هوساوي",
+   "short": "هوساوي"
+  },
+  "Majed Qasheesh": {
+   "ar": "ماجد قشيش",
+   "short": "قشيش"
+  },
+  "Awad Aman": {
+   "ar": "عوض أمان",
+   "short": "أمان"
+  },
+  "Abdulmajeed Al-Sulaiheem": {
+   "ar": "عبدالمجيد السليهم",
+   "short": "عبدالمجيد السليهم"
+  },
+  "Samu Costa": {
+   "ar": "ساميو كوستا",
+   "short": "كوستا"
+  },
+  "Hayder Abdulkareem": {
+   "ar": "حيدر عبدالكريم",
+   "short": "عبدالكريم"
+  },
+  "Youssef Al-Tahan": {
+   "ar": "يوسف الطحان",
+   "short": "يوسف الطحان"
+  },
+  "Muhannad Barah": {
+   "ar": "مهند بارة",
+   "short": "بارة"
+  },
+  "Abdulrahman Al-Enazi": {
+   "ar": "عبدالرحمن العنزي",
+   "short": "عبدالرحمن العنزي"
+  },
+  "Walid Saber": {
+   "ar": "وليد صابر",
+   "short": "صابر"
+  },
+  "Mubarak Al-Dawsari": {
+   "ar": "مبارك الدوسري",
+   "short": "مبارك الدوسري"
+  },
+  "Faris Salem": {
+   "ar": "فارس سالم",
+   "short": "سالم"
+  },
+  "Mohammed Marran": {
+   "ar": "محمد مران",
+   "short": "مران"
+  },
+  "Angelo": {
+   "ar": "أنجيلو"
+  },
+  "Raghed Al-Najjar": {
+   "ar": "رغيد النجار",
+   "short": "رغيد النجار"
+  },
+  "Youssef En-Nesyri": {
+   "ar": "يوسف النصيري",
+   "short": "يوسف النصيري"
+  },
+  "George Ilenikhena": {
+   "ar": "جورج إيلينيخينا",
+   "short": "إيلينيخينا"
+  },
+  "Marwan Al-Sahafi": {
+   "ar": "مروان الصحفي",
+   "short": "مروان الصحفي"
+  },
+  "Talal Haji": {
+   "ar": "طلال حاجي",
+   "short": "حاجي"
+  },
+  "Ahmed Al-Ghamdi": {
+   "ar": "أحمد الغامدي",
+   "short": "أحمد الغامدي"
+  },
+  "Richard Rios": {
+   "ar": "ريتشارد ريوس",
+   "short": "ريوس"
+  },
+  "Georginio Wijnaldum": {
+   "ar": "جورجينيو فينالدوم",
+   "short": "فينالدوم"
+  },
+  "Mahamadou Doumbia": {
+   "ar": "ماهامادو دومبيا",
+   "short": "دومبيا"
+  },
+  "Stephane Keller": {
+   "ar": "ستيفان كيلر",
+   "short": "كيلر"
+  },
+  "Jan-Carlo Simic": {
+   "ar": "يان كارلو سيميتش",
+   "short": "سيميتش"
+  },
+  "Saad Al-Mousa": {
+   "ar": "سعد الموسى",
+   "short": "سعد الموسى"
+  },
+  "Roger Fernandes": {
+   "ar": "روجر فرنانديز",
+   "short": "فرنانديز"
+  },
+  "Mukhtar Ali": {
+   "ar": "مختار علي",
+   "short": "مختار"
+  },
+  "Muhannad Al-Shanqeeti": {
+   "ar": "مهند الشنقيطي",
+   "short": "مهند الشنقيطي"
+  },
+  "Hamed Al-Shanqiti": {
+   "ar": "حامد الشنقيطي",
+   "short": "حامد الشنقيطي"
+  },
+  "Hassan Kadesh": {
+   "ar": "حسن كادش",
+   "short": "كادش"
+  },
+  "Ahmed Sharahili": {
+   "ar": "أحمد شراحيلي",
+   "short": "شراحيلي"
+  },
+  "Fawaz Al-Sqoor": {
+   "ar": "فواز الصقور",
+   "short": "فواز الصقور"
+  },
+  "Muath Faqeehi": {
+   "ar": "معاذ فقيهي",
+   "short": "فقيهي"
+  },
+  "Mohammed Al-Absi": {
+   "ar": "محمد العبسي",
+   "short": "محمد العبسي"
+  },
+  "Isaias Rodriguez": {
+   "ar": "إيزايا رودريغيز",
+   "short": "رودريغيز"
+  },
+  "Mateo Borrell": {
+   "ar": "ماتيو بوريل",
+   "short": "بوريل"
+  },
+  "Rakan Kaabi": {
+   "ar": "راكان كعبي",
+   "short": "كعبي"
+  },
+  "Mohammed Barnawi": {
+   "ar": "محمد برناوي",
+   "short": "برناوي"
+  },
+  "Abdulelah Hawsawi": {
+   "ar": "عبدالإله هوساوي",
+   "short": "هوساوي"
+  },
+  "Osama Al-Marwash": {
+   "ar": "أسامة المرواش",
+   "short": "أسامة المرواش"
+  },
+  "Faris Abdi": {
+   "ar": "فارس عابدي",
+   "short": "عابدي"
+  },
+  "Bryant Ortega": {
+   "ar": "براينت أورتيغا",
+   "short": "أورتيغا"
+  },
+  "Farhah Al-Shamrani": {
+   "ar": "فرحة الشمراني",
+   "short": "فرحة الشمراني"
+  },
+  "Dion Lopy": {
+   "ar": "ديون لوبي",
+   "short": "لوبي"
+  },
+  "Ahmed Al-Julaydan": {
+   "ar": "أحمد الجليدان",
+   "short": "أحمد الجليدان"
+  },
+  "Unai Hernandez": {
+   "ar": "أوناي هيرنانديز",
+   "short": "هيرنانديز"
+  },
+  "Yaseen Khalid": {
+   "ar": "ياسين خالد",
+   "short": "خالد"
+  },
+  "Abdulrahman Hazazi": {
+   "ar": "عبدالرحمن هزازي",
+   "short": "هزازي"
+  },
+  "Mohammed Alabsi": {
+   "ar": "محمد العبسي",
+   "short": "محمد العبسي"
+  },
+  "Francisco Trincao": {
+   "ar": "فرانسيسكو تريكاو",
+   "short": "تريكاو"
+  },
+  "Eduard Spertsyan": {
+   "ar": "إدوارد سبيرتسيان",
+   "short": "سبيرتسيان"
+  },
+  "Meshal Al-Mutairi": {
+   "ar": "مشعل المطيري",
+   "short": "مشعل المطيري"
+  },
+  "Eid Al-Muwallad": {
+   "ar": "عيد المولد",
+   "short": "عيد المولد"
+  },
+  "Artem Bondarenko": {
+   "ar": "أرتيم بوندارينكو",
+   "short": "بوندارينكو"
+  },
+  "Abubacarr Kinteh": {
+   "ar": "أبوبكر كينتيه",
+   "short": "كينتيه"
+  },
+  "Mohammed Abdulrahman": {
+   "ar": "محمد عبدالرحمن",
+   "short": "عبدالرحمن"
+  },
+  "Saad Balobaid": {
+   "ar": "سعد بالعبيد",
+   "short": "بالعبيد"
+  },
+  "Rayan Hamed": {
+   "ar": "ريان حامد",
+   "short": "حامد"
+  },
+  "Saleh Abu Al-Shamat": {
+   "ar": "صالح أبو الشامات",
+   "short": "أبو الشامات"
+  },
+  "Yazan Madani": {
+   "ar": "يزن مدني",
+   "short": "مدني"
+  },
+  "Abdullah Abdoh": {
+   "ar": "عبدالله عبده",
+   "short": "عبده"
+  },
+  "Naif Masoud": {
+   "ar": "نايف مسعود",
+   "short": "مسعود"
+  },
+  "Ricardo Mathias": {
+   "ar": "ريكاردو ماتياس",
+   "short": "ماتياس"
+  },
+  "Ayman Fallatah": {
+   "ar": "أيمن فلاتة",
+   "short": "فلاتة"
+  },
+  "Ali Bakhashwin": {
+   "ar": "علي باخشوين",
+   "short": "باخشوين"
+  },
+  "Ibrahim Azzam": {
+   "ar": "إبراهيم عزام",
+   "short": "عزام"
+  },
+  "Faisal Fallatah": {
+   "ar": "فيصل فلاتة",
+   "short": "فلاتة"
+  },
+  "Salman Al-Jadani": {
+   "ar": "سلمان الجداني",
+   "short": "سلمان الجداني"
+  },
+  "Wenderson Galeno": {
+   "ar": "غاليينو"
+  },
+  "Aboubakkar Moussa": {
+   "ar": "أبوبكر موسى",
+   "short": "موسى"
+  },
+  "Mohammed Sulaiman": {
+   "ar": "محمد سليمان",
+   "short": "سليمان"
+  },
+  "Mohammed Yousef": {
+   "ar": "محمد يوسف",
+   "short": "يوسف"
+  },
+  "Roger Ibanez": {
+   "ar": "روجر إيبانيز",
+   "short": "إيبانيز"
+  },
+  "Jerry Afriyie": {
+   "ar": "جيري أفريي",
+   "short": "أفريي"
+  },
+  "Gabriel Carvalho": {
+   "ar": "غابرييل كارفاليو",
+   "short": "كارفاليو"
+  },
+  "Mohammed Alqahtani": {
+   "ar": "محمد القحطاني",
+   "short": "محمد القحطاني"
+  },
+  "Abdullah Al-Salem": {
+   "ar": "عبدالله السالم",
+   "short": "عبدالله السالم"
+  },
+  "Guga": {
+   "ar": "غوغا"
+  },
+  "Haitham Asiri": {
+   "ar": "هيثم عسيري",
+   "short": "عسيري"
+  },
+  "Abdulaziz Al-Othman": {
+   "ar": "عبدالعزيز العثمان",
+   "short": "عبدالعزيز العثمان"
+  },
+  "Sultan Harun": {
+   "ar": "سلطان هارون",
+   "short": "هارون"
+  },
+  "Anas Al-Ahmadi": {
+   "ar": "أنس الأحمدي",
+   "short": "أنس الأحمدي"
+  },
+  "Christopher Baah": {
+   "ar": "كريستوفر باه",
+   "short": "باه"
+  },
+  "Koen Casteels": {
+   "ar": "كون كاستيلس",
+   "short": "كاستيلس"
+  },
+  "Meshari Sunyur": {
+   "ar": "مشاري صنيور",
+   "short": "صنيور"
+  },
+  "Wafi Al-Aklabi": {
+   "ar": "وافي الأكلبي",
+   "short": "وافي الأكلبي"
+  },
+  "Abdullah Almuhaysin": {
+   "ar": "عبدالله المحيسن",
+   "short": "عبدالله المحيسن"
+  },
+  "Gaston Alvarez": {
+   "ar": "غاستون ألفاريز",
+   "short": "ألفاريز"
+  },
+  "Mohammed Qasem": {
+   "ar": "محمد قاسم",
+   "short": "قاسم"
+  },
+  "Waleed Al-Ahmed": {
+   "ar": "وليد الأحمد",
+   "short": "وليد الأحمد"
+  },
+  "Jehad Thakri": {
+   "ar": "جهاد ذكري",
+   "short": "ذكري"
+  },
+  "Ali Diabate": {
+   "ar": "علي دياباتي",
+   "short": "دياباتي"
+  },
+  "Abdulah Al-Jwayzan": {
+   "ar": "عبدالله الجويزان",
+   "short": "عبدالله الجويزان"
+  },
+  "Julian Weigl": {
+   "ar": "يوليان فايغل",
+   "short": "فايغل"
+  },
+  "Nacho": {
+   "ar": "ناتشو"
+  },
+  "Carlos Junior": {
+   "ar": "كارلوس جونيور",
+   "short": "جونيور"
+  },
+  "Hammam Al-Hammami": {
+   "ar": "همام الهمامي",
+   "short": "همام الهمامي"
+  },
+  "Majed Abdullah": {
+   "ar": "ماجد عبدالله",
+   "short": "عبدالله"
+  },
+  "Hisham Al-Dubais": {
+   "ar": "هشام الدبيس",
+   "short": "هشام الدبيس"
+  },
+  "Yannick Carrasco": {
+   "ar": "يانيك كاراسكو",
+   "short": "كاراسكو"
+  },
+  "Yacine Adli": {
+   "ar": "ياسين عدلي",
+   "short": "عدلي"
+  },
+  "Daniel Podence": {
+   "ar": "دانيال بودنسي",
+   "short": "بودنسي"
+  },
+  "Josh Brownhill": {
+   "ar": "جوش براونهيل",
+   "short": "براونهيل"
+  },
+  "Vincent Sierro": {
+   "ar": "فينسنت سييرو",
+   "short": "سييرو"
+  },
+  "Awad Al-Nashri": {
+   "ar": "عوض النشري",
+   "short": "عوض النشري"
+  },
+  "Ali Al-Asmari": {
+   "ar": "علي الأسمري",
+   "short": "علي الأسمري"
+  },
+  "Mory Diaw": {
+   "ar": "موري ديوف",
+   "short": "ديوف"
+  },
+  "Abdulaziz Rahma": {
+   "ar": "عبدالعزيز رحمة",
+   "short": "رحمة"
+  },
+  "Mohammed Al-Mahasna": {
+   "ar": "محمد المحاسنة",
+   "short": "محمد المحاسنة"
+  },
+  "Muhammad Al-Otaibi": {
+   "ar": "محمد العتيبي",
+   "short": "محمد العتيبي"
+  },
+  "Tin Jedvaj": {
+   "ar": "تين يدفاي",
+   "short": "يدفاي"
+  },
+  "Mamadou Barry": {
+   "ar": "مامادو باري",
+   "short": "باري"
+  },
+  "Hussain Al-Sabiyani": {
+   "ar": "حسين السبياني",
+   "short": "حسين السبياني"
+  },
+  "Mohammed Harbush": {
+   "ar": "محمد حربوش",
+   "short": "حربوش"
+  },
+  "Mubarak Al-Rajeh": {
+   "ar": "مبارك الراجح",
+   "short": "مبارك الراجح"
+  },
+  "Ali Makki": {
+   "ar": "علي مكي",
+   "short": "مكي"
+  },
+  "Dhari Al-Anazi": {
+   "ar": "ضاري العنزي",
+   "short": "ضاري العنزي"
+  },
+  "Mohammed Al-Shwirekh": {
+   "ar": "محمد الشويرخ",
+   "short": "محمد الشويرخ"
+  },
+  "Mohammed Al-Thani": {
+   "ar": "محمد الثاني",
+   "short": "محمد الثاني"
+  },
+  "Lazar Stojanovic": {
+   "ar": "لازار ستويانوفيتش",
+   "short": "ستويانوفيتش"
+  },
+  "Rayane Messi": {
+   "ar": "ريان ميسي",
+   "short": "ميسي"
+  },
+  "Khalid Al-Ghannam": {
+   "ar": "خالد الغنام",
+   "short": "خالد الغنام"
+  },
+  "Ziyad Al-Ghamdi": {
+   "ar": "زياد الغامدي",
+   "short": "زياد الغامدي"
+  },
+  "Jalal Al-Salem": {
+   "ar": "جلال السالم",
+   "short": "جلال السالم"
+  },
+  "Jordan Larsson": {
+   "ar": "يوردان لارسون",
+   "short": "لارسون"
+  },
+  "Ondrej Duda": {
+   "ar": "أوندريه دودا",
+   "short": "دودا"
+  },
+  "Bersant Celina": {
+   "ar": "بيرسانت سيلينا",
+   "short": "سيلينا"
+  },
+  "Abdoulaye Kante": {
+   "ar": "عبدولاي كانتي",
+   "short": "كانتي"
+  },
+  "Alvaro Medran": {
+   "ar": "ألفارو ميدران",
+   "short": "ميدران"
+  },
+  "Lukas Haraslin": {
+   "ar": "لوكاس هاراسلين",
+   "short": "هاراسلين"
+  },
+  "Mourad Batna": {
+   "ar": "مراد باتنا",
+   "short": "باتنا"
+  },
+  "Wilfried Kanga": {
+   "ar": "ويلفريد كانغا",
+   "short": "كانغا"
+  },
+  "Fahad Zubaidi": {
+   "ar": "فهد الزبيدي",
+   "short": "فهد الزبيدي"
+  },
+  "Jefferson Ramos": {
+   "ar": "جيفرسون راموس",
+   "short": "راموس"
+  },
+  "Faisal Al-Abdulwahed": {
+   "ar": "فيصل العبدالواحد",
+   "short": "فيصل العبدالواحد"
+  },
+  "Saad Al-Shurafa": {
+   "ar": "سعد الشرفا",
+   "short": "سعد الشرفا"
+  },
+  "Ali Al-Masoud": {
+   "ar": "علي المسعود",
+   "short": "علي المسعود"
+  },
+  "Abderazak Hamdallah": {
+   "ar": "عبدالرزاق حمدالله",
+   "short": "حمدالله"
+  },
+  "Younes El Bahraoui": {
+   "ar": "يونس البحراوي",
+   "short": "يونس البحراوي"
+  },
+  "Saif Rashad": {
+   "ar": "سيف رشاد",
+   "short": "رشاد"
+  },
+  "Mohammed Al-Kuwaykibi": {
+   "ar": "محمد الكويكبي",
+   "short": "محمد الكويكبي"
+  },
+  "Bassem Al-Arini": {
+   "ar": "باسم العريني",
+   "short": "باسم العريني"
+  },
+  "Parfait Guiagon": {
+   "ar": "بارفيه غيايغون",
+   "short": "غيايغون"
+  },
+  "Nedim Bajrami": {
+   "ar": "نديم بايرامي",
+   "short": "بايرامي"
+  },
+  "Oscar Dorley": {
+   "ar": "أوسكار دورلي",
+   "short": "دورلي"
+  },
+  "Ashraf El Mahdioui": {
+   "ar": "أشرف المهديوي",
+   "short": "أشرف المهديوي"
+  },
+  "Marin Petkov": {
+   "ar": "مارين بيتكوف",
+   "short": "بيتكوف"
+  },
+  "Rakan Al-Tulayhi": {
+   "ar": "راكان الطليحي",
+   "short": "راكان الطليحي"
+  },
+  "Lazaro": {
+   "ar": "لازارو"
+  },
+  "Jason": {
+   "ar": "جاسون"
+  },
+  "Malek Al-Abdulmonam": {
+   "ar": "مالك العبدالمنعم",
+   "short": "مالك العبدالمنعم"
+  },
+  "Sultan Al-Jabri": {
+   "ar": "سلطان الجبري",
+   "short": "سلطان الجبري"
+  },
+  "Mohammed Hakami": {
+   "ar": "محمد حكمي",
+   "short": "حكمي"
+  },
+  "Fashion Sakala": {
+   "ar": "فاشيون ساكالا",
+   "short": "ساكالا"
+  },
+  "Hugo Moura": {
+   "ar": "هوغو مورا",
+   "short": "مورا"
+  },
+  "Alfa Semedo": {
+   "ar": "ألفا سيميدو",
+   "short": "سيميدو"
+  },
+  "Yago Souza": {
+   "ar": "ياغو سوزا",
+   "short": "سوزا"
+  },
+  "Abdullah Al-Qahtani": {
+   "ar": "عبدالله القحطاني",
+   "short": "عبدالله القحطاني"
+  },
+  "Ali Al-Hussain": {
+   "ar": "علي الحسين",
+   "short": "علي الحسين"
+  },
+  "Rayan Enad": {
+   "ar": "ريان عناد",
+   "short": "عناد"
+  },
+  "Joshua King": {
+   "ar": "جوشوا كينغ",
+   "short": "كينغ"
+  },
+  "Fahad Al-Rashidi": {
+   "ar": "فهد الرشيدي",
+   "short": "فهد الرشيدي"
+  },
+  "Thamer Al-Khaibri": {
+   "ar": "ثامر الخيبري",
+   "short": "ثامر الخيبري"
+  },
+  "Hussain Al-Issa": {
+   "ar": "حسين العيسى",
+   "short": "حسين العيسى"
+  },
+  "Miguel Crespo": {
+   "ar": "ميغيل كريسبو",
+   "short": "كريسبو"
+  },
+  "Angelo Fulgini": {
+   "ar": "أنجيلو فولجيني",
+   "short": "فولجيني"
+  },
+  "Omar Mascarell": {
+   "ar": "عمر ماسكاريل",
+   "short": "ماسكاريل"
+  },
+  "Saleh Al-Amri": {
+   "ar": "صالح العمري",
+   "short": "صالح العمري"
+  },
+  "Leandro Antunes": {
+   "ar": "ليأندرو أنتونيس",
+   "short": "أنتونيس"
+  },
+  "Hassan Al-Ali": {
+   "ar": "حسن العلي",
+   "short": "حسن العلي"
+  },
+  "Salman Matar": {
+   "ar": "سلمان مطر",
+   "short": "مطر"
+  },
+  "Battal Al-Harthi": {
+   "ar": "بطال الحارثي",
+   "short": "بطال الحارثي"
+  },
+  "Mahmoud Trezeguet": {
+   "ar": "محمود تريزيغيه",
+   "short": "تريزيغيه"
+  },
+  "Victor Lekhal": {
+   "ar": "فيكتور لخال",
+   "short": "لخال"
+  },
+  "Bernard Mensah": {
+   "ar": "برنارد مينساه",
+   "short": "مينساه"
+  },
+  "Teddy Okou": {
+   "ar": "تيدي أوكو",
+   "short": "أوكو"
+  },
+  "Kader Keita": {
+   "ar": "قادر كيتا",
+   "short": "كيتا"
+  },
+  "Yahya Al-Shehri": {
+   "ar": "يحيى الشهري",
+   "short": "يحيى الشهري"
+  },
+  "Hussain Al-Shurafa": {
+   "ar": "حسين الشرفا",
+   "short": "حسين الشرفا"
+  },
+  "Ramiro Enrique": {
+   "ar": "رامييرو إنريكي",
+   "short": "إنريكي"
+  },
+  "Abdullah Al-Ajyan": {
+   "ar": "عبدالله العجيان",
+   "short": "عبدالله العجيان"
+  },
+  "Seydouba Cisse": {
+   "ar": "سيدوبا سيسيه",
+   "short": "سيسيه"
+  },
+  "John Buckley": {
+   "ar": "جون باكلي",
+   "short": "باكلي"
+  },
+  "Edgaras Utkus": {
+   "ar": "إدغاراس أوتكوس",
+   "short": "أوتكوس"
+  },
+  "Afimico Pululu": {
+   "ar": "أفيميكو بولولو",
+   "short": "بولولو"
+  },
+  "Sofiane Bendebka": {
+   "ar": "سفيان بن دبكة",
+   "short": "بن دبكة"
+  },
+  "Amir Saayoud": {
+   "ar": "أمير سعيود",
+   "short": "سعيود"
+  },
+  "Elton Acolatse": {
+   "ar": "إلتون أكولاتسي",
+   "short": "أكولاتسي"
+  },
+  "Ahmed Al-Shamrani": {
+   "ar": "أحمد الشمراني",
+   "short": "أحمد الشمراني"
+  },
+  "Michy Batshuayi": {
+   "ar": "ميشي باتشواي",
+   "short": "باتشواي"
+  },
+  "Abdulkarim Darisi": {
+   "ar": "عبدالكريم دارسي",
+   "short": "دارسي"
+  },
+  "Alimami Gory": {
+   "ar": "أليمامي جوري",
+   "short": "جوري"
+  },
+  "Nabil Fekir": {
+   "ar": "نبيل فقير",
+   "short": "فقير"
+  },
+  "Georges-Kevin N'Koudou": {
+   "ar": "جورج كيفن نكودو",
+   "short": "نكودو"
+  },
+  "Mohammed Al-Zaid": {
+   "ar": "محمد الزيد",
+   "short": "محمد الزيد"
+  },
+  "Loreintz Rosier": {
+   "ar": "لورينتز رويزر",
+   "short": "رويزر"
+  },
+  "Faisal Al-Sibyani": {
+   "ar": "فيصل السبياني",
+   "short": "فيصل السبياني"
+  },
+  "Alexandre Lacazette": {
+   "ar": "ألكسندر لاكازيت",
+   "short": "لاكازيت"
+  },
+  "Muhannad Al-Saad": {
+   "ar": "مهند السعد",
+   "short": "مهند السعد"
+  },
+  "Khalil Al-Absi": {
+   "ar": "خليل العبسي",
+   "short": "خليل العبسي"
+  },
+  "Said Benrahma": {
+   "ar": "سعيد بن رحمة",
+   "short": "بن رحمة"
+  },
+  "Giorgos Masouras": {
+   "ar": "جورجوس ماسوراس",
+   "short": "ماسوراس"
+  },
+  "Amadou Kone": {
+   "ar": "أمادو كوني",
+   "short": "كوني"
+  },
+  "Mohannad Abu Taha": {
+   "ar": "مهند أبو طه",
+   "short": "أبو طه"
+  },
+  "Valentin Vada": {
+   "ar": "فالنتين فادا",
+   "short": "فادا"
+  },
+  "Alaa Al-Hejji": {
+   "ar": "علاء الحجي",
+   "short": "علاء الحجي"
+  },
+  "Abdulaziz Noor": {
+   "ar": "عبدالعزيز نور",
+   "short": "نور"
+  },
+  "Ahmed Al-Anzi": {
+   "ar": "أحمد العنزي",
+   "short": "أحمد العنزي"
+  },
+  "Malang Sarr": {
+   "ar": "مالانغ سار",
+   "short": "سار"
+  },
+  "Gaetan Laborde": {
+   "ar": "غايتان لابورد",
+   "short": "لابورد"
+  },
+  "Meshari Al-Nemer": {
+   "ar": "مشاري النمر",
+   "short": "مشاري النمر"
+  },
+  "Idrissa Gana Gueye": {
+   "ar": "إدريسا غانا غاي",
+   "short": "غاي"
+  },
+  "Adil Boulbina": {
+   "ar": "عادل بولبينة",
+   "short": "بولبينة"
+  },
+  "Enzo Millot": {
+   "ar": "إنزو ميلو",
+   "short": "ميلو"
+  },
+  "Oscar Rodriguez": {
+   "ar": "أوسكار رودريغيز",
+   "short": "رودريغيز"
+  },
+  "Mathys de Carvalho": {
+   "ar": "ماتيس دي كارفاليو",
+   "short": "كارفاليو"
+  },
+  "Clayton Diandy": {
+   "ar": "كلايتون ديندي",
+   "short": "ديندي"
+  },
+  "Alexandre Mendy": {
+   "ar": "ألكسندر مندي",
+   "short": "مندي"
+  },
+  "Ahmed Abdu": {
+   "ar": "أحمد عبده",
+   "short": "عبده"
+  },
+  "Yousef Al-Shammari": {
+   "ar": "يوسف الشمري",
+   "short": "يوسف الشمري"
+  },
+  "Abdullah Al-Mogren": {
+   "ar": "عبدالله المقرن",
+   "short": "عبدالله المقرن"
+  },
+  "Theo Bongonda": {
+   "ar": "ثيو بونغوندا",
+   "short": "بونغوندا"
+  },
+  "Christian Bassogog": {
+   "ar": "كريستيان باسوغوغ",
+   "short": "باسوغوغ"
+  },
+  "Flavio": {
+   "ar": "فلافيو"
+  },
+  "Jaime Seoane": {
+   "ar": "خايمي سيوان",
+   "short": "سيوان"
+  },
+  "Ali Al-Bulayhi": {
+   "ar": "علي البليهي",
+   "short": "علي البليهي"
+  },
+  "Rúben Neves": {
+   "ar": "روبن نيفيز",
+   "short": "نيفيز"
+  },
+  "O. Mosquera": {
+   "ar": "أورلاندو موسكيرا",
+   "short": "موسكيرا"
+  },
+  "A. Bamasud": {
+   "ar": "بامسعود"
+  },
+  "O. Colley": {
+   "ar": "عمر كولي",
+   "short": "كولي"
+  },
+  "M. Al Rashidi": {
+   "ar": "محمد الرشيدي",
+   "short": "محمد الرشيدي"
+  },
+  "M. Al Baqawi": {
+   "ar": "محمد البقاوي",
+   "short": "محمد البقاوي"
+  },
+  "Z. Al Sahafi": {
+   "ar": "زياد الصحفي",
+   "short": "زياد الصحفي"
+  },
+  "Sultan Al Jarbi": {
+   "ar": "سلطان الجربي",
+   "short": "سلطان الجربي"
+  },
+  "M. Al-Beshe": {
+   "ar": "محمد البيشي",
+   "short": "محمد البيشي"
+  },
+  "N. Al-Harthi": {
+   "ar": "نواف الحارثي",
+   "short": "نواف الحارثي"
+  },
+  "A. Al Dakheel": {
+   "ar": "أحمد الدخيل",
+   "short": "أحمد الدخيل"
+  },
+  "F. Alhubayshi": {
+   "ar": "الحبيشي"
+  },
+  "A. Al-Nakhli": {
+   "ar": "النخلي"
+  },
+  "A. Bah": {
+   "ar": "أبوبكر باه",
+   "short": "باه"
+  },
+  "A. Sayoud": {
+   "ar": "أمير سعيود",
+   "short": "سعيود"
+  },
+  "B. Mugisha": {
+   "ar": "بونير موغيشا",
+   "short": "موغيشا"
+  },
+  "S. Tanker": {
+   "ar": "سلطان تانكر",
+   "short": "تانكر"
+  },
+  "J. Stanek": {
+   "ar": "يندريتش ستانيك",
+   "short": "ستانيك"
+  },
+  "W. Al Shanqiti": {
+   "ar": "وليد الشنقيطي",
+   "short": "وليد الشنقيطي"
+  },
+  "A. Diakite": {
+   "ar": "أبوبكر دياكيتي",
+   "short": "دياكيتي"
+  },
+  "M. Konate": {
+   "ar": "كوناتي"
+  },
+  "M. Ben Hamida": {
+   "ar": "محمد بن حميدة",
+   "short": "بن حميدة"
+  },
+  "Mohammed Issa": {
+   "ar": "محمد عيسى",
+   "short": "عيسى"
+  },
+  "I. Zaid": {
+   "ar": "الزيد"
+  },
+  "M. Al Hamdani": {
+   "ar": "محمد الحمداني",
+   "short": "محمد الحمداني"
+  },
+  "J. Ateeq": {
+   "ar": "عتيق"
+  },
+  "Z. Youssef": {
+   "ar": "يوسف"
+  },
+  "Suwailem": {
+   "ar": "سويلم"
+  },
+  "K. Boateng": {
+   "ar": "بواتينغ"
+  },
+  "A. Semper": {
+   "ar": "سيمبر"
+  },
+  "R. Kelder": {
+   "ar": "كيلدر"
+  },
+  "W. Al Enazi": {
+   "ar": "العنزي"
+  },
+  "M. Lixandru": {
+   "ar": "ليكساندرو"
+  },
+  "O. Al Othman": {
+   "ar": "العثمان"
+  },
+  "A. Al Fawaz": {
+   "ar": "الفواز"
+  },
+  "J. Domingues": {
+   "ar": "دومينغيس"
+  },
+  "I. Kortajarena": {
+   "ar": "إيكر كورتاخارينا",
+   "short": "كورتاخارينا"
+  },
+  "C. da Costa": {
+   "ar": "كوبا دا كوستا",
+   "short": "دا كوستا"
+  },
+  "A. Al-Dossari": {
+   "ar": "الدوسري"
+  },
+  "Yaseen Al Zubaidi": {
+   "ar": "ياسين الزبيدي",
+   "short": "ياسين الزبيدي"
+  },
+  "S. Pinas": {
+   "ar": "شاكيل بيناس",
+   "short": "بيناس"
+  },
+  "M. Camara": {
+   "ar": "محمد كمارا",
+   "short": "كمارا"
+  },
+  "R. Solan": {
+   "ar": "سولان"
+  },
+  "M. Al Yahya": {
+   "ar": "محمد اليحيى",
+   "short": "محمد اليحيى"
+  },
+  "M. Al Rashdi": {
+   "ar": "الرشدي"
+  },
+  "M. Alshammari": {
+   "ar": "محمد الشمري",
+   "short": "محمد الشمري"
+  },
+  "I. Barabaa": {
+   "ar": "برابعة"
+  },
+  "A. Bikoula": {
+   "ar": "بيكولا"
+  },
+  "A. Adi": {
+   "ar": "عدي"
+  },
+  "Muhammad Sawan": {
+   "ar": "محمد صوان",
+   "short": "صوان"
+  },
+  "A. Al Obaid": {
+   "ar": "العبيد"
+  },
+  "A. Al-Bishi": {
+   "ar": "البيشي"
+  },
+  "A. Girotto": {
+   "ar": "جيروتو"
+  },
+  "A. Seck": {
+   "ar": "سيك"
+  },
+  "Y. Barnawi": {
+   "ar": "ياسر برناوي",
+   "short": "برناوي"
+  },
+  "F. Pacheco": {
+   "ar": "باتشيكو"
+  },
+  "K. Al-Harbi": {
+   "ar": "الحربي"
+  },
+  "S. Haddad": {
+   "ar": "حداد"
+  },
+  "M. Jahfali": {
+   "ar": "جحفلي"
+  },
+  "Abdullah Subayt": {
+   "ar": "عبدالله سبيت",
+   "short": "سبيت"
+  },
+  "F. Al Fahad": {
+   "ar": "الفهد"
+  },
+  "A. Al Sharif": {
+   "ar": "الشريف"
+  },
+  "M. Al-Hasawi": {
+   "ar": "الحساوي"
+  },
+  "A. Almogren": {
+   "ar": "المقرن"
+  },
+  "A. Hindi": {
+   "ar": "عبدالباسط هندي",
+   "short": "عبدالباسط هندي"
+  },
+  "A. Al Fahad": {
+   "ar": "الفهد"
+  },
+  "J. Gaari": {
+   "ar": "غاري"
+  },
+  "K. Al Shamri": {
+   "ar": "الشمري"
+  },
+  "A. Al Bouq": {
+   "ar": "البوق"
+  },
+  "K. Boumedmed": {
+   "ar": "بومدمد"
+  },
+  "B. Al Mutairi": {
+   "ar": "المطيري"
+  },
+  "M. Malaika": {
+   "ar": "ملايكة"
+  },
+  "N. Al-Daajani": {
+   "ar": "الدعجاني"
+  },
+  "A. Al Yuhaybi": {
+   "ar": "اليحيبي"
+  },
+  "K. Al Karani": {
+   "ar": "كشيم القحطاني",
+   "short": "كشيم القحطاني"
+  },
+  "Tijjani Reijnders": {
+   "ar": "تيجاني ريندرز",
+   "short": "ريندرز"
+  },
+  "A. Al Siyahi": {
+   "ar": "السياحي"
+  },
+  "E. Houssa": {
+   "ar": "هوسا"
+  },
+  "A. Al Jaber": {
+   "ar": "الجابر"
+  },
+  "A. Al-Aliwa": {
+   "ar": "العليوة"
+  },
+  "Fabio Carille": {
+   "ar": "فابيو كاريلي",
+   "short": "كاريلي"
+  },
+  "Jalel Kadri": {
+   "ar": "جلال القادري",
+   "short": "جلال القادري"
+  },
+  "Jamal Sellami": {
+   "ar": "جمال السلامي",
+   "short": "جمال السلامي"
+  },
+  "Des Buckingham": {
+   "ar": "ديس باكينغهام",
+   "short": "باكينغهام"
+  },
+  "Tarek Moustafa": {
+   "ar": "طارق مصطفى",
+   "short": "مصطفى"
+  },
+  "Damir Buric": {
+   "ar": "داميير بوريتش",
+   "short": "بوريتش"
+  },
+  "Brendan Rodgers": {
+   "ar": "برندان رودجرز",
+   "short": "رودجرز"
+  },
+  "Xabi Alonso": {
+   "ar": "تشابي ألونسو",
+   "short": "ألونسو"
+  },
+  "Jose Mourinho": {
+   "ar": "جوزيه مورينيو",
+   "short": "مورينيو"
+  },
+  "Simone Inzaghi": {
+   "ar": "سيموني إنزاغي",
+   "short": "إنزاغي"
+  },
+  "Jorge Jesus": {
+   "ar": "خورخي جيسوس",
+   "short": "جيسوس"
+  },
+  "Stefano Pioli": {
+   "ar": "ستيفانو بيولي",
+   "short": "بيولي"
+  },
+  "Matthias Jaissle": {
+   "ar": "ماتياس يايسله",
+   "short": "يايسله"
+  },
+  "Steven Gerrard": {
+   "ar": "ستيفن جيرارد",
+   "short": "جيرارد"
+  },
+  "Hossam Essadak": {
+   "ar": "حسام الصادق",
+   "short": "حسام الصادق"
+  },
+  "Ali Alamine": {
+   "ar": "علي الأمين",
+   "short": "علي الأمين"
+  },
+  "Ali Alamine Ali": {
+   "ar": "علي الأمين علي",
+   "short": "الأمين"
+  },
+  "Jamal Salami": {
+   "ar": "جمال السلامي",
+   "short": "جمال السلامي"
+  },
+  "Nawaf Al-Saadi": {
+   "ar": "نواف السعدي",
+   "short": "نواف السعدي"
+  },
+  "Nawaf Al Saadi": {
+   "ar": "نواف السعدي",
+   "short": "نواف السعدي"
+  },
+  "Fawaz Al-Saqour": {
+   "ar": "فواز الصقور",
+   "short": "فواز الصقور"
+  },
+  "Fawaz Al-Sagour": {
+   "ar": "فواز الصقور",
+   "short": "فواز الصقور"
+  },
+  "Mohammed Al-Khubrani": {
+   "ar": "محمد الخبراني",
+   "short": "محمد الخبراني"
+  },
+  "Mohammed Khubrani": {
+   "ar": "محمد الخبراني",
+   "short": "محمد الخبراني"
+  },
+  "Saleh Al-Jamaan": {
+   "ar": "صالح العمري",
+   "short": "صالح العمري"
+  },
+  "Saleh Al Amari": {
+   "ar": "صالح العمري",
+   "short": "صالح العمري"
+  },
+  "Ziyad Aljari": {
+   "ar": "زياد الجري",
+   "short": "زياد الجري"
+  },
+  "Ziyad Al-Jari": {
+   "ar": "زياد الجري",
+   "short": "زياد الجري"
+  },
+  "Z. Aljari": {
+   "ar": "زياد الجري",
+   "short": "زياد الجري"
+  },
+  "Keshim Al-Qahtani": {
+   "ar": "كشيم القحطاني",
+   "short": "كشيم القحطاني"
+  },
+  "Keshim Alqahtani": {
+   "ar": "كشيم القحطاني",
+   "short": "كشيم القحطاني"
+  },
+  "Keshim Al Qahtani": {
+   "ar": "كشيم القحطاني",
+   "short": "كشيم القحطاني"
+  },
+  "Kashim Al-Qahtani": {
+   "ar": "كشيم القحطاني",
+   "short": "كشيم القحطاني"
   }
+ }
 }
