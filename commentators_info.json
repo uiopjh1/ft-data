@@ -202,10 +202,6 @@
   "wiki": "حسن العيدروس",
   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Hasanalaidaroos.jpg/960px-Hasanalaidaroos.jpg?utm_source=ar.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
  },
- "حسن خالد": {
-  "checked": "2026-10-29",
-  "photo_rejected": "manual review 2026-10-29"
- },
  "حفيظ دراجي": {
   "checked": "2026-10-30",
   "bio": "حفيظ دراجي (10 أكتوبر 1964)، هو إعلامي ومعلق رياضي جزائري، حصل على شهادة البكالوريا في الآداب عام 1984، ثم درس في معهد الإعلام والاتصال وتخرج منه عام 1988 بشهادة ليسانس في الإعلام. يعمل حاليًا في قناة بي إن سبورت العربية في قطر.",
@@ -429,6 +425,14 @@
   "img_conf": "user",
   "img_src": [
    "provided by app owner (named poster)"
+  ]
+ },
+ "خالد حسن": {
+  "checked": "2026-10-29",
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/khaled_hassan.jpg",
+  "img_conf": "user",
+  "img_src": [
+   "provided by app owner"
   ]
  }
 }
