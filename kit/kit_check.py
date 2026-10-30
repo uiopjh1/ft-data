@@ -28,17 +28,17 @@ def shirt_rgb(img):
     return k[key==b].mean(0)
 def dist(a,b):return float(np.linalg.norm(a-b))
 def main(team_name):
-    s=get('https://api.sofascore.com/api/v1/search/teams/'+urllib.parse.quote(team_name))
+    s=get('https://api.sofascore.app/api/v1/search/teams/'+urllib.parse.quote(team_name))
     out={'search':[(r['entity']['id'],r['entity']['name'],r['entity'].get('country',{}).get('name')) for r in (s or {}).get('results',[])[:5]]}
     tid=out['search'][0][0] if out['search'] else None
-    t=get(f'https://api.sofascore.com/api/v1/team/{tid}')['team']
+    t=get(f'https://api.sofascore.app/api/v1/team/{tid}')['team']
     tc=t.get('teamColors') or {}
     cols=[hexrgb(tc[k]) for k in ('primary','secondary') if tc.get(k)]
     out['team']=t['name'];out['colors']=tc
-    pl=get(f'https://api.sofascore.com/api/v1/team/{tid}/players')['players']
+    pl=get(f'https://api.sofascore.app/api/v1/team/{tid}/players')['players']
     rows=[];sheet=[]
     for p in pl:
-        p=p['player'];raw=get(f"https://api.sofascore.com/api/v1/player/{p['id']}/image",True)
+        p=p['player'];raw=get(f"https://api.sofascore.app/api/v1/player/{p['id']}/image",True)
         if not raw:rows.append({'name':p['name'],'id':p['id'],'v':'no_image'});continue
         try:im=Image.open(io.BytesIO(raw));c=shirt_rgb(im)
         except Exception as e:rows.append({'name':p['name'],'id':p['id'],'v':'bad'});continue
