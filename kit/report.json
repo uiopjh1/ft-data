@@ -1,0 +1,136 @@
+{
+ "team": "Abha",
+ "id": "21833",
+ "colors": [
+  "AED6F1",
+  "0D47A1"
+ ],
+ "players": [
+  {
+   "name": "Donovan Léon",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Mustafa Malaika",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Abdulrahman Al Bouq",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Abdou Diallo",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Juriën Gaari",
+   "v": "suspect",
+   "dist": 180
+  },
+  {
+   "name": "Abdulbasit Hindi",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Mohammad Al-Dawsari",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Abdullah Al Fahad",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Khaled Al Shamrani",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Nawaf Al Ghulaimish",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Safwan Saud S",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Moayad Mohammed Ahmad Binyan",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Loreintz Rosier",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Nasser Al-Daajani",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Basil Yousef Al-Sayyali",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Bader Al Mutairi",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Faisal Al Sibyani",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Majed Dawran",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Feras Al Ghamdi",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Amar Al Yuhaybi",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Mohammed Al Zaid",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Mateo Borrell",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Mubarak",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Mohammed Al Hamsal",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Michy Batshuayi",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Nabil Fekir",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Georges-Kévin N'Koudou",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Alimani Gory",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Abdulkarim Darisi",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Koshaim Al Karani",
+   "v": "no_headshot"
+  },
+  {
+   "name": "Kamil Boumedmed",
+   "v": "no_headshot"
+  }
+ ],
+ "n": 31
+}
