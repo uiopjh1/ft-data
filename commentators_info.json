@@ -22,10 +22,20 @@
   ]
  },
  "باسم الزير": {
-  "checked": "2026-10-29"
+  "checked": "2026-10-29",
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/basem_alzeer.jpg",
+  "img_conf": "user",
+  "img_src": [
+   "provided by app owner (named poster)"
+  ]
  },
  "خالد المديفر": {
-  "checked": "2026-10-29"
+  "checked": "2026-10-29",
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/khaled_almudifer.jpg",
+  "img_conf": "user",
+  "img_src": [
+   "provided by app owner (named poster)"
+  ]
  },
  "عامر الخوذيري": {
   "checked": "2026-10-29",
@@ -68,7 +78,12 @@
   "checked": "2026-10-29"
  },
  "محمد المبروكي": {
-  "checked": "2026-10-29"
+  "checked": "2026-10-29",
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/mabrouki.jpg",
+  "img_conf": "user",
+  "img_src": [
+   "provided by app owner (named poster)"
+  ]
  },
  "مشاري القرني": {
   "checked": "2026-10-29"
@@ -310,7 +325,12 @@
   ]
  },
  "راشد الدوسري": {
-  "checked": "2026-10-29"
+  "checked": "2026-10-29",
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/rashid_aldosari.jpg",
+  "img_conf": "user",
+  "img_src": [
+   "provided by app owner (named poster)"
+  ]
  },
  "سعد يحيى": {
   "checked": "2026-10-29",
@@ -328,13 +348,10 @@
  },
  "محمد فوزي": {
   "checked": "2026-10-30",
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/51612625.jpg",
-  "img_conf": "face_multi",
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/fawzi.jpg",
+  "img_conf": "user",
   "img_src": [
-   "https://www.last.fm/ru/music/%D9%85%D8%AD%D9%85%D8%AF+%D9%81%D9%88%D8%B2%D9%8A/_/%D8%A7%D9%86%D8%AA%D9%8A+%D8%A7%D9%86%D8%AA%D9%8A/+albums",
-   "https://www.shazam.com/en-us/song/1816796381/d981d98ad986-d8add8a8d98ad8a8d98a/music-video",
-   "https://www.last.fm/ru/music/%D9%85%D8%AD%D9%85%D8%AF+%D9%81%D9%88%D8%B2%D9%8A/_/%D8%A7%D9%86%D8%AA%D9%8A+%D8%A7%D9%86%D8%AA%D9%8A/+albums",
-   "https://www.last.fm/ru/music/%D9%85%D8%AD%D9%85%D8%AF+%D9%81%D9%88%D8%B2%D9%8A/_/%D8%A7%D9%86%D8%AA%D9%8A+%D8%A7%D9%86%D8%AA%D9%8A/+albums"
+   "provided by app owner (named poster)"
   ]
  }
 }
