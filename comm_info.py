@@ -57,7 +57,9 @@ def main():
     names.update(SEED)
     try: _al = {k: v for k, v in json.load(open('commentator_aliases.json')).items() if k[0] != '_'}
     except Exception: _al = {}
-    names = {_al.get(n, n) for n in names}   # الأسماء البديلة تُدمج في الاسم الأساسي
+    try: _bl = set(json.load(open('commentator_blocklist.json')).get('names', []))
+    except Exception: _bl = set()
+    names = {_al.get(n, n) for n in names} - _bl   # الأسماء البديلة تُدمج في الاسم الأساسي
     only = os.environ.get('ONLY', ''); apply = os.environ.get('APPLY') == '1'
     today = datetime.date.today().isoformat(); old = (datetime.date.today() - datetime.timedelta(days=14)).isoformat()
     try: info = json.load(open('commentators_info.json'))

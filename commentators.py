@@ -68,6 +68,10 @@ def _aliases():
     try: return {fold(k): v for k, v in json.load(open('commentator_aliases.json')).items() if k[0] != '_'}
     except Exception: return {}
 ALIASES = _aliases()
+def _blocked():
+    try: return {fold(x) for x in json.load(open('commentator_blocklist.json')).get('names', [])}
+    except Exception: return set()
+BLOCKED = _blocked()
 def canon(n): return ALIASES.get(fold(n), n)
 def names(cell):
     out = []
@@ -75,6 +79,7 @@ def names(cell):
         p = re.sub(r'\s+', ' ', p).strip()
         if p and re.fullmatch(r'[؀-ۿ ]{3,40}', p) and 1 <= len(p.split()) <= 4:
             p = canon(p)
+            if fold(p) in BLOCKED: continue
             if p not in out: out.append(p)
     return out
 def parse(page):
