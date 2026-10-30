@@ -1,0 +1,6 @@
+https://api.sofascore.app/api/v1/search/teams/Abha Expecting value: line 1 column 1 (char 0)
+https://api.sofascore.app/api/v1/search/teams/Abha Expecting value: line 1 column 1 (char 0)
+https://api.sofascore.app/api/v1/search/teams/Abha Expecting value: line 1 column 1 (char 0)
+https://api.sofascore.app/api/v1/team/None Expecting value: line 1 column 1 (char 0)
+https://api.sofascore.app/api/v1/team/None Expecting value: line 1 column 1 (char 0)
+https://api.sofascore.app/api/v1/team/None Expecting value: line 1 column 1 (char 0)
