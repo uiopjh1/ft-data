@@ -1,0 +1,6 @@
+https://api.sofascore.com/api/v1/search/teams/Abha HTTP Error 403: Forbidden
+https://api.sofascore.com/api/v1/search/teams/Abha HTTP Error 403: Forbidden
+https://api.sofascore.com/api/v1/search/teams/Abha HTTP Error 403: Forbidden
+https://api.sofascore.com/api/v1/team/None HTTP Error 403: Forbidden
+https://api.sofascore.com/api/v1/team/None HTTP Error 403: Forbidden
+https://api.sofascore.com/api/v1/team/None HTTP Error 403: Forbidden
