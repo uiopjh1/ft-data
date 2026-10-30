@@ -1,8 +1,31 @@
 {
  "refs": [
   {
-   "names": ["abdulsamad bakri", "abdul samad bakri", "abdulsamad al bakri", "abdulsamad albakri", "abdelsamad bakri", "abdulsamad bakry", "abdul samad al bakri", "عبدالصمد بكري", "عبد الصمد بكري"],
+   "names": [
+    "abdulsamad bakri",
+    "abdul samad bakri",
+    "abdulsamad al bakri",
+    "abdulsamad albakri",
+    "abdelsamad bakri",
+    "abdulsamad bakry",
+    "abdul samad al bakri",
+    "عبدالصمد بكري",
+    "عبد الصمد بكري"
+   ],
    "url": "ref_photos/abdulsamad_bakri.jpg"
+  },
+  {
+   "names": [
+    "khalid al ahmari",
+    "khalid alahmari",
+    "khaled al ahmari",
+    "khaled alahmari",
+    "khalid al-ahmari",
+    "khalid al ahmri",
+    "خالد الأحمري",
+    "خالد الاحمري"
+   ],
+   "url": "ref_photos/khalid_alahmari.jpg"
   }
  ]
 }
