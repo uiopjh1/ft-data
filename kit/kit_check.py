@@ -7,6 +7,9 @@ def get(u,raw=False):
     for i in range(3):
         try:
             r=urllib.request.urlopen(urllib.request.Request(u,headers=H),timeout=25).read()
+            import gzip
+            if r[:2]==b'\x1f\x8b': r=gzip.decompress(r)
+            if not raw and not r.strip().startswith(b'{'): open('kit/net.txt','a').write(u+' NONJSON '+repr(r[:120])+'\n'); time.sleep(2); continue
             return r if raw else json.loads(r)
         except Exception as e:
             open('kit/net.txt','a').write(u+' '+str(e)+'\n');time.sleep(2)
