@@ -1,105 +1,157 @@
 {
- "آسيا عبد الله": {
+ "أحمد الحامد": {
   "cands": 0,
   "clusters": [],
   "ok": false
  },
- "أحمد الحامد": {
-  "cands": 3,
+ "أحمد الطيب": {
+  "cands": 25,
   "clusters": [
    [
-    "youtube.com"
+    "alimamaltayeb.com",
+    "alwasatnews.com",
+    "okaz.com.sa",
+    "pngitem.com"
+   ],
+   [
+    "alwatansport.com",
+    "btolat.com",
+    "elwatannews.com",
+    "mercatoday.com",
+    "zamalektoday.com"
    ]
   ],
-  "ok": false
+  "ok": true,
+  "confirmed_existing": true
+ },
+ "أحمد شوبير": {
+  "cands": 21,
+  "clusters": [
+   [
+    "alarabiya.net",
+    "btolat.com",
+    "e3lam.com",
+    "el-ahly.com",
+    "filfan.com",
+    "fotmob.com",
+    "one3.news",
+    "sahafahh.com"
+   ],
+   [
+    "elbalad.news",
+    "nni-egypt.org"
+   ]
+  ],
+  "ok": true,
+  "confirmed_existing": true
+ },
+ "أيمن الكاشف": {
+  "cands": 12,
+  "clusters": [
+   [
+    "btolat.com",
+    "el-ahly.com",
+    "elbotola.com",
+    "lite.almasryalyoum.com"
+   ],
+   [
+    "members.landscapeinstitute.org"
+   ]
+  ],
+  "ok": true,
+  "confirmed_existing": true
+ },
+ "أيمن جادة": {
+  "cands": 1,
+  "clusters": [
+   [
+    "ijnet.org"
+   ]
+  ],
+  "ok": false,
+  "dropped": true
  },
  "باسم الزير": {
   "cands": 0,
   "clusters": [],
   "ok": false
  },
- "حازم الكاديكي": {
-  "cands": 3,
-  "clusters": [
-   [
-    "youtube.com"
-   ]
-  ],
-  "ok": false
- },
- "خالد الحدي": {
+ "جواد بدة": {
   "cands": 2,
   "clusters": [
    [
-    "youtube.com"
+    "ar.le360.ma"
    ]
   ],
-  "ok": false
+  "ok": false,
+  "dropped": true
  },
- "خالد الغول": {
-  "cands": 0,
-  "clusters": [],
-  "ok": false
+ "حفيظ دراجي": {
+  "cands": 16,
+  "clusters": [
+   [
+    "alaraby.co.uk",
+    "aljarida24.ma",
+    "almaghrebsport.com",
+    "almountakhab.com",
+    "alwatanvoice.com",
+    "enabbaladi.net",
+    "fotmob.com",
+    "ultraalgeria.ultrasawt.com"
+   ],
+   [
+    "btolat.com",
+    "el-ahly.com"
+   ]
+  ],
+  "ok": true,
+  "confirmed_existing": true
  },
- "خالد المديفر": {
+ "خالد الحربان": {
   "cands": 3,
   "clusters": [
    [
-    "youtube.com"
+    "alqabas.com"
    ]
   ],
-  "ok": false
+  "ok": false,
+  "dropped": true
  },
- "سوار الذهب علي": {
-  "cands": 0,
-  "clusters": [],
-  "ok": false
- },
- "عامر الخوذيري": {
+ "خالد المديفر": {
   "cands": 1,
   "clusters": [
    [
-    "youtube.com"
+    "argaam.com"
    ]
   ],
   "ok": false
  },
- "عبد الله الحربي": {
+ "راشد الدوسري": {
   "cands": 0,
   "clusters": [],
   "ok": false
  },
- "علي محمد علي": {
-  "cands": 5,
-  "clusters": [
-   [
-    "youtube.com"
-   ],
-   [
-    "youtube.com"
-   ]
-  ],
+ "طارق الأدور": {
+  "cands": 0,
+  "clusters": [],
   "ok": false
  },
- "عيسى الحربين": {
-  "cands": 2,
+ "علي سعيد الكعبي": {
+  "cands": 3,
   "clusters": [
    [
-    "m.soundcloud.com"
+    "emaratalyoum.com"
    ]
   ],
-  "ok": false
- },
- "مجيد بوطمين": {
-  "cands": 6,
-  "clusters": [
-   [
-    "youtube.com"
-   ]
-  ],
-  "ok": false
+  "ok": false,
+  "dropped": true
  },
  "محمد العدالي": {
+  "cands": 0,
+  "clusters": [],
+  "ok": false
+ },
+ "محمد الغياتي": {
   "cands": 0,
   "clusters": [],
   "ok": false
@@ -109,23 +161,68 @@
   "clusters": [],
   "ok": false
  },
- "محمد مصطفى عفيفي": {
-  "cands": 0,
-  "clusters": [],
-  "ok": false
+ "محمد فوزي": {
+  "cands": 12,
+  "clusters": [
+   [
+    "last.fm",
+    "shazam.com"
+   ],
+   [
+    "ar.wikipedia.org",
+    "commons.wikimedia.org"
+   ],
+   [
+    "elbalad.news"
+   ],
+   [
+    "ahewar.org"
+   ]
+  ],
+  "ok": true
+ },
+ "مدحت شلبي": {
+  "cands": 37,
+  "clusters": [
+   [
+    "ahlmasrnews.com",
+    "alarabiya.net",
+    "altreeq.com",
+    "alwatanvoice.com",
+    "btolat.com",
+    "el-ahly.com",
+    "elbalad.news",
+    "elconsolto.com",
+    "elwatannews.com",
+    "filfan.com",
+    "gate.ahram.org.eg",
+    "goal.com",
+    "khabrabyad.com",
+    "masrawy.com",
+    "mercatoday.com",
+    "msn.com",
+    "mubasher.news",
+    "one3.news",
+    "rassd.com"
+   ]
+  ],
+  "ok": true,
+  "confirmed_existing": true
  },
  "مشاري القرني": {
   "cands": 0,
   "clusters": [],
   "ok": false
  },
- "هيلة الفراج": {
-  "cands": 3,
+ "يوسف سيف": {
+  "cands": 5,
   "clusters": [
    [
-    "youtube.com"
+    "jadeedoha.com",
+    "snd.ps"
    ]
   ],
-  "ok": false
+  "ok": true,
+  "confirmed_existing": true
  }
 }

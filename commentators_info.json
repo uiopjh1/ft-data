@@ -11,13 +11,13 @@
   "photo_rejected": "manual review 2026-10-29"
  },
  "أيمن الكاشف": {
-  "checked": "2026-10-29",
+  "checked": "2026-10-30",
   "img_conf": "face_multi",
   "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/4358937.jpg",
   "img_src": [
    "https://www.elbotola.com/article/2018-08-23-19-17-819.html",
-   "https://www.youtube.com/watch?v=oyLlrFVirAk",
-   "https://www.youtube.com/watch?v=MU0rkSKET1E",
+   "https://www.el-ahly.com/Pages/News?aid=178540",
+   "https://lite.almasryalyoum.com/box/360857/",
    "https://www.el-ahly.com/Pages/News?aid=178540"
   ]
  },
@@ -82,54 +82,41 @@
   "checked": "2026-10-29"
  },
  "أحمد الطيب": {
-  "checked": "2026-10-29",
+  "checked": "2026-10-30",
   "img_conf": "face_multi",
   "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/71609552.jpg",
   "img_src": [
-   "https://www.youtube.com/watch?v=IdwltIe2kAo",
    "https://www.btolat.com/news/363877?urlfrom=msn",
-   "https://www.youtube.com/watch?app=desktop&v=tmOn1zu6Fas",
-   "https://www.btolat.com/news/156673"
+   "https://www.btolat.com/news/156673",
+   "https://www.elwatannews.com/news/details/4048100/",
+   "https://www.zamalektoday.com/index.php?go=news&more=62813"
   ]
  },
  "أحمد شوبير": {
-  "checked": "2026-10-29",
+  "checked": "2026-10-30",
   "bio": "أحمد عبد العزيز شوبير (28 سبتمبر 1960 –) حارس كرة قدم مصري سابق، مواليد طنطا، محافظة الغربية سبق وأن لعب كحارس مرمى مع النادي الأهلي المصري والمنتخب المصري، وعضو مجلس الشعب عن مدينة طنطا ونائب سابق لرئيس الاتحاد المصري لكرة القدم ومعلق رياضي لمباريات كرة القدم ومقدم برامج رياضية في التلفزيون.",
   "src": "ar.wikipedia.org/wiki/%D8%A3%D8%AD%D9%85%D8%AF_%D8%B4%D9%88%D8%A8%D9%8A%D8%B1",
   "wiki": "أحمد شوبير",
   "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/20164712.jpg",
   "img_src": [
-   "https://archive.org/details/1452019_20190526",
-   "https://www.youtube.com/watch?v=HnjK1kqYMpo"
-  ]
+   "https://www.btolat.com/news/130160",
+   "https://www.e3lam.com/693927/",
+   "https://www.fotmob.com/tr/news/ieww7ifouhia18gdq87flkwjb/%D8%A3%D8%AD%D9%85%D8%AF-%D8%B4%D9%88%D8%A8%D9%8A%D8%B1-%D8%AA%D8%B1%D8%B4%D8%AD%D9%8A-%D9%84%D8%B1%D8%A6%D8%A7%D8%B3%D8%A9-%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D9%83%D8%B1%D8%A9-%D9%84%D9%85-%D9%8A%D9%8F%D8%AD%D8%B3%D9%85-%D8%A8%D8%B9%D8%AF",
+   "https://www.btolat.com/news/121621"
+  ],
+  "img_conf": "face_multi"
  },
  "أيمن جادة": {
   "checked": "2026-10-29",
   "bio": "أيمن جادة (ولد 1378 هـ / 1958 م) إعلامي رياضي سوري، يُعَدُّ من روَّاد الإعلام الرياضي في سورية، ومشاهير الإعلاميين الرياضيين العرب. مذيع ومقدِّم برامج ومعلِّق رياضي وصحفي ورئيس تحرير. تولى رئاسة تحرير مجلة الصقر الرياضية القطرية، وإدارة قنوات بي إن سبورت الرياضية. اشتَهَر بتعليقه على نهائيات بعض البطولات العالمية مثل المباراة النهائية لكأس العالم 1994 وكأس العالم 1998. حصل على الجنسية القطرية.",
   "src": "ar.wikipedia.org/wiki/%D8%A3%D9%8A%D9%85%D9%86_%D8%AC%D8%A7%D8%AF%D8%A9",
-  "wiki": "أيمن جادة",
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/42023914.jpg",
-  "img_conf": "face_multi",
-  "img_src": [
-   "https://www.youtube.com/watch?v=7GoKPbRyIq8",
-   "https://www.youtube.com/watch?v=KCXtA7LRWVs",
-   "https://www.youtube.com/watch?v=KCXtA7LRWVs",
-   "https://www.youtube.com/watch?v=KCXtA7LRWVs"
-  ]
+  "wiki": "أيمن جادة"
  },
  "جواد بدة": {
   "checked": "2026-10-29",
   "bio": "جواد بدة (مواليد سنة 1982) هو صحفي ومعلق رياضي مغربي يعمل في شبكة قنوات بي إن سبورتس العربية.",
   "src": "ar.wikipedia.org/wiki/%D8%AC%D9%88%D8%A7%D8%AF_%D8%A8%D8%AF%D8%A9",
-  "wiki": "جواد بدة",
-  "img_conf": "face_multi",
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/17686051.jpg",
-  "img_src": [
-   "https://ar.le360.ma/people/STDDUAROWVCWNG7JIRBVSUMUAE/",
-   "https://www.youtube.com/watch?v=nAyek-mS5y4",
-   "https://www.youtube.com/watch?v=nAyek-mS5y4",
-   "https://www.youtube.com/watch?v=nAyek-mS5y4"
-  ]
+  "wiki": "جواد بدة"
  },
  "حازم الكاديكي": {
   "checked": "2026-10-29",
@@ -154,17 +141,17 @@
   "photo_rejected": "manual review 2026-10-29"
  },
  "حفيظ دراجي": {
-  "checked": "2026-10-29",
+  "checked": "2026-10-30",
   "bio": "حفيظ دراجي (10 أكتوبر 1964)، هو إعلامي ومعلق رياضي جزائري، حصل على شهادة البكالوريا في الآداب عام 1984، ثم درس في معهد الإعلام والاتصال وتخرج منه عام 1988 بشهادة ليسانس في الإعلام. يعمل حاليًا في قناة بي إن سبورت العربية في قطر.",
   "src": "ar.wikipedia.org/wiki/%D8%AD%D9%81%D9%8A%D8%B8_%D8%AF%D8%B1%D8%A7%D8%AC%D9%8A",
   "wiki": "حفيظ دراجي",
   "img_conf": "face_multi",
   "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/25048655.jpg",
   "img_src": [
-   "https://www.youtube.com/watch?v=ftwlt8hc4G8",
    "https://www.alwatanvoice.com/arabic/news/2013/11/16/460012.html",
-   "https://www.youtube.com/watch?v=bRvIog6hTnA",
-   "https://aljarida24.ma/p/actualites/176308/"
+   "https://aljarida24.ma/p/actualites/176308/",
+   "https://ultraalgeria.ultrasawt.com/%D8%AD%D9%81%D9%8A%D8%B8-%D8%AF%D8%B1%D8%A7%D8%AC%D9%8A-%D9%84%D9%80-%D8%A7%D9%84%D8%AA%D8%B1%D8%A7-%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1%C2%A0%D8%A3%D9%86%D8%A7-%D8%A8%D8%A7%D9%82-%D9%81%D9%8A-%D8%A8%D9%8A%D9%86-%D8%B3%D8%A8%D9%88%D8%B1%D8%AA-%D9%88%D8%B3%D8%A3%D8%B7%D9%84%D9%82-%D9%85%D9%86%D8%B5%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1/%D8%B7%D8%A7%D9%87%D8%B1-%D8%AD%D9%84%D9%8A%D8%B3%D9%8A/%D9%85%D8%AC%D8%AA%D9%85%D8%B9",
+   "https://www.fotmob.com/news/jr64afmwwflj1dcrxbtger0ok/%D8%AD%D9%81%D9%8A%D8%B8-%D8%AF%D8%B1%D8%A7%D8%AC%D9%8A-%D9%85%D8%B9%D9%84%D9%82%D9%8B%D8%A7-%D8%B9%D9%84%D9%89-%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D9%88%D8%A7%D9%84%D8%AA%D8%B1%D8%AC%D9%8A-%D8%A7%D9%84%D8%AA%D9%88%D9%86%D8%B3%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D9%88%D8%A8%D8%B1-%D8%A7%D9%84%D8%A5%D9%81%D8%B1%D9%8A%D9%82%D9%8A"
   ]
  },
  "خالد الحدي": {
@@ -179,15 +166,7 @@
   "checked": "2026-10-29",
   "bio": "خالد يوسف الحربان (3 ديسمبر 1944م) مقدم برامج تلفزيونية ومعلق رياضي وتربوي  كويتي ، يلقب بشيخ المعلقين ، اشتهر منذ السبعينيات والثمانينات ومن خلال الراديو تحديداً، انتشرت تعليقاته عبر كل الأوساط العربية والرياضية.",
   "src": "ar.wikipedia.org/wiki/%D8%AE%D8%A7%D9%84%D8%AF_%D8%A7%D9%84%D8%AD%D8%B1%D8%A8%D8%A7%D9%86",
-  "wiki": "خالد الحربان",
-  "img_conf": "face_multi",
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/93343243.jpg",
-  "img_src": [
-   "https://www.youtube.com/watch?v=2r3Tzff8TTA",
-   "https://www.alqabas.com/article/99014/",
-   "https://www.youtube.com/watch?v=C_Dp9Qf7AjQ",
-   "https://www.alqabas.com/article/99014/"
-  ]
+  "wiki": "خالد الحربان"
  },
  "خالد الغول": {
   "checked": "2026-10-29",
@@ -237,15 +216,7 @@
   "checked": "2026-10-29",
   "bio": "علي سعيد الكعبي (ولد 1966 م) معلق إماراتي يكنى بأبي فيصل، ومعلق في قنوات bein sport يعتبر واحدا من مشاهير الإعلام في مجال التعليق الرياضي، شارك في التعليق على مباريات كأس العالم لكرة القدم، ويتابعه عبر مواقع التواصل الاجتماعي أكثر من مليون مشترك.",
   "src": "ar.wikipedia.org/wiki/%D8%B9%D9%84%D9%8A_%D8%B3%D8%B9%D9%8A%D8%AF_%D8%A7%D9%84%D9%83%D8%B9%D8%A8%D9%8A",
-  "wiki": "علي سعيد الكعبي",
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/68441071.jpg",
-  "img_conf": "face_multi",
-  "img_src": [
-   "https://www.emaratalyoum.com/sports/local/2023-05-17-1.1748672?ot=ot.AMPPageLayout",
-   "https://www.youtube.com/watch?v=icFwsOeDDDM",
-   "https://www.youtube.com/watch?app=desktop&v=slE6Fuj_ZO0",
-   "https://www.emaratalyoum.com/sports/local/2023-05-17-1.1748672?ot=ot.AMPPageLayout"
-  ]
+  "wiki": "علي سعيد الكعبي"
  },
  "علي محمد علي": {
   "checked": "2026-10-29",
@@ -299,7 +270,7 @@
   ]
  },
  "مدحت شلبي": {
-  "checked": "2026-10-29",
+  "checked": "2026-10-30",
   "bio": "مدحت شلبي هو مذيع ومعلق رياضي مصري في قنوات مجموعة إم بي سي، ولاعب كرة قدم سابق، إلتحق بكلية الشرطة وتخرج منها وعمل ضابطاً وتدرج في المناصب حتى وصل إلى منصب مساعد رئيس قطاع الأحوال المدنية ثم تقاعد شلبي من الشرطة برتبة لواء.\nبدأ مدحت شلبي حياته كلاعب في نادي الشرطة ثم إلتحق بنادي الشمس ثم تولى تدريب النادي بعد رحيل مدربه، استطاع شلبي أن يصعد بالنادي من الدرجة الثالثة إلى الدرجة الثانية ثم إلى الدرجة الأولى، كما وصل ب",
   "src": "ar.wikipedia.org/wiki/%D9%85%D8%AF%D8%AD%D8%AA_%D8%B4%D9%84%D8%A8%D9%8A",
   "wiki": "مدحت شلبي",
@@ -309,7 +280,7 @@
    "https://www.one3.news/227898",
    "https://www.elbalad.news/6070364",
    "https://ahlmasrnews.com/news/sport/13279155/%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A",
-   "https://www.youtube.com/watch?v=VNO3p4tZIws"
+   "https://www.btolat.com/news/196102"
   ]
  },
  "هيلة الفراج": {
@@ -317,7 +288,7 @@
   "checked": "2026-10-29"
  },
  "يوسف سيف": {
-  "checked": "2026-10-29",
+  "checked": "2026-10-30",
   "bio": "يوسف سيف (1953 -) هو معلق رياضي قطري.",
   "src": "ar.wikipedia.org/wiki/%D9%8A%D9%88%D8%B3%D9%81_%D8%B3%D9%8A%D9%81",
   "wiki": "يوسف سيف",
@@ -325,9 +296,9 @@
   "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/17564735.jpg",
   "img_src": [
    "https://snd.ps/post/72844/%D9%8A%D9%88%D8%B3%D9%81-%D8%B3%D9%8A%D9%81-%D9%8A%D8%B9%D9%88%D8%AF-%D9%84%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%82-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A",
-   "https://soundcloud.com/bein-sports/hgmkyjmtq9xk",
    "https://jadeedoha.com/?p=28835",
-   "https://soundcloud.com/bein-sports/hgmkyjmtq9xk"
+   "https://jadeedoha.com/?p=28835",
+   "https://snd.ps/post/72844/%D9%8A%D9%88%D8%B3%D9%81-%D8%B3%D9%8A%D9%81-%D9%8A%D8%B9%D9%88%D8%AF-%D9%84%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%82-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A"
   ]
  },
  "جعفر الصليح": {
@@ -356,6 +327,14 @@
   "checked": "2026-10-29"
  },
  "محمد فوزي": {
-  "checked": "2026-10-29"
+  "checked": "2026-10-30",
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/51612625.jpg",
+  "img_conf": "face_multi",
+  "img_src": [
+   "https://www.last.fm/ru/music/%D9%85%D8%AD%D9%85%D8%AF+%D9%81%D9%88%D8%B2%D9%8A/_/%D8%A7%D9%86%D8%AA%D9%8A+%D8%A7%D9%86%D8%AA%D9%8A/+albums",
+   "https://www.shazam.com/en-us/song/1816796381/d981d98ad986-d8add8a8d98ad8a8d98a/music-video",
+   "https://www.last.fm/ru/music/%D9%85%D8%AD%D9%85%D8%AF+%D9%81%D9%88%D8%B2%D9%8A/_/%D8%A7%D9%86%D8%AA%D9%8A+%D8%A7%D9%86%D8%AA%D9%8A/+albums",
+   "https://www.last.fm/ru/music/%D9%85%D8%AD%D9%85%D8%AF+%D9%81%D9%88%D8%B2%D9%8A/_/%D8%A7%D9%86%D8%AA%D9%8A+%D8%A7%D9%86%D8%AA%D9%8A/+albums"
+  ]
  }
 }
