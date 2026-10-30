@@ -9,7 +9,7 @@ sys.argv = ['x']
 spec.loader.exec_module(pw)
 norm, gnews, bing = pw.norm, pw.gnews, pw.bing
 CLUBS = pw.CLUBS
-EXCL = pw.EXCL + r'|المصري|مصر|الزمالك|السعودي للاتحاد'
+EXCL = pw.EXCL + r'|المصري|مصر|الزمالك|السعودي للاتحاد|منافس|الرجاء|المغرب|الكونفدراليه|الافريقيه|الاهلي القطري|الاهلي الليبي|الاهلي الاماراتي|الاهلي المصري|بيراميدز|القاهره|الجزائر|تونس'
 SACK = r'اقاله|اقال|اقيل|يقيل|اعفاء|يعفي|انهاء عقد|ينهي عقد|ينهي تعاقده|فسخ عقد|رحيل المدرب|يرحل المدرب|الاستغناء عن المدرب|الاستغناء عن خدمات|تنهي علاقتها|ينفصل عن'
 HIRE = r'تعيين|يعين|يتعاقد مع|تعاقد مع|تتعاقد مع|يعلن تعاقده|تعاقد النادي|مدربا جديدا|مدربا للفريق|يقود الفريق'
 NOT_FINAL = r'مصادر|يقترب|يتجه|مرشح|ترشح|ترشيح|يدرس|يرفض|ينفي|من هو|ماذا|قائمه|فتح باب|شائعات|اشاعه|تسريب|بحسب|تردد|سيعلن|ينتظر|مرتقب|المنتظر|المحتمل|متوقع|توقعات|هل |؟|\?|قد يكون|ربما|حقيقه|مطالب|تطالب|يطالب|غضب|مصير|مستقبل|بين'
@@ -35,8 +35,8 @@ for en, ar in CLUBS.items():
             if not it['date'] or now - it['date'] > WINDOW: continue
             kind = 'sack' if re.search(SACK, nt) else ('hire' if re.search(HIRE, nt) and 'مدرب' in nt else None)
             if not kind: continue
-            host = it['host'] or ''
-            if not host: continue
+            host = (it['host'] or '').replace('www.', '')
+            if not host or host not in pw.SAUDI: continue
             k = (en, kind)
             e = found.setdefault(k, {'club': en, 'club_ar': ar, 'type': kind, 'hosts': {}, 'first': it['date']})
             e['hosts'][host] = {'title': t, 'link': it['link'], 'date': it['date'].isoformat()}
