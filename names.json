@@ -440,8 +440,8 @@
    "short": "دهل"
   },
   "Mohammed Al-Sarnoukh": {
-   "ar": "محمد السرنوخ",
-   "short": "محمد السرنوخ"
+   "ar": "محمد الصرنوخ",
+   "short": "محمد الصرنوخ"
   },
   "Mohamed Kader Meite": {
    "ar": "محمد قادر ميتي",
@@ -2049,6 +2049,26 @@
   "Abdurahman Al-Sanbi": {
    "ar": "عبدالرحمن الصانبي",
    "short": "عبدالرحمن الصانبي"
+  },
+  "Mohammed Al Sarnoukh": {
+   "ar": "محمد الصرنوخ",
+   "short": "محمد الصرنوخ"
+  },
+  "Mohamed Al-Sarnoukh": {
+   "ar": "محمد الصرنوخ",
+   "short": "محمد الصرنوخ"
+  },
+  "Mohammed Al-Sarnokh": {
+   "ar": "محمد الصرنوخ",
+   "short": "محمد الصرنوخ"
+  },
+  "Mohammed Alsarnoukh": {
+   "ar": "محمد الصرنوخ",
+   "short": "محمد الصرنوخ"
+  },
+  "Mohammed Al-Sarnouk": {
+   "ar": "محمد الصرنوخ",
+   "short": "محمد الصرنوخ"
   }
  }
 }
