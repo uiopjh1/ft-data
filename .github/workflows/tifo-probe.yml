@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: |
-          curl -sS -m 30 -A "FT-app/1.0" https://tifo.elyoxe.com/v1/tv/commentators.json -o probe/tifo_comm.json -w "%{http_code}\n" > probe/tifo_status.txt 2>&1 || true
+          mkdir -p probe; curl -sS -m 30 -A "FT-app/1.0" https://tifo.elyoxe.com/v1/tv/commentators.json -o probe/tifo_comm.json -w "%{http_code}\n" > probe/tifo_status.txt 2>&1 || true
           curl -sS -m 30 -A "FT-app/1.0" https://tifo.elyoxe.com/v1/index.json -o probe/tifo_index.json || true
           ls -la probe >> probe/tifo_status.txt
       - run: |
