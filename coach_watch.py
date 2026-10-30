@@ -16,7 +16,7 @@ NOT_FINAL = r'مصادر|يقترب|يتجه|مرشح|ترشح|ترشيح|يدر
 OUT = 'coach_news.json'
 now = datetime.datetime.utcnow()
 WINDOW = datetime.timedelta(days=4)
-KEEP = datetime.timedelta(days=14)
+KEEP = datetime.timedelta(days=2)
 try:
     old = json.load(open(OUT, encoding='utf-8')).get('items', [])
 except Exception:
