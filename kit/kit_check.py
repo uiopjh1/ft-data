@@ -30,33 +30,31 @@ def shirt_rgb(img):
     v,c=np.unique(key,return_counts=True);b=v[c.argmax()]
     return k[key==b].mean(0)
 def dist(a,b):return float(np.linalg.norm(a-b))
+
 def main(team_name):
-    s=get('https://api.sofascore.app/api/v1/search/teams/'+urllib.parse.quote(team_name))
-    out={'search':[(r['entity']['id'],r['entity']['name'],r['entity'].get('country',{}).get('name')) for r in (s or {}).get('results',[])[:5]]}
-    tid=out['search'][0][0] if out['search'] else None
-    t=get(f'https://api.sofascore.app/api/v1/team/{tid}')['team']
-    tc=t.get('teamColors') or {}
-    cols=[hexrgb(tc[k]) for k in ('primary','secondary') if tc.get(k)]
-    out['team']=t['name'];out['colors']=tc
-    pl=get(f'https://api.sofascore.app/api/v1/team/{tid}/players')['players']
-    rows=[];sheet=[]
-    for p in pl:
-        p=p['player'];raw=get(f"https://api.sofascore.app/api/v1/player/{p['id']}/image",True)
-        if not raw:rows.append({'name':p['name'],'id':p['id'],'v':'no_image'});continue
-        try:im=Image.open(io.BytesIO(raw));c=shirt_rgb(im)
-        except Exception as e:rows.append({'name':p['name'],'id':p['id'],'v':'bad'});continue
-        d=min(dist(c,x) for x in cols) if c is not None and cols else None
+    L=get('https://site.api.espn.com/apis/site/v2/sports/soccer/ksa.1/teams')
+    teams=[t['team'] for t in L['sports'][0]['leagues'][0]['teams']]
+    t=[x for x in teams if team_name.lower() in x['displayName'].lower()][0]
+    cols=[hexrgb(t[k]) for k in ('color','alternateColor') if t.get(k)]
+    out={'team':t['displayName'],'id':t['id'],'colors':[t.get('color'),t.get('alternateColor')]}
+    R=get(f"https://site.api.espn.com/apis/site/v2/sports/soccer/ksa.1/teams/{t['id']}/roster")
+    ath=R.get('athletes',[]);rows=[];sheet=[]
+    for p in ath:
+        hs=(p.get('headshot') or {}).get('href')
+        if not hs: rows.append({'name':p['displayName'],'v':'no_headshot'});continue
+        raw=get(hs,True)
+        if not raw: rows.append({'name':p['displayName'],'v':'no_image'});continue
+        im=Image.open(io.BytesIO(raw));c=shirt_rgb(im)
+        d=min(dist(c,x) for x in cols) if c is not None else None
         v='unknown' if d is None else ('match' if d<70 else 'suspect')
-        rows.append({'name':p['name'],'id':p['id'],'v':v,'dist':None if d is None else round(d),'rgb':None if c is None else [int(x) for x in c]})
-        sheet.append((p['name'],v,im.convert('RGB').resize((120,150))))
-    out['players']=rows
+        rows.append({'name':p['displayName'],'v':v,'dist':None if d is None else round(d)})
+        sheet.append((p['displayName'],v,im.convert('RGB').resize((120,150))))
+    out['players']=rows;out['n']=len(ath)
     json.dump(out,open('kit/report.json','w'),ensure_ascii=False,indent=1)
     from PIL import ImageDraw
-    n=len(sheet);cols_n=8;W=cols_n*125;Hh=((n+cols_n-1)//cols_n)*175
-    S=Image.new('RGB',(W,Hh),'white');d=ImageDraw.Draw(S)
+    n=len(sheet);c=8;S=Image.new('RGB',(c*125,max(1,(n+c-1)//c)*175),'white');d=ImageDraw.Draw(S)
     for i,(nm,v,im) in enumerate(sheet):
-        x,y=(i%cols_n)*125,(i//cols_n)*175;S.paste(im,(x,y))
-        d.text((x+2,y+152),nm[:20],fill='red' if v=='suspect' else 'black')
+        x,y=(i%c)*125,(i//c)*175;S.paste(im,(x,y));d.text((x+2,y+152),nm[:20],fill='red' if v=='suspect' else 'black')
     S.save('kit/sheet.jpg',quality=80)
 import traceback
 try: main(sys.argv[1])

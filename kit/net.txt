@@ -1,6 +1,0 @@
-https://api.sofascore.app/api/v1/search/teams/Abha NONJSON b''
-https://api.sofascore.app/api/v1/search/teams/Abha NONJSON b''
-https://api.sofascore.app/api/v1/search/teams/Abha NONJSON b''
-https://api.sofascore.app/api/v1/team/None NONJSON b''
-https://api.sofascore.app/api/v1/team/None NONJSON b''
-https://api.sofascore.app/api/v1/team/None NONJSON b''
