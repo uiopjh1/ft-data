@@ -63,7 +63,11 @@
  },
  "عبد الإله العمري": {
   "checked": "2026-10-29",
-  "photo_rejected": "manual review 2026-10-29"
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/abdulilah_alomari.jpg",
+  "img_conf": "user",
+  "img_src": [
+   "provided by app owner"
+  ]
  },
  "عبدالله الغامدي": {
   "checked": "2026-10-29",
