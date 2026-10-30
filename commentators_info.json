@@ -17,7 +17,11 @@
  },
  "أحمد فؤاد": {
   "checked": "2026-10-29",
-  "photo_rejected": "manual review 2026-10-29"
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/ahmed_fouad.jpg",
+  "img_conf": "user",
+  "img_src": [
+   "provided by app owner"
+  ]
  },
  "أيمن الكاشف": {
   "checked": "2026-10-30",
