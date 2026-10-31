@@ -2,20 +2,26 @@
 import { writeFileSync } from 'node:fs';
 
 const UA = { 'User-Agent': 'FT-football-app/1.0 (github.com/uiopjh1/ft-data; photo coverage scan)' };
+let FAILS = 0;
 const T0 = Date.now();
-const LATE = () => Date.now() - T0 > 20 * 60 * 1000; // بعد 20 دقيقة نتوقف ونكتب ما أُنجز
+const LATE = () => Date.now() - T0 > 40 * 60 * 1000; // بعد 20 دقيقة نتوقف ونكتب ما أُنجز
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const TALLY = {};
+const tally = (k) => { TALLY[k] = (TALLY[k] || 0) + 1; };
 async function gj(url, tries = 3) {
+  await sleep(250);
   for (let i = 0; i < tries; i++) {
     try {
       const ctrl = new AbortController();
       const tm = setTimeout(() => ctrl.abort(), 15000);
       let r;
-      try { r = await fetch(url, { headers: UA, signal: ctrl.signal }); if (r.ok) return await r.json(); } finally { clearTimeout(tm); }
+      try { r = await fetch(url, { headers: UA, signal: ctrl.signal }); tally(r.status); if (r.ok) return await r.json(); } finally { clearTimeout(tm); }
       if (r.status === 404) return null;
-    } catch (e) { /* إعادة */ }
-    await sleep(800 * (i + 1));
+    } catch (e) { tally('exc'); }
+    await sleep(1500 * (i + 1));
   }
+  tally('GAVE_UP');
+  FAILS++;
   return null;
 }
 async function pool(items, size, fn) {
@@ -90,20 +96,24 @@ async function arWiki(title) {
   return !!(img && img.source);
 }
 
-const res0 = await pool(players, 4, async (p, k) => {
+const res0 = await pool(players, 1, async (p, k) => {
   if (LATE()) return null;
+  const f0 = FAILS;
   const a = await appWiki(p.name);
   const w = await wikidata(p);
   let ar = false;
   if (w.arwiki) ar = await arWiki(w.arwiki);
   if (k % 25 === 0) console.log('progress', k, new Date().toISOString());
+  if (FAILS > f0) return { ...p, unknown: true };
   return { ...p, appPage: a.page, appImg: a.img, wd: w.status, wdP18: !!w.p18, wdFile: w.p18 || null, enwiki: !!w.enwiki, arwiki: !!w.arwiki, arImg: ar };
 });
 
 const res = res0.filter(Boolean);
+const unknownN = res.filter((r) => r.unknown).length;
+const known = res.filter((r) => !r.unknown);
 console.log('scanned', res.length, 'of', players.length);
 // 4) تواريخ ملفات صور ويكيداتا (أقصى تاريخ ممكن: الأقل بين تاريخ الالتقاط وتاريخ الرفع)
-const files = [...new Set(res.map((r) => r.wdFile).filter(Boolean))];
+const files = [...new Set(res.filter((r) => !r.unknown).map((r) => r.wdFile).filter(Boolean))];
 const yearOf = {};
 for (let i = 0; i < files.length; i += 40) {
   const chunk = files.slice(i, i + 40);
@@ -120,24 +130,27 @@ for (let i = 0; i < files.length; i += 40) {
   });
   await sleep(300);
 }
-res.forEach((r) => { r.wdYear = r.wdFile ? yearOf[String(r.wdFile).replace(/_/g, ' ')] || null : null; });
+known.forEach((r) => { r.wdYear = r.wdFile ? yearOf[String(r.wdFile).replace(/_/g, ' ')] || null : null; });
 
 // 5) الملخص
-const n = res.length;
-const c = (f) => res.filter(f).length;
+const n = known.length;
+const c = (f) => known.filter(f).length;
 const matched = c((r) => r.wd === 'dob' || r.wd === 'single');
 const anyImg = c((r) => r.appImg || r.wdP18 || r.arImg);
 const years = {};
-res.filter((r) => r.wdYear).forEach((r) => { years[r.wdYear] = (years[r.wdYear] || 0) + 1; });
+known.filter((r) => r.wdYear).forEach((r) => { years[r.wdYear] = (years[r.wdYear] || 0) + 1; });
 const byTeam = {};
-res.forEach((r) => {
+known.forEach((r) => {
   const t = (byTeam[r.team] = byTeam[r.team] || { n: 0, app: 0, wd: 0, any: 0 });
   t.n++; if (r.appImg) t.app++; if (r.wdP18) t.wd++; if (r.appImg || r.wdP18 || r.arImg) t.any++;
 });
 const report = {
   updated: new Date().toISOString(),
   playersTotal: players.length,
+  scanned: res.length,
+  unknownDueToRequestFailures: unknownN,
   players: n,
+  httpTally: TALLY,
   appStyleWikipediaImage: c((r) => r.appImg),
   appStylePageButNoImage: c((r) => r.appPage && !r.appImg),
   wikidataMatched: matched,

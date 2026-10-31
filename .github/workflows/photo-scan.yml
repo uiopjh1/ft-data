@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 20 }
-      - run: timeout 1500 node photo-scan.mjs
+      - run: timeout 3000 node photo-scan.mjs
         continue-on-error: true
       - if: always()
         run: |
