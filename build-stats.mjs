@@ -30,7 +30,7 @@ const now = new Date();
 const y = now.getMonth() >= 6 ? now.getFullYear() : now.getFullYear() - 1;
 const B = 'https://site.api.espn.com/apis';
 
-async function getJson(url, tries = 3) {
+async function getJson(url, tries = 5) {
   for (let i = 0; i < tries; i++) {
     try {
       const r = await fetch(url);
@@ -39,7 +39,7 @@ async function getJson(url, tries = 3) {
     } catch (e) {
       if (i === tries - 1) throw e;
     }
-    await new Promise((s) => setTimeout(s, 800 * (i + 1)));
+    await new Promise((s) => setTimeout(s, 1500 * (i + 1)));
   }
   throw new Error('failed ' + url);
 }
