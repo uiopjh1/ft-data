@@ -1,69 +1,53 @@
 {
- "updated": "2026-10-31T22:35:42.849Z",
+ "updated": "2026-10-31T23:16:59.093Z",
  "playersTotal": 604,
- "players": 283,
- "appStyleWikipediaImage": 17,
- "appStylePageButNoImage": 13,
- "wikidataMatched": 24,
- "wikidataAmbiguous": 2,
- "wikidataNone": 257,
- "wikidataImage": 13,
- "wikidataImageButNoAppImage": 9,
- "arabicWikipediaImage": 8,
- "anyImage": 26,
- "noImageAtAnySource": 257,
+ "scanned": 154,
+ "unknownDueToRequestFailures": 90,
+ "players": 64,
+ "httpTally": {
+  "200": 295,
+  "404": 135,
+  "429": 692,
+  "GAVE_UP": 216
+ },
+ "appStyleWikipediaImage": 22,
+ "appStylePageButNoImage": 16,
+ "wikidataMatched": 35,
+ "wikidataAmbiguous": 6,
+ "wikidataNone": 23,
+ "wikidataImage": 19,
+ "wikidataImageButNoAppImage": 2,
+ "arabicWikipediaImage": 19,
+ "anyImage": 24,
+ "noImageAtAnySource": 40,
  "wikidataImageYearHistogram": {},
  "byTeam": {
   "Al Hilal": {
-   "n": 35,
-   "app": 3,
-   "wd": 3,
-   "any": 3
+   "n": 17,
+   "app": 7,
+   "wd": 5,
+   "any": 7
   },
   "Al Qadsiah": {
-   "n": 34,
-   "app": 0,
+   "n": 12,
+   "app": 2,
    "wd": 2,
    "any": 2
   },
   "Al Nassr": {
-   "n": 34,
-   "app": 4,
-   "wd": 2,
-   "any": 5
+   "n": 14,
+   "app": 8,
+   "wd": 6,
+   "any": 8
   },
   "Al Ittihad": {
-   "n": 31,
-   "app": 1,
-   "wd": 1,
-   "any": 2
+   "n": 13,
+   "app": 5,
+   "wd": 5,
+   "any": 6
   },
   "Neom SC": {
-   "n": 27,
-   "app": 0,
-   "wd": 1,
-   "any": 1
-  },
-  "Al Ahli": {
-   "n": 36,
-   "app": 4,
-   "wd": 1,
-   "any": 5
-  },
-  "Al Ettifaq": {
-   "n": 33,
-   "app": 1,
-   "wd": 1,
-   "any": 2
-  },
-  "Al Diriyah": {
-   "n": 33,
-   "app": 4,
-   "wd": 1,
-   "any": 5
-  },
-  "Al Khaleej": {
-   "n": 20,
+   "n": 8,
    "app": 0,
    "wd": 1,
    "any": 1
