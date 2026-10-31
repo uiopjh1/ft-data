@@ -1,0 +1,94 @@
+{
+ "at": "2026-10-31T23:56:20.249Z",
+ "out": [
+  {
+   "name": "EPL site players",
+   "url": "https://www.premierleague.com/en/players",
+   "status": 200,
+   "type": "text/html;charset=utf-8",
+   "final": "https://www.premierleague.com/en/players",
+   "bytes": 85471,
+   "head": "<!doctype html> <html lang=\"en\" dir=\"ltr\"> <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://www.premierleague.com/en/players\" /> <link rel=\"alternate\" hreflang=\"en\" href=\"https://www.premierleague.com/en/players\" /> <link rel=\"alternate\" hreflang=\"es\" href=\"https://www.p"
+  },
+  {
+   "name": "EPL sdp api",
+   "url": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v2/competitions/8/seasons/2026/players?_limit=5",
+   "status": 400,
+   "type": "application/problem+json",
+   "final": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v2/competitions/8/seasons/2026/players?_limit=5",
+   "bytes": 160,
+   "head": "{\"type\":\"about:blank\",\"title\":\"Bad Request\",\"status\":400,\"detail\":\"No configuration found for request\",\"instance\":\"/api/v2/competitions/8/seasons/2026/players\"}"
+  },
+  {
+   "name": "EPL sdp api 2025",
+   "url": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v2/competitions/8/seasons/2025/players?_limit=5",
+   "status": 400,
+   "type": "application/problem+json",
+   "final": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v2/competitions/8/seasons/2025/players?_limit=5",
+   "bytes": 160,
+   "head": "{\"type\":\"about:blank\",\"title\":\"Bad Request\",\"status\":400,\"detail\":\"No configuration found for request\",\"instance\":\"/api/v2/competitions/8/seasons/2025/players\"}"
+  },
+  {
+   "name": "EPL pulselive v1",
+   "url": "https://footballapi.pulselive.com/football/players?pageSize=5&compSeasons=719&altIds=true&page=0&type=player&id=-1&compSeasonId=719",
+   "status": 200,
+   "type": "application/json;charset=UTF-8",
+   "final": "https://footballapi.pulselive.com/football/players?pageSize=5&compSeasons=719&altIds=true&page=0&type=player&id=-1&compSeasonId=719",
+   "bytes": 3213,
+   "head": "{\"pageInfo\":{\"page\":0,\"numPages\":261,\"pageSize\":5,\"numEntries\":1301},\"content\":[{\"playerId\":796511.0,\"info\":{\"position\":\"D\",\"shirtNum\":2.0,\"positionInfo\":\"Defender\"},\"nationalTeam\":{\"isoCode\":\"GB-ENG\",\"country\":\"England\",\"demonym\":\"English\"},\"currentTeam\":{\"name\":\"Bournemouth U21\",\"club\":{\"name\":\"Bo"
+  },
+  {
+   "name": "EPL photo sample",
+   "url": "https://resources.premierleague.com/premierleague/photos/players/250x250/p118748.png",
+   "status": 403,
+   "type": "application/xml",
+   "final": "https://resources.premierleague.com/premierleague/photos/players/250x250/p118748.png",
+   "bytes": 263
+  },
+  {
+   "name": "LaLiga clubs",
+   "url": "https://www.laliga.com/en-GB/clubs",
+   "status": 404,
+   "type": "text/html; charset=utf-8",
+   "final": "https://www.laliga.com/en-GB/clubs",
+   "bytes": 9857,
+   "head": "<!DOCTYPE html><html lang=\"es\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><title>Página web oficial de LALIGA | LALIGA</title><meta name=\"robots\" content=\"index,follow\"/><meta name=\"googlebot\" content=\"index,follow\"/><meta name=\"description\" content=\"Toda la inf"
+  },
+  {
+   "name": "Bundesliga clubs",
+   "url": "https://www.bundesliga.com/en/bundesliga/clubs",
+   "status": 200,
+   "type": "text/html;charset=UTF-8",
+   "final": "https://www.bundesliga.com/en/bundesliga/clubs",
+   "bytes": 725896,
+   "head": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\"><head> <meta charset=\"utf-8\"> <title>Bundesliga | Clubs</title> <script type=\"text/javascript\" src=\"/ruxitagentjs_ICA15789NPRTUVXfqrux_10347260902154543.js\" data-dtconfig=\"rid=RID_-220557938|rpid=-1959590163|domain=bundes-webec-ratdcgsjc0xl-1613381218.e"
+  },
+  {
+   "name": "Serie A clubs",
+   "url": "https://www.legaseriea.it/en/serie-a/clubs",
+   "status": 307,
+   "type": "text/html; charset=utf-8",
+   "final": "https://en.legaseriea.it/",
+   "bytes": 51103,
+   "head": "<!DOCTYPE html><html id=\"__next_error__\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/webpack-53f1dcfd48063550.js\"/><script src=\"/_next/static/chunks/4bd1b696-182b6b13b"
+  },
+  {
+   "name": "Ligue 1 clubs",
+   "url": "https://ligue1.com/en/clubs",
+   "status": 404,
+   "type": "text/html; charset=utf-8",
+   "final": "https://ligue1.com/en/clubs",
+   "bytes": 62805,
+   "head": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><script async=\"\" src=\"https://pagead2.googlesyndication.com/tag/js/gpt.js\"></script><title data-next-head=\"\">Ligue 1 McDonald&#x27;s</title><meta name=\""
+  },
+  {
+   "name": "UEFA players",
+   "url": "https://www.uefa.com/uefachampionsleague/clubs/",
+   "status": 200,
+   "type": "text/html",
+   "final": "https://www.uefa.com/uefachampionsleague/clubs/",
+   "bytes": 137352,
+   "head": " <!DOCTYPE html> <html lang=\"en\" dir=\"ltr\" data-lang=\"en\" data-culture=\"en-GB\"> <head prefix=\"og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website# \"> <title>Teams | UEFA Champions League 2026/27 | UEFA.com</title> <meta http-equiv=\"X-UA-Compatible\" content=\""
+  }
+ ]
+}
