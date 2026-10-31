@@ -1,0 +1,20 @@
+name: spl-players
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3 * * *'
+permissions: { contents: write }
+concurrency: { group: spl-players }
+jobs:
+  b:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: timeout 900 node spl-players.mjs
+      - run: |
+          git config user.name ft-bot; git config user.email ft-bot@users.noreply.github.com
+          git add spl_players.json spl_sample
+          git diff --cached --quiet && exit 0
+          git commit -qm "spl players"; for i in 1 2 3 4 5 6; do git pull --rebase --autostash -q && git push -q && break; sleep 5; done
