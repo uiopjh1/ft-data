@@ -1,8 +1,12 @@
 {
- "2026-10-30": {
-  "urls": []
- },
  "2026-10-31": {
+  "urls": [
+   "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%3D%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%B3%D8%A8%D8%AA-31-%D8%A7%D9%94%D9%83%D8%AA%D9%88%D8%A8%D8%B1-2026-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%82%D9%8A%D9%86/blt40bb5c6fc2aca1cd"
+  ],
+  "raw": "<!DOCTYPE html><html lang=\"ar\" dir=\"rtl\" class=\"fco-kooora\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/assets/images/favicons/16x16.png?v=1.120.0\" data-next-head=\"\"/><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/assets/images/favicons/32x32.png?v=1.120.0\" data-next-head=\"\"/><link rel=\"icon\" type=\"image/png\" sizes=\"48x48\" href=\"/assets/images/favicons/48x48.png?v=1.120.0\" data-next-head=\"\"/><link rel=\"apple-touch-icon\" type=\"image/png\" sizes=\"167x167\" href=\"/assets/images/favicons/167x167.png?v=1.120.0\" data-next-head=\"\"/><link rel=\"apple-touch-icon\" type=\"image/png\" sizes=\"180x180\" href=\"/assets/images/favicons/180x180.png?v=1.120.0\" data-next-head=\"\"/><link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"/assets/images/favicons/192x192.png?v=1.120.0\" data-next-head=\"\"/><link rel=\"icon\" type=\"image/png\" href=\"/assets/",
+  "rows": 28
+ },
+ "2026-11-01": {
   "urls": []
  }
 }
