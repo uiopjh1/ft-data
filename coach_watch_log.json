@@ -1,5 +1,5 @@
 {
- "t": "2026-10-31T17:54:06.312163",
+ "t": "2026-10-31T21:15:18.102963",
  "seen": [
   {
    "club": "Al Ahli",
@@ -13,27 +13,26 @@
   {
    "club": "Al Ittihad",
    "type": "sack",
-   "n": 2,
-   "hosts": [
-    "goal.com",
-    "al-madina.com"
-   ]
-  },
-  {
-   "club": "Al Shabab",
-   "type": "sack",
    "n": 1,
    "hosts": [
     "goal.com"
    ]
   },
   {
-   "club": "Espanyol",
-   "type": "hire",
+   "club": "Al Shabab",
+   "type": "sack",
    "n": 2,
    "hosts": [
-    "es-us.noticias.yahoo.com",
-    "elmundo.es"
+    "goal.com",
+    "kooora.com"
+   ]
+  },
+  {
+   "club": "Espanyol",
+   "type": "hire",
+   "n": 1,
+   "hosts": [
+    "es-us.noticias.yahoo.com"
    ]
   },
   {
@@ -55,9 +54,19 @@
   {
    "club": "Le Havre AC",
    "type": "sack",
+   "n": 3,
+   "hosts": [
+    "leparisien.fr",
+    "sports.yahoo.com",
+    "france24.com"
+   ]
+  },
+  {
+   "club": "Le Havre AC",
+   "type": "hire",
    "n": 1,
    "hosts": [
-    "leparisien.fr"
+    "madeinfoot.ouest-france.fr"
    ]
   }
  ],
@@ -65,10 +74,9 @@
   {
    "club": "Espanyol",
    "type": "hire",
-   "n": 2,
+   "n": 1,
    "hosts": [
-    "es-us.noticias.yahoo.com",
-    "elmundo.es"
+    "es-us.noticias.yahoo.com"
    ]
   },
   {
@@ -90,9 +98,19 @@
   {
    "club": "Le Havre AC",
    "type": "sack",
+   "n": 3,
+   "hosts": [
+    "leparisien.fr",
+    "sports.yahoo.com",
+    "france24.com"
+   ]
+  },
+  {
+   "club": "Le Havre AC",
+   "type": "hire",
    "n": 1,
    "hosts": [
-    "leparisien.fr"
+    "madeinfoot.ouest-france.fr"
    ]
   }
  ]
