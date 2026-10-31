@@ -1,0 +1,5 @@
+[] HTTP Error 403: Forbidden
+== last 0 hasNext None err HTTP Error 403: Forbidden
+== last 1 hasNext None err HTTP Error 403: Forbidden
+== next 0 hasNext None err HTTP Error 403: Forbidden
+== next 1 hasNext None err HTTP Error 403: Forbidden
