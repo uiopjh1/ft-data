@@ -1,5 +1,5 @@
 {
- "t": "2026-10-31T00:35:42.381188",
+ "t": "2026-10-31T06:49:25.806591",
  "seen": [
   {
    "club": "Al Ahli",
@@ -34,15 +34,14 @@
     "elmundo.es",
     "as.com",
     "amp.sport.es",
-    "ca.sports.yahoo.com"
+    "sports.yahoo.com"
    ]
   },
   {
    "club": "Espanyol",
    "type": "sack",
-   "n": 2,
+   "n": 1,
    "hosts": [
-    "goal.com",
     "sports.yahoo.com"
    ]
   },
@@ -73,15 +72,14 @@
     "elmundo.es",
     "as.com",
     "amp.sport.es",
-    "ca.sports.yahoo.com"
+    "sports.yahoo.com"
    ]
   },
   {
    "club": "Espanyol",
    "type": "sack",
-   "n": 2,
+   "n": 1,
    "hosts": [
-    "goal.com",
     "sports.yahoo.com"
    ]
   },
