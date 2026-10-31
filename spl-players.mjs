@@ -1,5 +1,5 @@
 // يجمع لاعبي دوري روشن (الأسماء العربية والإنجليزية + الصور الرسمية) من صفحات تشكيلات موقع الرابطة → spl_players.json
-import { writeFileSync, mkdirSync } from 'node:fs';
+import { writeFileSync } from 'node:fs';
 const UA = { 'User-Agent': 'Mozilla/5.0 (compatible; FT-football-app/1.0)' };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 async function get(u, tries = 3) {
@@ -44,10 +44,4 @@ for (const s of slugs) {
   console.log(s, E.length, E.filter((x) => x.img).length);
 }
 writeFileSync('spl_players.json', JSON.stringify({ updated: new Date().toISOString(), teams: teamsOut, players }, null, 0));
-// عيّنة صور للفحص البصري (مؤقتة)
-mkdirSync('spl_sample', { recursive: true });
-const pick = [players.find((p) => /summerville/.test(p.slug)), players.find((p) => /mahzari/.test(p.slug)), players.find((p) => p.team === 'al-ahli' && p.img), players.find((p) => p.team === 'neom-sc' && p.img) || players[players.length - 1]].filter((p) => p && p.img);
-for (const [i, p] of pick.entries()) {
-  try { const r = await fetch(p.img, { headers: UA }); if (r.ok) writeFileSync(`spl_sample/${i}_${p.slug}.webp`, Buffer.from(await r.arrayBuffer())); } catch (e) { /* تجاهل */ }
-}
 console.log('players', players.length, 'with img', players.filter((p) => p.img).length, 'with ar', players.filter((p) => p.ar).length);
