@@ -4,16 +4,5 @@ jobs:
   p:
     runs-on: ubuntu-latest
     steps:
-      - run: |
-          H='user-agent: Mozilla/5.0'
-          S=$(curl -s -H "$H" https://api.sofascore.com/api/v1/unique-tournament/23674/seasons | python3 -c "import sys,json;j=json.load(sys.stdin);print([ (x['id'],x['year']) for x in j['seasons'][:3]]);print(j['seasons'][0]['id'])" | tee /dev/stderr | tail -1)
-          for d in last next; do for p in 0 1; do echo "== $d $p"; curl -s -H "$H" https://api.sofascore.com/api/v1/unique-tournament/23674/season/$S/events/$d/$p | python3 -c "
-import sys,json
-try:
-  j=json.load(sys.stdin)
-except Exception as e:
-  print('ERR',e);sys.exit()
-print('hasNext',j.get('hasNextPage'), 'err', j.get('error'))
-for e in j.get('events',[]):
-  print(e.get('startTimestamp'),(e.get('roundInfo') or {}).get('name'),e['homeTeam'].get('id'),e['homeTeam'].get('name'),'|',e['awayTeam'].get('id'),e['awayTeam'].get('name'),e['status'].get('type'))
-"; done; done
+      - uses: actions/checkout@v4
+      - run: python3 sofa-probe.py
