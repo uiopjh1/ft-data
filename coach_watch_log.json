@@ -1,5 +1,5 @@
 {
- "t": "2026-10-31T06:49:25.806591",
+ "t": "2026-10-31T13:28:48.541200",
  "seen": [
   {
    "club": "Al Ahli",
@@ -12,37 +12,30 @@
   {
    "club": "Al Ittihad",
    "type": "sack",
-   "n": 1,
+   "n": 2,
    "hosts": [
+    "goal.com",
     "al-madina.com"
    ]
   },
   {
-   "club": "Liverpool",
-   "type": "hire",
-   "n": 1,
+   "club": "Al Shabab",
+   "type": "sack",
+   "n": 2,
    "hosts": [
-    "bbc.com"
+    "goal.com",
+    "kooora.com"
    ]
   },
   {
    "club": "Espanyol",
    "type": "hire",
-   "n": 5,
+   "n": 4,
    "hosts": [
     "es-us.noticias.yahoo.com",
     "elmundo.es",
-    "as.com",
     "amp.sport.es",
-    "sports.yahoo.com"
-   ]
-  },
-  {
-   "club": "Espanyol",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "sports.yahoo.com"
+    "ca.sports.yahoo.com"
    ]
   },
   {
@@ -56,31 +49,14 @@
  ],
  "eu": [
   {
-   "club": "Liverpool",
-   "type": "hire",
-   "n": 1,
-   "hosts": [
-    "bbc.com"
-   ]
-  },
-  {
    "club": "Espanyol",
    "type": "hire",
-   "n": 5,
+   "n": 4,
    "hosts": [
     "es-us.noticias.yahoo.com",
     "elmundo.es",
-    "as.com",
     "amp.sport.es",
-    "sports.yahoo.com"
-   ]
-  },
-  {
-   "club": "Espanyol",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "sports.yahoo.com"
+    "ca.sports.yahoo.com"
    ]
   },
   {
