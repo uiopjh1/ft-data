@@ -1,11 +1,12 @@
 {
- "t": "2026-10-31T13:28:48.541200",
+ "t": "2026-10-31T17:54:06.312163",
  "seen": [
   {
    "club": "Al Ahli",
    "type": "sack",
-   "n": 1,
+   "n": 2,
    "hosts": [
+    "goal.com",
     "slaati.com"
    ]
   },
@@ -21,21 +22,26 @@
   {
    "club": "Al Shabab",
    "type": "sack",
-   "n": 2,
+   "n": 1,
    "hosts": [
-    "goal.com",
-    "kooora.com"
+    "goal.com"
    ]
   },
   {
    "club": "Espanyol",
    "type": "hire",
-   "n": 4,
+   "n": 2,
    "hosts": [
     "es-us.noticias.yahoo.com",
-    "elmundo.es",
-    "amp.sport.es",
-    "ca.sports.yahoo.com"
+    "elmundo.es"
+   ]
+  },
+  {
+   "club": "Bologna",
+   "type": "hire",
+   "n": 1,
+   "hosts": [
+    "goal.com"
    ]
   },
   {
@@ -44,6 +50,14 @@
    "n": 1,
    "hosts": [
     "sueddeutsche.de"
+   ]
+  },
+  {
+   "club": "Le Havre AC",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "leparisien.fr"
    ]
   }
  ],
@@ -51,12 +65,18 @@
   {
    "club": "Espanyol",
    "type": "hire",
-   "n": 4,
+   "n": 2,
    "hosts": [
     "es-us.noticias.yahoo.com",
-    "elmundo.es",
-    "amp.sport.es",
-    "ca.sports.yahoo.com"
+    "elmundo.es"
+   ]
+  },
+  {
+   "club": "Bologna",
+   "type": "hire",
+   "n": 1,
+   "hosts": [
+    "goal.com"
    ]
   },
   {
@@ -65,6 +85,14 @@
    "n": 1,
    "hosts": [
     "sueddeutsche.de"
+   ]
+  },
+  {
+   "club": "Le Havre AC",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "leparisien.fr"
    ]
   }
  ]
