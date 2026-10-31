@@ -2,15 +2,19 @@
 import { writeFileSync } from 'node:fs';
 
 const UA = { 'User-Agent': 'FT-football-app/1.0 (github.com/uiopjh1/ft-data; photo coverage scan)' };
+const T0 = Date.now();
+const LATE = () => Date.now() - T0 > 20 * 60 * 1000; // بعد 20 دقيقة نتوقف ونكتب ما أُنجز
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-async function gj(url, tries = 4) {
+async function gj(url, tries = 3) {
   for (let i = 0; i < tries; i++) {
     try {
-      const r = await fetch(url, { headers: UA });
-      if (r.ok) return await r.json();
+      const ctrl = new AbortController();
+      const tm = setTimeout(() => ctrl.abort(), 15000);
+      let r;
+      try { r = await fetch(url, { headers: UA, signal: ctrl.signal }); if (r.ok) return await r.json(); } finally { clearTimeout(tm); }
       if (r.status === 404) return null;
     } catch (e) { /* إعادة */ }
-    await sleep(1200 * (i + 1));
+    await sleep(800 * (i + 1));
   }
   return null;
 }
@@ -86,15 +90,18 @@ async function arWiki(title) {
   return !!(img && img.source);
 }
 
-const res = await pool(players, 4, async (p, k) => {
+const res0 = await pool(players, 4, async (p, k) => {
+  if (LATE()) return null;
   const a = await appWiki(p.name);
   const w = await wikidata(p);
   let ar = false;
   if (w.arwiki) ar = await arWiki(w.arwiki);
-  if (k % 50 === 0) console.log('progress', k);
+  if (k % 25 === 0) console.log('progress', k, new Date().toISOString());
   return { ...p, appPage: a.page, appImg: a.img, wd: w.status, wdP18: !!w.p18, wdFile: w.p18 || null, enwiki: !!w.enwiki, arwiki: !!w.arwiki, arImg: ar };
 });
 
+const res = res0.filter(Boolean);
+console.log('scanned', res.length, 'of', players.length);
 // 4) تواريخ ملفات صور ويكيداتا (أقصى تاريخ ممكن: الأقل بين تاريخ الالتقاط وتاريخ الرفع)
 const files = [...new Set(res.map((r) => r.wdFile).filter(Boolean))];
 const yearOf = {};
@@ -129,6 +136,7 @@ res.forEach((r) => {
 });
 const report = {
   updated: new Date().toISOString(),
+  playersTotal: players.length,
   players: n,
   appStyleWikipediaImage: c((r) => r.appImg),
   appStylePageButNoImage: c((r) => r.appPage && !r.appImg),
