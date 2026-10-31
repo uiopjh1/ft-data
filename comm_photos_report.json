@@ -1,228 +1,59 @@
 {
- "أحمد الحامد": {
+ "أحمد النفيسة": {
   "cands": 0,
   "clusters": [],
   "ok": false
  },
- "أحمد الطيب": {
-  "cands": 25,
+ "سليمان الشريف": {
+  "cands": 0,
+  "clusters": [],
+  "ok": false
+ },
+ "عانر الخوذيري": {
+  "cands": 0,
+  "clusters": [],
+  "ok": false
+ },
+ "محمد بركات": {
+  "cands": 19,
   "clusters": [
    [
-    "alimamaltayeb.com",
-    "alwasatnews.com",
-    "okaz.com.sa",
-    "pngitem.com"
-   ],
-   [
-    "alwatansport.com",
+    "3ain.net",
+    "altreeq.com",
+    "arageek.com",
     "btolat.com",
-    "elwatannews.com",
-    "mercatoday.com",
-    "zamalektoday.com"
-   ]
-  ],
-  "ok": true,
-  "confirmed_existing": true
- },
- "أحمد شوبير": {
-  "cands": 21,
-  "clusters": [
-   [
-    "alarabiya.net",
-    "btolat.com",
-    "e3lam.com",
-    "el-ahly.com",
-    "filfan.com",
-    "fotmob.com",
-    "one3.news",
-    "sahafahh.com"
-   ],
-   [
-    "elbalad.news",
-    "nni-egypt.org"
-   ]
-  ],
-  "ok": true,
-  "confirmed_existing": true
- },
- "أيمن الكاشف": {
-  "cands": 12,
-  "clusters": [
-   [
-    "btolat.com",
-    "el-ahly.com",
-    "elbotola.com",
-    "lite.almasryalyoum.com"
-   ],
-   [
-    "members.landscapeinstitute.org"
-   ]
-  ],
-  "ok": true,
-  "confirmed_existing": true
- },
- "أيمن جادة": {
-  "cands": 1,
-  "clusters": [
-   [
-    "ijnet.org"
-   ]
-  ],
-  "ok": false,
-  "dropped": true
- },
- "باسم الزير": {
-  "cands": 0,
-  "clusters": [],
-  "ok": false
- },
- "جواد بدة": {
-  "cands": 2,
-  "clusters": [
-   [
-    "ar.le360.ma"
-   ]
-  ],
-  "ok": false,
-  "dropped": true
- },
- "حفيظ دراجي": {
-  "cands": 16,
-  "clusters": [
-   [
-    "alaraby.co.uk",
-    "aljarida24.ma",
-    "almaghrebsport.com",
-    "almountakhab.com",
-    "alwatanvoice.com",
-    "enabbaladi.net",
-    "fotmob.com",
-    "ultraalgeria.ultrasawt.com"
-   ],
-   [
-    "btolat.com",
-    "el-ahly.com"
-   ]
-  ],
-  "ok": true,
-  "confirmed_existing": true
- },
- "خالد الحربان": {
-  "cands": 3,
-  "clusters": [
-   [
-    "alqabas.com"
-   ]
-  ],
-  "ok": false,
-  "dropped": true
- },
- "خالد المديفر": {
-  "cands": 1,
-  "clusters": [
-   [
-    "argaam.com"
-   ]
-  ],
-  "ok": false
- },
- "راشد الدوسري": {
-  "cands": 0,
-  "clusters": [],
-  "ok": false
- },
- "طارق الأدور": {
-  "cands": 0,
-  "clusters": [],
-  "ok": false
- },
- "علي سعيد الكعبي": {
-  "cands": 3,
-  "clusters": [
-   [
-    "emaratalyoum.com"
-   ]
-  ],
-  "ok": false,
-  "dropped": true
- },
- "محمد العدالي": {
-  "cands": 0,
-  "clusters": [],
-  "ok": false
- },
- "محمد الغياتي": {
-  "cands": 0,
-  "clusters": [],
-  "ok": false
- },
- "محمد المبروكي": {
-  "cands": 0,
-  "clusters": [],
-  "ok": false
- },
- "محمد فوزي": {
-  "cands": 12,
-  "clusters": [
-   [
-    "last.fm",
-    "shazam.com"
-   ],
-   [
-    "ar.wikipedia.org",
-    "commons.wikimedia.org"
-   ],
-   [
-    "elbalad.news"
-   ],
-   [
-    "ahewar.org"
+    "sa24.co"
    ]
   ],
   "ok": true
  },
- "مدحت شلبي": {
-  "cands": 37,
+ "محمد حسين": {
+  "cands": 17,
   "clusters": [
    [
-    "ahlmasrnews.com",
-    "alarabiya.net",
+    "alantologia.com",
+    "vetogate.com"
+   ],
+   [
     "altreeq.com",
-    "alwatanvoice.com",
-    "btolat.com",
-    "el-ahly.com",
-    "elbalad.news",
-    "elconsolto.com",
-    "elwatannews.com",
-    "filfan.com",
-    "gate.ahram.org.eg",
-    "goal.com",
-    "khabrabyad.com",
-    "masrawy.com",
-    "mercatoday.com",
-    "msn.com",
-    "mubasher.news",
-    "one3.news",
-    "rassd.com"
+    "apkpure.com",
+    "m.apkpure.com"
+   ],
+   [
+    "shazam.com"
+   ],
+   [
+    "mobile.cinpic.com"
+   ],
+   [
+    "play.google.com"
    ]
   ],
-  "ok": true,
-  "confirmed_existing": true
+  "ok": true
  },
- "مشاري القرني": {
+ "نوفل باشي": {
   "cands": 0,
   "clusters": [],
   "ok": false
- },
- "يوسف سيف": {
-  "cands": 5,
-  "clusters": [
-   [
-    "jadeedoha.com",
-    "snd.ps"
-   ]
-  ],
-  "ok": true,
-  "confirmed_existing": true
  }
 }

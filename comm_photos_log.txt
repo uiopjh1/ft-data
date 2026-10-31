@@ -1,20 +1,6 @@
-أحمد الحامد {'cands': 0, 'clusters': [], 'ok': False}
-أحمد الطيب {'cands': 25, 'clusters': [['alimamaltayeb.com', 'alwasatnews.com', 'okaz.com.sa', 'pngitem.com'], ['alwatansport.com', 'btolat.com', 'elwatannews.com', 'mercatoday.com', 'zamalektoday.com']], 'ok': True, 'confirmed_existing': True}
-أحمد شوبير {'cands': 21, 'clusters': [['alarabiya.net', 'btolat.com', 'e3lam.com', 'el-ahly.com', 'filfan.com', 'fotmob.com', 'one3.news', 'sahafahh.com'], ['elbalad.news', 'nni-egypt.org']], 'ok': True, 'confirmed_existing': True}
-أيمن الكاشف {'cands': 12, 'clusters': [['btolat.com', 'el-ahly.com', 'elbotola.com', 'lite.almasryalyoum.com'], ['members.landscapeinstitute.org']], 'ok': True, 'confirmed_existing': True}
-أيمن جادة {'cands': 1, 'clusters': [['ijnet.org']], 'ok': False, 'dropped': True}
-باسم الزير {'cands': 0, 'clusters': [], 'ok': False}
-جواد بدة {'cands': 2, 'clusters': [['ar.le360.ma']], 'ok': False, 'dropped': True}
-حفيظ دراجي {'cands': 16, 'clusters': [['alaraby.co.uk', 'aljarida24.ma', 'almaghrebsport.com', 'almountakhab.com', 'alwatanvoice.com', 'enabbaladi.net', 'fotmob.com', 'ultraalgeria.ultrasawt.com'], ['btolat.com', 'el-ahly.com']], 'ok': True, 'confirmed_existing': True}
-خالد الحربان {'cands': 3, 'clusters': [['alqabas.com']], 'ok': False, 'dropped': True}
-خالد المديفر {'cands': 1, 'clusters': [['argaam.com']], 'ok': False}
-راشد الدوسري {'cands': 0, 'clusters': [], 'ok': False}
-طارق الأدور {'cands': 0, 'clusters': [], 'ok': False}
-علي سعيد الكعبي {'cands': 3, 'clusters': [['emaratalyoum.com']], 'ok': False, 'dropped': True}
-محمد العدالي {'cands': 0, 'clusters': [], 'ok': False}
-محمد الغياتي {'cands': 0, 'clusters': [], 'ok': False}
-محمد المبروكي {'cands': 0, 'clusters': [], 'ok': False}
-محمد فوزي {'cands': 12, 'clusters': [['last.fm', 'shazam.com'], ['ar.wikipedia.org', 'commons.wikimedia.org'], ['elbalad.news'], ['ahewar.org']], 'ok': True}
-مدحت شلبي {'cands': 37, 'clusters': [['ahlmasrnews.com', 'alarabiya.net', 'altreeq.com', 'alwatanvoice.com', 'btolat.com', 'el-ahly.com', 'elbalad.news', 'elconsolto.com', 'elwatannews.com', 'filfan.com', 'gate.ahram.org.eg', 'goal.com', 'khabrabyad.com', 'masrawy.com', 'mercatoday.com', 'msn.com', 'mubasher.news', 'one3.news', 'rassd.com']], 'ok': True, 'confirmed_existing': True}
-مشاري القرني {'cands': 0, 'clusters': [], 'ok': False}
-يوسف سيف {'cands': 5, 'clusters': [['jadeedoha.com', 'snd.ps']], 'ok': True, 'confirmed_existing': True}
+أحمد النفيسة {'cands': 0, 'clusters': [], 'ok': False}
+سليمان الشريف {'cands': 0, 'clusters': [], 'ok': False}
+عانر الخوذيري {'cands': 0, 'clusters': [], 'ok': False}
+محمد بركات {'cands': 19, 'clusters': [['3ain.net', 'altreeq.com', 'arageek.com', 'btolat.com', 'sa24.co']], 'ok': True}
+محمد حسين {'cands': 17, 'clusters': [['alantologia.com', 'vetogate.com'], ['altreeq.com', 'apkpure.com', 'm.apkpure.com'], ['shazam.com'], ['mobile.cinpic.com'], ['play.google.com']], 'ok': True}
+نوفل باشي {'cands': 0, 'clusters': [], 'ok': False}
