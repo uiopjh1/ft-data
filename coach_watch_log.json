@@ -1,5 +1,5 @@
 {
- "t": "2026-10-30T20:59:08.097719",
+ "t": "2026-10-31T00:35:42.381188",
  "seen": [
   {
    "club": "Al Ahli",
@@ -28,24 +28,22 @@
   {
    "club": "Espanyol",
    "type": "hire",
-   "n": 4,
+   "n": 5,
    "hosts": [
     "es-us.noticias.yahoo.com",
     "elmundo.es",
     "as.com",
-    "amp.sport.es"
+    "amp.sport.es",
+    "ca.sports.yahoo.com"
    ]
   },
   {
    "club": "Espanyol",
    "type": "sack",
-   "n": 5,
+   "n": 2,
    "hosts": [
-    "sport.es",
-    "es-us.noticias.yahoo.com",
     "goal.com",
-    "espn.com",
-    "ca.sports.yahoo.com"
+    "sports.yahoo.com"
    ]
   },
   {
@@ -69,24 +67,22 @@
   {
    "club": "Espanyol",
    "type": "hire",
-   "n": 4,
+   "n": 5,
    "hosts": [
     "es-us.noticias.yahoo.com",
     "elmundo.es",
     "as.com",
-    "amp.sport.es"
+    "amp.sport.es",
+    "ca.sports.yahoo.com"
    ]
   },
   {
    "club": "Espanyol",
    "type": "sack",
-   "n": 5,
+   "n": 2,
    "hosts": [
-    "sport.es",
-    "es-us.noticias.yahoo.com",
     "goal.com",
-    "espn.com",
-    "ca.sports.yahoo.com"
+    "sports.yahoo.com"
    ]
   },
   {
