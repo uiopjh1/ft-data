@@ -1,0 +1,195 @@
+{
+ "compseasons": 200,
+ "latestSeasons": [
+  {
+   "id": 841,
+   "label": "English Premier League Season 2026/2027"
+  },
+  {
+   "id": 777,
+   "label": "2025/26"
+  },
+  {
+   "id": 719,
+   "label": "2024/25"
+  }
+ ],
+ "sid": 841,
+ "teamsStatus": 200,
+ "teams": [
+  {
+   "id": 1,
+   "name": "Arsenal"
+  },
+  {
+   "id": 2,
+   "name": "Aston Villa"
+  },
+  {
+   "id": 127,
+   "name": "Bournemouth"
+  },
+  {
+   "id": 130,
+   "name": "Brentford"
+  },
+  {
+   "id": 131,
+   "name": "Brighton and Hove Albion"
+  },
+  {
+   "id": 4,
+   "name": "Chelsea"
+  },
+  {
+   "id": 5,
+   "name": "Coventry City"
+  },
+  {
+   "id": 6,
+   "name": "Crystal Palace"
+  },
+  {
+   "id": 7,
+   "name": "Everton"
+  },
+  {
+   "id": 34,
+   "name": "Fulham"
+  },
+  {
+   "id": 41,
+   "name": "Hull City"
+  },
+  {
+   "id": 8,
+   "name": "Ipswich Town"
+  },
+  {
+   "id": 9,
+   "name": "Leeds United"
+  },
+  {
+   "id": 10,
+   "name": "Liverpool"
+  },
+  {
+   "id": 11,
+   "name": "Manchester City"
+  },
+  {
+   "id": 12,
+   "name": "Manchester United"
+  },
+  {
+   "id": 23,
+   "name": "Newcastle United"
+  },
+  {
+   "id": 15,
+   "name": "Nottingham Forest"
+  },
+  {
+   "id": 29,
+   "name": "Sunderland"
+  },
+  {
+   "id": 21,
+   "name": "Tottenham Hotspur"
+  }
+ ],
+ "squadStatus": 200,
+ "squadN": 31,
+ "samplePlayers": [
+  {
+   "name": "David Raya",
+   "id": 7975,
+   "altIds": {
+    "opta": "p154561"
+   },
+   "keys": "playerId,info,nationalTeam,height,weight,latestPosition,appearances,cleanSheets,saves,goalsConceded,awards,joinDate,birth,age,name,id,altIds"
+  },
+  {
+   "name": "Kepa Arrizabalaga",
+   "id": 11373,
+   "altIds": {
+    "opta": "p109745"
+   },
+   "keys": "playerId,info,nationalTeam,height,weight,latestPosition,appearances,cleanSheets,saves,goalsConceded,awards,joinDate,birth,age,name,id,altIds"
+  },
+  {
+   "name": "William Saliba",
+   "id": 66204,
+   "altIds": {
+    "opta": "p462424"
+   },
+   "keys": "playerId,info,nationalTeam,height,weight,latestPosition,appearances,goals,assists,tackles,shots,keyPasses,cleanSheets,joinDate,birth,age,name,id,altIds"
+  },
+  {
+   "name": "Ben White",
+   "id": 14548,
+   "altIds": {
+    "opta": "p198869"
+   },
+   "keys": "playerId,info,nationalTeam,height,weight,latestPosition,appearances,goals,assists,tackles,shots,keyPasses,cleanSheets,joinDate,birth,age,name,id,altIds"
+  }
+ ],
+ "photos": [
+  {
+   "name": "David Raya",
+   "u": "https://resources.premierleague.com/premierleague/photos/players/250x250/p154561.png",
+   "status": 200,
+   "type": "image/png",
+   "len": "330825"
+  },
+  {
+   "name": "David Raya",
+   "u": "https://resources.premierleague.com/premierleague/photos/players/110x140/p154561.png",
+   "status": 200,
+   "type": "image/png",
+   "len": "108374"
+  },
+  {
+   "name": "Kepa Arrizabalaga",
+   "u": "https://resources.premierleague.com/premierleague/photos/players/250x250/p109745.png",
+   "status": 200,
+   "type": "image/png",
+   "len": "375985"
+  },
+  {
+   "name": "Kepa Arrizabalaga",
+   "u": "https://resources.premierleague.com/premierleague/photos/players/110x140/p109745.png",
+   "status": 200,
+   "type": "image/png",
+   "len": "111312"
+  },
+  {
+   "name": "William Saliba",
+   "u": "https://resources.premierleague.com/premierleague/photos/players/250x250/p462424.png",
+   "status": 200,
+   "type": "image/png",
+   "len": "355194"
+  },
+  {
+   "name": "William Saliba",
+   "u": "https://resources.premierleague.com/premierleague/photos/players/110x140/p462424.png",
+   "status": 200,
+   "type": "image/png",
+   "len": "104138"
+  },
+  {
+   "name": "Ben White",
+   "u": "https://resources.premierleague.com/premierleague/photos/players/250x250/p198869.png",
+   "status": 200,
+   "type": "image/png",
+   "len": "346863"
+  },
+  {
+   "name": "Ben White",
+   "u": "https://resources.premierleague.com/premierleague/photos/players/110x140/p198869.png",
+   "status": 200,
+   "type": "image/png",
+   "len": "109202"
+  }
+ ]
+}
