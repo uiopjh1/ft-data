@@ -1,0 +1,72 @@
+{
+ "updated": "2026-10-31T22:35:42.849Z",
+ "playersTotal": 604,
+ "players": 283,
+ "appStyleWikipediaImage": 17,
+ "appStylePageButNoImage": 13,
+ "wikidataMatched": 24,
+ "wikidataAmbiguous": 2,
+ "wikidataNone": 257,
+ "wikidataImage": 13,
+ "wikidataImageButNoAppImage": 9,
+ "arabicWikipediaImage": 8,
+ "anyImage": 26,
+ "noImageAtAnySource": 257,
+ "wikidataImageYearHistogram": {},
+ "byTeam": {
+  "Al Hilal": {
+   "n": 35,
+   "app": 3,
+   "wd": 3,
+   "any": 3
+  },
+  "Al Qadsiah": {
+   "n": 34,
+   "app": 0,
+   "wd": 2,
+   "any": 2
+  },
+  "Al Nassr": {
+   "n": 34,
+   "app": 4,
+   "wd": 2,
+   "any": 5
+  },
+  "Al Ittihad": {
+   "n": 31,
+   "app": 1,
+   "wd": 1,
+   "any": 2
+  },
+  "Neom SC": {
+   "n": 27,
+   "app": 0,
+   "wd": 1,
+   "any": 1
+  },
+  "Al Ahli": {
+   "n": 36,
+   "app": 4,
+   "wd": 1,
+   "any": 5
+  },
+  "Al Ettifaq": {
+   "n": 33,
+   "app": 1,
+   "wd": 1,
+   "any": 2
+  },
+  "Al Diriyah": {
+   "n": 33,
+   "app": 4,
+   "wd": 1,
+   "any": 5
+  },
+  "Al Khaleej": {
+   "n": 20,
+   "app": 0,
+   "wd": 1,
+   "any": 1
+  }
+ }
+}
