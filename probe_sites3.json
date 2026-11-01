@@ -1,0 +1,95 @@
+{
+ "season": "2026",
+ "seasons": [
+  {
+   "year": 2026,
+   "name": "Season 2026/2027"
+  },
+  {
+   "year": 2025,
+   "name": "Season 2025/2026"
+  },
+  {
+   "year": 2024,
+   "name": "Season 2024/2025"
+  },
+  {
+   "year": 2023,
+   "name": "Season 2023/2024"
+  }
+ ],
+ "competition": {},
+ "team0": {
+  "keys": "id,slug,name,nickname,boundname,shortname,color,color_secondary,foundation,web,sprite_status,venue,shield,competitions,opta_id,lde_id",
+  "slug": "athletic-club",
+  "name": "Athletic Club",
+  "shortName": "ATH"
+ },
+ "teamCount": 20,
+ "sub": "laliga-easports-2026",
+ "api": [
+  {
+   "u": "/teams?subscriptionSlug=laliga-easports-2026&limit=30&offset=0&orderField=nickname&orderType=ASC",
+   "status": 200,
+   "head": "{\"total\":20,\"teams\":[{\"id\":3,\"slug\":\"athletic-club\",\"name\":\"Athletic Club\",\"nickname\":\"Athletic Club\",\"boundname\":\"Athletic Club\",\"shortname\":\"ATH\",\"color\":\"#f21e27\",\"color_secondary\":\"#ffffff\",\"foundation\":\"1898-12-31T00:00:00+00:00\",\"web\":\"https:\\/\\/www.athletic-club.eus\",\"sprite_status\":\"created\",\"venue\":{\"id\":3,\"name\":\"Estadio San Mam\\u00e9s\",\"image\":{\"id\":823915,\"name\":\"San Mam\\u00e9s\",\"caption\":\"San Mam\\u00e9s\",\"url\":\"https:\\/\\/assets.laliga.com\\/assets\\/2024\\/10\\/01\\/xlarge\\/1958f69380ba8"
+  },
+  {
+   "u": "/subscriptions/laliga-easports-2026/teams?limit=30&offset=0",
+   "status": 404,
+   "head": "{ \"statusCode\": 404, \"message\": \"Resource not found\" }"
+  },
+  {
+   "u": "/players?subscriptionSlug=laliga-easports-2026&limit=5&offset=0&orderField=fullName&orderType=ASC",
+   "status": 200,
+   "head": "{\"total\":41081,\"players\":[{\"id\":49368,\"slug\":\"guillem-victor\",\"name\":\"Guillem V\\u00edctor\",\"nickname\":\"Guillem Victor\",\"firstname\":\"Guillem\",\"lastname\":\"V\\u00edctor\",\"gender\":\"male\",\"date_of_birth\":\"2007-05-03T00:00:00+00:00\",\"international\":false,\"country\":{\"id\":\"ES\"},\"roles\":[{\"id\":1,\"name\":\"Jugador\",\"female_name\":\"Jugadora\",\"slug\":\"jugador\",\"active\":true,\"opta_id\":\"p638988\"}],\"team\":{\"id\":4,\"slug\":\"fc-barcelona\",\"name\":\"F\\u00fatbol Club Barcelona\",\"nickname\":\"FC Barcelona\",\"boundname\":\"FC Bar"
+  },
+  {
+   "u": "/subscriptions/laliga-easports-2026/players?limit=5&offset=0",
+   "status": 404,
+   "head": "{ \"statusCode\": 404, \"message\": \"Resource not found\" }"
+  },
+  {
+   "u": "/teams/fc-barcelona/players?subscriptionSlug=laliga-easports-2026&limit=50&offset=0",
+   "status": 404,
+   "head": "{ \"statusCode\": 404, \"message\": \"Resource not found\" }"
+  },
+  {
+   "u": "/teams/fc-barcelona?subscriptionSlug=laliga-easports-2026",
+   "status": 200,
+   "head": "{\"team\":{\"id\":4,\"slug\":\"fc-barcelona\",\"name\":\"F\\u00fatbol Club Barcelona\",\"nickname\":\"FC Barcelona\",\"boundname\":\"FC Barcelona\",\"shortname\":\"BAR\",\"color\":\"#0f39b8\",\"color_secondary\":\"#bc161c\",\"shirt_style\":\"striped\",\"foundation\":\"1899-11-29T00:00:00+00:00\",\"address\":\"Estadio Camp Nou, C\\/ Ar\\u00edstides Mallol, 12, 08028 Barcelona\",\"web\":\"http:\\/\\/www.fcbarcelona.es\",\"twitter\":\"@FCBarcelona_es\",\"facebook\":\"https:\\/\\/www.facebook.com\\/fcbarcelona\",\"instagram\":\"https:\\/\\/instagram.com\\/fcbarcelona\""
+  },
+  {
+   "u": "/subscriptions/laliga-easports-2026/teams/fc-barcelona/players?limit=50&offset=0",
+   "status": 404,
+   "head": "{ \"statusCode\": 404, \"message\": \"Resource not found\" }"
+  }
+ ],
+ "seriea": {
+  "status": 307,
+  "url": "https://en.legaseriea.it/",
+  "len": 51104,
+  "next": false,
+  "hrefs": []
+ },
+ "seriea2": {
+  "status": 404,
+  "url": "https://en.legaseriea.it/serie-a/clubs",
+  "len": 51221,
+  "apis": [
+   "https://cf-blast.livelikecdn.com/api/v1",
+   "https://serie-a-api-prod.livelikeapp.com/api/profile/custom-id",
+   "https://api-sdp.legaseriea.it/v1/"
+  ],
+  "imgs": []
+ },
+ "ligue1": {
+  "status": 200,
+  "hasNext": true,
+  "buildId": "B4xyggUVCQzEuKRd3yORF",
+  "pageProps": [
+   "_nextI18Next"
+  ],
+  "runtime": "{}",
+  "urls": []
+ }
+}
