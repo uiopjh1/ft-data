@@ -1,6 +1,10 @@
+أحمد الخير {'cands': 6, 'clusters': [['alnilin.com'], ['lebanonfiles.com', 'nna-leb.gov.lb']], 'ok': True}
 أحمد النفيسة {'cands': 0, 'clusters': [], 'ok': False}
+أنيس السحباني {'cands': 0, 'clusters': [], 'ok': False}
 سليمان الشريف {'cands': 0, 'clusters': [], 'ok': False}
 عانر الخوذيري {'cands': 0, 'clusters': [], 'ok': False}
-محمد بركات {'cands': 19, 'clusters': [['3ain.net', 'altreeq.com', 'arageek.com', 'btolat.com', 'sa24.co']], 'ok': True}
-محمد حسين {'cands': 17, 'clusters': [['alantologia.com', 'vetogate.com'], ['altreeq.com', 'apkpure.com', 'm.apkpure.com'], ['shazam.com'], ['mobile.cinpic.com'], ['play.google.com']], 'ok': True}
+عبدالعزيز السبر {'cands': 0, 'clusters': [], 'ok': False}
+عبدالله المحيسن {'cands': 3, 'clusters': [['alarabiya.net'], ['alriyadh.com']], 'ok': False}
+عصام عبده {'cands': 3, 'clusters': [['ar.m.wikipedia.org']], 'ok': False}
+فهد عريشي {'cands': 0, 'clusters': [], 'ok': False}
 نوفل باشي {'cands': 0, 'clusters': [], 'ok': False}
