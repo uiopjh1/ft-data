@@ -1,0 +1,193 @@
+{
+ "playerKeys": "id,slug,name,nickname,firstname,lastname,gender,date_of_birth,international,country,roles,team,squad",
+ "player0": "{\"id\":49368,\"slug\":\"guillem-victor\",\"name\":\"Guillem Víctor\",\"nickname\":\"Guillem Victor\",\"firstname\":\"Guillem\",\"lastname\":\"Víctor\",\"gender\":\"male\",\"date_of_birth\":\"2007-05-03T00:00:00+00:00\",\"international\":false,\"country\":{\"id\":\"ES\"},\"roles\":[{\"id\":1,\"name\":\"Jugador\",\"female_name\":\"Jugadora\",\"slug\":\"jugador\",\"active\":true,\"opta_id\":\"p638988\"}],\"team\":{\"id\":4,\"slug\":\"fc-barcelona\",\"name\":\"Fútbol Club Barcelona\",\"nickname\":\"FC Barcelona\",\"boundname\":\"FC Barcelona\",\"shortname\":\"BAR\",\"color\":\"#0f39b8\",\"color_secondary\":\"#bc161c\",\"shirt_style\":\"striped\",\"foundation\":\"1899-11-29T00:00:00+0000\",\"web\":\"http://www.fcbarcelona.es\",\"sprite_status\":\"created\",\"shield\":{\"id\":127,\"name\":\"Escudo BAR\",\"caption\":\"Escudo BAR\",\"url\":\"https://assets.laliga.com/assets/2019/06/07/xlarge/barcelona.png\",\"resizes\":{\"xsmall\":\"https://assets.laliga.com/assets/2019/06/07/xsmall/barcelona.png\",\"small\":\"https://assets.laliga.com/assets/2019/06/07/small/barcelona.png\",\"medium\":\"https://assets.laliga.com/assets/2019/06/07/medium/barcelona.png\",\"large\":\"https://assets.laliga.com/assets/2019/06/07/large/barcelona.png\",\"xlarge\":\"https://assets.laliga.com/assets/2019/06/07/xlarge/barcelona.png\"}},\"competitions\":[{\"id\":1,\"name\":\"LALIGA EA SPORTS\",\"slug\":\"primera-division\",\"main\":true},{\"id\":4,\"name\":\"UEFA Champions League\",\"slug\":\"champions-league\",\"main\":false}]},\"squad\":{\"shirt_number\":40,\"position\":{\"id\":2,\"name\":\"Defensa\",\"slug\":\"defensa\",\"plural_name\":\"Defensas\",\"female_name\":\"Defensa\",\"female_plural_name\":\"Defensas\"}}}",
+ "filters": [
+  {
+   "q": "teamSlug=fc-barcelona",
+   "status": 200,
+   "total": 48,
+   "n": 48,
+   "names": [
+    "Guillem Victor@fc-barcelona",
+    "Alex Campos@fc-barcelona",
+    "Bisiwu@fc-barcelona",
+    "Óscar Gistau@undefined"
+   ],
+   "teamsSeen": [
+    "fc-barcelona",
+    null
+   ]
+  },
+  {
+   "q": "team=fc-barcelona",
+   "status": 200,
+   "total": 48,
+   "n": 48,
+   "names": [
+    "Guillem Victor@fc-barcelona",
+    "Alex Campos@fc-barcelona",
+    "Bisiwu@fc-barcelona",
+    "Óscar Gistau@undefined"
+   ],
+   "teamsSeen": [
+    "fc-barcelona",
+    null
+   ]
+  },
+  {
+   "q": "teamId=4",
+   "status": 200,
+   "total": 41081,
+   "n": 60,
+   "names": [
+    "Guillem Victor@fc-barcelona",
+    "H. Opoku@undefined",
+    "G. Caixas@undefined",
+    "Henry Opoku@undefined"
+   ],
+   "teamsSeen": [
+    "fc-barcelona",
+    null,
+    "hoffenheim",
+    "leverkusen",
+    "schalke-04",
+    "rcd-espanyol"
+   ]
+  },
+  {
+   "q": "team.slug=fc-barcelona",
+   "status": 200,
+   "total": 41081,
+   "n": 60,
+   "names": [
+    "Guillem Victor@fc-barcelona",
+    "H. Opoku@undefined",
+    "G. Caixas@undefined",
+    "Henry Opoku@undefined"
+   ],
+   "teamsSeen": [
+    "fc-barcelona",
+    null,
+    "hoffenheim",
+    "leverkusen",
+    "schalke-04",
+    "rcd-espanyol"
+   ]
+  },
+  {
+   "q": "team_slug=fc-barcelona",
+   "status": 200,
+   "total": 41081,
+   "n": 60,
+   "names": [
+    "Guillem Victor@fc-barcelona",
+    "H. Opoku@undefined",
+    "G. Caixas@undefined",
+    "Henry Opoku@undefined"
+   ],
+   "teamsSeen": [
+    "fc-barcelona",
+    null,
+    "hoffenheim",
+    "leverkusen",
+    "schalke-04",
+    "rcd-espanyol"
+   ]
+  },
+  {
+   "q": "teams=fc-barcelona",
+   "status": 200,
+   "total": 41081,
+   "n": 60,
+   "names": [
+    "Guillem Victor@fc-barcelona",
+    "H. Opoku@undefined",
+    "G. Caixas@undefined",
+    "Henry Opoku@undefined"
+   ],
+   "teamsSeen": [
+    "fc-barcelona",
+    null,
+    "hoffenheim",
+    "leverkusen",
+    "schalke-04",
+    "rcd-espanyol"
+   ]
+  },
+  {
+   "q": "currentTeam=fc-barcelona",
+   "status": 200,
+   "total": 41081,
+   "n": 60,
+   "names": [
+    "Guillem Victor@fc-barcelona",
+    "H. Opoku@undefined",
+    "G. Caixas@undefined",
+    "Henry Opoku@undefined"
+   ],
+   "teamsSeen": [
+    "fc-barcelona",
+    null,
+    "hoffenheim",
+    "leverkusen",
+    "schalke-04",
+    "rcd-espanyol"
+   ]
+  },
+  {
+   "q": "status=active&teamSlug=fc-barcelona",
+   "status": 200,
+   "total": 48,
+   "n": 48,
+   "names": [
+    "Guillem Victor@fc-barcelona",
+    "Alex Campos@fc-barcelona",
+    "Bisiwu@fc-barcelona",
+    "Óscar Gistau@undefined"
+   ],
+   "teamsSeen": [
+    "fc-barcelona",
+    null
+   ]
+  }
+ ],
+ "seriea": [
+  {
+   "u": "https://api-sdp.legaseriea.it/v1/",
+   "status": 404,
+   "type": null,
+   "head": ""
+  },
+  {
+   "u": "https://api-sdp.legaseriea.it/v1/competitions",
+   "status": 404,
+   "type": null,
+   "head": ""
+  },
+  {
+   "u": "https://api-sdp.legaseriea.it/v1/teams",
+   "status": 404,
+   "type": null,
+   "head": ""
+  },
+  {
+   "u": "https://api-sdp.legaseriea.it/v1/players",
+   "status": 404,
+   "type": null,
+   "head": ""
+  }
+ ],
+ "saHome": {
+  "status": 307,
+  "title": "Lega Serie A | Official Website",
+  "hrefs": [
+   "/_next/static/chunks/webpack-53f1dcfd48063550.js",
+   "https://en.legaseriea.it/",
+   "/manifest.webmanifest",
+   "https://en.legaseriea.it",
+   "/favicon.ico",
+   "/apple-icon.png?7d5fc4b566dd7623"
+  ],
+  "head": "<!DOCTYPE html><html id=\"__next_error__\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/webpack-53f1dcfd48063550.js\"/><script src=\"/_next/static/chunks/4bd1b696-182b6b13b"
+ }
+}
