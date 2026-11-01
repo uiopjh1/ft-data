@@ -24,7 +24,12 @@ async function one(u) {
   const out = 'thumbs/' + h(u) + '.webp';
   if (fs.existsSync(out)) { skipped++; return; }
   try {
-    const r = await fetch(u, { headers: { 'user-agent': 'Mozilla/5.0' } });
+    let r = await fetch(u, { headers: { 'user-agent': 'Mozilla/5.0' } });
+    if (!r.ok) {
+      // لاعبون جدد: صورتهم الرسمية تحت مسار الموسم الجديد (premierleague25) لا المسار القديم
+      const m = u.match(/premierleague\.com\/premierleague\/photos\/players\/\w+\/p(\d+)\.png/);
+      if (m) r = await fetch('https://resources.premierleague.com/premierleague25/photos/players/110x140/' + m[1] + '.png', { headers: { 'user-agent': 'Mozilla/5.0' } });
+    }
     if (!r.ok) throw new Error(String(r.status));
     const buf = Buffer.from(await r.arrayBuffer());
     const t = await sharp(buf).resize({ width: 128, withoutEnlargement: true }).webp({ quality: 72 }).toBuffer();
