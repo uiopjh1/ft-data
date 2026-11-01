@@ -7,29 +7,27 @@ const tk = (s) => nz(s).split(' ').filter((x) => x && !STOP.has(x));
 const FILES = ['spl', 'epl', 'bundesliga', 'seriea'];
 const bad = [];
 for (const f of FILES) for (const p of JSON.parse(fs.readFileSync(f + '_players.json', 'utf8')).players) if (p.img && !fs.existsSync('thumbs/' + h(p.img) + '.webp')) bad.push({ f, ...p });
-const H = { 'user-agent': 'Mozilla/5.0', accept: 'application/json', referer: 'https://www.sofascore.com/' };
+const H = { 'user-agent': 'Mozilla/5.0', accept: 'application/json' };
 const rep = { total: bad.length, ok: 0, nomatch: 0, err: 0, sample: [], fails: [] };
 async function get(u) { const r = await fetch(u, { headers: H }); if (!r.ok) throw new Error(u.slice(0, 60) + ' ' + r.status); return r; }
 async function one(p) {
   try {
     const q = encodeURIComponent(p.en);
-    const j = await (await get('https://api.sofascore.com/api/v1/search/players/?q=' + q)).json().catch(() => null)
-      || null;
-    const res = (j && (j.results || [])).map((x) => x.entity).filter(Boolean);
+    const j = await (await get('https://site.web.api.espn.com/apis/common/v3/search?limit=10&type=player&sport=soccer&query=' + q)).json();
+    const res = (j.items || []).filter((x) => x && x.id);
     const pt = new Set(tk(p.en));
     let best = null;
     for (const e of res) {
-      const nt = tk(e.name);
-      const nameHit = nt.length && nt.filter((x) => pt.has(x)).length >= Math.min(2, Math.max(1, nt.length - 0));
-      const tt = tk(p.teamEn), et = tk(e.team && e.team.name);
-      const teamHit = tt.some((x) => et.includes(x));
-      if (nameHit && teamHit) { best = e; break; }
+      const nt = tk(e.displayName);
+      const hit = nt.length && nt.filter((x) => pt.has(x)).length >= Math.min(2, nt.length);
+      const tt = tk(p.teamEn), et = tk((e.subtitle || '') + ' ' + (e.teamRelationships && e.teamRelationships[0] && e.teamRelationships[0].displayName || ''));
+      if (hit && (tt.some((x) => et.includes(x)))) { best = e; break; }
     }
     if (!best) { rep.nomatch++; rep.fails.push(p.en + '@' + p.teamEn + ' n=' + res.length); return; }
-    const img = Buffer.from(await (await get('https://api.sofascore.app/api/v1/player/' + best.id + '/image')).arrayBuffer());
+    const img = Buffer.from(await (await get('https://a.espncdn.com/i/headshots/soccer/players/full/' + best.id + '.png')).arrayBuffer());
     const t = await sharp(img).resize({ width: 128 }).webp({ quality: 72 }).toBuffer();
     fs.writeFileSync('thumbs/' + h(p.img) + '.webp', t);
-    rep.ok++; if (rep.sample.length < 5) rep.sample.push(p.en + ' -> ' + best.name + ' (' + best.team.name + ')');
+    rep.ok++; if (rep.sample.length < 5) rep.sample.push(p.en + ' -> ' + best.displayName);
   } catch (e) { rep.err++; if (rep.fails.length < 15) rep.fails.push(String(e.message).slice(0, 80)); }
 }
 let i = 0;
