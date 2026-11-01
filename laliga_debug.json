@@ -1,0 +1,10 @@
+{
+ "steps": [],
+ "pageLen": 294114,
+ "season": "2026",
+ "teams": 20,
+ "sub": "laliga-easports-2026",
+ "sample": "{\"id\":84217,\"shirt_number\":1,\"current\":true,\"loan\":false,\"loan_to\":false,\"position\":{\"id\":1,\"name\":\"Portero\",\"slug\":\"portero\",\"plural_name\":\"Porteros\",\"female_name\":\"Portera\",\"female_plural_name\":\"Porteras\"},\"team\":{\"id\":3,\"slug\":\"athletic-club\",\"name\":\"Athletic Club\",\"nickname\":\"Athletic Club\",\"boundname\":\"Athletic Club\",\"shortname\":\"ATH\",\"color\":\"#f21e27\",\"color_secondary\":\"#ffffff\",\"foundation\":\"1898-12-31T00:00:00+00:00\",\"web\":\"https://www.athletic-club.eus\",\"sprite_status\":\"created\",\"competitions\":[]},\"person\":{\"id\":2001,\"name\":\"Unai Simón\",\"nickname\":\"Unai Simon\",\"firstname\":\"Unai\",\"lastname\":\"Simón\",\"gender\":\"male\",\"date_of_birth\":\"1997-06-11T00:00:00+00:00\",\"place_of_birth\":\"Vitoria-Gasteiz\",\"weight\":88,\"height\":190,\"international\":false,\"country\":{\"id\":\"ES\"},\"slug\":\"unai-simon\"},\"role\":{\"id\":1,\"name\":\"Jugador\",\"female_name\":\"Jugadora\",\"slug\":\"jugador\"},\"photos\":{\"001\":{\"1024x1113\":\"https://assets.laliga.com/squad/2026/t174/p212769/1024x1113/p212769_t174_2026_1_001_000.png\",\"128x139\":\"https://assets.laliga.com/squad/2026/t174/p212769/128x139/p212769_t174_2026_1_001_000.png\",\"2048x2225\":\"https://assets.laliga.com/squad/2026/t174/p212769/2048x2225/p212769_t174_2026_1_001_000.png\",\"256x278\":\"https://assets.laliga.com/squad/2026/t174/p212769/256x278/p212769_t174_2026_1_001_000.png\",\"512x556\":\"https://assets.laliga.com/squad/2026/t174/p212769/512x556/p212769_t174_2026_1_001_000.png\",\"64x70\":\"https://assets.laliga.com/squad/2026/t174/p212769/64x70/p212769_t174_2026_1_001_00",
+ "noImg": [],
+ "playersN": 0
+}
