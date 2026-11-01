@@ -40,8 +40,9 @@ for (const t of teams) {
   let n = 0;
   for (const e of list) {
     if (e.current === false) continue;
-    const p = e.player || e;
-    const name = p.nickname || p.name || (e.player && e.player.name);
+    const p = e.person || e.player || e;
+    const name = p.nickname || p.name;
+    if (e.loan_to) continue; // معار لنادٍ آخر: ليس في هذا الفريق حالياً
     if (!name) continue;
     const js = JSON.stringify(e);
     const urls = (js.match(/https?:\\?\/\\?\/assets\.laliga\.com\\?\/squad\\?\/[^"\\]+_001_000\.png/g) || []).map((u) => u.replace(/\\\//g, '/'));
