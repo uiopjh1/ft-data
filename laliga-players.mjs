@@ -48,7 +48,8 @@ for (const t of teams) {
     const urls = (js.match(/https?:\\?\/\\?\/assets\.laliga\.com\\?\/squad\\?\/[^"\\]+_001_000\.png/g) || []).map((u) => u.replace(/\\\//g, '/'));
     let img = urls.find((u) => /\/256x278\//.test(u)) || (urls[0] && urls[0].replace(/\/\d+x\d+\//, '/256x278/')) || '';
     if (!img) { noImg.push(t.slug + ':' + name); continue; }
-    players.push({ slug: slug(name), en: name, ar: '', team: t.slug, teamEn: t.nickname || t.name, img });
+    const alt = [...new Set([p.name, [p.firstname, p.lastname].filter(Boolean).join(' '), [p.firstname, p.nickname].filter(Boolean).join(' '), [p.firstname, String(p.lastname || '').split(' ')[0]].filter(Boolean).join(' ')].filter((x) => x && x !== name))];
+    players.push({ slug: slug(name), en: name, alt, ar: '', team: t.slug, teamEn: t.nickname || t.name, img });
     n++;
   }
   console.log(t.slug, list.length, n);
