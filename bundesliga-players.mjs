@@ -31,7 +31,8 @@ for (const cs of clubSlugs) {
   if (!m) { DBG.steps.push('nostate ' + cs); continue; }
   let st; try { st = JSON.parse(m[1]); } catch (e) { DBG.steps.push('badjson ' + cs); continue; }
   const title = (html.match(/<title>([^<|]*)/) || [])[1] || cs;
-  const teamName = title.replace(/\s*[-–|].*$/, '').trim();
+  let teamName = title.replace(/\s*[-–|].*$/, '').trim();
+  if (cs === 'sport-club-freiburg') teamName = 'SC Freiburg'; // العنوان يُقطع عند الشرطة (Sport-Club)
   const seen = new Set(); let n = 0;
   walk(st, (o) => {
     if (o && o.players && typeof o.players === 'object' && !Array.isArray(o.players)) {
