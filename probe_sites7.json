@@ -1,0 +1,99 @@
+{
+ "bl": {
+  "status": 200,
+  "len": 1244211,
+  "scriptIds": [
+   "ng-event-dispatch-contract",
+   "ng-state"
+  ],
+  "objCount": 192,
+  "objSample": [
+   "DFL-OBJ-0002F5",
+   "DFL-OBJ-J01K2F",
+   "DFL-OBJ-002GCR",
+   "DFL-OBJ-0027T1",
+   "DFL-OBJ-J01DG7",
+   "DFL-OBJ-J0257K",
+   "DFL-OBJ-J01UD5",
+   "DFL-OBJ-J01KAH"
+  ],
+  "playerImgCtx": [
+   "0d26f061f409c8eb62d6f791edc5c7c6181ec4b77\":{\"b\":{\"players\":{\"MIDFIELD\":[{\"externalPersonIds\":{\"dflDatalibraryPersonId\":\"DFL-OBJ-0002F5\"},\"id\":\"DFL-OBJ-0002F5\",\"lastUpdate\":null,\"name\":{\"alias\":\"Joshua Kimmich\",\"first\":\"Joshua Walter\",\"full\":\"Joshua Walte",
+   "bj-0002f5-dfl-clu-00000g-dfl-sea-0001ka-circle.png\"},\"shirtNumber\":\"6\"},{\"externalPersonIds\":{\"dflDatalibraryPersonId\":\"DFL-OBJ-J01K2F\"},\"id\":\"DFL-OBJ-J01K2F\",\"lastUpdate\":null,\"name\":{\"alias\":null,\"first\":\"Tom\",\"full\":\"Tom Bischof\",\"last\":\"Bischof\",\"sho",
+   "bj-j01k2f-dfl-clu-00000g-dfl-sea-0001ka-circle.png\"},\"shirtNumber\":\"8\"},{\"externalPersonIds\":{\"dflDatalibraryPersonId\":\"DFL-OBJ-002GCR\"},\"id\":\"DFL-OBJ-002GCR\",\"lastUpdate\":null,\"name\":{\"alias\":null,\"first\":\"Jamal\",\"full\":\"Jamal Musiala\",\"last\":\"Musiala\","
+  ],
+  "assetPaths": [
+   "assets.bundesliga.com/placeholder/",
+   "assets.bundesliga.com/web/",
+   "assets.bundesliga.com/clublogos/",
+   "assets.bundesliga.com/stadium/",
+   "assets.bundesliga.com/video/"
+  ],
+  "stateHint": 0
+ },
+ "saBody": "<!DOCTYPE html><html id=\"__next_error__\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_n",
+ "seriea": [
+  {
+   "i": 0,
+   "url": "https://en.legaseriea.it/",
+   "status": 307,
+   "loc": null,
+   "setCookies": [],
+   "len": 51104,
+   "title": "Lega Serie A | Official Website",
+   "hrefs": []
+  }
+ ],
+ "saPages": [
+  {
+   "u": "https://en.legaseriea.it/teams",
+   "status": 404,
+   "loc": null,
+   "len": 51193,
+   "title": "Lega Serie A | Official Website",
+   "imgs": [
+    "https://media-sdp.legaseriea.it"
+   ]
+  },
+  {
+   "u": "https://en.legaseriea.it/clubs",
+   "status": 404,
+   "loc": null,
+   "len": 50083,
+   "title": "Lega Serie A | Official Website",
+   "imgs": [
+    "https://media-sdp.legaseriea.it"
+   ]
+  },
+  {
+   "u": "https://en.legaseriea.it/serie-a/teams",
+   "status": 404,
+   "loc": null,
+   "len": 51221,
+   "title": "Lega Serie A | Official Website",
+   "imgs": [
+    "https://media-sdp.legaseriea.it"
+   ]
+  },
+  {
+   "u": "https://en.legaseriea.it/teams/inter/squad",
+   "status": 404,
+   "loc": null,
+   "len": 50127,
+   "title": "Lega Serie A | Official Website",
+   "imgs": [
+    "https://media-sdp.legaseriea.it"
+   ]
+  },
+  {
+   "u": "https://en.legaseriea.it/en/teams",
+   "status": 404,
+   "loc": null,
+   "len": 50096,
+   "title": "Lega Serie A | Official Website",
+   "imgs": [
+    "https://media-sdp.legaseriea.it"
+   ]
+  }
+ ]
+}
