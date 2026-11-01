@@ -1,0 +1,337 @@
+{
+ "bundesliga": [
+  {
+   "url": "https://www.bundesliga.com/en/bundesliga/clubs",
+   "status": 200,
+   "final": "https://www.bundesliga.com/en/bundesliga/clubs",
+   "len": 725337,
+   "nextData": false,
+   "hrefs": [
+    "https://www.bundesliga.com/en/bundesliga/clubs",
+    "https://www.bundesliga.com/de/bundesliga/clubs",
+    "https://www.bundesliga.com/es/bundesliga/clubes",
+    "https://www.bundesliga.com/jp/bundesliga/clubs",
+    "https://www.bundesliga.com/fr/bundesliga/clubs",
+    "https://www.bundesliga.com/ar/bundesliga/clubs",
+    "https://www.bundesliga.com/pt/bundesliga/clubes",
+    "/en/bundesliga/clubs",
+    "/en/bundesliga/news/legends-network-meet-the-players-matthaus-klinsmann-pizarro-okocha-17040",
+    "/en/bundesliga/player",
+    "/en/bundesliga/matchday/2026-2027/8/fc-augsburg-vs-sport-club-freiburg/liveticker",
+    "/en/bundesliga/clubs/fc-bayern-muenchen",
+    "/en/bundesliga/clubs/borussia-dortmund",
+    "/en/bundesliga/clubs/rb-leipzig",
+    "/en/bundesliga/clubs/vfb-stuttgart",
+    "/en/bundesliga/clubs/tsg-hoffenheim",
+    "/en/bundesliga/clubs/bayer-04-leverkusen",
+    "/en/bundesliga/clubs/sport-club-freiburg",
+    "/en/bundesliga/clubs/eintracht-frankfurt",
+    "/en/bundesliga/clubs/fc-augsburg",
+    "/en/bundesliga/clubs/1-fsv-mainz-05",
+    "/en/bundesliga/clubs/1-fc-union-berlin",
+    "/en/bundesliga/clubs/borussia-moenchengladbach",
+    "/en/bundesliga/clubs/hamburger-sv",
+    "/en/bundesliga/clubs/1-fc-koeln"
+   ],
+   "imgs": [],
+   "apis": [
+    "https://cdn.cookielaw.org",
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+   ],
+   "title": "Bundesliga | Clubs"
+  },
+  {
+   "url": "https://www.bundesliga.com/en/bundesliga/clubs/fc-bayern-muenchen",
+   "status": 200,
+   "final": "https://www.bundesliga.com/en/bundesliga/clubs/fc-bayern-muenchen",
+   "len": 1250323,
+   "nextData": false,
+   "hrefs": [
+    "https://www.bundesliga.com/en/bundesliga/clubs/fc-bayern-muenchen",
+    "https://www.bundesliga.com/de/bundesliga/clubs/fc-bayern-muenchen",
+    "https://www.bundesliga.com/es/bundesliga/clubes/fc-bayern-muenchen",
+    "https://www.bundesliga.com/jp/bundesliga/clubs/fc-bayern-muenchen",
+    "https://www.bundesliga.com/fr/bundesliga/clubs/fc-bayern-muenchen",
+    "https://www.bundesliga.com/ar/bundesliga/clubs/fc-bayern-muenchen",
+    "https://www.bundesliga.com/pt/bundesliga/clubes/fc-bayern-muenchen",
+    "/en/bundesliga/clubs",
+    "/en/bundesliga/news/legends-network-meet-the-players-matthaus-klinsmann-pizarro-okocha-17040",
+    "/en/bundesliga/player",
+    "/en/bundesliga/matchday/2026-2027/8/fc-augsburg-vs-sport-club-freiburg/liveticker",
+    "/en/bundesliga/clubs/fc-bayern-muenchen",
+    "/en/bundesliga/clubs/borussia-dortmund",
+    "/en/bundesliga/clubs/sport-club-freiburg",
+    "/en/bundesliga/clubs/rb-leipzig",
+    "/en/bundesliga/matchday/2026-2027/7/sport-club-freiburg-vs-fc-bayern-muenchen/liveticker",
+    "https://www.jwplayer.com/legal/privacy",
+    "/en/player/manuel-neuer",
+    "/en/player/sven-ulreich",
+    "/en/player/jannis-bartl",
+    "/en/player/david-podar-stiube",
+    "/en/player/jonas-urbig",
+    "/en/player/dayot-upamecano",
+    "/en/player/minjae-kim",
+    "/en/player/jonathan-tah"
+   ],
+   "imgs": [],
+   "apis": [
+    "https://cdn.cookielaw.org",
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+   ],
+   "title": "FC Bayern München | Bundesliga"
+  },
+  {
+   "url": "https://www.bundesliga.com/en/bundesliga/players",
+   "status": 404,
+   "final": "https://www.bundesliga.com/en/bundesliga/players",
+   "len": 420359,
+   "nextData": false,
+   "hrefs": [
+    "/en/bundesliga/clubs",
+    "/en/bundesliga/news/legends-network-meet-the-players-matthaus-klinsmann-pizarro-okocha-17040",
+    "/en/bundesliga/player",
+    "/en/bundesliga/matchday/2026-2027/8/fc-augsburg-vs-sport-club-freiburg/liveticker"
+   ],
+   "imgs": [],
+   "apis": [
+    "https://cdn.cookielaw.org",
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+   ],
+   "title": ""
+  }
+ ],
+ "laliga": [
+  {
+   "url": "https://www.laliga.com/en-ES/laliga-easports/clubs",
+   "status": 200,
+   "final": "https://www.laliga.com/en-ES/laliga-easports/clubs",
+   "len": 294116,
+   "nextData": true,
+   "hrefs": [
+    "https://www.laliga.com/laliga-easports/clubes",
+    "https://www.laliga.com/en-GB/laliga-easports/clubs",
+    "https://www.athletic-club.eus/en",
+    "https://www.realracingclub.es/",
+    "/en-ES/laliga-easports/clubs",
+    "/en-ES/laliga-hypermotion/clubs",
+    "/en-ES/futbol-femenino/clubs",
+    "/en-ES/work-with-clubs",
+    "/en-ES/clubs/athletic-club/squad",
+    "/en-ES/clubs/atletico-de-madrid/squad",
+    "/en-ES/clubs/c-a-osasuna/squad",
+    "/en-ES/clubs/rc-celta/squad",
+    "/en-ES/clubs/d-alaves/squad",
+    "/en-ES/clubs/elche-c-f/squad",
+    "/en-ES/clubs/fc-barcelona/squad",
+    "/en-ES/clubs/getafe-cf/squad",
+    "/en-ES/clubs/levante-ud/squad",
+    "/en-ES/clubs/malaga-cf/squad",
+    "/en-ES/clubs/r-racing-club/squad",
+    "/en-ES/clubs/rayo-vallecano/squad",
+    "/en-ES/clubs/rc-deportivo/squad",
+    "/en-ES/clubs/rcd-espanyol/squad",
+    "/en-ES/clubs/real-betis/squad",
+    "/en-ES/clubs/real-madrid/squad",
+    "/en-ES/clubs/real-sociedad/squad"
+   ],
+   "imgs": [],
+   "apis": [
+    "https://apim.laliga.com/public-service",
+    "https://apim-int.laliga.com/public-service",
+    "https://apim.laliga.com/webview"
+   ],
+   "title": "Clubs and Teams of LALIGA EA SPORTS 2026/27 | LALIGA"
+  },
+  {
+   "url": "https://www.laliga.com/en-GB/laliga-easports/clubs",
+   "status": 200,
+   "final": "https://www.laliga.com/en-GB/laliga-easports/clubs",
+   "len": 294113,
+   "nextData": true,
+   "hrefs": [
+    "https://www.laliga.com/laliga-easports/clubes",
+    "https://www.laliga.com/en-GB/laliga-easports/clubs",
+    "https://www.athletic-club.eus/en",
+    "https://www.realracingclub.es/",
+    "/en-GB/laliga-easports/clubs",
+    "/en-GB/laliga-hypermotion/clubs",
+    "/en-GB/futbol-femenino/clubs",
+    "/en-GB/work-with-clubs",
+    "/en-GB/clubs/athletic-club/squad",
+    "/en-GB/clubs/atletico-de-madrid/squad",
+    "/en-GB/clubs/c-a-osasuna/squad",
+    "/en-GB/clubs/rc-celta/squad",
+    "/en-GB/clubs/d-alaves/squad",
+    "/en-GB/clubs/elche-c-f/squad",
+    "/en-GB/clubs/fc-barcelona/squad",
+    "/en-GB/clubs/getafe-cf/squad",
+    "/en-GB/clubs/levante-ud/squad",
+    "/en-GB/clubs/malaga-cf/squad",
+    "/en-GB/clubs/r-racing-club/squad",
+    "/en-GB/clubs/rayo-vallecano/squad",
+    "/en-GB/clubs/rc-deportivo/squad",
+    "/en-GB/clubs/rcd-espanyol/squad",
+    "/en-GB/clubs/real-betis/squad",
+    "/en-GB/clubs/real-madrid/squad",
+    "/en-GB/clubs/real-sociedad/squad"
+   ],
+   "imgs": [],
+   "apis": [
+    "https://apim.laliga.com/public-service",
+    "https://apim-int.laliga.com/public-service",
+    "https://apim.laliga.com/webview"
+   ],
+   "title": "Clubs and Teams of LALIGA EA SPORTS 2026/27 | LALIGA"
+  },
+  {
+   "url": "https://www.laliga.com/en-ES/clubs",
+   "status": 404,
+   "final": "https://www.laliga.com/en-ES/clubs",
+   "len": 9835,
+   "nextData": true,
+   "hrefs": [],
+   "imgs": [],
+   "apis": [
+    "https://apim.laliga.com/public-service",
+    "https://apim-int.laliga.com/public-service",
+    "https://apim.laliga.com/webview"
+   ],
+   "title": "Página web oficial de LALIGA | LALIGA"
+  },
+  {
+   "url": "https://www.laliga.com/en-GB/laliga-easports/players",
+   "status": 404,
+   "final": "https://www.laliga.com/en-GB/laliga-easports/players",
+   "len": 9835,
+   "nextData": true,
+   "hrefs": [],
+   "imgs": [],
+   "apis": [
+    "https://apim.laliga.com/public-service",
+    "https://apim-int.laliga.com/public-service",
+    "https://apim.laliga.com/webview"
+   ],
+   "title": "Página web oficial de LALIGA | LALIGA"
+  }
+ ],
+ "seriea": [
+  {
+   "url": "https://www.legaseriea.it/en/serie-a/teams",
+   "status": 307,
+   "final": "https://en.legaseriea.it/",
+   "len": 51082,
+   "nextData": false,
+   "hrefs": [],
+   "imgs": [],
+   "apis": [
+    "https://cf-blast.livelikecdn.com/api/v1",
+    "https://serie-a-api-prod.livelikeapp.com/api/profile/custom-id",
+    "https://api-sdp.legaseriea.it/v1/"
+   ],
+   "title": "Lega Serie A | Official Website"
+  },
+  {
+   "url": "https://www.legaseriea.it/en/serie-a/clubs",
+   "status": 307,
+   "final": "https://en.legaseriea.it/",
+   "len": 51082,
+   "nextData": false,
+   "hrefs": [],
+   "imgs": [],
+   "apis": [
+    "https://cf-blast.livelikecdn.com/api/v1",
+    "https://serie-a-api-prod.livelikeapp.com/api/profile/custom-id",
+    "https://api-sdp.legaseriea.it/v1/"
+   ],
+   "title": "Lega Serie A | Official Website"
+  },
+  {
+   "url": "https://www.legaseriea.it/en",
+   "status": 307,
+   "final": "https://en.legaseriea.it/",
+   "len": 51082,
+   "nextData": false,
+   "hrefs": [],
+   "imgs": [],
+   "apis": [
+    "https://cf-blast.livelikecdn.com/api/v1",
+    "https://serie-a-api-prod.livelikeapp.com/api/profile/custom-id",
+    "https://api-sdp.legaseriea.it/v1/"
+   ],
+   "title": "Lega Serie A | Official Website"
+  },
+  {
+   "url": "https://www.legaseriea.it/en/serie-a/players",
+   "status": 307,
+   "final": "https://en.legaseriea.it/",
+   "len": 51082,
+   "nextData": false,
+   "hrefs": [],
+   "imgs": [],
+   "apis": [
+    "https://cf-blast.livelikecdn.com/api/v1",
+    "https://serie-a-api-prod.livelikeapp.com/api/profile/custom-id",
+    "https://api-sdp.legaseriea.it/v1/"
+   ],
+   "title": "Lega Serie A | Official Website"
+  }
+ ],
+ "ligue1": [
+  {
+   "url": "https://ligue1.com/clubs",
+   "status": 404,
+   "final": "https://ligue1.com/en/clubs",
+   "len": 62800,
+   "nextData": true,
+   "hrefs": [
+    "https://www.lfp.fr/1-team-hub"
+   ],
+   "imgs": [
+    "/images/social/FACEBOOK.webp"
+   ],
+   "apis": []
+  },
+  {
+   "url": "https://ligue1.com/en/clubs",
+   "status": 404,
+   "final": "https://ligue1.com/en/clubs",
+   "len": 62800,
+   "nextData": true,
+   "hrefs": [
+    "https://www.lfp.fr/1-team-hub"
+   ],
+   "imgs": [
+    "/images/social/FACEBOOK.webp"
+   ],
+   "apis": []
+  },
+  {
+   "url": "https://ligue1.com/",
+   "status": 200,
+   "final": "https://ligue1.com/en",
+   "len": 131644,
+   "nextData": true,
+   "hrefs": [
+    "https://www.lfp.fr/1-team-hub"
+   ],
+   "imgs": [
+    "/images/social/FACEBOOK.webp"
+   ],
+   "apis": []
+  },
+  {
+   "url": "https://ligue1.com/en/players",
+   "status": 404,
+   "final": "https://ligue1.com/en/players",
+   "len": 62800,
+   "nextData": true,
+   "hrefs": [
+    "https://www.lfp.fr/1-team-hub"
+   ],
+   "imgs": [
+    "/images/social/FACEBOOK.webp"
+   ],
+   "apis": []
+  }
+ ]
+}
