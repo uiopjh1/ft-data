@@ -1,0 +1,26 @@
+{
+ "steps": [],
+ "clubSlugs": [
+  "fc-bayern-muenchen",
+  "borussia-dortmund",
+  "rb-leipzig",
+  "vfb-stuttgart",
+  "tsg-hoffenheim",
+  "bayer-04-leverkusen",
+  "sport-club-freiburg",
+  "eintracht-frankfurt",
+  "fc-augsburg",
+  "1-fsv-mainz-05",
+  "1-fc-union-berlin",
+  "borussia-moenchengladbach",
+  "hamburger-sv",
+  "1-fc-koeln",
+  "sv-werder-bremen",
+  "fc-schalke-04",
+  "sv-elversberg",
+  "sc-paderborn-07"
+ ],
+ "sample": "{\"externalPersonIds\":{\"dflDatalibraryPersonId\":\"DFL-OBJ-0002F5\"},\"id\":\"DFL-OBJ-0002F5\",\"lastUpdate\":null,\"name\":{\"alias\":\"Joshua Kimmich\",\"first\":\"Joshua Walter\",\"full\":\"Joshua Walter Kimmich\",\"last\":\"Kimmich\",\"shortName\":null,\"slugifiedFull\":\"joshua-kimmich\",\"slugifiedShort\":\"joshua-kimmich\"},\"nationality\":{\"firstNationality\":\"German\",\"firstNationalityCode\":\"DE\",\"secondNationality\":null,\"secondNationalityCode\":null,\"thirdNationality\":null,\"thirdNationalityCode\":null},\"playerImages\":{\"FACE_CIRCLE\":\"https://assets.bundesliga.com/player/dfl-obj-0002f5-dfl-clu-00000g-dfl-sea-0001ka-circle.png\"},\"shirtNumber\":\"6\"}",
+ "playersN": 548,
+ "teamsN": 18
+}
