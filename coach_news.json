@@ -1,5 +1,5 @@
 {
- "updated": 1793515319539,
+ "updated": 1793542288755,
  "items": [
   {
    "club": "Al Ahli",
@@ -20,6 +20,34 @@
    ]
   },
   {
+   "club": "Le Havre AC",
+   "club_ar": "",
+   "type": "sack",
+   "first": "2026-10-31T16:17:02",
+   "sources": [
+    {
+     "host": "leparisien.fr",
+     "title": "Au lendemain de la déroute contre le PSG, Le Havre limoge son entraîneur Didier Digard et confirme la démission de son président - Le Parisien",
+     "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQQ1ZCZFhadXczeVZtVEJGRUhzQ1pTQ2RtN1BvVVlIX2J0WjZMb1NJeFRwdUpNTUZuWU1qd0ZYeWxDSi1meGJDbmFsSndlM2hiUm1Pbl9GS1BEbGZEdm5IVVk2VmNDM19wektCdnZVVFBGcHgtQWVaRUE2U1JScmRrR3FRM3huWkJ4NUJyX045UkcxVklEQWtvallSSzRoaWF3TmluY2RxYUtJRl9jZGxzdlBGR1Y1QTVId19teDhVYjM0bEdHNl9QVWNDdTV1MUhkbDZwcTN2TzRPclJTZUtMVlJQeWxQTjAzZGhmQVZvc0lmSHV0NGNfZzRBYUZXS3RZOWdzRUVZdVM?oc=5"
+    },
+    {
+     "host": "lequipe.fr",
+     "title": "Le Havre officialise la démission de Jean-Michel Roussier et la mise à pied de Didier Digard, remplacé par Jaïr Karam - L'Équipe",
+     "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNOEJRVE9DOXE2WjRqUndNdEpBMUdYTlZyal9wN2c5aFFpOGc0NUhCLVdKTDg5dEhTQjZtUDRONFBjV000aFoyUXhCS2JpRnRfR2t1dkRScG4zcnBsRlAxd1Z4Mm1mOURrRDdzTE05SnlVc3hNTVIzbEQ0VnJiQksyVG5mUjFhMDY3RGdCMF9OanF0RWpPNl82dmFJSjVqbFR3QS14RzRQajJfMnJraXc3S1RkNURqMU04cTNjU00xb1IzWTRjODJ3em9PQzRmLVAtekdELWZqZW9HbTN6YmNud2pWdEJOY3lDdUVLS1diYWl0bjAxdFFYNHJJSQ?oc=5"
+    },
+    {
+     "host": "sports.yahoo.com",
+     "title": "Didier Digard to be sacked by Le Havre - Yahoo Sports",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZkkzNFhXaTBCSVRKNE1pMTZ2Z1dNTWpsa2dPOTlLQVJ5blJIMkE4cHoxNFkyWUxNdjdkQVBFQVV4S3dFZ2phVk91SzFVTEktVjRILW5YY0dQSUR5SmRDdVo0TW9BWktVUzIxSWo5Tjd5VmZJaEpMZEw0cTdTN2hGYjdOM3hrZw?oc=5"
+    },
+    {
+     "host": "france24.com",
+     "title": "Le Havre owners sack coach after PSG thrashing - France 24",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNU1ZVTM1ME9oTDVaOFk0VFNFdWswdVlVZU0tSnJhWHNxZ0hMVVBGTDVIU1ZhSjVNS0Q4TnlkS2NRazBBTk5GWFJBSWdDT1Y3U1pIX1NrNkFLeGZXMXJVa1YxaGJBZkg1aXV0ZlRqLWtBLWk3QWJKc1ZycVRCQ1RUYW53YTJGUXdjSlRSbW5yM1FqTFJpSWpaMA?oc=5"
+    }
+   ]
+  },
+  {
    "club": "Al Shabab",
    "club_ar": "الشباب",
    "type": "sack",
@@ -34,29 +62,6 @@
      "host": "kooora.com",
      "title": "أقيل أثناء كلاسيكو الشباب.. بن ذكري ينافس مدرب مفاجئ على خلافة بوسيتش في الأهلي - Kooora",
      "link": "https://news.google.com/rss/articles/CBMi5AVBVV95cUxQdW04bHpTX1RJR0l4WExnS3RwSDVMNWVrVHFLTzdzcld3OTV4WTVpaXljT3JfM253MnZTcXVTd2l3ZnRTOS1EdG5NUG42dlY3ajRuT3JWdk80bFlwOV9oYXQyRTB6U2tvbEJ0QXBIZXEwdTlRR05KNDlPUWxmaGZlN200a0lxb1AtQ0MzbGJfeWo1TmlKQ3Y0TVBHWThVUWlDZmI0VHlvd3BjNDNJaHN3cmZQZjBiUjZxYmdybUhvMHR3Y21kVlpIX0xOSm1KVm1QdE9sbU1hVjg5b25VWmRHM3E4NU9teWNqb25qTDdmWTh4WkpKaWRnTUQ3VWdrTWdONGFIYzI1dTAybWh4NmdNengtcndVTE5qM0JqYW9GT1BBdTlMM3hQZzI1YU4zenB1a1VzZG10NXlVYXRabXBySmtsVjJ0aXQ2aUVheEF1MkdaUE13X1F2a1NUV09fNTFocm5QbHNXRUtHOUthemxfcjZSYUlMNDhFR2FqNEZLam1ZRjlMcmktZ2dEZ2VDSFNNU2FoT2F5MlBwTVlMRE1uOExBV2ZZRkk3Nm80Nm1PLXBLR0t0OEtsYURWekdSTVY5aFhBYmxrbXV0ckJhNXNUaDNXanlobVIwVWxkSkxBWW5ZN0U1R19taklUTFNXaV82NU9KR2NDM21ITWIzQ1QyRE5rcWtmdHFRVS04Z256NmV6UDJ5aDRNQ08ybjBHeXBuT0k4VTBrNmxLWkFkWjYtVkFFRGx6TUVaSTRSdVRhRVJEd1E5R1djaENsQk1wMmEyVHllSnB5V1ptN3UxVDdWak92Q1lKS0pOSXV3ZVFTNXVfWjVsbzhpdmVGcGZPcVB0NHlHWlZKcGtfQXNMYUFRd0xET1JkNnBFMVNKN3lTWEJ6cU9rS2szUzk1b1NnU0ZIMzRLRGw1RnRHeTF0bzZ6NkJRSzljd2c4bm9MeUljTFJOWDJVaXdsVlgweVZleWNxamZOVQ?oc=5"
-    }
-   ]
-  },
-  {
-   "club": "Le Havre AC",
-   "club_ar": "",
-   "type": "sack",
-   "first": "2026-10-31T16:17:02",
-   "sources": [
-    {
-     "host": "leparisien.fr",
-     "title": "Au lendemain de la déroute contre le PSG, Le Havre limoge son entraîneur Didier Digard et confirme la démission de son président - Le Parisien",
-     "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQQ1ZCZFhadXczeVZtVEJGRUhzQ1pTQ2RtN1BvVVlIX2J0WjZMb1NJeFRwdUpNTUZuWU1qd0ZYeWxDSi1meGJDbmFsSndlM2hiUm1Pbl9GS1BEbGZEdm5IVVk2VmNDM19wektCdnZVVFBGcHgtQWVaRUE2U1JScmRrR3FRM3huWkJ4NUJyX045UkcxVklEQWtvallSSzRoaWF3TmluY2RxYUtJRl9jZGxzdlBGR1Y1QTVId19teDhVYjM0bEdHNl9QVWNDdTV1MUhkbDZwcTN2TzRPclJTZUtMVlJQeWxQTjAzZGhmQVZvc0lmSHV0NGNfZzRBYUZXS3RZOWdzRUVZdVM?oc=5"
-    },
-    {
-     "host": "sports.yahoo.com",
-     "title": "Didier Digard to be sacked by Le Havre - Yahoo Sports",
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZkkzNFhXaTBCSVRKNE1pMTZ2Z1dNTWpsa2dPOTlLQVJ5blJIMkE4cHoxNFkyWUxNdjdkQVBFQVV4S3dFZ2phVk91SzFVTEktVjRILW5YY0dQSUR5SmRDdVo0TW9BWktVUzIxSWo5Tjd5VmZJaEpMZEw0cTdTN2hGYjdOM3hrZw?oc=5"
-    },
-    {
-     "host": "france24.com",
-     "title": "Le Havre owners sack coach after PSG thrashing - France 24",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNU1ZVTM1ME9oTDVaOFk0VFNFdWswdVlVZU0tSnJhWHNxZ0hMVVBGTDVIU1ZhSjVNS0Q4TnlkS2NRazBBTk5GWFJBSWdDT1Y3U1pIX1NrNkFLeGZXMXJVa1YxaGJBZkg1aXV0ZlRqLWtBLWk3QWJKc1ZycVRCQ1RUYW53YTJGUXdjSlRSbW5yM1FqTFJpSWpaMA?oc=5"
     }
    ]
   }
