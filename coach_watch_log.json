@@ -1,11 +1,12 @@
 {
- "t": "2026-11-01T19:05:20.012682",
+ "t": "2026-11-01T22:58:33.273763",
  "seen": [
   {
    "club": "Al Ahli",
    "type": "sack",
-   "n": 2,
+   "n": 3,
    "hosts": [
+    "alarabiya.net",
     "goal.com",
     "slaati.com"
    ]
@@ -21,13 +22,22 @@
   {
    "club": "Al Shabab",
    "type": "sack",
-   "n": 2,
+   "n": 3,
    "hosts": [
+    "alarabiya.net",
     "arriyadiyah.com",
     "goal.com"
    ]
   },
   {
+   "club": "Udinese",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "calciomercato.com"
+   ]
+  },
+  {
    "club": "Bologna",
    "type": "hire",
    "n": 1,
@@ -43,13 +53,21 @@
     "leparisien.fr",
     "lemonde.fr",
     "lequipe.fr",
-    "france24.com",
-    "sports.yahoo.com"
+    "sports.yahoo.com",
+    "france24.com"
    ]
   }
  ],
  "eu": [
   {
+   "club": "Udinese",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "calciomercato.com"
+   ]
+  },
+  {
    "club": "Bologna",
    "type": "hire",
    "n": 1,
@@ -65,8 +83,8 @@
     "leparisien.fr",
     "lemonde.fr",
     "lequipe.fr",
-    "france24.com",
-    "sports.yahoo.com"
+    "sports.yahoo.com",
+    "france24.com"
    ]
   }
  ]
