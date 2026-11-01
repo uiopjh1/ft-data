@@ -1,0 +1,73 @@
+{
+ "total": 51,
+ "sampleSquad": [
+  {
+   "name": "Illia Voloshyn",
+   "squad": "{\"shirt_number\":39,\"position\":{\"id\":1,\"name\":\"Portero\",\"slug\":\"portero\",\"plural_name\":\"Porteros\",\"female_name\":\"Portera\",\"female_plural_name\":\"Porteras\"}}",
+   "keys": "id,slug,name,nickname,firstname,lastname,gender,date_of_birth,place_of_birth,height,international,country,roles,team,squad"
+  },
+  {
+   "name": "Lacosta",
+   "squad": "{\"shirt_number\":32,\"position\":{\"id\":3,\"name\":\"Centrocampista\",\"slug\":\"centrocampista\",\"plural_name\":\"Centrocampistas\",\"female_name\":\"Centrocampista\",\"female_plural_name\":\"Centrocampistas\"}}",
+   "keys": "id,slug,name,nickname,firstname,lastname,gender,date_of_birth,international,country,roles,team,squad"
+  },
+  {
+   "name": "Alexis Ciria",
+   "squad": "{\"shirt_number\":36,\"position\":{\"id\":4,\"name\":\"Delantero\",\"slug\":\"delantero\",\"plural_name\":\"Delanteros\",\"female_name\":\"Delantera\",\"female_plural_name\":\"Delanteras\"}}",
+   "keys": "id,slug,name,nickname,firstname,lastname,gender,date_of_birth,place_of_birth,height,international,country,roles,team,squad,photos"
+  }
+ ],
+ "withTeam": 38,
+ "noTeam": 13,
+ "imageUrls": [
+  "https://assets.laliga.com/squad/2026/t186/p704994/1024x1113/p704994_t186_2026_1_001_000.png",
+  "https://assets.laliga.com/squad/2026/t186/p704994/128x139/p704994_t186_2026_1_001_000.png",
+  "https://assets.laliga.com/squad/2026/t186/p704994/2048x2225/p704994_t186_2026_1_001_000.png",
+  "https://assets.laliga.com/squad/2026/t186/p704994/256x278/p704994_t186_2026_1_001_000.png",
+  "https://assets.laliga.com/squad/2026/t186/p704994/512x556/p704994_t186_2026_1_001_000.png",
+  "https://assets.laliga.com/squad/2026/t186/p704994/64x70/p704994_t186_2026_1_001_000.png",
+  "https://assets.laliga.com/squad/2026/t186/p704994/1024x1024/p704994_t186_2026_1_002_000.jpg",
+  "https://assets.laliga.com/squad/2026/t186/p704994/128x128/p704994_t186_2026_1_002_000.jpg",
+  "https://assets.laliga.com/squad/2026/t186/p704994/2048x2048/p704994_t186_2026_1_002_000.jpg",
+  "https://assets.laliga.com/squad/2026/t186/p704994/256x256/p704994_t186_2026_1_002_000.jpg",
+  "https://assets.laliga.com/squad/2026/t186/p704994/512x512/p704994_t186_2026_1_002_000.jpg",
+  "https://assets.laliga.com/squad/2026/t186/p704994/64x64/p704994_t186_2026_1_002_000.jpg"
+ ],
+ "imgCheck": [
+  {
+   "u": "https://assets.laliga.com/squad/2026/t186/p704994/1024x1113/p704994_t186_2026_1_001_000.png",
+   "status": 200,
+   "type": "image/png",
+   "len": "1002156"
+  },
+  {
+   "u": "https://assets.laliga.com/squad/2026/t186/p704994/128x139/p704994_t186_2026_1_001_000.png",
+   "status": 200,
+   "type": "image/png",
+   "len": "22519"
+  },
+  {
+   "u": "https://assets.laliga.com/squad/2026/t186/p704994/2048x2225/p704994_t186_2026_1_001_000.png",
+   "status": 200,
+   "type": "image/png",
+   "len": "3661644"
+  }
+ ],
+ "alt": [
+  {
+   "u": "/teams/real-madrid/squad?subscriptionSlug=laliga-easports-2026",
+   "status": 200,
+   "head": "{\"total\":35,\"squads\":[{\"id\":84728,\"shirt_number\":1,\"current\":true,\"loan\":false,\"loan_to\":false,\"position\":{\"id\":1,\"name\":\"Portero\",\"slug\":\"portero\",\"plural_name\":\"Porteros\",\"female_name\":\"Portera\",\"fe"
+  },
+  {
+   "u": "/teams/real-madrid/players?subscriptionSlug=laliga-easports-2026",
+   "status": 404,
+   "head": "{ \"statusCode\": 404, \"message\": \"Resource not found\" }"
+  },
+  {
+   "u": "/players?subscriptionSlug=laliga-easports-2026&limit=3&offset=0&teamSlug=real-madrid&include=image",
+   "status": 200,
+   "head": "{\"total\":51,\"players\":[{\"id\":47214,\"slug\":\"illia-voloshyn\",\"name\":\"Illia Voloshyn\",\"nickname\":\"Illia Voloshyn\",\"firstname\":\"Illia\",\"lastname\":\"Voloshyn\",\"gender\":\"male\",\"date_of_birth\":\"2007-01-15T00:"
+  }
+ ]
+}
