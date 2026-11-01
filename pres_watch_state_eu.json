@@ -1,5 +1,22 @@
 {
- "seen": [],
- "events": {},
+ "seen": [
+  "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPczJLb2RzRkEzb0NlWDJweVNwOGgyTVhseUV4el9icVBYVkR2Nmp6NmhWU2RRaFRwSlhxTGZtanVKbVFHQU5zZGZjVGM0QWY5OWhnQmpYWGI0UUhXcXRoZFBSVkl0Z0lkbHQyekR0WVJId09KRlBBVVE4WVI2VzR4bWpBVWEyS0I0WVp2VWo2SWo4LTcwWXVha0IwM3F0em91SG9VLXZCZEJUTG94TjlXQjJQUkVZbDZKRjFyQmc0bnFTRktnRlFOSWt0d3B3bnlBLTduLTVzcE4xX2lsWTJrWmxKdjluemRsd2NfOUp3V1E5ZkN5UXl4ellmNnLSAfwBQVVfeXFMT3MyS29kc0ZBM29DZVgycHlTcDhoMk1YbHlFeHpfYnFQWFZEdjZqejZoVlNkUWhUcEpYcUxmbWp1Sm1RR0FOc2RmY1RjNEFmOTloZ0JqWFhiNFFIV3F0aGRQUlZJdGdJZGx0MnpEdFlSSHdPSkZQQVVROFlSNlc0eG1qQVVhMktCNFladlVqNklqOC03MFl1YWtCMDNxdHpvdUhvVS12QmRCVExveE45V0IyUFJFWWw2SkYxckJnNG5xU0ZLZ0ZRTklrdHdwd255QS03bi01c3BOMV9pbFkya1psSnY5bnpkbHdjXzlKd1dROWZDeVF5eHpZZjZy?oc=5"
+ ],
+ "events": {
+  "Barcelona": {
+   "jordi arias": {
+    "name": "Jordi Arias",
+    "interim": false,
+    "sources": {
+     "amp.elperiodico.com": {
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPczJLb2RzRkEzb0NlWDJweVNwOGgyTVhseUV4el9icVBYVkR2Nmp6NmhWU2RRaFRwSlhxTGZtanVKbVFHQU5zZGZjVGM0QWY5OWhnQmpYWGI0UUhXcXRoZFBSVkl0Z0lkbHQyekR0WVJId09KRlBBVVE4WVI2VzR4bWpBVWEyS0I0WVp2VWo2SWo4LTcwWXVha0IwM3F0em91SG9VLXZCZEJUTG94TjlXQjJQUkVZbDZKRjFyQmc0bnFTRktnRlFOSWt0d3B3bnlBLTduLTVzcE4xX2lsWTJrWmxKdjluemRsd2NfOUp3V1E5ZkN5UXl4ellmNnLSAfwBQVVfeXFMT3MyS29kc0ZBM29DZVgycHlTcDhoMk1YbHlFeHpfYnFQWFZEdjZqejZoVlNkUWhUcEpYcUxmbWp1Sm1RR0FOc2RmY1RjNEFmOTloZ0JqWFhiNFFIV3F0aGRQUlZJdGdJZGx0MnpEdFlSSHdPSkZQQVVROFlSNlc0eG1qQVVhMktCNFladlVqNklqOC03MFl1YWtCMDNxdHpvdUhvVS12QmRCVExveE45V0IyUFJFWWw2SkYxckJnNG5xU0ZLZ0ZRTklrdHdwd255QS03bi01c3BOMV9pbFkya1psSnY5bnpkbHdjXzlKd1dROWZDeVF5eHpZZjZy?oc=5",
+      "title": "Jordi Arias, nuevo presidente de Barcelona Comerç: \"Las tiendas de barrio están sufriendo mucho el precio del alquiler de los locales\" - El Periódico",
+      "date": "2026-10-31 05:00:59"
+     }
+    },
+    "first": "2026-11-01 18:06:59.655595"
+   }
+  }
+ },
  "resign": {}
 }
