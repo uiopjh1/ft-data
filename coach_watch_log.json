@@ -1,5 +1,5 @@
 {
- "t": "2026-11-01T00:19:51.042492",
+ "t": "2026-11-01T06:41:15.006456",
  "seen": [
   {
    "club": "Al Ahli",
@@ -21,9 +21,10 @@
   {
    "club": "Al Shabab",
    "type": "sack",
-   "n": 1,
+   "n": 2,
    "hosts": [
-    "goal.com"
+    "goal.com",
+    "kooora.com"
    ]
   },
   {
@@ -43,20 +44,11 @@
    ]
   },
   {
-   "club": "Bayern Munich",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "sueddeutsche.de"
-   ]
-  },
-  {
    "club": "Le Havre AC",
    "type": "sack",
-   "n": 4,
+   "n": 3,
    "hosts": [
     "leparisien.fr",
-    "lequipe.fr",
     "sports.yahoo.com",
     "france24.com"
    ]
@@ -88,20 +80,11 @@
    ]
   },
   {
-   "club": "Bayern Munich",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "sueddeutsche.de"
-   ]
-  },
-  {
    "club": "Le Havre AC",
    "type": "sack",
-   "n": 4,
+   "n": 3,
    "hosts": [
     "leparisien.fr",
-    "lequipe.fr",
     "sports.yahoo.com",
     "france24.com"
    ]
