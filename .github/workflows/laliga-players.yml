@@ -1,0 +1,21 @@
+name: laliga-players
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 3 * * *'
+permissions: { contents: write }
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: node laliga-players.mjs
+        continue-on-error: true
+      - if: always()
+        run: |
+          git config user.name ft-bot; git config user.email ft-bot@users.noreply.github.com
+          git add laliga_players.json laliga_debug.json
+          git diff --cached --quiet && exit 0
+          git commit -qm "laliga players"; for i in 1 2 3 4 5 6; do git pull --rebase --autostash -q && git push -q && break; sleep 5; done
