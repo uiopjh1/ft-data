@@ -1,0 +1,131 @@
+{
+ "laliga": {
+  "status": 200,
+  "nextLen": 40321,
+  "topKeys": [
+   "props",
+   "page",
+   "query",
+   "buildId",
+   "runtimeConfig",
+   "isFallback",
+   "isExperimentalCompile",
+   "gip",
+   "appGip",
+   "scriptLoader"
+  ],
+  "pagePropsKeys": [
+   "lang",
+   "country",
+   "teams",
+   "competition",
+   "seasons",
+   "season",
+   "statusCode",
+   "gptBase"
+  ],
+  "runtime": "{\"backendUrl\":\"https://apim.laliga.com/public-service\",\"backendServerUrl\":\"https://apim-int.laliga.com/public-service\",\"backendSubscription\":\"c13c3a8e2f6b46da9c5c425cf61fab3e\",\"webviewUrl\":\"https://apim.laliga.com/webview\",\"webviewSubscription\":\"ee7fcd5c543f4485ba2a48856fc7ece9\",\"filesUrl\":\"https://assets.laliga.com/\",\"baseUrl\":\"https://www.laliga.com\",\"enviroment\":\"production\",\"enableHttp\":\"disabled\",\"gtmTrackingId\":\"GTM-5TTHMSV\",\"currentSeason\":\"2026\",\"lastSeason\":\"2025\",\"advertisment\":\"enabled\",\"dspClientId\":\"6457fa17-1224-416a-b21a-ee6ce76e9bc0\",\"cookieFanzoneKey\":\"xFTuss11VQ6303RX\",\"cooki",
+  "keyHits": [
+   "cookieFanzoneKey=xFTuss11VQ6303RX",
+   "ottKey=79f17947-0997-440f-b267-4afb2f4a3b04",
+   "ottKeyK=bb13eaea-3fd0-43ee-b3d3-28e009cfa957"
+  ],
+  "teamSample": [
+   "\"slug\":\"athletic-club\"",
+   "\"slug\":\"estadio-san-mames\"",
+   "\"slug\":\"atletico-de-madrid\"",
+   "\"slug\":\"riyadh-air-metropolitano\"",
+   "\"slug\":\"c-a-osasuna\"",
+   "\"slug\":\"estadio-el-sadar\"",
+   "\"slug\":\"rc-celta\"",
+   "\"slug\":\"estadio-abanca-balaidos\"",
+   "\"slug\":\"d-alaves\"",
+   "\"slug\":\"mendizorroza\"",
+   "\"slug\":\"elche-c-f\"",
+   "\"slug\":\"estadio-martinez-valero\"",
+   "\"slug\":\"fc-barcelona\"",
+   "\"slug\":\"spotify-camp-nou\"",
+   "\"slug\":\"getafe-cf\"",
+   "\"slug\":\"coliseum\"",
+   "\"slug\":\"levante-ud\"",
+   "\"slug\":\"estadio-ciutat-de-valencia\"",
+   "\"slug\":\"malaga-cf\"",
+   "\"slug\":\"la-rosaleda\"",
+   "\"slug\":\"r-racing-club\"",
+   "\"slug\":\"el-sardinero\"",
+   "\"slug\":\"rayo-vallecano\"",
+   "\"slug\":\"estadio-de-vallecas\"",
+   "\"slug\":\"rc-deportivo\""
+  ],
+  "imgSample": [
+   "https://assets.laliga.com/assets/2024/10/01/xlarge/1958f69380ba83bb36b7b536c7a9d74d.png",
+   "https://assets.laliga.com/assets/2024/10/01/xsmall/1958f69380ba83bb36b7b536c7a9d74d.png",
+   "https://assets.laliga.com/assets/2024/10/01/small/1958f69380ba83bb36b7b536c7a9d74d.png",
+   "https://assets.laliga.com/assets/2024/10/01/medium/1958f69380ba83bb36b7b536c7a9d74d.png",
+   "https://assets.laliga.com/assets/2024/10/01/large/1958f69380ba83bb36b7b536c7a9d74d.png",
+   "https://assets.laliga.com/assets/2024/10/01/hl/1958f69380ba83bb36b7b536c7a9d74d.png",
+   "https://assets.laliga.com/assets/2019/06/07/xlarge/athletic.png",
+   "https://assets.laliga.com/assets/2019/06/07/xsmall/athletic.png",
+   "https://assets.laliga.com/assets/2019/06/07/small/athletic.png",
+   "https://assets.laliga.com/assets/2019/06/07/medium/athletic.png"
+  ],
+  "scriptSrcs": [
+   "/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
+   "/_next/static/chunks/webpack-6987e7b1d5f8b728.js",
+   "/_next/static/chunks/framework-71f483d8069574c5.js",
+   "/_next/static/chunks/main-e877047df7c15d39.js",
+   "/_next/static/chunks/pages/_app-6f341fbb6d0e78a8.js",
+   "/_next/static/chunks/33-1fdd6c0c27b3e6f0.js",
+   "/_next/static/chunks/4115-831f8775e2dd9b85.js",
+   "/_next/static/chunks/pages/subhome/clubs-1cb1693a822eab10.js",
+   "/_next/static/fe2b81afcad9bfae4fef8703cb0cf84a464b5b8a/_buildManifest.js",
+   "/_next/static/fe2b81afcad9bfae4fef8703cb0cf84a464b5b8a/_ssgManifest.js"
+  ]
+ },
+ "laligaApiNoKey": {
+  "status": 401,
+  "body": "{ \"statusCode\": 401, \"message\": \"Access denied due to missing subscription key. Make sure to include subscription key when making requests to an API.\" }"
+ },
+ "bundesliga": {
+  "status": 200,
+  "playerImgs": [],
+  "allImgHosts": [
+   "assets.bundesliga.com"
+  ],
+  "squadHints": [
+   "100%}.animatedPosition[_ngcontent-ng-c3051643401]{height:20px;width:90px}.empty-squad[_ngcontent-ng-c3051643401]{background-color:var(--background-card-hard);box-sha",
+   "px 8px #000e140d;display:flex;gap:24px;margin-top:24px;padding:16px 24px}.empty-squad[_ngcontent-ng-c3051643401]   .content[_ngcontent-ng-c3051643401]{color:var(--ty",
+   "401]{font-size:24px;font-weight:700;line-height:30px;text-transform:none}.empty-squad[_ngcontent-ng-c3051643401]   .content[_ngcontent-ng-c3051643401]   .body[_ngcon",
+   "content-ng-c4229561022=\"\" class=\"navItem\"><a _ngcontent-ng-c828545987=\"\" href=\"#squad",
+   "----></goalbar><!----></section><!----><section _ngcontent-ng-c828545987=\"\" id=\"squad",
+   "c828545987=\"\"><span _ngcontent-ng-c828545987=\"\">FC Bayern München</span><!----> Squad </h2><!----><squad-list _ngcontent-ng-c828545987="
+  ],
+  "playerLinks": [],
+  "nextData": false
+ },
+ "bundesligaSquad": {
+  "status": 200,
+  "len": 1242010,
+  "playerLinks": 0
+ },
+ "seriea": {
+  "status": 301,
+  "loc": "https://en.legaseriea.it/",
+  "head": ""
+ },
+ "lfp": {
+  "status": 200,
+  "len": 72049,
+  "title": "1TEAM | Le football professionnel français engagé | LFP - Ligue de Football Professionnel",
+  "hrefs": [
+   "https://www.lfp.fr/1-team-hub",
+   "1-team-pour-un-football-engage",
+   "https://www.lfp.fr/1-team-pour-un-football-inclusif",
+   "https://www.lfp.fr/1-team-pour-un-football-solidaire",
+   "https://www.lfp.fr/1-team-pour-un-football-action",
+   "https://www.lfp.fr/1-team-pour-un-football-durable",
+   "/data-protection-players-coachs-policy"
+  ],
+  "apis": []
+ }
+}
