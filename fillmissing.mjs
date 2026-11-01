@@ -12,10 +12,15 @@ const rep = { total: bad.length, ok: 0, nomatch: 0, err: 0, sample: [], fails: [
 async function get(u) { const r = await fetch(u, { headers: H }); if (!r.ok) throw new Error(u.slice(0, 60) + ' ' + r.status); return r; }
 async function one(p) {
   try {
-    const q = encodeURIComponent(p.en);
-    const j = await (await get('https://apigw.fotmob.com/searchapi/suggest?term=' + q + '&lang=en')).json();
+    const words = nz(p.en).split(' ').filter(Boolean);
+    const qs = [p.en];
+    if (words.length > 2) qs.push(words[0] + ' ' + words[words.length - 1], words[words.length - 2] + ' ' + words[words.length - 1], words[words.length - 1]);
     const opts = [];
-    for (const g of (j.squadMemberSuggest || [])) for (const o of (g.options || [])) opts.push(o);
+    for (const qq of qs) {
+      const j = await (await get('https://apigw.fotmob.com/searchapi/suggest?term=' + encodeURIComponent(qq) + '&lang=en')).json();
+      for (const g of (j.squadMemberSuggest || [])) for (const o of (g.options || [])) opts.push(o);
+      if (opts.length) break;
+    }
     if (!rep.raw && opts.length) rep.raw = JSON.stringify(opts[0]).slice(0, 600);
     const pn = nz(p.en);
     const pt = new Set(tk(p.en));
