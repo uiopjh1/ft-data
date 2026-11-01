@@ -15,6 +15,9 @@ async function gj(u, tries = 4) {
 }
 const slug = (s) => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const B = 'https://en.legaseriea.it/api/sports';
+// الأسماء الرسمية قانونية (FC Internazionale Milano): نستعمل أسماء الأندية المتداولة ليطابقها التطبيق
+const DISPLAY = {"milan": "AC Milan", "monza": "Monza", "roma": "AS Roma", "fiorentina": "Fiorentina", "atalanta": "Atalanta", "bologna": "Bologna", "cagliari": "Cagliari", "como": "Como", "inter": "Inter Milan", "frosinone": "Frosinone", "genoa": "Genoa", "juventus": "Juventus", "parma": "Parma", "lazio": "Lazio", "napoli": "Napoli", "torino": "Torino", "lecce": "Lecce", "sassuolo": "Sassuolo", "udinese": "Udinese", "venezia": "Venezia"};
+const dispName = (t) => DISPLAY[t.teamSlug] || String(t.teamSlug || '').replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
 const players = await gj(`${B}/players`); const teams = await gj(`${B}/teams`);
 if (!Array.isArray(players) || !Array.isArray(teams)) { DBG.error = 'no data'; flush(); process.exit(1); }
 DBG.playersRaw = players.length; DBG.teamsRaw = teams.length;
@@ -38,7 +41,7 @@ const out = []; const noImg = []; const seen = new Set();
 for (const p of players) {
   const t = teamById[p.teamId] || teamById[p.currentTeamId] || null;
   const img0 = urlOf(p);
-  const teamEn = t ? (t.mediaName || t.officialName || t.teamSlug) : '';
+  const teamEn = t ? dispName(t) : '';
   const names = Object.keys(p).filter((k) => /name/i.test(k) && typeof p[k] === 'string' && p[k]).map((k) => p[k]);
   const first = p.mediaFirstName || p.firstName || '';
   const last = p.mediaLastName || p.lastName || '';
@@ -50,7 +53,7 @@ for (const p of players) {
   const alt = [...new Set(names.concat([String(p.playerSlug || '').replace(/-/g, ' ')]).filter((x) => x && x !== en))];
   out.push({ slug: p.playerSlug || slug(en), en, alt, ar: '', team: (t && t.teamSlug) || '', teamEn, img });
 }
-const tlist = teams.map((t) => ({ slug: t.teamSlug, en: t.mediaName || t.officialName, ar: '', n: out.filter((x) => x.team === t.teamSlug).length })).filter((t) => t.n > 0);
+const tlist = teams.map((t) => ({ slug: t.teamSlug, en: dispName(t), ar: '', n: out.filter((x) => x.team === t.teamSlug).length })).filter((t) => t.n > 0);
 DBG.outN = out.length; DBG.teamsN = tlist.length; DBG.noImg = noImg.slice(0, 40); flush();
 console.log('players', out.length, 'teams', tlist.length);
 if (tlist.length < 15 || out.length < 300) { console.log('too few, not writing'); process.exit(1); }
