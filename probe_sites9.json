@@ -1,0 +1,146 @@
+[
+ {
+  "u": "https://en.legaseriea.it/api/sports/players",
+  "status": 200,
+  "final": "https://en.legaseriea.it/api/sports/players",
+  "type": "application/json",
+  "len": 610754,
+  "head": "[{\"seasonId\":\"serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5\",\"playerId\":\"serie-a::Football_Player::e6156f9d23e84e7084a3e488b92521ac\",\"playerSlug\":\"bremer\",\"playerUrl\":\"https://en.legaseriea.it/players/bremer/\",\"mediaLastName\":\"Bremer\",\"s",
+  "nextErr": false,
+  "imgs": [
+   "https://media-sdp.legaseriea.it/playerImages/ec93b94f74294dc98ab5bcfd67fc0d88/ed7fdc2a3e7b408b942ec177b7b956b5/0ae9210dce6f4f9b9d50aeeb19b0d371/home/e6156f9d23e84e7084a3e488b92521ac_left.webp",
+   "https://media-sdp.legaseriea.it/playerImages/ec93b94f74294dc98ab5bcfd67fc0d88/ed7fdc2a3e7b408b942ec177b7b956b5/b283fcc0aeda401bb081fcd764e290db/home/6940895d3fb24634aa5b0c28f632a35c_left.webp",
+   "https://media-sdp.legaseriea.it/playerImages/ec93b94f74294dc98ab5bcfd67fc0d88/ed7fdc2a3e7b408b942ec177b7b956b5/4af71b35aab34ad5a7d06148abe66ad6/home/4eeab58f21184cb39ce0c37b55fdebfb_left.webp",
+   "https://media-sdp.legaseriea.it/playerImages/ec93b94f74294dc98ab5bcfd67fc0d88/ed7fdc2a3e7b408b942ec177b7b956b5/3294993c79b14d918ccdc78da0fb90c5/home/0d37907ed7be44dfad0a8ba038f03a1d_left.webp"
+  ]
+ },
+ {
+  "u": "https://en.legaseriea.it/api/sports/teams",
+  "status": 200,
+  "final": "https://en.legaseriea.it/api/sports/teams",
+  "type": "application/json",
+  "len": 46215,
+  "head": "[{\"seasonId\":\"serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5\",\"teamId\":\"serie-a::Football_Team::d0867ddf777c41789ca282b8276002b0\",\"teamSlug\":\"milan\",\"teamUrl\":\"https://en.legaseriea.it/team/milan/\",\"officialName\":\"Milan\",\"mediaName\":\"A.C.",
+  "nextErr": false,
+  "imgs": [
+   "https://media-sdp.legaseriea.it/playerImages/ec93b94f74294dc98ab5bcfd67fc0d88/ed7fdc2a3e7b408b942ec177b7b956b5/d0867ddf777c41789ca282b8276002b0/coaches/dfecde016b2e4646abd6619619de9df4.webp",
+   "https://media-sdp.legaseriea.it/playerImages/ec93b94f74294dc98ab5bcfd67fc0d88/ed7fdc2a3e7b408b942ec177b7b956b5/d0867ddf777c41789ca282b8276002b0/coaches/5076989bef3d4d92aac05e2820d6ceb8.webp",
+   "https://media-sdp.legaseriea.it/playerImages/ec93b94f74294dc98ab5bcfd67fc0d88/ed7fdc2a3e7b408b942ec177b7b956b5/9ba470f39580450fac7654956ba574fa/coaches/8dd233c474794c378f97017817b68572.webp",
+   "https://media-sdp.legaseriea.it/playerImages/ec93b94f74294dc98ab5bcfd67fc0d88/ed7fdc2a3e7b408b942ec177b7b956b5/9ba470f39580450fac7654956ba574fa/coaches/c09366ad84bd4f99a0370d1907c94a71.webp"
+  ]
+ },
+ {
+  "u": "https://en.legaseriea.it/api/sports/stadiums",
+  "status": 400,
+  "final": "https://en.legaseriea.it/api/sports/stadiums",
+  "type": "application/json",
+  "len": 35,
+  "head": "{\"error\":\"Unsupported entity code\"}",
+  "nextErr": false,
+  "imgs": []
+ },
+ {
+  "u": "https://www.legaseriea.it/api/sports/players",
+  "status": 200,
+  "final": "https://www.legaseriea.it/api/sports/players",
+  "type": "application/json",
+  "len": 611375,
+  "head": "[{\"seasonId\":\"serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5\",\"playerId\":\"serie-a::Football_Player::e6156f9d23e84e7084a3e488b92521ac\",\"playerSlug\":\"bremer\",\"playerUrl\":\"https://www.legaseriea.it/players/bremer/\",\"mediaLastName\":\"Bremer\",\"",
+  "nextErr": false,
+  "imgs": [
+   "https://media-sdp.legaseriea.it/playerImages/ec93b94f74294dc98ab5bcfd67fc0d88/ed7fdc2a3e7b408b942ec177b7b956b5/0ae9210dce6f4f9b9d50aeeb19b0d371/home/e6156f9d23e84e7084a3e488b92521ac_left.webp",
+   "https://media-sdp.legaseriea.it/playerImages/ec93b94f74294dc98ab5bcfd67fc0d88/ed7fdc2a3e7b408b942ec177b7b956b5/b283fcc0aeda401bb081fcd764e290db/home/6940895d3fb24634aa5b0c28f632a35c_left.webp",
+   "https://media-sdp.legaseriea.it/playerImages/ec93b94f74294dc98ab5bcfd67fc0d88/ed7fdc2a3e7b408b942ec177b7b956b5/4af71b35aab34ad5a7d06148abe66ad6/home/4eeab58f21184cb39ce0c37b55fdebfb_left.webp",
+   "https://media-sdp.legaseriea.it/playerImages/ec93b94f74294dc98ab5bcfd67fc0d88/ed7fdc2a3e7b408b942ec177b7b956b5/3294993c79b14d918ccdc78da0fb90c5/home/0d37907ed7be44dfad0a8ba038f03a1d_left.webp"
+  ]
+ },
+ {
+  "u": "https://www.legaseriea.it/api/sports/teams",
+  "status": 200,
+  "final": "https://www.legaseriea.it/api/sports/teams",
+  "type": "application/json",
+  "len": 46176,
+  "head": "[{\"seasonId\":\"serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5\",\"teamId\":\"serie-a::Football_Team::d0867ddf777c41789ca282b8276002b0\",\"teamSlug\":\"milan\",\"teamUrl\":\"https://www.legaseriea.it/team/milan/\",\"officialName\":\"Milan\",\"mediaName\":\"A.C",
+  "nextErr": false,
+  "imgs": [
+   "https://media-sdp.legaseriea.it/playerImages/ec93b94f74294dc98ab5bcfd67fc0d88/ed7fdc2a3e7b408b942ec177b7b956b5/d0867ddf777c41789ca282b8276002b0/coaches/dfecde016b2e4646abd6619619de9df4.webp",
+   "https://media-sdp.legaseriea.it/playerImages/ec93b94f74294dc98ab5bcfd67fc0d88/ed7fdc2a3e7b408b942ec177b7b956b5/d0867ddf777c41789ca282b8276002b0/coaches/5076989bef3d4d92aac05e2820d6ceb8.webp",
+   "https://media-sdp.legaseriea.it/playerImages/ec93b94f74294dc98ab5bcfd67fc0d88/ed7fdc2a3e7b408b942ec177b7b956b5/9ba470f39580450fac7654956ba574fa/coaches/8dd233c474794c378f97017817b68572.webp",
+   "https://media-sdp.legaseriea.it/playerImages/ec93b94f74294dc98ab5bcfd67fc0d88/ed7fdc2a3e7b408b942ec177b7b956b5/9ba470f39580450fac7654956ba574fa/coaches/c09366ad84bd4f99a0370d1907c94a71.webp"
+  ]
+ },
+ {
+  "u": "https://www.legaseriea.it/it",
+  "status": 307,
+  "final": "https://www.legaseriea.it/",
+  "type": "text/html; charset=utf-8",
+  "len": 52574,
+  "head": "<!DOCTYPE html><html id=\"__next_error__\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/webpack-53f1dcfd48063550.js\"/><s",
+  "nextErr": true,
+  "imgs": []
+ },
+ {
+  "u": "https://www.legaseriea.it/it/serie-a/squadre",
+  "status": 307,
+  "final": "https://www.legaseriea.it/",
+  "type": "text/html; charset=utf-8",
+  "len": 52574,
+  "head": "<!DOCTYPE html><html id=\"__next_error__\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/webpack-53f1dcfd48063550.js\"/><s",
+  "nextErr": true,
+  "imgs": []
+ },
+ {
+  "u": "https://www.legaseriea.it/en/serie-a/clubs",
+  "status": 307,
+  "final": "https://en.legaseriea.it/",
+  "type": "text/html; charset=utf-8",
+  "len": 51082,
+  "head": "<!DOCTYPE html><html id=\"__next_error__\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/webpack-53f1dcfd48063550.js\"/><s",
+  "nextErr": true,
+  "imgs": []
+ },
+ {
+  "u": "https://it.legaseriea.it/",
+  "err": "fetch failed"
+ },
+ {
+  "u": "https://legaseriea.it/",
+  "status": 307,
+  "final": "https://www.legaseriea.it/",
+  "type": "text/html; charset=utf-8",
+  "len": 52574,
+  "head": "<!DOCTYPE html><html id=\"__next_error__\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/webpack-53f1dcfd48063550.js\"/><s",
+  "nextErr": true,
+  "imgs": []
+ },
+ {
+  "u": "https://en.legaseriea.it/en",
+  "status": 404,
+  "final": "https://en.legaseriea.it/en",
+  "type": "text/html; charset=utf-8",
+  "len": 50074,
+  "head": "<!DOCTYPE html><html id=\"__next_error__\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/webpack-53f1dcfd48063550.js\"/><s",
+  "nextErr": true,
+  "imgs": []
+ },
+ {
+  "u": "https://en.legaseriea.it/serie-a/teams",
+  "status": 404,
+  "final": "https://en.legaseriea.it/serie-a/teams",
+  "type": "text/html; charset=utf-8",
+  "len": 51221,
+  "head": "<!DOCTYPE html><html id=\"__next_error__\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/webpack-53f1dcfd48063550.js\"/><s",
+  "nextErr": true,
+  "imgs": []
+ },
+ {
+  "u": "https://en.legaseriea.it/teams/inter",
+  "status": 404,
+  "final": "https://en.legaseriea.it/teams/inter",
+  "type": "text/html; charset=utf-8",
+  "len": 50105,
+  "head": "<!DOCTYPE html><html id=\"__next_error__\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/webpack-53f1dcfd48063550.js\"/><s",
+  "nextErr": true,
+  "imgs": []
+ }
+]
