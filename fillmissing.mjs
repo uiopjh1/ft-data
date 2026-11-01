@@ -13,18 +13,25 @@ async function get(u) { const r = await fetch(u, { headers: H }); if (!r.ok) thr
 async function one(p) {
   try {
     const q = encodeURIComponent(p.en);
-    const j = await (await get('https://site.web.api.espn.com/apis/common/v3/search?limit=10&type=player&sport=soccer&query=' + q)).json();
-    const res = (j.items || []).filter((x) => x && x.id);
+    const j = await (await get('https://apigw.fotmob.com/searchapi/suggest?term=' + q + '&lang=en')).json();
+    const opts = [];
+    for (const g of (j.squadMemberSuggest || [])) for (const o of (g.options || [])) opts.push(o);
+    if (!rep.raw && opts.length) rep.raw = JSON.stringify(opts[0]).slice(0, 600);
+    const pn = nz(p.en);
     const pt = new Set(tk(p.en));
+    const tt = tk(p.teamEn);
     let best = null;
-    for (const e of res) {
-      const nt = tk(e.displayName);
+    for (const o of opts) {
+      const [nm, id] = String(o.text || '').split('|');
+      if (!id) continue;
+      const nt = tk(nm);
       const hit = nt.length && nt.filter((x) => pt.has(x)).length >= Math.min(2, nt.length);
-      const tt = tk(p.teamEn), et = tk((e.subtitle || '') + ' ' + (e.teamRelationships && e.teamRelationships[0] && e.teamRelationships[0].displayName || ''));
-      if (hit && (tt.some((x) => et.includes(x)))) { best = e; break; }
+      const blob = nz(JSON.stringify(o.payload || o));
+      const teamHit = tt.some((x) => blob.includes(x));
+      if (hit && (teamHit || nz(nm) === pn)) { best = { id, displayName: nm }; break; }
     }
-    if (!best) { rep.nomatch++; rep.fails.push(p.en + '@' + p.teamEn + ' n=' + res.length); return; }
-    const img = Buffer.from(await (await get('https://a.espncdn.com/i/headshots/soccer/players/full/' + best.id + '.png')).arrayBuffer());
+    if (!best) { rep.nomatch++; rep.fails.push(p.en + '@' + p.teamEn + ' n=' + opts.length); return; }
+    const img = Buffer.from(await (await get('https://images.fotmob.com/image_resources/playerimages/' + best.id + '.png')).arrayBuffer());
     const t = await sharp(img).resize({ width: 128 }).webp({ quality: 72 }).toBuffer();
     fs.writeFileSync('thumbs/' + h(p.img) + '.webp', t);
     rep.ok++; if (rep.sample.length < 5) rep.sample.push(p.en + ' -> ' + best.displayName);
