@@ -14,13 +14,16 @@ for (let i = 0; i < idx.length; i += 40) {
   for (const id of ids) { const en = e && e.entities && e.entities[id] && e.entities[id].sitelinks && e.entities[id].sitelinks.enwiki; if (en) TITLES[id] = en.title; }
   await sleep(1500);
 }
+const ONLY = process.env.ONLY ? process.env.ONLY.split(',') : null;
+const EXTRA = { fiorentina: 'ACF Fiorentina' };
 const rep = { clubs: 0, added: 0, nocat: [], perClub: {} };
 for (const c of idx) {
+  if (ONLY && !ONLY.includes(c.slug)) continue;
   const file = 'clubs/' + c.slug + '.json';
   let list = []; try { list = JSON.parse(fs.readFileSync(file, 'utf8')); } catch (e) { continue; }
-  const title = TITLES[c.qid];
+  const title = TITLES[c.qid] || EXTRA[c.slug];
   if (!title) { rep.nocat.push(c.slug + ':notitle'); continue; }
-  const cats = [title + ' players', title.replace(/ F\.C\.$/, '') + ' players'];
+  const cats = [title + ' players', title.replace(/ F\.C\.$/, '') + ' players', title + ' footballers', title.replace(/ F\.C\.$/, '') + ' footballers'];
   let members = [];
   for (const cat of cats) {
     let cont = '';

@@ -10,6 +10,8 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: 20 }
       - run: node clubs_wiki.mjs
+        env:
+          ONLY: athletic-club,atletico-de-madrid,getafe-cf,rcd-espanyol,real-sociedad,fc-bayern-muenchen,fiorentina
         continue-on-error: true
       - if: always()
         run: |
