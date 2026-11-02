@@ -487,10 +487,17 @@
   "checked": "2026-10-31"
  },
  "أحمد عبده": {
-  "checked": "2026-11-01",
+  "checked": "2026-11-02",
   "bio": "معلق رياضي من جمهورية مصر",
   "src": "wikidata.org/wiki/Q79351580",
-  "wiki": "أحمد عبده"
+  "wiki": "أحمد عبده",
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/3678936.jpg",
+  "img_conf": "face_multi",
+  "img_src": [
+   "https://commons.wikimedia.org/wiki/File:%D8%A3%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D9%87_%D8%B9%D9%88%D8%B6.png",
+   "https://apkcombo.com/ru/%D8%AF-%D8%A3%D8%AD%D9%85%D8%AF-%D8%B9%D8%A8%D8%AF%D9%87-%D8%B9%D9%88%D8%B6/com.adv.ahmedabdelaziz.adv1/",
+   "https://commons.wikimedia.org/wiki/File:%D8%A3%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D9%87_%D8%B9%D9%88%D8%B6.png"
+  ]
  },
  "حازم عبد السلام": {
   "checked": "2026-11-01",

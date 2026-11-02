@@ -1,23 +1,34 @@
 {
- "أحمد الخير": {
-  "cands": 6,
-  "clusters": [
-   [
-    "alnilin.com"
-   ],
-   [
-    "lebanonfiles.com",
-    "nna-leb.gov.lb"
-   ]
-  ],
-  "ok": true
- },
  "أحمد النفيسة": {
   "cands": 0,
   "clusters": [],
   "ok": false
  },
+ "أحمد عبده": {
+  "cands": 19,
+  "clusters": [
+   [
+    "shazam.com"
+   ],
+   [
+    "shazam.com"
+   ],
+   [
+    "emaratalyoum.com"
+   ],
+   [
+    "apkcombo.com",
+    "commons.wikimedia.org"
+   ]
+  ],
+  "ok": true
+ },
  "أنيس السحباني": {
+  "cands": 0,
+  "clusters": [],
+  "ok": false
+ },
+ "حازم عبد السلام": {
   "cands": 0,
   "clusters": [],
   "ok": false
@@ -30,6 +41,15 @@
  "عانر الخوذيري": {
   "cands": 0,
   "clusters": [],
+  "ok": false
+ },
+ "عبد الله الغامدي": {
+  "cands": 3,
+  "clusters": [
+   [
+    "eremnews.com"
+   ]
+  ],
   "ok": false
  },
  "عبدالعزيز السبر": {
@@ -63,7 +83,27 @@
   "clusters": [],
   "ok": false
  },
+ "محمد مصباح": {
+  "cands": 0,
+  "clusters": [],
+  "ok": false
+ },
+ "منتصر الأزهري": {
+  "cands": 0,
+  "clusters": [],
+  "ok": false
+ },
+ "منير العتيبي": {
+  "cands": 0,
+  "clusters": [],
+  "ok": false
+ },
  "نوفل باشي": {
+  "cands": 0,
+  "clusters": [],
+  "ok": false
+ },
+ "هامر الخوذيري": {
   "cands": 0,
   "clusters": [],
   "ok": false
