@@ -38,7 +38,7 @@ function findTm(c) {
   for (const t of list) { const b = ctk(t.name).map((x) => ALIAS[x] || x); if (!a.size || !b.length) continue; const inter = b.filter((x) => a.has(x)).length; const sc = inter / Math.max(a.size, b.length); if (sc > bs || (sc === bs && best && +t.last_season > +best.last_season)) { bs = sc; best = t; } }
   return bs >= 0.5 ? best : null;
 }
-const tmId = {}; const MAN = { lazio: '398', roma: '12' }; rep.map = [];
+const tmId = {}; const MAN = { lazio: '398', roma: '12' }; const EXCL = new Set(['coventry-city', 'rc-deportivo', 'sv-elversberg']); rep.map = [];
 for (const c of idx) { const t = findTm(c); if (MAN[c.slug]) { tmId[c.slug] = MAN[c.slug]; rep.matched++; } else if (t) { tmId[c.slug] = t.club_id; rep.matched++; rep.map.push(c.en + ' = ' + t.name); } else rep.unmatched.push(c.slug + '|' + c.en); }
 // تجميع المشاركات لكل (لاعب، نادٍ)
 const A = {}; for (const a of apps) { const y = yr(a.date); if (!y) continue; const k = a.player_club_id + '|' + a.player_id; const o = A[k] || (A[k] = [y, y]); if (y < o[0]) o[0] = y; if (y > o[1]) o[1] = y; }
@@ -56,7 +56,7 @@ function same(a, b) { // تطابق أسماء
 }
 for (const c of idx) {
   if (ONLY && !ONLY.includes(c.slug)) continue;
-  const cid = tmId[c.slug]; if (!cid) continue;
+  const cid = tmId[c.slug]; if (!cid || EXCL.has(c.slug)) continue;
   const f = 'clubs/' + c.slug + '.json'; const old = JSON.parse(fs.readFileSync(f, 'utf8'));
   const sp = {};
   const add = (pid, a, b) => { const o = sp[pid] || (sp[pid] = { a: a, b: b }); if (a != null && (o.a == null || a < o.a)) o.a = a; if (b != null && (o.b == null || b > o.b)) o.b = b; };
