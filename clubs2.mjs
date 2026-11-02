@@ -9,6 +9,8 @@ const D = 'https://www.wikidata.org/w/api.php?format=json&';
 const MALE = 'Q6581097';
 const idx = JSON.parse(fs.readFileSync('clubs_index.json', 'utf8')).clubs;
 const ONLY = process.env.ONLY ? process.env.ONLY.split(',') : null;
+const LOG = [];
+const flush = () => fs.writeFileSync('clubs2_log.json', JSON.stringify({ t: new Date().toISOString(), rep, tail: LOG.slice(-40) }));
 const rep = { done: 0, failed: [], dupMerged: 0, womenDropped: 0 };
 
 // نادي الخليج السعودي: الكيان القديم كان نادياً إماراتياً
@@ -21,13 +23,14 @@ async function fixKhaleej(c) {
 }
 
 async function sparql(qid) {
-  const q = `SELECT ?p ?en ?ar ?img ?start ?end WHERE { ?p p:P54 ?st . ?st ps:P54 wd:${qid} . OPTIONAL { ?st pq:P580 ?start } OPTIONAL { ?st pq:P582 ?end } OPTIONAL { ?p wdt:P18 ?img } FILTER NOT EXISTS { ?p wdt:P21 ?g . FILTER(?g != wd:${MALE}) } ?p rdfs:label ?en . FILTER(LANG(?en)='en') OPTIONAL { ?p rdfs:label ?ar . FILTER(LANG(?ar)='ar') } }`;
+  const q = `SELECT ?p ?g ?en ?ar ?img ?start ?end WHERE { ?p p:P54 ?st . ?st ps:P54 wd:${qid} . OPTIONAL { ?st pq:P580 ?start } OPTIONAL { ?st pq:P582 ?end } OPTIONAL { ?p wdt:P18 ?img } OPTIONAL { ?p wdt:P21 ?g } ?p rdfs:label ?en . FILTER(LANG(?en)='en') OPTIONAL { ?p rdfs:label ?ar . FILTER(LANG(?ar)='ar') } }`;
   for (let i = 0; i < 4; i++) {
     try {
-      const r = await fetch('https://query.wikidata.org/sparql?format=json&query=' + encodeURIComponent(q), { headers: { ...UA, accept: 'application/sparql-results+json' } });
+      const r = await fetch('https://query.wikidata.org/sparql?format=json&query=' + encodeURIComponent(q), { headers: { ...UA, accept: 'application/sparql-results+json' }, signal: AbortSignal.timeout(80000) });
+      LOG.push('sparql ' + qid + ' ' + r.status);
       if (r.ok) return (await r.json()).results.bindings;
       if (r.status === 429) await sleep(10000 * (i + 1));
-    } catch (e) {}
+    } catch (e) { LOG.push('sparql err ' + qid + ' ' + String(e.message).slice(0, 40)); }
     await sleep(5000);
   }
   return null;
@@ -45,12 +48,14 @@ const EXTRA = { fiorentina: 'ACF Fiorentina' };
 for (const c of idx) {
   if (ONLY && !ONLY.includes(c.slug)) continue;
   try {
+    LOG.push('club ' + c.slug); flush();
     if (c.slug === 'al-khaleej') { const q = await fixKhaleej(c); if (q) { c.qid = q; const e = await J(D + 'action=wbgetentities&props=sitelinks&sitefilter=enwiki&ids=' + q); const en = e && e.entities[q].sitelinks && e.entities[q].sitelinks.enwiki; if (en) titles[q] = en.title; } }
     const rows = await sparql(c.qid);
     if (!rows) { rep.failed.push(c.slug + ':sparql'); continue; }
     const by = {};
     for (const b of rows) {
       const id = b.p.value.split('/').pop();
+      if (b.g && b.g.value.split('/').pop() !== MALE) { rep.womenDropped++; continue; }
       const o = by[id] || (by[id] = { id, en: b.en.value, ar: (b.ar && b.ar.value) || '', img: b.img ? decodeURIComponent(b.img.value.split('Special:FilePath/')[1] || '') : '', f: [], t: [], open: false });
       if (b.start) o.f.push(+b.start.value.slice(0, 4));
       if (b.end) o.t.push(+b.end.value.slice(0, 4)); else o.open = true;
@@ -106,7 +111,7 @@ for (const c of idx) {
     L.sort((a, b) => (b[3] ? 1 : 0) - (a[3] ? 1 : 0) || (a[3] && b[3] ? b[3] - a[3] : 0) || a[0].localeCompare(b[0]));
     fs.writeFileSync('clubs/' + c.slug + '.json', JSON.stringify(L));
     c.n = L.length; c.img = L.filter((x) => x[2]).length;
-    rep.done++;
+    rep.done++; flush();
     await sleep(1200);
   } catch (e) { rep.failed.push(c.slug + ':' + String(e.message).slice(0, 60)); }
 }
