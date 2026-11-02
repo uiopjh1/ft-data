@@ -3,7 +3,7 @@ import fs from 'fs';
 const UA = { 'user-agent': 'FT-app-research/1.0 (github.com/uiopjh1/ft-data)', accept: 'application/json' };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const nz = (s) => { let t = String(s || '').toLowerCase(); try { t = t.normalize('NFD').replace(/[̀-ͯ]/g, ''); } catch (e) {} return t.replace(/[^a-z ]/g, ' ').replace(/\s+/g, ' ').trim(); };
-async function J(u) { for (let i = 0; i < 3; i++) { try { const r = await fetch(u, { headers: UA }); if (r.ok) return await r.json(); } catch (e) {} await sleep(1500); } return null; }
+async function J(u) { for (let i = 0; i < 6; i++) { try { const r = await fetch(u, { headers: UA }); if (r.ok) return await r.json(); if (r.status === 429) await sleep(8000 * (i + 1)); } catch (e) {} await sleep(2000 * (i + 1)); } return null; }
 const W = 'https://en.wikipedia.org/w/api.php?format=json&origin=*&';
 const idx = JSON.parse(fs.readFileSync('clubs_index.json', 'utf8')).clubs;
 // عناوين صفحات الأندية في ويكيبيديا دفعة واحدة (50 نادياً في الطلب) لتفادي حدّ الطلبات
@@ -28,6 +28,7 @@ for (const c of idx) {
       const j = await J(W + 'action=query&list=categorymembers&cmtitle=' + encodeURIComponent('Category:' + cat) + '&cmtype=page&cmnamespace=0&cmlimit=500' + cont);
       if (!j || !j.query) break;
       members = members.concat(j.query.categorymembers.map((m) => m.title));
+      await sleep(600);
       if (j.continue && j.continue.cmcontinue) cont = '&cmcontinue=' + encodeURIComponent(j.continue.cmcontinue); else break;
     }
     if (members.length) break;
@@ -53,6 +54,7 @@ for (const c of idx) {
   list.sort((a, b) => (b[2] ? 1 : 0) - (a[2] ? 1 : 0) || a[0].localeCompare(b[0]));
   fs.writeFileSync(file, JSON.stringify(list));
   c.n = list.length; c.img = list.filter((x) => x[2]).length;
+  await sleep(1500);
   rep.clubs++; rep.added += n; rep.perClub[c.slug] = n;
 }
 fs.writeFileSync('clubs_index.json', JSON.stringify({ updated: new Date().toISOString(), clubs: idx }));
