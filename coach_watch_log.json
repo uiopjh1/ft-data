@@ -1,12 +1,12 @@
 {
- "t": "2026-11-02T09:51:07.856303",
+ "t": "2026-11-02T20:08:17.989649",
  "seen": [
   {
    "club": "Al Ahli",
    "type": "sack",
    "n": 3,
    "hosts": [
-    "alarabiya.net",
+    "arriyadiyah.com",
     "goal.com",
     "slaati.com"
    ]
@@ -22,19 +22,49 @@
   {
    "club": "Al Shabab",
    "type": "sack",
-   "n": 3,
+   "n": 2,
    "hosts": [
-    "alarabiya.net",
     "arriyadiyah.com",
     "goal.com"
    ]
   },
   {
-   "club": "Udinese",
+   "club": "Nottingham Forest",
    "type": "sack",
    "n": 1,
    "hosts": [
-    "calciomercato.com"
+    "uk.sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Deportivo",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "mundodeportivo.com"
+   ]
+  },
+  {
+   "club": "Udinese",
+   "type": "sack",
+   "n": 8,
+   "hosts": [
+    "sport.sky.it",
+    "dazn.com",
+    "corrieredellosport.it",
+    "calciomercato.com",
+    "football-italia.net",
+    "goal.com",
+    "sports.yahoo.com",
+    "repubblica.it"
+   ]
+  },
+  {
+   "club": "Udinese",
+   "type": "hire",
+   "n": 1,
+   "hosts": [
+    "ansa.it"
    ]
   },
   {
@@ -48,23 +78,53 @@
   {
    "club": "Le Havre AC",
    "type": "sack",
-   "n": 5,
+   "n": 4,
    "hosts": [
     "leparisien.fr",
     "lemonde.fr",
-    "lequipe.fr",
-    "france24.com",
-    "sports.yahoo.com"
+    "sports.yahoo.com",
+    "france24.com"
    ]
   }
  ],
  "eu": [
   {
-   "club": "Udinese",
+   "club": "Nottingham Forest",
    "type": "sack",
    "n": 1,
    "hosts": [
-    "calciomercato.com"
+    "uk.sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Deportivo",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "mundodeportivo.com"
+   ]
+  },
+  {
+   "club": "Udinese",
+   "type": "sack",
+   "n": 8,
+   "hosts": [
+    "sport.sky.it",
+    "dazn.com",
+    "corrieredellosport.it",
+    "calciomercato.com",
+    "football-italia.net",
+    "goal.com",
+    "sports.yahoo.com",
+    "repubblica.it"
+   ]
+  },
+  {
+   "club": "Udinese",
+   "type": "hire",
+   "n": 1,
+   "hosts": [
+    "ansa.it"
    ]
   },
   {
@@ -78,13 +138,12 @@
   {
    "club": "Le Havre AC",
    "type": "sack",
-   "n": 5,
+   "n": 4,
    "hosts": [
     "leparisien.fr",
     "lemonde.fr",
-    "lequipe.fr",
-    "france24.com",
-    "sports.yahoo.com"
+    "sports.yahoo.com",
+    "france24.com"
    ]
   }
  ]
