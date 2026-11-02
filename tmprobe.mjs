@@ -1,9 +1,20 @@
 import fs from 'fs';
-const UA = { 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36', 'accept-language': 'en', accept: 'text/html,application/json' };
-const urls = ['https://tmapi-alpha.transfermarkt.technology/club/1114/squad','https://tmapi-alpha.transfermarkt.technology/club/1114/squad?seasonId=2012','https://tmapi-alpha.transfermarkt.technology/club/1114/players-history','https://tmapi-alpha.transfermarkt.technology/club/1114/transfers','https://tmapi-alpha.transfermarkt.technology/club/1114/transfers/incoming','https://tmapi-alpha.transfermarkt.technology/club/1114/performance','https://tmapi-alpha.transfermarkt.technology/club/1114/historical-squad','https://tmapi-alpha.transfermarkt.technology/club/1114/players/all','https://tmapi-alpha.transfermarkt.technology/club/1114/team-members','https://tmapi-alpha.transfermarkt.technology/clubs/1114/players','https://tmapi-alpha.transfermarkt.technology/transfers/club/1114','https://tmapi-alpha.transfermarkt.technology/transfer/club/1114','https://tmapi-alpha.transfermarkt.technology/squad/club/1114','https://tmapi-alpha.transfermarkt.technology/squad/1114/2012','https://tmapi-alpha.transfermarkt.technology/players?clubId=1114','https://tmapi-alpha.transfermarkt.technology/player/3455','https://tmapi-alpha.transfermarkt.technology/transfer/history/player/3455','https://tmapi-alpha.transfermarkt.technology/player/3455/transfer-history','https://tmapi-alpha.transfermarkt.technology/player/3455/career','https://tmapi-alpha.transfermarkt.technology/club/1114/season/2012/squad'];
-const out = [];
-for (const u of urls) {
-  try { const r = await fetch(u, { headers: UA, signal: AbortSignal.timeout(30000) }); const t = await r.text(); out.push({ u, s: r.status, len: t.length, head: t.replace(/\s+/g, ' ').slice(0, 350), rows: (t.match(/class="(odd|even)"/g) || []).length, title: (t.match(/<title>([^<]*)/) || [])[1] }); }
-  catch (e) { out.push({ u, err: String(e.message).slice(0, 80) }); }
+import zlib from 'zlib';
+const B = 'https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/';
+const out = {};
+for (const f of ['clubs', 'players', 'transfers', 'appearances']) {
+  try {
+    const r = await fetch(B + f + '.csv.gz', { signal: AbortSignal.timeout(120000) });
+    out[f] = { s: r.status };
+    if (!r.ok) continue;
+    const buf = Buffer.from(await r.arrayBuffer());
+    out[f].bytes = buf.length;
+    fs.writeFileSync('/tmp/' + f + '.csv', zlib.gunzipSync(buf));
+    const txt = fs.readFileSync('/tmp/' + f + '.csv', 'utf8');
+    const lines = txt.split('\n');
+    out[f].lines = lines.length; out[f].head = lines.slice(0, 2);
+    if (f === 'transfers') { const hil = lines.filter((l) => l.includes(',1114,')); out[f].hilal = hil.length; out[f].hilalSample = hil.slice(0, 3); const yrs = lines.map((l) => (l.match(/^\d+,\d+,(\d{4})-/) || [])[1]).filter(Boolean).sort(); out[f].minYear = yrs[0]; }
+    if (f === 'appearances') { out[f].hilalApps = lines.filter((l) => l.includes(',1114,')).length; }
+  } catch (e) { out[f] = { err: String(e.message).slice(0, 100) }; }
 }
 fs.writeFileSync('tmprobe_result.json', JSON.stringify(out, null, 1));
