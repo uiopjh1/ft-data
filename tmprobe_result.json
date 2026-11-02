@@ -1,0 +1,71 @@
+[
+ {
+  "u": "https://www.transfermarkt.com/schnellsuche/ergebnisliste/schnellsuche?query=al+hilal",
+  "s": 202,
+  "len": 2411,
+  "head": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title></title> <style> body { font-family: \"Arial\"; } </style> <script type=\"text/javascript\"> window.awsWafCookieDomainList = []; window.gokuProps = { \"key\":\"AQIDAHjc",
+  "rows": 0,
+  "title": ""
+ },
+ {
+  "u": "https://www.transfermarkt.com/al-hilal/startseite/verein/1114",
+  "s": 202,
+  "len": 2411,
+  "head": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title></title> <style> body { font-family: \"Arial\"; } </style> <script type=\"text/javascript\"> window.awsWafCookieDomainList = []; window.gokuProps = { \"key\":\"AQIDAHjc",
+  "rows": 0,
+  "title": ""
+ },
+ {
+  "u": "https://www.transfermarkt.com/al-hilal/kader/verein/1114/saison_id/2012/plus/1",
+  "s": 202,
+  "len": 2411,
+  "head": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title></title> <style> body { font-family: \"Arial\"; } </style> <script type=\"text/javascript\"> window.awsWafCookieDomainList = []; window.gokuProps = { \"key\":\"AQIDAHjc",
+  "rows": 0,
+  "title": ""
+ },
+ {
+  "u": "https://www.transfermarkt.com/al-hilal/spielerhistorie/verein/1114",
+  "s": 202,
+  "len": 2411,
+  "head": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title></title> <style> body { font-family: \"Arial\"; } </style> <script type=\"text/javascript\"> window.awsWafCookieDomainList = []; window.gokuProps = { \"key\":\"AQIDAHjc",
+  "rows": 0,
+  "title": ""
+ },
+ {
+  "u": "https://www.transfermarkt.com/al-hilal/alletransfers/verein/1114",
+  "s": 202,
+  "len": 2411,
+  "head": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title></title> <style> body { font-family: \"Arial\"; } </style> <script type=\"text/javascript\"> window.awsWafCookieDomainList = []; window.gokuProps = { \"key\":\"AQIDAHjc",
+  "rows": 0,
+  "title": ""
+ },
+ {
+  "u": "https://www.transfermarkt.com/al-hilal/historischerKader/verein/1114",
+  "s": 202,
+  "len": 2411,
+  "head": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title></title> <style> body { font-family: \"Arial\"; } </style> <script type=\"text/javascript\"> window.awsWafCookieDomainList = []; window.gokuProps = { \"key\":\"AQIDAHjc",
+  "rows": 0,
+  "title": ""
+ },
+ {
+  "u": "https://tmapi-alpha.transfermarkt.technology/club/1114",
+  "s": 200,
+  "len": 2531,
+  "head": "{\"success\":true,\"message\":\"OK\",\"data\":{\"id\":\"1114\",\"name\":\"Al-Hilal SFC\",\"baseDetails\":{\"shortName\":\"Al-Hilal\",\"abbreviation\":\"Hilal\",\"isNationalTeam\":false,\"countryId\":146,\"mainClubId\":\"1114\",\"clubTypeId\":1,\"primaryCompetitionId\":\"SA1\",\"superiorClubId\":308,\"superiorClub\":{\"id\":\"308\",\"name\":\"Al-Hila",
+  "rows": 0
+ },
+ {
+  "u": "https://tmapi-alpha.transfermarkt.technology/club/1114/players",
+  "s": 404,
+  "len": 115,
+  "head": "{\"success\":false,\"message\":\"No route found for \\u0022GET http:\\/\\/tmapi.ham.tmnet.zone\\/club\\/1114\\/players\\u0022\"}",
+  "rows": 0
+ },
+ {
+  "u": "https://tmapi-alpha.transfermarkt.technology/clubs?ids[]=1114",
+  "s": 200,
+  "len": 2533,
+  "head": "{\"success\":true,\"message\":\"OK\",\"data\":[{\"id\":\"1114\",\"name\":\"Al-Hilal SFC\",\"baseDetails\":{\"shortName\":\"Al-Hilal\",\"abbreviation\":\"Hilal\",\"isNationalTeam\":false,\"countryId\":146,\"mainClubId\":\"1114\",\"clubTypeId\":1,\"primaryCompetitionId\":\"SA1\",\"superiorClubId\":308,\"superiorClub\":{\"id\":\"308\",\"name\":\"Al-Hil",
+  "rows": 0
+ }
+]
