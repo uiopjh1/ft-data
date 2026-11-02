@@ -70,9 +70,9 @@ for (const c of idx) {
     const p = P[pid]; if (!p || !p.name) continue; const o = sp[pid];
     const cur = p.current_club_id === cid && +p.last_season >= NOW - 1;
     let from = o.a, to = cur ? null : o.b;
-    if (to != null && from != null && to < from) to = from;
     const m = old.find((r) => !used.has(r[0]) && same(r[0], p.name));
-    if (m) used.add(m[0]);
+    if (m) { used.add(m[0]); if (m[3] && (from == null || m[3] < from)) from = m[3]; if (!cur && m[4] && (to == null || m[4] > to)) to = m[4]; }
+    if (to != null && from != null && to < from) to = from;
     let img = m && /^https?:/.test(m[2] || '') ? m[2] : (p.image_url && !/default/.test(p.image_url) ? p.image_url : (m ? m[2] : ''));
     let ar = m && hasAr(m[1]) && m[5] !== 1 ? m[1] : tr(p.name);
     rows.push([p.name, ar, img || '', from, to]);
