@@ -49,7 +49,7 @@ for (const c of idx) {
     for (const b of rows) {
       const id = b.p.value.split('/').pop();
       if (b.g && b.g.value.split('/').pop() !== MALE) { rep.womenDropped++; continue; }
-      const o = by[id] || (by[id] = { id, en: b.en.value, ar: (b.ar && b.ar.value) || '', img: b.img ? decodeURIComponent(b.img.value.split('Special:FilePath/')[1] || '') : '', f: [], t: [], open: false });
+      const o = by[id] || (by[id] = { id, en: b.en.value, ar: ((b.ar && b.ar.value) || '').replace(/^.*جبنة.*$/, 'ألكسندر ميتروفيتش'), img: b.img ? decodeURIComponent(b.img.value.split('Special:FilePath/')[1] || '') : '', f: [], t: [], open: false });
       if (b.start) o.f.push(+b.start.value.slice(0, 4));
       if (b.end) o.t.push(+b.end.value.slice(0, 4)); else o.open = true;
     }
