@@ -6,13 +6,19 @@ const nz = (s) => { let t = String(s || '').toLowerCase(); try { t = t.normalize
 async function J(u) { for (let i = 0; i < 3; i++) { try { const r = await fetch(u, { headers: UA }); if (r.ok) return await r.json(); } catch (e) {} await sleep(1500); } return null; }
 const W = 'https://en.wikipedia.org/w/api.php?format=json&origin=*&';
 const idx = JSON.parse(fs.readFileSync('clubs_index.json', 'utf8')).clubs;
+// عناوين صفحات الأندية في ويكيبيديا دفعة واحدة (50 نادياً في الطلب) لتفادي حدّ الطلبات
+const TITLES = {};
+for (let i = 0; i < idx.length; i += 40) {
+  const ids = idx.slice(i, i + 40).map((c) => c.qid);
+  const e = await J('https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=sitelinks&sitefilter=enwiki&ids=' + ids.join('|'));
+  for (const id of ids) { const en = e && e.entities && e.entities[id] && e.entities[id].sitelinks && e.entities[id].sitelinks.enwiki; if (en) TITLES[id] = en.title; }
+  await sleep(1500);
+}
 const rep = { clubs: 0, added: 0, nocat: [], perClub: {} };
 for (const c of idx) {
   const file = 'clubs/' + c.slug + '.json';
   let list = []; try { list = JSON.parse(fs.readFileSync(file, 'utf8')); } catch (e) { continue; }
-  // عنوان صفحة النادي في ويكيبيديا من ويكيداتا
-  const e = await J('https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=sitelinks&sitefilter=enwiki&ids=' + c.qid);
-  const title = e && e.entities && e.entities[c.qid] && e.entities[c.qid].sitelinks && e.entities[c.qid].sitelinks.enwiki && e.entities[c.qid].sitelinks.enwiki.title;
+  const title = TITLES[c.qid];
   if (!title) { rep.nocat.push(c.slug + ':notitle'); continue; }
   const cats = [title + ' players', title.replace(/ F\.C\.$/, '') + ' players'];
   let members = [];
