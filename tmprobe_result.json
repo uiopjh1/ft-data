@@ -1,71 +1,142 @@
 [
  {
-  "u": "https://www.transfermarkt.com/schnellsuche/ergebnisliste/schnellsuche?query=al+hilal",
-  "s": 202,
-  "len": 2411,
-  "head": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title></title> <style> body { font-family: \"Arial\"; } </style> <script type=\"text/javascript\"> window.awsWafCookieDomainList = []; window.gokuProps = { \"key\":\"AQIDAHjc",
-  "rows": 0,
-  "title": ""
- },
- {
-  "u": "https://www.transfermarkt.com/al-hilal/startseite/verein/1114",
-  "s": 202,
-  "len": 2411,
-  "head": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title></title> <style> body { font-family: \"Arial\"; } </style> <script type=\"text/javascript\"> window.awsWafCookieDomainList = []; window.gokuProps = { \"key\":\"AQIDAHjc",
-  "rows": 0,
-  "title": ""
- },
- {
-  "u": "https://www.transfermarkt.com/al-hilal/kader/verein/1114/saison_id/2012/plus/1",
-  "s": 202,
-  "len": 2411,
-  "head": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title></title> <style> body { font-family: \"Arial\"; } </style> <script type=\"text/javascript\"> window.awsWafCookieDomainList = []; window.gokuProps = { \"key\":\"AQIDAHjc",
-  "rows": 0,
-  "title": ""
- },
- {
-  "u": "https://www.transfermarkt.com/al-hilal/spielerhistorie/verein/1114",
-  "s": 202,
-  "len": 2411,
-  "head": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title></title> <style> body { font-family: \"Arial\"; } </style> <script type=\"text/javascript\"> window.awsWafCookieDomainList = []; window.gokuProps = { \"key\":\"AQIDAHjc",
-  "rows": 0,
-  "title": ""
- },
- {
-  "u": "https://www.transfermarkt.com/al-hilal/alletransfers/verein/1114",
-  "s": 202,
-  "len": 2411,
-  "head": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title></title> <style> body { font-family: \"Arial\"; } </style> <script type=\"text/javascript\"> window.awsWafCookieDomainList = []; window.gokuProps = { \"key\":\"AQIDAHjc",
-  "rows": 0,
-  "title": ""
- },
- {
-  "u": "https://www.transfermarkt.com/al-hilal/historischerKader/verein/1114",
-  "s": 202,
-  "len": 2411,
-  "head": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title></title> <style> body { font-family: \"Arial\"; } </style> <script type=\"text/javascript\"> window.awsWafCookieDomainList = []; window.gokuProps = { \"key\":\"AQIDAHjc",
-  "rows": 0,
-  "title": ""
- },
- {
-  "u": "https://tmapi-alpha.transfermarkt.technology/club/1114",
+  "u": "https://tmapi-alpha.transfermarkt.technology/club/1114/squad",
   "s": 200,
-  "len": 2531,
-  "head": "{\"success\":true,\"message\":\"OK\",\"data\":{\"id\":\"1114\",\"name\":\"Al-Hilal SFC\",\"baseDetails\":{\"shortName\":\"Al-Hilal\",\"abbreviation\":\"Hilal\",\"isNationalTeam\":false,\"countryId\":146,\"mainClubId\":\"1114\",\"clubTypeId\":1,\"primaryCompetitionId\":\"SA1\",\"superiorClubId\":308,\"superiorClub\":{\"id\":\"308\",\"name\":\"Al-Hila",
+  "len": 3013,
+  "head": "{\"success\":true,\"message\":\"OK\",\"data\":{\"clubId\":\"1114\",\"squad\":[{\"playerId\":\"207834\",\"clubId\":\"1114\",\"shirtNumber\":37,\"isCaptain\":false,\"type\":\"current\"},{\"playerId\":\"509914\",\"clubId\":\"1114\",\"shirtNumber\":17,\"isCaptain\":false,\"type\":\"current\"},{\"playerId\":\"262845\",\"clubId\":\"1114\",\"shirtNumber\":33,\"isCaptain\":false,\"type\":\"current\"},{\"playerId\":\"113",
   "rows": 0
  },
  {
-  "u": "https://tmapi-alpha.transfermarkt.technology/club/1114/players",
+  "u": "https://tmapi-alpha.transfermarkt.technology/club/1114/squad?seasonId=2012",
+  "s": 200,
+  "len": 3013,
+  "head": "{\"success\":true,\"message\":\"OK\",\"data\":{\"clubId\":\"1114\",\"squad\":[{\"playerId\":\"207834\",\"clubId\":\"1114\",\"shirtNumber\":37,\"isCaptain\":false,\"type\":\"current\"},{\"playerId\":\"509914\",\"clubId\":\"1114\",\"shirtNumber\":17,\"isCaptain\":false,\"type\":\"current\"},{\"playerId\":\"262845\",\"clubId\":\"1114\",\"shirtNumber\":33,\"isCaptain\":false,\"type\":\"current\"},{\"playerId\":\"113",
+  "rows": 0
+ },
+ {
+  "u": "https://tmapi-alpha.transfermarkt.technology/club/1114/players-history",
   "s": 404,
-  "len": 115,
-  "head": "{\"success\":false,\"message\":\"No route found for \\u0022GET http:\\/\\/tmapi.ham.tmnet.zone\\/club\\/1114\\/players\\u0022\"}",
+  "len": 123,
+  "head": "{\"success\":false,\"message\":\"No route found for \\u0022GET http:\\/\\/tmapi.ham.tmnet.zone\\/club\\/1114\\/players-history\\u0022\"}",
   "rows": 0
  },
  {
-  "u": "https://tmapi-alpha.transfermarkt.technology/clubs?ids[]=1114",
+  "u": "https://tmapi-alpha.transfermarkt.technology/club/1114/transfers",
+  "s": 404,
+  "len": 117,
+  "head": "{\"success\":false,\"message\":\"No route found for \\u0022GET http:\\/\\/tmapi.ham.tmnet.zone\\/club\\/1114\\/transfers\\u0022\"}",
+  "rows": 0
+ },
+ {
+  "u": "https://tmapi-alpha.transfermarkt.technology/club/1114/transfers/incoming",
+  "s": 404,
+  "len": 127,
+  "head": "{\"success\":false,\"message\":\"No route found for \\u0022GET http:\\/\\/tmapi.ham.tmnet.zone\\/club\\/1114\\/transfers\\/incoming\\u0022\"}",
+  "rows": 0
+ },
+ {
+  "u": "https://tmapi-alpha.transfermarkt.technology/club/1114/performance",
   "s": 200,
-  "len": 2533,
-  "head": "{\"success\":true,\"message\":\"OK\",\"data\":[{\"id\":\"1114\",\"name\":\"Al-Hilal SFC\",\"baseDetails\":{\"shortName\":\"Al-Hilal\",\"abbreviation\":\"Hilal\",\"isNationalTeam\":false,\"countryId\":146,\"mainClubId\":\"1114\",\"clubTypeId\":1,\"primaryCompetitionId\":\"SA1\",\"superiorClubId\":308,\"superiorClub\":{\"id\":\"308\",\"name\":\"Al-Hil",
+  "len": 41,
+  "head": "{\"success\":true,\"message\":\"OK\",\"data\":[]}",
+  "rows": 0
+ },
+ {
+  "u": "https://tmapi-alpha.transfermarkt.technology/club/1114/historical-squad",
+  "s": 404,
+  "len": 124,
+  "head": "{\"success\":false,\"message\":\"No route found for \\u0022GET http:\\/\\/tmapi.ham.tmnet.zone\\/club\\/1114\\/historical-squad\\u0022\"}",
+  "rows": 0
+ },
+ {
+  "u": "https://tmapi-alpha.transfermarkt.technology/club/1114/players/all",
+  "s": 404,
+  "len": 120,
+  "head": "{\"success\":false,\"message\":\"No route found for \\u0022GET http:\\/\\/tmapi.ham.tmnet.zone\\/club\\/1114\\/players\\/all\\u0022\"}",
+  "rows": 0
+ },
+ {
+  "u": "https://tmapi-alpha.transfermarkt.technology/club/1114/team-members",
+  "s": 404,
+  "len": 120,
+  "head": "{\"success\":false,\"message\":\"No route found for \\u0022GET http:\\/\\/tmapi.ham.tmnet.zone\\/club\\/1114\\/team-members\\u0022\"}",
+  "rows": 0
+ },
+ {
+  "u": "https://tmapi-alpha.transfermarkt.technology/clubs/1114/players",
+  "s": 404,
+  "len": 116,
+  "head": "{\"success\":false,\"message\":\"No route found for \\u0022GET http:\\/\\/tmapi.ham.tmnet.zone\\/clubs\\/1114\\/players\\u0022\"}",
+  "rows": 0
+ },
+ {
+  "u": "https://tmapi-alpha.transfermarkt.technology/transfers/club/1114",
+  "s": 404,
+  "len": 117,
+  "head": "{\"success\":false,\"message\":\"No route found for \\u0022GET http:\\/\\/tmapi.ham.tmnet.zone\\/transfers\\/club\\/1114\\u0022\"}",
+  "rows": 0
+ },
+ {
+  "u": "https://tmapi-alpha.transfermarkt.technology/transfer/club/1114",
+  "s": 404,
+  "len": 116,
+  "head": "{\"success\":false,\"message\":\"No route found for \\u0022GET http:\\/\\/tmapi.ham.tmnet.zone\\/transfer\\/club\\/1114\\u0022\"}",
+  "rows": 0
+ },
+ {
+  "u": "https://tmapi-alpha.transfermarkt.technology/squad/club/1114",
+  "s": 404,
+  "len": 113,
+  "head": "{\"success\":false,\"message\":\"No route found for \\u0022GET http:\\/\\/tmapi.ham.tmnet.zone\\/squad\\/club\\/1114\\u0022\"}",
+  "rows": 0
+ },
+ {
+  "u": "https://tmapi-alpha.transfermarkt.technology/squad/1114/2012",
+  "s": 404,
+  "len": 113,
+  "head": "{\"success\":false,\"message\":\"No route found for \\u0022GET http:\\/\\/tmapi.ham.tmnet.zone\\/squad\\/1114\\/2012\\u0022\"}",
+  "rows": 0
+ },
+ {
+  "u": "https://tmapi-alpha.transfermarkt.technology/players?clubId=1114",
+  "s": 200,
+  "len": 41,
+  "head": "{\"success\":true,\"message\":\"OK\",\"data\":[]}",
+  "rows": 0
+ },
+ {
+  "u": "https://tmapi-alpha.transfermarkt.technology/player/3455",
+  "s": 200,
+  "len": 2309,
+  "head": "{\"success\":true,\"message\":\"OK\",\"data\":{\"id\":\"3455\",\"name\":\"Zlatan Ibrahimovi\\u0107\",\"shortName\":\"Z. Ibrahimovi\\u0107\",\"artistName\":\"\",\"displayName\":\"\",\"lifeDates\":{\"age\":45,\"dateOfBirth\":\"1981-10-03\",\"isDateOfBirthUnknown\":false,\"dateOfDeath\":null,\"isDateOfDeathUnknown\":false},\"birthPlaceDetails\":{\"placeOfBirth\":\"Malm\\u00f6\",\"countryOfBirthId\":147,",
+  "rows": 0
+ },
+ {
+  "u": "https://tmapi-alpha.transfermarkt.technology/transfer/history/player/3455",
+  "s": 200,
+  "len": 14408,
+  "head": "{\"success\":true,\"message\":\"OK\",\"data\":{\"playerId\":\"3455\",\"history\":{\"terminated\":[{\"id\":\"4421677\",\"transferSource\":{\"competitionId\":\"IT1\",\"countryId\":75,\"clubId\":\"5\",\"coachId\":\"2135\"},\"transferDestination\":{\"competitionId\":\"\",\"countryId\":0,\"clubId\":\"123\",\"coachId\":\"0\"},\"details\":{\"playerId\":\"3455\",\"date\":\"2023-07-01T00:00:00+02:00\",\"contractUntilDa",
+  "rows": 0
+ },
+ {
+  "u": "https://tmapi-alpha.transfermarkt.technology/player/3455/transfer-history",
+  "s": 404,
+  "len": 126,
+  "head": "{\"success\":false,\"message\":\"No route found for \\u0022GET http:\\/\\/tmapi.ham.tmnet.zone\\/player\\/3455\\/transfer-history\\u0022\"}",
+  "rows": 0
+ },
+ {
+  "u": "https://tmapi-alpha.transfermarkt.technology/player/3455/career",
+  "s": 404,
+  "len": 116,
+  "head": "{\"success\":false,\"message\":\"No route found for \\u0022GET http:\\/\\/tmapi.ham.tmnet.zone\\/player\\/3455\\/career\\u0022\"}",
+  "rows": 0
+ },
+ {
+  "u": "https://tmapi-alpha.transfermarkt.technology/club/1114/season/2012/squad",
+  "s": 404,
+  "len": 127,
+  "head": "{\"success\":false,\"message\":\"No route found for \\u0022GET http:\\/\\/tmapi.ham.tmnet.zone\\/club\\/1114\\/season\\/2012\\/squad\\u0022\"}",
   "rows": 0
  }
 ]
