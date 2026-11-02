@@ -1,2475 +1,2475 @@
 {
- "_help": "تصحيح رؤساء الأندية. المفتاح: اسم النادي بالإنجليزية كما في ESPN (مثل Real Madrid). القيمة: name بالعربي، en اختياري، since سنة، image رابط صورة https اختياري. ما هو هنا يتقدم على ويكيداتا.",
- "Al Hilal": {
-  "name": "نواف بن سعد",
-  "en": "Nawaf bin Saad",
-  "since": 2025,
-  "titles": [
-   {
-    "name": "كأس الملك",
-    "detail": "2026",
-    "slug": "ksa.kings.cup"
-   }
-  ],
-  "prev": {
-   "years": "2015 - 2018",
-   "count": 5,
-   "titles": [
-    {
-     "name": "الدوري",
-     "detail": "مرتان · 2017، 2018",
-     "slug": "ksa.1"
+  "_help": "تصحيح رؤساء الأندية. المفتاح: اسم النادي بالإنجليزية كما في ESPN (مثل Real Madrid). القيمة: name بالعربي، en اختياري، since سنة، image رابط صورة https اختياري. ما هو هنا يتقدم على ويكيداتا.",
+  "Al Hilal": {
+    "name": "نواف بن سعد",
+    "en": "Nawaf bin Saad",
+    "since": 2025,
+    "titles": [
+      {
+        "name": "كأس الملك",
+        "detail": "2026",
+        "slug": "ksa.kings.cup"
+      }
+    ],
+    "prev": {
+      "years": "2015 - 2018",
+      "count": 5,
+      "titles": [
+        {
+          "name": "الدوري",
+          "detail": "مرتان · 2017، 2018",
+          "slug": "ksa.1"
+        },
+        {
+          "name": "كأس الملك",
+          "detail": "2017",
+          "slug": "ksa.kings.cup"
+        },
+        {
+          "name": "كأس ولي العهد",
+          "detail": "2016"
+        },
+        {
+          "name": "كأس السوبر",
+          "detail": "2015",
+          "slug": "ksa.super_cup"
+        }
+      ],
+      "club": "الهلال"
     },
-    {
-     "name": "كأس الملك",
-     "detail": "2017",
-     "slug": "ksa.kings.cup"
-    },
-    {
-     "name": "كأس ولي العهد",
-     "detail": "2016"
-    },
-    {
-     "name": "كأس السوبر",
-     "detail": "2015",
-     "slug": "ksa.super_cup"
-    }
-   ],
-   "club": "الهلال"
+    "image": "https://cdn.eremnews.com/media/550b4e1d-9157-47c7-9130-5e00bf82b05d",
+    "imageFor": "نواف بن سعد"
   },
-  "image": "https://cdn.eremnews.com/media/550b4e1d-9157-47c7-9130-5e00bf82b05d",
-  "imageFor": "نواف بن سعد"
- },
- "Al Nassr": {
-  "name": "أحمد السلطان",
-  "en": "Ahmed Al-Sultan",
-  "since": 2026,
-  "noTitles": true,
-  "image": "https://cdn.eremnews.com/media/ad3cf4f7-bba5-489e-b0e8-dcb4bcc20bf8_v3",
-  "imageFor": "أحمد السلطان"
- },
- "Al Ahli": {
-  "name": "عبدالله الصبان",
-  "en": "Abdullah Al-Sabban",
-  "since": 2026,
-  "noTitles": true,
-  "image": "https://cdn.eremnews.com/media/51985132-5150-4ff5-b6c8-4f89ea5f4916_v3",
-  "imageFor": "عبدالله الصبان"
- },
- "Al Ittihad": {
-  "name": "رضا بترجي",
-  "en": "Reda Batarji",
-  "since": 2026,
-  "noTitles": true,
-  "image": "https://cdn.eremnews.com/media/b062fed8-fe4d-4e41-9fd1-c887f924f8de_v3",
-  "imageFor": "رضا بترجي"
- },
- "Barcelona": {
-  "name": "خوان لابورتا",
-  "en": "Joan Laporta",
-  "since": 2021,
-  "titlesTotal": 8,
-  "titles": [
-   {
-    "name": "الدوري الإسباني",
-    "detail": "3 مرات · 2023، 2025، 2026",
-    "slug": "esp.1"
-   },
-   {
-    "name": "كأس ملك إسبانيا",
-    "detail": "مرتان · 2021، 2025",
-    "slug": "esp.copa_del_rey"
-   },
-   {
-    "name": "كأس السوبر الإسباني",
-    "detail": "3 مرات · 2023، 2025، 2026"
-   }
-  ],
-  "prev": {
-   "years": "2003 - 2010",
-   "count": 12,
-   "titles": [
-    {
-     "name": "الدوري الإسباني",
-     "detail": "4 مرات · 2005، 2006، 2009، 2010",
-     "slug": "esp.1"
-    },
-    {
-     "name": "دوري أبطال أوروبا",
-     "detail": "مرتان · 2006، 2009",
-     "slug": "uefa.champions"
-    },
-    {
-     "name": "كأس ملك إسبانيا",
-     "detail": "2009",
-     "slug": "esp.copa_del_rey"
-    },
-    {
-     "name": "كأس السوبر الإسباني",
-     "detail": "3 مرات · 2005، 2006، 2009"
-    },
-    {
-     "name": "كأس السوبر الأوروبي",
-     "detail": "2009"
-    },
-    {
-     "name": "كأس العالم للأندية",
-     "detail": "2009",
-     "slug": "fifa.cwc"
+  "Al Nassr": {
+    "name": "أحمد السلطان",
+    "en": "Ahmed Al-Sultan",
+    "since": 2026,
+    "noTitles": true,
+    "image": "https://cdn.eremnews.com/media/ad3cf4f7-bba5-489e-b0e8-dcb4bcc20bf8_v3",
+    "imageFor": "أحمد السلطان"
+  },
+  "Al Ahli": {
+    "name": "عبدالله الصبان",
+    "en": "Abdullah Al-Sabban",
+    "since": 2026,
+    "noTitles": true,
+    "image": "https://cdn.eremnews.com/media/51985132-5150-4ff5-b6c8-4f89ea5f4916_v3",
+    "imageFor": "عبدالله الصبان"
+  },
+  "Al Ittihad": {
+    "name": "رضا بترجي",
+    "en": "Reda Batarji",
+    "since": 2026,
+    "noTitles": true,
+    "image": "https://cdn.eremnews.com/media/b062fed8-fe4d-4e41-9fd1-c887f924f8de_v3",
+    "imageFor": "رضا بترجي"
+  },
+  "Barcelona": {
+    "name": "خوان لابورتا",
+    "en": "Joan Laporta",
+    "since": 2021,
+    "titlesTotal": 8,
+    "titles": [
+      {
+        "name": "الدوري الإسباني",
+        "detail": "3 مرات · 2023، 2025، 2026",
+        "slug": "esp.1"
+      },
+      {
+        "name": "كأس ملك إسبانيا",
+        "detail": "مرتان · 2021، 2025",
+        "slug": "esp.copa_del_rey"
+      },
+      {
+        "name": "كأس السوبر الإسباني",
+        "detail": "3 مرات · 2023، 2025، 2026"
+      }
+    ],
+    "prev": {
+      "years": "2003 - 2010",
+      "count": 12,
+      "titles": [
+        {
+          "name": "الدوري الإسباني",
+          "detail": "4 مرات · 2005، 2006، 2009، 2010",
+          "slug": "esp.1"
+        },
+        {
+          "name": "دوري أبطال أوروبا",
+          "detail": "مرتان · 2006، 2009",
+          "slug": "uefa.champions"
+        },
+        {
+          "name": "كأس ملك إسبانيا",
+          "detail": "2009",
+          "slug": "esp.copa_del_rey"
+        },
+        {
+          "name": "كأس السوبر الإسباني",
+          "detail": "3 مرات · 2005، 2006، 2009"
+        },
+        {
+          "name": "كأس السوبر الأوروبي",
+          "detail": "2009"
+        },
+        {
+          "name": "كأس العالم للأندية",
+          "detail": "2009",
+          "slug": "fifa.cwc"
+        }
+      ],
+      "club": "برشلونة"
     }
-   ],
-   "club": "برشلونة"
+  },
+  "Manchester City": {
+    "name": "خلدون المبارك",
+    "en": "Khaldoon Al Mubarak",
+    "since": 2008,
+    "titlesTotal": 26,
+    "titles": [
+      {
+        "name": "الدوري الإنجليزي الممتاز",
+        "detail": "8 مرات · 2012، 2014، 2018، 2019، 2021، 2022، 2023، 2024",
+        "slug": "eng.1"
+      },
+      {
+        "name": "كأس الرابطة",
+        "detail": "7 مرات · 2014، 2016، 2018، 2019، 2020، 2021، 2026",
+        "slug": "eng.league_cup"
+      },
+      {
+        "name": "كأس الاتحاد الإنجليزي",
+        "detail": "4 مرات · 2011، 2019، 2023، 2026",
+        "slug": "eng.fa"
+      },
+      {
+        "name": "درع المجتمع",
+        "detail": "4 مرات · 2012، 2018، 2019، 2024"
+      },
+      {
+        "name": "دوري أبطال أوروبا",
+        "detail": "2023",
+        "slug": "uefa.champions"
+      },
+      {
+        "name": "كأس السوبر الأوروبي",
+        "detail": "2023"
+      },
+      {
+        "name": "كأس العالم للأندية",
+        "detail": "2023",
+        "slug": "fifa.cwc"
+      }
+    ]
+  },
+  "Bayern Munich": {
+    "name": "هربرت هاينر",
+    "en": "Herbert Hainer",
+    "since": 2019,
+    "titlesTotal": 16,
+    "titles": [
+      {
+        "name": "الدوري الألماني",
+        "detail": "6 مرات · 2020، 2021، 2022، 2023، 2025، 2026",
+        "slug": "ger.1"
+      },
+      {
+        "name": "كأس ألمانيا",
+        "detail": "مرتان · 2020، 2026",
+        "slug": "ger.dfb_pokal"
+      },
+      {
+        "name": "كأس السوبر الألماني",
+        "detail": "5 مرات · 2020، 2021، 2022، 2025، 2026"
+      },
+      {
+        "name": "دوري أبطال أوروبا",
+        "detail": "2020",
+        "slug": "uefa.champions"
+      },
+      {
+        "name": "كأس السوبر الأوروبي",
+        "detail": "2020"
+      },
+      {
+        "name": "كأس العالم للأندية",
+        "detail": "نسخة 2020 (أُقيمت فبراير 2021)",
+        "slug": "fifa.cwc"
+      }
+    ]
+  },
+  "Real Madrid": {
+    "name": "فلورنتينو بيريز",
+    "en": "Florentino Pérez",
+    "since": 2009,
+    "titlesTotal": 30,
+    "titles": [
+      {
+        "name": "دوري أبطال أوروبا",
+        "detail": "6 · 2014، 2016، 2017، 2018، 2022، 2024",
+        "slug": "uefa.champions"
+      },
+      {
+        "name": "الدوري الإسباني",
+        "detail": "5",
+        "slug": "esp.1"
+      },
+      {
+        "name": "كأس ملك إسبانيا",
+        "detail": "3",
+        "slug": "esp.copa_del_rey"
+      },
+      {
+        "name": "السوبر الإسباني",
+        "detail": "5"
+      },
+      {
+        "name": "كأس السوبر الأوروبي",
+        "detail": "5",
+        "slug": "uefa.super_cup"
+      },
+      {
+        "name": "كأس العالم للأندية",
+        "detail": "5",
+        "slug": "fifa.cwc"
+      },
+      {
+        "name": "كأس إنتركونتيننتال",
+        "detail": "2024"
+      }
+    ]
+  },
+  "Paris Saint-Germain": {
+    "name": "ناصر الخليفي",
+    "en": "Nasser Al-Khelaifi",
+    "since": 2011,
+    "titlesTotal": 43,
+    "titles": [
+      {
+        "name": "الدوري الفرنسي",
+        "detail": "12 · 2013، 2014، 2015، 2016، 2018، 2019، 2020، 2022، 2023، 2024، 2025، 2026",
+        "slug": "fra.1"
+      },
+      {
+        "name": "كأس فرنسا",
+        "detail": "8 · 2015، 2016، 2017، 2018، 2020، 2021، 2024، 2025",
+        "slug": "fra.coupe_de_france"
+      },
+      {
+        "name": "كأس الرابطة الفرنسية",
+        "detail": "6 · 2014، 2015، 2016، 2017، 2018، 2020"
+      },
+      {
+        "name": "كأس السوبر الفرنسي",
+        "detail": "12 · 2013، 2014، 2015، 2016، 2017، 2018، 2019، 2020، 2022، 2023، 2024، 2025"
+      },
+      {
+        "name": "دوري أبطال أوروبا",
+        "detail": "2025، 2026",
+        "slug": "uefa.champions"
+      },
+      {
+        "name": "كأس السوبر الأوروبي",
+        "detail": "2025، 2026",
+        "slug": "uefa.super_cup"
+      },
+      {
+        "name": "كأس إنتركونتيننتال",
+        "detail": "2025"
+      }
+    ]
+  },
+  "Atletico Madrid": {
+    "name": "إنريكي سيريزو",
+    "en": "Enrique Cerezo",
+    "since": 2003,
+    "titlesTotal": 10,
+    "titles": [
+      {
+        "name": "الدوري الإسباني",
+        "detail": "2014، 2021",
+        "slug": "esp.1"
+      },
+      {
+        "name": "كأس ملك إسبانيا",
+        "detail": "2013",
+        "slug": "esp.copa_del_rey"
+      },
+      {
+        "name": "السوبر الإسباني",
+        "detail": "2014"
+      },
+      {
+        "name": "الدوري الأوروبي",
+        "detail": "2010، 2012، 2018",
+        "slug": "uefa.europa"
+      },
+      {
+        "name": "كأس السوبر الأوروبي",
+        "detail": "2010، 2012، 2018",
+        "slug": "uefa.super_cup"
+      }
+    ]
+  },
+  "Inter Milan": {
+    "name": "جوزيبي ماروتا",
+    "en": "Beppe Marotta",
+    "since": 2024,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "الدوري الإيطالي",
+        "detail": "2026",
+        "slug": "ita.1"
+      },
+      {
+        "name": "كأس إيطاليا",
+        "detail": "2026",
+        "slug": "ita.coppa_italia"
+      }
+    ]
+  },
+  "Juventus": {
+    "name": "جيانلوكا فيريرو",
+    "en": "Gianluca Ferrero",
+    "since": 2023,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "كأس إيطاليا",
+        "detail": "2024",
+        "slug": "ita.coppa_italia"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/ferrero.jpg"
+  },
+  "Borussia Dortmund": {
+    "name": "هانس-يواخيم فاتسكه",
+    "en": "Hans-Joachim Watzke",
+    "since": 2025,
+    "noTitles": true
+  },
+  "Liverpool": {
+    "name": "توم ويرنر",
+    "en": "Tom Werner",
+    "since": 2010,
+    "titlesTotal": 10,
+    "titles": [
+      {
+        "name": "الدوري الإنجليزي الممتاز",
+        "detail": "مرتان · 2020، 2025",
+        "slug": "eng.1"
+      },
+      {
+        "name": "كأس الرابطة",
+        "detail": "3 مرات · 2012، 2022، 2024",
+        "slug": "eng.league_cup"
+      },
+      {
+        "name": "كأس الاتحاد الإنجليزي",
+        "detail": "2022",
+        "slug": "eng.fa"
+      },
+      {
+        "name": "درع المجتمع",
+        "detail": "2022"
+      },
+      {
+        "name": "دوري أبطال أوروبا",
+        "detail": "2019",
+        "slug": "uefa.champions"
+      },
+      {
+        "name": "كأس السوبر الأوروبي",
+        "detail": "2019"
+      },
+      {
+        "name": "كأس العالم للأندية",
+        "detail": "2019",
+        "slug": "fifa.cwc"
+      }
+    ]
+  },
+  "Al Taawoun": {
+    "name": "بدر الغنام",
+    "en": "Badr Al-Ghannam",
+    "since": 2025,
+    "noTitles": true,
+    "image": "https://cdn.eremnews.com/media/5625e654-3347-4514-a0b8-7de47dd374f9_v3",
+    "imageFor": "بدر الغنام"
+  },
+  "Al Ettifaq": {
+    "name": "سامر المسحل",
+    "en": "Samer Al-Mashhal",
+    "since": 2023,
+    "noTitles": true,
+    "image": "https://www.okaz.com.sa/uploads/images/2025/10/19/2601477.jpg",
+    "imageFor": "سامر المسحل"
+  },
+  "Al Fayha": {
+    "name": "توفيق المديهيم",
+    "en": "Tawfiq Al-Mudaihim",
+    "since": 2023,
+    "noTitles": true,
+    "image": "https://cp.slaati.com/wp-content/uploads/2024/02/3e2e366e-8289-406b-9bd4-2902a0d9bed3.jpeg",
+    "imageFor": "توفيق المديهيم"
+  },
+  "Al Qadsiah": {
+    "name": "رامي التركي (رئيس مكلّف)",
+    "en": "Rami Al-Turki",
+    "since": 2026,
+    "noTitles": true,
+    "image": "https://www.okaz.com.sa/okaz/uploads/images/2026/07/12/2735955.webp",
+    "imageFor": "رامي التركي"
+  },
+  "Al Qadisiyah": {
+    "name": "رامي التركي (رئيس مكلّف)",
+    "en": "Rami Al-Turki",
+    "since": 2026,
+    "noTitles": true,
+    "image": "https://www.okaz.com.sa/okaz/uploads/images/2026/07/12/2735955.webp",
+    "imageFor": "رامي التركي"
+  },
+  "Al Okhdood": {
+    "name": "سامي آل فاضل",
+    "en": "Sami Al Fadel",
+    "since": 2023,
+    "noTitles": true,
+    "image": "https://www.okaz.com.sa/uploads/images/2023/06/09/2121100.jpg",
+    "imageAuto": true,
+    "imageFor": "سامي آل فاضل",
+    "imageSrc": "https://www.okaz.com.sa/sport/saudi/2135572"
+  },
+  "Al-Okhdood": {
+    "name": "سامي آل فاضل",
+    "en": "Sami Al Fadel",
+    "since": 2023,
+    "noTitles": true,
+    "image": "https://www.okaz.com.sa/uploads/images/2023/06/09/2121100.jpg",
+    "imageAuto": true,
+    "imageFor": "سامي آل فاضل",
+    "imageSrc": "https://www.okaz.com.sa/sport/saudi/2135572"
+  },
+  "Al Fateh": {
+    "name": "منصور العفالق",
+    "en": "Mansour Al-Afaliq",
+    "since": 2023,
+    "noTitles": true,
+    "image": "https://static.srpcdigital.com/styles/1200x600/public/2023-07/245637.jpeg.webp",
+    "imageAuto": true,
+    "imageFor": "منصور العفالق",
+    "imageSrc": "https://aawsat.com/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/4421391-%D8%A7%D9%84%D9%81%D8%AA%D8%AD-%D8%A7%D9%84%D8%A3%D8%B9%D8%B6%D8%A7%D8%A1-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A%D9%88%D9%86-%D9%8A%D8%B1%D8%B4%D8%AD%D9%88%D9%86-%D9%85%D9%86%D8%B5%D9%88%D8%B1-%D8%A7%D9%84%D8%B9%D9%81%D8%A7%D9%84%D9%82-%D8%B1%D8%A6%D9%8A%D8%B3%D8%A7%D9%8B"
+  },
+  "Al-Fateh": {
+    "name": "منصور العفالق",
+    "en": "Mansour Al-Afaliq",
+    "since": 2023,
+    "noTitles": true,
+    "image": "https://static.srpcdigital.com/styles/1200x600/public/2023-07/245637.jpeg.webp",
+    "imageAuto": true,
+    "imageFor": "منصور العفالق",
+    "imageSrc": "https://aawsat.com/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/4421391-%D8%A7%D9%84%D9%81%D8%AA%D8%AD-%D8%A7%D9%84%D8%A3%D8%B9%D8%B6%D8%A7%D8%A1-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A%D9%88%D9%86-%D9%8A%D8%B1%D8%B4%D8%AD%D9%88%D9%86-%D9%85%D9%86%D8%B5%D9%88%D8%B1-%D8%A7%D9%84%D8%B9%D9%81%D8%A7%D9%84%D9%82-%D8%B1%D8%A6%D9%8A%D8%B3%D8%A7%D9%8B"
+  },
+  "Damac": {
+    "name": "شاكر عوير",
+    "en": "Shaker Oweir",
+    "since": 2026,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/awair.jpg",
+    "imageFor": "شاكر عوير"
+  },
+  "Damac FC": {
+    "name": "شاكر عوير",
+    "en": "Shaker Oweir",
+    "since": 2026,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/awair.jpg",
+    "imageFor": "شاكر عوير"
+  },
+  "Dhamk": {
+    "name": "شاكر عوير",
+    "en": "Shaker Oweir",
+    "since": 2026,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/awair.jpg",
+    "imageFor": "شاكر عوير"
+  },
+  "Al Raed": {
+    "name": "فهد المطوع",
+    "en": "Fahd Al-Mutawa",
+    "since": 2023,
+    "noTitles": true,
+    "image": "https://static.srpcdigital.com/styles/1200x600/public/2017/10/03/sport-041017-5.jpg.webp",
+    "imageAuto": true,
+    "imageFor": "فهد المطوع",
+    "imageSrc": "https://aawsat.com/home/article/1041656/%D9%81%D9%87%D8%AF-%D8%A7%D9%84%D9%85%D8%B7%D9%88%D8%B9-%D8%B1%D8%AC%D9%84-%D8%A7%D9%84%D9%80%C2%AB50-%D9%85%D9%84%D9%8A%D9%88%D9%86%D8%A7%D9%8B%C2%BB-%D9%81%D9%8A-%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D9%84-%D8%A7%D9%84%D8%B1%D8%A7%D8%A6%D8%AF"
+  },
+  "Al-Raed": {
+    "name": "فهد المطوع",
+    "en": "Fahd Al-Mutawa",
+    "since": 2023,
+    "noTitles": true,
+    "image": "https://static.srpcdigital.com/styles/1200x600/public/2017/10/03/sport-041017-5.jpg.webp",
+    "imageAuto": true,
+    "imageFor": "فهد المطوع",
+    "imageSrc": "https://aawsat.com/home/article/1041656/%D9%81%D9%87%D8%AF-%D8%A7%D9%84%D9%85%D8%B7%D9%88%D8%B9-%D8%B1%D8%AC%D9%84-%D8%A7%D9%84%D9%80%C2%AB50-%D9%85%D9%84%D9%8A%D9%88%D9%86%D8%A7%D9%8B%C2%BB-%D9%81%D9%8A-%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D9%84-%D8%A7%D9%84%D8%B1%D8%A7%D8%A6%D8%AF"
+  },
+  "Al Khaleej": {
+    "name": "أحمد أخريدة",
+    "en": "Ahmed Akhreeda",
+    "since": 2025,
+    "noTitles": true,
+    "image": "https://www.okaz.com.sa/uploads/images/2025/07/23/2558826.jpeg",
+    "imageFor": "أحمد أخريدة"
+  },
+  "Al-Khaleej": {
+    "name": "أحمد أخريدة",
+    "en": "Ahmed Akhreeda",
+    "since": 2025,
+    "noTitles": true,
+    "image": "https://www.okaz.com.sa/uploads/images/2025/07/23/2558826.jpeg",
+    "imageFor": "أحمد أخريدة"
+  },
+  "Al Shabab": {
+    "name": "عبدالعزيز المالك (رئيس مكلّف)",
+    "en": "Abdulaziz Al-Malik",
+    "since": 2025,
+    "noTitles": true,
+    "image": "https://cdn.eremnews.com/media/c6d6b5b2-16ac-4fc6-a24d-381cf7cf0153",
+    "imageFor": "عبدالعزيز المالك"
+  },
+  "Al-Shabab": {
+    "name": "عبدالعزيز المالك (رئيس مكلّف)",
+    "en": "Abdulaziz Al-Malik",
+    "since": 2025,
+    "noTitles": true,
+    "image": "https://cdn.eremnews.com/media/c6d6b5b2-16ac-4fc6-a24d-381cf7cf0153",
+    "imageFor": "عبدالعزيز المالك"
+  },
+  "Al Riyadh": {
+    "name": "بندر المقيل",
+    "en": "Bandar Al-Muqayyal",
+    "since": 2019,
+    "noTitles": true,
+    "image": "https://cp.slaati.com/wp-content/uploads/2023/08/caffa6f1-5062-451b-8295-b28c234485ae.jpg",
+    "imageFor": "بندر المقيل"
+  },
+  "Al-Riyadh": {
+    "name": "بندر المقيل",
+    "en": "Bandar Al-Muqayyal",
+    "since": 2019,
+    "noTitles": true,
+    "image": "https://cp.slaati.com/wp-content/uploads/2023/08/caffa6f1-5062-451b-8295-b28c234485ae.jpg",
+    "imageFor": "بندر المقيل"
+  },
+  "Al Hazem": {
+    "name": "طلال الحربي",
+    "en": "Talal Al-Harbi",
+    "since": 2025,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/harbi.jpg",
+    "imageFor": "طلال الحربي"
+  },
+  "Al-Hazem": {
+    "name": "طلال الحربي",
+    "en": "Talal Al-Harbi",
+    "since": 2025,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/harbi.jpg",
+    "imageFor": "طلال الحربي"
+  },
+  "Al Hazm": {
+    "name": "طلال الحربي",
+    "en": "Talal Al-Harbi",
+    "since": 2025,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/harbi.jpg",
+    "imageFor": "طلال الحربي"
+  },
+  "Al-Hazm": {
+    "name": "طلال الحربي",
+    "en": "Talal Al-Harbi",
+    "since": 2025,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/harbi.jpg",
+    "imageFor": "طلال الحربي"
+  },
+  "Al Kholood": {
+    "name": "بن هاربورغ",
+    "en": "Ben Harburg",
+    "since": 2025,
+    "noTitles": true,
+    "image": "https://static.srpcdigital.com/styles/1200x600/public/2026-06/1624849.jpeg.webp",
+    "imageAuto": true,
+    "imageFor": "بن هاربورغ",
+    "imageSrc": "https://aawsat.com/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/5288678-%D8%A8%D9%86-%D9%87%D8%A7%D8%B1%D8%A8%D9%88%D8%B1%D8%BA-%D9%84%D9%86-%D9%86%D9%86%D9%82%D9%84-%D8%A7%D9%84%D8%AE%D9%84%D9%88%D8%AF-%D9%85%D9%86-%D8%A7%D9%84%D8%B1%D8%B3%E2%80%A6-%D8%B3%D9%86%D8%AA%D9%88%D8%B3%D8%B9-%D8%AC%D8%BA%D8%B1%D8%A7%D9%81%D9%8A%D8%A7%D9%8B-%D8%A8%D8%A5%D9%86%D8%B4%D8%A7%D8%A1-%D9%85%D9%82%D8%B1%D8%A7%D8%AA"
+  },
+  "Al-Kholood": {
+    "name": "بن هاربورغ",
+    "en": "Ben Harburg",
+    "since": 2025,
+    "noTitles": true,
+    "image": "https://static.srpcdigital.com/styles/1200x600/public/2026-06/1624849.jpeg.webp",
+    "imageAuto": true,
+    "imageFor": "بن هاربورغ",
+    "imageSrc": "https://aawsat.com/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/5288678-%D8%A8%D9%86-%D9%87%D8%A7%D8%B1%D8%A8%D9%88%D8%B1%D8%BA-%D9%84%D9%86-%D9%86%D9%86%D9%82%D9%84-%D8%A7%D9%84%D8%AE%D9%84%D9%88%D8%AF-%D9%85%D9%86-%D8%A7%D9%84%D8%B1%D8%B3%E2%80%A6-%D8%B3%D9%86%D8%AA%D9%88%D8%B3%D8%B9-%D8%AC%D8%BA%D8%B1%D8%A7%D9%81%D9%8A%D8%A7%D9%8B-%D8%A8%D8%A5%D9%86%D8%B4%D8%A7%D8%A1-%D9%85%D9%82%D8%B1%D8%A7%D8%AA"
+  },
+  "Al Faisaly": {
+    "name": "عبدالمجيد العميم",
+    "en": "Abdulmajeed Al-Omaim",
+    "since": 2023,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/omaim.jpg",
+    "imageFor": "عبدالمجيد العميم"
+  },
+  "Al-Faisaly": {
+    "name": "عبدالمجيد العميم",
+    "en": "Abdulmajeed Al-Omaim",
+    "since": 2023,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/omaim.jpg",
+    "imageFor": "عبدالمجيد العميم"
+  },
+  "Arsenal": {
+    "name": "ستان وجوش كرونكي (رئيسان مشاركان)",
+    "en": "",
+    "since": 2023,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "الدوري الإنجليزي",
+        "detail": "2026",
+        "slug": "eng.1"
+      },
+      {
+        "name": "درع المجتمع",
+        "detail": "2023"
+      }
+    ]
+  },
+  "Manchester United": {
+    "name": "أفرام وجويل غليزر (رئيسان تنفيذيان مشاركان)",
+    "en": "",
+    "since": 2005,
+    "titlesTotal": 21,
+    "titles": [
+      {
+        "name": "الدوري الإنجليزي",
+        "detail": "5 · 2007، 2008، 2009، 2011، 2013",
+        "slug": "eng.1"
+      },
+      {
+        "name": "كأس الاتحاد الإنجليزي",
+        "detail": "2016، 2024",
+        "slug": "eng.fa"
+      },
+      {
+        "name": "كأس الرابطة",
+        "detail": "5 · 2006، 2009، 2010، 2017، 2023",
+        "slug": "eng.league_cup"
+      },
+      {
+        "name": "درع المجتمع",
+        "detail": "6 · 2007، 2008، 2010، 2011، 2013، 2016"
+      },
+      {
+        "name": "دوري أبطال أوروبا",
+        "detail": "2008",
+        "slug": "uefa.champions"
+      },
+      {
+        "name": "الدوري الأوروبي",
+        "detail": "2017",
+        "slug": "uefa.europa"
+      },
+      {
+        "name": "كأس العالم للأندية",
+        "detail": "2008",
+        "slug": "fifa.cwc"
+      }
+    ]
+  },
+  "AC Milan": {
+    "name": "باولو سكاروني",
+    "en": "Paolo Scaroni",
+    "since": 2018,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "الدوري الإيطالي",
+        "detail": "2022",
+        "slug": "ita.1"
+      },
+      {
+        "name": "السوبر الإيطالي",
+        "detail": "2025"
+      }
+    ]
+  },
+  "Chelsea": {
+    "name": "لم يُعلن الرئيس الجديد بعد (ترك تود بوهلي المنصب في سبتمبر 2026)",
+    "en": ""
+  },
+  "Tottenham Hotspur": {
+    "name": "بيتر شارينغتون (رئيس غير تنفيذي)",
+    "en": "Peter Charrington",
+    "since": 2025,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/charrington.jpg"
+  },
+  "AS Roma": {
+    "name": "دان فريدكين",
+    "en": "Dan Friedkin",
+    "since": 2020,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "دوري المؤتمر الأوروبي",
+        "detail": "2022",
+        "slug": "uefa.europa.conf"
+      }
+    ]
+  },
+  "Newcastle United": {
+    "name": "ياسر الرميان",
+    "en": "Yasir Al-Rumayyan",
+    "since": 2021,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "كأس الرابطة الإنجليزية",
+        "detail": "2025",
+        "slug": "eng.league_cup"
+      }
+    ]
+  },
+  "Napoli": {
+    "name": "أوريليو دي لورينتيس",
+    "en": "Aurelio De Laurentiis",
+    "since": 2004,
+    "titlesTotal": 7,
+    "titles": [
+      {
+        "name": "الدوري الإيطالي",
+        "detail": "2023، 2025",
+        "slug": "ita.1"
+      },
+      {
+        "name": "كأس إيطاليا",
+        "detail": "2012، 2014، 2020",
+        "slug": "ita.coppa_italia"
+      },
+      {
+        "name": "السوبر الإيطالي",
+        "detail": "2014، 2025"
+      }
+    ]
+  },
+  "Lyon": {
+    "name": "ميشيل كانغ",
+    "en": "Michele Kang",
+    "since": 2025,
+    "noTitles": true
+  },
+  "Olympique Lyonnais": {
+    "name": "ميشيل كانغ",
+    "en": "Michele Kang",
+    "since": 2025,
+    "noTitles": true
+  },
+  "Marseille": {
+    "name": "ستيفان ريتشارد",
+    "en": "Stephane Richard",
+    "since": 2026,
+    "noTitles": true,
+    "image": "https://madeinmarseille.net/actualites-marseille/stephane-richard-om.jpg"
+  },
+  "Olympique Marseille": {
+    "name": "ستيفان ريتشارد",
+    "en": "Stephane Richard",
+    "since": 2026,
+    "noTitles": true,
+    "image": "https://madeinmarseille.net/actualites-marseille/stephane-richard-om.jpg"
+  },
+  "FC Porto": {
+    "name": "أندريه فياش بواش",
+    "en": "Andre Villas-Boas",
+    "since": 2024,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "الدوري البرتغالي",
+        "detail": "2026",
+        "slug": "por.1"
+      },
+      {
+        "name": "السوبر البرتغالي",
+        "detail": "2024"
+      }
+    ]
+  },
+  "Porto": {
+    "name": "أندريه فياش بواش",
+    "en": "Andre Villas-Boas",
+    "since": 2024,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "الدوري البرتغالي",
+        "detail": "2026",
+        "slug": "por.1"
+      },
+      {
+        "name": "السوبر البرتغالي",
+        "detail": "2024"
+      }
+    ]
+  },
+  "Benfica": {
+    "name": "روي كوستا",
+    "en": "Rui Costa",
+    "since": 2021,
+    "titlesTotal": 4,
+    "titles": [
+      {
+        "name": "الدوري البرتغالي",
+        "detail": "2023",
+        "slug": "por.1"
+      },
+      {
+        "name": "كأس السوبر البرتغالي",
+        "detail": "2"
+      },
+      {
+        "name": "كأس الرابطة البرتغالية",
+        "detail": "1"
+      }
+    ]
+  },
+  "Lazio": {
+    "name": "كلاوديو لوتيتو",
+    "en": "Claudio Lotito",
+    "since": 2004,
+    "titlesTotal": 6,
+    "titles": [
+      {
+        "name": "كأس إيطاليا",
+        "detail": "2009، 2013، 2019",
+        "slug": "ita.coppa_italia"
+      },
+      {
+        "name": "السوبر الإيطالي",
+        "detail": "2009، 2017، 2019"
+      }
+    ]
+  },
+  "Villarreal": {
+    "name": "فيرناندو روج",
+    "en": "Fernando Roig",
+    "since": 1997,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "الدوري الأوروبي",
+        "detail": "2021",
+        "slug": "uefa.europa"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/roig.jpg"
+  },
+  "Real Sociedad": {
+    "name": "جوكين أبيريبايو",
+    "en": "Jokin Aperribay",
+    "since": 2008,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "كأس ملك إسبانيا",
+        "detail": "2020 (النهائي أبريل 2021)، 2026",
+        "slug": "esp.copa_del_rey"
+      }
+    ]
+  },
+  "Sevilla": {
+    "name": "خوسيه ماريا ديل نيدو كاراسكو",
+    "en": "Jose Maria del Nido Carrasco",
+    "since": 2023,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/jose_maria_del_nido_carrasco.jpg",
+    "imageAuto": true,
+    "imageFor": "Jose Maria del Nido Carrasco",
+    "imageSrc": "https://www.abc.es/deportes/orgullodenervion/noticias-sevilla-fc/presidente-sevilla-jose-maria-nido-carrasco-viaja-20261020102229-nts.html"
+  },
+  "Atalanta": {
+    "name": "أنطونيو بيركاسي",
+    "en": "Antonio Percassi",
+    "since": 2010,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "الدوري الأوروبي",
+        "detail": "2024",
+        "slug": "uefa.europa"
+      },
+      {
+        "name": "دوري الدرجة الثانية الإيطالي",
+        "detail": "2011"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/percassi.jpg"
+  },
+  "Athletic Club": {
+    "name": "جون أوريارتي",
+    "en": "Jon Uriarte",
+    "since": 2022,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "كأس ملك إسبانيا",
+        "detail": "2024",
+        "slug": "esp.copa_del_rey"
+      }
+    ]
+  },
+  "Real Betis": {
+    "name": "أنخل هارو",
+    "en": "Angel Haro",
+    "since": 2016,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "كأس ملك إسبانيا",
+        "detail": "2022",
+        "slug": "esp.copa_del_rey"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/angel_haro.jpg",
+    "imageAuto": true,
+    "imageFor": "Angel Haro",
+    "imageSrc": "https://www.football-espana.net/2022/02/16/real-betis-president-angel-haro-responds-to-barcelonas-reported-interest-in-nabil-fekir"
+  },
+  "Valencia": {
+    "name": "كيات ليم",
+    "en": "Kiat Lim",
+    "since": 2025,
+    "noTitles": true
+  },
+  "Fiorentina": {
+    "name": "جوزيبي كوميسو",
+    "en": "Giuseppe Commisso",
+    "since": 2026,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/giuseppe_commisso.jpg",
+    "imageAuto": true,
+    "imageFor": "Giuseppe Commisso",
+    "imageSrc": "https://www.tuttomercatoweb.com/serie-a/giuseppe-commisso-arrivato-lega-assemblea-presidente-fiorentina-2273938"
+  },
+  "Crystal Palace": {
+    "name": "ستيف باريش",
+    "en": "Steve Parish",
+    "since": 2010,
+    "titlesTotal": 3,
+    "titles": [
+      {
+        "name": "دوري المؤتمر الأوروبي",
+        "detail": "2026",
+        "slug": "uefa.europa.conf"
+      },
+      {
+        "name": "كأس الاتحاد الإنجليزي",
+        "detail": "2025",
+        "slug": "eng.fa"
+      },
+      {
+        "name": "درع المجتمع",
+        "detail": "2025"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/parish.jpg"
+  },
+  "Brighton & Hove Albion": {
+    "name": "توني بلوم",
+    "en": "Tony Bloom",
+    "since": 2009,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "دوري الدرجة الثالثة الإنجليزي",
+        "detail": "2011"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/bloom.jpg"
+  },
+  "Brighton": {
+    "name": "توني بلوم",
+    "en": "Tony Bloom",
+    "since": 2009,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "دوري الدرجة الثالثة الإنجليزي",
+        "detail": "2011"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/bloom.jpg"
+  },
+  "West Ham United": {
+    "name": "لم يُعلن رئيس جديد بعد (استقال ديفيد سوليفان في يونيو 2026)",
+    "en": ""
+  },
+  "Eintracht Frankfurt": {
+    "name": "ماتياس بيك",
+    "en": "Mathias Beck",
+    "since": 2024,
+    "noTitles": true,
+    "image": "https://www.hessenschau.de/sport/fussball/eintracht-frankfurt/beck-140~_t-1792487053853_v-16to9__medium.jpg"
+  },
+  "VfB Stuttgart": {
+    "name": "ديتمار ألغايير",
+    "en": "Dietmar Allgaier",
+    "since": 2024,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "كأس ألمانيا",
+        "detail": "2025",
+        "slug": "ger.dfb_pokal"
+      }
+    ],
+    "image": "https://cdn.schwaebische.de/2025/03/22/c0b8a731-444d-4e19-8bdf-1806fa034233.jpeg?w=1028&auto=compress%2Cformat&fit=scale-down"
+  },
+  "Stuttgart": {
+    "name": "ديتمار ألغايير",
+    "en": "Dietmar Allgaier",
+    "since": 2024,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "كأس ألمانيا",
+        "detail": "2025",
+        "slug": "ger.dfb_pokal"
+      }
+    ],
+    "image": "https://cdn.schwaebische.de/2025/03/22/c0b8a731-444d-4e19-8bdf-1806fa034233.jpeg?w=1028&auto=compress%2Cformat&fit=scale-down"
+  },
+  "RC Lens": {
+    "name": "جوزيف أوغورليان",
+    "en": "Joseph Oughourlian",
+    "since": 2018,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "كأس فرنسا",
+        "detail": "2026",
+        "slug": "fra.coupe_de_france"
+      }
+    ]
+  },
+  "Lens": {
+    "name": "جوزيف أوغورليان",
+    "en": "Joseph Oughourlian",
+    "since": 2018,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "كأس فرنسا",
+        "detail": "2026",
+        "slug": "fra.coupe_de_france"
+      }
+    ]
+  },
+  "Lille": {
+    "name": "أوليفييه ليتانغ",
+    "en": "Olivier Létang",
+    "since": 2020,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "الدوري الفرنسي",
+        "detail": "2021",
+        "slug": "fra.1"
+      },
+      {
+        "name": "كأس السوبر الفرنسي",
+        "detail": "2021"
+      }
+    ],
+    "image": "https://assets.goal.com/images/v3/blt739d0c92702d1ffd/971f473c95c338a9889aa7c2a6b9275ebdf71a34.jpg"
+  },
+  "LOSC Lille": {
+    "name": "أوليفييه ليتانغ",
+    "en": "Olivier Létang",
+    "since": 2020,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "الدوري الفرنسي",
+        "detail": "2021",
+        "slug": "fra.1"
+      },
+      {
+        "name": "كأس السوبر الفرنسي",
+        "detail": "2021"
+      }
+    ],
+    "image": "https://assets.goal.com/images/v3/blt739d0c92702d1ffd/971f473c95c338a9889aa7c2a6b9275ebdf71a34.jpg"
+  },
+  "AS Monaco": {
+    "name": "ديمتري ريبولوفليف",
+    "en": "Dmitry Rybolovlev",
+    "since": 2011,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "الدوري الفرنسي",
+        "detail": "2017",
+        "slug": "fra.1"
+      },
+      {
+        "name": "الدرجة الثانية الفرنسية",
+        "detail": "2013"
+      }
+    ]
+  },
+  "Monaco": {
+    "name": "ديمتري ريبولوفليف",
+    "en": "Dmitry Rybolovlev",
+    "since": 2011,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "الدوري الفرنسي",
+        "detail": "2017",
+        "slug": "fra.1"
+      },
+      {
+        "name": "الدرجة الثانية الفرنسية",
+        "detail": "2013"
+      }
+    ]
+  },
+  "Bologna": {
+    "name": "جوي سابوتو",
+    "en": "Joey Saputo",
+    "since": 2014,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "كأس إيطاليا",
+        "detail": "2025",
+        "slug": "ita.coppa_italia"
+      }
+    ]
+  },
+  "Celta Vigo": {
+    "name": "ماريان موريينو",
+    "en": "Marián Mouriño",
+    "since": 2023,
+    "noTitles": true
+  },
+  "Celta": {
+    "name": "ماريان موريينو",
+    "en": "Marián Mouriño",
+    "since": 2023,
+    "noTitles": true
+  },
+  "Girona": {
+    "name": "ديلفي جيلي",
+    "en": "Delfí Geli",
+    "since": 2015,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "كأس كتالونيا",
+        "detail": "2025"
+      },
+      {
+        "name": "السوبر الكتالوني",
+        "detail": "2019"
+      }
+    ],
+    "image": "https://assets.goal.com/images/v3/bltbf8746c7843572f2/01a2.png"
+  },
+  "Borussia Monchengladbach": {
+    "name": "راينر بونهوف",
+    "en": "Rainer Bonhof",
+    "since": 2024,
+    "noTitles": true,
+    "image": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_7824,h_4401/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/german_site_de_international_web/01hsbx51hnh2ax1scgxp.jpg"
+  },
+  "Borussia Mönchengladbach": {
+    "name": "راينر بونهوف",
+    "en": "Rainer Bonhof",
+    "since": 2024,
+    "noTitles": true,
+    "image": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_7824,h_4401/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/german_site_de_international_web/01hsbx51hnh2ax1scgxp.jpg"
+  },
+  "Getafe": {
+    "name": "أنخل توريس",
+    "en": "Ángel Torres",
+    "since": 2002,
+    "noTitles": true
+  },
+  "Torino": {
+    "name": "أوربانو كايرو",
+    "en": "Urbano Cairo",
+    "since": 2005,
+    "noTitles": true
+  },
+  "Osasuna": {
+    "name": "لويس سابالزا",
+    "en": "Luis Sabalza",
+    "since": 2014,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الإسبانية",
+        "detail": "2019"
+      }
+    ],
+    "image": "https://www.osasuna.es/public/Image/2025/7/fotosfutbolbaseosasuna2023-2024_jpu_8964_jpg_Vertical.webp"
+  },
+  "Rayo Vallecano": {
+    "name": "راؤول مارتن بريسا",
+    "en": "Raúl Martín Presa",
+    "since": 2011,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الإسبانية",
+        "detail": "2018"
+      }
+    ],
+    "image": "https://www.football-espana.net/wp-content/uploads/2025/08/Presa.jpeg"
+  },
+  "Alaves": {
+    "name": "ألفونسو فرنانديز دي تروكونيث",
+    "en": "Alfonso Fernández de Trocóniz",
+    "since": 2013,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الإسبانية",
+        "detail": "2016"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/alfonso_fernandez_de_troconiz.jpg",
+    "imageAuto": true,
+    "imageFor": "Alfonso Fernández de Trocóniz",
+    "imageSrc": "https://elcierredigital.com/pizarra-deportiva/imperio-alfonso-fernandez-de-troconiz-todopoderoso-presidente-hombre-palco-alaves"
+  },
+  "Deportivo Alaves": {
+    "name": "ألفونسو فرنانديز دي تروكونيث",
+    "en": "Alfonso Fernández de Trocóniz",
+    "since": 2013,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الإسبانية",
+        "detail": "2016"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/alfonso_fernandez_de_troconiz.jpg",
+    "imageAuto": true,
+    "imageFor": "Alfonso Fernández de Trocóniz",
+    "imageSrc": "https://elcierredigital.com/pizarra-deportiva/imperio-alfonso-fernandez-de-troconiz-todopoderoso-presidente-hombre-palco-alaves"
+  },
+  "Deportivo Alavés": {
+    "name": "ألفونسو فرنانديز دي تروكونيث",
+    "en": "Alfonso Fernández de Trocóniz",
+    "since": 2013,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الإسبانية",
+        "detail": "2016"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/alfonso_fernandez_de_troconiz.jpg",
+    "imageAuto": true,
+    "imageFor": "Alfonso Fernández de Trocóniz",
+    "imageSrc": "https://elcierredigital.com/pizarra-deportiva/imperio-alfonso-fernandez-de-troconiz-todopoderoso-presidente-hombre-palco-alaves"
+  },
+  "Strasbourg": {
+    "name": "مارك كيلر",
+    "en": "Marc Keller",
+    "since": 2012,
+    "titlesTotal": 4,
+    "titles": [
+      {
+        "name": "كأس الرابطة الفرنسية",
+        "detail": "2019"
+      },
+      {
+        "name": "الدرجة الثانية الفرنسية",
+        "detail": "2017"
+      },
+      {
+        "name": "دوري ناسيونال (الدرجة الثالثة)",
+        "detail": "2016"
+      },
+      {
+        "name": "ناسيونال 2 (الدرجة الرابعة)",
+        "detail": "2013"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/marc_keller.jpg",
+    "imageAuto": true,
+    "imageFor": "Marc Keller",
+    "imageSrc": "https://www.dna.fr/sport/2026/09/07/mercato-supporters-ambitions-l-interview-exclusive-de-marc-keller-le-president-du-racing-club-de-strasbourg"
+  },
+  "RC Strasbourg": {
+    "name": "مارك كيلر",
+    "en": "Marc Keller",
+    "since": 2012,
+    "titlesTotal": 4,
+    "titles": [
+      {
+        "name": "كأس الرابطة الفرنسية",
+        "detail": "2019"
+      },
+      {
+        "name": "الدرجة الثانية الفرنسية",
+        "detail": "2017"
+      },
+      {
+        "name": "دوري ناسيونال (الدرجة الثالثة)",
+        "detail": "2016"
+      },
+      {
+        "name": "ناسيونال 2 (الدرجة الرابعة)",
+        "detail": "2013"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/marc_keller.jpg",
+    "imageAuto": true,
+    "imageFor": "Marc Keller",
+    "imageSrc": "https://www.dna.fr/sport/2026/09/07/mercato-supporters-ambitions-l-interview-exclusive-de-marc-keller-le-president-du-racing-club-de-strasbourg"
+  },
+  "RC Strasbourg Alsace": {
+    "name": "مارك كيلر",
+    "en": "Marc Keller",
+    "since": 2012,
+    "titlesTotal": 4,
+    "titles": [
+      {
+        "name": "كأس الرابطة الفرنسية",
+        "detail": "2019"
+      },
+      {
+        "name": "الدرجة الثانية الفرنسية",
+        "detail": "2017"
+      },
+      {
+        "name": "دوري ناسيونال (الدرجة الثالثة)",
+        "detail": "2016"
+      },
+      {
+        "name": "ناسيونال 2 (الدرجة الرابعة)",
+        "detail": "2013"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/marc_keller.jpg",
+    "imageAuto": true,
+    "imageFor": "Marc Keller",
+    "imageSrc": "https://www.dna.fr/sport/2026/09/07/mercato-supporters-ambitions-l-interview-exclusive-de-marc-keller-le-president-du-racing-club-de-strasbourg"
+  },
+  "Nice": {
+    "name": "موريس كوهين",
+    "en": "Maurice Cohen",
+    "since": 2026,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/maurice_cohen.jpg",
+    "imageAuto": true,
+    "imageFor": "Maurice Cohen",
+    "imageSrc": "https://www.nicematin.com/sports/football/maurice-cohen-vice-president-delegue-de-l-ogc-nice-est-l-invite-de-gym-tonic-10668106"
+  },
+  "OGC Nice": {
+    "name": "موريس كوهين",
+    "en": "Maurice Cohen",
+    "since": 2026,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/maurice_cohen.jpg",
+    "imageAuto": true,
+    "imageFor": "Maurice Cohen",
+    "imageSrc": "https://www.nicematin.com/sports/football/maurice-cohen-vice-president-delegue-de-l-ogc-nice-est-l-invite-de-gym-tonic-10668106"
+  },
+  "Rennes": {
+    "name": "أرنو بوي",
+    "en": "Arnaud Pouille",
+    "since": 2024,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/arnaud_pouille.jpg",
+    "imageAuto": true,
+    "imageFor": "Arnaud Pouille",
+    "imageSrc": "https://actu.fr/bretagne/rennes_35238/football-qui-est-arnaud-pouille-le-nouveau-president-du-stade-rennais-qui-succede-a-olivier-cloarec_61692447.html"
+  },
+  "Stade Rennais": {
+    "name": "أرنو بوي",
+    "en": "Arnaud Pouille",
+    "since": 2024,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/arnaud_pouille.jpg",
+    "imageAuto": true,
+    "imageFor": "Arnaud Pouille",
+    "imageSrc": "https://actu.fr/bretagne/rennes_35238/football-qui-est-arnaud-pouille-le-nouveau-president-du-stade-rennais-qui-succede-a-olivier-cloarec_61692447.html"
+  },
+  "Stade Rennais FC": {
+    "name": "أرنو بوي",
+    "en": "Arnaud Pouille",
+    "since": 2024,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/arnaud_pouille.jpg",
+    "imageAuto": true,
+    "imageFor": "Arnaud Pouille",
+    "imageSrc": "https://actu.fr/bretagne/rennes_35238/football-qui-est-arnaud-pouille-le-nouveau-president-du-stade-rennais-qui-succede-a-olivier-cloarec_61692447.html"
+  },
+  "Brest": {
+    "name": "دوني لو سان",
+    "en": "Denis Le Saint",
+    "since": 2016,
+    "noTitles": true
+  },
+  "Stade Brestois 29": {
+    "name": "دوني لو سان",
+    "en": "Denis Le Saint",
+    "since": 2016,
+    "noTitles": true
+  },
+  "Stade Brestois": {
+    "name": "دوني لو سان",
+    "en": "Denis Le Saint",
+    "since": 2016,
+    "noTitles": true
+  },
+  "Toulouse": {
+    "name": "أوليفييه كلوارك",
+    "en": "Olivier Cloarec",
+    "since": 2025,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/olivier_cloarec.jpg",
+    "imageAuto": true,
+    "imageFor": "Olivier Cloarec",
+    "imageSrc": "https://www.footmercato.net/a8867169101746044331-olivier-cloarec-nouveau-president-de-toulouse"
+  },
+  "Toulouse FC": {
+    "name": "أوليفييه كلوارك",
+    "en": "Olivier Cloarec",
+    "since": 2025,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/olivier_cloarec.jpg",
+    "imageAuto": true,
+    "imageFor": "Olivier Cloarec",
+    "imageSrc": "https://www.footmercato.net/a8867169101746044331-olivier-cloarec-nouveau-president-de-toulouse"
+  },
+  "Lorient": {
+    "name": "لويك فيري",
+    "en": "Loïc Féry",
+    "since": 2009,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الفرنسية",
+        "detail": "2020، 2025"
+      }
+    ],
+    "image": "https://www.fclorient.bzh/voy_content/uploads/2017/09/fery-loic-president-fc-lorient_3000x1997-scaled.jpg"
+  },
+  "FC Lorient": {
+    "name": "لويك فيري",
+    "en": "Loïc Féry",
+    "since": 2009,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الفرنسية",
+        "detail": "2020، 2025"
+      }
+    ],
+    "image": "https://www.fclorient.bzh/voy_content/uploads/2017/09/fery-loic-president-fc-lorient_3000x1997-scaled.jpg"
+  },
+  "Cagliari": {
+    "name": "توماسو جوليني",
+    "en": "Tommaso Giulini",
+    "since": 2014,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الإيطالية",
+        "detail": "2016"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/giulini.jpg"
+  },
+  "Lecce": {
+    "name": "سافيريو ستيكي داميانّي",
+    "en": "Saverio Sticchi Damiani",
+    "since": 2017,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الإيطالية",
+        "detail": "2022"
+      },
+      {
+        "name": "الدرجة الثالثة الإيطالية",
+        "detail": "2018"
+      }
+    ],
+    "image": ""
+  },
+  "Genoa": {
+    "name": "دان شوكو",
+    "en": "Dan Sucu",
+    "since": 2025,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/dan_sucu.jpg",
+    "imageAuto": true,
+    "imageFor": "Dan Sucu",
+    "imageSrc": "https://www.rainews.it/articoli/2024/12/genoa-chi-e-dan-sucu-il-nuovo-proprietario-del-club-28019336-3a13-414f-a861-d1dd149c464e.html"
+  },
+  "Udinese": {
+    "name": "فرانكو سولداتي",
+    "en": "Franco Soldati",
+    "since": 1999,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "كأس إنترتوتو الأوروبية",
+        "detail": "2000"
+      }
+    ]
+  },
+  "St. Pauli": {
+    "name": "أوكه غوتليش",
+    "en": "Oke Göttlich",
+    "since": 2014,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "الدوري الألماني الدرجة الثانية",
+        "detail": "2024",
+        "slug": "ger.2"
+      }
+    ],
+    "image": "https://reshape.sport1.de/c/t/52b2e297-df0b-4d1d-b8f5-ba668048e634/1290x726"
+  },
+  "FC St. Pauli": {
+    "name": "أوكه غوتليش",
+    "en": "Oke Göttlich",
+    "since": 2014,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "الدوري الألماني الدرجة الثانية",
+        "detail": "2024",
+        "slug": "ger.2"
+      }
+    ],
+    "image": "https://reshape.sport1.de/c/t/52b2e297-df0b-4d1d-b8f5-ba668048e634/1290x726"
+  },
+  "Mainz": {
+    "name": "شتيفان هوفمان",
+    "en": "Stefan Hofmann",
+    "since": 2018,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/stefan_hofmann.jpg",
+    "imageAuto": true,
+    "imageFor": "Stefan Hofmann",
+    "imageSrc": "https://www.sueddeutsche.de/sport/mainz-stefan-hofmann-bleibt-vorsitzender-des-fsv-mainz-dpa.urn-newsml-dpa-com-20090101-210629-99-196323"
+  },
+  "1. FSV Mainz 05": {
+    "name": "شتيفان هوفمان",
+    "en": "Stefan Hofmann",
+    "since": 2018,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/stefan_hofmann.jpg",
+    "imageAuto": true,
+    "imageFor": "Stefan Hofmann",
+    "imageSrc": "https://www.sueddeutsche.de/sport/mainz-stefan-hofmann-bleibt-vorsitzender-des-fsv-mainz-dpa.urn-newsml-dpa-com-20090101-210629-99-196323"
+  },
+  "Mainz 05": {
+    "name": "شتيفان هوفمان",
+    "en": "Stefan Hofmann",
+    "since": 2018,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/stefan_hofmann.jpg",
+    "imageAuto": true,
+    "imageFor": "Stefan Hofmann",
+    "imageSrc": "https://www.sueddeutsche.de/sport/mainz-stefan-hofmann-bleibt-vorsitzender-des-fsv-mainz-dpa.urn-newsml-dpa-com-20090101-210629-99-196323"
+  },
+  "1. FC Köln": {
+    "name": "يورن شتوبه",
+    "en": "Jörn Stobbe",
+    "since": 2025,
+    "noTitles": true
+  },
+  "FC Cologne": {
+    "name": "يورن شتوبه",
+    "en": "Jörn Stobbe",
+    "since": 2025,
+    "noTitles": true
+  },
+  "Koln": {
+    "name": "يورن شتوبه",
+    "en": "Jörn Stobbe",
+    "since": 2025,
+    "noTitles": true
+  },
+  "Köln": {
+    "name": "يورن شتوبه",
+    "en": "Jörn Stobbe",
+    "since": 2025,
+    "noTitles": true
+  },
+  "Hamburg SV": {
+    "name": "هنريك كونكه",
+    "en": "Henrik Köncke",
+    "since": 2025,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/henrik_koncke.jpg",
+    "imageAuto": true,
+    "imageFor": "Henrik Köncke",
+    "imageSrc": "https://www.spiegel.de/sport/fussball/hamburger-sv-henrik-koencke-folgt-auf-marcell-jansen-als-praesident-a-f02ac8d4-e903-4527-907e-11ad2aa45ccb"
+  },
+  "Hamburger SV": {
+    "name": "هنريك كونكه",
+    "en": "Henrik Köncke",
+    "since": 2025,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/henrik_koncke.jpg",
+    "imageAuto": true,
+    "imageFor": "Henrik Köncke",
+    "imageSrc": "https://www.spiegel.de/sport/fussball/hamburger-sv-henrik-koencke-folgt-auf-marcell-jansen-als-praesident-a-f02ac8d4-e903-4527-907e-11ad2aa45ccb"
+  },
+  "Hamburg": {
+    "name": "هنريك كونكه",
+    "en": "Henrik Köncke",
+    "since": 2025,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/henrik_koncke.jpg",
+    "imageAuto": true,
+    "imageFor": "Henrik Köncke",
+    "imageSrc": "https://www.spiegel.de/sport/fussball/hamburger-sv-henrik-koencke-folgt-auf-marcell-jansen-als-praesident-a-f02ac8d4-e903-4527-907e-11ad2aa45ccb"
+  },
+  "Levante": {
+    "name": "بابلو سانشيز",
+    "en": "Pablo Sánchez",
+    "since": 2023,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الإسبانية",
+        "detail": "2025"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/pablo_sanchez.jpg",
+    "imageAuto": true,
+    "imageFor": "Pablo Sánchez",
+    "imageSrc": "https://www.levante-emv.com/deportes/2026/05/29/pablo-sanchez-presidente-levante-club-130807043.html"
+  },
+  "Espanyol": {
+    "name": "آلان بيس",
+    "en": "Alan Pace",
+    "since": 2025,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الإنجليزية",
+        "detail": "2023 (مع بيرنلي)"
+      }
+    ],
+    "titlesLabel": "بطولاته كرئيس",
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/pace.jpg"
+  },
+  "Burnley": {
+    "name": "آلان بيس",
+    "en": "Alan Pace",
+    "since": 2020,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الإنجليزية",
+        "detail": "2023"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/pace.jpg"
+  },
+  "Real Oviedo": {
+    "name": "مارتن بيلايث",
+    "en": "Martín Peláez",
+    "since": 2022,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/martin_pelaez.jpg",
+    "imageAuto": true,
+    "imageFor": "Martín Peláez",
+    "imageSrc": "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/02/26/martin-pelaez-presidente-real-oviedo-grupo-pachuca-va-vender-va-estar-anos/00031772110927990812741.htm"
+  },
+  "Oviedo": {
+    "name": "مارتن بيلايث",
+    "en": "Martín Peláez",
+    "since": 2022,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/martin_pelaez.jpg",
+    "imageAuto": true,
+    "imageFor": "Martín Peláez",
+    "imageSrc": "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/02/26/martin-pelaez-presidente-real-oviedo-grupo-pachuca-va-vender-va-estar-anos/00031772110927990812741.htm"
+  },
+  "Fulham": {
+    "name": "شهيد خان",
+    "en": "Shahid Khan",
+    "since": 2013,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الإنجليزية",
+        "detail": "2022"
+      }
+    ]
+  },
+  "Sunderland": {
+    "name": "كيريل لويس-دريفوس",
+    "en": "Kyril Louis-Dreyfus",
+    "since": 2021,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/kyril_louis_dreyfus.jpg",
+    "imageAuto": true,
+    "imageFor": "Kyril Louis-Dreyfus",
+    "imageSrc": "https://www.chroniclelive.co.uk/sport/football/football-news/sunderland-owner-kyril-louis-dreyfus-22374997?t"
+  },
+  "Nottingham Forest": {
+    "name": "إيفانغيلوس ماريناكيس",
+    "en": "Evangelos Marinakis",
+    "since": 2017,
+    "titlesTotal": 18,
+    "titles": [
+      {
+        "name": "الدوري اليوناني",
+        "detail": "11 مرة · 2011، 2012، 2013، 2014، 2015، 2016، 2017، 2020، 2021، 2022، 2025 (مع أولمبياكوس)"
+      },
+      {
+        "name": "كأس اليونان",
+        "detail": "5 مرات · 2012، 2013، 2015، 2020، 2025 (مع أولمبياكوس)"
+      },
+      {
+        "name": "دوري المؤتمر الأوروبي",
+        "detail": "2024 (مع أولمبياكوس)",
+        "slug": "uefa.europa.conf"
+      },
+      {
+        "name": "السوبر اليوناني",
+        "detail": "2025 (مع أولمبياكوس)"
+      }
+    ],
+    "titlesLabel": "بطولاته كرئيس"
+  },
+  "Olympiacos": {
+    "name": "إيفانغيلوس ماريناكيس",
+    "en": "Evangelos Marinakis",
+    "since": 2010,
+    "titlesTotal": 18,
+    "titles": [
+      {
+        "name": "الدوري اليوناني",
+        "detail": "11 مرة · 2011، 2012، 2013، 2014، 2015، 2016، 2017، 2020، 2021، 2022، 2025"
+      },
+      {
+        "name": "كأس اليونان",
+        "detail": "5 مرات · 2012، 2013، 2015، 2020، 2025"
+      },
+      {
+        "name": "دوري المؤتمر الأوروبي",
+        "detail": "2024",
+        "slug": "uefa.europa.conf"
+      },
+      {
+        "name": "السوبر اليوناني",
+        "detail": "2025"
+      }
+    ]
+  },
+  "Olympiakos": {
+    "name": "إيفانغيلوس ماريناكيس",
+    "en": "Evangelos Marinakis",
+    "since": 2010,
+    "titlesTotal": 18,
+    "titles": [
+      {
+        "name": "الدوري اليوناني",
+        "detail": "11 مرة · 2011، 2012، 2013، 2014، 2015، 2016، 2017، 2020، 2021، 2022، 2025"
+      },
+      {
+        "name": "كأس اليونان",
+        "detail": "5 مرات · 2012، 2013، 2015، 2020، 2025"
+      },
+      {
+        "name": "دوري المؤتمر الأوروبي",
+        "detail": "2024",
+        "slug": "uefa.europa.conf"
+      },
+      {
+        "name": "السوبر اليوناني",
+        "detail": "2025"
+      }
+    ]
+  },
+  "Olympiacos Piraeus": {
+    "name": "إيفانغيلوس ماريناكيس",
+    "en": "Evangelos Marinakis",
+    "since": 2010,
+    "titlesTotal": 18,
+    "titles": [
+      {
+        "name": "الدوري اليوناني",
+        "detail": "11 مرة · 2011، 2012، 2013، 2014، 2015، 2016، 2017، 2020، 2021، 2022، 2025"
+      },
+      {
+        "name": "كأس اليونان",
+        "detail": "5 مرات · 2012، 2013، 2015، 2020، 2025"
+      },
+      {
+        "name": "دوري المؤتمر الأوروبي",
+        "detail": "2024",
+        "slug": "uefa.europa.conf"
+      },
+      {
+        "name": "السوبر اليوناني",
+        "detail": "2025"
+      }
+    ]
+  },
+  "Everton": {
+    "name": "دان فريدكين",
+    "en": "Dan Friedkin",
+    "since": 2024,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "دوري المؤتمر الأوروبي",
+        "detail": "2022 (مع روما)",
+        "slug": "uefa.europa.conf"
+      }
+    ],
+    "titlesLabel": "بطولاته كرئيس"
+  },
+  "Pisa": {
+    "name": "داميان كومولي",
+    "en": "Damien Comolli",
+    "since": 2026,
+    "titlesTotal": 2,
+    "titles": [
+      {
+        "name": "كأس فرنسا",
+        "detail": "2023 (مع تولوز)",
+        "slug": "fra.coupe_de_france"
+      },
+      {
+        "name": "الدرجة الثانية الفرنسية",
+        "detail": "2022 (مع تولوز)"
+      }
+    ],
+    "titlesLabel": "بطولاته كرئيس"
+  },
+  "Hellas Verona": {
+    "name": "إيتالو زانزي",
+    "en": "Italo Zanzi",
+    "since": 2025,
+    "noTitles": true,
+    "image": "https://www.calcioefinanza.it/wp-content/uploads/2024/12/Roma-Fiorentina-ASTA3981.webp"
+  },
+  "Verona": {
+    "name": "إيتالو زانزي",
+    "en": "Italo Zanzi",
+    "since": 2025,
+    "noTitles": true,
+    "image": "https://www.calcioefinanza.it/wp-content/uploads/2024/12/Roma-Fiorentina-ASTA3981.webp"
+  },
+  "Cremonese": {
+    "name": "موريتسيو كالتشينوني",
+    "en": "Maurizio Calcinoni",
+    "since": 2026,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/maurizio_calcinoni.jpg",
+    "imageAuto": true,
+    "imageFor": "Maurizio Calcinoni",
+    "imageSrc": "https://www.ilovepalermocalcio.com/cremonese-ufficiale-maurizio-calcinoni-e-il-nuovo-presidente/"
+  },
+  "Leeds United": {
+    "name": "باراغ مارات",
+    "en": "Paraag Marathe",
+    "since": 2023,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "دوري الدرجة الأولى الإنجليزي (التشامبيونشيب)",
+        "detail": "2025"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/paraag_marathe.jpg",
+    "imageAuto": true,
+    "imageFor": "Paraag Marathe",
+    "imageSrc": "https://www.rangersnews.uk/news/who-is-paraag-marathe-meet-the-49ers-enterprises-president-spearheading-rangers-takeover-talks/"
+  },
+  "Leeds": {
+    "name": "باراغ مارات",
+    "en": "Paraag Marathe",
+    "since": 2023,
+    "titlesTotal": 1,
+    "titles": [
+      {
+        "name": "دوري الدرجة الأولى الإنجليزي (التشامبيونشيب)",
+        "detail": "2025"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/paraag_marathe.jpg",
+    "imageAuto": true,
+    "imageFor": "Paraag Marathe",
+    "imageSrc": "https://www.rangersnews.uk/news/who-is-paraag-marathe-meet-the-49ers-enterprises-president-spearheading-rangers-takeover-talks/"
+  },
+  "Wolverhampton Wanderers": {
+    "name": "ناثان شي",
+    "en": "Nathan Shi",
+    "since": 2025,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/shi.jpg"
+  },
+  "Wolves": {
+    "name": "ناثان شي",
+    "en": "Nathan Shi",
+    "since": 2025,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/shi.jpg"
+  },
+  "Hoffenheim": {
+    "name": "أندريه كرويتسفيزر",
+    "en": "André Kreuzwieser",
+    "since": 2026,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/andre_kreuzwieser.jpg",
+    "imageAuto": true,
+    "imageFor": "André Kreuzwieser",
+    "imageSrc": "https://www.fupa.net/news/andre-kreuzwieser-zum-neuen-tsg-praesidenten-gewaehlt-3165318"
+  },
+  "TSG Hoffenheim": {
+    "name": "أندريه كرويتسفيزر",
+    "en": "André Kreuzwieser",
+    "since": 2026,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/andre_kreuzwieser.jpg",
+    "imageAuto": true,
+    "imageFor": "André Kreuzwieser",
+    "imageSrc": "https://www.fupa.net/news/andre-kreuzwieser-zum-neuen-tsg-praesidenten-gewaehlt-3165318"
+  },
+  "1899 Hoffenheim": {
+    "name": "أندريه كرويتسفيزر",
+    "en": "André Kreuzwieser",
+    "since": 2026,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/andre_kreuzwieser.jpg",
+    "imageAuto": true,
+    "imageFor": "André Kreuzwieser",
+    "imageSrc": "https://www.fupa.net/news/andre-kreuzwieser-zum-neuen-tsg-praesidenten-gewaehlt-3165318"
+  },
+  "Augsburg": {
+    "name": "ماركوس كرابف",
+    "en": "Markus Krapf",
+    "since": 2022,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/krapf.jpg"
+  },
+  "FC Augsburg": {
+    "name": "ماركوس كرابف",
+    "en": "Markus Krapf",
+    "since": 2022,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/krapf.jpg"
+  },
+  "Heidenheim": {
+    "name": "هولغر سانفالد",
+    "en": "Holger Sanwald",
+    "since": 2017,
+    "titles": [
+      {
+        "name": "الدوري الألماني الدرجة الثانية",
+        "detail": "2023",
+        "slug": "ger.2"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/holger_sanwald.jpg",
+    "imageAuto": true,
+    "imageFor": "Holger Sanwald",
+    "imageSrc": "https://www.sportschau.de/regional/swr/swr-heidenheim-boss-holger-sanwald-wir-duerfen-gar-nicht-so-viel-rechnen-100.html"
+  },
+  "1. FC Heidenheim": {
+    "name": "هولغر سانفالد",
+    "en": "Holger Sanwald",
+    "since": 2017,
+    "titles": [
+      {
+        "name": "الدوري الألماني الدرجة الثانية",
+        "detail": "2023",
+        "slug": "ger.2"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/holger_sanwald.jpg",
+    "imageAuto": true,
+    "imageFor": "Holger Sanwald",
+    "imageSrc": "https://www.sportschau.de/regional/swr/swr-heidenheim-boss-holger-sanwald-wir-duerfen-gar-nicht-so-viel-rechnen-100.html"
+  },
+  "1. FC Heidenheim 1846": {
+    "name": "هولغر سانفالد",
+    "en": "Holger Sanwald",
+    "since": 2017,
+    "titles": [
+      {
+        "name": "الدوري الألماني الدرجة الثانية",
+        "detail": "2023",
+        "slug": "ger.2"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/holger_sanwald.jpg",
+    "imageAuto": true,
+    "imageFor": "Holger Sanwald",
+    "imageSrc": "https://www.sportschau.de/regional/swr/swr-heidenheim-boss-holger-sanwald-wir-duerfen-gar-nicht-so-viel-rechnen-100.html"
+  },
+  "Mallorca": {
+    "name": "آندي كولبرغ",
+    "en": "Andy Kohlberg",
+    "since": 2017,
+    "titles": [
+      {
+        "name": "الدرجة الثالثة الإسبانية (المجموعة 3)",
+        "detail": "2018"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/kohlberg.jpg"
+  },
+  "Real Mallorca": {
+    "name": "آندي كولبرغ",
+    "en": "Andy Kohlberg",
+    "since": 2017,
+    "titles": [
+      {
+        "name": "الدرجة الثالثة الإسبانية (المجموعة 3)",
+        "detail": "2018"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/kohlberg.jpg"
+  },
+  "RCD Mallorca": {
+    "name": "آندي كولبرغ",
+    "en": "Andy Kohlberg",
+    "since": 2017,
+    "titles": [
+      {
+        "name": "الدرجة الثالثة الإسبانية (المجموعة 3)",
+        "detail": "2018"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/kohlberg.jpg"
+  },
+  "Parma": {
+    "name": "كايل كراوس",
+    "en": "Kyle Krause",
+    "since": 2020,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الإيطالية",
+        "detail": "2024"
+      }
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Kyle_Krause_%28Parma%2C_April_2021%29_%28cropped%29.jpg/500px-Kyle_Krause_%28Parma%2C_April_2021%29_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imageAuto": true,
+    "imageFor": "Kyle Krause",
+    "imageSrc": "https://it.wikipedia.org/wiki/Kyle_Krause"
+  },
+  "Parma Calcio 1913": {
+    "name": "كايل كراوس",
+    "en": "Kyle Krause",
+    "since": 2020,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الإيطالية",
+        "detail": "2024"
+      }
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Kyle_Krause_%28Parma%2C_April_2021%29_%28cropped%29.jpg/500px-Kyle_Krause_%28Parma%2C_April_2021%29_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imageAuto": true,
+    "imageFor": "Kyle Krause",
+    "imageSrc": "https://it.wikipedia.org/wiki/Kyle_Krause"
+  },
+  "Auxerre": {
+    "name": "جيمس تشو",
+    "en": "James Zhou",
+    "since": 2021,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الفرنسية",
+        "detail": "2024"
+      }
+    ]
+  },
+  "AJ Auxerre": {
+    "name": "جيمس تشو",
+    "en": "James Zhou",
+    "since": 2021,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الفرنسية",
+        "detail": "2024"
+      }
+    ]
+  },
+  "Le Havre": {
+    "name": "جان ميشيل روسييه",
+    "en": "Jean-Michel Roussier",
+    "since": 2022,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الفرنسية",
+        "detail": "2023"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/jean_michel_roussier.jpg",
+    "imageAuto": true,
+    "imageFor": "Jean-Michel Roussier",
+    "imageSrc": "https://www.sofoot.com/breves/le-president-du-havre-jean-michel-roussier-reagit-a-linterdiction-de-stade-dun-supporter-de-six-ans"
+  },
+  "Le Havre AC": {
+    "name": "جان ميشيل روسييه",
+    "en": "Jean-Michel Roussier",
+    "since": 2022,
+    "titles": [
+      {
+        "name": "الدرجة الثانية الفرنسية",
+        "detail": "2023"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/jean_michel_roussier.jpg",
+    "imageAuto": true,
+    "imageFor": "Jean-Michel Roussier",
+    "imageSrc": "https://www.sofoot.com/breves/le-president-du-havre-jean-michel-roussier-reagit-a-linterdiction-de-stade-dun-supporter-de-six-ans"
+  },
+  "Union Berlin": {
+    "name": "ديرك تسينغلر",
+    "en": "Dirk Zingler",
+    "since": 2004,
+    "titles": [
+      {
+        "name": "دوري الدرجة الثالثة الألماني",
+        "detail": "2009"
+      },
+      {
+        "name": "أوبرليغا نورد (الدرجة الرابعة)",
+        "detail": "2006"
+      }
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/DirkZingler_06.jpg/500px-DirkZingler_06.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imageAuto": true,
+    "imageFor": "Dirk Zingler",
+    "imageSrc": "https://de.wikipedia.org/wiki/Dirk_Zingler"
+  },
+  "1. FC Union Berlin": {
+    "name": "ديرك تسينغلر",
+    "en": "Dirk Zingler",
+    "since": 2004,
+    "titles": [
+      {
+        "name": "دوري الدرجة الثالثة الألماني",
+        "detail": "2009"
+      },
+      {
+        "name": "أوبرليغا نورد (الدرجة الرابعة)",
+        "detail": "2006"
+      }
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/DirkZingler_06.jpg/500px-DirkZingler_06.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imageAuto": true,
+    "imageFor": "Dirk Zingler",
+    "imageSrc": "https://de.wikipedia.org/wiki/Dirk_Zingler"
+  },
+  "FC Union Berlin": {
+    "name": "ديرك تسينغلر",
+    "en": "Dirk Zingler",
+    "since": 2004,
+    "titles": [
+      {
+        "name": "دوري الدرجة الثالثة الألماني",
+        "detail": "2009"
+      },
+      {
+        "name": "أوبرليغا نورد (الدرجة الرابعة)",
+        "detail": "2006"
+      }
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/DirkZingler_06.jpg/500px-DirkZingler_06.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imageAuto": true,
+    "imageFor": "Dirk Zingler",
+    "imageSrc": "https://de.wikipedia.org/wiki/Dirk_Zingler"
+  },
+  "Como": {
+    "name": "ميروان سوارسو",
+    "en": "Mirwan Suwarso",
+    "since": 2019,
+    "titles": [
+      {
+        "name": "الدرجة الثالثة الإيطالية",
+        "detail": "2021"
+      }
+    ]
+  },
+  "Como 1907": {
+    "name": "ميروان سوارسو",
+    "en": "Mirwan Suwarso",
+    "since": 2019,
+    "titles": [
+      {
+        "name": "الدرجة الثالثة الإيطالية",
+        "detail": "2021"
+      }
+    ]
+  },
+  "Angers": {
+    "name": "رومان شبان",
+    "en": "Romain Chabane",
+    "since": 2023,
+    "noTitles": true
+  },
+  "Angers SCO": {
+    "name": "رومان شبان",
+    "en": "Romain Chabane",
+    "since": 2023,
+    "noTitles": true
+  },
+  "Nantes": {
+    "name": "فالديمار كيتا",
+    "en": "Waldemar Kita",
+    "since": 2007,
+    "titles": [
+      {
+        "name": "كأس فرنسا",
+        "detail": "2022",
+        "slug": "fra.coupe_de_france"
+      }
+    ]
+  },
+  "FC Nantes": {
+    "name": "فالديمار كيتا",
+    "en": "Waldemar Kita",
+    "since": 2007,
+    "titles": [
+      {
+        "name": "كأس فرنسا",
+        "detail": "2022",
+        "slug": "fra.coupe_de_france"
+      }
+    ]
+  },
+  "Brentford": {
+    "name": "كليف كراون",
+    "en": "Cliff Crown",
+    "since": 2013,
+    "noTitles": true
+  },
+  "Bayer Leverkusen": {
+    "name": "فرناندو كارو",
+    "en": "Fernando Carro",
+    "since": 2018,
+    "role": "الرئيس التنفيذي",
+    "interim": true,
+    "titles": [
+      {
+        "name": "الدوري الألماني",
+        "detail": "2024",
+        "slug": "ger.1"
+      },
+      {
+        "name": "كأس ألمانيا",
+        "detail": "2024",
+        "slug": "ger.dfb_pokal"
+      },
+      {
+        "name": "كأس السوبر الألماني",
+        "detail": "2024",
+        "slug": "ger.super_cup"
+      }
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Fernando_Carro_2011_%286504821199%29_%28cropped%29.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imageAuto": true,
+    "imageFor": "Fernando Carro",
+    "imageSrc": "https://de.wikipedia.org/wiki/Fernando_Carro_%28Manager%29"
+  },
+  "Leverkusen": {
+    "name": "فرناندو كارو",
+    "en": "Fernando Carro",
+    "since": 2018,
+    "role": "الرئيس التنفيذي",
+    "interim": true,
+    "titles": [
+      {
+        "name": "الدوري الألماني",
+        "detail": "2024",
+        "slug": "ger.1"
+      },
+      {
+        "name": "كأس ألمانيا",
+        "detail": "2024",
+        "slug": "ger.dfb_pokal"
+      },
+      {
+        "name": "كأس السوبر الألماني",
+        "detail": "2024",
+        "slug": "ger.super_cup"
+      }
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Fernando_Carro_2011_%286504821199%29_%28cropped%29.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imageAuto": true,
+    "imageFor": "Fernando Carro",
+    "imageSrc": "https://de.wikipedia.org/wiki/Fernando_Carro_%28Manager%29"
+  },
+  "Bayer 04 Leverkusen": {
+    "name": "فرناندو كارو",
+    "en": "Fernando Carro",
+    "since": 2018,
+    "role": "الرئيس التنفيذي",
+    "interim": true,
+    "titles": [
+      {
+        "name": "الدوري الألماني",
+        "detail": "2024",
+        "slug": "ger.1"
+      },
+      {
+        "name": "كأس ألمانيا",
+        "detail": "2024",
+        "slug": "ger.dfb_pokal"
+      },
+      {
+        "name": "كأس السوبر الألماني",
+        "detail": "2024",
+        "slug": "ger.super_cup"
+      }
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Fernando_Carro_2011_%286504821199%29_%28cropped%29.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imageAuto": true,
+    "imageFor": "Fernando Carro",
+    "imageSrc": "https://de.wikipedia.org/wiki/Fernando_Carro_%28Manager%29"
+  },
+  "Aston Villa": {
+    "name": "ناصف ساويرس وويس إدنز",
+    "en": "",
+    "role": "رئيسا مجلس الإدارة المشاركان",
+    "titles": [
+      {
+        "name": "الدوري الأوروبي",
+        "detail": "2026",
+        "slug": "uefa.europa"
+      }
+    ],
+    "since": 2018
+  },
+  "Sassuolo": {
+    "name": "كارلو روسي",
+    "en": "Carlo Rossi",
+    "titles": [
+      {
+        "name": "الدرجة الثانية الإيطالية",
+        "detail": "2013، 2025"
+      },
+      {
+        "name": "الدرجة الثالثة الإيطالية (المجموعة الشمالية)",
+        "detail": "2008"
+      }
+    ],
+    "since": 2004
+  },
+  "US Sassuolo": {
+    "name": "كارلو روسي",
+    "en": "Carlo Rossi",
+    "titles": [
+      {
+        "name": "الدرجة الثانية الإيطالية",
+        "detail": "2013، 2025"
+      },
+      {
+        "name": "الدرجة الثالثة الإيطالية (المجموعة الشمالية)",
+        "detail": "2008"
+      }
+    ],
+    "since": 2004
+  },
+  "AFC Bournemouth": {
+    "name": "بيل فولي",
+    "en": "Bill Foley",
+    "since": 2022,
+    "role": "رئيس مجلس الإدارة",
+    "interim": true,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/bill_foley.jpg",
+    "imageAuto": true,
+    "imageFor": "Bill Foley",
+    "imageSrc": "https://www.bournemouthecho.co.uk/sport/26141737.afc-bournemouths-progression-owner-bill-foley/"
+  },
+  "Bournemouth": {
+    "name": "بيل فولي",
+    "en": "Bill Foley",
+    "since": 2022,
+    "role": "رئيس مجلس الإدارة",
+    "interim": true,
+    "noTitles": true,
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/bill_foley.jpg",
+    "imageAuto": true,
+    "imageFor": "Bill Foley",
+    "imageSrc": "https://www.bournemouthecho.co.uk/sport/26141737.afc-bournemouths-progression-owner-bill-foley/"
+  },
+  "Metz": {
+    "name": "برنار سيرين",
+    "en": "Bernard Serin",
+    "since": 2009,
+    "titles": [
+      {
+        "name": "دوري الدرجة الثانية الفرنسي",
+        "detail": "2019"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/bernard_serin.jpg",
+    "imageAuto": true,
+    "imageFor": "Bernard Serin",
+    "imageSrc": "https://www.republicain-lorrain.fr/sport/2024/01/25/bernard-serin-president-du-fc-metz-degager-une-marge-suffisante-pour-recruter-des-joueurs-interessants"
+  },
+  "FC Metz": {
+    "name": "برنار سيرين",
+    "en": "Bernard Serin",
+    "since": 2009,
+    "titles": [
+      {
+        "name": "دوري الدرجة الثانية الفرنسي",
+        "detail": "2019"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/bernard_serin.jpg",
+    "imageAuto": true,
+    "imageFor": "Bernard Serin",
+    "imageSrc": "https://www.republicain-lorrain.fr/sport/2024/01/25/bernard-serin-president-du-fc-metz-degager-une-marge-suffisante-pour-recruter-des-joueurs-interessants"
+  },
+  "Werder Bremen": {
+    "name": "هوبرتوس هيس-غرونيفالد",
+    "en": "Hubertus Hess-Grunewald",
+    "since": 2014,
+    "noTitles": true,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Hubertus_Hess-Grunewald_%282026%29.jpg/500px-Hubertus_Hess-Grunewald_%282026%29.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imageAuto": true,
+    "imageFor": "Hubertus Hess-Grunewald",
+    "imageSrc": "https://de.wikipedia.org/wiki/Hubertus_Hess-Grunewald"
+  },
+  "SV Werder Bremen": {
+    "name": "هوبرتوس هيس-غرونيفالد",
+    "en": "Hubertus Hess-Grunewald",
+    "since": 2014,
+    "noTitles": true,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Hubertus_Hess-Grunewald_%282026%29.jpg/500px-Hubertus_Hess-Grunewald_%282026%29.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "imageAuto": true,
+    "imageFor": "Hubertus Hess-Grunewald",
+    "imageSrc": "https://de.wikipedia.org/wiki/Hubertus_Hess-Grunewald"
   }
- },
- "Manchester City": {
-  "name": "خلدون المبارك",
-  "en": "Khaldoon Al Mubarak",
-  "since": 2008,
-  "titlesTotal": 26,
-  "titles": [
-   {
-    "name": "الدوري الإنجليزي الممتاز",
-    "detail": "8 مرات · 2012، 2014، 2018، 2019، 2021، 2022، 2023، 2024",
-    "slug": "eng.1"
-   },
-   {
-    "name": "كأس الرابطة",
-    "detail": "7 مرات · 2014، 2016، 2018، 2019، 2020، 2021، 2026",
-    "slug": "eng.league_cup"
-   },
-   {
-    "name": "كأس الاتحاد الإنجليزي",
-    "detail": "4 مرات · 2011، 2019، 2023، 2026",
-    "slug": "eng.fa"
-   },
-   {
-    "name": "درع المجتمع",
-    "detail": "4 مرات · 2012، 2018، 2019، 2024"
-   },
-   {
-    "name": "دوري أبطال أوروبا",
-    "detail": "2023",
-    "slug": "uefa.champions"
-   },
-   {
-    "name": "كأس السوبر الأوروبي",
-    "detail": "2023"
-   },
-   {
-    "name": "كأس العالم للأندية",
-    "detail": "2023",
-    "slug": "fifa.cwc"
-   }
-  ]
- },
- "Bayern Munich": {
-  "name": "هربرت هاينر",
-  "en": "Herbert Hainer",
-  "since": 2019,
-  "titlesTotal": 16,
-  "titles": [
-   {
-    "name": "الدوري الألماني",
-    "detail": "6 مرات · 2020، 2021، 2022، 2023، 2025، 2026",
-    "slug": "ger.1"
-   },
-   {
-    "name": "كأس ألمانيا",
-    "detail": "مرتان · 2020، 2026",
-    "slug": "ger.dfb_pokal"
-   },
-   {
-    "name": "كأس السوبر الألماني",
-    "detail": "5 مرات · 2020، 2021، 2022، 2025، 2026"
-   },
-   {
-    "name": "دوري أبطال أوروبا",
-    "detail": "2020",
-    "slug": "uefa.champions"
-   },
-   {
-    "name": "كأس السوبر الأوروبي",
-    "detail": "2020"
-   },
-   {
-    "name": "كأس العالم للأندية",
-    "detail": "نسخة 2020 (أُقيمت فبراير 2021)",
-    "slug": "fifa.cwc"
-   }
-  ]
- },
- "Real Madrid": {
-  "name": "فلورنتينو بيريز",
-  "en": "Florentino Pérez",
-  "since": 2009,
-  "titlesTotal": 30,
-  "titles": [
-   {
-    "name": "دوري أبطال أوروبا",
-    "detail": "6 · 2014، 2016، 2017، 2018، 2022، 2024",
-    "slug": "uefa.champions"
-   },
-   {
-    "name": "الدوري الإسباني",
-    "detail": "5",
-    "slug": "esp.1"
-   },
-   {
-    "name": "كأس ملك إسبانيا",
-    "detail": "3",
-    "slug": "esp.copa_del_rey"
-   },
-   {
-    "name": "السوبر الإسباني",
-    "detail": "5"
-   },
-   {
-    "name": "كأس السوبر الأوروبي",
-    "detail": "5",
-    "slug": "uefa.super_cup"
-   },
-   {
-    "name": "كأس العالم للأندية",
-    "detail": "5",
-    "slug": "fifa.cwc"
-   },
-   {
-    "name": "كأس إنتركونتيننتال",
-    "detail": "2024"
-   }
-  ]
- },
- "Paris Saint-Germain": {
-  "name": "ناصر الخليفي",
-  "en": "Nasser Al-Khelaifi",
-  "since": 2011,
-  "titlesTotal": 43,
-  "titles": [
-   {
-    "name": "الدوري الفرنسي",
-    "detail": "12 · 2013، 2014، 2015، 2016، 2018، 2019، 2020، 2022، 2023، 2024، 2025، 2026",
-    "slug": "fra.1"
-   },
-   {
-    "name": "كأس فرنسا",
-    "detail": "8 · 2015، 2016، 2017، 2018، 2020، 2021، 2024، 2025",
-    "slug": "fra.coupe_de_france"
-   },
-   {
-    "name": "كأس الرابطة الفرنسية",
-    "detail": "6 · 2014، 2015، 2016، 2017، 2018، 2020"
-   },
-   {
-    "name": "كأس السوبر الفرنسي",
-    "detail": "12 · 2013، 2014، 2015، 2016، 2017، 2018، 2019، 2020، 2022، 2023، 2024، 2025"
-   },
-   {
-    "name": "دوري أبطال أوروبا",
-    "detail": "2025، 2026",
-    "slug": "uefa.champions"
-   },
-   {
-    "name": "كأس السوبر الأوروبي",
-    "detail": "2025، 2026",
-    "slug": "uefa.super_cup"
-   },
-   {
-    "name": "كأس إنتركونتيننتال",
-    "detail": "2025"
-   }
-  ]
- },
- "Atletico Madrid": {
-  "name": "إنريكي سيريزو",
-  "en": "Enrique Cerezo",
-  "since": 2003,
-  "titlesTotal": 10,
-  "titles": [
-   {
-    "name": "الدوري الإسباني",
-    "detail": "2014، 2021",
-    "slug": "esp.1"
-   },
-   {
-    "name": "كأس ملك إسبانيا",
-    "detail": "2013",
-    "slug": "esp.copa_del_rey"
-   },
-   {
-    "name": "السوبر الإسباني",
-    "detail": "2014"
-   },
-   {
-    "name": "الدوري الأوروبي",
-    "detail": "2010، 2012، 2018",
-    "slug": "uefa.europa"
-   },
-   {
-    "name": "كأس السوبر الأوروبي",
-    "detail": "2010، 2012، 2018",
-    "slug": "uefa.super_cup"
-   }
-  ]
- },
- "Inter Milan": {
-  "name": "جوزيبي ماروتا",
-  "en": "Beppe Marotta",
-  "since": 2024,
-  "titlesTotal": 2,
-  "titles": [
-   {
-    "name": "الدوري الإيطالي",
-    "detail": "2026",
-    "slug": "ita.1"
-   },
-   {
-    "name": "كأس إيطاليا",
-    "detail": "2026",
-    "slug": "ita.coppa_italia"
-   }
-  ]
- },
- "Juventus": {
-  "name": "جيانلوكا فيريرو",
-  "en": "Gianluca Ferrero",
-  "since": 2023,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "كأس إيطاليا",
-    "detail": "2024",
-    "slug": "ita.coppa_italia"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/ferrero.jpg"
- },
- "Borussia Dortmund": {
-  "name": "هانس-يواخيم فاتسكه",
-  "en": "Hans-Joachim Watzke",
-  "since": 2025,
-  "noTitles": true
- },
- "Liverpool": {
-  "name": "توم ويرنر",
-  "en": "Tom Werner",
-  "since": 2010,
-  "titlesTotal": 10,
-  "titles": [
-   {
-    "name": "الدوري الإنجليزي الممتاز",
-    "detail": "مرتان · 2020، 2025",
-    "slug": "eng.1"
-   },
-   {
-    "name": "كأس الرابطة",
-    "detail": "3 مرات · 2012، 2022، 2024",
-    "slug": "eng.league_cup"
-   },
-   {
-    "name": "كأس الاتحاد الإنجليزي",
-    "detail": "2022",
-    "slug": "eng.fa"
-   },
-   {
-    "name": "درع المجتمع",
-    "detail": "2022"
-   },
-   {
-    "name": "دوري أبطال أوروبا",
-    "detail": "2019",
-    "slug": "uefa.champions"
-   },
-   {
-    "name": "كأس السوبر الأوروبي",
-    "detail": "2019"
-   },
-   {
-    "name": "كأس العالم للأندية",
-    "detail": "2019",
-    "slug": "fifa.cwc"
-   }
-  ]
- },
- "Al Taawoun": {
-  "name": "بدر الغنام",
-  "en": "Badr Al-Ghannam",
-  "since": 2025,
-  "noTitles": true,
-  "image": "https://cdn.eremnews.com/media/5625e654-3347-4514-a0b8-7de47dd374f9_v3",
-  "imageFor": "بدر الغنام"
- },
- "Al Ettifaq": {
-  "name": "سامر المسحل",
-  "en": "Samer Al-Mashhal",
-  "since": 2023,
-  "noTitles": true,
-  "image": "https://www.okaz.com.sa/uploads/images/2025/10/19/2601477.jpg",
-  "imageFor": "سامر المسحل"
- },
- "Al Fayha": {
-  "name": "توفيق المديهيم",
-  "en": "Tawfiq Al-Mudaihim",
-  "since": 2023,
-  "noTitles": true,
-  "image": "https://cp.slaati.com/wp-content/uploads/2024/02/3e2e366e-8289-406b-9bd4-2902a0d9bed3.jpeg",
-  "imageFor": "توفيق المديهيم"
- },
- "Al Qadsiah": {
-  "name": "رامي التركي (رئيس مكلّف)",
-  "en": "Rami Al-Turki",
-  "since": 2026,
-  "noTitles": true,
-  "image": "https://www.okaz.com.sa/okaz/uploads/images/2026/07/12/2735955.webp",
-  "imageFor": "رامي التركي"
- },
- "Al Qadisiyah": {
-  "name": "رامي التركي (رئيس مكلّف)",
-  "en": "Rami Al-Turki",
-  "since": 2026,
-  "noTitles": true,
-  "image": "https://www.okaz.com.sa/okaz/uploads/images/2026/07/12/2735955.webp",
-  "imageFor": "رامي التركي"
- },
- "Al Okhdood": {
-  "name": "سامي آل فاضل",
-  "en": "Sami Al Fadel",
-  "since": 2023,
-  "noTitles": true,
-  "image": "https://www.okaz.com.sa/uploads/images/2023/06/09/2121100.jpg",
-  "imageAuto": true,
-  "imageFor": "سامي آل فاضل",
-  "imageSrc": "https://www.okaz.com.sa/sport/saudi/2135572"
- },
- "Al-Okhdood": {
-  "name": "سامي آل فاضل",
-  "en": "Sami Al Fadel",
-  "since": 2023,
-  "noTitles": true,
-  "image": "https://www.okaz.com.sa/uploads/images/2023/06/09/2121100.jpg",
-  "imageAuto": true,
-  "imageFor": "سامي آل فاضل",
-  "imageSrc": "https://www.okaz.com.sa/sport/saudi/2135572"
- },
- "Al Fateh": {
-  "name": "منصور العفالق",
-  "en": "Mansour Al-Afaliq",
-  "since": 2023,
-  "noTitles": true,
-  "image": "https://static.srpcdigital.com/styles/1200x600/public/2023-07/245637.jpeg.webp",
-  "imageAuto": true,
-  "imageFor": "منصور العفالق",
-  "imageSrc": "https://aawsat.com/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/4421391-%D8%A7%D9%84%D9%81%D8%AA%D8%AD-%D8%A7%D9%84%D8%A3%D8%B9%D8%B6%D8%A7%D8%A1-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A%D9%88%D9%86-%D9%8A%D8%B1%D8%B4%D8%AD%D9%88%D9%86-%D9%85%D9%86%D8%B5%D9%88%D8%B1-%D8%A7%D9%84%D8%B9%D9%81%D8%A7%D9%84%D9%82-%D8%B1%D8%A6%D9%8A%D8%B3%D8%A7%D9%8B"
- },
- "Al-Fateh": {
-  "name": "منصور العفالق",
-  "en": "Mansour Al-Afaliq",
-  "since": 2023,
-  "noTitles": true,
-  "image": "https://static.srpcdigital.com/styles/1200x600/public/2023-07/245637.jpeg.webp",
-  "imageAuto": true,
-  "imageFor": "منصور العفالق",
-  "imageSrc": "https://aawsat.com/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/4421391-%D8%A7%D9%84%D9%81%D8%AA%D8%AD-%D8%A7%D9%84%D8%A3%D8%B9%D8%B6%D8%A7%D8%A1-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A%D9%88%D9%86-%D9%8A%D8%B1%D8%B4%D8%AD%D9%88%D9%86-%D9%85%D9%86%D8%B5%D9%88%D8%B1-%D8%A7%D9%84%D8%B9%D9%81%D8%A7%D9%84%D9%82-%D8%B1%D8%A6%D9%8A%D8%B3%D8%A7%D9%8B"
- },
- "Damac": {
-  "name": "شاكر عوير",
-  "en": "Shaker Oweir",
-  "since": 2026,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/awair.jpg",
-  "imageFor": "شاكر عوير"
- },
- "Damac FC": {
-  "name": "شاكر عوير",
-  "en": "Shaker Oweir",
-  "since": 2026,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/awair.jpg",
-  "imageFor": "شاكر عوير"
- },
- "Dhamk": {
-  "name": "شاكر عوير",
-  "en": "Shaker Oweir",
-  "since": 2026,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/awair.jpg",
-  "imageFor": "شاكر عوير"
- },
- "Al Raed": {
-  "name": "فهد المطوع",
-  "en": "Fahd Al-Mutawa",
-  "since": 2023,
-  "noTitles": true,
-  "image": "https://static.srpcdigital.com/styles/1200x600/public/2017/10/03/sport-041017-5.jpg.webp",
-  "imageAuto": true,
-  "imageFor": "فهد المطوع",
-  "imageSrc": "https://aawsat.com/home/article/1041656/%D9%81%D9%87%D8%AF-%D8%A7%D9%84%D9%85%D8%B7%D9%88%D8%B9-%D8%B1%D8%AC%D9%84-%D8%A7%D9%84%D9%80%C2%AB50-%D9%85%D9%84%D9%8A%D9%88%D9%86%D8%A7%D9%8B%C2%BB-%D9%81%D9%8A-%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D9%84-%D8%A7%D9%84%D8%B1%D8%A7%D8%A6%D8%AF"
- },
- "Al-Raed": {
-  "name": "فهد المطوع",
-  "en": "Fahd Al-Mutawa",
-  "since": 2023,
-  "noTitles": true,
-  "image": "https://static.srpcdigital.com/styles/1200x600/public/2017/10/03/sport-041017-5.jpg.webp",
-  "imageAuto": true,
-  "imageFor": "فهد المطوع",
-  "imageSrc": "https://aawsat.com/home/article/1041656/%D9%81%D9%87%D8%AF-%D8%A7%D9%84%D9%85%D8%B7%D9%88%D8%B9-%D8%B1%D8%AC%D9%84-%D8%A7%D9%84%D9%80%C2%AB50-%D9%85%D9%84%D9%8A%D9%88%D9%86%D8%A7%D9%8B%C2%BB-%D9%81%D9%8A-%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D9%84-%D8%A7%D9%84%D8%B1%D8%A7%D8%A6%D8%AF"
- },
- "Al Khaleej": {
-  "name": "أحمد أخريدة",
-  "en": "Ahmed Akhreeda",
-  "since": 2025,
-  "noTitles": true,
-  "image": "https://www.okaz.com.sa/uploads/images/2025/07/23/2558826.jpeg",
-  "imageFor": "أحمد أخريدة"
- },
- "Al-Khaleej": {
-  "name": "أحمد أخريدة",
-  "en": "Ahmed Akhreeda",
-  "since": 2025,
-  "noTitles": true,
-  "image": "https://www.okaz.com.sa/uploads/images/2025/07/23/2558826.jpeg",
-  "imageFor": "أحمد أخريدة"
- },
- "Al Shabab": {
-  "name": "عبدالعزيز المالك (رئيس مكلّف)",
-  "en": "Abdulaziz Al-Malik",
-  "since": 2025,
-  "noTitles": true,
-  "image": "https://cdn.eremnews.com/media/c6d6b5b2-16ac-4fc6-a24d-381cf7cf0153",
-  "imageFor": "عبدالعزيز المالك"
- },
- "Al-Shabab": {
-  "name": "عبدالعزيز المالك (رئيس مكلّف)",
-  "en": "Abdulaziz Al-Malik",
-  "since": 2025,
-  "noTitles": true,
-  "image": "https://cdn.eremnews.com/media/c6d6b5b2-16ac-4fc6-a24d-381cf7cf0153",
-  "imageFor": "عبدالعزيز المالك"
- },
- "Al Riyadh": {
-  "name": "بندر المقيل",
-  "en": "Bandar Al-Muqayyal",
-  "since": 2019,
-  "noTitles": true,
-  "image": "https://cp.slaati.com/wp-content/uploads/2023/08/caffa6f1-5062-451b-8295-b28c234485ae.jpg",
-  "imageFor": "بندر المقيل"
- },
- "Al-Riyadh": {
-  "name": "بندر المقيل",
-  "en": "Bandar Al-Muqayyal",
-  "since": 2019,
-  "noTitles": true,
-  "image": "https://cp.slaati.com/wp-content/uploads/2023/08/caffa6f1-5062-451b-8295-b28c234485ae.jpg",
-  "imageFor": "بندر المقيل"
- },
- "Al Hazem": {
-  "name": "طلال الحربي",
-  "en": "Talal Al-Harbi",
-  "since": 2025,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/harbi.jpg",
-  "imageFor": "طلال الحربي"
- },
- "Al-Hazem": {
-  "name": "طلال الحربي",
-  "en": "Talal Al-Harbi",
-  "since": 2025,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/harbi.jpg",
-  "imageFor": "طلال الحربي"
- },
- "Al Hazm": {
-  "name": "طلال الحربي",
-  "en": "Talal Al-Harbi",
-  "since": 2025,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/harbi.jpg",
-  "imageFor": "طلال الحربي"
- },
- "Al-Hazm": {
-  "name": "طلال الحربي",
-  "en": "Talal Al-Harbi",
-  "since": 2025,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/harbi.jpg",
-  "imageFor": "طلال الحربي"
- },
- "Al Kholood": {
-  "name": "بن هاربورغ",
-  "en": "Ben Harburg",
-  "since": 2025,
-  "noTitles": true,
-  "image": "https://static.srpcdigital.com/styles/1200x600/public/2026-06/1624849.jpeg.webp",
-  "imageAuto": true,
-  "imageFor": "بن هاربورغ",
-  "imageSrc": "https://aawsat.com/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/5288678-%D8%A8%D9%86-%D9%87%D8%A7%D8%B1%D8%A8%D9%88%D8%B1%D8%BA-%D9%84%D9%86-%D9%86%D9%86%D9%82%D9%84-%D8%A7%D9%84%D8%AE%D9%84%D9%88%D8%AF-%D9%85%D9%86-%D8%A7%D9%84%D8%B1%D8%B3%E2%80%A6-%D8%B3%D9%86%D8%AA%D9%88%D8%B3%D8%B9-%D8%AC%D8%BA%D8%B1%D8%A7%D9%81%D9%8A%D8%A7%D9%8B-%D8%A8%D8%A5%D9%86%D8%B4%D8%A7%D8%A1-%D9%85%D9%82%D8%B1%D8%A7%D8%AA"
- },
- "Al-Kholood": {
-  "name": "بن هاربورغ",
-  "en": "Ben Harburg",
-  "since": 2025,
-  "noTitles": true,
-  "image": "https://static.srpcdigital.com/styles/1200x600/public/2026-06/1624849.jpeg.webp",
-  "imageAuto": true,
-  "imageFor": "بن هاربورغ",
-  "imageSrc": "https://aawsat.com/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/5288678-%D8%A8%D9%86-%D9%87%D8%A7%D8%B1%D8%A8%D9%88%D8%B1%D8%BA-%D9%84%D9%86-%D9%86%D9%86%D9%82%D9%84-%D8%A7%D9%84%D8%AE%D9%84%D9%88%D8%AF-%D9%85%D9%86-%D8%A7%D9%84%D8%B1%D8%B3%E2%80%A6-%D8%B3%D9%86%D8%AA%D9%88%D8%B3%D8%B9-%D8%AC%D8%BA%D8%B1%D8%A7%D9%81%D9%8A%D8%A7%D9%8B-%D8%A8%D8%A5%D9%86%D8%B4%D8%A7%D8%A1-%D9%85%D9%82%D8%B1%D8%A7%D8%AA"
- },
- "Al Faisaly": {
-  "name": "عبدالمجيد العميم",
-  "en": "Abdulmajeed Al-Omaim",
-  "since": 2023,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/omaim.jpg",
-  "imageFor": "عبدالمجيد العميم"
- },
- "Al-Faisaly": {
-  "name": "عبدالمجيد العميم",
-  "en": "Abdulmajeed Al-Omaim",
-  "since": 2023,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/omaim.jpg",
-  "imageFor": "عبدالمجيد العميم"
- },
- "Arsenal": {
-  "name": "ستان وجوش كرونكي (رئيسان مشاركان)",
-  "en": "",
-  "since": 2023,
-  "titlesTotal": 2,
-  "titles": [
-   {
-    "name": "الدوري الإنجليزي",
-    "detail": "2026",
-    "slug": "eng.1"
-   },
-   {
-    "name": "درع المجتمع",
-    "detail": "2023"
-   }
-  ]
- },
- "Manchester United": {
-  "name": "أفرام وجويل غليزر (رئيسان تنفيذيان مشاركان)",
-  "en": "",
-  "since": 2005,
-  "titlesTotal": 21,
-  "titles": [
-   {
-    "name": "الدوري الإنجليزي",
-    "detail": "5 · 2007، 2008، 2009، 2011، 2013",
-    "slug": "eng.1"
-   },
-   {
-    "name": "كأس الاتحاد الإنجليزي",
-    "detail": "2016، 2024",
-    "slug": "eng.fa"
-   },
-   {
-    "name": "كأس الرابطة",
-    "detail": "5 · 2006، 2009، 2010، 2017، 2023",
-    "slug": "eng.league_cup"
-   },
-   {
-    "name": "درع المجتمع",
-    "detail": "6 · 2007، 2008، 2010، 2011، 2013، 2016"
-   },
-   {
-    "name": "دوري أبطال أوروبا",
-    "detail": "2008",
-    "slug": "uefa.champions"
-   },
-   {
-    "name": "الدوري الأوروبي",
-    "detail": "2017",
-    "slug": "uefa.europa"
-   },
-   {
-    "name": "كأس العالم للأندية",
-    "detail": "2008",
-    "slug": "fifa.cwc"
-   }
-  ]
- },
- "AC Milan": {
-  "name": "باولو سكاروني",
-  "en": "Paolo Scaroni",
-  "since": 2018,
-  "titlesTotal": 2,
-  "titles": [
-   {
-    "name": "الدوري الإيطالي",
-    "detail": "2022",
-    "slug": "ita.1"
-   },
-   {
-    "name": "السوبر الإيطالي",
-    "detail": "2025"
-   }
-  ]
- },
- "Chelsea": {
-  "name": "لم يُعلن الرئيس الجديد بعد (ترك تود بوهلي المنصب في سبتمبر 2026)",
-  "en": ""
- },
- "Tottenham Hotspur": {
-  "name": "بيتر شارينغتون (رئيس غير تنفيذي)",
-  "en": "Peter Charrington",
-  "since": 2025,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/charrington.jpg"
- },
- "AS Roma": {
-  "name": "دان فريدكين",
-  "en": "Dan Friedkin",
-  "since": 2020,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "دوري المؤتمر الأوروبي",
-    "detail": "2022",
-    "slug": "uefa.europa.conf"
-   }
-  ]
- },
- "Newcastle United": {
-  "name": "ياسر الرميان",
-  "en": "Yasir Al-Rumayyan",
-  "since": 2021,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "كأس الرابطة الإنجليزية",
-    "detail": "2025",
-    "slug": "eng.league_cup"
-   }
-  ]
- },
- "Napoli": {
-  "name": "أوريليو دي لورينتيس",
-  "en": "Aurelio De Laurentiis",
-  "since": 2004,
-  "titlesTotal": 7,
-  "titles": [
-   {
-    "name": "الدوري الإيطالي",
-    "detail": "2023، 2025",
-    "slug": "ita.1"
-   },
-   {
-    "name": "كأس إيطاليا",
-    "detail": "2012، 2014، 2020",
-    "slug": "ita.coppa_italia"
-   },
-   {
-    "name": "السوبر الإيطالي",
-    "detail": "2014، 2025"
-   }
-  ]
- },
- "Lyon": {
-  "name": "ميشيل كانغ",
-  "en": "Michele Kang",
-  "since": 2025,
-  "noTitles": true
- },
- "Olympique Lyonnais": {
-  "name": "ميشيل كانغ",
-  "en": "Michele Kang",
-  "since": 2025,
-  "noTitles": true
- },
- "Marseille": {
-  "name": "ستيفان ريتشارد",
-  "en": "Stephane Richard",
-  "since": 2026,
-  "noTitles": true,
-  "image": "https://madeinmarseille.net/actualites-marseille/stephane-richard-om.jpg"
- },
- "Olympique Marseille": {
-  "name": "ستيفان ريتشارد",
-  "en": "Stephane Richard",
-  "since": 2026,
-  "noTitles": true,
-  "image": "https://madeinmarseille.net/actualites-marseille/stephane-richard-om.jpg"
- },
- "FC Porto": {
-  "name": "أندريه فياش بواش",
-  "en": "Andre Villas-Boas",
-  "since": 2024,
-  "titlesTotal": 2,
-  "titles": [
-   {
-    "name": "الدوري البرتغالي",
-    "detail": "2026",
-    "slug": "por.1"
-   },
-   {
-    "name": "السوبر البرتغالي",
-    "detail": "2024"
-   }
-  ]
- },
- "Porto": {
-  "name": "أندريه فياش بواش",
-  "en": "Andre Villas-Boas",
-  "since": 2024,
-  "titlesTotal": 2,
-  "titles": [
-   {
-    "name": "الدوري البرتغالي",
-    "detail": "2026",
-    "slug": "por.1"
-   },
-   {
-    "name": "السوبر البرتغالي",
-    "detail": "2024"
-   }
-  ]
- },
- "Benfica": {
-  "name": "روي كوستا",
-  "en": "Rui Costa",
-  "since": 2021,
-  "titlesTotal": 4,
-  "titles": [
-   {
-    "name": "الدوري البرتغالي",
-    "detail": "2023",
-    "slug": "por.1"
-   },
-   {
-    "name": "كأس السوبر البرتغالي",
-    "detail": "2"
-   },
-   {
-    "name": "كأس الرابطة البرتغالية",
-    "detail": "1"
-   }
-  ]
- },
- "Lazio": {
-  "name": "كلاوديو لوتيتو",
-  "en": "Claudio Lotito",
-  "since": 2004,
-  "titlesTotal": 6,
-  "titles": [
-   {
-    "name": "كأس إيطاليا",
-    "detail": "2009، 2013، 2019",
-    "slug": "ita.coppa_italia"
-   },
-   {
-    "name": "السوبر الإيطالي",
-    "detail": "2009، 2017، 2019"
-   }
-  ]
- },
- "Villarreal": {
-  "name": "فيرناندو روج",
-  "en": "Fernando Roig",
-  "since": 1997,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "الدوري الأوروبي",
-    "detail": "2021",
-    "slug": "uefa.europa"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/roig.jpg"
- },
- "Real Sociedad": {
-  "name": "جوكين أبيريبايو",
-  "en": "Jokin Aperribay",
-  "since": 2008,
-  "titlesTotal": 2,
-  "titles": [
-   {
-    "name": "كأس ملك إسبانيا",
-    "detail": "2020 (النهائي أبريل 2021)، 2026",
-    "slug": "esp.copa_del_rey"
-   }
-  ]
- },
- "Sevilla": {
-  "name": "خوسيه ماريا ديل نيدو كاراسكو",
-  "en": "Jose Maria del Nido Carrasco",
-  "since": 2023,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/jose_maria_del_nido_carrasco.jpg",
-  "imageAuto": true,
-  "imageFor": "Jose Maria del Nido Carrasco",
-  "imageSrc": "https://www.abc.es/deportes/orgullodenervion/noticias-sevilla-fc/presidente-sevilla-jose-maria-nido-carrasco-viaja-20261020102229-nts.html"
- },
- "Atalanta": {
-  "name": "أنطونيو بيركاسي",
-  "en": "Antonio Percassi",
-  "since": 2010,
-  "titlesTotal": 2,
-  "titles": [
-   {
-    "name": "الدوري الأوروبي",
-    "detail": "2024",
-    "slug": "uefa.europa"
-   },
-   {
-    "name": "دوري الدرجة الثانية الإيطالي",
-    "detail": "2011"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/percassi.jpg"
- },
- "Athletic Club": {
-  "name": "جون أوريارتي",
-  "en": "Jon Uriarte",
-  "since": 2022,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "كأس ملك إسبانيا",
-    "detail": "2024",
-    "slug": "esp.copa_del_rey"
-   }
-  ]
- },
- "Real Betis": {
-  "name": "أنخل هارو",
-  "en": "Angel Haro",
-  "since": 2016,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "كأس ملك إسبانيا",
-    "detail": "2022",
-    "slug": "esp.copa_del_rey"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/angel_haro.jpg",
-  "imageAuto": true,
-  "imageFor": "Angel Haro",
-  "imageSrc": "https://www.football-espana.net/2022/02/16/real-betis-president-angel-haro-responds-to-barcelonas-reported-interest-in-nabil-fekir"
- },
- "Valencia": {
-  "name": "كيات ليم",
-  "en": "Kiat Lim",
-  "since": 2025,
-  "noTitles": true
- },
- "Fiorentina": {
-  "name": "جوزيبي كوميسو",
-  "en": "Giuseppe Commisso",
-  "since": 2026,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/giuseppe_commisso.jpg",
-  "imageAuto": true,
-  "imageFor": "Giuseppe Commisso",
-  "imageSrc": "https://www.tuttomercatoweb.com/serie-a/giuseppe-commisso-arrivato-lega-assemblea-presidente-fiorentina-2273938"
- },
- "Crystal Palace": {
-  "name": "ستيف باريش",
-  "en": "Steve Parish",
-  "since": 2010,
-  "titlesTotal": 3,
-  "titles": [
-   {
-    "name": "دوري المؤتمر الأوروبي",
-    "detail": "2026",
-    "slug": "uefa.europa.conf"
-   },
-   {
-    "name": "كأس الاتحاد الإنجليزي",
-    "detail": "2025",
-    "slug": "eng.fa"
-   },
-   {
-    "name": "درع المجتمع",
-    "detail": "2025"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/parish.jpg"
- },
- "Brighton & Hove Albion": {
-  "name": "توني بلوم",
-  "en": "Tony Bloom",
-  "since": 2009,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "دوري الدرجة الثالثة الإنجليزي",
-    "detail": "2011"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/bloom.jpg"
- },
- "Brighton": {
-  "name": "توني بلوم",
-  "en": "Tony Bloom",
-  "since": 2009,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "دوري الدرجة الثالثة الإنجليزي",
-    "detail": "2011"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/bloom.jpg"
- },
- "West Ham United": {
-  "name": "لم يُعلن رئيس جديد بعد (استقال ديفيد سوليفان في يونيو 2026)",
-  "en": ""
- },
- "Eintracht Frankfurt": {
-  "name": "ماتياس بيك",
-  "en": "Mathias Beck",
-  "since": 2024,
-  "noTitles": true,
-  "image": "https://www.hessenschau.de/sport/fussball/eintracht-frankfurt/beck-140~_t-1792487053853_v-16to9__medium.jpg"
- },
- "VfB Stuttgart": {
-  "name": "ديتمار ألغايير",
-  "en": "Dietmar Allgaier",
-  "since": 2024,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "كأس ألمانيا",
-    "detail": "2025",
-    "slug": "ger.dfb_pokal"
-   }
-  ],
-  "image": "https://cdn.schwaebische.de/2025/03/22/c0b8a731-444d-4e19-8bdf-1806fa034233.jpeg?w=1028&auto=compress%2Cformat&fit=scale-down"
- },
- "Stuttgart": {
-  "name": "ديتمار ألغايير",
-  "en": "Dietmar Allgaier",
-  "since": 2024,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "كأس ألمانيا",
-    "detail": "2025",
-    "slug": "ger.dfb_pokal"
-   }
-  ],
-  "image": "https://cdn.schwaebische.de/2025/03/22/c0b8a731-444d-4e19-8bdf-1806fa034233.jpeg?w=1028&auto=compress%2Cformat&fit=scale-down"
- },
- "RC Lens": {
-  "name": "جوزيف أوغورليان",
-  "en": "Joseph Oughourlian",
-  "since": 2018,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "كأس فرنسا",
-    "detail": "2026",
-    "slug": "fra.coupe_de_france"
-   }
-  ]
- },
- "Lens": {
-  "name": "جوزيف أوغورليان",
-  "en": "Joseph Oughourlian",
-  "since": 2018,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "كأس فرنسا",
-    "detail": "2026",
-    "slug": "fra.coupe_de_france"
-   }
-  ]
- },
- "Lille": {
-  "name": "أوليفييه ليتانغ",
-  "en": "Olivier Létang",
-  "since": 2020,
-  "titlesTotal": 2,
-  "titles": [
-   {
-    "name": "الدوري الفرنسي",
-    "detail": "2021",
-    "slug": "fra.1"
-   },
-   {
-    "name": "كأس السوبر الفرنسي",
-    "detail": "2021"
-   }
-  ],
-  "image": "https://assets.goal.com/images/v3/blt739d0c92702d1ffd/971f473c95c338a9889aa7c2a6b9275ebdf71a34.jpg"
- },
- "LOSC Lille": {
-  "name": "أوليفييه ليتانغ",
-  "en": "Olivier Létang",
-  "since": 2020,
-  "titlesTotal": 2,
-  "titles": [
-   {
-    "name": "الدوري الفرنسي",
-    "detail": "2021",
-    "slug": "fra.1"
-   },
-   {
-    "name": "كأس السوبر الفرنسي",
-    "detail": "2021"
-   }
-  ],
-  "image": "https://assets.goal.com/images/v3/blt739d0c92702d1ffd/971f473c95c338a9889aa7c2a6b9275ebdf71a34.jpg"
- },
- "AS Monaco": {
-  "name": "ديمتري ريبولوفليف",
-  "en": "Dmitry Rybolovlev",
-  "since": 2011,
-  "titlesTotal": 2,
-  "titles": [
-   {
-    "name": "الدوري الفرنسي",
-    "detail": "2017",
-    "slug": "fra.1"
-   },
-   {
-    "name": "الدرجة الثانية الفرنسية",
-    "detail": "2013"
-   }
-  ]
- },
- "Monaco": {
-  "name": "ديمتري ريبولوفليف",
-  "en": "Dmitry Rybolovlev",
-  "since": 2011,
-  "titlesTotal": 2,
-  "titles": [
-   {
-    "name": "الدوري الفرنسي",
-    "detail": "2017",
-    "slug": "fra.1"
-   },
-   {
-    "name": "الدرجة الثانية الفرنسية",
-    "detail": "2013"
-   }
-  ]
- },
- "Bologna": {
-  "name": "جوي سابوتو",
-  "en": "Joey Saputo",
-  "since": 2014,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "كأس إيطاليا",
-    "detail": "2025",
-    "slug": "ita.coppa_italia"
-   }
-  ]
- },
- "Celta Vigo": {
-  "name": "ماريان موريينو",
-  "en": "Marián Mouriño",
-  "since": 2023,
-  "noTitles": true
- },
- "Celta": {
-  "name": "ماريان موريينو",
-  "en": "Marián Mouriño",
-  "since": 2023,
-  "noTitles": true
- },
- "Girona": {
-  "name": "ديلفي جيلي",
-  "en": "Delfí Geli",
-  "since": 2015,
-  "titlesTotal": 2,
-  "titles": [
-   {
-    "name": "كأس كتالونيا",
-    "detail": "2025"
-   },
-   {
-    "name": "السوبر الكتالوني",
-    "detail": "2019"
-   }
-  ],
-  "image": "https://assets.goal.com/images/v3/bltbf8746c7843572f2/01a2.png"
- },
- "Borussia Monchengladbach": {
-  "name": "راينر بونهوف",
-  "en": "Rainer Bonhof",
-  "since": 2024,
-  "noTitles": true,
-  "image": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_7824,h_4401/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/german_site_de_international_web/01hsbx51hnh2ax1scgxp.jpg"
- },
- "Borussia Mönchengladbach": {
-  "name": "راينر بونهوف",
-  "en": "Rainer Bonhof",
-  "since": 2024,
-  "noTitles": true,
-  "image": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_7824,h_4401/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/german_site_de_international_web/01hsbx51hnh2ax1scgxp.jpg"
- },
- "Getafe": {
-  "name": "أنخل توريس",
-  "en": "Ángel Torres",
-  "since": 2002,
-  "noTitles": true
- },
- "Torino": {
-  "name": "أوربانو كايرو",
-  "en": "Urbano Cairo",
-  "since": 2005,
-  "noTitles": true
- },
- "Osasuna": {
-  "name": "لويس سابالزا",
-  "en": "Luis Sabalza",
-  "since": 2014,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "الدرجة الثانية الإسبانية",
-    "detail": "2019"
-   }
-  ],
-  "image": "https://www.osasuna.es/public/Image/2025/7/fotosfutbolbaseosasuna2023-2024_jpu_8964_jpg_Vertical.webp"
- },
- "Rayo Vallecano": {
-  "name": "راؤول مارتن بريسا",
-  "en": "Raúl Martín Presa",
-  "since": 2011,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "الدرجة الثانية الإسبانية",
-    "detail": "2018"
-   }
-  ],
-  "image": "https://www.football-espana.net/wp-content/uploads/2025/08/Presa.jpeg"
- },
- "Alaves": {
-  "name": "ألفونسو فرنانديز دي تروكونيث",
-  "en": "Alfonso Fernández de Trocóniz",
-  "since": 2013,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "الدرجة الثانية الإسبانية",
-    "detail": "2016"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/alfonso_fernandez_de_troconiz.jpg",
-  "imageAuto": true,
-  "imageFor": "Alfonso Fernández de Trocóniz",
-  "imageSrc": "https://elcierredigital.com/pizarra-deportiva/imperio-alfonso-fernandez-de-troconiz-todopoderoso-presidente-hombre-palco-alaves"
- },
- "Deportivo Alaves": {
-  "name": "ألفونسو فرنانديز دي تروكونيث",
-  "en": "Alfonso Fernández de Trocóniz",
-  "since": 2013,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "الدرجة الثانية الإسبانية",
-    "detail": "2016"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/alfonso_fernandez_de_troconiz.jpg",
-  "imageAuto": true,
-  "imageFor": "Alfonso Fernández de Trocóniz",
-  "imageSrc": "https://elcierredigital.com/pizarra-deportiva/imperio-alfonso-fernandez-de-troconiz-todopoderoso-presidente-hombre-palco-alaves"
- },
- "Deportivo Alavés": {
-  "name": "ألفونسو فرنانديز دي تروكونيث",
-  "en": "Alfonso Fernández de Trocóniz",
-  "since": 2013,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "الدرجة الثانية الإسبانية",
-    "detail": "2016"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/alfonso_fernandez_de_troconiz.jpg",
-  "imageAuto": true,
-  "imageFor": "Alfonso Fernández de Trocóniz",
-  "imageSrc": "https://elcierredigital.com/pizarra-deportiva/imperio-alfonso-fernandez-de-troconiz-todopoderoso-presidente-hombre-palco-alaves"
- },
- "Strasbourg": {
-  "name": "مارك كيلر",
-  "en": "Marc Keller",
-  "since": 2012,
-  "titlesTotal": 4,
-  "titles": [
-   {
-    "name": "كأس الرابطة الفرنسية",
-    "detail": "2019"
-   },
-   {
-    "name": "الدرجة الثانية الفرنسية",
-    "detail": "2017"
-   },
-   {
-    "name": "دوري ناسيونال (الدرجة الثالثة)",
-    "detail": "2016"
-   },
-   {
-    "name": "ناسيونال 2 (الدرجة الرابعة)",
-    "detail": "2013"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/marc_keller.jpg",
-  "imageAuto": true,
-  "imageFor": "Marc Keller",
-  "imageSrc": "https://www.dna.fr/sport/2026/09/07/mercato-supporters-ambitions-l-interview-exclusive-de-marc-keller-le-president-du-racing-club-de-strasbourg"
- },
- "RC Strasbourg": {
-  "name": "مارك كيلر",
-  "en": "Marc Keller",
-  "since": 2012,
-  "titlesTotal": 4,
-  "titles": [
-   {
-    "name": "كأس الرابطة الفرنسية",
-    "detail": "2019"
-   },
-   {
-    "name": "الدرجة الثانية الفرنسية",
-    "detail": "2017"
-   },
-   {
-    "name": "دوري ناسيونال (الدرجة الثالثة)",
-    "detail": "2016"
-   },
-   {
-    "name": "ناسيونال 2 (الدرجة الرابعة)",
-    "detail": "2013"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/marc_keller.jpg",
-  "imageAuto": true,
-  "imageFor": "Marc Keller",
-  "imageSrc": "https://www.dna.fr/sport/2026/09/07/mercato-supporters-ambitions-l-interview-exclusive-de-marc-keller-le-president-du-racing-club-de-strasbourg"
- },
- "RC Strasbourg Alsace": {
-  "name": "مارك كيلر",
-  "en": "Marc Keller",
-  "since": 2012,
-  "titlesTotal": 4,
-  "titles": [
-   {
-    "name": "كأس الرابطة الفرنسية",
-    "detail": "2019"
-   },
-   {
-    "name": "الدرجة الثانية الفرنسية",
-    "detail": "2017"
-   },
-   {
-    "name": "دوري ناسيونال (الدرجة الثالثة)",
-    "detail": "2016"
-   },
-   {
-    "name": "ناسيونال 2 (الدرجة الرابعة)",
-    "detail": "2013"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/marc_keller.jpg",
-  "imageAuto": true,
-  "imageFor": "Marc Keller",
-  "imageSrc": "https://www.dna.fr/sport/2026/09/07/mercato-supporters-ambitions-l-interview-exclusive-de-marc-keller-le-president-du-racing-club-de-strasbourg"
- },
- "Nice": {
-  "name": "موريس كوهين",
-  "en": "Maurice Cohen",
-  "since": 2026,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/maurice_cohen.jpg",
-  "imageAuto": true,
-  "imageFor": "Maurice Cohen",
-  "imageSrc": "https://www.nicematin.com/sports/football/maurice-cohen-vice-president-delegue-de-l-ogc-nice-est-l-invite-de-gym-tonic-10668106"
- },
- "OGC Nice": {
-  "name": "موريس كوهين",
-  "en": "Maurice Cohen",
-  "since": 2026,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/maurice_cohen.jpg",
-  "imageAuto": true,
-  "imageFor": "Maurice Cohen",
-  "imageSrc": "https://www.nicematin.com/sports/football/maurice-cohen-vice-president-delegue-de-l-ogc-nice-est-l-invite-de-gym-tonic-10668106"
- },
- "Rennes": {
-  "name": "أرنو بوي",
-  "en": "Arnaud Pouille",
-  "since": 2024,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/arnaud_pouille.jpg",
-  "imageAuto": true,
-  "imageFor": "Arnaud Pouille",
-  "imageSrc": "https://actu.fr/bretagne/rennes_35238/football-qui-est-arnaud-pouille-le-nouveau-president-du-stade-rennais-qui-succede-a-olivier-cloarec_61692447.html"
- },
- "Stade Rennais": {
-  "name": "أرنو بوي",
-  "en": "Arnaud Pouille",
-  "since": 2024,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/arnaud_pouille.jpg",
-  "imageAuto": true,
-  "imageFor": "Arnaud Pouille",
-  "imageSrc": "https://actu.fr/bretagne/rennes_35238/football-qui-est-arnaud-pouille-le-nouveau-president-du-stade-rennais-qui-succede-a-olivier-cloarec_61692447.html"
- },
- "Stade Rennais FC": {
-  "name": "أرنو بوي",
-  "en": "Arnaud Pouille",
-  "since": 2024,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/arnaud_pouille.jpg",
-  "imageAuto": true,
-  "imageFor": "Arnaud Pouille",
-  "imageSrc": "https://actu.fr/bretagne/rennes_35238/football-qui-est-arnaud-pouille-le-nouveau-president-du-stade-rennais-qui-succede-a-olivier-cloarec_61692447.html"
- },
- "Brest": {
-  "name": "دوني لو سان",
-  "en": "Denis Le Saint",
-  "since": 2016,
-  "noTitles": true
- },
- "Stade Brestois 29": {
-  "name": "دوني لو سان",
-  "en": "Denis Le Saint",
-  "since": 2016,
-  "noTitles": true
- },
- "Stade Brestois": {
-  "name": "دوني لو سان",
-  "en": "Denis Le Saint",
-  "since": 2016,
-  "noTitles": true
- },
- "Toulouse": {
-  "name": "أوليفييه كلوارك",
-  "en": "Olivier Cloarec",
-  "since": 2025,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/olivier_cloarec.jpg",
-  "imageAuto": true,
-  "imageFor": "Olivier Cloarec",
-  "imageSrc": "https://www.footmercato.net/a8867169101746044331-olivier-cloarec-nouveau-president-de-toulouse"
- },
- "Toulouse FC": {
-  "name": "أوليفييه كلوارك",
-  "en": "Olivier Cloarec",
-  "since": 2025,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/olivier_cloarec.jpg",
-  "imageAuto": true,
-  "imageFor": "Olivier Cloarec",
-  "imageSrc": "https://www.footmercato.net/a8867169101746044331-olivier-cloarec-nouveau-president-de-toulouse"
- },
- "Lorient": {
-  "name": "لويك فيري",
-  "en": "Loïc Féry",
-  "since": 2009,
-  "titlesTotal": 2,
-  "titles": [
-   {
-    "name": "الدرجة الثانية الفرنسية",
-    "detail": "2020، 2025"
-   }
-  ],
-  "image": "https://www.fclorient.bzh/voy_content/uploads/2017/09/fery-loic-president-fc-lorient_3000x1997-scaled.jpg"
- },
- "FC Lorient": {
-  "name": "لويك فيري",
-  "en": "Loïc Féry",
-  "since": 2009,
-  "titlesTotal": 2,
-  "titles": [
-   {
-    "name": "الدرجة الثانية الفرنسية",
-    "detail": "2020، 2025"
-   }
-  ],
-  "image": "https://www.fclorient.bzh/voy_content/uploads/2017/09/fery-loic-president-fc-lorient_3000x1997-scaled.jpg"
- },
- "Cagliari": {
-  "name": "توماسو جوليني",
-  "en": "Tommaso Giulini",
-  "since": 2014,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "الدرجة الثانية الإيطالية",
-    "detail": "2016"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/giulini.jpg"
- },
- "Lecce": {
-  "name": "سافيريو ستيكي داميانّي",
-  "en": "Saverio Sticchi Damiani",
-  "since": 2017,
-  "titlesTotal": 2,
-  "titles": [
-   {
-    "name": "الدرجة الثانية الإيطالية",
-    "detail": "2022"
-   },
-   {
-    "name": "الدرجة الثالثة الإيطالية",
-    "detail": "2018"
-   }
-  ],
-  "image": ""
- },
- "Genoa": {
-  "name": "دان شوكو",
-  "en": "Dan Sucu",
-  "since": 2025,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/dan_sucu.jpg",
-  "imageAuto": true,
-  "imageFor": "Dan Sucu",
-  "imageSrc": "https://www.rainews.it/articoli/2024/12/genoa-chi-e-dan-sucu-il-nuovo-proprietario-del-club-28019336-3a13-414f-a861-d1dd149c464e.html"
- },
- "Udinese": {
-  "name": "فرانكو سولداتي",
-  "en": "Franco Soldati",
-  "since": 1999,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "كأس إنترتوتو الأوروبية",
-    "detail": "2000"
-   }
-  ]
- },
- "St. Pauli": {
-  "name": "أوكه غوتليش",
-  "en": "Oke Göttlich",
-  "since": 2014,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "الدوري الألماني الدرجة الثانية",
-    "detail": "2024",
-    "slug": "ger.2"
-   }
-  ],
-  "image": "https://reshape.sport1.de/c/t/52b2e297-df0b-4d1d-b8f5-ba668048e634/1290x726"
- },
- "FC St. Pauli": {
-  "name": "أوكه غوتليش",
-  "en": "Oke Göttlich",
-  "since": 2014,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "الدوري الألماني الدرجة الثانية",
-    "detail": "2024",
-    "slug": "ger.2"
-   }
-  ],
-  "image": "https://reshape.sport1.de/c/t/52b2e297-df0b-4d1d-b8f5-ba668048e634/1290x726"
- },
- "Mainz": {
-  "name": "شتيفان هوفمان",
-  "en": "Stefan Hofmann",
-  "since": 2018,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/stefan_hofmann.jpg",
-  "imageAuto": true,
-  "imageFor": "Stefan Hofmann",
-  "imageSrc": "https://www.sueddeutsche.de/sport/mainz-stefan-hofmann-bleibt-vorsitzender-des-fsv-mainz-dpa.urn-newsml-dpa-com-20090101-210629-99-196323"
- },
- "1. FSV Mainz 05": {
-  "name": "شتيفان هوفمان",
-  "en": "Stefan Hofmann",
-  "since": 2018,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/stefan_hofmann.jpg",
-  "imageAuto": true,
-  "imageFor": "Stefan Hofmann",
-  "imageSrc": "https://www.sueddeutsche.de/sport/mainz-stefan-hofmann-bleibt-vorsitzender-des-fsv-mainz-dpa.urn-newsml-dpa-com-20090101-210629-99-196323"
- },
- "Mainz 05": {
-  "name": "شتيفان هوفمان",
-  "en": "Stefan Hofmann",
-  "since": 2018,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/stefan_hofmann.jpg",
-  "imageAuto": true,
-  "imageFor": "Stefan Hofmann",
-  "imageSrc": "https://www.sueddeutsche.de/sport/mainz-stefan-hofmann-bleibt-vorsitzender-des-fsv-mainz-dpa.urn-newsml-dpa-com-20090101-210629-99-196323"
- },
- "1. FC Köln": {
-  "name": "يورن شتوبه",
-  "en": "Jörn Stobbe",
-  "since": 2025,
-  "noTitles": true
- },
- "FC Cologne": {
-  "name": "يورن شتوبه",
-  "en": "Jörn Stobbe",
-  "since": 2025,
-  "noTitles": true
- },
- "Koln": {
-  "name": "يورن شتوبه",
-  "en": "Jörn Stobbe",
-  "since": 2025,
-  "noTitles": true
- },
- "Köln": {
-  "name": "يورن شتوبه",
-  "en": "Jörn Stobbe",
-  "since": 2025,
-  "noTitles": true
- },
- "Hamburg SV": {
-  "name": "هنريك كونكه",
-  "en": "Henrik Köncke",
-  "since": 2025,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/henrik_koncke.jpg",
-  "imageAuto": true,
-  "imageFor": "Henrik Köncke",
-  "imageSrc": "https://www.spiegel.de/sport/fussball/hamburger-sv-henrik-koencke-folgt-auf-marcell-jansen-als-praesident-a-f02ac8d4-e903-4527-907e-11ad2aa45ccb"
- },
- "Hamburger SV": {
-  "name": "هنريك كونكه",
-  "en": "Henrik Köncke",
-  "since": 2025,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/henrik_koncke.jpg",
-  "imageAuto": true,
-  "imageFor": "Henrik Köncke",
-  "imageSrc": "https://www.spiegel.de/sport/fussball/hamburger-sv-henrik-koencke-folgt-auf-marcell-jansen-als-praesident-a-f02ac8d4-e903-4527-907e-11ad2aa45ccb"
- },
- "Hamburg": {
-  "name": "هنريك كونكه",
-  "en": "Henrik Köncke",
-  "since": 2025,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/henrik_koncke.jpg",
-  "imageAuto": true,
-  "imageFor": "Henrik Köncke",
-  "imageSrc": "https://www.spiegel.de/sport/fussball/hamburger-sv-henrik-koencke-folgt-auf-marcell-jansen-als-praesident-a-f02ac8d4-e903-4527-907e-11ad2aa45ccb"
- },
- "Levante": {
-  "name": "بابلو سانشيز",
-  "en": "Pablo Sánchez",
-  "since": 2023,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "الدرجة الثانية الإسبانية",
-    "detail": "2025"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/pablo_sanchez.jpg",
-  "imageAuto": true,
-  "imageFor": "Pablo Sánchez",
-  "imageSrc": "https://www.levante-emv.com/deportes/2026/05/29/pablo-sanchez-presidente-levante-club-130807043.html"
- },
- "Espanyol": {
-  "name": "آلان بيس",
-  "en": "Alan Pace",
-  "since": 2025,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "الدرجة الثانية الإنجليزية",
-    "detail": "2023 (مع بيرنلي)"
-   }
-  ],
-  "titlesLabel": "بطولاته كرئيس",
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/pace.jpg"
- },
- "Burnley": {
-  "name": "آلان بيس",
-  "en": "Alan Pace",
-  "since": 2020,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "الدرجة الثانية الإنجليزية",
-    "detail": "2023"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/pace.jpg"
- },
- "Real Oviedo": {
-  "name": "مارتن بيلايث",
-  "en": "Martín Peláez",
-  "since": 2022,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/martin_pelaez.jpg",
-  "imageAuto": true,
-  "imageFor": "Martín Peláez",
-  "imageSrc": "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/02/26/martin-pelaez-presidente-real-oviedo-grupo-pachuca-va-vender-va-estar-anos/00031772110927990812741.htm"
- },
- "Oviedo": {
-  "name": "مارتن بيلايث",
-  "en": "Martín Peláez",
-  "since": 2022,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/martin_pelaez.jpg",
-  "imageAuto": true,
-  "imageFor": "Martín Peláez",
-  "imageSrc": "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/02/26/martin-pelaez-presidente-real-oviedo-grupo-pachuca-va-vender-va-estar-anos/00031772110927990812741.htm"
- },
- "Fulham": {
-  "name": "شهيد خان",
-  "en": "Shahid Khan",
-  "since": 2013,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "الدرجة الثانية الإنجليزية",
-    "detail": "2022"
-   }
-  ]
- },
- "Sunderland": {
-  "name": "كيريل لويس-دريفوس",
-  "en": "Kyril Louis-Dreyfus",
-  "since": 2021,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/kyril_louis_dreyfus.jpg",
-  "imageAuto": true,
-  "imageFor": "Kyril Louis-Dreyfus",
-  "imageSrc": "https://www.chroniclelive.co.uk/sport/football/football-news/sunderland-owner-kyril-louis-dreyfus-22374997?t"
- },
- "Nottingham Forest": {
-  "name": "إيفانغيلوس ماريناكيس",
-  "en": "Evangelos Marinakis",
-  "since": 2017,
-  "titlesTotal": 18,
-  "titles": [
-   {
-    "name": "الدوري اليوناني",
-    "detail": "11 مرة · 2011، 2012، 2013، 2014، 2015، 2016، 2017، 2020، 2021، 2022، 2025 (مع أولمبياكوس)"
-   },
-   {
-    "name": "كأس اليونان",
-    "detail": "5 مرات · 2012، 2013، 2015، 2020، 2025 (مع أولمبياكوس)"
-   },
-   {
-    "name": "دوري المؤتمر الأوروبي",
-    "detail": "2024 (مع أولمبياكوس)",
-    "slug": "uefa.europa.conf"
-   },
-   {
-    "name": "السوبر اليوناني",
-    "detail": "2025 (مع أولمبياكوس)"
-   }
-  ],
-  "titlesLabel": "بطولاته كرئيس"
- },
- "Olympiacos": {
-  "name": "إيفانغيلوس ماريناكيس",
-  "en": "Evangelos Marinakis",
-  "since": 2010,
-  "titlesTotal": 18,
-  "titles": [
-   {
-    "name": "الدوري اليوناني",
-    "detail": "11 مرة · 2011، 2012، 2013، 2014، 2015، 2016، 2017، 2020، 2021، 2022، 2025"
-   },
-   {
-    "name": "كأس اليونان",
-    "detail": "5 مرات · 2012، 2013، 2015، 2020، 2025"
-   },
-   {
-    "name": "دوري المؤتمر الأوروبي",
-    "detail": "2024",
-    "slug": "uefa.europa.conf"
-   },
-   {
-    "name": "السوبر اليوناني",
-    "detail": "2025"
-   }
-  ]
- },
- "Olympiakos": {
-  "name": "إيفانغيلوس ماريناكيس",
-  "en": "Evangelos Marinakis",
-  "since": 2010,
-  "titlesTotal": 18,
-  "titles": [
-   {
-    "name": "الدوري اليوناني",
-    "detail": "11 مرة · 2011، 2012، 2013، 2014، 2015، 2016، 2017، 2020، 2021، 2022، 2025"
-   },
-   {
-    "name": "كأس اليونان",
-    "detail": "5 مرات · 2012، 2013، 2015، 2020، 2025"
-   },
-   {
-    "name": "دوري المؤتمر الأوروبي",
-    "detail": "2024",
-    "slug": "uefa.europa.conf"
-   },
-   {
-    "name": "السوبر اليوناني",
-    "detail": "2025"
-   }
-  ]
- },
- "Olympiacos Piraeus": {
-  "name": "إيفانغيلوس ماريناكيس",
-  "en": "Evangelos Marinakis",
-  "since": 2010,
-  "titlesTotal": 18,
-  "titles": [
-   {
-    "name": "الدوري اليوناني",
-    "detail": "11 مرة · 2011، 2012، 2013، 2014، 2015، 2016، 2017، 2020، 2021، 2022، 2025"
-   },
-   {
-    "name": "كأس اليونان",
-    "detail": "5 مرات · 2012، 2013، 2015، 2020، 2025"
-   },
-   {
-    "name": "دوري المؤتمر الأوروبي",
-    "detail": "2024",
-    "slug": "uefa.europa.conf"
-   },
-   {
-    "name": "السوبر اليوناني",
-    "detail": "2025"
-   }
-  ]
- },
- "Everton": {
-  "name": "دان فريدكين",
-  "en": "Dan Friedkin",
-  "since": 2024,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "دوري المؤتمر الأوروبي",
-    "detail": "2022 (مع روما)",
-    "slug": "uefa.europa.conf"
-   }
-  ],
-  "titlesLabel": "بطولاته كرئيس"
- },
- "Pisa": {
-  "name": "داميان كومولي",
-  "en": "Damien Comolli",
-  "since": 2026,
-  "titlesTotal": 2,
-  "titles": [
-   {
-    "name": "كأس فرنسا",
-    "detail": "2023 (مع تولوز)",
-    "slug": "fra.coupe_de_france"
-   },
-   {
-    "name": "الدرجة الثانية الفرنسية",
-    "detail": "2022 (مع تولوز)"
-   }
-  ],
-  "titlesLabel": "بطولاته كرئيس"
- },
- "Hellas Verona": {
-  "name": "إيتالو زانزي",
-  "en": "Italo Zanzi",
-  "since": 2025,
-  "noTitles": true,
-  "image": "https://www.calcioefinanza.it/wp-content/uploads/2024/12/Roma-Fiorentina-ASTA3981.webp"
- },
- "Verona": {
-  "name": "إيتالو زانزي",
-  "en": "Italo Zanzi",
-  "since": 2025,
-  "noTitles": true,
-  "image": "https://www.calcioefinanza.it/wp-content/uploads/2024/12/Roma-Fiorentina-ASTA3981.webp"
- },
- "Cremonese": {
-  "name": "موريتسيو كالتشينوني",
-  "en": "Maurizio Calcinoni",
-  "since": 2026,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/maurizio_calcinoni.jpg",
-  "imageAuto": true,
-  "imageFor": "Maurizio Calcinoni",
-  "imageSrc": "https://www.ilovepalermocalcio.com/cremonese-ufficiale-maurizio-calcinoni-e-il-nuovo-presidente/"
- },
- "Leeds United": {
-  "name": "باراغ مارات",
-  "en": "Paraag Marathe",
-  "since": 2023,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "دوري الدرجة الأولى الإنجليزي (التشامبيونشيب)",
-    "detail": "2025"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/paraag_marathe.jpg",
-  "imageAuto": true,
-  "imageFor": "Paraag Marathe",
-  "imageSrc": "https://www.rangersnews.uk/news/who-is-paraag-marathe-meet-the-49ers-enterprises-president-spearheading-rangers-takeover-talks/"
- },
- "Leeds": {
-  "name": "باراغ مارات",
-  "en": "Paraag Marathe",
-  "since": 2023,
-  "titlesTotal": 1,
-  "titles": [
-   {
-    "name": "دوري الدرجة الأولى الإنجليزي (التشامبيونشيب)",
-    "detail": "2025"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/paraag_marathe.jpg",
-  "imageAuto": true,
-  "imageFor": "Paraag Marathe",
-  "imageSrc": "https://www.rangersnews.uk/news/who-is-paraag-marathe-meet-the-49ers-enterprises-president-spearheading-rangers-takeover-talks/"
- },
- "Wolverhampton Wanderers": {
-  "name": "ناثان شي",
-  "en": "Nathan Shi",
-  "since": 2025,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/shi.jpg"
- },
- "Wolves": {
-  "name": "ناثان شي",
-  "en": "Nathan Shi",
-  "since": 2025,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/shi.jpg"
- },
- "Hoffenheim": {
-  "name": "أندريه كرويتسفيزر",
-  "en": "André Kreuzwieser",
-  "since": 2026,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/andre_kreuzwieser.jpg",
-  "imageAuto": true,
-  "imageFor": "André Kreuzwieser",
-  "imageSrc": "https://www.fupa.net/news/andre-kreuzwieser-zum-neuen-tsg-praesidenten-gewaehlt-3165318"
- },
- "TSG Hoffenheim": {
-  "name": "أندريه كرويتسفيزر",
-  "en": "André Kreuzwieser",
-  "since": 2026,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/andre_kreuzwieser.jpg",
-  "imageAuto": true,
-  "imageFor": "André Kreuzwieser",
-  "imageSrc": "https://www.fupa.net/news/andre-kreuzwieser-zum-neuen-tsg-praesidenten-gewaehlt-3165318"
- },
- "1899 Hoffenheim": {
-  "name": "أندريه كرويتسفيزر",
-  "en": "André Kreuzwieser",
-  "since": 2026,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/andre_kreuzwieser.jpg",
-  "imageAuto": true,
-  "imageFor": "André Kreuzwieser",
-  "imageSrc": "https://www.fupa.net/news/andre-kreuzwieser-zum-neuen-tsg-praesidenten-gewaehlt-3165318"
- },
- "Augsburg": {
-  "name": "ماركوس كرابف",
-  "en": "Markus Krapf",
-  "since": 2022,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/krapf.jpg"
- },
- "FC Augsburg": {
-  "name": "ماركوس كرابف",
-  "en": "Markus Krapf",
-  "since": 2022,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/krapf.jpg"
- },
- "Heidenheim": {
-  "name": "هولغر سانفالد",
-  "en": "Holger Sanwald",
-  "since": 2017,
-  "titles": [
-   {
-    "name": "الدوري الألماني الدرجة الثانية",
-    "detail": "2023",
-    "slug": "ger.2"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/holger_sanwald.jpg",
-  "imageAuto": true,
-  "imageFor": "Holger Sanwald",
-  "imageSrc": "https://www.sportschau.de/regional/swr/swr-heidenheim-boss-holger-sanwald-wir-duerfen-gar-nicht-so-viel-rechnen-100.html"
- },
- "1. FC Heidenheim": {
-  "name": "هولغر سانفالد",
-  "en": "Holger Sanwald",
-  "since": 2017,
-  "titles": [
-   {
-    "name": "الدوري الألماني الدرجة الثانية",
-    "detail": "2023",
-    "slug": "ger.2"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/holger_sanwald.jpg",
-  "imageAuto": true,
-  "imageFor": "Holger Sanwald",
-  "imageSrc": "https://www.sportschau.de/regional/swr/swr-heidenheim-boss-holger-sanwald-wir-duerfen-gar-nicht-so-viel-rechnen-100.html"
- },
- "1. FC Heidenheim 1846": {
-  "name": "هولغر سانفالد",
-  "en": "Holger Sanwald",
-  "since": 2017,
-  "titles": [
-   {
-    "name": "الدوري الألماني الدرجة الثانية",
-    "detail": "2023",
-    "slug": "ger.2"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/holger_sanwald.jpg",
-  "imageAuto": true,
-  "imageFor": "Holger Sanwald",
-  "imageSrc": "https://www.sportschau.de/regional/swr/swr-heidenheim-boss-holger-sanwald-wir-duerfen-gar-nicht-so-viel-rechnen-100.html"
- },
- "Mallorca": {
-  "name": "آندي كولبرغ",
-  "en": "Andy Kohlberg",
-  "since": 2017,
-  "titles": [
-   {
-    "name": "الدرجة الثالثة الإسبانية (المجموعة 3)",
-    "detail": "2018"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/kohlberg.jpg"
- },
- "Real Mallorca": {
-  "name": "آندي كولبرغ",
-  "en": "Andy Kohlberg",
-  "since": 2017,
-  "titles": [
-   {
-    "name": "الدرجة الثالثة الإسبانية (المجموعة 3)",
-    "detail": "2018"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/kohlberg.jpg"
- },
- "RCD Mallorca": {
-  "name": "آندي كولبرغ",
-  "en": "Andy Kohlberg",
-  "since": 2017,
-  "titles": [
-   {
-    "name": "الدرجة الثالثة الإسبانية (المجموعة 3)",
-    "detail": "2018"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/kohlberg.jpg"
- },
- "Parma": {
-  "name": "كايل كراوس",
-  "en": "Kyle Krause",
-  "since": 2020,
-  "titles": [
-   {
-    "name": "الدرجة الثانية الإيطالية",
-    "detail": "2024"
-   }
-  ],
-  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Kyle_Krause_%28Parma%2C_April_2021%29_%28cropped%29.jpg/500px-Kyle_Krause_%28Parma%2C_April_2021%29_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "imageAuto": true,
-  "imageFor": "Kyle Krause",
-  "imageSrc": "https://it.wikipedia.org/wiki/Kyle_Krause"
- },
- "Parma Calcio 1913": {
-  "name": "كايل كراوس",
-  "en": "Kyle Krause",
-  "since": 2020,
-  "titles": [
-   {
-    "name": "الدرجة الثانية الإيطالية",
-    "detail": "2024"
-   }
-  ],
-  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Kyle_Krause_%28Parma%2C_April_2021%29_%28cropped%29.jpg/500px-Kyle_Krause_%28Parma%2C_April_2021%29_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "imageAuto": true,
-  "imageFor": "Kyle Krause",
-  "imageSrc": "https://it.wikipedia.org/wiki/Kyle_Krause"
- },
- "Auxerre": {
-  "name": "جيمس تشو",
-  "en": "James Zhou",
-  "since": 2021,
-  "titles": [
-   {
-    "name": "الدرجة الثانية الفرنسية",
-    "detail": "2024"
-   }
-  ]
- },
- "AJ Auxerre": {
-  "name": "جيمس تشو",
-  "en": "James Zhou",
-  "since": 2021,
-  "titles": [
-   {
-    "name": "الدرجة الثانية الفرنسية",
-    "detail": "2024"
-   }
-  ]
- },
- "Le Havre": {
-  "name": "جان ميشيل روسييه",
-  "en": "Jean-Michel Roussier",
-  "since": 2022,
-  "titles": [
-   {
-    "name": "الدرجة الثانية الفرنسية",
-    "detail": "2023"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/jean_michel_roussier.jpg",
-  "imageAuto": true,
-  "imageFor": "Jean-Michel Roussier",
-  "imageSrc": "https://www.sofoot.com/breves/le-president-du-havre-jean-michel-roussier-reagit-a-linterdiction-de-stade-dun-supporter-de-six-ans"
- },
- "Le Havre AC": {
-  "name": "جان ميشيل روسييه",
-  "en": "Jean-Michel Roussier",
-  "since": 2022,
-  "titles": [
-   {
-    "name": "الدرجة الثانية الفرنسية",
-    "detail": "2023"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/jean_michel_roussier.jpg",
-  "imageAuto": true,
-  "imageFor": "Jean-Michel Roussier",
-  "imageSrc": "https://www.sofoot.com/breves/le-president-du-havre-jean-michel-roussier-reagit-a-linterdiction-de-stade-dun-supporter-de-six-ans"
- },
- "Union Berlin": {
-  "name": "ديرك تسينغلر",
-  "en": "Dirk Zingler",
-  "since": 2004,
-  "titles": [
-   {
-    "name": "دوري الدرجة الثالثة الألماني",
-    "detail": "2009"
-   },
-   {
-    "name": "أوبرليغا نورد (الدرجة الرابعة)",
-    "detail": "2006"
-   }
-  ],
-  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/DirkZingler_06.jpg/500px-DirkZingler_06.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "imageAuto": true,
-  "imageFor": "Dirk Zingler",
-  "imageSrc": "https://de.wikipedia.org/wiki/Dirk_Zingler"
- },
- "1. FC Union Berlin": {
-  "name": "ديرك تسينغلر",
-  "en": "Dirk Zingler",
-  "since": 2004,
-  "titles": [
-   {
-    "name": "دوري الدرجة الثالثة الألماني",
-    "detail": "2009"
-   },
-   {
-    "name": "أوبرليغا نورد (الدرجة الرابعة)",
-    "detail": "2006"
-   }
-  ],
-  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/DirkZingler_06.jpg/500px-DirkZingler_06.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "imageAuto": true,
-  "imageFor": "Dirk Zingler",
-  "imageSrc": "https://de.wikipedia.org/wiki/Dirk_Zingler"
- },
- "FC Union Berlin": {
-  "name": "ديرك تسينغلر",
-  "en": "Dirk Zingler",
-  "since": 2004,
-  "titles": [
-   {
-    "name": "دوري الدرجة الثالثة الألماني",
-    "detail": "2009"
-   },
-   {
-    "name": "أوبرليغا نورد (الدرجة الرابعة)",
-    "detail": "2006"
-   }
-  ],
-  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/DirkZingler_06.jpg/500px-DirkZingler_06.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "imageAuto": true,
-  "imageFor": "Dirk Zingler",
-  "imageSrc": "https://de.wikipedia.org/wiki/Dirk_Zingler"
- },
- "Como": {
-  "name": "ميروان سوارسو",
-  "en": "Mirwan Suwarso",
-  "since": 2019,
-  "titles": [
-   {
-    "name": "الدرجة الثالثة الإيطالية",
-    "detail": "2021"
-   }
-  ]
- },
- "Como 1907": {
-  "name": "ميروان سوارسو",
-  "en": "Mirwan Suwarso",
-  "since": 2019,
-  "titles": [
-   {
-    "name": "الدرجة الثالثة الإيطالية",
-    "detail": "2021"
-   }
-  ]
- },
- "Angers": {
-  "name": "رومان شبان",
-  "en": "Romain Chabane",
-  "since": 2023,
-  "noTitles": true
- },
- "Angers SCO": {
-  "name": "رومان شبان",
-  "en": "Romain Chabane",
-  "since": 2023,
-  "noTitles": true
- },
- "Nantes": {
-  "name": "فالديمار كيتا",
-  "en": "Waldemar Kita",
-  "since": 2007,
-  "titles": [
-   {
-    "name": "كأس فرنسا",
-    "detail": "2022",
-    "slug": "fra.coupe_de_france"
-   }
-  ]
- },
- "FC Nantes": {
-  "name": "فالديمار كيتا",
-  "en": "Waldemar Kita",
-  "since": 2007,
-  "titles": [
-   {
-    "name": "كأس فرنسا",
-    "detail": "2022",
-    "slug": "fra.coupe_de_france"
-   }
-  ]
- },
- "Brentford": {
-  "name": "كليف كراون",
-  "en": "Cliff Crown",
-  "since": 2013,
-  "noTitles": true
- },
- "Bayer Leverkusen": {
-  "name": "فرناندو كارو",
-  "en": "Fernando Carro",
-  "since": 2018,
-  "role": "الرئيس التنفيذي",
-  "interim": true,
-  "titles": [
-   {
-    "name": "الدوري الألماني",
-    "detail": "2024",
-    "slug": "ger.1"
-   },
-   {
-    "name": "كأس ألمانيا",
-    "detail": "2024",
-    "slug": "ger.dfb_pokal"
-   },
-   {
-    "name": "كأس السوبر الألماني",
-    "detail": "2024",
-    "slug": "ger.super_cup"
-   }
-  ],
-  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Fernando_Carro_2011_%286504821199%29_%28cropped%29.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-  "imageAuto": true,
-  "imageFor": "Fernando Carro",
-  "imageSrc": "https://de.wikipedia.org/wiki/Fernando_Carro_%28Manager%29"
- },
- "Leverkusen": {
-  "name": "فرناندو كارو",
-  "en": "Fernando Carro",
-  "since": 2018,
-  "role": "الرئيس التنفيذي",
-  "interim": true,
-  "titles": [
-   {
-    "name": "الدوري الألماني",
-    "detail": "2024",
-    "slug": "ger.1"
-   },
-   {
-    "name": "كأس ألمانيا",
-    "detail": "2024",
-    "slug": "ger.dfb_pokal"
-   },
-   {
-    "name": "كأس السوبر الألماني",
-    "detail": "2024",
-    "slug": "ger.super_cup"
-   }
-  ],
-  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Fernando_Carro_2011_%286504821199%29_%28cropped%29.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-  "imageAuto": true,
-  "imageFor": "Fernando Carro",
-  "imageSrc": "https://de.wikipedia.org/wiki/Fernando_Carro_%28Manager%29"
- },
- "Bayer 04 Leverkusen": {
-  "name": "فرناندو كارو",
-  "en": "Fernando Carro",
-  "since": 2018,
-  "role": "الرئيس التنفيذي",
-  "interim": true,
-  "titles": [
-   {
-    "name": "الدوري الألماني",
-    "detail": "2024",
-    "slug": "ger.1"
-   },
-   {
-    "name": "كأس ألمانيا",
-    "detail": "2024",
-    "slug": "ger.dfb_pokal"
-   },
-   {
-    "name": "كأس السوبر الألماني",
-    "detail": "2024",
-    "slug": "ger.super_cup"
-   }
-  ],
-  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Fernando_Carro_2011_%286504821199%29_%28cropped%29.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-  "imageAuto": true,
-  "imageFor": "Fernando Carro",
-  "imageSrc": "https://de.wikipedia.org/wiki/Fernando_Carro_%28Manager%29"
- },
- "Aston Villa": {
-  "name": "ناصف ساويرس وويس إدنز",
-  "en": "",
-  "role": "رئيسا مجلس الإدارة المشاركان",
-  "titles": [
-   {
-    "name": "الدوري الأوروبي",
-    "detail": "2026",
-    "slug": "uefa.europa"
-   }
-  ],
-  "since": 2018
- },
- "Sassuolo": {
-  "name": "كارلو روسي",
-  "en": "Carlo Rossi",
-  "titles": [
-   {
-    "name": "الدرجة الثانية الإيطالية",
-    "detail": "2013، 2025"
-   },
-   {
-    "name": "الدرجة الثالثة الإيطالية (المجموعة الشمالية)",
-    "detail": "2008"
-   }
-  ],
-  "since": 2004
- },
- "US Sassuolo": {
-  "name": "كارلو روسي",
-  "en": "Carlo Rossi",
-  "titles": [
-   {
-    "name": "الدرجة الثانية الإيطالية",
-    "detail": "2013، 2025"
-   },
-   {
-    "name": "الدرجة الثالثة الإيطالية (المجموعة الشمالية)",
-    "detail": "2008"
-   }
-  ],
-  "since": 2004
- },
- "AFC Bournemouth": {
-  "name": "بيل فولي",
-  "en": "Bill Foley",
-  "since": 2022,
-  "role": "رئيس مجلس الإدارة",
-  "interim": true,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/bill_foley.jpg",
-  "imageAuto": true,
-  "imageFor": "Bill Foley",
-  "imageSrc": "https://www.bournemouthecho.co.uk/sport/26141737.afc-bournemouths-progression-owner-bill-foley/"
- },
- "Bournemouth": {
-  "name": "بيل فولي",
-  "en": "Bill Foley",
-  "since": 2022,
-  "role": "رئيس مجلس الإدارة",
-  "interim": true,
-  "noTitles": true,
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/bill_foley.jpg",
-  "imageAuto": true,
-  "imageFor": "Bill Foley",
-  "imageSrc": "https://www.bournemouthecho.co.uk/sport/26141737.afc-bournemouths-progression-owner-bill-foley/"
- },
- "Metz": {
-  "name": "برنار سيرين",
-  "en": "Bernard Serin",
-  "since": 2009,
-  "titles": [
-   {
-    "name": "دوري الدرجة الثانية الفرنسي",
-    "detail": "2019"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/bernard_serin.jpg",
-  "imageAuto": true,
-  "imageFor": "Bernard Serin",
-  "imageSrc": "https://www.republicain-lorrain.fr/sport/2024/01/25/bernard-serin-president-du-fc-metz-degager-une-marge-suffisante-pour-recruter-des-joueurs-interessants"
- },
- "FC Metz": {
-  "name": "برنار سيرين",
-  "en": "Bernard Serin",
-  "since": 2009,
-  "titles": [
-   {
-    "name": "دوري الدرجة الثانية الفرنسي",
-    "detail": "2019"
-   }
-  ],
-  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/pres_img/bernard_serin.jpg",
-  "imageAuto": true,
-  "imageFor": "Bernard Serin",
-  "imageSrc": "https://www.republicain-lorrain.fr/sport/2024/01/25/bernard-serin-president-du-fc-metz-degager-une-marge-suffisante-pour-recruter-des-joueurs-interessants"
- },
- "Werder Bremen": {
-  "name": "هوبرتوس هيس-غرونيفالد",
-  "en": "Hubertus Hess-Grunewald",
-  "since": 2014,
-  "noTitles": true,
-  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Hubertus_Hess-Grunewald_%282026%29.jpg/500px-Hubertus_Hess-Grunewald_%282026%29.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "imageAuto": true,
-  "imageFor": "Hubertus Hess-Grunewald",
-  "imageSrc": "https://de.wikipedia.org/wiki/Hubertus_Hess-Grunewald"
- },
- "SV Werder Bremen": {
-  "name": "هوبرتوس هيس-غرونيفالد",
-  "en": "Hubertus Hess-Grunewald",
-  "since": 2014,
-  "noTitles": true,
-  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Hubertus_Hess-Grunewald_%282026%29.jpg/500px-Hubertus_Hess-Grunewald_%282026%29.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "imageAuto": true,
-  "imageFor": "Hubertus Hess-Grunewald",
-  "imageSrc": "https://de.wikipedia.org/wiki/Hubertus_Hess-Grunewald"
- }
 }
