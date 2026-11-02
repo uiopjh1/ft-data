@@ -38,7 +38,8 @@ function findTm(c) {
   for (const t of list) { const b = ctk(t.name).map((x) => ALIAS[x] || x); if (!a.size || !b.length) continue; const inter = b.filter((x) => a.has(x)).length; const sc = inter / Math.max(a.size, b.length); if (sc > bs || (sc === bs && best && +t.last_season > +best.last_season)) { bs = sc; best = t; } }
   return bs >= 0.5 ? best : null;
 }
-const tmId = {}; for (const c of idx) { const t = findTm(c); if (t) { tmId[c.slug] = t.club_id; rep.matched++; } else rep.unmatched.push(c.slug + '|' + c.en); }
+const tmId = {}; const MAN = { lazio: '398', roma: '12' }; rep.map = [];
+for (const c of idx) { const t = findTm(c); if (MAN[c.slug]) { tmId[c.slug] = MAN[c.slug]; rep.matched++; } else if (t) { tmId[c.slug] = t.club_id; rep.matched++; rep.map.push(c.en + ' = ' + t.name); } else rep.unmatched.push(c.slug + '|' + c.en); }
 // تجميع المشاركات لكل (لاعب، نادٍ)
 const A = {}; for (const a of apps) { const y = yr(a.date); if (!y) continue; const k = a.player_club_id + '|' + a.player_id; const o = A[k] || (A[k] = [y, y]); if (y < o[0]) o[0] = y; if (y > o[1]) o[1] = y; }
 // الانتقالات لكل نادٍ
