@@ -1,0 +1,28 @@
+name: clubs3
+on:
+  workflow_dispatch:
+    inputs:
+      only: { description: 'club slugs, comma separated', required: false }
+      tag: { description: 'batch tag', required: false }
+permissions: { contents: write }
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 170
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: node clubs3.mjs
+        timeout-minutes: 150
+        continue-on-error: true
+        env:
+          ONLY: ${{ inputs.only }}
+          TAG: ${{ inputs.tag }}
+          PHOTOS: 'spl'
+      - if: always()
+        run: |
+          git config user.name ft-bot; git config user.email ft-bot@users.noreply.github.com
+          git add clubs clubs3_report_*.json clubs3_log_*.json 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -qm "club clean batch ${{ inputs.tag }}"; for i in 1 2 3 4 5 6; do git pull --rebase --autostash -q && git push -q && break; sleep 5; done
