@@ -10,17 +10,10 @@ const MALE = 'Q6581097';
 const idx = JSON.parse(fs.readFileSync('clubs_index.json', 'utf8')).clubs;
 const ONLY = process.env.ONLY ? process.env.ONLY.split(',') : null;
 const LOG = [];
-const flush = () => fs.writeFileSync('clubs2_log.json', JSON.stringify({ t: new Date().toISOString(), rep, tail: LOG.slice(-40) }));
+const flush = () => fs.writeFileSync('clubs2_log_' + (process.env.TAG || 'all') + '.json', JSON.stringify({ t: new Date().toISOString(), rep, tail: LOG.slice(-40) }));
 const rep = { done: 0, failed: [], dupMerged: 0, womenDropped: 0 };
 
-// نادي الخليج السعودي: الكيان القديم كان نادياً إماراتياً
-async function fixKhaleej(c) {
-  const s = await J(D + 'action=wbsearchentities&language=en&type=item&limit=10&search=' + encodeURIComponent('Al-Khaleej Saudi'));
-  const ids = ((s && s.search) || []).map((x) => x.id);
-  const e = ids.length ? await J(D + 'action=wbgetentities&props=claims|labels&languages=en&ids=' + ids.join('|')) : null;
-  for (const id of ids) { const en = e && e.entities[id]; const cl = en && en.claims && en.claims.P17 && en.claims.P17[0] && en.claims.P17[0].mainsnak.datavalue; if (cl && cl.value.id === 'Q851' && en.claims.P31) return id; }
-  return null;
-}
+const QFIX = { 'al-khaleej': 'Q2027718' }; // نادي الخليج السعودي (الكيان القديم كان نادياً إماراتياً)
 
 async function sparql(qid) {
   const q = `SELECT ?p ?g ?en ?ar ?img ?start ?end WHERE { ?p p:P54 ?st . ?st ps:P54 wd:${qid} . OPTIONAL { ?st pq:P580 ?start } OPTIONAL { ?st pq:P582 ?end } OPTIONAL { ?p wdt:P18 ?img } OPTIONAL { ?p wdt:P21 ?g } ?p rdfs:label ?en . FILTER(LANG(?en)='en') OPTIONAL { ?p rdfs:label ?ar . FILTER(LANG(?ar)='ar') } }`;
@@ -49,7 +42,7 @@ for (const c of idx) {
   if (ONLY && !ONLY.includes(c.slug)) continue;
   try {
     LOG.push('club ' + c.slug); flush();
-    if (c.slug === 'al-khaleej') { const q = await fixKhaleej(c); if (q) { c.qid = q; const e = await J(D + 'action=wbgetentities&props=sitelinks&sitefilter=enwiki&ids=' + q); const en = e && e.entities[q].sitelinks && e.entities[q].sitelinks.enwiki; if (en) titles[q] = en.title; } }
+    if (QFIX[c.slug]) { c.qid = QFIX[c.slug]; const e = await J(D + 'action=wbgetentities&props=sitelinks&sitefilter=enwiki&ids=' + c.qid); const en = e && e.entities[c.qid].sitelinks && e.entities[c.qid].sitelinks.enwiki; if (en) titles[c.qid] = en.title; }
     const rows = await sparql(c.qid);
     if (!rows) { rep.failed.push(c.slug + ':sparql'); continue; }
     const by = {};
@@ -115,5 +108,5 @@ for (const c of idx) {
     await sleep(1200);
   } catch (e) { rep.failed.push(c.slug + ':' + String(e.message).slice(0, 60)); }
 }
-fs.writeFileSync('clubs_index.json', JSON.stringify({ updated: new Date().toISOString(), clubs: idx }));
-fs.writeFileSync('clubs2_report.json', JSON.stringify(rep, null, 1));
+if (!process.env.NOINDEX) fs.writeFileSync('clubs_index.json', JSON.stringify({ updated: new Date().toISOString(), clubs: idx }));
+fs.writeFileSync('clubs2_report_' + (process.env.TAG || 'all') + '.json', JSON.stringify(rep, null, 1));

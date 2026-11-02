@@ -1,5 +1,9 @@
 name: clubs2
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+    inputs:
+      only: { description: 'club slugs, comma separated', required: false }
+      tag: { description: 'batch tag', required: false }
 permissions: { contents: write }
 jobs:
   run:
@@ -11,12 +15,14 @@ jobs:
         with: { node-version: 20 }
       - run: node clubs2.mjs
         timeout-minutes: 150
-        env:
-          ONLY: al-hilal,al-khaleej
         continue-on-error: true
+        env:
+          ONLY: ${{ inputs.only }}
+          TAG: ${{ inputs.tag }}
+          NOINDEX: '1'
       - if: always()
         run: |
           git config user.name ft-bot; git config user.email ft-bot@users.noreply.github.com
-          git add clubs clubs_index.json clubs2_report.json clubs2_log.json 2>/dev/null || true
+          git add clubs clubs2_report_*.json clubs2_log_*.json 2>/dev/null || true
           git diff --cached --quiet && exit 0
-          git commit -qm "club players rebuild (men only, deduped, sorted)"; for i in 1 2 3 4 5 6; do git pull --rebase --autostash -q && git push -q && break; sleep 5; done
+          git commit -qm "club players rebuild batch ${{ inputs.tag }}"; for i in 1 2 3 4 5 6; do git pull --rebase --autostash -q && git push -q && break; sleep 5; done
