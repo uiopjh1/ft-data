@@ -19,7 +19,9 @@ jobs:
         env:
           ONLY: ${{ inputs.only }}
           TAG: ${{ inputs.tag }}
-          PHOTOS: 'spl'
+          PHOTOS: 'spl,epl,laliga,bundesliga,seriea'
+          PHOTOONLY: '1'
+          OVERRIDE: '1'
       - if: always()
         run: |
           git config user.name ft-bot; git config user.email ft-bot@users.noreply.github.com

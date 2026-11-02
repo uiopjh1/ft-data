@@ -45,6 +45,7 @@ for (const c of idx) {
     LOG.push(c.slug); flush();
     const f = 'clubs/' + c.slug + '.json';
     let rows = JSON.parse(fs.readFileSync(f, 'utf8'));
+    if (!process.env.PHOTOONLY) {
     const Q = c.qid;
     // 1) غير لاعبين: لهم مهنة لكن ليست لاعب كرة قدم
     const occ = await sp(`SELECT ?en (MAX(?f) AS ?fb) (COUNT(?o) AS ?n) WHERE { ?p p:P54/ps:P54 wd:${Q} . ?p wdt:P106 ?o . ?p rdfs:label ?en . FILTER(LANG(?en)='en') BIND(IF(?o=wd:Q937857,1,0) AS ?f) } GROUP BY ?en`);
@@ -66,9 +67,10 @@ for (const c of idx) {
       out.push(r);
     }
     rows = out;
+    }
     // 4) صور FotMob للدوري السعودي (لمن بلا صورة وفترته حديثة)
     if (PHOTOS.includes(c.lg)) {
-      const need = rows.filter((r) => !r[2] && (!r[4] || r[4] >= 2008));
+      const need = rows.filter((r) => (process.env.OVERRIDE ? !/^https?:/.test(r[2] || '') : !r[2]) && (!r[4] || r[4] >= 2008));
       let i = 0;
       await Promise.all(Array.from({ length: 5 }, async () => { while (i < need.length) { const r = need[i++]; rep.photoTry++; try { const u = await photo(r[0], c.en); if (u) { r[2] = u; rep.photos++; } } catch (e) { await sleep(1500); } await sleep(150); } }));
     }
