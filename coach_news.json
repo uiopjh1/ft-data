@@ -1,11 +1,11 @@
 {
- "updated": 1793673285074,
+ "updated": 1793702373321,
  "items": [
   {
    "club": "Al Ahli",
    "club_ar": "الأهلي",
    "type": "sack",
-   "first": "2026-10-31T16:28:23",
+   "first": "2026-10-31T16:27:44",
    "sources": [
     {
      "host": "arriyadiyah.com",
@@ -15,7 +15,7 @@
     {
      "host": "goal.com",
      "title": "أخبار الأهلي اليوم | موعد إقالة بوسيتش وكابوس اليورو يقلق توني .. أحداث لا تتوقف بعد سداسية الشباب! - Goal.com",
-     "link": "https://news.google.com/rss/articles/CBMiowVBVV95cUxQRC1saUVwV3BfVzM1NjlxVy1LdjR4eTliUHd3NUdsYm52Q3JFWXNqSHV4V2J5ZnZvU1BRZmM2R3N6WEZhWlkwaVZZM1FlM3pNUVlXclZxQzRmUkJHTW9XbEowai1uVlQwS0h0WTRlamN3RFQyeXVVTnpBanhHWjhQeTdmR2FTZ0dlajM0TFByakxZRVlzZ215OWc4VFVrZ1lic1BZMjZPQlRzWVk4TFBrZkFtcVNzQW40c0x5OXBpWVh2ZVdCbXZSNTUxRk1wekVZVnRCZkJpNWhzeUt0RWFId0pKRE5sWnAyQVNENjRxUlAtenZpYXQ4TklkUXp4WGNHVHZSR2dQODFaSEVFdEVMTnJFMTZIXzJ6cFFSSjlvZ1VscU1BdFdSTHJwWW1CZjRuRWtta1Z2SllXZmZlNFcxV3d2QXFwcDItX0ttaHlMU0JwS181c0JNci1HYlZzOFhiay1lQU5kM0FOVzdzOFFLSEQ0bWl2Rm5KQU9WMFRiZ1lhWlI0X1lhU2UyWGhEZmdxeTVqdllqeXpRWDVHMUh2LWhjVGs0WkNaNDF6ZkZsVUktVzIwLWEtbEZPQkZ0QnFKaVZSc1FsU2NxTjR5a3p4MXFwZFd5MHU5WUUxUzRRYl9wNkd4LWZCY3VJcGN0VkRGSEZLR2tOWFd0OGZVTHVrYVo1QXJXSnVKRW9aSFg3WmhJR2ZzbWJwMkQtWGhiV1dOeVhIRElPVHZzN0JmVTd5ajlXMlp4X3ptdG5ZeWI3MmdScEZ0dVJaZmhqamwwVDgzVGNqWlRYUldqWFNrWFlyaE5BblRjSVJlVC1YZEFOd1psZjUwVzVrOVQ5ZEJVX3pDWmVZYWEwekdLTUtZcXoyaEZNR2xsNGpXbkpScEJyTzBpc1U?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMinwVBVV95cUxNYnVaaWJyLUR2Vzg5a2pDZHh0OExmTW5MSUxGb08tUVVyY2NENVpYSlR2ZUt0R0x2MzdtQVRIVWszTks2R1dJMUpmR21GSDAxNXFmZl9LMUl1MXFvN1FPZ21zM3pySHhWeldrbFdkM19IOGN3V1ZnRDV2U0wtbnpZd3g1bEhHSUVxUTRfMmNiQS1DZEVELTF4eWptVzdPN2w4eC01NWlRelJZeno2TXdBdjR1d2RHUE51aWd2bm0tVkEyb2FGbEtQZ3EwUkpqakVxemhyYTJ6ZnB6LXNNVVNJZXBzM1hpX0RnNldYMlZTc1ZDa3gtMFc5VTBjWGtNWXdSSktIVGdGUW51RVIwUXJETzhaM1pCNk9MbGFZX1JXOUpESm5nUTR6RDZVdGs1YWVya1YwcXROaWN4Rzl2TW9LOFJTV0lSWHJqYTBZbTBUWXdpSVoyWWJjcU9TYWhFaFdPV05zRmZBVDItNDl0MFlnZHVIM0dIdmhmWXEtVUc0djVVWjFvMndVeTdvV2JITldnejFKU0U4d1QyaG8wc1JPVHNCNjlVcWFZWVNFOVVXWmhwNFpTRGVBZlY1X0pJZGNEbDJ4Zk5lQ3ZzN2lfMTNJRUh4OFJRcmE1M0tkZzVwTWF1cnB2Q00xSEwtUzl1eVZhbFJuVTZmMk1zWE13OTB3SUd6LVd6NVI1RVdJTUNETjdCY1pvUG1BaDlGR1JyVHlWdnhPa3dZM3I3QlBSRkZwOVVVcmxaS09Ta3MzRklZdEYtSUt1WnFjRzRMRDN2YXNoS0VOWWxJTEtFYVh4eFp0Ym9TcWNEY0FkMC1Hb2ZCSTBGYndnV21GeHJuRVNBblFwUEVBNWEyclE0OW9QeGpjSkpvdjlwWF92b082bGFFcw?oc=5"
     },
     {
      "host": "slaati.com",
@@ -25,10 +25,28 @@
    ]
   },
   {
+   "club": "Al Ittihad",
+   "club_ar": "الاتحاد",
+   "type": "sack",
+   "first": "2026-11-01T00:00:00",
+   "sources": [
+    {
+     "host": "akhbaar24.com",
+     "title": "مدرب الاتحاد الأسبق.. إقالة نونو سانتو من وست هام - أخبار 24",
+     "link": "https://news.google.com/rss/articles/CBMiqwRBVV95cUxNajZkZ2VPdkJCREttTVBUMEZkb3RWTEp3NlBOVnAyUjRuaWh3Sm9QbmszQzJndzdObGNhb2dLZkZHd3BUQ2VlWTdxTGQtMTloVXpWZEI0dl92OVV0UEtPU21HUFNtVGJadFlvbV9ZSDZQZldIV3hMVGdablhvQm9yUXpkREhiY2VzYVNfbE5FamJNSFFFcmE4OU5ZSmU3RFVDclpWcDhITWc2OGlZQkVLWGJNZU03eV9ZR0Y5aGxweFNTcFNUbVR6b2t2TDN6VmFFYlJNYmEyVXNtalVES2RjNmU1RTE2OGM5cUxHX2Fjc2dmOHl5dDg1akhYal9ZelNkNXduS2duMk9RMFhZY1hYblE2OHpHWm52Q3I2eWkteHNTTHlyczFMM3ZfdUc2YkJSYzZadEZiX0ZfeUxvaXI3LXl3QXEwNjJTUnZjVWNSNVNjeFNHaEc0NkxpVDMyX09jdUJYTnJTcWtNRVBDbTBVdEtMX1VKMm55aWZLcmIzYnVhMk1YRDhnd0hYbFQ1QzZyLUxJdlgyamV5MXdFVldFc0xFNnhUUktiYjdrOVhXY3E4NWpGTWF1Uk5uaHZ3UktjMTl0TnVweXVlZlZwN3BjbHk4SlhXTlU0bWFDTWFEWWlXSjFWRnVCeWdiUHpJSUVkYVozZXl3amdLem1CRmtvRzVoWWFDMEVBUEtxQ1hXSGdwZ2dNbld1dVA3aFZPYkNjXzZVTndOR1ZPTGc?oc=5"
+    },
+    {
+     "host": "goal.com",
+     "title": "قرار الإقالة صدر أثناء السداسية .. مدرب الاتحاد السابق ينافس بن ذكري على خلافة بوسيتش - Goal.com",
+     "link": "https://news.google.com/rss/articles/CBMi6gRBVV95cUxNeThUXzkwZ3NNVFdfYWZSUGVwZTdoVDFsOGswU3F4elk5czg0enRKckY5S3lQMjdaclhGdEU5S3JQX19FQ2NJS3hGd1NsY0s5MTVxbEhpZVRDMTN5YTBodk9ZZkc2RGJiQTQ2SmFrTEctSFBPUjhNZVR0YThxaVVsOXIxMWNsaDhWRm92VFNXNmJ3WEoxVTVSaUtBdXFvbklVMjlWUEFXTlpGTktTTkFvTUkyX1Q3ZXlBZnR4WkwyZDRoMThKbnRjNjRScDBabURnMElvd1ZpQnJFbWJub2QwZnBmZ0ZBOHdRbnNRcXZ4Yk1peHpSZXRvaWdOM1dyU282YW9iSzg4bFM1ZThfWGNBUFlHcUVZVUh4X2hCV3FRNllVdTdIaFd6Wk5vV0w4Z2kwbk9ZS0R1VWxiTEFMZmluZ2J0RnkzaXNiTTZCT18yeHNVZEEzNXRQTGVEMGRJMDBqVU94bVo2WUhlb3c1MHNFYm1GRVJDWDNRYURJYWNNVVJKTzJkQjVEdUNIZzlTNWhSQXVXajQ5OE0zNmdjUFJNSkVKMU55N1puRUhFa2dYUkVaM2E3X3VhWmVZOWQwUEZ5c0Mwelo0d3dDaml1OFkya1Zacmt6S2prU29hRWtrbGVORjJPMGVoVWNocV92NkF3ZG1aS0twZHl5TTVWSm1OZDF1X3ltRWptU09BT19fS3lTOWtwbzhFMFk2MVk4RG5ZeHctclNFeFFtanJxTm91c09rMmlIUW9PaTJZU3VjYXYzaUhKaXJBNy1iSUktWDNib1p5THJsQWpEZHROWWJhR3JjbnhheHNWQWc?oc=5"
+    }
+   ]
+  },
+  {
    "club": "Al Shabab",
    "club_ar": "الشباب",
    "type": "sack",
-   "first": "2026-10-31T07:47:14",
+   "first": "2026-10-31T10:02:06",
    "sources": [
     {
      "host": "arriyadiyah.com",
@@ -37,13 +55,8 @@
     },
     {
      "host": "goal.com",
-     "title": "أخبار الأهلي اليوم | موعد إقالة بوسيتش وكابوس اليورو يقلق توني .. أحداث لا تتوقف بعد سداسية الشباب! - Goal.com",
-     "link": "https://news.google.com/rss/articles/CBMinwVBVV95cUxNYnVaaWJyLUR2Vzg5a2pDZHh0OExmTW5MSUxGb08tUVVyY2NENVpYSlR2ZUt0R0x2MzdtQVRIVWszTks2R1dJMUpmR21GSDAxNXFmZl9LMUl1MXFvN1FPZ21zM3pySHhWeldrbFdkM19IOGN3V1ZnRDV2U0wtbnpZd3g1bEhHSUVxUTRfMmNiQS1DZEVELTF4eWptVzdPN2w4eC01NWlRelJZeno2TXdBdjR1d2RHUE51aWd2bm0tVkEyb2FGbEtQZ3EwUkpqakVxemhyYTJ6ZnB6LXNNVVNJZXBzM1hpX0RnNldYMlZTc1ZDa3gtMFc5VTBjWGtNWXdSSktIVGdGUW51RVIwUXJETzhaM1pCNk9MbGFZX1JXOUpESm5nUTR6RDZVdGs1YWVya1YwcXROaWN4Rzl2TW9LOFJTV0lSWHJqYTBZbTBUWXdpSVoyWWJjcU9TYWhFaFdPV05zRmZBVDItNDl0MFlnZHVIM0dIdmhmWXEtVUc0djVVWjFvMndVeTdvV2JITldnejFKU0U4d1QyaG8wc1JPVHNCNjlVcWFZWVNFOVVXWmhwNFpTRGVBZlY1X0pJZGNEbDJ4Zk5lQ3ZzN2lfMTNJRUh4OFJRcmE1M0tkZzVwTWF1cnB2Q00xSEwtUzl1eVZhbFJuVTZmMk1zWE13OTB3SUd6LVd6NVI1RVdJTUNETjdCY1pvUG1BaDlGR1JyVHlWdnhPa3dZM3I3QlBSRkZwOVVVcmxaS09Ta3MzRklZdEYtSUt1WnFjRzRMRDN2YXNoS0VOWWxJTEtFYVh4eFp0Ym9TcWNEY0FkMC1Hb2ZCSTBGYndnV21GeHJuRVNBblFwUEVBNWEyclE0OW9QeGpjSkpvdjlwWF92b082bGFFcw?oc=5"
-    },
-    {
-     "host": "kooora.com",
-     "title": "أقيل أثناء كلاسيكو الشباب.. بن ذكري ينافس مدرب مفاجئ على خلافة بوسيتش في الأهلي - Kooora",
-     "link": "https://news.google.com/rss/articles/CBMi5AVBVV95cUxQdW04bHpTX1RJR0l4WExnS3RwSDVMNWVrVHFLTzdzcld3OTV4WTVpaXljT3JfM253MnZTcXVTd2l3ZnRTOS1EdG5NUG42dlY3ajRuT3JWdk80bFlwOV9oYXQyRTB6U2tvbEJ0QXBIZXEwdTlRR05KNDlPUWxmaGZlN200a0lxb1AtQ0MzbGJfeWo1TmlKQ3Y0TVBHWThVUWlDZmI0VHlvd3BjNDNJaHN3cmZQZjBiUjZxYmdybUhvMHR3Y21kVlpIX0xOSm1KVm1QdE9sbU1hVjg5b25VWmRHM3E4NU9teWNqb25qTDdmWTh4WkpKaWRnTUQ3VWdrTWdONGFIYzI1dTAybWh4NmdNengtcndVTE5qM0JqYW9GT1BBdTlMM3hQZzI1YU4zenB1a1VzZG10NXlVYXRabXBySmtsVjJ0aXQ2aUVheEF1MkdaUE13X1F2a1NUV09fNTFocm5QbHNXRUtHOUthemxfcjZSYUlMNDhFR2FqNEZLam1ZRjlMcmktZ2dEZ2VDSFNNU2FoT2F5MlBwTVlMRE1uOExBV2ZZRkk3Nm80Nm1PLXBLR0t0OEtsYURWekdSTVY5aFhBYmxrbXV0ckJhNXNUaDNXanlobVIwVWxkSkxBWW5ZN0U1R19taklUTFNXaV82NU9KR2NDM21ITWIzQ1QyRE5rcWtmdHFRVS04Z256NmV6UDJ5aDRNQ08ybjBHeXBuT0k4VTBrNmxLWkFkWjYtVkFFRGx6TUVaSTRSdVRhRVJEd1E5R1djaENsQk1wMmEyVHllSnB5V1ptN3UxVDdWak92Q1lKS0pOSXV3ZVFTNXVfWjVsbzhpdmVGcGZPcVB0NHlHWlZKcGtfQXNMYUFRd0xET1JkNnBFMVNKN3lTWEJ6cU9rS2szUzk1b1NnU0ZIMzRLRGw1RnRHeTF0bzZ6NkJRSzljd2c4bm9MeUljTFJOWDJVaXdsVlgweVZleWNxamZOVQ?oc=5"
+     "title": "\"يضحك وكأنه يطلب الإقالة\" .. إجماع على رحيل بوسيتش بعد سداسية الشباب: يجب طرده حتى لو كان جوارديولا! - Goal.com",
+     "link": "https://news.google.com/rss/articles/CBMi_gNBVV95cUxPS2QzbVVEckRGLUZXR0RLVWd4czBkc2NQOWJCS3NwdmRscUlxTmtxTEJfMndob0JsZnBSRTE0OHZPRWJtRFhPNVg0anpnTHd6Z2RnLWE4a3FXZlIzV1ptZ0dmSEtqR21yYVR1RU5Db1dEM0FScmZ0U3VHZUZNN3BHMkdtSnNUTkRhWDNUVnU3TEt4clM2UXc2VTlTMHJWdFppYXVsVTRmV19pcmdia1VnTDUxVDhxaENCQnlyY241LTY1SHBvWmQxcGtneXpkSUtSOHJNTHgxWTdadHdrOU0ydS12NkdkUE9Bd21VT1VOWmMtQVphamI2S1RkMmZ2czJ0N2oyU25lbFRVcEJIa1NnTlFKcXo5blJFWDJvay01VWk0T1dLQXcyQ04tb2dXdEY0OVptQWNzLXE2Sk10MTR4YWZGdXJkdk10R2FhZ0xLS1V0MS1zMHBUdWRlSlB1aG9rb2VfSGlhcFRzNTRPQmhOamdKRzdmT3BHekIzWlh1NHFpOTVaemZIUFNYYjBObHRWa2lTVC00RHItci14VmpwZ1dzaGhJeVdwV0tNMEEybXRMTUZpbEQwVC1QM3dya2RuZnVpaWhqem5OenNnbkRVZkhEcEJCVlJTWlNkYV80X21HclFvclN2d0d0MGlZcjJOa2xaUnNqZlJtTE9BTHc?oc=5"
     }
    ]
   },
@@ -51,7 +64,7 @@
    "club": "Udinese",
    "club_ar": "",
    "type": "sack",
-   "first": "2026-11-02T10:26:34",
+   "first": "2026-11-02T10:06:00",
    "sources": [
     {
      "host": "sport.sky.it",
@@ -87,11 +100,6 @@
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZ09OQlpVQnFnZFY1SzhnWlVnb0EwOFprMTZfRHNDMWZZMVdjVzkyTDJybjNaMXpBd2pGUV9iUElZOW5MQ1ZxNDFmLXBpSTE0aUxLUmk5Ym4zdWJFb0h0QzhKMXgxeDdFaUQ1dXVFaUFDeVJfeENEQzAxQ3VPS3pNMHhyWXdjVk9GcnFDd0RZbUVBNzE0eGtGREVjV1k5c0F5UHZCNWprWEY4TFNxTThTTDFGb3dHNS1GdVM2Z2luZi1JYTjSAcMBQVVfeXFMTmdPTkJaVUJxZ2RWNUs4Z1pVZ29BMDhaazE2X0RzQzFmWTFXY1c5Mkwycm4zWjF6QXdqRlFfYlBJWTluTENWcTQxZi1waUkxNGlMS1JpOWJuM3ViRW9IdEM4SjF4MXg3RWlENXV1RWlBQ3lSX3hDREMwMUN1T0t6TTB4cll3Y1ZPRnJxQ3dEWW1FQTcxNHhrRkRFY1dZOXNBeVB2QjVqa1hGOExTcU04U0wxRm93RzUtRnVTNmdpbmYtSWE4?oc=5"
     },
     {
-     "host": "sports.yahoo.com",
-     "title": "Official: Udinese appoint Zanetti as head coach - Yahoo Sports",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcnN0RXNCS3hfSEtKaHFkejU4cjhGNGxlTHZBYUFDb1UzWGg1T3RZTDRhWmFtZUdPZFVZQTVwLTU0N0lqV1R2V0ZnNTZtS1o0V1dxZExfSktXN2JJenp2NmNrTGRWdjdHUjZxVTI1S3dDRnpDcG9tZDRlWjBiUjZxemE1UkZIT0xla21YT1p6QQ?oc=5"
-    },
-    {
      "host": "football-italia.net",
      "title": "Official: Udinese appoint Zanetti as head coach - Football Italia",
      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSWU4Uk13R1p6dGJ4M29FMXVRZ1BwdXhINFYxRU5PM2x4azMya2N6ZlhpbzZFSVpHMUpJMkM0SjRkZU1HZjVSWGtQeERGNmhLMzkyVUNrS2tQUkNSUzRtLU13bC1KNzdUaHJ6WmR6R1NoMUhuLWxEQVhRa2JpWU1YUtIBhgFBVV95cUxPR3pwaVV6YmdoeGp0RmNGQVFmZnZtdnNHa002UklhQ1lFS2xTbWpQazloVmVEY3dadnU0UE5WYkFxelJpVVV0OGJJd2NTX2RtZWhRanJpV2hJa0VWdDB4b2E5SG5ZR1g3N2czZG00cXRWWUZRR0tJYWJzd0VZRC1tNWxKZTdtUQ?oc=5"
@@ -110,9 +118,9 @@
      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQQ1ZCZFhadXczeVZtVEJGRUhzQ1pTQ2RtN1BvVVlIX2J0WjZMb1NJeFRwdUpNTUZuWU1qd0ZYeWxDSi1meGJDbmFsSndlM2hiUm1Pbl9GS1BEbGZEdm5IVVk2VmNDM19wektCdnZVVFBGcHgtQWVaRUE2U1JScmRrR3FRM3huWkJ4NUJyX045UkcxVklEQWtvallSSzRoaWF3TmluY2RxYUtJRl9jZGxzdlBGR1Y1QTVId19teDhVYjM0bEdHNl9QVWNDdTV1MUhkbDZwcTN2TzRPclJTZUtMVlJQeWxQTjAzZGhmQVZvc0lmSHV0NGNfZzRBYUZXS3RZOWdzRUVZdVM?oc=5"
     },
     {
-     "host": "lemonde.fr",
-     "title": "Le Havre, enfoncé dans une crise sportive en Ligue 1, se sépare de son entraîneur Didier Digard et accepte la démission de son président - Le Monde.fr",
-     "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxOQWlJd1dsMExoS2xWbnFSLWNYLUNpdkpybWVQZzhQWVZQTjZvXzJTU0lTeldlMjg2M0I1TlhDdHRFUzJjdW4zdHZwZk53REVJeV9OVFRFQ21IMVp5dFJBZFZtYkJiN2ZidHg5UFpWTXBlMldELXdwdDkxTHZzMG8zS1RRMkFpTnJpU0M4X00wZ0NnZDVQcDY5WWZvZ012NVhYdDIzejlmaVdUSUl2THFPTldQTlRpM3YzbFluOGVtNm5wT2drTlhyU2s5RTlWMndMeWxCaF8zR0lTWXJXTTNnRGFBeVl2cHBqY1JiTk9EUzRVcmJYV0FrdEZjdXdlWmJONHE0WnZqNnhWaUZfMzBMVTBIbkhtNmZQZmhsVVBsSkJVa2xMc1h3?oc=5"
+     "host": "lequipe.fr",
+     "title": "Le Havre officialise la démission de Jean-Michel Roussier et la mise à pied de Didier Digard, remplacé par Jaïr Karam - L'Équipe",
+     "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNOEJRVE9DOXE2WjRqUndNdEpBMUdYTlZyal9wN2c5aFFpOGc0NUhCLVdKTDg5dEhTQjZtUDRONFBjV000aFoyUXhCS2JpRnRfR2t1dkRScG4zcnBsRlAxd1Z4Mm1mOURrRDdzTE05SnlVc3hNTVIzbEQ0VnJiQksyVG5mUjFhMDY3RGdCMF9OanF0RWpPNl82dmFJSjVqbFR3QS14RzRQajJfMnJraXc3S1RkNURqMU04cTNjU00xb1IzWTRjODJ3em9PQzRmLVAtekdELWZqZW9HbTN6YmNud2pWdEJOY3lDdUVLS1diYWl0bjAxdFFYNHJJSQ?oc=5"
     },
     {
      "host": "sports.yahoo.com",

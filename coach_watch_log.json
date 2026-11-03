@@ -1,5 +1,5 @@
 {
- "t": "2026-11-03T02:33:56.594742",
+ "t": "2026-11-03T10:38:43.028385",
  "seen": [
   {
    "club": "Al Ahli",
@@ -14,19 +14,19 @@
   {
    "club": "Al Ittihad",
    "type": "sack",
-   "n": 1,
+   "n": 2,
    "hosts": [
+    "akhbaar24.com",
     "goal.com"
    ]
   },
   {
    "club": "Al Shabab",
    "type": "sack",
-   "n": 3,
+   "n": 2,
    "hosts": [
     "arriyadiyah.com",
-    "goal.com",
-    "kooora.com"
+    "goal.com"
    ]
   },
   {
@@ -38,11 +38,11 @@
    ]
   },
   {
-   "club": "Manchester United",
+   "club": "Nottingham Forest",
    "type": "sack",
    "n": 1,
    "hosts": [
-    "mirror.co.uk"
+    "uk.sports.yahoo.com"
    ]
   },
   {
@@ -71,10 +71,9 @@
   {
    "club": "Udinese",
    "type": "hire",
-   "n": 3,
+   "n": 2,
    "hosts": [
     "corrieredellosport.it",
-    "sports.yahoo.com",
     "football-italia.net"
    ]
   },
@@ -84,7 +83,7 @@
    "n": 4,
    "hosts": [
     "leparisien.fr",
-    "lemonde.fr",
+    "lequipe.fr",
     "sports.yahoo.com",
     "france24.com"
    ]
@@ -92,11 +91,11 @@
  ],
  "eu": [
   {
-   "club": "Manchester United",
+   "club": "Nottingham Forest",
    "type": "sack",
    "n": 1,
    "hosts": [
-    "mirror.co.uk"
+    "uk.sports.yahoo.com"
    ]
   },
   {
@@ -125,10 +124,9 @@
   {
    "club": "Udinese",
    "type": "hire",
-   "n": 3,
+   "n": 2,
    "hosts": [
     "corrieredellosport.it",
-    "sports.yahoo.com",
     "football-italia.net"
    ]
   },
@@ -138,7 +136,7 @@
    "n": 4,
    "hosts": [
     "leparisien.fr",
-    "lemonde.fr",
+    "lequipe.fr",
     "sports.yahoo.com",
     "france24.com"
    ]
