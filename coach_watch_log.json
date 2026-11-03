@@ -1,5 +1,5 @@
 {
- "t": "2026-11-02T20:08:17.989649",
+ "t": "2026-11-03T02:33:56.594742",
  "seen": [
   {
    "club": "Al Ahli",
@@ -22,18 +22,27 @@
   {
    "club": "Al Shabab",
    "type": "sack",
-   "n": 2,
+   "n": 3,
    "hosts": [
     "arriyadiyah.com",
-    "goal.com"
+    "goal.com",
+    "kooora.com"
    ]
   },
   {
-   "club": "Nottingham Forest",
+   "club": "Al Faisaly",
    "type": "sack",
    "n": 1,
    "hosts": [
-    "uk.sports.yahoo.com"
+    "eremnews.com"
+   ]
+  },
+  {
+   "club": "Manchester United",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "mirror.co.uk"
    ]
   },
   {
@@ -50,11 +59,11 @@
    "n": 8,
    "hosts": [
     "sport.sky.it",
+    "sportmediaset.mediaset.it",
     "dazn.com",
-    "corrieredellosport.it",
-    "calciomercato.com",
-    "football-italia.net",
     "goal.com",
+    "corrieredellosport.it",
+    "football-italia.net",
     "sports.yahoo.com",
     "repubblica.it"
    ]
@@ -62,17 +71,11 @@
   {
    "club": "Udinese",
    "type": "hire",
-   "n": 1,
+   "n": 3,
    "hosts": [
-    "ansa.it"
-   ]
-  },
-  {
-   "club": "Bologna",
-   "type": "hire",
-   "n": 1,
-   "hosts": [
-    "goal.com"
+    "corrieredellosport.it",
+    "sports.yahoo.com",
+    "football-italia.net"
    ]
   },
   {
@@ -89,11 +92,11 @@
  ],
  "eu": [
   {
-   "club": "Nottingham Forest",
+   "club": "Manchester United",
    "type": "sack",
    "n": 1,
    "hosts": [
-    "uk.sports.yahoo.com"
+    "mirror.co.uk"
    ]
   },
   {
@@ -110,11 +113,11 @@
    "n": 8,
    "hosts": [
     "sport.sky.it",
+    "sportmediaset.mediaset.it",
     "dazn.com",
-    "corrieredellosport.it",
-    "calciomercato.com",
-    "football-italia.net",
     "goal.com",
+    "corrieredellosport.it",
+    "football-italia.net",
     "sports.yahoo.com",
     "repubblica.it"
    ]
@@ -122,17 +125,11 @@
   {
    "club": "Udinese",
    "type": "hire",
-   "n": 1,
+   "n": 3,
    "hosts": [
-    "ansa.it"
-   ]
-  },
-  {
-   "club": "Bologna",
-   "type": "hire",
-   "n": 1,
-   "hosts": [
-    "goal.com"
+    "corrieredellosport.it",
+    "sports.yahoo.com",
+    "football-italia.net"
    ]
   },
   {
