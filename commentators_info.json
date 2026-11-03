@@ -536,7 +536,14 @@
   "checked": "2026-11-03"
  },
  "هشام معمر": {
-  "checked": "2026-11-03"
+  "checked": "2026-11-03",
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/84222632.jpg",
+  "img_conf": "face_multi",
+  "img_src": [
+   "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%82_%D9%87%D8%B4%D8%A7%D9%85_%D9%85%D8%B9%D9%85%D8%B1.jpg",
+   "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%82_%D9%87%D8%B4%D8%A7%D9%85_%D9%85%D8%B9%D9%85%D8%B1.jpg",
+   "https://www.al-monitor.com/ar/contents/articles/originals/2018/09/palestines-young-sports-commentator.html"
+  ]
  },
  "يزن اللبابنة": {
   "checked": "2026-11-03"

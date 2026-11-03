@@ -4,25 +4,6 @@
   "clusters": [],
   "ok": false
  },
- "أحمد عبده": {
-  "cands": 19,
-  "clusters": [
-   [
-    "shazam.com"
-   ],
-   [
-    "shazam.com"
-   ],
-   [
-    "emaratalyoum.com"
-   ],
-   [
-    "apkcombo.com",
-    "commons.wikimedia.org"
-   ]
-  ],
-  "ok": true
- },
  "أنيس السحباني": {
   "cands": 0,
   "clusters": [],
@@ -33,7 +14,27 @@
   "clusters": [],
   "ok": false
  },
+ "زياد الدكروري": {
+  "cands": 0,
+  "clusters": [],
+  "ok": false
+ },
+ "سلطان الحربي": {
+  "cands": 0,
+  "clusters": [],
+  "ok": false
+ },
  "سليمان الشريف": {
+  "cands": 0,
+  "clusters": [],
+  "ok": false
+ },
+ "سمير اليعقوبي": {
+  "cands": 0,
+  "clusters": [],
+  "ok": false
+ },
+ "طارق حسن": {
   "cands": 0,
   "clusters": [],
   "ok": false
@@ -83,6 +84,11 @@
   "clusters": [],
   "ok": false
  },
+ "ماهر المصطفى": {
+  "cands": 0,
+  "clusters": [],
+  "ok": false
+ },
  "محمد مصباح": {
   "cands": 0,
   "clusters": [],
@@ -104,6 +110,21 @@
   "ok": false
  },
  "هامر الخوذيري": {
+  "cands": 0,
+  "clusters": [],
+  "ok": false
+ },
+ "هشام معمر": {
+  "cands": 3,
+  "clusters": [
+   [
+    "al-monitor.com",
+    "commons.wikimedia.org"
+   ]
+  ],
+  "ok": true
+ },
+ "يزن اللبابنة": {
   "cands": 0,
   "clusters": [],
   "ok": false
