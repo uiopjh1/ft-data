@@ -1,0 +1,10 @@
+{
+ "https://site.api.espn.com/apis/v2/sports/soccer/afc.cup/standings": {
+  "s": 200,
+  "hits": []
+ },
+ "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/teams?limit=100": {
+  "s": 200,
+  "hits": []
+ }
+}
