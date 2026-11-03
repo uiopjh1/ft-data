@@ -21,6 +21,6 @@
   "sc-paderborn-07"
  ],
  "sample": "{\"externalPersonIds\":{\"dflDatalibraryPersonId\":\"DFL-OBJ-0002F5\"},\"id\":\"DFL-OBJ-0002F5\",\"lastUpdate\":null,\"name\":{\"alias\":\"Joshua Kimmich\",\"first\":\"Joshua Walter\",\"full\":\"Joshua Walter Kimmich\",\"last\":\"Kimmich\",\"shortName\":null,\"slugifiedFull\":\"joshua-kimmich\",\"slugifiedShort\":\"joshua-kimmich\"},\"nationality\":{\"firstNationality\":\"German\",\"firstNationalityCode\":\"DE\",\"secondNationality\":null,\"secondNationalityCode\":null,\"thirdNationality\":null,\"thirdNationalityCode\":null},\"playerImages\":{\"FACE_CIRCLE\":\"https://assets.bundesliga.com/player/dfl-obj-0002f5-dfl-clu-00000g-dfl-sea-0001ka-circle.png\"},\"shirtNumber\":\"6\"}",
- "playersN": 548,
+ "playersN": 554,
  "teamsN": 18
 }
