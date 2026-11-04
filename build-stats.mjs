@@ -628,7 +628,7 @@ async function riyadiyahPhoto(l, maxPages = 70) {
   const list = flagged.slice(0, 10);
   debug.push(`picked ${best.id} score ${best.score} imgs ${best.all.length} flagged ${flagged.length}`);
   const urls = await dedupePhotos(list.map((x) => x.url));
-  return { v: 6, url: urls[0], credit: 'صحيفة الرياضية', source: `https://arriyadiyah.com/${best.id}`, all: urls, ts: best.ts };
+  return { v: 7, url: urls[0], credit: 'صحيفة الرياضية', source: `https://arriyadiyah.com/${best.id}`, all: urls, ts: best.ts };
 }
 // وضع الاختبار: TEST_PHOTO='id|when,id|when' يجرّب اختيار صورة نهائيات قديمة ويكتبها في photo_test.json فقط
 // (يقرؤه «القسم التجريبي» في التطبيق)، ولا يلمس stats.json ولا كرت «آخر بطولة»
@@ -651,7 +651,7 @@ try {
   old = JSON.parse(readFileSync('stats.json', 'utf8')).last;
 } catch (e) {}
 if (last) {
-  if (old && old.id === last.id && old.label === last.label && old.photo && old.photo.v === 6 && Math.abs(old.when - last.when) < 36 * 3600e3) last.photo = old.photo;
+  if (old && old.id === last.id && old.label === last.label && old.photo && old.photo.v === 7 && Math.abs(old.when - last.when) < 36 * 3600e3) last.photo = old.photo;
   else last.photo = (await riyadiyahPhoto(last)) || (await findPhoto(last));
 }
 
