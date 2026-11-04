@@ -1,6 +1,7 @@
 // يُشغَّل على خوادم GitHub كل 30 دقيقة ويكتب stats.json الذي يقرؤه التطبيق (طلب واحد بدل المئات)
 import { writeFileSync, readFileSync } from 'node:fs';
 import { pathToFileURL } from 'node:url';
+import { titleFinals } from './title-finals.mjs';
 
 // المعرّف الثابت الوحيد: دوري روشن في ESPN (نظير 955 في Sofascore). بقية البطولات تُكتشف تلقائيًا من جدول كل نادٍ.
 const LEAGUE = 'ksa.1';
@@ -187,6 +188,7 @@ for (let py = Math.max(Math.min(asOfYear + 1, y - 1), y - 4); py <= y - 1; py++)
   const prevSeason = await season(py, false);
   const lastLeague = {};
   const lastLeagueGame = {};
+  const pf = []; // نهائيات الموسم (تُحسم لاحقاً: مباراة واحدة أو ذهاب وإياب)
   const pts = {};
   const played = {};
   prevSeason.forEach((x) =>
@@ -208,13 +210,14 @@ for (let py = Math.max(Math.min(asOfYear + 1, y - 1), y - 4); py <= y - 1; py++)
         }
         return;
       }
-      if (x.c.official && /^final$/i.test((ev.seasonType && ev.seasonType.name) || '') && wonBy(me, op)) {
-        if (!prev.some((q) => q.id === x.id && q.label === x.c.label && Math.abs(q.when - when) < 10 * 86400e3)) {
-          prev.push({ id: x.id, label: x.c.label, when, opp: (op.team && op.team.displayName) || '', score: `${scoreOf(me)}-${scoreOf(op)}`, mid: ev.id, slug: x.c.slug, isHome: me.homeAway === 'home', oppId: (op.team && op.team.id) || '', oppLogo: (op.team && (op.team.logo || (op.team.logos && op.team.logos[0] && op.team.logos[0].href))) || '', gf: scoreOf(me), ga: scoreOf(op) });
-        }
+      if (x.c.official && /^final$/i.test((ev.seasonType && ev.seasonType.name) || '')) {
+        pf.push({ id: x.id, key: x.c.key, label: x.c.label, official: true, round: 'Final', when, opp: (op.team && op.team.displayName) || '', gf: scoreOf(me), ga: scoreOf(op), won: wonBy(me, op), mid: ev.id, slug: x.c.slug, isHome: me.homeAway === 'home', oppId: (op.team && op.team.id) || '', oppLogo: (op.team && (op.team.logo || (op.team.logos && op.team.logos[0] && op.team.logos[0].href))) || '' });
       }
     })
   );
+  titleFinals(pf, []).forEach((g) => {
+    if (!prev.some((q) => q.id === g.id && q.label === g.label && Math.abs(q.when - g.when) < 10 * 86400e3)) prev.push({ id: g.id, label: g.label, when: g.when, opp: g.opp, score: `${g.gf}-${g.ga}`, mid: g.mid, slug: g.slug, isHome: g.isHome, oppId: g.oppId, oppLogo: g.oppLogo, gf: g.gf, ga: g.ga });
+  });
   // بطل الدوري يُحسب فقط إن لعب موسماً كاملاً: نقارنه بأكثر عدد مباريات لعبه ناديٌ في الدوري (لا رقم ثابت، يصلح لـ18 أو 20 نادياً)
   const maxPlayed = Math.max(0, ...Object.values(played));
   const ranked = Object.keys(pts).filter((id) => maxPlayed >= 10 && played[id] >= maxPlayed).sort((a, b) => pts[b] - pts[a]);
@@ -247,8 +250,8 @@ if (leagueChamp) {
   const cg = mine.find((g) => g.when >= leagueChampWhen - 3 * 3600e3) || mine[mine.length - 1] || {};
   cand.push({ id: leagueChamp, label: 'دوري روشن', when: leagueChampWhen || Date.now(), until: lw, mid: cg.mid, slug: cg.slug, isHome: cg.isHome, oppId: cg.oppId, oppLogo: cg.oppLogo, gf: cg.gf, ga: cg.ga, opp: cg.opp });
 }
-games.forEach((g) => {
-  if (g.key !== 'league' && g.official && g.won && /^final$/i.test(g.round)) cand.push({ id: g.id, label: g.label, when: g.when, opp: g.opp, score: `${g.gf}-${g.ga}`, mid: g.mid, slug: g.slug, isHome: g.isHome, oppId: g.oppId, oppLogo: g.oppLogo, gf: g.gf, ga: g.ga });
+titleFinals(games, Object.values(finals)).forEach((g) => {
+  cand.push({ id: g.id, label: g.label, when: g.when, opp: g.opp, score: `${g.gf}-${g.ga}`, mid: g.mid, slug: g.slug, isHome: g.isHome, oppId: g.oppId, oppLogo: g.oppLogo, gf: g.gf, ga: g.ga });
 });
 cand.sort((a, b) => b.when - a.when);
 const last = cand[0] || null;
