@@ -576,6 +576,13 @@ async function riyadiyahPhoto(l, maxPages = 70) {
   const urls = await dedupePhotos(list.map((x) => x.url));
   return { v: 6, url: urls[0], credit: 'صحيفة الرياضية', source: `https://arriyadiyah.com/${best.id}`, all: urls, ts: best.ts };
 }
+// وضع الاختبار: node build-stats.mjs مع TEST_PHOTO='id|when' يجرّب اختيار صورة نهائي قديم ويطبع النتيجة بدون أي كتابة في stats.json
+if (process.env.TEST_PHOTO) {
+  const [tid, tw] = process.env.TEST_PHOTO.split('|');
+  const ph = await riyadiyahPhoto({ id: tid, when: Number(tw) });
+  console.log('TEST_RESULT ' + JSON.stringify({ club: teams[tid] && teams[tid].name, photo: ph, debug: debug.slice(-40) }));
+  process.exit(0);
+}
 let old = null;
 try {
   old = JSON.parse(readFileSync('stats.json', 'utf8')).last;
