@@ -336,9 +336,9 @@ try {
   imgFreq = cj.f || {};
 } catch (e) {}
 // صور عامة رصدناها تظهر في مقالات أندية مختلفة (قالب الموقع) وليست من مباراة بعينها
-const GENERIC_IMG = new Set(['90f96f40aa', 'f05ad83f20']);
+const GENERIC_IMG = new Set(['90f96f40aa', 'f05ad83f20', 'b45cf06da0', '9e3068a88b', 'e31bf627be', '011a632f2a', 'd9da8caf8b', 'f36eb732d9']);
 const isGeneric = (u) => {
-  const m = String(u).match(/_([0-9a-f]{6,})\.jpe?g/i);
+  const m = String(u).match(/_([0-9a-f]{6,})\.(?:jpe?g|png)/i);
   return !!m && (GENERIC_IMG.has(m[1]) || (imgFreq[m[1]] || []).length >= 3);
 };
 let CLIP; // undefined = لم يُحمَّل بعد، null = غير متاح
@@ -547,7 +547,7 @@ async function riyadiyahPhoto(l, maxPages = 70) {
         const all = [];
         const keys = {};
         const add = (u, alt) => {
-          const h = u.match(/\/(\d+)_([0-9a-f]+)\.(jpe?g)/i);
+          const h = u.match(/\/(\d+)_([0-9a-f]+)\.(jpe?g|png)/i);
           if (!h || keys[h[2]] || Number(h[1]) < 800) return;
           keys[h[2]] = 1;
           const fl = (imgFreq[h[2]] = imgFreq[h[2]] || []);
@@ -597,8 +597,8 @@ async function riyadiyahPhoto(l, maxPages = 70) {
     if (f.length) {
       if (!best) best = c;
       f.forEach((x) => {
-        const hk = (String(x.url).match(/_([0-9a-f]{6,})\.jpe?g/i) || [])[1] || x.url;
-        if (!flagged.some((y) => ((String(y.url).match(/_([0-9a-f]{6,})\.jpe?g/i) || [])[1] || y.url) === hk)) flagged.push(x);
+        const hk = (String(x.url).match(/_([0-9a-f]{6,})\.(?:jpe?g|png)/i) || [])[1] || x.url;
+        if (!flagged.some((y) => ((String(y.url).match(/_([0-9a-f]{6,})\.(?:jpe?g|png)/i) || [])[1] || y.url) === hk)) flagged.push(x);
       });
     }
   }
