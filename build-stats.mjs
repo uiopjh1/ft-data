@@ -1,7 +1,8 @@
 // يُشغَّل على خوادم GitHub كل 30 دقيقة ويكتب stats.json الذي يقرؤه التطبيق (طلب واحد بدل المئات)
 import { writeFileSync, readFileSync } from 'node:fs';
 import { pathToFileURL } from 'node:url';
-import { titleFinals } from './title-finals.mjs';
+import { titleFinals, isFinalRound } from './title-finals.mjs';
+const ROUNDS = {}; // أسماء الجولات التي رآها النظام في البطولات الرسمية (للتأكد من أن «Final» تُلتقط بصيغتها الحقيقية)
 
 // المعرّف الثابت الوحيد: دوري روشن في ESPN (نظير 955 في Sofascore). بقية البطولات تُكتشف تلقائيًا من جدول كل نادٍ.
 const LEAGUE = 'ksa.1';
@@ -164,7 +165,8 @@ cur.forEach((x) =>
     const s = statusOf(ev);
     const rn = (ev.seasonType && ev.seasonType.name) || '';
     const when = new Date(ev.date).getTime();
-    if (/^final$/i.test(rn) && !isDone(s) && when > Date.now() - 6 * 3600 * 1000) finals[ev.id] = { label: x.c.label, when, name: ev.name || '' };
+    if (isFinalRound(rn) && !isDone(s) && when > Date.now() - 6 * 3600 * 1000) finals[ev.id] = { label: x.c.label, when, name: ev.name || '' };
+    if (x.c.official && x.c.key !== 'league') ROUNDS[rn || '(فارغ)'] = (ROUNDS[rn || '(فارغ)'] || 0) + 1;
     if (!isDone(s)) return;
     const me = comp.competitors.find((c) => String((c.team && c.team.id) || c.id) === x.id);
     const op = comp.competitors.find((c) => c !== me);
@@ -210,7 +212,7 @@ for (let py = Math.max(Math.min(asOfYear + 1, y - 1), y - 4); py <= y - 1; py++)
         }
         return;
       }
-      if (x.c.official && /^final$/i.test((ev.seasonType && ev.seasonType.name) || '')) {
+      if (x.c.official && isFinalRound((ev.seasonType && ev.seasonType.name) || '')) {
         pf.push({ id: x.id, key: x.c.key, label: x.c.label, official: true, round: 'Final', when, opp: (op.team && op.team.displayName) || '', gf: scoreOf(me), ga: scoreOf(op), won: wonBy(me, op), mid: ev.id, slug: x.c.slug, isHome: me.homeAway === 'home', oppId: (op.team && op.team.id) || '', oppLogo: (op.team && (op.team.logo || (op.team.logos && op.team.logos[0] && op.team.logos[0].href))) || '' });
       }
     })
@@ -679,6 +681,7 @@ for (const id of ids) {
   } catch (e) {}
   recent[id] = ph ? { checked: Date.now(), ts: ph.ts, url: ph.url, all: ph.all, source: ph.source, credit: ph.credit } : { checked: Date.now() };
 }
+debug.push('rounds seen: ' + JSON.stringify(ROUNDS));
 debug.push('recent photos: ' + Object.values(recent).filter((x) => x.url).length);
 
 try {

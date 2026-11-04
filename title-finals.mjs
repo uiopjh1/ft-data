@@ -1,10 +1,12 @@
 // يحدد النهائيات التي فاز بها ناديٌ فعلاً: نهائي بمباراة واحدة، أو ذهاب وإياب (يُجمع المجموع).
 // games: مباريات الأندية (id, label, round, when, opp, gf, ga, won, key, official)؛ finals: النهائيات القادمة (label, when, name)
+// اسم الجولة نهائي؟ نقبل صيغاً قريبة (Final / Finals / Final 1st Leg) ونستبعد نصف وربع النهائي والمجموعات وتحديد المركز
+export const isFinalRound = (r) => /\bfinals?\b/i.test(String(r || '')) && !/semi|quarter|round|group|qualif|third|3rd|play-?off|consolation|1\/\d/i.test(String(r || ''));
 export function titleFinals(games, finals) {
   const out = [];
   const by = {};
   (games || []).forEach((g) => {
-    if (g.key === 'league' || g.official === false || !/^final$/i.test(g.round || '')) return;
+    if (g.key === 'league' || g.official === false || !isFinalRound(g.round)) return;
     (by[g.id + '|' + g.label] = by[g.id + '|' + g.label] || []).push(g);
   });
   Object.keys(by).forEach((k) => {
