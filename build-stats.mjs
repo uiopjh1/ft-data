@@ -633,11 +633,11 @@ async function riyadiyahPhoto(l, maxPages = 70) {
 if (process.env.TEST_PHOTO) {
   const items = [];
   for (const spec of process.env.TEST_PHOTO.split(',').map((x) => x.trim()).filter(Boolean)) {
-    const [tid, tw] = spec.split('|');
+    const [tid, tw, tl] = spec.split('|');
     const when = Number(tw);
     const p = prev.find((x) => x.id === tid && Math.abs(x.when - when) < 2 * 86400e3) || {};
     const ph = await riyadiyahPhoto({ id: tid, when });
-    items.push({ id: tid, label: p.label || '', when, opp: p.opp || '', score: p.score || '', pts: p.pts || 0, mid: p.mid, slug: p.slug, isHome: p.isHome, oppId: p.oppId, oppLogo: p.oppLogo, gf: p.gf, ga: p.ga, photo: ph });
+    items.push({ id: tid, label: p.label || tl || '', when, opp: p.opp || '', score: p.score || '', pts: p.pts || 0, mid: p.mid, slug: p.slug, isHome: p.isHome, oppId: p.oppId, oppLogo: p.oppLogo, gf: p.gf, ga: p.ga, photo: ph });
     console.log('TEST_RESULT ' + JSON.stringify({ club: teams[tid] && teams[tid].name, photo: ph, debug: debug.filter((d) => /^(cup scores|picked|no trophy|cand )/.test(d)) }));
     debug.length = 0;
   }
