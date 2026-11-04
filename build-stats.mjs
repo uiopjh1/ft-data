@@ -268,7 +268,7 @@ async function findPhoto(l) {
           const date = String((ii.extmetadata && ii.extmetadata.DateTimeOriginal && ii.extmetadata.DateTimeOriginal.value) || '');
           const all = name + ' ' + desc;
           const club1 = all.includes(short) || all.includes(club.toLowerCase());
-          const trophy = /troph|champion|celebrat|lift|winner|cup/.test(all);
+          const trophy = /troph|cup|shield|lift|hold|raising/.test(all);
           const recent = all.includes(yr) || date.includes(yr);
           return club1 && trophy && recent;
         });
@@ -479,10 +479,24 @@ async function riyadiyahPhoto(l, maxPages = 70) {
   }
   if (!cands.length) return null;
   cands.sort((a, b) => b.score - a.score || b.all.length - a.all.length || a.ts - b.ts);
-  const best = cands[0];
-  const trophy = (x) => /كأس|الكأس|درع|يرفع|رفع|حمل|يحمل|تتويج|لقب|يحتفل|احتفال/.test(x.alt);
-  const flagged = best.all.filter(trophy);
-  const list = (flagged.length ? flagged : best.all).slice(0, 12);
+  // شرط أساسي: الكأس/الدرع ظاهر. لا نقبل صورة إلا إذا وصفها أو تعليقها يذكر الكأس أو الدرع أو رفعه/استلامه.
+  // (كلمات عامة مثل «تتويج» و«احتفال» لا تكفي لأنها قد تصف صورة بلا كأس). ولا نرجع لصور بلا كأس إن لم نجد.
+  const trophy = (x) => /كأس|الكأس|الكاس|درع|الدرع|يرفع|رفع|يحمل|حمل|يستلم|استلام|تسلم|يتسلم|كؤوس|trophy|cup/i.test(x.alt);
+  let best = null;
+  let flagged = [];
+  for (const c of cands) {
+    const f = c.all.filter(trophy);
+    if (f.length) {
+      best = c;
+      flagged = f;
+      break;
+    }
+  }
+  if (!best) {
+    debug.push(`no trophy-captioned photos in ${cands.length} articles`);
+    return null;
+  }
+  const list = flagged.slice(0, 12);
   debug.push(`picked ${best.id} score ${best.score} imgs ${best.all.length} flagged ${flagged.length}`);
   const urls = await dedupePhotos(list.map((x) => x.url));
   return { v: 6, url: urls[0], credit: 'صحيفة الرياضية', source: `https://arriyadiyah.com/${best.id}`, all: urls, ts: best.ts };
