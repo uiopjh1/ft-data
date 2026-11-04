@@ -245,7 +245,7 @@ if (leagueChamp) {
   // مباراة الحسم: أول مباراة للبطل في يوم الحسم أو بعده (أو آخر مباراة له) لتُفتح تفاصيلها من البطاقة
   const mine = games.filter((g) => g.key === 'league' && g.id === leagueChamp).sort((a, b) => a.when - b.when);
   const cg = mine.find((g) => g.when >= leagueChampWhen - 3 * 3600e3) || mine[mine.length - 1] || {};
-  cand.push({ id: leagueChamp, label: 'دوري روشن', when: leagueChampWhen || Date.now(), mid: cg.mid, slug: cg.slug, isHome: cg.isHome, oppId: cg.oppId, oppLogo: cg.oppLogo, gf: cg.gf, ga: cg.ga, opp: cg.opp });
+  cand.push({ id: leagueChamp, label: 'دوري روشن', when: leagueChampWhen || Date.now(), until: lw, mid: cg.mid, slug: cg.slug, isHome: cg.isHome, oppId: cg.oppId, oppLogo: cg.oppLogo, gf: cg.gf, ga: cg.ga, opp: cg.opp });
 }
 games.forEach((g) => {
   if (g.key !== 'league' && g.official && g.won && /^final$/i.test(g.round)) cand.push({ id: g.id, label: g.label, when: g.when, opp: g.opp, score: `${g.gf}-${g.ga}`, mid: g.mid, slug: g.slug, isHome: g.isHome, oppId: g.oppId, oppLogo: g.oppLogo, gf: g.gf, ga: g.ga });
@@ -516,7 +516,7 @@ async function dedupePhotos(urls) {
   }
 }
 async function riyadiyahPhoto(l, maxPages = 70) {
-  const MAXT = process.env.TEST_PHOTO || Date.now() - l.when > 7 * 86400e3 ? 500 : 30; // لقب قديم (أو اختبار) يحتاج فحص مقالات أكثر للوصول لتاريخه
+  const MAXT = process.env.TEST_PHOTO || Date.now() - (l.until || l.when) > 7 * 86400e3 ? 500 : 30; // لقب قديم (أو اختبار) يحتاج فحص مقالات أكثر للوصول لتاريخه
   const tag = AR_TAG[teams[l.id].name] || (/[\u0600-\u06FF]/.test(AR_ESPN[l.id] || '') ? AR_ESPN[l.id] : '');
   if (!tag) return null;
   const abs = (u) => (u.startsWith('//') ? 'https:' + u : u.startsWith('/') ? 'https://arriyadiyah.com' + u : u);
@@ -551,7 +551,7 @@ async function riyadiyahPhoto(l, maxPages = 70) {
           stop = true;
           break;
         }
-        if (ts > l.when + 2 * 24 * 3600e3) continue;
+        if (ts > (l.until && l.until > l.when ? l.until : l.when) + 2 * 24 * 3600e3) continue; // الدوري: النافذة تمتد حتى آخر مباراة للبطل (حفل الرفع غالباً بعد الحسم)
         const t2 = slug + ' ' + title;
         let score = 0;
         if (/^\s*(حفل\s+)?تتويج\s+\S+\s*$/.test(slug)) score += 10;
@@ -628,7 +628,7 @@ async function riyadiyahPhoto(l, maxPages = 70) {
   const list = flagged.slice(0, 10);
   debug.push(`picked ${best.id} score ${best.score} imgs ${best.all.length} flagged ${flagged.length}`);
   const urls = await dedupePhotos(list.map((x) => x.url));
-  return { v: 7, url: urls[0], credit: 'صحيفة الرياضية', source: `https://arriyadiyah.com/${best.id}`, all: urls, ts: best.ts };
+  return { v: 7, url: urls[0], credit: 'صحيفة الرياضية', source: `https://arriyadiyah.com/${best.id}`, all: urls, ts: best.ts, at: Date.now() };
 }
 // وضع الاختبار: TEST_PHOTO='id|when,id|when' يجرّب اختيار صورة نهائيات قديمة ويكتبها في photo_test.json فقط
 // (يقرؤه «القسم التجريبي» في التطبيق)، ولا يلمس stats.json ولا كرت «آخر بطولة»
@@ -651,8 +651,11 @@ try {
   old = JSON.parse(readFileSync('stats.json', 'utf8')).last;
 } catch (e) {}
 if (last) {
-  if (old && old.id === last.id && old.label === last.label && old.photo && old.photo.v === 7 && Math.abs(old.when - last.when) < 36 * 3600e3) last.photo = old.photo;
-  else last.photo = (await riyadiyahPhoto(last)) || (await findPhoto(last));
+  const same = old && old.id === last.id && old.label === last.label && old.photo && old.photo.v === 7 && Math.abs(old.when - last.when) < 36 * 3600e3;
+  // لقب الدوري: نعيد البحث كل ~50 دقيقة حتى 3 أيام بعد آخر مباراة للبطل (قد يأتي حفل الرفع بعد الحسم بأسابيع)
+  const refresh = last.until && Date.now() < last.until + 3 * 86400e3 && (!old || !old.photo || Date.now() - (old.photo.at || 0) > 50 * 60e3);
+  if (same && !refresh) last.photo = old.photo;
+  else last.photo = (await riyadiyahPhoto(last)) || (same ? old.photo : null) || (await findPhoto(last));
 }
 
 // أحدث صور تتويج لكل نادٍ (آخر 6 أيام): يستخدمها التطبيق لبطولات يكتشفها هو من Sofascore (العربية/الخليج/السوبر...)
