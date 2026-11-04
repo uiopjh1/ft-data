@@ -1,23 +1,21 @@
 {
- "t": "2026-11-03T23:35:34.580273",
+ "t": "2026-11-04T05:41:35.304872",
  "seen": [
   {
    "club": "Al Ahli",
    "type": "sack",
-   "n": 3,
+   "n": 2,
    "hosts": [
     "arriyadiyah.com",
-    "slaati.com",
     "goal.com"
    ]
   },
   {
    "club": "Al Ittihad",
    "type": "sack",
-   "n": 2,
+   "n": 1,
    "hosts": [
-    "akhbaar24.com",
-    "goal.com"
+    "akhbaar24.com"
    ]
   },
   {
@@ -56,19 +54,10 @@
   {
    "club": "Udinese",
    "type": "hire",
-   "n": 3,
+   "n": 2,
    "hosts": [
-    "corrieredellosport.it",
     "sports.yahoo.com",
     "football-italia.net"
-   ]
-  },
-  {
-   "club": "Napoli",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "calciomercato.com"
    ]
   },
   {
@@ -100,19 +89,10 @@
   {
    "club": "Udinese",
    "type": "hire",
-   "n": 3,
+   "n": 2,
    "hosts": [
-    "corrieredellosport.it",
     "sports.yahoo.com",
     "football-italia.net"
-   ]
-  },
-  {
-   "club": "Napoli",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "calciomercato.com"
    ]
   },
   {
