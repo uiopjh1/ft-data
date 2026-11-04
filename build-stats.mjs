@@ -171,7 +171,7 @@ cur.forEach((x) =>
     const gf = scoreOf(me);
     const ga = scoreOf(op);
     if (Number.isNaN(gf) || Number.isNaN(ga) || when < start) return;
-    games.push({ id: x.id, mid: ev.id, key: x.c.key, when, gf, ga, opp: (op.team && op.team.displayName) || '', label: x.c.label, round: rn, won: wonBy(me, op), official: !!x.c.official });
+    games.push({ id: x.id, mid: ev.id, key: x.c.key, when, gf, ga, opp: (op.team && op.team.displayName) || '', label: x.c.label, round: rn, won: wonBy(me, op), official: !!x.c.official, slug: x.c.slug, isHome: me.homeAway === 'home', oppId: (op.team && op.team.id) || '', oppLogo: (op.team && (op.team.logo || (op.team.logos && op.team.logos[0] && op.team.logos[0].href))) || '' });
   })
 );
 
@@ -186,6 +186,7 @@ const prev = [];
 for (let py = Math.max(Math.min(asOfYear + 1, y - 1), y - 4); py <= y - 1; py++) {
   const prevSeason = await season(py, false);
   const lastLeague = {};
+  const lastLeagueGame = {};
   const pts = {};
   const played = {};
   prevSeason.forEach((x) =>
@@ -200,6 +201,7 @@ for (let py = Math.max(Math.min(asOfYear + 1, y - 1), y - 4); py <= y - 1; py++)
         lastLeague[x.id] = Math.max(lastLeague[x.id] || 0, when);
         const a = scoreOf(me);
         const b = scoreOf(op);
+        if (!Number.isNaN(a) && !Number.isNaN(b) && when >= (lastLeagueGame[x.id] ? lastLeagueGame[x.id].when : 0)) lastLeagueGame[x.id] = { when, mid: ev.id, slug: x.c.slug, isHome: me.homeAway === 'home', oppId: (op.team && op.team.id) || '', oppLogo: (op.team && (op.team.logo || (op.team.logos && op.team.logos[0] && op.team.logos[0].href))) || '', gf: a, ga: b, opp: (op.team && op.team.displayName) || '' };
         if (!Number.isNaN(a) && !Number.isNaN(b)) {
           played[x.id] = (played[x.id] || 0) + 1;
           pts[x.id] = (pts[x.id] || 0) + (a > b ? 3 : a === b ? 1 : 0);
@@ -208,7 +210,7 @@ for (let py = Math.max(Math.min(asOfYear + 1, y - 1), y - 4); py <= y - 1; py++)
       }
       if (x.c.official && /^final$/i.test((ev.seasonType && ev.seasonType.name) || '') && wonBy(me, op)) {
         if (!prev.some((q) => q.id === x.id && q.label === x.c.label && Math.abs(q.when - when) < 10 * 86400e3)) {
-          prev.push({ id: x.id, label: x.c.label, when, opp: (op.team && op.team.displayName) || '', score: `${scoreOf(me)}-${scoreOf(op)}` });
+          prev.push({ id: x.id, label: x.c.label, when, opp: (op.team && op.team.displayName) || '', score: `${scoreOf(me)}-${scoreOf(op)}`, mid: ev.id, slug: x.c.slug, isHome: me.homeAway === 'home', oppId: (op.team && op.team.id) || '', oppLogo: (op.team && (op.team.logo || (op.team.logos && op.team.logos[0] && op.team.logos[0].href))) || '', gf: scoreOf(me), ga: scoreOf(op) });
         }
       }
     })
@@ -217,7 +219,8 @@ for (let py = Math.max(Math.min(asOfYear + 1, y - 1), y - 4); py <= y - 1; py++)
   const maxPlayed = Math.max(0, ...Object.values(played));
   const ranked = Object.keys(pts).filter((id) => maxPlayed >= 10 && played[id] >= maxPlayed).sort((a, b) => pts[b] - pts[a]);
   if (ranked.length && (ranked.length === 1 || pts[ranked[0]] > pts[ranked[1]]) && lastLeague[ranked[0]]) {
-    prev.push({ id: ranked[0], label: 'دوري روشن', when: lastLeague[ranked[0]], pts: pts[ranked[0]] });
+    const lg = lastLeagueGame[ranked[0]] || {};
+    prev.push({ id: ranked[0], label: 'دوري روشن', when: lastLeague[ranked[0]], pts: pts[ranked[0]], mid: lg.mid, slug: lg.slug, isHome: lg.isHome, oppId: lg.oppId, oppLogo: lg.oppLogo, gf: lg.gf, ga: lg.ga, opp: lg.opp });
   }
 }
 
@@ -239,10 +242,13 @@ if (leagueChamp) {
   }
   const lw = games.filter((g) => g.key === 'league' && g.id === leagueChamp).reduce((a, g) => Math.max(a, g.when), 0);
   if (!leagueChampWhen) leagueChampWhen = lw;
-  cand.push({ id: leagueChamp, label: 'دوري روشن', when: leagueChampWhen || Date.now() });
+  // مباراة الحسم: أول مباراة للبطل في يوم الحسم أو بعده (أو آخر مباراة له) لتُفتح تفاصيلها من البطاقة
+  const mine = games.filter((g) => g.key === 'league' && g.id === leagueChamp).sort((a, b) => a.when - b.when);
+  const cg = mine.find((g) => g.when >= leagueChampWhen - 3 * 3600e3) || mine[mine.length - 1] || {};
+  cand.push({ id: leagueChamp, label: 'دوري روشن', when: leagueChampWhen || Date.now(), mid: cg.mid, slug: cg.slug, isHome: cg.isHome, oppId: cg.oppId, oppLogo: cg.oppLogo, gf: cg.gf, ga: cg.ga, opp: cg.opp });
 }
 games.forEach((g) => {
-  if (g.key !== 'league' && g.official && g.won && /^final$/i.test(g.round)) cand.push({ id: g.id, label: g.label, when: g.when, opp: g.opp, score: `${g.gf}-${g.ga}` });
+  if (g.key !== 'league' && g.official && g.won && /^final$/i.test(g.round)) cand.push({ id: g.id, label: g.label, when: g.when, opp: g.opp, score: `${g.gf}-${g.ga}`, mid: g.mid, slug: g.slug, isHome: g.isHome, oppId: g.oppId, oppLogo: g.oppLogo, gf: g.gf, ga: g.ga });
 });
 cand.sort((a, b) => b.when - a.when);
 const last = cand[0] || null;
@@ -631,7 +637,7 @@ if (process.env.TEST_PHOTO) {
     const when = Number(tw);
     const p = prev.find((x) => x.id === tid && Math.abs(x.when - when) < 2 * 86400e3) || {};
     const ph = await riyadiyahPhoto({ id: tid, when });
-    items.push({ id: tid, label: p.label || '', when, opp: p.opp || '', score: p.score || '', pts: p.pts || 0, photo: ph });
+    items.push({ id: tid, label: p.label || '', when, opp: p.opp || '', score: p.score || '', pts: p.pts || 0, mid: p.mid, slug: p.slug, isHome: p.isHome, oppId: p.oppId, oppLogo: p.oppLogo, gf: p.gf, ga: p.ga, photo: ph });
     console.log('TEST_RESULT ' + JSON.stringify({ club: teams[tid] && teams[tid].name, photo: ph, debug: debug.filter((d) => /^(cup scores|picked|no trophy|cand )/.test(d)) }));
     debug.length = 0;
   }
