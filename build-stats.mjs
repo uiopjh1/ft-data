@@ -384,8 +384,8 @@ async function workingUrl(x) {
 // (اختُبرت على 10 صور معروفة: الصور ذات الكأس ≥ 0.83 و≥ 0.66، وبدون كأس ≤ 0.63 و≤ 0.49)
 const CUP_BIN = ['a photo of people holding a golden trophy cup', 'a photo with no trophy'];
 const CUP_C = ['a trophy cup clearly visible in the photo', 'players hugging and celebrating a goal on the pitch', 'a close-up of a footballer without any trophy'];
-const CUP_O_MIN = 0.75;
-const CUP_B_MIN = 0.55;
+const CUP_O_MIN = 0.7;
+const CUP_B_MIN = 0.6;
 const CUP_C_MIN = 0.15; // فحص ثالث: كأس واضح مقابل احتفال/لاعب بلا كأس (يستبعد صور العناق والرقص بلا كأس)
 async function cupScore(url) {
   const ck = 'b16c|' + url;
