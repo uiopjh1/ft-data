@@ -516,7 +516,7 @@ async function dedupePhotos(urls) {
   }
 }
 async function riyadiyahPhoto(l, maxPages = 70) {
-  const MAXT = process.env.TEST_PHOTO ? 500 : 30; // في الاختبار ننزل لنهائي قديم فنحتاج فحص مقالات أكثر
+  const MAXT = process.env.TEST_PHOTO || Date.now() - l.when > 7 * 86400e3 ? 500 : 30; // لقب قديم (أو اختبار) يحتاج فحص مقالات أكثر للوصول لتاريخه
   const tag = AR_TAG[teams[l.id].name] || (/[\u0600-\u06FF]/.test(AR_ESPN[l.id] || '') ? AR_ESPN[l.id] : '');
   if (!tag) return null;
   const abs = (u) => (u.startsWith('//') ? 'https:' + u : u.startsWith('/') ? 'https://arriyadiyah.com' + u : u);
