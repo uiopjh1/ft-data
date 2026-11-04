@@ -1,5 +1,5 @@
 {
- "t": "2026-11-04T05:41:35.304872",
+ "t": "2026-11-04T14:06:12.340657",
  "seen": [
   {
    "club": "Al Ahli",
@@ -36,71 +36,137 @@
    ]
   },
   {
+   "club": "Manchester United",
+   "type": "sack",
+   "n": 3,
+   "hosts": [
+    "sports.yahoo.com",
+    "standard.co.uk",
+    "mirror.co.uk"
+   ]
+  },
+  {
+   "club": "Sunderland",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Nottingham Forest",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "uk.sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Espanyol",
+   "type": "hire",
+   "n": 1,
+   "hosts": [
+    "sport.es"
+   ]
+  },
+  {
    "club": "Udinese",
    "type": "sack",
    "n": 9,
    "hosts": [
-    "sportmediaset.mediaset.it",
     "sport.sky.it",
+    "sportmediaset.mediaset.it",
     "dazn.com",
     "corrieredellosport.it",
     "goal.com",
     "calciomercato.com",
     "football-italia.net",
-    "sports.yahoo.com",
-    "repubblica.it"
+    "repubblica.it",
+    "sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Napoli",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "calciomercato.com"
    ]
   },
   {
    "club": "Udinese",
    "type": "hire",
-   "n": 2,
-   "hosts": [
-    "sports.yahoo.com",
-    "football-italia.net"
-   ]
-  },
-  {
-   "club": "Le Havre AC",
-   "type": "sack",
    "n": 1,
    "hosts": [
-    "lemonde.fr"
+    "football-italia.net"
    ]
   }
  ],
  "eu": [
   {
+   "club": "Manchester United",
+   "type": "sack",
+   "n": 3,
+   "hosts": [
+    "sports.yahoo.com",
+    "standard.co.uk",
+    "mirror.co.uk"
+   ]
+  },
+  {
+   "club": "Sunderland",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Nottingham Forest",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "uk.sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Espanyol",
+   "type": "hire",
+   "n": 1,
+   "hosts": [
+    "sport.es"
+   ]
+  },
+  {
    "club": "Udinese",
    "type": "sack",
    "n": 9,
    "hosts": [
-    "sportmediaset.mediaset.it",
     "sport.sky.it",
+    "sportmediaset.mediaset.it",
     "dazn.com",
     "corrieredellosport.it",
     "goal.com",
     "calciomercato.com",
     "football-italia.net",
-    "sports.yahoo.com",
-    "repubblica.it"
+    "repubblica.it",
+    "sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Napoli",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "calciomercato.com"
    ]
   },
   {
    "club": "Udinese",
    "type": "hire",
-   "n": 2,
-   "hosts": [
-    "sports.yahoo.com",
-    "football-italia.net"
-   ]
-  },
-  {
-   "club": "Le Havre AC",
-   "type": "sack",
    "n": 1,
    "hosts": [
-    "lemonde.fr"
+    "football-italia.net"
    ]
   }
  ]

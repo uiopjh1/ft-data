@@ -1,5 +1,5 @@
 {
- "updated": 1793770941110,
+ "updated": 1793801222370,
  "items": [
   {
    "club": "Al Ahli",
@@ -38,20 +38,43 @@
    ]
   },
   {
+   "club": "Manchester United",
+   "club_ar": "",
+   "type": "sack",
+   "first": "2026-11-02T22:14:00",
+   "sources": [
+    {
+     "host": "sports.yahoo.com",
+     "title": "Manchester United co-owners INEOS sack manager as official statement released - Yahoo Sports",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOTdocmVQd2Q4V2cybjEwUTBEdnd4N3U3Z3BtU0psbnlPSWdsOVhMSGxJS3pXdmR6Skx4QktNel9VTDB3Z2tqMDV1SWFIZzNGTWxTdEF4VzBCQ2NZUUZ4X21aRUxBU0JiUGtGRi1SMTJnVTFaaDcwOFZZU3dCT2NkLXNTbnFJak9zblE?oc=5"
+    },
+    {
+     "host": "standard.co.uk",
+     "title": "Man Utd given Emery approval amid new Carrick sack decision - London Evening Standard",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTUtJbklxb0YxNzdld1Q1c19JeHZicFZ5Vlo3UXcySlZCZVdHOE9aa3EwQWxYZkdXVlhwcnVhRWpmQVZhSi1oa25rMmxUTTJkdnp3c21FZkF4all0ZUZoZGhJb1l2WHVUZml2cUpnYktVSTYzTkEtR2hSM0p0alBVa0x5WDdvZGJnaTJjNWVLT2k5bGVrTWJiWEJURzFvMmhoaXc?oc=5"
+    },
+    {
+     "host": "mirror.co.uk",
+     "title": "Man Utd told only two managers can turn them around if Michael Carrick is sacked - The Mirror",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOM3FwWjVkTnNHNV9RNFFTYktqN2loSlF1UlBLdlYtcWFlRVlmalA1NTdtT0g0aDN4WGtfa3pLeHB0UlBsclBPUnJOWVBWcm5yVFZGbnZBZjZfVWZDaFFEUVVYeXpiZWI2TlBYUmctMF9XQ0NvdUVPdmlTSXJneVpINWNrNWJNTDVyZEx2RWVUUW9CdjDSAZMBQVVfeXFMTjNxcFo1ZE5zRzVfUTRRU2JLajdpaEpRdVJQS3ZWLXFhZUVZZmpQNTU3bU9INGgzeFhrX2t6S3hwdFJQbHJQT1JyTllQVnJuclRWRm52QWY2X1VmQ2hRRFFVWHl6YmViNk5QWFJnLTBfV0NDb3VFT3ZpU0lyZ3laSDVjazViTUw1cmRMdkVlVFFvQnYw?oc=5"
+    }
+   ]
+  },
+  {
    "club": "Udinese",
    "club_ar": "",
    "type": "sack",
    "first": "2026-11-02T10:26:34",
    "sources": [
     {
-     "host": "sportmediaset.mediaset.it",
-     "title": "Udinese, esonerato Runjaic: Paolo Zanetti è il nuovo allenatore - Sportmediaset",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUXprSHhmYVJldzZxczVZc3FFeF9GUnFXYVAtYXdORHZnTWZtQmpfNXcwazNWaExTZmdXNGZDWXdpT25lWVZkNXc5aGp3VU5UaUFacnlUOHRURGx1eHNCd0JXeExtWnpXUTFlV0hFOFRiSnpRVXlESTJlSEdvRGNkc0tyRmJ2ekUtbF9yNlhTSkRuOGQtTzJlVnB1VHdHY25jQmZ2bWtTMFlhNUdVYUo4ZWxyVXU0LUNOWXN0elFaZ1RtNUtQNEHSAXhBVV95cUxNcEhYNkpFekVIalBTdlJXWmNJclQzSm5zdFc3MnprR1VxZ2lJdVhaUkY2Wkt1NjdJOXo4WkpjUnp0S3I3bzM4bVRmZGNWWmw2X012b21hb0t5cko1blJtdjhkT2JZdW91WUQ1OTRPUDJlVkpTVDNxal8?oc=5"
-    },
-    {
      "host": "sport.sky.it",
      "title": "Udinese, Paolo Zanetti è il nuovo allenatore: esonerato Kosta Runjaic - Sky Sport",
      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORlZXT0lUbzZQYjFVTEtfMGtoNXNCMklVMzhnekJ0T2FOMmFXSUh0RkF4U09KajRnQ3dueWVOVmVYWlhfUDJ3SUFLMktOWWVoQkJRLWl6T1J2WTVPYlZfTWN2blAzbFNxUGFPZXp3MHlZZkNoZTJmVk5FdTIzM0wwcW1RODBOX0pRdU9WWQ?oc=5"
+    },
+    {
+     "host": "sportmediaset.mediaset.it",
+     "title": "Udinese, esonerato Runjaic: Paolo Zanetti è il nuovo allenatore - Sportmediaset",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUXprSHhmYVJldzZxczVZc3FFeF9GUnFXYVAtYXdORHZnTWZtQmpfNXcwazNWaExTZmdXNGZDWXdpT25lWVZkNXc5aGp3VU5UaUFacnlUOHRURGx1eHNCd0JXeExtWnpXUTFlV0hFOFRiSnpRVXlESTJlSEdvRGNkc0tyRmJ2ekUtbF9yNlhTSkRuOGQtTzJlVnB1VHdHY25jQmZ2bWtTMFlhNUdVYUo4ZWxyVXU0LUNOWXN0elFaZ1RtNUtQNEHSAXhBVV95cUxNcEhYNkpFekVIalBTdlJXWmNJclQzSm5zdFc3MnprR1VxZ2lJdVhaUkY2Wkt1NjdJOXo4WkpjUnp0S3I3bzM4bVRmZGNWWmw2X012b21hb0t5cko1blJtdjhkT2JZdW91WUQ1OTRPUDJlVkpTVDNxal8?oc=5"
     },
     {
      "host": "dazn.com",
