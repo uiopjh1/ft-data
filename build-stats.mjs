@@ -357,7 +357,7 @@ async function cupScore(url) {
   if (!clip) return null;
   try {
     const r = await fetch(url, { headers: { ...UA, Referer: 'https://arriyadiyah.com/' } });
-    if (!r.ok) return null;
+    if (!r.ok) { if (debug.length < 400) debug.push(`cup http ${r.status} ${url.slice(-50)}`); return null; }
     const buf = Buffer.from(await r.arrayBuffer());
     const img = await clip.T.RawImage.fromBlob(new Blob([buf]));
     const out = await clip.clf(img, CUP_POS.concat(CUP_NEG));
@@ -365,6 +365,7 @@ async function cupScore(url) {
     cupCache[url] = Math.round(pos * 1000) / 1000;
     return cupCache[url];
   } catch (e) {
+    if (debug.length < 400) debug.push('cup err ' + String(e.message || e).slice(0, 120));
     return null;
   }
 }
@@ -581,7 +582,7 @@ async function riyadiyahPhoto(l, maxPages = 70) {
 if (process.env.TEST_PHOTO) {
   const [tid, tw] = process.env.TEST_PHOTO.split('|');
   const ph = await riyadiyahPhoto({ id: tid, when: Number(tw) });
-  console.log('TEST_RESULT ' + JSON.stringify({ club: teams[tid] && teams[tid].name, photo: ph, debug: debug.slice(-40) }));
+  console.log('TEST_RESULT ' + JSON.stringify({ club: teams[tid] && teams[tid].name, photo: ph, debug: debug.filter((d) => !/^200 /.test(d)).slice(-60) }));
   process.exit(0);
 }
 let old = null;
