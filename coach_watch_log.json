@@ -1,12 +1,13 @@
 {
- "t": "2026-11-04T14:06:12.340657",
+ "t": "2026-11-04T20:53:25.514362",
  "seen": [
   {
    "club": "Al Ahli",
    "type": "sack",
-   "n": 2,
+   "n": 3,
    "hosts": [
     "arriyadiyah.com",
+    "slaati.com",
     "goal.com"
    ]
   },
@@ -19,11 +20,18 @@
    ]
   },
   {
+   "club": "Al Fateh",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "aawsat.com"
+   ]
+  },
+  {
    "club": "Al Shabab",
    "type": "sack",
-   "n": 2,
+   "n": 1,
    "hosts": [
-    "arriyadiyah.com",
     "goal.com"
    ]
   },
@@ -40,9 +48,9 @@
    "type": "sack",
    "n": 3,
    "hosts": [
-    "sports.yahoo.com",
     "standard.co.uk",
-    "mirror.co.uk"
+    "mirror.co.uk",
+    "uk.sports.yahoo.com"
    ]
   },
   {
@@ -66,23 +74,22 @@
    "type": "hire",
    "n": 1,
    "hosts": [
-    "sport.es"
+    "amp.sport.es"
    ]
   },
   {
    "club": "Udinese",
    "type": "sack",
-   "n": 9,
+   "n": 8,
    "hosts": [
     "sport.sky.it",
     "sportmediaset.mediaset.it",
     "dazn.com",
     "corrieredellosport.it",
     "goal.com",
-    "calciomercato.com",
     "football-italia.net",
-    "repubblica.it",
-    "sports.yahoo.com"
+    "sports.yahoo.com",
+    "repubblica.it"
    ]
   },
   {
@@ -99,6 +106,14 @@
    "n": 1,
    "hosts": [
     "football-italia.net"
+   ]
+  },
+  {
+   "club": "Le Havre AC",
+   "type": "hire",
+   "n": 1,
+   "hosts": [
+    "lequipe.fr"
    ]
   }
  ],
@@ -108,9 +123,9 @@
    "type": "sack",
    "n": 3,
    "hosts": [
-    "sports.yahoo.com",
     "standard.co.uk",
-    "mirror.co.uk"
+    "mirror.co.uk",
+    "uk.sports.yahoo.com"
    ]
   },
   {
@@ -134,23 +149,22 @@
    "type": "hire",
    "n": 1,
    "hosts": [
-    "sport.es"
+    "amp.sport.es"
    ]
   },
   {
    "club": "Udinese",
    "type": "sack",
-   "n": 9,
+   "n": 8,
    "hosts": [
     "sport.sky.it",
     "sportmediaset.mediaset.it",
     "dazn.com",
     "corrieredellosport.it",
     "goal.com",
-    "calciomercato.com",
     "football-italia.net",
-    "repubblica.it",
-    "sports.yahoo.com"
+    "sports.yahoo.com",
+    "repubblica.it"
    ]
   },
   {
@@ -167,6 +181,14 @@
    "n": 1,
    "hosts": [
     "football-italia.net"
+   ]
+  },
+  {
+   "club": "Le Havre AC",
+   "type": "hire",
+   "n": 1,
+   "hosts": [
+    "lequipe.fr"
    ]
   }
  ]
