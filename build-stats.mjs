@@ -681,6 +681,25 @@ for (const id of ids) {
   } catch (e) {}
   recent[id] = ph ? { checked: Date.now(), ts: ph.ts, url: ph.url, all: ph.all, source: ph.source, credit: ph.credit } : { checked: Date.now() };
 }
+// فحص مستقل: نعيد حساب جدول الدوري من مبارياتنا ونقارنه بجدول ESPN الرسمي (أي فرق يظهر في debug)
+try {
+  let okN = 0;
+  entries.forEach((e) => {
+    const id = String(e.team && e.team.id);
+    const mine = { p: 0, w: 0, d: 0, l: 0, gf: 0, ga: 0, pts: 0 };
+    games.filter((g) => g.key === 'league' && g.id === id).forEach((g) => {
+      mine.p++; mine.gf += g.gf; mine.ga += g.ga;
+      if (g.gf > g.ga) { mine.w++; mine.pts += 3; } else if (g.gf === g.ga) { mine.d++; mine.pts += 1; } else mine.l++;
+    });
+    const off = { p: stat(e, 'gamesPlayed'), w: stat(e, 'wins'), d: stat(e, 'ties'), l: stat(e, 'losses'), gf: stat(e, 'pointsFor'), ga: stat(e, 'pointsAgainst'), pts: stat(e, 'points') };
+    const bad = Object.keys(mine).filter((k) => Number.isFinite(off[k]) && off[k] !== mine[k]);
+    if (!bad.length) okN++;
+    else debug.push('league check MISMATCH ' + (e.team.displayName || id) + ': ' + bad.map((k) => `${k} ours ${mine[k]} espn ${off[k]}`).join(', '));
+  });
+  debug.push(`league check: ${okN}/${entries.length} clubs match ESPN standings`);
+} catch (e) {
+  debug.push('league check failed: ' + String(e.message || e).slice(0, 80));
+}
 debug.push('rounds seen: ' + JSON.stringify(ROUNDS));
 debug.push('recent photos: ' + Object.values(recent).filter((x) => x.url).length);
 
