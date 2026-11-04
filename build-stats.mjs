@@ -350,6 +350,19 @@ async function loadClip() {
   }
   return CLIP;
 }
+// الصحيفة لا تولّد مقاس 1200 لكل المقالات (الأقدم تعطي 404): نجرّب 1200 ثم المقاس الأصلي في المقال
+const urlOk = {};
+async function workingUrl(x) {
+  for (const u of [x.url, x.orig].filter(Boolean)) {
+    if (u in urlOk) { if (urlOk[u]) return u; continue; }
+    try {
+      const r = await fetch(u, { headers: { ...UA, Referer: 'https://arriyadiyah.com/' } });
+      urlOk[u] = r.ok;
+      if (r.ok) return u;
+    } catch (e) { urlOk[u] = false; }
+  }
+  return null;
+}
 // احتمال أن الصورة فيها كأس (0..1) أو null إن تعذّر الفحص
 async function cupScore(url) {
   if (Object.prototype.hasOwnProperty.call(cupCache, url)) return cupCache[url];
@@ -526,7 +539,7 @@ async function riyadiyahPhoto(l, maxPages = 70) {
           const h = u.match(/\/(\d+)_([0-9a-f]+)\.(jpe?g)/i);
           if (!h || keys[h[2]] || Number(h[1]) < 800) return;
           keys[h[2]] = 1;
-          all.push({ url: abs(u).replace(/\/(\d+)_/, '/1200_').replace('//media', '/media'), alt: alt || '' });
+          all.push({ url: abs(u).replace(/\/(\d+)_/, '/1200_').replace('//media', '/media'), orig: abs(u).replace('//media', '/media'), alt: alt || '' });
         };
         if (og) add(og[1], 'og');
         for (const tg of art.match(/<img[^>]*>/gi) || []) {
@@ -553,7 +566,10 @@ async function riyadiyahPhoto(l, maxPages = 70) {
     // 1) فحص الصورة نفسها بالنموذج: تُقبل إن كان احتمال الكأس ≥ 0.5، أو ≥ 0.3 مع وصف يذكر الكأس
     const scored = [];
     let clipOk = false;
-    for (const x of c.all.slice(0, 14)) {
+    for (const x0 of c.all.slice(0, 14)) {
+      const wu = await workingUrl(x0);
+      if (!wu) continue;
+      const x = { ...x0, url: wu };
       const sc = await cupScore(x.url);
       if (sc !== null) clipOk = true;
       scored.push({ x, sc });
