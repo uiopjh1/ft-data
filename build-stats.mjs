@@ -504,11 +504,11 @@ async function riyadiyahPhoto(l, maxPages = 70) {
         const d = art.match(/(\d{4})\.(\d{2})\.(\d{2})/);
         if (!d) continue;
         const ts = new Date(`${d[1]}-${d[2]}-${d[3]}T12:00:00Z`).getTime();
-        if (ts < l.when - 3 * 24 * 3600e3) {
+        if (ts < l.when - 1 * 24 * 3600e3) {
           stop = true;
           break;
         }
-        if (ts > l.when + 6 * 24 * 3600e3) continue;
+        if (ts > l.when + 2 * 24 * 3600e3) continue;
         const t2 = slug + ' ' + title;
         let score = 0;
         if (/^\s*(حفل\s+)?تتويج\s+\S+\s*$/.test(slug)) score += 10;
@@ -598,7 +598,7 @@ for (const id of ids) {
   }
   let ph = null;
   try {
-    ph = await riyadiyahPhoto({ id, when: Date.now() - 3 * 24 * 3600e3 }, 4);
+    ph = await riyadiyahPhoto({ id, when: Date.now() - 1 * 24 * 3600e3 }, 4);
   } catch (e) {}
   recent[id] = ph ? { checked: Date.now(), ts: ph.ts, url: ph.url, all: ph.all, source: ph.source, credit: ph.credit } : { checked: Date.now() };
 }
