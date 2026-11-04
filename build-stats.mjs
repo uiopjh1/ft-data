@@ -474,6 +474,7 @@ async function dedupePhotos(urls) {
   }
 }
 async function riyadiyahPhoto(l, maxPages = 70) {
+  const MAXT = process.env.TEST_PHOTO ? 500 : 30; // في الاختبار ننزل لنهائي قديم فنحتاج فحص مقالات أكثر
   const tag = AR_TAG[teams[l.id].name] || (/[\u0600-\u06FF]/.test(AR_ESPN[l.id] || '') ? AR_ESPN[l.id] : '');
   if (!tag) return null;
   const abs = (u) => (u.startsWith('//') ? 'https:' + u : u.startsWith('/') ? 'https://arriyadiyah.com' + u : u);
@@ -481,7 +482,7 @@ async function riyadiyahPhoto(l, maxPages = 70) {
   const cands = [];
   let tried = 0;
   let stop = false;
-  for (let page = 1; page <= maxPages && tried < 30 && !stop; page++) {
+  for (let page = 1; page <= maxPages && tried < MAXT && !stop; page++) {
     let html;
     try {
       html = await getHtml(`https://arriyadiyah.com/tag/${encodeURIComponent(tag)}${page > 1 ? '?page=' + page : ''}`);
@@ -497,7 +498,7 @@ async function riyadiyahPhoto(l, maxPages = 70) {
       if (seen[id]) continue;
       seen[id] = 1;
       if (!/تتويج|توج|توّج|لقب|رفع|الكأس|حفل|بطل|كأس|كاس|درع/.test(title + ' ' + slug)) continue;
-      if (tried >= 30) break;
+      if (tried >= MAXT) break;
       tried++;
       try {
         const art = await getHtml(`https://arriyadiyah.com/${id}/${m[2]}`);
