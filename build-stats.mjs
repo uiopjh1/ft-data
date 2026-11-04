@@ -353,7 +353,7 @@ async function loadClip() {
     const T = await import(pathToFileURL(entry).href);
     T.env.cacheDir = '/tmp/clip_cache';
     T.env.allowLocalModels = false;
-    const clf = await T.pipeline('zero-shot-image-classification', 'Xenova/clip-vit-base-patch32');
+    const clf = await T.pipeline('zero-shot-image-classification', 'Xenova/clip-vit-base-patch16');
     CLIP = { T, clf };
     debug.push('clip loaded');
   } catch (e) {
@@ -374,9 +374,14 @@ async function workingUrl(x) {
   }
   return null;
 }
-// احتمال أن الصورة فيها كأس (0..1) أو null إن تعذّر الفحص
+// درجتان للصورة: o = مجموع الأوصاف الإيجابية، b = «صورة فيها كأس ذهبي» مقابل «بلا كأس». أو null إن تعذّر الفحص
+// (اختُبرت على 10 صور معروفة: الصور ذات الكأس ≥ 0.83 و≥ 0.66، وبدون كأس ≤ 0.63 و≤ 0.49)
+const CUP_BIN = ['a photo of people holding a golden trophy cup', 'a photo with no trophy'];
+const CUP_O_MIN = 0.75;
+const CUP_B_MIN = 0.55;
 async function cupScore(url) {
-  if (Object.prototype.hasOwnProperty.call(cupCache, url)) return cupCache[url];
+  const ck = 'b16|' + url;
+  if (Object.prototype.hasOwnProperty.call(cupCache, ck)) return cupCache[ck];
   const clip = await loadClip();
   if (!clip) return null;
   try {
@@ -386,8 +391,10 @@ async function cupScore(url) {
     const img = await clip.T.RawImage.fromBlob(new Blob([buf]));
     const out = await clip.clf(img, CUP_POS.concat(CUP_NEG));
     const pos = out.filter((o) => CUP_POS.includes(o.label)).reduce((a, o) => a + o.score, 0);
-    cupCache[url] = Math.round(pos * 1000) / 1000;
-    return cupCache[url];
+    const bn = await clip.clf(img, CUP_BIN);
+    const bin = (bn.find((o) => o.label === CUP_BIN[0]) || { score: 0 }).score;
+    cupCache[ck] = { o: Math.round(pos * 100) / 100, b: Math.round(bin * 100) / 100 };
+    return cupCache[ck];
   } catch (e) {
     if (debug.length < 400) debug.push('cup err ' + String(e.message || e).slice(0, 120));
     return null;
@@ -590,9 +597,9 @@ async function riyadiyahPhoto(l, maxPages = 70) {
     }
     // 2) إن تعذّر النموذج كلياً: نرجع لفحص الوصف النصي فقط
     const f = clipOk
-      ? scored.filter(({ x, sc }) => sc !== null && (sc >= 0.5 || (trophy(x) && sc >= 0.3))).sort((a, b) => b.sc - a.sc).map((o) => o.x)
+      ? scored.filter(({ sc }) => sc && sc.o >= CUP_O_MIN && sc.b >= CUP_B_MIN).sort((a, b) => b.sc.o + b.sc.b - (a.sc.o + a.sc.b)).map((o) => o.x)
       : c.all.filter(trophy);
-    debug.push(`cup scores ${c.id}: ` + scored.map((o) => (o.sc === null ? 'x' : o.sc)).join(' ') + ` -> kept ${f.length}`);
+    debug.push(`cup scores ${c.id}: ` + scored.map((o) => (o.sc === null ? 'x' : o.sc.o + '/' + o.sc.b)).join(' ') + ` -> kept ${f.length}`);
     // نجمع الصور المقبولة من كل مقالات التتويج في النافذة (لا نقف عند أول مقال)، وصور أفضل مقال أولاً
     if (f.length) {
       if (!best) best = c;
