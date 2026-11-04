@@ -1,5 +1,6 @@
 // يُشغَّل على خوادم GitHub كل 30 دقيقة ويكتب stats.json الذي يقرؤه التطبيق (طلب واحد بدل المئات)
 import { writeFileSync, readFileSync } from 'node:fs';
+import { pathToFileURL } from 'node:url';
 
 // المعرّف الثابت الوحيد: دوري روشن في ESPN (نظير 955 في Sofascore). بقية البطولات تُكتشف تلقائيًا من جدول كل نادٍ.
 const LEAGUE = 'ksa.1';
@@ -306,6 +307,67 @@ async function getHtml(url) {
   return await r.text();
 }
 const clean = (s) => s.replace(/<[^>]*>/g, ' ').replace(/&[a-z#0-9]+;/gi, ' ').replace(/\s+/g, ' ').trim();
+
+// ---- فحص الصورة نفسها: هل فيها كأس/درع ظاهر؟ (نموذج CLIP مجاني يعمل داخل GitHub) ----
+// يُحمَّل عند الحاجة فقط (حين توجد صور جديدة)، وإن فشل لأي سبب نرجع لفحص الوصف النصي ولا يتوقف السكربت.
+const CUP_POS = [
+  'a football team celebrating while holding a trophy',
+  'a football player lifting a trophy',
+  'a football player holding a cup',
+  'a coach holding a trophy',
+  'a football team posing with a trophy',
+  'a player receiving a trophy on a podium',
+];
+const CUP_NEG = [
+  'a football match being played on the pitch',
+  'football players celebrating without a trophy',
+  'a crowd of fans in a stadium',
+  'a portrait of a person',
+  'a press conference',
+  'people in suits at a meeting',
+  'a team logo or graphic',
+  'a football player running with the ball',
+];
+let cupCache = {};
+try { cupCache = JSON.parse(readFileSync('cup_cache.json', 'utf8')); } catch (e) {}
+let CLIP; // undefined = لم يُحمَّل بعد، null = غير متاح
+async function loadClip() {
+  if (CLIP !== undefined) return CLIP;
+  CLIP = null;
+  try {
+    const { execSync } = await import('node:child_process');
+    const { existsSync } = await import('node:fs');
+    const entry = '/tmp/cl/node_modules/@xenova/transformers/src/transformers.js';
+    if (!existsSync(entry)) execSync('npm install @xenova/transformers@2.17.2 --no-save --prefix /tmp/cl', { stdio: 'ignore', timeout: 300000 });
+    const T = await import(pathToFileURL(entry).href);
+    T.env.cacheDir = '/tmp/clip_cache';
+    T.env.allowLocalModels = false;
+    const clf = await T.pipeline('zero-shot-image-classification', 'Xenova/clip-vit-base-patch32');
+    CLIP = { T, clf };
+    debug.push('clip loaded');
+  } catch (e) {
+    debug.push('clip unavailable: ' + String(e.message || e).slice(0, 100));
+  }
+  return CLIP;
+}
+// احتمال أن الصورة فيها كأس (0..1) أو null إن تعذّر الفحص
+async function cupScore(url) {
+  if (Object.prototype.hasOwnProperty.call(cupCache, url)) return cupCache[url];
+  const clip = await loadClip();
+  if (!clip) return null;
+  try {
+    const r = await fetch(url, { headers: { ...UA, Referer: 'https://arriyadiyah.com/' } });
+    if (!r.ok) return null;
+    const buf = Buffer.from(await r.arrayBuffer());
+    const img = await clip.T.RawImage.fromBlob(new Blob([buf]));
+    const out = await clip.clf(img, CUP_POS.concat(CUP_NEG));
+    const pos = out.filter((o) => CUP_POS.includes(o.label)).reduce((a, o) => a + o.score, 0);
+    cupCache[url] = Math.round(pos * 1000) / 1000;
+    return cupCache[url];
+  } catch (e) {
+    return null;
+  }
+}
 function bilinear(img, nw) {
   const nh = Math.max(1, Math.round((img.h * nw) / img.w));
   const d = new Float32Array(nw * nh);
@@ -485,7 +547,18 @@ async function riyadiyahPhoto(l, maxPages = 70) {
   let best = null;
   let flagged = [];
   for (const c of cands) {
-    const f = c.all.filter(trophy);
+    // 1) فحص الصورة نفسها بالنموذج: تُقبل إن كان احتمال الكأس ≥ 0.5، أو ≥ 0.3 مع وصف يذكر الكأس
+    const scored = [];
+    let clipOk = false;
+    for (const x of c.all.slice(0, 14)) {
+      const sc = await cupScore(x.url);
+      if (sc !== null) clipOk = true;
+      scored.push({ x, sc });
+    }
+    // 2) إن تعذّر النموذج كلياً: نرجع لفحص الوصف النصي فقط
+    const f = clipOk
+      ? scored.filter(({ x, sc }) => sc !== null && (sc >= 0.5 || (trophy(x) && sc >= 0.3))).sort((a, b) => b.sc - a.sc).map((o) => o.x)
+      : c.all.filter(trophy);
     if (f.length) {
       best = c;
       flagged = f;
@@ -530,6 +603,11 @@ for (const id of ids) {
 }
 debug.push('recent photos: ' + Object.values(recent).filter((x) => x.url).length);
 
+try {
+  const ks = Object.keys(cupCache);
+  if (ks.length > 600) ks.slice(0, ks.length - 600).forEach((k) => delete cupCache[k]);
+  writeFileSync('cup_cache.json', JSON.stringify(cupCache));
+} catch (e) {}
 writeFileSync(
   'stats.json',
   JSON.stringify({ updated: Date.now(), year: y, teams, games, leagueChamp, leagueChampWhen, last, recent, debug, finals: Object.values(finals).sort((a, b) => a.when - b.when), prev })
