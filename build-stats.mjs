@@ -496,7 +496,7 @@ async function riyadiyahPhoto(l, maxPages = 70) {
       const title = clean(m[3]) || slug;
       if (seen[id]) continue;
       seen[id] = 1;
-      if (!/تتويج|توج|توّج|لقب|رفع|الكأس|حفل/.test(title + ' ' + slug)) continue;
+      if (!/تتويج|توج|توّج|لقب|رفع|الكأس|حفل|بطل|كأس|كاس|درع/.test(title + ' ' + slug)) continue;
       if (tried >= 30) break;
       tried++;
       try {
@@ -515,6 +515,7 @@ async function riyadiyahPhoto(l, maxPages = 70) {
         if (/^\s*تتويج/.test(slug) || /تتويج\s+\S+\s*$/.test(slug)) score += 6;
         if (/حفل\s+التتويج|يتوج|يتوّج|رفع\s+الكأس|رفع\s+الدرع|كأس\s+الدوري/.test(t2)) score += 4;
         if (/تتويج/.test(t2)) score += 3;
+        if (/بطل/.test(t2)) score += 4; // «الهلال بطل كأس الملك»: عنوان مقال ما بعد النهائي مباشرة
         if (/السقوط|أزمة|صفقة|عقد|يخسر|يرحل|انسحب|ينسحب|مليون|مليار|دائرة|مشوار|أفكار|ترسم|تمهد|طريق|ليلة|يحتفل|احتفالات/.test(t2)) score -= 5;
         const og = art.match(/property="og:image"[^>]*content="([^"]+)"/) || art.match(/content="([^"]+)"[^>]*property="og:image"/);
         const all = [];
