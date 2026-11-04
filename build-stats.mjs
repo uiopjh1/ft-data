@@ -377,10 +377,11 @@ async function workingUrl(x) {
 // درجتان للصورة: o = مجموع الأوصاف الإيجابية، b = «صورة فيها كأس ذهبي» مقابل «بلا كأس». أو null إن تعذّر الفحص
 // (اختُبرت على 10 صور معروفة: الصور ذات الكأس ≥ 0.83 و≥ 0.66، وبدون كأس ≤ 0.63 و≤ 0.49)
 const CUP_BIN = ['a photo of people holding a golden trophy cup', 'a photo with no trophy'];
+const CUP_C = ['a trophy cup clearly visible in the photo', 'players hugging and celebrating a goal on the pitch', 'a close-up of a footballer without any trophy'];
 const CUP_O_MIN = 0.75;
 const CUP_B_MIN = 0.55;
 async function cupScore(url) {
-  const ck = 'b16|' + url;
+  const ck = 'b16c|' + url;
   if (Object.prototype.hasOwnProperty.call(cupCache, ck)) return cupCache[ck];
   const clip = await loadClip();
   if (!clip) return null;
@@ -393,7 +394,9 @@ async function cupScore(url) {
     const pos = out.filter((o) => CUP_POS.includes(o.label)).reduce((a, o) => a + o.score, 0);
     const bn = await clip.clf(img, CUP_BIN);
     const bin = (bn.find((o) => o.label === CUP_BIN[0]) || { score: 0 }).score;
-    cupCache[ck] = { o: Math.round(pos * 100) / 100, b: Math.round(bin * 100) / 100 };
+    const cn = await clip.clf(img, CUP_C);
+    const cc = (cn.find((o) => o.label === CUP_C[0]) || { score: 0 }).score;
+    cupCache[ck] = { o: Math.round(pos * 100) / 100, b: Math.round(bin * 100) / 100, c: Math.round(cc * 100) / 100 };
     return cupCache[ck];
   } catch (e) {
     if (debug.length < 400) debug.push('cup err ' + String(e.message || e).slice(0, 120));
@@ -599,7 +602,7 @@ async function riyadiyahPhoto(l, maxPages = 70) {
     const f = clipOk
       ? scored.filter(({ sc }) => sc && sc.o >= CUP_O_MIN && sc.b >= CUP_B_MIN).sort((a, b) => b.sc.o + b.sc.b - (a.sc.o + a.sc.b)).map((o) => o.x)
       : c.all.filter(trophy);
-    debug.push(`cup scores ${c.id}: ` + scored.map((o) => (o.sc === null ? 'x' : (o.x.url.match(/_([0-9a-f]+)\.\w+$/) || [])[1] + '=' + o.sc.o + '/' + o.sc.b)).join(' ') + ` -> kept ${f.length}`);
+    debug.push(`cup scores ${c.id}: ` + scored.map((o) => (o.sc === null ? 'x' : (o.x.url.match(/_([0-9a-f]+)\.\w+$/) || [])[1] + '=' + o.sc.o + '/' + o.sc.b + '/' + o.sc.c)).join(' ') + ` -> kept ${f.length}`);
     // نجمع الصور المقبولة من كل مقالات التتويج في النافذة (لا نقف عند أول مقال)، وصور أفضل مقال أولاً
     if (f.length) {
       if (!best) best = c;
