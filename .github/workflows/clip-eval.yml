@@ -1,0 +1,17 @@
+name: clip-eval
+on:
+  workflow_dispatch:
+jobs:
+  e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - uses: actions/cache@v4
+        with:
+          path: /tmp/clip_cache
+          key: clip-model-v1
+      - run: node clip-eval.mjs
