@@ -96,7 +96,18 @@ const ids = Object.keys(teams);
 if (!ids.length) throw new Error('no teams');
 let leagueChamp = null;
 const top = entries.find((e) => stat(e, 'rank') === 1);
-if (top && top.team && stat(top, 'gamesPlayed') >= (ids.length - 1) * 2) leagueChamp = String(top.team.id);
+const totalG = (ids.length - 1) * 2;
+// الحسم المبكر: يُعلن البطل عندما لا يستطيع أي نادٍ آخر اللحاق به ولا التعادل معه في النقاط ولو فاز بكل مبارياته المتبقية
+const canCatch = (pts, gp, leadPts) => {
+  const pot = pts + 3 * Math.max(0, totalG - gp);
+  return !Number.isFinite(pot) || pot >= leadPts;
+};
+if (top && top.team) {
+  const lp = stat(top, 'points');
+  const full = stat(top, 'gamesPlayed') >= totalG;
+  const early = Number.isFinite(lp) && entries.every((e) => e === top || !canCatch(stat(e, 'points'), stat(e, 'gamesPlayed'), lp));
+  if (full || early) leagueChamp = String(top.team.id);
+}
 
 // 2) جداول كل نادٍ في كل بطولة
 const slugOf = (ev) => {
@@ -211,9 +222,23 @@ for (let py = Math.max(Math.min(asOfYear + 1, y - 1), y - 4); py <= y - 1; py++)
 
 // آخر بطولة بين كل أندية روشن (الموسم الحالي والماضي) + صورة تتويج من Wikimedia Commons إن وُجدت
 const cand = prev.slice();
+// تاريخ الحسم: نعيد نتائج الدوري بالترتيب الزمني، وأول مباراة بعدها لا يستطيع أحد اللحاق بالبطل = يوم التتويج
+let leagueChampWhen = 0;
 if (leagueChamp) {
+  const byMid = {};
+  games.filter((g) => g.key === 'league').forEach((g) => { (byMid[g.mid] = byMid[g.mid] || []).push(g); });
+  const rounds = Object.values(byMid).sort((a, b) => a[0].when - b[0].when);
+  const P = {};
+  const G = {};
+  ids.forEach((i) => { P[i] = 0; G[i] = 0; });
+  for (const grp of rounds) {
+    grp.forEach((g) => { G[g.id] += 1; P[g.id] += g.gf > g.ga ? 3 : g.gf === g.ga ? 1 : 0; });
+    const cp = P[leagueChamp];
+    if (ids.every((i) => i === leagueChamp || P[i] + 3 * Math.max(0, totalG - G[i]) < cp)) { leagueChampWhen = grp[0].when; break; }
+  }
   const lw = games.filter((g) => g.key === 'league' && g.id === leagueChamp).reduce((a, g) => Math.max(a, g.when), 0);
-  cand.push({ id: leagueChamp, label: 'دوري روشن', when: lw || Date.now() });
+  if (!leagueChampWhen) leagueChampWhen = lw;
+  cand.push({ id: leagueChamp, label: 'دوري روشن', when: leagueChampWhen || Date.now() });
 }
 games.forEach((g) => {
   if (g.key !== 'league' && g.official && g.won && /^final$/i.test(g.round)) cand.push({ id: g.id, label: g.label, when: g.when, opp: g.opp, score: `${g.gf}-${g.ga}` });
@@ -493,6 +518,6 @@ debug.push('recent photos: ' + Object.values(recent).filter((x) => x.url).length
 
 writeFileSync(
   'stats.json',
-  JSON.stringify({ updated: Date.now(), year: y, teams, games, leagueChamp, last, recent, debug, finals: Object.values(finals).sort((a, b) => a.when - b.when), prev })
+  JSON.stringify({ updated: Date.now(), year: y, teams, games, leagueChamp, leagueChampWhen, last, recent, debug, finals: Object.values(finals).sort((a, b) => a.when - b.when), prev })
 );
 console.log('teams', ids.length, 'games', games.length, 'prev titles', prev.length);
