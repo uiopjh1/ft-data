@@ -3,8 +3,10 @@ on:
   workflow_dispatch:
     inputs:
       spec:
-        description: "id|when (مثال 929|1778263200000)"
+        description: "id|when ويمكن أكثر من واحد بفاصلة (مثال 929|1778263200000,8346|1777133700000)"
         required: true
+permissions:
+  contents: write
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -18,3 +20,8 @@ jobs:
           path: /tmp/clip_cache
           key: clip-model-v1
       - run: TEST_PHOTO="${{ github.event.inputs.spec }}" node build-stats.mjs
+      - run: |
+          git config user.name "ft-bot"
+          git config user.email "ft-bot@users.noreply.github.com"
+          git add photo_test.json cup_cache.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "photo test" && git push
