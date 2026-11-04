@@ -607,7 +607,7 @@ async function riyadiyahPhoto(l, maxPages = 70) {
     }
     // 2) إن تعذّر النموذج كلياً: نرجع لفحص الوصف النصي فقط
     const f = clipOk
-      ? scored.filter(({ sc }) => sc && sc.o >= CUP_O_MIN && sc.b >= CUP_B_MIN && (sc.c >= CUP_C_MIN || (sc.c >= 0.05 && sc.b >= 0.6))).sort((a, b) => b.sc.o + b.sc.b - (a.sc.o + a.sc.b)).map((o) => o.x)
+      ? scored.filter(({ sc }) => sc && sc.o >= CUP_O_MIN && sc.b >= CUP_B_MIN && (sc.c >= CUP_C_MIN || (sc.c >= 0.05 && sc.b >= 0.6))).sort((a, b) => b.sc.b - a.sc.b).map((o) => ({ ...o.x, _b: o.sc.b }))
       : c.all.filter(trophy);
     debug.push(`cup scores ${c.id}: ` + scored.map((o) => (o.sc === null ? 'x' : (o.x.url.match(/_([0-9a-f]+)\.\w+$/) || [])[1] + '=' + o.sc.o + '/' + o.sc.b + '/' + o.sc.c)).join(' ') + ` -> kept ${f.length}`);
     // نجمع الصور المقبولة من كل مقالات التتويج في النافذة (لا نقف عند أول مقال)، وصور أفضل مقال أولاً
@@ -623,6 +623,8 @@ async function riyadiyahPhoto(l, maxPages = 70) {
     debug.push(`no trophy-captioned photos in ${cands.length} articles`);
     return null;
   }
+  // الأوضح كأساً أولاً (فالبطاقة تعرض الأقوى)، والصور الحدّية في آخر المعرض
+  flagged.sort((a, b) => (b._b || 0) - (a._b || 0));
   const list = flagged.slice(0, 10);
   debug.push(`picked ${best.id} score ${best.score} imgs ${best.all.length} flagged ${flagged.length}`);
   const urls = await dedupePhotos(list.map((x) => x.url));
