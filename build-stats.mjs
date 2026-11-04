@@ -599,7 +599,7 @@ async function riyadiyahPhoto(l, maxPages = 70) {
     const f = clipOk
       ? scored.filter(({ sc }) => sc && sc.o >= CUP_O_MIN && sc.b >= CUP_B_MIN).sort((a, b) => b.sc.o + b.sc.b - (a.sc.o + a.sc.b)).map((o) => o.x)
       : c.all.filter(trophy);
-    debug.push(`cup scores ${c.id}: ` + scored.map((o) => (o.sc === null ? 'x' : o.sc.o + '/' + o.sc.b)).join(' ') + ` -> kept ${f.length}`);
+    debug.push(`cup scores ${c.id}: ` + scored.map((o) => (o.sc === null ? 'x' : (o.x.url.match(/_([0-9a-f]+)\.\w+$/) || [])[1] + '=' + o.sc.o + '/' + o.sc.b)).join(' ') + ` -> kept ${f.length}`);
     // نجمع الصور المقبولة من كل مقالات التتويج في النافذة (لا نقف عند أول مقال)، وصور أفضل مقال أولاً
     if (f.length) {
       if (!best) best = c;
