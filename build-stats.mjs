@@ -700,6 +700,20 @@ try {
 } catch (e) {
   debug.push('league check failed: ' + String(e.message || e).slice(0, 80));
 }
+try {
+  // أقرب مباريات دوري قادمة (لمعرفة متى نختبر التحديث)
+  const up = [];
+  (await season(y, false)).forEach((x) => x.events.forEach((ev) => {
+    if (x.c.key !== 'league') return;
+    const s0 = statusOf(ev);
+    if (isDone(s0)) return;
+    const w = new Date(ev.date).getTime();
+    if (w > Date.now() - 3 * 3600e3) up.push(w + '|' + (ev.name || ''));
+  }));
+  debug.push('next league: ' + [...new Set(up)].sort().slice(0, 6).map((u) => new Date(Number(u.split('|')[0])).toISOString() + ' ' + u.split('|')[1]).join(' ;; '));
+} catch (e) {
+  debug.push('next league failed: ' + String(e.message || e).slice(0, 60));
+}
 debug.push('rounds seen: ' + JSON.stringify(ROUNDS));
 debug.push('recent photos: ' + Object.values(recent).filter((x) => x.url).length);
 
