@@ -329,7 +329,18 @@ const CUP_NEG = [
   'a football player running with the ball',
 ];
 let cupCache = {};
-try { cupCache = JSON.parse(readFileSync('cup_cache.json', 'utf8')); } catch (e) {}
+let imgFreq = {}; // معرّف الصورة -> مقالات ظهرت فيها (الصورة التي تتكرر في مقالات كثيرة قالب عام للموقع وليست صورة تتويج)
+try {
+  const cj = JSON.parse(readFileSync('cup_cache.json', 'utf8'));
+  cupCache = cj.s || (cj.f ? {} : cj);
+  imgFreq = cj.f || {};
+} catch (e) {}
+// صور عامة رصدناها تظهر في مقالات أندية مختلفة (قالب الموقع) وليست من مباراة بعينها
+const GENERIC_IMG = new Set(['90f96f40aa', 'f05ad83f20']);
+const isGeneric = (u) => {
+  const m = String(u).match(/_([0-9a-f]{6,})\.jpe?g/i);
+  return !!m && (GENERIC_IMG.has(m[1]) || (imgFreq[m[1]] || []).length >= 3);
+};
 let CLIP; // undefined = لم يُحمَّل بعد، null = غير متاح
 async function loadClip() {
   if (CLIP !== undefined) return CLIP;
@@ -539,6 +550,8 @@ async function riyadiyahPhoto(l, maxPages = 70) {
           const h = u.match(/\/(\d+)_([0-9a-f]+)\.(jpe?g)/i);
           if (!h || keys[h[2]] || Number(h[1]) < 800) return;
           keys[h[2]] = 1;
+          const fl = (imgFreq[h[2]] = imgFreq[h[2]] || []);
+          if (!fl.includes(id) && fl.length < 6) fl.push(id);
           all.push({ url: abs(u).replace(/\/(\d+)_/, '/1200_').replace('//media', '/media'), orig: abs(u).replace('//media', '/media'), alt: alt || '' });
         };
         if (og) add(og[1], 'og');
@@ -567,6 +580,7 @@ async function riyadiyahPhoto(l, maxPages = 70) {
     const scored = [];
     let clipOk = false;
     for (const x0 of c.all.slice(0, 14)) {
+      if (isGeneric(x0.url) || isGeneric(x0.orig)) continue;
       const wu = await workingUrl(x0);
       if (!wu) continue;
       const x = { ...x0, url: wu };
@@ -633,7 +647,9 @@ debug.push('recent photos: ' + Object.values(recent).filter((x) => x.url).length
 try {
   const ks = Object.keys(cupCache);
   if (ks.length > 600) ks.slice(0, ks.length - 600).forEach((k) => delete cupCache[k]);
-  writeFileSync('cup_cache.json', JSON.stringify(cupCache));
+  const fk = Object.keys(imgFreq);
+  if (fk.length > 3000) fk.slice(0, fk.length - 3000).forEach((k) => delete imgFreq[k]);
+  writeFileSync('cup_cache.json', JSON.stringify({ s: cupCache, f: imgFreq }));
 } catch (e) {}
 writeFileSync(
   'stats.json',
