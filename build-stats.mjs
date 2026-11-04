@@ -593,10 +593,13 @@ async function riyadiyahPhoto(l, maxPages = 70) {
       ? scored.filter(({ x, sc }) => sc !== null && (sc >= 0.5 || (trophy(x) && sc >= 0.3))).sort((a, b) => b.sc - a.sc).map((o) => o.x)
       : c.all.filter(trophy);
     debug.push(`cup scores ${c.id}: ` + scored.map((o) => (o.sc === null ? 'x' : o.sc)).join(' ') + ` -> kept ${f.length}`);
+    // نجمع الصور المقبولة من كل مقالات التتويج في النافذة (لا نقف عند أول مقال)، وصور أفضل مقال أولاً
     if (f.length) {
-      best = c;
-      flagged = f;
-      break;
+      if (!best) best = c;
+      f.forEach((x) => {
+        const hk = (String(x.url).match(/_([0-9a-f]{6,})\.jpe?g/i) || [])[1] || x.url;
+        if (!flagged.some((y) => ((String(y.url).match(/_([0-9a-f]{6,})\.jpe?g/i) || [])[1] || y.url) === hk)) flagged.push(x);
+      });
     }
   }
   if (!best) {
