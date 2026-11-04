@@ -559,6 +559,7 @@ async function riyadiyahPhoto(l, maxPages = 70) {
     const f = clipOk
       ? scored.filter(({ x, sc }) => sc !== null && (sc >= 0.5 || (trophy(x) && sc >= 0.3))).sort((a, b) => b.sc - a.sc).map((o) => o.x)
       : c.all.filter(trophy);
+    debug.push(`cup scores ${c.id}: ` + scored.map((o) => (o.sc === null ? 'x' : o.sc)).join(' ') + ` -> kept ${f.length}`);
     if (f.length) {
       best = c;
       flagged = f;
