@@ -1,9 +1,11 @@
 أحمد النفيسة {'cands': 0, 'clusters': [], 'ok': False}
 أنيس السحباني {'cands': 0, 'clusters': [], 'ok': False}
+بلال علام {'cands': 3, 'clusters': [['zamalektoday.com'], ['deezer.com']], 'ok': False}
 حازم عبد السلام {'cands': 0, 'clusters': [], 'ok': False}
 زياد الدكروري {'cands': 0, 'clusters': [], 'ok': False}
 سلطان الحربي {'cands': 0, 'clusters': [], 'ok': False}
 سليمان الشريف {'cands': 0, 'clusters': [], 'ok': False}
+سمير المعيرفي {'cands': 3, 'clusters': [['news.miralnews.com']], 'ok': False}
 سمير اليعقوبي {'cands': 0, 'clusters': [], 'ok': False}
 طارق حسن {'cands': 0, 'clusters': [], 'ok': False}
 عانر الخوذيري {'cands': 0, 'clusters': [], 'ok': False}
@@ -13,10 +15,12 @@
 عصام عبده {'cands': 3, 'clusters': [['ar.m.wikipedia.org']], 'ok': False}
 فهد عريشي {'cands': 0, 'clusters': [], 'ok': False}
 ماهر المصطفى {'cands': 0, 'clusters': [], 'ok': False}
+محمد السعدي {'cands': 10, 'clusters': [['elwatannews.com', 'gate.ahram.org.eg'], ['alantologia.com'], ['sa24.co']], 'ok': True}
 محمد مصباح {'cands': 0, 'clusters': [], 'ok': False}
+محمد نضال {'cands': 0, 'clusters': [], 'ok': False}
+مصطفى العلوان {'cands': 0, 'clusters': [], 'ok': False}
 منتصر الأزهري {'cands': 0, 'clusters': [], 'ok': False}
 منير العتيبي {'cands': 0, 'clusters': [], 'ok': False}
 نوفل باشي {'cands': 0, 'clusters': [], 'ok': False}
 هامر الخوذيري {'cands': 0, 'clusters': [], 'ok': False}
-هشام معمر {'cands': 3, 'clusters': [['al-monitor.com', 'commons.wikimedia.org']], 'ok': True}
 يزن اللبابنة {'cands': 0, 'clusters': [], 'ok': False}

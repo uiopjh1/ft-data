@@ -555,7 +555,15 @@
   "checked": "2026-11-04"
  },
  "محمد السعدي": {
-  "checked": "2026-11-04"
+  "checked": "2026-11-04",
+  "image": "https://raw.githubusercontent.com/uiopjh1/ft-data/main/comm_img/26562151.jpg",
+  "img_conf": "face_multi",
+  "img_src": [
+   "https://gate.ahram.org.eg/News/2687875.aspx",
+   "https://www.elwatannews.com/news/details/8166650",
+   "https://www.elwatannews.com/news/details/8166650",
+   "https://gate.ahram.org.eg/News/2687875.aspx"
+  ]
  },
  "محمد نضال": {
   "checked": "2026-11-04"

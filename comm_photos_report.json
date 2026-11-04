@@ -9,6 +9,18 @@
   "clusters": [],
   "ok": false
  },
+ "بلال علام": {
+  "cands": 3,
+  "clusters": [
+   [
+    "zamalektoday.com"
+   ],
+   [
+    "deezer.com"
+   ]
+  ],
+  "ok": false
+ },
  "حازم عبد السلام": {
   "cands": 0,
   "clusters": [],
@@ -27,6 +39,15 @@
  "سليمان الشريف": {
   "cands": 0,
   "clusters": [],
+  "ok": false
+ },
+ "سمير المعيرفي": {
+  "cands": 3,
+  "clusters": [
+   [
+    "news.miralnews.com"
+   ]
+  ],
   "ok": false
  },
  "سمير اليعقوبي": {
@@ -89,7 +110,33 @@
   "clusters": [],
   "ok": false
  },
+ "محمد السعدي": {
+  "cands": 10,
+  "clusters": [
+   [
+    "elwatannews.com",
+    "gate.ahram.org.eg"
+   ],
+   [
+    "alantologia.com"
+   ],
+   [
+    "sa24.co"
+   ]
+  ],
+  "ok": true
+ },
  "محمد مصباح": {
+  "cands": 0,
+  "clusters": [],
+  "ok": false
+ },
+ "محمد نضال": {
+  "cands": 0,
+  "clusters": [],
+  "ok": false
+ },
+ "مصطفى العلوان": {
   "cands": 0,
   "clusters": [],
   "ok": false
@@ -113,16 +160,6 @@
   "cands": 0,
   "clusters": [],
   "ok": false
- },
- "هشام معمر": {
-  "cands": 3,
-  "clusters": [
-   [
-    "al-monitor.com",
-    "commons.wikimedia.org"
-   ]
-  ],
-  "ok": true
  },
  "يزن اللبابنة": {
   "cands": 0,
