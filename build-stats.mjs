@@ -564,7 +564,7 @@ async function riyadiyahPhoto(l, maxPages = 70) {
           add(src[1], clean(alt + ' ' + cap));
         }
         debug.push(`cand ${id} score ${score} imgs ${all.length} ${slug.slice(0, 40)}`);
-        if (all.length && score >= 3) cands.push({ score, id, slug: m[2], all, ts });
+        if (all.length) cands.push({ score, id, slug: m[2], all, ts }); // كل مقالات النافذة تدخل؛ الحكم على الكأس للفحص الآلي للصورة، والمقال الأعلى درجة تُعرض صوره أولاً
       } catch (e) {}
     }
   }
@@ -606,7 +606,7 @@ async function riyadiyahPhoto(l, maxPages = 70) {
     debug.push(`no trophy-captioned photos in ${cands.length} articles`);
     return null;
   }
-  const list = flagged.slice(0, 12);
+  const list = flagged.slice(0, 10);
   debug.push(`picked ${best.id} score ${best.score} imgs ${best.all.length} flagged ${flagged.length}`);
   const urls = await dedupePhotos(list.map((x) => x.url));
   return { v: 6, url: urls[0], credit: 'صحيفة الرياضية', source: `https://arriyadiyah.com/${best.id}`, all: urls, ts: best.ts };
