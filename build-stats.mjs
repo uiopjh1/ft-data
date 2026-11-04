@@ -380,6 +380,7 @@ const CUP_BIN = ['a photo of people holding a golden trophy cup', 'a photo with 
 const CUP_C = ['a trophy cup clearly visible in the photo', 'players hugging and celebrating a goal on the pitch', 'a close-up of a footballer without any trophy'];
 const CUP_O_MIN = 0.75;
 const CUP_B_MIN = 0.55;
+const CUP_C_MIN = 0.15; // فحص ثالث: كأس واضح مقابل احتفال/لاعب بلا كأس (يستبعد صور العناق والرقص بلا كأس)
 async function cupScore(url) {
   const ck = 'b16c|' + url;
   if (Object.prototype.hasOwnProperty.call(cupCache, ck)) return cupCache[ck];
@@ -600,7 +601,7 @@ async function riyadiyahPhoto(l, maxPages = 70) {
     }
     // 2) إن تعذّر النموذج كلياً: نرجع لفحص الوصف النصي فقط
     const f = clipOk
-      ? scored.filter(({ sc }) => sc && sc.o >= CUP_O_MIN && sc.b >= CUP_B_MIN).sort((a, b) => b.sc.o + b.sc.b - (a.sc.o + a.sc.b)).map((o) => o.x)
+      ? scored.filter(({ sc }) => sc && sc.o >= CUP_O_MIN && sc.b >= CUP_B_MIN && sc.c >= CUP_C_MIN).sort((a, b) => b.sc.o + b.sc.b - (a.sc.o + a.sc.b)).map((o) => o.x)
       : c.all.filter(trophy);
     debug.push(`cup scores ${c.id}: ` + scored.map((o) => (o.sc === null ? 'x' : (o.x.url.match(/_([0-9a-f]+)\.\w+$/) || [])[1] + '=' + o.sc.o + '/' + o.sc.b + '/' + o.sc.c)).join(' ') + ` -> kept ${f.length}`);
     // نجمع الصور المقبولة من كل مقالات التتويج في النافذة (لا نقف عند أول مقال)، وصور أفضل مقال أولاً
