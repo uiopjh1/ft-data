@@ -621,7 +621,8 @@ if (process.env.TEST_PHOTO) {
     const p = prev.find((x) => x.id === tid && Math.abs(x.when - when) < 2 * 86400e3) || {};
     const ph = await riyadiyahPhoto({ id: tid, when });
     items.push({ id: tid, label: p.label || '', when, opp: p.opp || '', score: p.score || '', pts: p.pts || 0, photo: ph });
-    console.log('TEST_RESULT ' + JSON.stringify({ club: teams[tid] && teams[tid].name, photo: ph }));
+    console.log('TEST_RESULT ' + JSON.stringify({ club: teams[tid] && teams[tid].name, photo: ph, debug: debug.filter((d) => /^(cup scores|picked|no trophy|cand )/.test(d)) }));
+    debug.length = 0;
   }
   writeFileSync('photo_test.json', JSON.stringify({ updated: Date.now(), items }));
   process.exit(0);
