@@ -201,7 +201,9 @@ for (let py = Math.max(Math.min(asOfYear + 1, y - 1), y - 4); py <= y - 1; py++)
       }
     })
   );
-  const ranked = Object.keys(pts).filter((id) => played[id] >= 34).sort((a, b) => pts[b] - pts[a]);
+  // بطل الدوري يُحسب فقط إن لعب موسماً كاملاً: نقارنه بأكثر عدد مباريات لعبه ناديٌ في الدوري (لا رقم ثابت، يصلح لـ18 أو 20 نادياً)
+  const maxPlayed = Math.max(0, ...Object.values(played));
+  const ranked = Object.keys(pts).filter((id) => maxPlayed >= 10 && played[id] >= maxPlayed).sort((a, b) => pts[b] - pts[a]);
   if (ranked.length && (ranked.length === 1 || pts[ranked[0]] > pts[ranked[1]]) && lastLeague[ranked[0]]) {
     prev.push({ id: ranked[0], label: 'دوري روشن', when: lastLeague[ranked[0]], pts: pts[ranked[0]] });
   }
