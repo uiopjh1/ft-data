@@ -45,7 +45,7 @@ for (const t of teams) {
     if (e.loan_to) continue; // معار لنادٍ آخر: ليس في هذا الفريق حالياً
     if (!name) continue;
     const js = JSON.stringify(e);
-    const urls = (js.match(/https?:\\?\/\\?\/assets\.laliga\.com\\?\/squad\\?\/[^"\\]+_001_000\.png/g) || []).map((u) => u.replace(/\\\//g, '/'));
+    const urls = (js.match(/https?:\\?\/\\?\/assets\.laliga\.com\\?\/squad\\?\/[^"\\]+_001_000\.png/g) || []).map((u) => u.replace(/\\\//g, '/')).filter((u) => u.includes('/squad/' + season + '/')); // موسم الدوري الحالي فقط (لا نلتقط صوراً من موسم سابق)
     let img = urls.find((u) => /\/1024x1113\//.test(u)) || (urls[0] && urls[0].replace(/\/\d+x\d+\//, '/1024x1113/')) || ''; // 1024x1113 للتكبير (القوائم تستعمل النسخة المصغّرة)
     if (!img) { noImg.push(t.slug + ':' + name); continue; }
     const alt = [...new Set([p.name, [p.firstname, p.lastname].filter(Boolean).join(' '), [p.firstname, p.nickname].filter(Boolean).join(' '), [p.firstname, String(p.lastname || '').split(' ')[0]].filter(Boolean).join(' ')].filter((x) => x && x !== name))];

@@ -42,7 +42,9 @@ for (const t of teams) {
 console.log('players', players.length);
 // صور الموسم الأحدث: نجرب مجلدات أحدث (premierleague26 ثم premierleague25) لكل لاعب، وإن لم تتوفر نبقى على المجلد المعتاد
 {
-  const NEWER = ['premierleague26', 'premierleague25'];
+  // مجلد الموسم الحالي فقط (مثال: 2026/2027 ← premierleague26). لا نلتقط مجلدات مواسم سابقة أبداً
+  const ym = String(season.label || '').match(/(\d{4})\s*\/\s*(\d{4})/);
+  const NEWER = ym ? ['premierleague' + ym[1].slice(2)] : [];
   const okImg = async (u) => {
     try {
       const r = await fetch(u, { headers: { 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(15000) });
