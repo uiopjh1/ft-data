@@ -1,5 +1,7 @@
 أحمد النفيسة {'cands': 0, 'clusters': [], 'ok': False}
+أحمد سوكو {'cands': 0, 'clusters': [], 'ok': False}
 أنيس السحباني {'cands': 0, 'clusters': [], 'ok': False}
+بكر علوان {'cands': 0, 'clusters': [], 'ok': False}
 بلال علام {'cands': 3, 'clusters': [['zamalektoday.com'], ['deezer.com']], 'ok': False}
 حازم عبد السلام {'cands': 0, 'clusters': [], 'ok': False}
 زياد الدكروري {'cands': 0, 'clusters': [], 'ok': False}
@@ -15,7 +17,6 @@
 عصام عبده {'cands': 3, 'clusters': [['ar.m.wikipedia.org']], 'ok': False}
 فهد عريشي {'cands': 0, 'clusters': [], 'ok': False}
 ماهر المصطفى {'cands': 0, 'clusters': [], 'ok': False}
-محمد السعدي {'cands': 10, 'clusters': [['elwatannews.com', 'gate.ahram.org.eg'], ['alantologia.com'], ['sa24.co']], 'ok': True}
 محمد مصباح {'cands': 0, 'clusters': [], 'ok': False}
 محمد نضال {'cands': 0, 'clusters': [], 'ok': False}
 مصطفى العلوان {'cands': 0, 'clusters': [], 'ok': False}

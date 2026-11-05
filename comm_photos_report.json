@@ -4,7 +4,17 @@
   "clusters": [],
   "ok": false
  },
+ "أحمد سوكو": {
+  "cands": 0,
+  "clusters": [],
+  "ok": false
+ },
  "أنيس السحباني": {
+  "cands": 0,
+  "clusters": [],
+  "ok": false
+ },
+ "بكر علوان": {
   "cands": 0,
   "clusters": [],
   "ok": false
@@ -109,22 +119,6 @@
   "cands": 0,
   "clusters": [],
   "ok": false
- },
- "محمد السعدي": {
-  "cands": 10,
-  "clusters": [
-   [
-    "elwatannews.com",
-    "gate.ahram.org.eg"
-   ],
-   [
-    "alantologia.com"
-   ],
-   [
-    "sa24.co"
-   ]
-  ],
-  "ok": true
  },
  "محمد مصباح": {
   "cands": 0,
