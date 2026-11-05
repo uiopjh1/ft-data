@@ -1,12 +1,11 @@
 {
- "t": "2026-11-05T08:21:05.945558",
+ "t": "2026-11-05T16:42:32.990360",
  "seen": [
   {
    "club": "Al Ahli",
    "type": "sack",
-   "n": 3,
+   "n": 2,
    "hosts": [
-    "arriyadiyah.com",
     "slaati.com",
     "goal.com"
    ]
@@ -54,6 +53,14 @@
    ]
   },
   {
+   "club": "Sunderland",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "sports.yahoo.com"
+   ]
+  },
+  {
    "club": "Espanyol",
    "type": "hire",
    "n": 1,
@@ -64,13 +71,14 @@
   {
    "club": "Udinese",
    "type": "sack",
-   "n": 8,
+   "n": 9,
    "hosts": [
     "sportmediaset.mediaset.it",
     "dazn.com",
     "corrieredellosport.it",
     "goal.com",
     "sport.sky.it",
+    "calciomercato.com",
     "football-italia.net",
     "repubblica.it",
     "sports.yahoo.com"
@@ -113,6 +121,14 @@
    ]
   },
   {
+   "club": "Sunderland",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "sports.yahoo.com"
+   ]
+  },
+  {
    "club": "Espanyol",
    "type": "hire",
    "n": 1,
@@ -123,13 +139,14 @@
   {
    "club": "Udinese",
    "type": "sack",
-   "n": 8,
+   "n": 9,
    "hosts": [
     "sportmediaset.mediaset.it",
     "dazn.com",
     "corrieredellosport.it",
     "goal.com",
     "sport.sky.it",
+    "calciomercato.com",
     "football-italia.net",
     "repubblica.it",
     "sports.yahoo.com"
