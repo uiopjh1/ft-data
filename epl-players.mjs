@@ -40,5 +40,28 @@ for (const t of teams) {
   await sleep(300);
 }
 console.log('players', players.length);
+// صور الموسم الأحدث: نجرب مجلدات أحدث (premierleague26 ثم premierleague25) لكل لاعب، وإن لم تتوفر نبقى على المجلد المعتاد
+{
+  const NEWER = ['premierleague26', 'premierleague25'];
+  const okImg = async (u) => {
+    try {
+      const r = await fetch(u, { headers: { 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(15000) });
+      return r.ok && /^image\//.test(r.headers.get('content-type') || '') && Number(r.headers.get('content-length') || 1000) > 3000;
+    } catch (e) { return false; }
+  };
+  let upgraded = 0;
+  const queue = players.slice();
+  const worker = async () => {
+    while (queue.length) {
+      const p = queue.shift();
+      for (const d of NEWER) {
+        const u = p.img.replace('/premierleague/', '/' + d + '/');
+        if (await okImg(u)) { p.img = u; upgraded++; break; }
+      }
+    }
+  };
+  await Promise.all(Array.from({ length: 8 }, worker));
+  console.log('newer-folder photos', upgraded);
+}
 if (teams.length < 15 || players.length < 400) { console.log('too few, not writing'); process.exit(1); }
 writeFileSync('epl_players.json', JSON.stringify({ updated: new Date().toISOString(), season: season.label, teams: teams.map((t) => ({ slug: slug(t.name), en: t.name, ar: '', n: players.filter((p) => p.teamEn === t.name).length })), players }));
