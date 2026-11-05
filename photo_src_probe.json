@@ -1,0 +1,114 @@
+[
+ {
+  "n": "Abdoulaye Toure",
+  "espnStatus": 200,
+  "espn": [
+   {
+    "name": "Mbaye Abdoulaye Toure",
+    "id": "s:600~a:272144"
+   },
+   {
+    "name": "Abdoulaye Touré",
+    "sub": "Le Havre AC",
+    "id": "s:600~a:185685"
+   }
+  ],
+  "tmStatus": 202,
+  "tm": []
+ },
+ {
+  "n": "Ramon Mierez",
+  "espnStatus": 200,
+  "espn": [
+   {
+    "name": "Ramón Mierez",
+    "sub": "Osijek",
+    "id": "s:600~a:235162"
+   }
+  ],
+  "tmStatus": 202,
+  "tm": []
+ },
+ {
+  "n": "Victor Henrique",
+  "espnStatus": 200,
+  "espn": [
+   {
+    "name": "Victor Henrique Cardoso Santos",
+    "id": "s:600~a:3127991"
+   },
+   {
+    "name": "Víctor Henríquez",
+    "sub": "Magallanes",
+    "id": "s:600~a:258597"
+   }
+  ],
+  "tmStatus": 202,
+  "tm": []
+ },
+ {
+  "n": "Alexandre Lacazette",
+  "espnStatus": 200,
+  "espn": [
+   {
+    "name": "Alexandre Lacazette",
+    "sub": "France U23",
+    "id": "s:600~a:131752"
+   }
+  ],
+  "tmStatus": 202,
+  "tm": []
+ },
+ {
+  "n": "Said Benrahma",
+  "espnStatus": 200,
+  "espn": [
+   {
+    "name": "Saïd Benrahma",
+    "sub": "Algeria",
+    "id": "s:600~a:194543"
+   }
+  ],
+  "tmStatus": 202,
+  "tm": []
+ },
+ {
+  "n": "Kwame Bonsu",
+  "espnStatus": 200,
+  "espn": [
+   {
+    "name": "Kwame Bonsu",
+    "sub": "Asante Kotoko",
+    "id": "s:600~a:203268"
+   }
+  ],
+  "tmStatus": 202,
+  "tm": []
+ },
+ {
+  "n": "Ali Hasan Saeed Isa",
+  "espnStatus": 200,
+  "espn": [
+   {
+    "name": "Ali Hasan Saeed Isa",
+    "sub": "Al-Riffa",
+    "id": "s:600~a:340787"
+   }
+  ],
+  "tmStatus": 202,
+  "tm": []
+ },
+ {
+  "n": "Valentin Vada",
+  "espnStatus": 200,
+  "espn": [
+   {
+    "name": "Valentin Vada",
+    "sub": "Neom SC",
+    "id": "s:600~a:211667"
+   }
+  ],
+  "tmStatus": 202,
+  "tm": []
+ }
+]
