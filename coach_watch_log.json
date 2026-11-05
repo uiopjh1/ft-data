@@ -1,5 +1,5 @@
 {
- "t": "2026-11-04T20:53:25.514362",
+ "t": "2026-11-05T01:24:29.837811",
  "seen": [
   {
    "club": "Al Ahli",
@@ -48,17 +48,9 @@
    "type": "sack",
    "n": 3,
    "hosts": [
-    "standard.co.uk",
     "mirror.co.uk",
-    "uk.sports.yahoo.com"
-   ]
-  },
-  {
-   "club": "Sunderland",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "sports.yahoo.com"
+    "uk.sports.yahoo.com",
+    "standard.co.uk"
    ]
   },
   {
@@ -82,11 +74,11 @@
    "type": "sack",
    "n": 8,
    "hosts": [
-    "sport.sky.it",
     "sportmediaset.mediaset.it",
     "dazn.com",
     "corrieredellosport.it",
     "goal.com",
+    "sport.sky.it",
     "football-italia.net",
     "sports.yahoo.com",
     "repubblica.it"
@@ -123,17 +115,9 @@
    "type": "sack",
    "n": 3,
    "hosts": [
-    "standard.co.uk",
     "mirror.co.uk",
-    "uk.sports.yahoo.com"
-   ]
-  },
-  {
-   "club": "Sunderland",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "sports.yahoo.com"
+    "uk.sports.yahoo.com",
+    "standard.co.uk"
    ]
   },
   {
@@ -157,11 +141,11 @@
    "type": "sack",
    "n": 8,
    "hosts": [
-    "sport.sky.it",
     "sportmediaset.mediaset.it",
     "dazn.com",
     "corrieredellosport.it",
     "goal.com",
+    "sport.sky.it",
     "football-italia.net",
     "sports.yahoo.com",
     "repubblica.it"
