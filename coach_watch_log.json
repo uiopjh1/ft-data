@@ -1,5 +1,5 @@
 {
- "t": "2026-11-05T16:42:32.990360",
+ "t": "2026-11-05T22:37:44.193364",
  "seen": [
   {
    "club": "Al Ahli",
@@ -45,11 +45,10 @@
   {
    "club": "Manchester United",
    "type": "sack",
-   "n": 3,
+   "n": 2,
    "hosts": [
-    "mirror.co.uk",
-    "standard.co.uk",
-    "uk.sports.yahoo.com"
+    "uk.sports.yahoo.com",
+    "standard.co.uk"
    ]
   },
   {
@@ -69,35 +68,11 @@
    ]
   },
   {
-   "club": "Udinese",
-   "type": "sack",
-   "n": 9,
-   "hosts": [
-    "sportmediaset.mediaset.it",
-    "dazn.com",
-    "corrieredellosport.it",
-    "goal.com",
-    "sport.sky.it",
-    "calciomercato.com",
-    "football-italia.net",
-    "repubblica.it",
-    "sports.yahoo.com"
-   ]
-  },
-  {
    "club": "Napoli",
    "type": "sack",
    "n": 1,
    "hosts": [
     "calciomercato.com"
-   ]
-  },
-  {
-   "club": "Udinese",
-   "type": "hire",
-   "n": 1,
-   "hosts": [
-    "football-italia.net"
    ]
   },
   {
@@ -113,11 +88,10 @@
   {
    "club": "Manchester United",
    "type": "sack",
-   "n": 3,
+   "n": 2,
    "hosts": [
-    "mirror.co.uk",
-    "standard.co.uk",
-    "uk.sports.yahoo.com"
+    "uk.sports.yahoo.com",
+    "standard.co.uk"
    ]
   },
   {
@@ -137,35 +111,11 @@
    ]
   },
   {
-   "club": "Udinese",
-   "type": "sack",
-   "n": 9,
-   "hosts": [
-    "sportmediaset.mediaset.it",
-    "dazn.com",
-    "corrieredellosport.it",
-    "goal.com",
-    "sport.sky.it",
-    "calciomercato.com",
-    "football-italia.net",
-    "repubblica.it",
-    "sports.yahoo.com"
-   ]
-  },
-  {
    "club": "Napoli",
    "type": "sack",
    "n": 1,
    "hosts": [
     "calciomercato.com"
-   ]
-  },
-  {
-   "club": "Udinese",
-   "type": "hire",
-   "n": 1,
-   "hosts": [
-    "football-italia.net"
    ]
   },
   {
