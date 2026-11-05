@@ -9,21 +9,9 @@ function dims(b) {
 }
 async function img(u) { try { const r = await fetch(u, { headers: UA, signal: AbortSignal.timeout(20000) }); const b = Buffer.from(await r.arrayBuffer()); return r.status + ' ' + b.length + 'B ' + (r.ok ? dims(b) : '') + ' ' + (r.headers.get('content-type') || ''); } catch (e) { return 'err ' + e.message; } }
 const out = [];
-for (const n of ['Abdoulaye Toure', 'Lacazette', 'Cristiano Ronaldo']) {
-  const row = { n };
-  try {
-    const r = await fetch('https://api.sofascore.com/api/v1/search/all?q=' + encodeURIComponent(n), { headers: UA });
-    row.searchStatus = r.status;
-    if (r.ok) {
-      const j = await r.json();
-      const p = ((j.results || []).filter((x) => x.type === 'player')[0] || {}).entity;
-      if (p) {
-        row.id = p.id; row.name = p.name;
-        row.imgs = {};
-        for (const base of ['https://api.sofascore.app/api/v1/player/', 'https://api.sofascore.com/api/v1/player/', 'https://img.sofascore.com/api/v1/player/']) row.imgs[base] = await img(base + p.id + '/image');
-      }
-    }
-  } catch (e) { row.err = e.message; }
+for (const id of [750, 1441638]) {
+  const row = { id, imgs: {} };
+  for (const base of ['https://api.sofascore.app/api/v1/player/', 'https://api.sofascore.com/api/v1/player/', 'https://img.sofascore.com/api/v1/player/']) row.imgs[base] = await img(base + id + '/image');
   out.push(row);
 }
 fs.writeFileSync('sofa_img_probe.json', JSON.stringify(out, null, 1));
