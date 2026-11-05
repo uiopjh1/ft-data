@@ -1,5 +1,5 @@
 {
- "t": "2026-11-05T01:24:29.837811",
+ "t": "2026-11-05T08:21:05.945558",
  "seen": [
   {
    "club": "Al Ahli",
@@ -49,15 +49,7 @@
    "n": 3,
    "hosts": [
     "mirror.co.uk",
-    "uk.sports.yahoo.com",
-    "standard.co.uk"
-   ]
-  },
-  {
-   "club": "Nottingham Forest",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
+    "standard.co.uk",
     "uk.sports.yahoo.com"
    ]
   },
@@ -80,8 +72,8 @@
     "goal.com",
     "sport.sky.it",
     "football-italia.net",
-    "sports.yahoo.com",
-    "repubblica.it"
+    "repubblica.it",
+    "sports.yahoo.com"
    ]
   },
   {
@@ -116,15 +108,7 @@
    "n": 3,
    "hosts": [
     "mirror.co.uk",
-    "uk.sports.yahoo.com",
-    "standard.co.uk"
-   ]
-  },
-  {
-   "club": "Nottingham Forest",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
+    "standard.co.uk",
     "uk.sports.yahoo.com"
    ]
   },
@@ -147,8 +131,8 @@
     "goal.com",
     "sport.sky.it",
     "football-italia.net",
-    "sports.yahoo.com",
-    "repubblica.it"
+    "repubblica.it",
+    "sports.yahoo.com"
    ]
   },
   {
