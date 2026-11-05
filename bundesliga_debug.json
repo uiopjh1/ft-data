@@ -21,6 +21,6 @@
   "sc-paderborn-07"
  ],
  "sample": "{\"externalPersonIds\":{\"dflDatalibraryPersonId\":\"DFL-OBJ-0027KL\"},\"id\":\"DFL-OBJ-0027KL\",\"lastUpdate\":null,\"name\":{\"alias\":\"Dayot Upamecano\",\"first\":\"Dayotchanculle Oswald\",\"full\":\"Dayotchanculle Oswald Upamecano\",\"last\":\"Upamecano\",\"shortName\":null,\"slugifiedFull\":\"dayot-upamecano\",\"slugifiedShort\":\"dayot-upamecano\"},\"nationality\":{\"firstNationality\":\"French\",\"firstNationalityCode\":\"FR\",\"secondNationality\":\"Guinea-Bissau\",\"secondNationalityCode\":null,\"thirdNationality\":null,\"thirdNationalityCode\":null},\"playerImages\":{\"FACE_CIRCLE\":\"https://assets.bundesliga.com/player/dfl-obj-0027kl-dfl-clu-00000g-dfl-sea-0001ka-circle.png\"},\"shirtNumber\":\"2\"}",
- "playersN": 554,
+ "playersN": 556,
  "teamsN": 18
 }
