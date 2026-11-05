@@ -1,14 +1,18 @@
 [
  {
-  "n": "Abdoulaye Toure",
-  "searchStatus": 403
+  "id": 750,
+  "imgs": {
+   "https://api.sofascore.app/api/v1/player/": "403 48B  application/json",
+   "https://api.sofascore.com/api/v1/player/": "403 48B  application/json",
+   "https://img.sofascore.com/api/v1/player/": "200 3420B webp image/webp"
+  }
  },
  {
-  "n": "Lacazette",
-  "searchStatus": 403
- },
- {
-  "n": "Cristiano Ronaldo",
-  "searchStatus": 403
+  "id": 1441638,
+  "imgs": {
+   "https://api.sofascore.app/api/v1/player/": "403 48B  application/json",
+   "https://api.sofascore.com/api/v1/player/": "403 48B  application/json",
+   "https://img.sofascore.com/api/v1/player/": "404 44B  application/json"
+  }
  }
 ]
