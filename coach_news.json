@@ -1,5 +1,5 @@
 {
- "updated": 1793964260252,
+ "updated": 1793989103541,
  "items": [
   {
    "club": "Al Ahli",
@@ -28,7 +28,7 @@
    "club": "Manchester United",
    "club_ar": "",
    "type": "sack",
-   "first": "2026-11-03T11:55:14",
+   "first": "2026-11-04T09:26:28",
    "sources": [
     {
      "host": "uk.sports.yahoo.com",
@@ -36,14 +36,27 @@
      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPejA0SXZUbFNWYlF4b0g1b3JOV1JDVFhQbTBqZzk5Sk5mVDJTWXJsZmlvYkN1d0xqbVpsOFhzVGZmdy1CaHo4NW9hbzRJZXRmM0djU0owa2lrby1vLW9KcGNVMTdJNHMyNWtNNVNIOWctSjU0cFNkMDhGTDJFNEhBVW55c0ZWWWlu?oc=5"
     },
     {
-     "host": "standard.co.uk",
-     "title": "Man Utd given Emery approval amid new Carrick sack decision - London Evening Standard",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTUtJbklxb0YxNzdld1Q1c19JeHZicFZ5Vlo3UXcySlZCZVdHOE9aa3EwQWxYZkdXVlhwcnVhRWpmQVZhSi1oa25rMmxUTTJkdnp3c21FZkF4all0ZUZoZGhJb1l2WHVUZml2cUpnYktVSTYzTkEtR2hSM0p0alBVa0x5WDdvZGJnaTJjNWVLT2k5bGVrTWJiWEJURzFvMmhoaXc?oc=5"
-    },
-    {
      "host": "sports.yahoo.com",
      "title": "Manchester United co-owners INEOS sack manager as official statement released - Yahoo Sports",
      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOTdocmVQd2Q4V2cybjEwUTBEdnd4N3U3Z3BtU0psbnlPSWdsOVhMSGxJS3pXdmR6Skx4QktNel9VTDB3Z2tqMDV1SWFIZzNGTWxTdEF4VzBCQ2NZUUZ4X21aRUxBU0JiUGtGRi1SMTJnVTFaaDcwOFZZU3dCT2NkLXNTbnFJak9zblE?oc=5"
+    }
+   ]
+  },
+  {
+   "club": "Le Havre AC",
+   "club_ar": "",
+   "type": "hire",
+   "first": "2026-11-04T17:12:33",
+   "sources": [
+    {
+     "host": "footmercato.net",
+     "title": "Le Havre : un nouvel entraîneur espéré pour le 21 ou 22 novembre - Foot Mercato",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUzdJNW4tNzRhSmNKZ04yTmRaakpNSHRxZUhXQ3VhUEJyLVZoZ3dkdWZEZEdGSXZVX09ZQS0wQlUwQWdLUF9DQ29NRjVjXzBDVUZ6amxCbEx1cWlEblRscFE3R0tLOFFzcEowbUF0ZllDZUd6SkJ1T0UzcFlFMlVNMUtfbEdZVG1sa3QydXRncWpWeUxaSjUzNkRqRU5NQTdjUG1RaVJkUE9wU0VTaERGZg?oc=5"
+    },
+    {
+     "host": "lequipe.fr",
+     "title": "Le Havre devrait nommer son entraîneur la semaine prochaine - L'Équipe",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYjh1RHlqUHc3OW5fcDhlXzNTa2l6RkY0UmNYbHVpcGlNbFJ6STl3RlNsb2VLSzRua2RqMWVydGRnZkZXWXMtWHRIUU8tN21nZkJ3SGxaaTIyVnNyb3Ftal8xOVBhNXVTam1JcHBFYkEwOHpaTnJJUm83VjZnNW1tdEdqcUVxejhMbmNRV0tJYmtZN3ZMU003cWZ0emhzOEc5MVlYMlczQ1U2bkt4Y3d3?oc=5"
     }
    ]
   }
