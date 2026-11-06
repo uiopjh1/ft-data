@@ -1,5 +1,5 @@
 {
- "t": "2026-11-06T03:18:36.227729",
+ "t": "2026-11-06T11:23:35.879486",
  "seen": [
   {
    "club": "Al Ahli",
@@ -7,16 +7,8 @@
    "n": 3,
    "hosts": [
     "eremnews.com",
-    "slaati.com",
-    "goal.com"
-   ]
-  },
-  {
-   "club": "Al Ittihad",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "akhbaar24.com"
+    "goal.com",
+    "slaati.com"
    ]
   },
   {
@@ -28,19 +20,20 @@
    ]
   },
   {
-   "club": "Manchester United",
-   "type": "sack",
-   "n": 2,
-   "hosts": [
-    "standard.co.uk",
-    "uk.sports.yahoo.com"
-   ]
-  },
-  {
    "club": "Sunderland",
    "type": "sack",
    "n": 1,
    "hosts": [
+    "sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Manchester United",
+   "type": "sack",
+   "n": 3,
+   "hosts": [
+    "uk.sports.yahoo.com",
+    "standard.co.uk",
     "sports.yahoo.com"
    ]
   },
@@ -50,14 +43,6 @@
    "n": 1,
    "hosts": [
     "amp.sport.es"
-   ]
-  },
-  {
-   "club": "Napoli",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "calciomercato.com"
    ]
   },
   {
@@ -71,19 +56,20 @@
  ],
  "eu": [
   {
-   "club": "Manchester United",
-   "type": "sack",
-   "n": 2,
-   "hosts": [
-    "standard.co.uk",
-    "uk.sports.yahoo.com"
-   ]
-  },
-  {
    "club": "Sunderland",
    "type": "sack",
    "n": 1,
    "hosts": [
+    "sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Manchester United",
+   "type": "sack",
+   "n": 3,
+   "hosts": [
+    "uk.sports.yahoo.com",
+    "standard.co.uk",
     "sports.yahoo.com"
    ]
   },
@@ -93,14 +79,6 @@
    "n": 1,
    "hosts": [
     "amp.sport.es"
-   ]
-  },
-  {
-   "club": "Napoli",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "calciomercato.com"
    ]
   },
   {

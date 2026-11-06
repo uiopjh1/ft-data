@@ -1,5 +1,5 @@
 {
- "updated": 1793935168281,
+ "updated": 1793964260252,
  "items": [
   {
    "club": "Al Ahli",
@@ -13,14 +13,14 @@
      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE45WmNjWkl2ZC1GbkFtZExvOXYtTi1VdDl3RXFaaVd6enBGS3drZzdGVGFmRlJNQmZlb0tYR3ZvQV9xUWdyRUdseWlfQXhVcWxh?oc=5"
     },
     {
-     "host": "slaati.com",
-     "title": "الصائغ : كان من المفترض إقالة مدرب الأهلي مباشرة بعد السداسية ..فيديو - صحيفة صدى الالكترونية",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBKNldxczNienRYNWJwNzl2N3ZybzV0NEtraDlSc1QzRUQtYVNwaFBhaV9pUVJTSllTNzNLNUlsbno0OTVadWVhN0pNUURSN1JHMmk0QWlB?oc=5"
-    },
-    {
      "host": "goal.com",
      "title": "الأهلي السعودي يقيل المدرب الآيسلندي ثور أرناسون - Goal.com",
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNblJLTkM0NUI0V0N0cU5GcHpaOVZfeUtNNEViZWFCVXNlQVk1YWtTUmJyakhZTU1VU1VTclVRY3h0VGtPWVpsZWlBUTNWMFk2alprZHV1MzNtY2FjTWZ1TDVPWkg4bU1zWWtKWUl0SkhoUHhoQlJmU2h6bk40RnM3OE0zcGxTY3h5cEtyYVZ0UVVJQ0Q3UTNWTFJUTWhtamNVRk5OYkdsTHRpZTR2eXQwMk44U1B5dHdiMTJQU2RuOA?oc=5"
+    },
+    {
+     "host": "slaati.com",
+     "title": "الصائغ : كان من المفترض إقالة مدرب الأهلي مباشرة بعد السداسية ..فيديو - صحيفة صدى الالكترونية",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBKNldxczNienRYNWJwNzl2N3ZybzV0NEtraDlSc1QzRUQtYVNwaFBhaV9pUVJTSllTNzNLNUlsbno0OTVadWVhN0pNUURSN1JHMmk0QWlB?oc=5"
     }
    ]
   },
@@ -31,14 +31,19 @@
    "first": "2026-11-03T11:55:14",
    "sources": [
     {
+     "host": "uk.sports.yahoo.com",
+     "title": "Manchester United co-owners INEOS sack manager as official statement released - Yahoo",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPejA0SXZUbFNWYlF4b0g1b3JOV1JDVFhQbTBqZzk5Sk5mVDJTWXJsZmlvYkN1d0xqbVpsOFhzVGZmdy1CaHo4NW9hbzRJZXRmM0djU0owa2lrby1vLW9KcGNVMTdJNHMyNWtNNVNIOWctSjU0cFNkMDhGTDJFNEhBVW55c0ZWWWlu?oc=5"
+    },
+    {
      "host": "standard.co.uk",
      "title": "Man Utd given Emery approval amid new Carrick sack decision - London Evening Standard",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTUtJbklxb0YxNzdld1Q1c19JeHZicFZ5Vlo3UXcySlZCZVdHOE9aa3EwQWxYZkdXVlhwcnVhRWpmQVZhSi1oa25rMmxUTTJkdnp3c21FZkF4all0ZUZoZGhJb1l2WHVUZml2cUpnYktVSTYzTkEtR2hSM0p0alBVa0x5WDdvZGJnaTJjNWVLT2k5bGVrTWJiWEJURzFvMmhoaXc?oc=5"
     },
     {
-     "host": "uk.sports.yahoo.com",
-     "title": "Manchester United co-owners INEOS sack manager as official statement released - Yahoo",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPejA0SXZUbFNWYlF4b0g1b3JOV1JDVFhQbTBqZzk5Sk5mVDJTWXJsZmlvYkN1d0xqbVpsOFhzVGZmdy1CaHo4NW9hbzRJZXRmM0djU0owa2lrby1vLW9KcGNVMTdJNHMyNWtNNVNIOWctSjU0cFNkMDhGTDJFNEhBVW55c0ZWWWlu?oc=5"
+     "host": "sports.yahoo.com",
+     "title": "Manchester United co-owners INEOS sack manager as official statement released - Yahoo Sports",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOTdocmVQd2Q4V2cybjEwUTBEdnd4N3U3Z3BtU0psbnlPSWdsOVhMSGxJS3pXdmR6Skx4QktNel9VTDB3Z2tqMDV1SWFIZzNGTWxTdEF4VzBCQ2NZUUZ4X21aRUxBU0JiUGtGRi1SMTJnVTFaaDcwOFZZU3dCT2NkLXNTbnFJak9zblE?oc=5"
     }
    ]
   }
