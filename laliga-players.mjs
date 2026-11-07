@@ -57,5 +57,30 @@ for (const t of teams) {
 }
 console.log('players', players.length, 'noImg', noImg.length);
 DBG.sample = sample; DBG.noImg = noImg.slice(0, 40); DBG.playersN = players.length; flush();
+// صور الظل الافتراضية: صورة مطابقة بايتاً لأكثر من لاعب في نفس الفريق = ليست صورة لاعب حقيقية
+import { createHash } from 'node:crypto';
+const hashOf = async (u) => {
+  for (let i = 0; i < 3; i++) {
+    try {
+      const r = await fetch(u, { headers: H });
+      if (r.ok) return createHash('sha1').update(Buffer.from(await r.arrayBuffer())).digest('hex');
+    } catch (e) { /* إعادة */ }
+    await sleep(800);
+  }
+  return null;
+};
+const hs = new Array(players.length).fill(null);
+let hi = 0;
+await Promise.all(Array.from({ length: 8 }, async () => {
+  while (hi < players.length) { const i = hi++; hs[i] = await hashOf(players[i].img); }
+}));
+const cnt = {};
+players.forEach((p, i) => { if (hs[i]) { const k = p.team + ':' + hs[i]; cnt[k] = (cnt[k] || 0) + 1; } });
+const dropped = [];
+for (let i = players.length - 1; i >= 0; i--) {
+  if (hs[i] && cnt[players[i].team + ':' + hs[i]] >= 2) { dropped.push(players[i].team + ':' + players[i].en); players.splice(i, 1); }
+}
+console.log('silhouettes dropped', dropped.length, dropped.slice(0, 60).join(', '));
+DBG.silhouettes = dropped; flush();
 if (players.length < 300) { console.log('too few, not writing'); process.exit(1); }
 writeFileSync('laliga_players.json', JSON.stringify({ updated: new Date().toISOString(), season: sub, teams: teams.map((t) => ({ slug: t.slug, en: t.nickname || t.name, ar: '', n: players.filter((p) => p.team === t.slug).length })), players }));
