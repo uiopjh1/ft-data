@@ -47,7 +47,7 @@ for (const t of teams) {
     const js = JSON.stringify(e);
     const urls = (js.match(/https?:\\?\/\\?\/assets\.laliga\.com\\?\/squad\\?\/[^"\\]+_001_000\.png/g) || []).map((u) => u.replace(/\\\//g, '/')).filter((u) => u.includes('/squad/' + season + '/')); // موسم الدوري الحالي فقط (لا نلتقط صوراً من موسم سابق)
     let img = urls.find((u) => /\/1024x1113\//.test(u)) || (urls[0] && urls[0].replace(/\/\d+x\d+\//, '/1024x1113/')) || ''; // 1024x1113 للتكبير (القوائم تستعمل النسخة المصغّرة)
-    if (!img) { noImg.push(t.slug + ':' + name); continue; }
+    if (!img || /\/default\//.test(img)) { noImg.push(t.slug + ':' + name); continue; }
     const alt = [...new Set([p.name, [p.firstname, p.lastname].filter(Boolean).join(' '), [p.firstname, p.nickname].filter(Boolean).join(' '), [p.firstname, String(p.lastname || '').split(' ')[0]].filter(Boolean).join(' ')].filter((x) => x && x !== name))];
     players.push({ slug: slug(name), en: name, alt, ar: '', team: t.slug, teamEn: t.nickname || t.name, img });
     n++;
