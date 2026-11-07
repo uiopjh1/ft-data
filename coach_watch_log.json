@@ -1,8 +1,16 @@
 {
- "t": "2026-11-07T16:47:31.805142",
+ "t": "2026-11-07T20:44:12.382171",
  "seen": [
   {
    "club": "Al Ahli",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "slaati.com"
+   ]
+  },
+  {
+   "club": "Al Okhdood",
    "type": "sack",
    "n": 1,
    "hosts": [
@@ -28,9 +36,8 @@
   {
    "club": "Le Havre AC",
    "type": "hire",
-   "n": 2,
+   "n": 1,
    "hosts": [
-    "lequipe.fr",
     "footmercato.net"
    ]
   }
@@ -55,9 +62,8 @@
   {
    "club": "Le Havre AC",
    "type": "hire",
-   "n": 2,
+   "n": 1,
    "hosts": [
-    "lequipe.fr",
     "footmercato.net"
    ]
   }
