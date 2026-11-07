@@ -16,6 +16,7 @@
 عبدالله المحيسن {'cands': 3, 'clusters': [['alarabiya.net'], ['alriyadh.com']], 'ok': False}
 عصام عبده {'cands': 3, 'clusters': [['ar.m.wikipedia.org']], 'ok': False}
 فهد عريشي {'cands': 0, 'clusters': [], 'ok': False}
+مؤمن حسن {'cands': 0, 'clusters': [], 'ok': False}
 ماهر المصطفى {'cands': 0, 'clusters': [], 'ok': False}
 محمد الشاذلي {'cands': 0, 'clusters': [], 'ok': False}
 محمد الكواليني {'cands': 0, 'clusters': [], 'ok': False}
