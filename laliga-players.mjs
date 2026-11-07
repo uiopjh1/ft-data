@@ -82,5 +82,52 @@ for (let i = players.length - 1; i >= 0; i--) {
 }
 console.log('silhouettes dropped', dropped.length, dropped.slice(0, 60).join(', '));
 DBG.silhouettes = dropped; flush();
+// ظل افتراضي بدرجات بايتات مختلفة: نقارن شكل الصورة نفسه بصورة الفريق الافتراضية (شبكة 24×24 للإضاءة فوق خلفية بيضاء)
+let PNGlib = null;
+try { PNGlib = (await import('pngjs')).PNG; } catch (e) { DBG.pngjs = 'missing'; }
+if (PNGlib) {
+  const N = 24;
+  const gridOf = async (u) => {
+    for (let i = 0; i < 3; i++) {
+      try {
+        const r = await fetch(u, { headers: H });
+        if (!r.ok) { await sleep(500); continue; }
+        const png = PNGlib.sync.read(Buffer.from(await r.arrayBuffer()));
+        const g = new Array(N * N).fill(0); const c = new Array(N * N).fill(0);
+        for (let y = 0; y < png.height; y++) for (let x = 0; x < png.width; x++) {
+          const k = (y * png.width + x) * 4; const a = png.data[k + 3] / 255;
+          const lum = 0.299 * png.data[k] + 0.587 * png.data[k + 1] + 0.114 * png.data[k + 2];
+          const v = lum * a + 255 * (1 - a);
+          const gi = Math.floor(y / png.height * N) * N + Math.floor(x / png.width * N);
+          g[gi] += v; c[gi]++;
+        }
+        return g.map((s, i) => (c[i] ? s / c[i] : 255));
+      } catch (e) { await sleep(500); }
+    }
+    return null;
+  };
+  const defUrl = (u) => u.replace(/\/(?:p|man)\d+\/(\d+x\d+)\/(?:p|man)\d+_/, '/default/$1/default_');
+  const defs = {};
+  for (const p of players) { if (!defs[p.team]) { const du = defUrl(p.img); defs[p.team] = du !== p.img ? await gridOf(du) : null; } }
+  const dist = new Array(players.length).fill(null);
+  let vi = 0;
+  await Promise.all(Array.from({ length: 8 }, async () => {
+    while (vi < players.length) {
+      const i = vi++; const d0 = defs[players[i].team];
+      if (!d0) continue;
+      const g = await gridOf(players[i].img);
+      if (g) dist[i] = g.reduce((s, v, k) => s + Math.abs(v - d0[k]), 0) / g.length;
+    }
+  }));
+  const TH = 6;
+  const rep = players.map((p, i) => ({ n: p.team + ':' + p.en, d: dist[i] })).filter((x) => x.d != null).sort((a, b) => a.d - b.d);
+  DBG.nearest = rep.slice(0, 80).map((x) => x.n + '=' + x.d.toFixed(2));
+  const vdrop = [];
+  for (let i = players.length - 1; i >= 0; i--) {
+    if (dist[i] != null && dist[i] < TH) { vdrop.push(players[i].team + ':' + players[i].en + '=' + dist[i].toFixed(2)); players.splice(i, 1); }
+  }
+  DBG.visualDropped = vdrop; flush();
+  console.log('visual silhouettes dropped', vdrop.length, vdrop.join(', '));
+}
 if (players.length < 300) { console.log('too few, not writing'); process.exit(1); }
 writeFileSync('laliga_players.json', JSON.stringify({ updated: new Date().toISOString(), season: sub, teams: teams.map((t) => ({ slug: t.slug, en: t.nickname || t.name, ar: '', n: players.filter((p) => p.team === t.slug).length })), players }));
