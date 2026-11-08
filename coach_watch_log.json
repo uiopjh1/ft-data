@@ -1,5 +1,5 @@
 {
- "t": "2026-11-08T14:11:12.243512",
+ "t": "2026-11-08T18:59:01.452281",
  "seen": [
   {
    "club": "Al Ahli",
@@ -15,6 +15,22 @@
    "n": 1,
    "hosts": [
     "slaati.com"
+   ]
+  },
+  {
+   "club": "Al Riyadh",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "alarabiya.net"
+   ]
+  },
+  {
+   "club": "Manchester United",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "standard.co.uk"
    ]
   },
   {
@@ -35,6 +51,14 @@
   }
  ],
  "eu": [
+  {
+   "club": "Manchester United",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "standard.co.uk"
+   ]
+  },
   {
    "club": "Bayern Munich",
    "type": "sack",
