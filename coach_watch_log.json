@@ -1,5 +1,5 @@
 {
- "t": "2026-11-08T18:59:01.452281",
+ "t": "2026-11-08T22:47:29.279895",
  "seen": [
   {
    "club": "Al Ahli",
@@ -23,6 +23,14 @@
    "n": 1,
    "hosts": [
     "alarabiya.net"
+   ]
+  },
+  {
+   "club": "Crystal Palace",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "mirror.co.uk"
    ]
   },
   {
@@ -51,6 +59,14 @@
   }
  ],
  "eu": [
+  {
+   "club": "Crystal Palace",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "mirror.co.uk"
+   ]
+  },
   {
    "club": "Manchester United",
    "type": "sack",
