@@ -20,6 +20,7 @@
 ماهر المصطفى {'cands': 0, 'clusters': [], 'ok': False}
 محمد الشاذلي {'cands': 0, 'clusters': [], 'ok': False}
 محمد الكواليني {'cands': 0, 'clusters': [], 'ok': False}
+محمد اليعقوبي {'cands': 0, 'clusters': [], 'ok': False}
 محمد مصباح {'cands': 0, 'clusters': [], 'ok': False}
 محمد نضال {'cands': 0, 'clusters': [], 'ok': False}
 مصطفى العلوان {'cands': 0, 'clusters': [], 'ok': False}
