@@ -47,7 +47,7 @@
   "r-racing-club:Laso",
   "rc-deportivo:M. Casadó"
  ],
- "playersN": 596,
+ "playersN": 597,
  "silhouettes": [
   "villarreal-cf:Cheikh",
   "villarreal-cf:Nizar",
@@ -164,6 +164,7 @@
   "levante-ud:Yanis Musuayi=37.92",
   "rayo-vallecano:Óscar V.=38.13",
   "malaga-cf:D. Larrubia=38.25",
+  "levante-ud:Huseini=38.28",
   "rayo-vallecano:Pelayo=38.35",
   "levante-ud:Manu Sánchez=38.42",
   "rayo-vallecano:Balliu=38.78",
@@ -187,8 +188,7 @@
   "levante-ud:Nacho Perez=40.74",
   "rayo-vallecano:Kumbulla=40.80",
   "malaga-cf:Martínez=40.92",
-  "real-madrid:Arda Güler=40.97",
-  "levante-ud:A. Primo=40.99"
+  "real-madrid:Arda Güler=40.97"
  ],
  "visualDropped": [
   "real-madrid:Sergio=0.00",
