@@ -1,5 +1,5 @@
 {
- "t": "2026-11-09T02:29:48.580969",
+ "t": "2026-11-09T10:14:38.047991",
  "seen": [
   {
    "club": "Al Ahli",
@@ -42,6 +42,14 @@
    ]
   },
   {
+   "club": "Nottingham Forest",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "uk.sports.yahoo.com"
+   ]
+  },
+  {
    "club": "Bayern Munich",
    "type": "sack",
    "n": 1,
@@ -73,6 +81,14 @@
    "n": 1,
    "hosts": [
     "standard.co.uk"
+   ]
+  },
+  {
+   "club": "Nottingham Forest",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "uk.sports.yahoo.com"
    ]
   },
   {
