@@ -1,5 +1,5 @@
 {
- "t": "2026-11-09T10:14:38.047991",
+ "t": "2026-11-09T20:59:22.420225",
  "seen": [
   {
    "club": "Al Ahli",
@@ -28,25 +28,59 @@
   {
    "club": "Crystal Palace",
    "type": "sack",
-   "n": 1,
+   "n": 3,
    "hosts": [
+    "sports.yahoo.com",
+    "uk.sports.yahoo.com",
     "mirror.co.uk"
    ]
   },
   {
    "club": "Manchester United",
    "type": "sack",
+   "n": 2,
+   "hosts": [
+    "standard.co.uk",
+    "theguardian.com"
+   ]
+  },
+  {
+   "club": "Manchester United",
+   "type": "hire",
    "n": 1,
    "hosts": [
-    "standard.co.uk"
+    "sports.yahoo.com"
    ]
   },
   {
    "club": "Nottingham Forest",
    "type": "sack",
+   "n": 2,
+   "hosts": [
+    "nytimes.com",
+    "uk.sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Sassuolo",
+   "type": "sack",
+   "n": 7,
+   "hosts": [
+    "gazzetta.it",
+    "corriere.it",
+    "amp.sportmediaset.mediaset.it",
+    "tuttosport.com",
+    "football-italia.net",
+    "sports.yahoo.com",
+    "goal.com"
+   ]
+  },
+  {
+   "club": "Sassuolo",
+   "type": "hire",
    "n": 1,
    "hosts": [
-    "uk.sports.yahoo.com"
+    "corrieredellosport.it"
    ]
   },
   {
@@ -55,14 +89,6 @@
    "n": 1,
    "hosts": [
     "sueddeutsche.de"
-   ]
-  },
-  {
-   "club": "Le Havre AC",
-   "type": "hire",
-   "n": 1,
-   "hosts": [
-    "footmercato.net"
    ]
   }
  ],
@@ -70,25 +96,59 @@
   {
    "club": "Crystal Palace",
    "type": "sack",
-   "n": 1,
+   "n": 3,
    "hosts": [
+    "sports.yahoo.com",
+    "uk.sports.yahoo.com",
     "mirror.co.uk"
    ]
   },
   {
    "club": "Manchester United",
    "type": "sack",
+   "n": 2,
+   "hosts": [
+    "standard.co.uk",
+    "theguardian.com"
+   ]
+  },
+  {
+   "club": "Manchester United",
+   "type": "hire",
    "n": 1,
    "hosts": [
-    "standard.co.uk"
+    "sports.yahoo.com"
    ]
   },
   {
    "club": "Nottingham Forest",
    "type": "sack",
+   "n": 2,
+   "hosts": [
+    "nytimes.com",
+    "uk.sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Sassuolo",
+   "type": "sack",
+   "n": 7,
+   "hosts": [
+    "gazzetta.it",
+    "corriere.it",
+    "amp.sportmediaset.mediaset.it",
+    "tuttosport.com",
+    "football-italia.net",
+    "sports.yahoo.com",
+    "goal.com"
+   ]
+  },
+  {
+   "club": "Sassuolo",
+   "type": "hire",
    "n": 1,
    "hosts": [
-    "uk.sports.yahoo.com"
+    "corrieredellosport.it"
    ]
   },
   {
@@ -97,14 +157,6 @@
    "n": 1,
    "hosts": [
     "sueddeutsche.de"
-   ]
-  },
-  {
-   "club": "Le Havre AC",
-   "type": "hire",
-   "n": 1,
-   "hosts": [
-    "footmercato.net"
    ]
   }
  ]
