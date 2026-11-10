@@ -1,5 +1,5 @@
 {
- "t": "2026-11-10T03:26:52.445754",
+ "t": "2026-11-10T11:39:32.171582",
  "seen": [
   {
    "club": "Al Ahli",
@@ -20,37 +20,28 @@
   {
    "club": "Manchester United",
    "type": "sack",
-   "n": 2,
+   "n": 3,
    "hosts": [
+    "mirror.co.uk",
     "theguardian.com",
-    "standard.co.uk"
+    "uk.sports.yahoo.com"
    ]
   },
   {
    "club": "Crystal Palace",
    "type": "sack",
-   "n": 3,
+   "n": 2,
    "hosts": [
-    "sports.yahoo.com",
     "uk.sports.yahoo.com",
-    "mirror.co.uk"
+    "telegraph.co.uk"
    ]
   },
   {
    "club": "Nottingham Forest",
    "type": "sack",
-   "n": 2,
-   "hosts": [
-    "nytimes.com",
-    "uk.sports.yahoo.com"
-   ]
-  },
-  {
-   "club": "Manchester United",
-   "type": "hire",
    "n": 1,
    "hosts": [
-    "sports.yahoo.com"
+    "nytimes.com"
    ]
   },
   {
@@ -88,37 +79,28 @@
   {
    "club": "Manchester United",
    "type": "sack",
-   "n": 2,
+   "n": 3,
    "hosts": [
+    "mirror.co.uk",
     "theguardian.com",
-    "standard.co.uk"
+    "uk.sports.yahoo.com"
    ]
   },
   {
    "club": "Crystal Palace",
    "type": "sack",
-   "n": 3,
+   "n": 2,
    "hosts": [
-    "sports.yahoo.com",
     "uk.sports.yahoo.com",
-    "mirror.co.uk"
+    "telegraph.co.uk"
    ]
   },
   {
    "club": "Nottingham Forest",
    "type": "sack",
-   "n": 2,
-   "hosts": [
-    "nytimes.com",
-    "uk.sports.yahoo.com"
-   ]
-  },
-  {
-   "club": "Manchester United",
-   "type": "hire",
    "n": 1,
    "hosts": [
-    "sports.yahoo.com"
+    "nytimes.com"
    ]
   },
   {
