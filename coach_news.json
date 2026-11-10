@@ -1,6 +1,24 @@
 {
- "updated": 1794258009472,
+ "updated": 1794281257987,
  "items": [
+  {
+   "club": "Manchester United",
+   "club_ar": "",
+   "type": "sack",
+   "first": "2026-11-08T18:16:28",
+   "sources": [
+    {
+     "host": "theguardian.com",
+     "title": "Michael Carrick facing Manchester United axe amid review by Jason Wilcox - The Guardian",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZnkxaHRsYXRWZ3lZZVpQRTR1aFliOV9GUy1tYVJreWk5NlpCOUoxemMwaUhqaUUtM0cwVGZ0MkNETkxkOU1sMHdXMTg1Q2xNenlERkdBcTAtVkZ6TXhrUE45ZXNVT3c5QWxFQVJNenUtaUhORHRaMzdFYm9SWGlFUEdxYWx3S2xTNEVNSnZHQ0hYa3VZb2pibVlJajlxNDdjYVFuTVBnbzBoSWxuOEtr?oc=5"
+    },
+    {
+     "host": "standard.co.uk",
+     "title": "Man Utd fans 'in agreement' over Carrick sack decision - London Evening Standard",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTjZGSERJdnZ5akxKczFwQVBqZmlJSHBFWVEzRE1ReEozNVJ4cjZjaEJQUXg2aFB6ajBWMm9DeEFaWVZEZW03QU5fa2VEYlJITGpFeWVOc1dIWmFUZXJpNDRVZjZwQUhLWC1qWFN6b2lEN1NTZHlDNXJvZlAwX2psSWVhbnh4VFAyN19CUjhqVjJzZWxtX2xMOURnd2M?oc=5"
+    }
+   ]
+  },
   {
    "club": "Crystal Palace",
    "club_ar": "",
@@ -25,24 +43,6 @@
    ]
   },
   {
-   "club": "Manchester United",
-   "club_ar": "",
-   "type": "sack",
-   "first": "2026-11-08T22:24:00",
-   "sources": [
-    {
-     "host": "standard.co.uk",
-     "title": "Man Utd fans 'in agreement' over Carrick sack decision - London Evening Standard",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTjZGSERJdnZ5akxKczFwQVBqZmlJSHBFWVEzRE1ReEozNVJ4cjZjaEJQUXg2aFB6ajBWMm9DeEFaWVZEZW03QU5fa2VEYlJITGpFeWVOc1dIWmFUZXJpNDRVZjZwQUhLWC1qWFN6b2lEN1NTZHlDNXJvZlAwX2psSWVhbnh4VFAyN19CUjhqVjJzZWxtX2xMOURnd2M?oc=5"
-    },
-    {
-     "host": "theguardian.com",
-     "title": "‘I expect to move forward’: Carrick denies risk of Manchester United sack - The Guardian",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOV2tYWlNOanh5N0ZjNGZkNUdqT2xHWVNWT3BHcERONWlDSktXb1JNNVEyeHJkTXZ0NHhjWHplY0xROUVqdTFfM3djQmhaN3o1Z3BkTW9kajBmN3IwUTF0d0F3MzhhQjVvdUJtN25DRk0tR2VWUGtoaTF3Qms5OTRCeUR5bHdPbGlweDhGMFJvMzJGU3h2bHlFaElhMWVoR3JsTHpmVEZ2S2xyX09icnVZUkc5QlFrWWNDbk1PU2ZJc0cwYWRNZ2I1SDNFaw?oc=5"
-    }
-   ]
-  },
-  {
    "club": "Nottingham Forest",
    "club_ar": "",
    "type": "sack",
@@ -55,7 +55,7 @@
     },
     {
      "host": "uk.sports.yahoo.com",
-     "title": "Oliver Glasner 'will get himself sacked' in 'shock' Nottingham Forest twist - Finance guru - Yahoo",
+     "title": "Oliver Glasner 'will get himself sacked' in 'shock' Nottingham Forest twist - Finance guru - Yahoo Sports",
      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORnVfcWlQV3VEdTI1ZjcyLThvb1pFRXpXVnNFSUtjUHdBUjliZlZ6eGRIT2htN3h6eUFiOE16UlBYOTVna0hpZzFVMVUwalI5bVUxU0thcTAwek4wdzhrRUtwd2psYW9nOVdnajd3WjZIejY2bXZiellwSHlBbGw3T0lBWmRhSVZHZGtN?oc=5"
     }
    ]
