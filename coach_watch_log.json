@@ -1,5 +1,5 @@
 {
- "t": "2026-11-10T11:39:32.171582",
+ "t": "2026-11-10T19:31:02.458114",
  "seen": [
   {
    "club": "Al Ahli",
@@ -22,18 +22,9 @@
    "type": "sack",
    "n": 3,
    "hosts": [
-    "mirror.co.uk",
     "theguardian.com",
-    "uk.sports.yahoo.com"
-   ]
-  },
-  {
-   "club": "Crystal Palace",
-   "type": "sack",
-   "n": 2,
-   "hosts": [
-    "uk.sports.yahoo.com",
-    "telegraph.co.uk"
+    "mirror.co.uk",
+    "sports.yahoo.com"
    ]
   },
   {
@@ -45,33 +36,31 @@
    ]
   },
   {
-   "club": "Sassuolo",
+   "club": "Crystal Palace",
    "type": "sack",
-   "n": 7,
+   "n": 2,
    "hosts": [
-    "gazzetta.it",
-    "corriere.it",
-    "amp.sportmediaset.mediaset.it",
-    "tuttosport.com",
-    "football-italia.net",
-    "sports.yahoo.com",
-    "goal.com"
+    "telegraph.co.uk",
+    "uk.sports.yahoo.com"
    ]
   },
   {
    "club": "Sassuolo",
    "type": "hire",
-   "n": 1,
+   "n": 2,
    "hosts": [
-    "corrieredellosport.it"
+    "corrieredellosport.it",
+    "calciomercato.com"
    ]
   },
   {
-   "club": "Bayern Munich",
+   "club": "Sassuolo",
    "type": "sack",
-   "n": 1,
+   "n": 3,
    "hosts": [
-    "sueddeutsche.de"
+    "corriere.it",
+    "football-italia.net",
+    "goal.com"
    ]
   }
  ],
@@ -81,18 +70,9 @@
    "type": "sack",
    "n": 3,
    "hosts": [
-    "mirror.co.uk",
     "theguardian.com",
-    "uk.sports.yahoo.com"
-   ]
-  },
-  {
-   "club": "Crystal Palace",
-   "type": "sack",
-   "n": 2,
-   "hosts": [
-    "uk.sports.yahoo.com",
-    "telegraph.co.uk"
+    "mirror.co.uk",
+    "sports.yahoo.com"
    ]
   },
   {
@@ -104,33 +84,31 @@
    ]
   },
   {
-   "club": "Sassuolo",
+   "club": "Crystal Palace",
    "type": "sack",
-   "n": 7,
+   "n": 2,
    "hosts": [
-    "gazzetta.it",
-    "corriere.it",
-    "amp.sportmediaset.mediaset.it",
-    "tuttosport.com",
-    "football-italia.net",
-    "sports.yahoo.com",
-    "goal.com"
+    "telegraph.co.uk",
+    "uk.sports.yahoo.com"
    ]
   },
   {
    "club": "Sassuolo",
    "type": "hire",
-   "n": 1,
+   "n": 2,
    "hosts": [
-    "corrieredellosport.it"
+    "corrieredellosport.it",
+    "calciomercato.com"
    ]
   },
   {
-   "club": "Bayern Munich",
+   "club": "Sassuolo",
    "type": "sack",
-   "n": 1,
+   "n": 3,
    "hosts": [
-    "sueddeutsche.de"
+    "corriere.it",
+    "football-italia.net",
+    "goal.com"
    ]
   }
  ]
