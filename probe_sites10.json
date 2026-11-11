@@ -1,0 +1,152 @@
+[
+ {
+  "u": "https://ligue1.com/",
+  "status": 200,
+  "final": "https://ligue1.com/en",
+  "type": "text/html; charset=utf-8",
+  "len": 131667,
+  "head": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><script async=\"\" src=\"https://pagead2.googlesyndication.com/tag/js/gpt.js\"></script><link rel=\"preload",
+  "imgs": [],
+  "apis": []
+ },
+ {
+  "u": "https://ligue1.com/en",
+  "status": 200,
+  "final": "https://ligue1.com/en",
+  "type": "text/html; charset=utf-8",
+  "len": 131668,
+  "head": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><script async=\"\" src=\"https://pagead2.googlesyndication.com/tag/js/gpt.js\"></script><link rel=\"preload",
+  "imgs": [],
+  "apis": []
+ },
+ {
+  "u": "https://ligue1.com/en/clubs",
+  "status": 404,
+  "final": "https://ligue1.com/en/clubs",
+  "type": "text/html; charset=utf-8",
+  "len": 62800,
+  "head": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><script async=\"\" src=\"https://pagead2.googlesyndication.com/tag/js/gpt.js\"></script><title data-next-h",
+  "imgs": [],
+  "apis": []
+ },
+ {
+  "u": "https://ligue1.com/clubs",
+  "status": 404,
+  "final": "https://ligue1.com/en/clubs",
+  "type": "text/html; charset=utf-8",
+  "len": 62800,
+  "head": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><script async=\"\" src=\"https://pagead2.googlesyndication.com/tag/js/gpt.js\"></script><title data-next-h",
+  "imgs": [],
+  "apis": []
+ },
+ {
+  "u": "https://ligue1.com/players",
+  "status": 404,
+  "final": "https://ligue1.com/en/players",
+  "type": "text/html; charset=utf-8",
+  "len": 62800,
+  "head": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><script async=\"\" src=\"https://pagead2.googlesyndication.com/tag/js/gpt.js\"></script><title data-next-h",
+  "imgs": [],
+  "apis": []
+ },
+ {
+  "u": "https://ligue1.com/en/players",
+  "status": 404,
+  "final": "https://ligue1.com/en/players",
+  "type": "text/html; charset=utf-8",
+  "len": 62800,
+  "head": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><script async=\"\" src=\"https://pagead2.googlesyndication.com/tag/js/gpt.js\"></script><title data-next-h",
+  "imgs": [],
+  "apis": []
+ },
+ {
+  "u": "https://www.ligue1.com/",
+  "status": 200,
+  "final": "https://ligue1.com/en",
+  "type": "text/html; charset=utf-8",
+  "len": 131666,
+  "head": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><script async=\"\" src=\"https://pagead2.googlesyndication.com/tag/js/gpt.js\"></script><link rel=\"preload",
+  "imgs": [],
+  "apis": []
+ },
+ {
+  "u": "https://www.ligue1.com/en/clubs",
+  "status": 404,
+  "final": "https://ligue1.com/en/clubs",
+  "type": "text/html; charset=utf-8",
+  "len": 62800,
+  "head": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><script async=\"\" src=\"https://pagead2.googlesyndication.com/tag/js/gpt.js\"></script><title data-next-h",
+  "imgs": [],
+  "apis": []
+ },
+ {
+  "u": "https://ligue1.com/en/clubs/paris-saint-germain",
+  "status": 404,
+  "final": "https://ligue1.com/en/clubs/paris-saint-germain",
+  "type": "text/html; charset=utf-8",
+  "len": 62800,
+  "head": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><script async=\"\" src=\"https://pagead2.googlesyndication.com/tag/js/gpt.js\"></script><title data-next-h",
+  "imgs": [],
+  "apis": []
+ },
+ {
+  "u": "https://ligue1.com/clubs/paris-saint-germain",
+  "status": 404,
+  "final": "https://ligue1.com/en/clubs/paris-saint-germain",
+  "type": "text/html; charset=utf-8",
+  "len": 62800,
+  "head": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><script async=\"\" src=\"https://pagead2.googlesyndication.com/tag/js/gpt.js\"></script><title data-next-h",
+  "imgs": [],
+  "apis": []
+ },
+ {
+  "u": "https://www.eredivisie.nl/",
+  "status": 200,
+  "final": "https://eredivisie.nl/vriendenloterijeredivisie/",
+  "type": "text/html; charset=UTF-8",
+  "len": 240024,
+  "head": "<!DOCTYPE html> <html lang=\"nl\" data-language=\"nl\" data-country=\"nl\" data-environment=\"production\"> <head> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-sc",
+  "imgs": [
+   "https://eredivisie.b-cdn.net/production/players/2027/TELSTAR_TYRONE_OWUSU_510779_01_2026-10-16-185253_xuig.png"
+  ],
+  "apis": [
+   "https://eredivisie.b-cdn.net/production/VLED-Achtergrond-WEB-01.jpg?width=1200&amp;height=630&amp;quality=82&amp;crop=4000%2C2100%2C0%2C150",
+   "https://eredivisie.b-cdn.net/production/clubs/ado-den-haag/ADODenHaag_Logo.png?width=24&amp;height=24&amp;quality=85",
+   "https://eredivisie.b-cdn.net/production/clubs/ado-den-haag/ADODenHaag_Logo.png?width=36&amp;height=36&amp;quality=85",
+   "https://eredivisie.b-cdn.net/production/clubs/ado-den-haag/ADODenHaag_Logo.png?width=48&amp;height=48&amp;quality=85",
+   "https://eredivisie.b-cdn.net/production/clubs/ajax/Ajax_Logo.png?width=24&amp;height=24&amp;quality=85",
+   "https://eredivisie.b-cdn.net/production/clubs/ajax/Ajax_Logo.png?width=36&amp;height=36&amp;quality=85",
+   "https://eredivisie.b-cdn.net/production/clubs/ajax/Ajax_Logo.png?width=48&amp;height=48&amp;quality=85",
+   "https://eredivisie.b-cdn.net/production/clubs/az/AZ_Logo.png?width=24&amp;height=24&amp;quality=85"
+  ]
+ },
+ {
+  "u": "https://www.ligaportugal.pt/en/",
+  "status": 404,
+  "final": "https://www.ligaportugal.pt/en/",
+  "type": "text/html;charset=utf-8",
+  "len": 1261506,
+  "head": "<!DOCTYPE html><html lang=\"pt\"><head><style type=\"text/css\" data-primevue-style-id=\"layer-order\" >@layer tailwind-base, primevue, tailwind-utilities, ligaportugal, texts</style><meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width",
+  "imgs": [],
+  "apis": []
+ },
+ {
+  "u": "https://www.tff.org/",
+  "status": 200,
+  "final": "https://www.tff.org/",
+  "type": "text/html; charset=windows-1254",
+  "len": 177011,
+  "head": " <html> <head id=\"ctl00_Head\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no\" /><link rel=\"ICON\" href=\"App_Themes/TFF_Default/Images/tff16x.ico\" /><link rel=\"SHORTCUT ICON\" hre",
+  "imgs": [],
+  "apis": [
+   "https://platform-api.sharethis.com/js/sharethis.js#property=683f4fb8bde97c0013e1dfb5&product=sharing-intelligence",
+   "https://pfuub0mfbyfj.merlincdn.net/turkiye.png",
+   "https://pfuub0mfbyfj.merlincdn.net/belcika.png",
+   "https://pfuub0mfbyfj.merlincdn.net/cekya.png",
+   "https://pfuub0mfbyfj.merlincdn.net/fransa.png",
+   "https://pfuub0mfbyfj.merlincdn.net/slovenya.png",
+   "https://pfuub0mfbyfj.merlincdn.net/macaristan.png",
+   "https://pfuub0mfbyfj.merlincdn.net/italya.png"
+  ]
+ }
+]
