@@ -1,17 +1,30 @@
 {
- "updated": 1794339111367,
+ "updated": 1794357050510,
  "items": [
+  {
+   "club": "Al Riyadh",
+   "club_ar": "الرياض",
+   "type": "sack",
+   "first": "2026-11-08T14:54:00",
+   "sources": [
+    {
+     "host": "alarabiya.net",
+     "title": "وزارة الرياضة للعربية.نت: \"تراكمات\" أدت إلى إقالة حسام حسن - العربية",
+     "link": "https://news.google.com/rss/articles/CBMi1gNBVV95cUxPTGpNNmlZdG1SLWp5MmVVLUV4Y3paSFhKVjNlNVRnNDc5bUZTLXFsYXN0VWxuSldHTzVYTmM5dkR2cC1LVVh6RnB5ZUpGWWt6U18yZVZVa082cFpfaVBkdXJzM0Rfb2ZCa0lVZ1g2RDFfUWV4N3RucEQxNWUxX2M0aWdqSHhLaXd2dFgyQkl1YTdsZ2JpVk9PUGoyVFI4ZXNKUV9QUnkwQy1DM256YnMteUc5elU3LVgtUWJhUVhxQkJtbjh0b3IyeUkyWTZCYUdQajhXdTUwWXA3YUNvR0t6eHYwMjUzMVFFQ0UxOFVIcmw1ZnBzX01GSEpoSWlCdkFDbUVmbW5ycHhWZVhyVDhfU0VhTnN5YWJXdDZVZHJVYlUwVlBUQmhGSEp3SlpoMlN5ZUZsZ2Z5ZnppWGYwTnRlZUxBSzloMzlGZkFOdVdhNVVTQTZjakU0bjBzS2JZMno2YnRkRWJrU1hlckgtTGQzakJMYW0zUThuVkNwVFU5Y2RjY1NfU21BVlRMaHpfMDN1N2JRd1FnRTVTdVU4a3hTdmhnZWhvWWEwM3lRUW00YVB0YmpJZDNTdEhIU2ZZWmZldmQwSllFU203THNPSURneG1DV3hhd9IB1gNBVV95cUxPTGpNNmlZdG1SLWp5MmVVLUV4Y3paSFhKVjNlNVRnNDc5bUZTLXFsYXN0VWxuSldHTzVYTmM5dkR2cC1LVVh6RnB5ZUpGWWt6U18yZVZVa082cFpfaVBkdXJzM0Rfb2ZCa0lVZ1g2RDFfUWV4N3RucEQxNWUxX2M0aWdqSHhLaXd2dFgyQkl1YTdsZ2JpVk9PUGoyVFI4ZXNKUV9QUnkwQy1DM256YnMteUc5elU3LVgtUWJhUVhxQkJtbjh0b3IyeUkyWTZCYUdQajhXdTUwWXA3YUNvR0t6eHYwMjUzMVFFQ0UxOFVIcmw1ZnBzX01GSEpoSWlCdkFDbUVmbW5ycHhWZVhyVDhfU0VhTnN5YWJXdDZVZHJVYlUwVlBUQmhGSEp3SlpoMlN5ZUZsZ2Z5ZnppWGYwTnRlZUxBSzloMzlGZkFOdVdhNVVTQTZjakU0bjBzS2JZMno2YnRkRWJrU1hlckgtTGQzakJMYW0zUThuVkNwVFU5Y2RjY1NfU21BVlRMaHpfMDN1N2JRd1FnRTVTdVU4a3hTdmhnZWhvWWEwM3lRUW00YVB0YmpJZDNTdEhIU2ZZWmZldmQwSllFU203THNPSURneG1DV3hhdw?oc=5"
+    },
+    {
+     "host": "arriyadiyah.com",
+     "title": "بعد الخسارة السادسة.. إقالة مدرب عبد الحميد - صحيفة الرياضية",
+     "link": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxQRjJVX1lXd0trT0hxdDFqWHlXLU9mSHl5M0VfeGxTekEwYUVJVlRhaTh4aXptM1NCcEhFVTN1bnFUVmZ2QU5jR2RPX1hBZHFyaEhET2FOZVAybzI2M2FMSEwyV1lGbGtTaWg5U2FYcm1WNHB6eVYzNm1zeUV3Z04zeXRpNHBJODdvbm0yRC12aUM3aThxbkdRUDVQcHkyYXZfcUhzV2pQRno1bzh2a2U0YWxjY3phcG5lbDM5bjdDckJ4Y3JtMkNDZlZ1c1JTX2x3eVNrV21mY0ZTYV9INlJWLThaR0l5MkQxQWR3WDFTa2I0cmpldUhjT2hOM3ZxN2x2QVVHaFFYNnp0bG1yTVh1ajk2V0ZQTlRsWlktbTJMT3NhenliaVV5Q2hTbjJYMlpNalNFX09sbkk1akJ0QWo3LVg2RDNkcmltTGEwUzJ3aG8xZG5RVW1USXYyVGJMOUJGV3lLQ0tIXzA?oc=5"
+    }
+   ]
+  },
   {
    "club": "Manchester United",
    "club_ar": "",
    "type": "sack",
-   "first": "2026-11-08T22:24:00",
+   "first": "2026-11-08T18:16:28",
    "sources": [
-    {
-     "host": "theguardian.com",
-     "title": "‘I expect to move forward’: Carrick denies risk of Manchester United sack - The Guardian",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOV2tYWlNOanh5N0ZjNGZkNUdqT2xHWVNWT3BHcERONWlDSktXb1JNNVEyeHJkTXZ0NHhjWHplY0xROUVqdTFfM3djQmhaN3o1Z3BkTW9kajBmN3IwUTF0d0F3MzhhQjVvdUJtN25DRk0tR2VWUGtoaTF3Qms5OTRCeUR5bHdPbGlweDhGMFJvMzJGU3h2bHlFaElhMWVoR3JsTHpmVEZ2S2xyX09icnVZUkc5QlFrWWNDbk1PU2ZJc0cwYWRNZ2I1SDNFaw?oc=5"
-    },
     {
      "host": "mirror.co.uk",
      "title": "Eddie Howe responds to job offer as Man Utd finally decide to sack Michael Carrick - The Mirror",
@@ -21,6 +34,16 @@
      "host": "sports.yahoo.com",
      "title": "Pochettino ‘keen’ on Man Utd job with Carrick sack imminent - Yahoo Sports",
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTV9pc3d1ZzdrN1JzR2pfMWdQSHdQc0x3UXhXU3AyWVJpOVBhLU5YbmlPSlBWUUp5d1dQdEFrZjBPZWM5ZXRIOXo0M2FMbGdvNW0yZWFUaE5rdXY2OXBJdEc3NGQwX3M2UVlOdFZCTU5nZzhnb2EwUzVPTDVEMEhmV2tB?oc=5"
+    },
+    {
+     "host": "theguardian.com",
+     "title": "‘I expect to move forward’: Carrick denies risk of Manchester United sack - The Guardian",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOV2tYWlNOanh5N0ZjNGZkNUdqT2xHWVNWT3BHcERONWlDSktXb1JNNVEyeHJkTXZ0NHhjWHplY0xROUVqdTFfM3djQmhaN3o1Z3BkTW9kajBmN3IwUTF0d0F3MzhhQjVvdUJtN25DRk0tR2VWUGtoaTF3Qms5OTRCeUR5bHdPbGlweDhGMFJvMzJGU3h2bHlFaElhMWVoR3JsTHpmVEZ2S2xyX09icnVZUkc5QlFrWWNDbk1PU2ZJc0cwYWRNZ2I1SDNFaw?oc=5"
+    },
+    {
+     "host": "standard.co.uk",
+     "title": "Man Utd fans 'in agreement' over Carrick sack decision - London Evening Standard",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTjZGSERJdnZ5akxKczFwQVBqZmlJSHBFWVEzRE1ReEozNVJ4cjZjaEJQUXg2aFB6ajBWMm9DeEFaWVZEZW03QU5fa2VEYlJITGpFeWVOc1dIWmFUZXJpNDRVZjZwQUhLWC1qWFN6b2lEN1NTZHlDNXJvZlAwX2psSWVhbnh4VFAyN19CUjhqVjJzZWxtX2xMOURnd2M?oc=5"
     }
    ]
   },
@@ -37,8 +60,8 @@
     },
     {
      "host": "uk.sports.yahoo.com",
-     "title": "Crystal Palace: Pierre Sage sack decision explained with Eagles to begin search for new manager - Yahoo",
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdkFfOUpYWHVWbHlQZDFVYkdsUDZENDRmRUpjRUxZaVpMWEZmVHlsYUdQdTVMQTB2SnFhZjBCczlxeDd1RWQxX3pWY3JqVW03NUtpNHJScnpCYVdQM2dVd3BKNzJaUGxCWjN0a1Nlcmc1VS1BcmNoVzNpMVNEQTF6Z1VKRm5fZw?oc=5"
+     "title": "Jens Berthel Askou in Crystal Palace manager frame amid Sage sack calls - Yahoo",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNN3RwaFhCYnhSbmM1WVN5SjRFYjMweWlLa3Y5Y3lSa3BUX2JXM3Ntb2dVYjJxT3ZOMEVVSmlKV1lLemt2VnRhTHBHSC1BWjgtRld4bjdhVXhGdnU5ZGdzTU5yUnVBdldONW9WLVdmbU50bzB0Q0RnX05JdXN6NWJzQ2ZmWDZiOHpG?oc=5"
     }
    ]
   },
@@ -77,9 +100,9 @@
      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1fdjgyS21lZ09KWFYxUy1tS3d4N3FLTm5SeWxUdlN0WHZsQVNCUlg2bzRnbVJIQ21NVjhWU2pLWnRvVHNYajFqaGM0c2s2NVlJaE5iNklaSVBLOWtwZDhDc2FueHJpbF9PNDd2Q1hHQld5R1BpbE9nVkdFVdIBgAFBVV95cUxQYW1QZXFfM1JSaE40eWZUNEE1SDU5VTBteGQwZi1TS0VfUVZtcE0xQm0yRjE0Z0hoZkJQVHZXcDdRdm1jMXlwdE5RYXE0ZUgwLW1scmlJSFZMbWw2ZkluQWgwbWFJZXhUMF9XRG1oak1vcHd4LUw0dm4yOW5aTFU5eQ?oc=5"
     },
     {
-     "host": "goal.com",
-     "title": "Aquilani sacked by Sassuolo after disastrous five-match losing run - Goal.com",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUG9aN1lsbUJJbFFLNnEybmh4Z3R1T0UwcTFjbEllMkpOajVZbjlWTDZCZTFIRF81UTNsMjBxeDlneWNPeHBLNEFzYXF6bm9CazNVdV9CRlhRSE5zdlk0LVZLM1plVXdYQmFfWnBaZ3JmYTVibU9LN3FzVEpsT1g5X182S2JBTXAxMEhxZg?oc=5"
+     "host": "ca.sports.yahoo.com",
+     "title": "Aquilani sacked by Sassuolo after disastrous five-match losing run - Yahoo",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYnhzM193eUtjVkR6dTVKdVZXb0VwWVdrY2xOOV9FeW43cTI5LVh1clNRTzBJSF9WcmFxazJSXzhMLUxMcHlVeEFqTzV4a2twckFNRkE0Y2JFUElMR041blhFSjl5LXAyd3lrb1c3cEZLUnJLMzU4MFBaS3F1ZC1jN3o0aVpoZDR6bGNSQUo1c0VIUQ?oc=5"
     }
    ]
   }

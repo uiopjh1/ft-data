@@ -1,5 +1,5 @@
 {
- "t": "2026-11-10T19:31:02.458114",
+ "t": "2026-11-11T00:30:00.605052",
  "seen": [
   {
    "club": "Al Ahli",
@@ -12,19 +12,21 @@
   {
    "club": "Al Riyadh",
    "type": "sack",
-   "n": 1,
+   "n": 2,
    "hosts": [
-    "alarabiya.net"
+    "alarabiya.net",
+    "arriyadiyah.com"
    ]
   },
   {
    "club": "Manchester United",
    "type": "sack",
-   "n": 3,
+   "n": 4,
    "hosts": [
-    "theguardian.com",
     "mirror.co.uk",
-    "sports.yahoo.com"
+    "sports.yahoo.com",
+    "theguardian.com",
+    "standard.co.uk"
    ]
   },
   {
@@ -45,6 +47,14 @@
    ]
   },
   {
+   "club": "Deportivo",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "mundodeportivo.com"
+   ]
+  },
+  {
    "club": "Sassuolo",
    "type": "hire",
    "n": 2,
@@ -60,7 +70,7 @@
    "hosts": [
     "corriere.it",
     "football-italia.net",
-    "goal.com"
+    "ca.sports.yahoo.com"
    ]
   }
  ],
@@ -68,11 +78,12 @@
   {
    "club": "Manchester United",
    "type": "sack",
-   "n": 3,
+   "n": 4,
    "hosts": [
-    "theguardian.com",
     "mirror.co.uk",
-    "sports.yahoo.com"
+    "sports.yahoo.com",
+    "theguardian.com",
+    "standard.co.uk"
    ]
   },
   {
@@ -93,6 +104,14 @@
    ]
   },
   {
+   "club": "Deportivo",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "mundodeportivo.com"
+   ]
+  },
+  {
    "club": "Sassuolo",
    "type": "hire",
    "n": 2,
@@ -108,7 +127,7 @@
    "hosts": [
     "corriere.it",
     "football-italia.net",
-    "goal.com"
+    "ca.sports.yahoo.com"
    ]
   }
  ]
