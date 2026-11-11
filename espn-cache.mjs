@@ -88,3 +88,4 @@ for (const [slug, q, re] of [['ksa.kings.cup', 'Saudi King Cup', /king/i], ['ksa
 writeFileSync('out/logos-debug.json', JSON.stringify(DEBUG, null, 1));
 writeFileSync('out/logos.json', JSON.stringify(LOGOS));
 console.log('logos', Object.keys(LOGOS).length);
+// refresh 1794430163
