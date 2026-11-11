@@ -42,14 +42,20 @@ for (const cs of clubSlugs) {
       const pp = await get('https://eredivisie.nl' + l);
       if (!pp) continue;
       const key = ps.toUpperCase().replace(/-/g, '_');
-      const imgs = (pp.match(/https:\/\/eredivisie\.b-cdn\.net\/production\/players\/[^"'\s<>]+/g) || []).map(decode).filter((u) => u.toUpperCase().includes(key));
-      let img = imgs[0];
+      const all = [...new Set((pp.match(/https:\/\/eredivisie\.b-cdn\.net\/production\/players\/[^"'\s<>]+/g) || []).map(decode))];
+      let img = all.find((u) => u.toUpperCase().includes(key));
+      if (!img) {
+        // اسم الصفحة طويل (الاسم القانوني) والصورة باسم مختصر: نطابق بكلمات الاسم ونقبل فقط أفضل مطابقة وحيدة
+        const toks = ps.toUpperCase().split('-').filter((t) => t.length >= 4);
+        const sc = all.map((u) => ({ u, n: toks.filter((t) => u.toUpperCase().includes('_' + t + '_') || u.toUpperCase().includes('_' + t + '.')).length })).filter((x) => x.n >= 1).sort((x, y) => y.n - x.n);
+        if (sc.length && (sc.length === 1 || sc[0].n > sc[1].n)) img = sc[0].u;
+      }
       if (!img) { noImg.push(cs + ':' + ps); continue; }
       img = img.split('?')[0] + '?width=550&height=776&format=png&quality=80';
       const h1 = (pp.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || [])[1];
-      let en = h1 ? h1.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim() : '';
-      if (!en || en.length > 40) en = titleCase(ps);
-      const alt = [...new Set([titleCase(ps)].filter((x) => x && x !== en))];
+      const short = h1 ? h1.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').replace(/^\s*\d+\s+/, '').trim() : '';
+      const en = titleCase(ps);
+      const alt = [...new Set([short].filter((x) => x && x.length < 40 && x !== en))];
       players.push({ slug: ps, en, alt, ar: '', team: cs, teamEn: clubName, img });
       n++;
     }
@@ -58,7 +64,12 @@ for (const cs of clubSlugs) {
   console.log(cs, plinks.length, n);
   await sleep(300);
 }
-console.log('players', players.length, 'noImg', noImg.length);
+const cnt = {};
+players.forEach((p) => { cnt[p.img] = (cnt[p.img] || 0) + 1; });
+const shared = players.filter((p) => cnt[p.img] > 1).map((p) => p.team + ':' + p.slug);
+for (let i = players.length - 1; i >= 0; i--) if (cnt[players[i].img] > 1) players.splice(i, 1);
+DBG.sharedDropped = shared;
+console.log('players', players.length, 'noImg', noImg.length, 'shared', shared.length);
 DBG.noImg = noImg.slice(0, 40); DBG.playersN = players.length; flush();
 if (players.length < 100) { DBG.error = 'too few players: not writing'; flush(); process.exit(1); }
 writeFileSync('eredivisie_players.json', JSON.stringify({ updated: new Date().toISOString(), season: 'eredivisie', teams, players }));
