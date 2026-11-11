@@ -28,7 +28,7 @@ for (const slug of SLUGS) {
 console.log('ok', ok, 'bad', bad);
 
 // ---- مباريات الأيام (scoreboard) تُنشر على فرع espn-data (يُستبدل كل مرة، فلا يتضخم تاريخ المستودع) ----
-const BOARD = ['ksa.1','eng.1','esp.1','ita.1','ger.1','fra.1','uefa.champions','uefa.europa','uefa.europa.conf','afc.champions','afc.cup','ksa.kings.cup','fifa.cwc','fifa.intercontinental_cup','eng.fa','esp.copa_del_rey','fifa.world','fifa.worldq.afc','fifa.worldq.uefa','afc.asian.cup','caf.nations','fifa.friendly'];
+const BOARD = ['ksa.1','eng.1','esp.1','ita.1','ger.1','fra.1','uefa.champions','uefa.europa','uefa.europa.conf','afc.champions','afc.cup','ksa.kings.cup','fifa.cwc','fifa.intercontinental_cup','eng.fa','esp.copa_del_rey','fifa.world','fifa.worldq.afc','fifa.worldq.uefa','afc.asian.cup','caf.nations','fifa.friendly','club.friendly','uefa.nations','caf.nations_qual'];
 const riyadh = new Date(Date.now() + 3 * 3600000);
 const keyFor = (off) => {
   const d = new Date(riyadh.getTime() + off * 86400000);
