@@ -20,7 +20,7 @@
   "sv-elversberg",
   "sc-paderborn-07"
  ],
- "sample": "{\"externalPersonIds\":{\"dflDatalibraryPersonId\":\"DFL-OBJ-0027KL\"},\"id\":\"DFL-OBJ-0027KL\",\"lastUpdate\":null,\"name\":{\"alias\":\"Dayot Upamecano\",\"first\":\"Dayotchanculle Oswald\",\"full\":\"Dayotchanculle Oswald Upamecano\",\"last\":\"Upamecano\",\"shortName\":null,\"slugifiedFull\":\"dayot-upamecano\",\"slugifiedShort\":\"dayot-upamecano\"},\"nationality\":{\"firstNationality\":\"French\",\"firstNationalityCode\":\"FR\",\"secondNationality\":\"Guinea-Bissau\",\"secondNationalityCode\":null,\"thirdNationality\":null,\"thirdNationalityCode\":null},\"playerImages\":{\"FACE_CIRCLE\":\"https://assets.bundesliga.com/player/dfl-obj-0027kl-dfl-clu-00000g-dfl-sea-0001ka-circle.png\"},\"shirtNumber\":\"2\"}",
+ "sample": "{\"externalPersonIds\":{\"dflDatalibraryPersonId\":\"DFL-OBJ-0027G6\"},\"id\":\"DFL-OBJ-0027G6\",\"lastUpdate\":null,\"name\":{\"alias\":\"Serge Gnabry\",\"first\":\"Serge David\",\"full\":\"Serge David Gnabry\",\"last\":\"Gnabry\",\"shortName\":null,\"slugifiedFull\":\"serge-gnabry\",\"slugifiedShort\":\"serge-gnabry\"},\"nationality\":{\"firstNationality\":\"German\",\"firstNationalityCode\":\"DE\",\"secondNationality\":\"Ivorian\",\"secondNationalityCode\":\"CI\",\"thirdNationality\":null,\"thirdNationalityCode\":null},\"playerImages\":{\"FACE_CIRCLE\":\"https://assets.bundesliga.com/player/dfl-obj-0027g6-dfl-clu-00000g-dfl-sea-0001ka-circle.png\"},\"shirtNumber\":\"7\"}",
  "playersN": 558,
  "teamsN": 18
 }
