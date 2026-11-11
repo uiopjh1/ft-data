@@ -1,5 +1,5 @@
 {
- "updated": 1794411191219,
+ "updated": 1794436484332,
  "items": [
   {
    "club": "Al Riyadh",
@@ -23,7 +23,7 @@
    "club": "Manchester United",
    "club_ar": "",
    "type": "sack",
-   "first": "2026-11-08T22:24:00",
+   "first": "2026-11-10T19:50:10",
    "sources": [
     {
      "host": "standard.co.uk",
@@ -34,11 +34,6 @@
      "host": "mirror.co.uk",
      "title": "Man Utd's 'final two' to become new manager before dramatic sack U-turn - The Mirror",
      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVGJPbjlveDA3Y0ptN1BVOUZuLTI1ZEEzelRuZE1nSGQzdFk1ZUhQY3lVMEhnLUsxdExDdUdpRm4xclJoM0wzYnN5RFYwLW4tMWlyTC1JckRKek9ySDlOQUQyR2VyMUIzeGRmTkQ0QTZQeHYzNVZqZlFsUkFmX282dXoxNG11Z9IBiwFBVV95cUxQNXAzdG85cU82TVVpOGkxeWU2clZtcnhVeXR5NDFINExEY21CbkI3Mml2VGtoN3Rqb1k3SWk5bjNsdFFUTU9rRmpia2dzOW85S05Sb3ZyVXhMcENYTVRySnFBQ0xiZ0V0SFFfLWtWbW5JZXFyU2M4dVpFMWlFa2N3S2J4WXpMS2VPU1dF?oc=5"
-    },
-    {
-     "host": "theguardian.com",
-     "title": "‘I expect to move forward’: Carrick denies risk of Manchester United sack - The Guardian",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOV2tYWlNOanh5N0ZjNGZkNUdqT2xHWVNWT3BHcERONWlDSktXb1JNNVEyeHJkTXZ0NHhjWHplY0xROUVqdTFfM3djQmhaN3o1Z3BkTW9kajBmN3IwUTF0d0F3MzhhQjVvdUJtN25DRk0tR2VWUGtoaTF3Qms5OTRCeUR5bHdPbGlweDhGMFJvMzJGU3h2bHlFaElhMWVoR3JsTHpmVEZ2S2xyX09icnVZUkc5QlFrWWNDbk1PU2ZJc0cwYWRNZ2I1SDNFaw?oc=5"
     }
    ]
   },
@@ -64,17 +59,17 @@
    "club": "Sassuolo",
    "club_ar": "",
    "type": "sack",
-   "first": "2026-11-09T16:09:00",
+   "first": "2026-11-09T16:06:20",
    "sources": [
+    {
+     "host": "corriere.it",
+     "title": "Alberto Aquilani esonerato dal Sassuolo, D'Aversa o Montella per la sostituzione - Corriere della Sera",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWG9HdVdTTkNNUksxN1RXc0xyMElabkhvb0hleXhBOXNUWnVNcjdnU0RBaGFxQzRyM0FXNmJDbmY5bmItWXJQbFdkcFFfWlVSQ003aWVnR1EwS3l1QWVsUVhHMk5MSWdmSGdWTzhqTnctY3QyNmdadS0tZFdSWlBMb3p4LTg4b0xpZ0N6NW9SMV9QSGIzMDZ1R21qUTc0V01KdElrVjBBSlJZV1VCUkJJMnlzMU8ycy1CSDJFR2tlR0VadVh3VFl4TWw2RXNDcnfSAc8BQVVfeXFMT1hvR3VXU05DTVJLMTdUV3NMcjBJWm5Ib29IZXl4QTlzVFp1TXI3Z1NEQWhhcUM0cjNBVzZiQ25mOW5iLVlyUGxXZHBRX1pVUkNNN2llZ0dRMEt5dUFlbFFYRzJOTElnZkhnVk84ak53LWN0MjZnWnUtLWRXUlpQTG96eC04OG9MaWdDejVvUjFfUEhiMzA2dUdtalE3NFdNSnRJa1YwQUpSWVdVQlJCSTJ5czFPMnMtQkgyRUdrZUdFWnVYd1RZeE1sNkVzQ3J3?oc=5"
+    },
     {
      "host": "tuttosport.com",
      "title": "Aquilani esonerato, ufficiale la scelta del Sassuolo: chi può sostituirlo - Tuttosport",
      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWmRuc3Rkc28zQ2hVdXExQjNycnh0eVlYVEVKR0xMQU9RMXFxR1o0dFlfdGZlRGNYWkN5THdzU21YVC1PY0VyY0NBUGQ3RjFXVHBxYW16MWVMeEJFcEJYMklRbHRYTEppR3lTdUtVS1BsRWZrZy1OdVhsZ2J3NnU5UWcxMXk5YTB1Yml2Rk82bG1fejRHa0VvQk1mME1IWV9BMWF0QW54LWVHeURVRmdCZzBBazFUWUFULVB0NEZrbGJ4VEN6Mk9GVzdiZzlUZTV1TlgzS1pmLXNTQnVsR0RVdtIB4wFBVV95cUxOa2VOd1p1NlVabHRyS3Q3UHIzOHZRYTFQQkN6Y1VHOHFOWUp0a05reThMd0FXcHlRVjJ2WHdFSUtOZlY0bl95UzFDczFLVHBHV2I1RHZPZzYzbXNYaEFidGd4T193c2F2MWNxOTZhZUNXTk9UeFJpd2hwSTF2azZNWW9EbGNrbVg2SGM1LWc3ZGFqRXBBQ2NuVFlLS0JPNXVFOEhaQWlRaEhJWnVLTndlNkphVGVMZXJWYVVneDhhYjdMNmlqd0k2a0RudTA4M0tYN09NNXI3Mklfd0dMY2hSOFBMbw?oc=5"
-    },
-    {
-     "host": "football-italia.net",
-     "title": "Official: Sassuolo have fired Aquilani after five straight defeats - Football Italia",
-     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1fdjgyS21lZ09KWFYxUy1tS3d4N3FLTm5SeWxUdlN0WHZsQVNCUlg2bzRnbVJIQ21NVjhWU2pLWnRvVHNYajFqaGM0c2s2NVlJaE5iNklaSVBLOWtwZDhDc2FueHJpbF9PNDd2Q1hHQld5R1BpbE9nVkdFVdIBgAFBVV95cUxQYW1QZXFfM1JSaE40eWZUNEE1SDU5VTBteGQwZi1TS0VfUVZtcE0xQm0yRjE0Z0hoZkJQVHZXcDdRdm1jMXlwdE5RYXE0ZUgwLW1scmlJSFZMbWw2ZkluQWgwbWFJZXhUMF9XRG1oak1vcHd4LUw0dm4yOW5aTFU5eQ?oc=5"
     },
     {
      "host": "sports.yahoo.com",
@@ -82,9 +77,9 @@
      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQX0FHdTF5S1c4dmtqQmNnU0l4R3B4ZlZURWxuVmVsMzkzeERiOU1qN0ZOaExhckZ1NzBMdWo0UmdNUWd5ZzJUOHc2ZHhGNmVLX0ZRSnF1bVRrVjRNemNUTTYyNlcwUU1uQ2VsTnRPY2JvNXo1RmhZUk5PS3ZkaVdfbEpTVk80UGZaOFFtc2ZWSQ?oc=5"
     },
     {
-     "host": "ca.sports.yahoo.com",
-     "title": "Aquilani sacked by Sassuolo after disastrous five-match losing run - Yahoo",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYnhzM193eUtjVkR6dTVKdVZXb0VwWVdrY2xOOV9FeW43cTI5LVh1clNRTzBJSF9WcmFxazJSXzhMLUxMcHlVeEFqTzV4a2twckFNRkE0Y2JFUElMR041blhFSjl5LXAyd3lrb1c3cEZLUnJLMzU4MFBaS3F1ZC1jN3o0aVpoZDR6bGNSQUo1c0VIUQ?oc=5"
+     "host": "football-italia.net",
+     "title": "Official: Sassuolo have fired Aquilani after five straight defeats - Football Italia",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYW1QZXFfM1JSaE40eWZUNEE1SDU5VTBteGQwZi1TS0VfUVZtcE0xQm0yRjE0Z0hoZkJQVHZXcDdRdm1jMXlwdE5RYXE0ZUgwLW1scmlJSFZMbWw2ZkluQWgwbWFJZXhUMF9XRG1oak1vcHd4LUw0dm4yOW5aTFU5edIBgAFBVV95cUxQYW1QZXFfM1JSaE40eWZUNEE1SDU5VTBteGQwZi1TS0VfUVZtcE0xQm0yRjE0Z0hoZkJQVHZXcDdRdm1jMXlwdE5RYXE0ZUgwLW1scmlJSFZMbWw2ZkluQWgwbWFJZXhUMF9XRG1oak1vcHd4LUw0dm4yOW5aTFU5eQ?oc=5"
     }
    ]
   }

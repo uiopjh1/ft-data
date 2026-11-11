@@ -1,5 +1,5 @@
 {
- "t": "2026-11-11T15:32:26.811300",
+ "t": "2026-11-11T22:33:54.335053",
  "seen": [
   {
    "club": "Al Ahli",
@@ -29,11 +29,10 @@
   {
    "club": "Manchester United",
    "type": "sack",
-   "n": 3,
+   "n": 2,
    "hosts": [
     "standard.co.uk",
-    "mirror.co.uk",
-    "theguardian.com"
+    "mirror.co.uk"
    ]
   },
   {
@@ -56,12 +55,21 @@
   {
    "club": "Sassuolo",
    "type": "sack",
-   "n": 4,
+   "n": 5,
    "hosts": [
+    "corriere.it",
     "tuttosport.com",
-    "football-italia.net",
     "sports.yahoo.com",
-    "ca.sports.yahoo.com"
+    "football-italia.net",
+    "goal.com"
+   ]
+  },
+  {
+   "club": "Le Havre AC",
+   "type": "hire",
+   "n": 1,
+   "hosts": [
+    "madeinfoot.ouest-france.fr"
    ]
   }
  ],
@@ -77,11 +85,10 @@
   {
    "club": "Manchester United",
    "type": "sack",
-   "n": 3,
+   "n": 2,
    "hosts": [
     "standard.co.uk",
-    "mirror.co.uk",
-    "theguardian.com"
+    "mirror.co.uk"
    ]
   },
   {
@@ -104,12 +111,21 @@
   {
    "club": "Sassuolo",
    "type": "sack",
-   "n": 4,
+   "n": 5,
    "hosts": [
+    "corriere.it",
     "tuttosport.com",
-    "football-italia.net",
     "sports.yahoo.com",
-    "ca.sports.yahoo.com"
+    "football-italia.net",
+    "goal.com"
+   ]
+  },
+  {
+   "club": "Le Havre AC",
+   "type": "hire",
+   "n": 1,
+   "hosts": [
+    "madeinfoot.ouest-france.fr"
    ]
   }
  ]
