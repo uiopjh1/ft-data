@@ -1,5 +1,5 @@
 {
- "t": "2026-11-11T07:01:24.478709",
+ "t": "2026-11-11T15:32:26.811300",
  "seen": [
   {
    "club": "Al Ahli",
@@ -14,53 +14,34 @@
    "type": "sack",
    "n": 2,
    "hosts": [
-    "alarabiya.net",
+    "alriyadh.com",
     "arriyadiyah.com"
    ]
   },
   {
-   "club": "Nottingham Forest",
+   "club": "Liverpool",
    "type": "sack",
    "n": 1,
    "hosts": [
-    "nytimes.com"
+    "skysports.com"
+   ]
+  },
+  {
+   "club": "Manchester United",
+   "type": "sack",
+   "n": 3,
+   "hosts": [
+    "standard.co.uk",
+    "mirror.co.uk",
+    "theguardian.com"
    ]
   },
   {
    "club": "Crystal Palace",
    "type": "sack",
-   "n": 3,
+   "n": 1,
    "hosts": [
-    "sports.yahoo.com",
-    "telegraph.co.uk",
     "uk.sports.yahoo.com"
-   ]
-  },
-  {
-   "club": "Manchester United",
-   "type": "sack",
-   "n": 4,
-   "hosts": [
-    "theguardian.com",
-    "mirror.co.uk",
-    "sports.yahoo.com",
-    "standard.co.uk"
-   ]
-  },
-  {
-   "club": "Manchester United",
-   "type": "hire",
-   "n": 1,
-   "hosts": [
-    "sports.yahoo.com"
-   ]
-  },
-  {
-   "club": "Deportivo",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "mundodeportivo.com"
    ]
   },
   {
@@ -75,57 +56,40 @@
   {
    "club": "Sassuolo",
    "type": "sack",
-   "n": 2,
+   "n": 4,
    "hosts": [
+    "tuttosport.com",
     "football-italia.net",
+    "sports.yahoo.com",
     "ca.sports.yahoo.com"
    ]
   }
  ],
  "eu": [
   {
-   "club": "Nottingham Forest",
+   "club": "Liverpool",
    "type": "sack",
    "n": 1,
    "hosts": [
-    "nytimes.com"
+    "skysports.com"
+   ]
+  },
+  {
+   "club": "Manchester United",
+   "type": "sack",
+   "n": 3,
+   "hosts": [
+    "standard.co.uk",
+    "mirror.co.uk",
+    "theguardian.com"
    ]
   },
   {
    "club": "Crystal Palace",
    "type": "sack",
-   "n": 3,
+   "n": 1,
    "hosts": [
-    "sports.yahoo.com",
-    "telegraph.co.uk",
     "uk.sports.yahoo.com"
-   ]
-  },
-  {
-   "club": "Manchester United",
-   "type": "sack",
-   "n": 4,
-   "hosts": [
-    "theguardian.com",
-    "mirror.co.uk",
-    "sports.yahoo.com",
-    "standard.co.uk"
-   ]
-  },
-  {
-   "club": "Manchester United",
-   "type": "hire",
-   "n": 1,
-   "hosts": [
-    "sports.yahoo.com"
-   ]
-  },
-  {
-   "club": "Deportivo",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "mundodeportivo.com"
    ]
   },
   {
@@ -140,9 +104,11 @@
   {
    "club": "Sassuolo",
    "type": "sack",
-   "n": 2,
+   "n": 4,
    "hosts": [
+    "tuttosport.com",
     "football-italia.net",
+    "sports.yahoo.com",
     "ca.sports.yahoo.com"
    ]
   }
