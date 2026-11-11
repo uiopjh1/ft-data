@@ -1,0 +1,98 @@
+{
+ "homeLinks": [
+  "https://eredivisie.nl/competitie/clubs/",
+  "https://eredivisie.nl/stats/",
+  "https://eredivisie.nl/stats/algemeen/",
+  "https://eredivisie.nl/stats/aanval/",
+  "https://eredivisie.nl/stats/verdediging/",
+  "https://eredivisie.nl/stats/veldspel/",
+  "https://eredivisie.nl/stats/positie/",
+  "https://eredivisie.nl/stats/historisch/",
+  "https://eredivisie.nl/nieuws/fantasy-dreamteam-speelronde-12/",
+  "https://eredivisie.nl/clubs/telstar/spelers/tyrone-owusu/",
+  "https://eredivisie.nl/competitie/clubs/psv/",
+  "https://eredivisie.nl/competitie/clubs/feyenoord/",
+  "https://eredivisie.nl/competitie/clubs/ajax/",
+  "https://eredivisie.nl/competitie/clubs/fc-twente/",
+  "https://eredivisie.nl/competitie/clubs/az/",
+  "https://eredivisie.nl/competitie/clubs/sc-heerenveen/",
+  "https://eredivisie.nl/competitie/clubs/fortuna-sittard/",
+  "https://eredivisie.nl/competitie/clubs/go-ahead-eagles/",
+  "https://eredivisie.nl/competitie/clubs/fc-groningen/",
+  "https://eredivisie.nl/competitie/clubs/cambuur/",
+  "https://eredivisie.nl/competitie/clubs/nec/",
+  "https://eredivisie.nl/competitie/clubs/sparta-rotterdam/",
+  "https://eredivisie.nl/competitie/clubs/pec-zwolle/",
+  "https://eredivisie.nl/competitie/clubs/fc-utrecht/",
+  "https://eredivisie.nl/competitie/clubs/excelsior/",
+  "https://eredivisie.nl/competitie/clubs/telstar/",
+  "https://eredivisie.nl/competitie/clubs/ado-den-haag/",
+  "https://eredivisie.nl/competitie/clubs/willem-ii/",
+  "/stats/"
+ ],
+ "homeLen": 240024,
+ "playerImgs": [
+  "https://eredivisie.b-cdn.net/production/players/2027/TELSTAR_TYRONE_OWUSU_510779_01_2026-10-16-185253_xuig.png?width=550&amp;height=776&amp;format=png&amp;quality=80"
+ ],
+ "apiHints": [
+  "https://www.google.com/recaptcha/api.js?render=6LcExzgbAAAAAE8fNk4eUG4Uut9EG1EXH3Ui9B_C&hl=nl"
+ ],
+ "clubLink": "https://eredivisie.nl/competitie/clubs/",
+ "club": {
+  "u": "https://eredivisie.nl/competitie/clubs/",
+  "s": 200,
+  "len": 129160,
+  "imgs": [],
+  "links": []
+ },
+ "https://eredivisie.nl/vriendenloterijeredivisie/spelers": {
+  "s": 404,
+  "len": 76,
+  "final": "https://eredivisie.nl/vriendenloterijeredivisie/spelers/",
+  "head": "{\"name\":\"Not Found\",\"message\":\"Pagina niet gevonden.\",\"code\":0,\"status\":404}",
+  "playerImgs": 0,
+  "urls": []
+ },
+ "https://eredivisie.nl/vriendenloterijeredivisie/clubs": {
+  "s": 404,
+  "len": 76,
+  "final": "https://eredivisie.nl/vriendenloterijeredivisie/clubs/",
+  "head": "{\"name\":\"Not Found\",\"message\":\"Pagina niet gevonden.\",\"code\":0,\"status\":404}",
+  "playerImgs": 0,
+  "urls": []
+ },
+ "https://eredivisie.nl/vriendenloterijeredivisie/sitemap.xml": {
+  "s": 404,
+  "len": 76,
+  "final": "https://eredivisie.nl/vriendenloterijeredivisie/sitemap.xml",
+  "head": "{\"name\":\"Not Found\",\"message\":\"Pagina niet gevonden.\",\"code\":0,\"status\":404}",
+  "playerImgs": 0,
+  "urls": []
+ },
+ "https://eredivisie.nl/sitemap.xml": {
+  "s": 200,
+  "len": 2520,
+  "final": "https://eredivisie.nl/sitemaps-1-sitemap.xml",
+  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><?xml-stylesheet type=\"text/xsl\" href=\"sitemap.xsl\"?><sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"><sitemap><loc>https://eredivisie.nl/sitemap",
+  "playerImgs": 0,
+  "urls": [
+   "<loc>https://eredivisie.nl/sitemaps-1-section-action-1-sitemap.xml</loc>",
+   "<loc>https://eredivisie.nl/sitemaps-1-section-actionPage-1-sitemap.xml</loc>",
+   "<loc>https://eredivisie.nl/sitemaps-1-section-clubs-1-sitemap.xml</loc>",
+   "<loc>https://eredivisie.nl/sitemaps-1-section-homepage-1-sitemap.xml</loc>",
+   "<loc>https://eredivisie.nl/sitemaps-1-section-matches-1-sitemap.xml</loc>",
+   "<loc>https://eredivisie.nl/sitemaps-1-section-news-1-sitemap-p1.xml</loc>",
+   "<loc>https://eredivisie.nl/sitemaps-1-section-news-1-sitemap-p2.xml</loc>",
+   "<loc>https://eredivisie.nl/sitemaps-1-section-news-1-sitemap-p3.xml</loc>",
+   "<loc>https://eredivisie.nl/sitemaps-1-section-news-1-sitemap-p4.xml</loc>",
+   "<loc>https://eredivisie.nl/sitemaps-1-section-newsOverview-1-sitemap.xml</loc>",
+   "<loc>https://eredivisie.nl/sitemaps-1-section-discoverEredivisie-1-sitemap.xml</loc>",
+   "<loc>https://eredivisie.nl/sitemaps-1-section-pages-1-sitemap.xml</loc>",
+   "<loc>https://eredivisie.nl/sitemaps-1-section-players-1-sitemap-p1.xml</loc>",
+   "<loc>https://eredivisie.nl/sitemaps-1-section-players-1-sitemap-p2.xml</loc>",
+   "<loc>https://eredivisie.nl/sitemaps-1-section-seasonHallOfFame-1-sitemap.xml</loc>",
+   "<loc>https://eredivisie.nl/sitemaps-1-section-videos-1-sitemap.xml</loc>",
+   "<loc>https://eredivisie.nl/sitemaps-1-section-videosOverview-1-sitemap.xml</loc>"
+  ]
+ }
+}
