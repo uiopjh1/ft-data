@@ -1,5 +1,5 @@
 {
- "updated": 1794357050510,
+ "updated": 1794380528466,
  "items": [
   {
    "club": "Al Riyadh",
@@ -20,11 +20,39 @@
    ]
   },
   {
+   "club": "Crystal Palace",
+   "club_ar": "",
+   "type": "sack",
+   "first": "2026-11-08T21:46:00",
+   "sources": [
+    {
+     "host": "sports.yahoo.com",
+     "title": "Crystal Palace Sack Pierre Sage With Club Bottom Of Premier League Table - Yahoo Sports",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQd0NaS0FTVlltdGtXYU5kM19kS19lVFpSN3lVc0tCQ3VZbVV4VnNVYml6cWF0WTlSVTJOR0gyLUF4RGxjeTN0LU51VDFMbGtZaUljS0JfdFQxcURTYnBNZXpSdmZORUdVRmZ4RjNEaEFzalRTeXF0bkhhUThSalR5enAtMXJ5ZVk?oc=5"
+    },
+    {
+     "host": "telegraph.co.uk",
+     "title": "Crystal Palace line up Frank with Sage to be sacked within days - The Telegraph",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUjNuYWpaMFlwMlJxb2RmbUNHQUNBbncxYjRyVGpiNzdzX2E3dUR5bFBPc05JY0lyVkRRVGt1QWJSUHNVMlk4OE9RMFEzSWpfTHVicEl4ZjRqRDhzcGRBUkZvdnNHM09odmhLa2dlSXZBVVRIVFdOYlhCT3dDbnVQckRFc2NDMmNXRjJLZjNObGZlVm5RQzVBZFJva1Z3aF95MndVaEFYdXR3eTQ?oc=5"
+    },
+    {
+     "host": "uk.sports.yahoo.com",
+     "title": "Jens Berthel Askou in Crystal Palace manager frame amid Sage sack calls - Yahoo",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNN3RwaFhCYnhSbmM1WVN5SjRFYjMweWlLa3Y5Y3lSa3BUX2JXM3Ntb2dVYjJxT3ZOMEVVSmlKV1lLemt2VnRhTHBHSC1BWjgtRld4bjdhVXhGdnU5ZGdzTU5yUnVBdldONW9WLVdmbU50bzB0Q0RnX05JdXN6NWJzQ2ZmWDZiOHpG?oc=5"
+    }
+   ]
+  },
+  {
    "club": "Manchester United",
    "club_ar": "",
    "type": "sack",
    "first": "2026-11-08T18:16:28",
    "sources": [
+    {
+     "host": "theguardian.com",
+     "title": "‘I expect to move forward’: Carrick denies risk of Manchester United sack - The Guardian",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOV2tYWlNOanh5N0ZjNGZkNUdqT2xHWVNWT3BHcERONWlDSktXb1JNNVEyeHJkTXZ0NHhjWHplY0xROUVqdTFfM3djQmhaN3o1Z3BkTW9kajBmN3IwUTF0d0F3MzhhQjVvdUJtN25DRk0tR2VWUGtoaTF3Qms5OTRCeUR5bHdPbGlweDhGMFJvMzJGU3h2bHlFaElhMWVoR3JsTHpmVEZ2S2xyX09icnVZUkc5QlFrWWNDbk1PU2ZJc0cwYWRNZ2I1SDNFaw?oc=5"
+    },
     {
      "host": "mirror.co.uk",
      "title": "Eddie Howe responds to job offer as Man Utd finally decide to sack Michael Carrick - The Mirror",
@@ -36,32 +64,9 @@
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTV9pc3d1ZzdrN1JzR2pfMWdQSHdQc0x3UXhXU3AyWVJpOVBhLU5YbmlPSlBWUUp5d1dQdEFrZjBPZWM5ZXRIOXo0M2FMbGdvNW0yZWFUaE5rdXY2OXBJdEc3NGQwX3M2UVlOdFZCTU5nZzhnb2EwUzVPTDVEMEhmV2tB?oc=5"
     },
     {
-     "host": "theguardian.com",
-     "title": "‘I expect to move forward’: Carrick denies risk of Manchester United sack - The Guardian",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOV2tYWlNOanh5N0ZjNGZkNUdqT2xHWVNWT3BHcERONWlDSktXb1JNNVEyeHJkTXZ0NHhjWHplY0xROUVqdTFfM3djQmhaN3o1Z3BkTW9kajBmN3IwUTF0d0F3MzhhQjVvdUJtN25DRk0tR2VWUGtoaTF3Qms5OTRCeUR5bHdPbGlweDhGMFJvMzJGU3h2bHlFaElhMWVoR3JsTHpmVEZ2S2xyX09icnVZUkc5QlFrWWNDbk1PU2ZJc0cwYWRNZ2I1SDNFaw?oc=5"
-    },
-    {
      "host": "standard.co.uk",
      "title": "Man Utd fans 'in agreement' over Carrick sack decision - London Evening Standard",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTjZGSERJdnZ5akxKczFwQVBqZmlJSHBFWVEzRE1ReEozNVJ4cjZjaEJQUXg2aFB6ajBWMm9DeEFaWVZEZW03QU5fa2VEYlJITGpFeWVOc1dIWmFUZXJpNDRVZjZwQUhLWC1qWFN6b2lEN1NTZHlDNXJvZlAwX2psSWVhbnh4VFAyN19CUjhqVjJzZWxtX2xMOURnd2M?oc=5"
-    }
-   ]
-  },
-  {
-   "club": "Crystal Palace",
-   "club_ar": "",
-   "type": "sack",
-   "first": "2026-11-08T21:46:00",
-   "sources": [
-    {
-     "host": "telegraph.co.uk",
-     "title": "Crystal Palace line up Frank with Sage to be sacked within days - The Telegraph",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUjNuYWpaMFlwMlJxb2RmbUNHQUNBbncxYjRyVGpiNzdzX2E3dUR5bFBPc05JY0lyVkRRVGt1QWJSUHNVMlk4OE9RMFEzSWpfTHVicEl4ZjRqRDhzcGRBUkZvdnNHM09odmhLa2dlSXZBVVRIVFdOYlhCT3dDbnVQckRFc2NDMmNXRjJLZjNObGZlVm5RQzVBZFJva1Z3aF95MndVaEFYdXR3eTQ?oc=5"
-    },
-    {
-     "host": "uk.sports.yahoo.com",
-     "title": "Jens Berthel Askou in Crystal Palace manager frame amid Sage sack calls - Yahoo",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNN3RwaFhCYnhSbmM1WVN5SjRFYjMweWlLa3Y5Y3lSa3BUX2JXM3Ntb2dVYjJxT3ZOMEVVSmlKV1lLemt2VnRhTHBHSC1BWjgtRld4bjdhVXhGdnU5ZGdzTU5yUnVBdldONW9WLVdmbU50bzB0Q0RnX05JdXN6NWJzQ2ZmWDZiOHpG?oc=5"
     }
    ]
   },
@@ -87,13 +92,8 @@
    "club": "Sassuolo",
    "club_ar": "",
    "type": "sack",
-   "first": "2026-11-09T16:06:20",
+   "first": "2026-11-09T18:30:23",
    "sources": [
-    {
-     "host": "corriere.it",
-     "title": "Alberto Aquilani esonerato dal Sassuolo, D'Aversa o Montella per la sostituzione - Corriere della Sera",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWG9HdVdTTkNNUksxN1RXc0xyMElabkhvb0hleXhBOXNUWnVNcjdnU0RBaGFxQzRyM0FXNmJDbmY5bmItWXJQbFdkcFFfWlVSQ003aWVnR1EwS3l1QWVsUVhHMk5MSWdmSGdWTzhqTnctY3QyNmdadS0tZFdSWlBMb3p4LTg4b0xpZ0N6NW9SMV9QSGIzMDZ1R21qUTc0V01KdElrVjBBSlJZV1VCUkJJMnlzMU8ycy1CSDJFR2tlR0VadVh3VFl4TWw2RXNDcnfSAc8BQVVfeXFMT1hvR3VXU05DTVJLMTdUV3NMcjBJWm5Ib29IZXl4QTlzVFp1TXI3Z1NEQWhhcUM0cjNBVzZiQ25mOW5iLVlyUGxXZHBRX1pVUkNNN2llZ0dRMEt5dUFlbFFYRzJOTElnZkhnVk84ak53LWN0MjZnWnUtLWRXUlpQTG96eC04OG9MaWdDejVvUjFfUEhiMzA2dUdtalE3NFdNSnRJa1YwQUpSWVdVQlJCSTJ5czFPMnMtQkgyRUdrZUdFWnVYd1RZeE1sNkVzQ3J3?oc=5"
-    },
     {
      "host": "football-italia.net",
      "title": "Official: Sassuolo have fired Aquilani after five straight defeats - Football Italia",

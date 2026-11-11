@@ -1,5 +1,5 @@
 {
- "t": "2026-11-11T00:30:00.605052",
+ "t": "2026-11-11T07:01:24.478709",
  "seen": [
   {
    "club": "Al Ahli",
@@ -19,17 +19,6 @@
    ]
   },
   {
-   "club": "Manchester United",
-   "type": "sack",
-   "n": 4,
-   "hosts": [
-    "mirror.co.uk",
-    "sports.yahoo.com",
-    "theguardian.com",
-    "standard.co.uk"
-   ]
-  },
-  {
    "club": "Nottingham Forest",
    "type": "sack",
    "n": 1,
@@ -40,10 +29,30 @@
   {
    "club": "Crystal Palace",
    "type": "sack",
-   "n": 2,
+   "n": 3,
    "hosts": [
+    "sports.yahoo.com",
     "telegraph.co.uk",
     "uk.sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Manchester United",
+   "type": "sack",
+   "n": 4,
+   "hosts": [
+    "theguardian.com",
+    "mirror.co.uk",
+    "sports.yahoo.com",
+    "standard.co.uk"
+   ]
+  },
+  {
+   "club": "Manchester United",
+   "type": "hire",
+   "n": 1,
+   "hosts": [
+    "sports.yahoo.com"
    ]
   },
   {
@@ -66,9 +75,8 @@
   {
    "club": "Sassuolo",
    "type": "sack",
-   "n": 3,
+   "n": 2,
    "hosts": [
-    "corriere.it",
     "football-italia.net",
     "ca.sports.yahoo.com"
    ]
@@ -76,17 +84,6 @@
  ],
  "eu": [
   {
-   "club": "Manchester United",
-   "type": "sack",
-   "n": 4,
-   "hosts": [
-    "mirror.co.uk",
-    "sports.yahoo.com",
-    "theguardian.com",
-    "standard.co.uk"
-   ]
-  },
-  {
    "club": "Nottingham Forest",
    "type": "sack",
    "n": 1,
@@ -97,10 +94,30 @@
   {
    "club": "Crystal Palace",
    "type": "sack",
-   "n": 2,
+   "n": 3,
    "hosts": [
+    "sports.yahoo.com",
     "telegraph.co.uk",
     "uk.sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Manchester United",
+   "type": "sack",
+   "n": 4,
+   "hosts": [
+    "theguardian.com",
+    "mirror.co.uk",
+    "sports.yahoo.com",
+    "standard.co.uk"
+   ]
+  },
+  {
+   "club": "Manchester United",
+   "type": "hire",
+   "n": 1,
+   "hosts": [
+    "sports.yahoo.com"
    ]
   },
   {
@@ -123,9 +140,8 @@
   {
    "club": "Sassuolo",
    "type": "sack",
-   "n": 3,
+   "n": 2,
    "hosts": [
-    "corriere.it",
     "football-italia.net",
     "ca.sports.yahoo.com"
    ]
