@@ -1,0 +1,590 @@
+{
+ "ligue1": [
+  {
+   "u": "https://ligue1.com/en",
+   "s": 200,
+   "final": "https://ligue1.com/en",
+   "len": 130741,
+   "next": true,
+   "nextKeys": [
+    "_nextI18Next"
+   ],
+   "hrefs": [
+    "https://www.lfp.fr/1-team-hub"
+   ],
+   "imgs": [],
+   "hosts": []
+  },
+  {
+   "u": "https://ligue1.com/en/competitions/ligue1ubereats/clubs",
+   "s": 200,
+   "final": "https://ligue1.com/en/competitions/ligue1ubereats/clubs",
+   "len": 118358,
+   "next": true,
+   "nextKeys": [
+    "_nextI18Next"
+   ],
+   "hrefs": [
+    "https://ligue1.com/fr/competitions/ligue1ubereats/clubs",
+    "https://ligue1.com/en/competitions/ligue1ubereats/clubs",
+    "https://www.lfp.fr/1-team-hub"
+   ],
+   "imgs": [],
+   "hosts": []
+  },
+  {
+   "u": "https://ligue1.com/en/teams",
+   "s": 404,
+   "final": "https://ligue1.com/en/teams",
+   "len": 62800,
+   "next": true,
+   "nextKeys": [],
+   "hrefs": [
+    "https://www.lfp.fr/1-team-hub"
+   ],
+   "imgs": [],
+   "hosts": []
+  },
+  {
+   "u": "https://ligue1.com/en/standings",
+   "s": 404,
+   "final": "https://ligue1.com/en/standings",
+   "len": 62800,
+   "next": true,
+   "nextKeys": [],
+   "hrefs": [
+    "https://www.lfp.fr/1-team-hub"
+   ],
+   "imgs": [],
+   "hosts": []
+  },
+  {
+   "u": "https://ligue1.com/en/competitions/ligue1ubereats/standings",
+   "s": 200,
+   "final": "https://ligue1.com/en/competitions/ligue1ubereats/standings",
+   "len": 121881,
+   "next": true,
+   "nextKeys": [
+    "_nextI18Next"
+   ],
+   "hrefs": [
+    "https://www.lfp.fr/1-team-hub"
+   ],
+   "imgs": [],
+   "hosts": []
+  },
+  {
+   "u": "https://ligue1.com/fr/clubs",
+   "s": 404,
+   "final": "https://ligue1.com/fr/clubs",
+   "len": 62800,
+   "next": true,
+   "nextKeys": [],
+   "hrefs": [
+    "https://www.lfp.fr/1-team-hub"
+   ],
+   "imgs": [],
+   "hosts": []
+  }
+ ],
+ "portugal": [
+  {
+   "u": "https://www.ligaportugal.pt/",
+   "s": 200,
+   "final": "https://www.ligaportugal.pt/",
+   "len": 1308343,
+   "next": false,
+   "hrefs": [],
+   "imgs": [],
+   "hosts": []
+  },
+  {
+   "u": "https://www.ligaportugal.pt/pt/liga/clubes/",
+   "s": 404,
+   "final": "https://www.ligaportugal.pt/pt/liga/clubes/",
+   "len": 1261554,
+   "next": false,
+   "hrefs": [],
+   "imgs": [],
+   "hosts": []
+  },
+  {
+   "u": "https://www.ligaportugal.pt/en/liga/clubes/",
+   "s": 404,
+   "final": "https://www.ligaportugal.pt/en/liga/clubes/",
+   "len": 1261554,
+   "next": false,
+   "hrefs": [],
+   "imgs": [],
+   "hosts": []
+  },
+  {
+   "u": "https://www.ligaportugal.pt/pt/liga/jogadores/",
+   "s": 404,
+   "final": "https://www.ligaportugal.pt/pt/liga/jogadores/",
+   "len": 1261566,
+   "next": false,
+   "hrefs": [],
+   "imgs": [],
+   "hosts": []
+  }
+ ],
+ "turkey": [
+  {
+   "u": "https://www.tff.org/default.aspx?pageID=198",
+   "s": 200,
+   "final": "https://www.tff.org/default.aspx?pageID=198",
+   "len": 335164,
+   "next": false,
+   "hrefs": [
+    "https://www.instagram.com/millitakimlar"
+   ],
+   "imgs": [],
+   "hosts": [
+    "https://pfuub0mfbyfj.merlincdn.net"
+   ]
+  },
+  {
+   "u": "https://www.tff.org/Default.aspx?pageId=1178",
+   "s": 200,
+   "final": "https://www.tff.org/Default.aspx?pageId=1178",
+   "len": 283666,
+   "next": false,
+   "hrefs": [],
+   "imgs": [],
+   "hosts": [
+    "https://pfuub0mfbyfj.merlincdn.net"
+   ]
+  },
+  {
+   "u": "https://www.trendyol-superlig.com/",
+   "s": 0,
+   "final": "https://www.trendyol-superlig.com/",
+   "len": 0,
+   "err": "fetch failed",
+   "next": false,
+   "hrefs": [],
+   "imgs": [],
+   "hosts": []
+  },
+  {
+   "u": "https://superlig.tff.org/",
+   "s": 0,
+   "final": "https://superlig.tff.org/",
+   "len": 0,
+   "err": "fetch failed",
+   "next": false,
+   "hrefs": [],
+   "imgs": [],
+   "hosts": []
+  }
+ ],
+ "belgium": [
+  {
+   "u": "https://www.proleague.be/en",
+   "s": 404,
+   "final": "https://www.proleague.be/en",
+   "len": 60904,
+   "next": true,
+   "nextKeys": [
+    "statusCode",
+    "settings",
+    "branding"
+   ],
+   "hrefs": [],
+   "imgs": [],
+   "hosts": [
+    "https://statics-maker.llt-services.com",
+    "https://fonts.gstatic.com"
+   ]
+  },
+  {
+   "u": "https://www.proleague.be/en/jupiler-pro-league/clubs",
+   "s": 404,
+   "final": "https://www.proleague.be/en/jupiler-pro-league/clubs",
+   "len": 60933,
+   "next": true,
+   "nextKeys": [
+    "statusCode",
+    "settings",
+    "branding"
+   ],
+   "hrefs": [],
+   "imgs": [],
+   "hosts": [
+    "https://statics-maker.llt-services.com",
+    "https://fonts.gstatic.com"
+   ]
+  },
+  {
+   "u": "https://www.proleague.be/",
+   "s": 200,
+   "final": "https://www.proleague.be/",
+   "len": 283235,
+   "next": true,
+   "nextKeys": [
+    "authData",
+    "configPage",
+    "dataLayerHierarchy",
+    "noIndex",
+    "query",
+    "rrss",
+    "settings",
+    "slug",
+    "type",
+    "data",
+    "branding",
+    "slugs",
+    "seoData"
+   ],
+   "hrefs": [
+    "/nieuws/nieuwe-datum-voor-k-beerschot-va-club-nxt",
+    "/nieuws/rsc-anderlecht-club-yla-verplaatst-omwille-van-wk-u17"
+   ],
+   "imgs": [],
+   "hosts": [
+    "https://statics-maker.llt-services.com",
+    "https://fonts.gstatic.com"
+   ]
+  }
+ ],
+ "scotland": [
+  {
+   "u": "https://spfl.co.uk/",
+   "s": 200,
+   "final": "https://spfl.co.uk/",
+   "len": 200198,
+   "next": false,
+   "hrefs": [
+    "/clubs",
+    "https://www.spflplayer.com",
+    "/news/graham-voted-player-of-the-month-51515",
+    "/clubs/ross-county",
+    "/clubs/dunfermline-athletic",
+    "/clubs/aberdeen",
+    "/clubs/celtic",
+    "/clubs/dundee",
+    "/clubs/dundee-united",
+    "/clubs/falkirk",
+    "/clubs/heart-of-midlothian",
+    "/clubs/hibernian",
+    "/clubs/kilmarnock",
+    "/clubs/motherwell",
+    "/clubs/rangers",
+    "/clubs/st-johnstone",
+    "/clubs/st-mirren",
+    "/clubs/arbroath",
+    "/clubs/ayr-united",
+    "/clubs/greenock-morton",
+    "/clubs/inverness-caledonian-thistle",
+    "/clubs/livingston",
+    "/clubs/partick-thistle",
+    "/clubs/queens-park",
+    "/clubs/raith-rovers"
+   ],
+   "imgs": [],
+   "hosts": [
+    "https://i.ytimg.com"
+   ]
+  },
+  {
+   "u": "https://spfl.co.uk/league/premiership/clubs",
+   "s": 404,
+   "final": "https://spfl.co.uk/league/premiership/clubs",
+   "len": 165015,
+   "next": false,
+   "hrefs": [
+    "/clubs",
+    "https://www.spflplayer.com",
+    "/clubs/celtic/fixtures",
+    "/clubs/st-mirren/fixtures",
+    "/clubs/falkirk/fixtures",
+    "/clubs/st-johnstone/fixtures",
+    "/clubs/hibernian/fixtures",
+    "/clubs/dundee-united/fixtures",
+    "/clubs/kilmarnock/fixtures",
+    "/clubs/aberdeen/fixtures",
+    "/clubs/dundee/fixtures",
+    "/clubs/heart-of-midlothian/fixtures",
+    "/clubs/motherwell/fixtures",
+    "/clubs/rangers/fixtures",
+    "/clubs/ayr-united/fixtures",
+    "/clubs/raith-rovers/fixtures",
+    "/clubs/livingston/fixtures",
+    "/clubs/greenock-morton/fixtures",
+    "/clubs/partick-thistle/fixtures",
+    "/clubs/inverness-caledonian-thistle/fixtures",
+    "/clubs/stenhousemuir/fixtures",
+    "/clubs/queens-park/fixtures",
+    "/clubs/arbroath/fixtures",
+    "/clubs/dunfermline-athletic/fixtures",
+    "/clubs/airdrieonians/fixtures"
+   ],
+   "imgs": [],
+   "hosts": []
+  },
+  {
+   "u": "https://spfl.co.uk/clubs",
+   "s": 200,
+   "final": "https://spfl.co.uk/clubs",
+   "len": 189244,
+   "next": false,
+   "hrefs": [
+    "https://spfl.co.uk/clubs",
+    "/clubs",
+    "https://www.spflplayer.com",
+    "/clubs/aberdeen",
+    "/clubs/airdrieonians",
+    "/clubs/alloa-athletic",
+    "/clubs/annan-athletic",
+    "/clubs/arbroath",
+    "/clubs/ayr-united",
+    "/clubs/celtic",
+    "/clubs/clyde",
+    "/clubs/cove-rangers",
+    "/clubs/dumbarton",
+    "/clubs/dundee",
+    "/clubs/dundee-united",
+    "/clubs/dunfermline-athletic",
+    "/clubs/east-fife",
+    "/clubs/",
+    "/clubs/edinburgh-city",
+    "/clubs/elgin-city",
+    "/clubs/falkirk",
+    "/clubs/forfar-athletic",
+    "/clubs/greenock-morton",
+    "/clubs/hamilton-academical",
+    "/clubs/heart-of-midlothian"
+   ],
+   "imgs": [],
+   "hosts": []
+  }
+ ],
+ "uefa": [
+  {
+   "u": "https://www.uefa.com/european-qualifiers/teams/",
+   "s": 0,
+   "final": "https://www.uefa.com/european-qualifiers/teams/",
+   "len": 0,
+   "err": "This operation was aborted",
+   "next": false,
+   "hrefs": [],
+   "imgs": [],
+   "hosts": []
+  },
+  {
+   "u": "https://www.uefa.com/uefanationsleague/teams/",
+   "s": 0,
+   "final": "https://www.uefa.com/uefanationsleague/teams/",
+   "len": 0,
+   "err": "This operation was aborted",
+   "next": false,
+   "hrefs": [],
+   "imgs": [],
+   "hosts": []
+  },
+  {
+   "u": "https://www.uefa.com/euro2024/teams/",
+   "s": 0,
+   "final": "https://www.uefa.com/euro2024/teams/",
+   "len": 0,
+   "err": "This operation was aborted",
+   "next": false,
+   "hrefs": [],
+   "imgs": [],
+   "hosts": []
+  },
+  {
+   "u": "https://www.uefa.com/european-qualifiers/",
+   "s": 0,
+   "final": "https://www.uefa.com/european-qualifiers/",
+   "len": 0,
+   "err": "This operation was aborted",
+   "next": false,
+   "hrefs": [],
+   "imgs": [],
+   "hosts": []
+  }
+ ],
+ "fifa": [
+  {
+   "u": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/teams",
+   "s": 200,
+   "final": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/teams",
+   "len": 4552,
+   "next": false,
+   "hrefs": [
+    "https://license.theoplayer.com",
+    "https://cdn.theoplayer.com/conviva/conviva-4.0.12.js"
+   ],
+   "imgs": [],
+   "hosts": [
+    "https://assets.adobedtm.com",
+    "https://cdn.cookielaw.org",
+    "https://cdn.theoplayer.com",
+    "https://www.gstatic.com",
+    "https://assets.pingone.com"
+   ]
+  },
+  {
+   "u": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
+   "s": 200,
+   "final": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
+   "len": 4552,
+   "next": false,
+   "hrefs": [
+    "https://license.theoplayer.com",
+    "https://cdn.theoplayer.com/conviva/conviva-4.0.12.js"
+   ],
+   "imgs": [],
+   "hosts": [
+    "https://assets.adobedtm.com",
+    "https://cdn.cookielaw.org",
+    "https://cdn.theoplayer.com",
+    "https://www.gstatic.com",
+    "https://assets.pingone.com"
+   ]
+  },
+  {
+   "u": "https://www.fifa.com/en",
+   "s": 200,
+   "final": "https://www.fifa.com/en",
+   "len": 4552,
+   "next": false,
+   "hrefs": [
+    "https://license.theoplayer.com",
+    "https://cdn.theoplayer.com/conviva/conviva-4.0.12.js"
+   ],
+   "imgs": [],
+   "hosts": [
+    "https://assets.adobedtm.com",
+    "https://cdn.cookielaw.org",
+    "https://cdn.theoplayer.com",
+    "https://www.gstatic.com",
+    "https://assets.pingone.com"
+   ]
+  }
+ ],
+ "others": [
+  {
+   "u": "https://www.mlssoccer.com/players/",
+   "s": 200,
+   "final": "https://www.mlssoccer.com/players/",
+   "len": 199067,
+   "next": false,
+   "hrefs": [
+    "https://www.mlssoccer.com/players/",
+    "https://www.mlssoccer.com/clubs/index",
+    "https://www.mlssoccer.com/players/index",
+    "/clubs/atlanta-united/roster/",
+    "/clubs/atlanta-united/stats/",
+    "/clubs/austin-fc/roster/",
+    "/clubs/austin-fc/stats/",
+    "/clubs/charlotte-fc/roster/",
+    "/clubs/charlotte-fc/stats/",
+    "/clubs/chicago-fire-fc/roster/",
+    "/clubs/chicago-fire-fc/stats/",
+    "/clubs/fc-cincinnati/roster/",
+    "/clubs/fc-cincinnati/stats/",
+    "/clubs/colorado-rapids/roster/",
+    "/clubs/colorado-rapids/stats/",
+    "/clubs/columbus-crew/roster/",
+    "/clubs/columbus-crew/stats/",
+    "/clubs/fc-dallas/roster/",
+    "/clubs/fc-dallas/stats/",
+    "/clubs/d-c-united/roster/",
+    "/clubs/d-c-united/stats/",
+    "/clubs/houston-dynamo-fc/roster/",
+    "/clubs/houston-dynamo-fc/stats/",
+    "/clubs/sporting-kansas-city/roster/",
+    "/clubs/sporting-kansas-city/stats/"
+   ],
+   "imgs": [],
+   "hosts": [
+    "https://images.mlssoccer.com",
+    "https://cookie-cdn.cookiepro.com",
+    "https://cdn.jsdelivr.net",
+    "https://mediaserver.betmgmpartners.com",
+    "https://static.srcspot.com"
+   ]
+  },
+  {
+   "u": "https://www.mlssoccer.com/clubs/",
+   "s": 200,
+   "final": "https://www.mlssoccer.com/clubs/",
+   "len": 245209,
+   "next": false,
+   "hrefs": [
+    "https://www.mlssoccer.com/clubs/",
+    "https://www.mlssoccer.com/clubs/index",
+    "https://www.mlssoccer.com/players/index",
+    "/clubs/atlanta-united/",
+    "/clubs/atlanta-united/schedule",
+    "/clubs/austin-fc/",
+    "/clubs/austin-fc/schedule",
+    "/clubs/charlotte-fc/",
+    "https://charlottefootballclub.com/tickets",
+    "/clubs/charlotte-fc/schedule",
+    "https://charlottefootballclub.com/",
+    "/clubs/chicago-fire-fc/",
+    "/clubs/chicago-fire-fc/schedule",
+    "/clubs/fc-cincinnati/",
+    "/clubs/fc-cincinnati/schedule",
+    "/clubs/colorado-rapids/",
+    "/clubs/colorado-rapids/schedule",
+    "/clubs/columbus-crew/",
+    "/clubs/columbus-crew/schedule",
+    "/clubs/d-c-united/",
+    "/clubs/d-c-united/schedule",
+    "/clubs/fc-dallas/",
+    "/clubs/fc-dallas/schedule",
+    "/clubs/houston-dynamo-fc/",
+    "/clubs/houston-dynamo-fc/schedule"
+   ],
+   "imgs": [],
+   "hosts": [
+    "https://images.mlssoccer.com",
+    "https://cookie-cdn.cookiepro.com",
+    "https://cdn.jsdelivr.net",
+    "https://mediaserver.betmgmpartners.com",
+    "https://static.srcspot.com"
+   ]
+  },
+  {
+   "u": "https://www.cafonline.com/",
+   "s": 200,
+   "final": "https://www.cafonline.com/",
+   "len": 114150,
+   "next": false,
+   "hrefs": [
+    "/inside-caf/development/club-licensing/",
+    "/inside-caf/about-us/official-documents/club-licensing/",
+    "https://online.fliphtml5.com/ucwqa/CAF_Interclub_Mag_SINGLES_DIGITAL/index.html"
+   ],
+   "imgs": [],
+   "hosts": [
+    "https://fonts.gstatic.com",
+    "https://cdn.jsdelivr.net"
+   ]
+  },
+  {
+   "u": "https://www.the-afc.com/en/national.html",
+   "s": 200,
+   "final": "https://www.the-afc.com/en/national.html",
+   "len": 1276045,
+   "next": false,
+   "hrefs": [
+    "/image/AFG/2026-27/Club-Fantasy-Predictor/ACL-Elite/MD5/ACLElite_Fantasy_PopupBanner_512x640px_EN.png",
+    "/en/club.html",
+    "/en/national/fifa_u-17_world_cup.html/news/know-your-team-korea-republic-1"
+   ],
+   "imgs": [],
+   "hosts": [
+    "https://media.the-afc.com",
+    "https://assets.the-afc.com",
+    "https://avplayer-cdn.sportradar.com",
+    "https://cdn.priv.center"
+   ]
+  }
+ ]
+}
