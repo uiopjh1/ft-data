@@ -1,0 +1,182 @@
+{
+ "ctx": [
+  {
+   "c": "3salazgiig9ia.js",
+   "re": "/player-sheet|playerSheet/g",
+   "ctx": "ify(r,{addQueryPrefix:!0})}`,clubPlayersRanking:(e,o)=>`/club-sheet/${e}/club-players-ranking${a.default.stringify(o,{addQueryPrefix:!0})}`,playerSheet:(e,o,r)=>`/player-sheet/${e}/${o}${a.default.stringify(r,{addQueryPrefix:!0})}`,articlesHome:e=>`/articles${a.default.stringify(e,{addQueryPrefix:!0})}`,article:(e,o)=>`/articles/${e}-${o}"
+  },
+  {
+   "c": "3salazgiig9ia.js",
+   "re": "/player-sheet|playerSheet/g",
+   "ctx": "0})}`,clubPlayersRanking:(e,o)=>`/club-sheet/${e}/club-players-ranking${a.default.stringify(o,{addQueryPrefix:!0})}`,playerSheet:(e,o,r)=>`/player-sheet/${e}/${o}${a.default.stringify(r,{addQueryPrefix:!0})}`,articlesHome:e=>`/articles${a.default.stringify(e,{addQueryPrefix:!0})}`,article:(e,o)=>`/articles/${e}-${o}`,fantasyArticlesHome:e"
+  },
+  {
+   "c": "3hgfdyizbfs02.js",
+   "re": "/ligue1\\.image/g",
+   "ctx": "me:e.label,item:e.href.startsWith(\"http\")?e.href:`${L}${e.href}`}))}:null,m=[...l?[l]:[],...x??[]],f=s??\"https://s3.eu-west-3.amazonaws.com/ligue1.image/l1_banner.jpg\";p[21]!==h||p[22]!==f?(e=[{url:f,width:1200,height:630,alt:h}],p[21]=h,p[22]=f,p[23]=e):e=p[23],p[24]!==h||p[25]!==u||p[26]!==e||p[27]!==d||p[28]!==P?(a={url:P,title:d,descr"
+  },
+  {
+   "c": "0tnexs_f40daa.js",
+   "re": "/bustPictures|facePictures|fullBodyPictures/g",
+   "ctx": "[\"PLAYER_POSITION\",0,s],648156);let o=(e,t,i)=>e.map(e=>{let r=t[e];return{...r,playerId:r.id,lastName:r.lastName??\"\",bustePicture:r.assets.bustPictures?.small??void 0,facePicture:r.assets.facePictures?.small??void 0,nationality:{label:r.countryShortCode,image:r.countryImageUrl},position:i}}),n={7:0,8:1,9:2,10:3,11:4,0:5,1:6,2:7,3:8,4:9,5"
+  },
+  {
+   "c": "0tnexs_f40daa.js",
+   "re": "/bustPictures|facePictures|fullBodyPictures/g",
+   "ctx": "map(e=>{let r=t[e];return{...r,playerId:r.id,lastName:r.lastName??\"\",bustePicture:r.assets.bustPictures?.small??void 0,facePicture:r.assets.facePictures?.small??void 0,nationality:{label:r.countryShortCode,image:r.countryImageUrl},position:i}}),n={7:0,8:1,9:2,10:3,11:4,0:5,1:6,2:7,3:8,4:9,5:10,6:11};e.s([\"getAvailableCompetitions\",0,e=>a("
+  },
+  {
+   "c": "0tnexs_f40daa.js",
+   "re": "/bustPictures|facePictures|fullBodyPictures/g",
+   "ctx": "playerIdentity,position:e.position,playerId:e.playerIdentity.id,lastName:e.playerIdentity.lastName??\"\",bustePicture:e.playerIdentity.assets.bustPictures?.small??void 0,playedMatches:t?e.playedMatches:void 0,nationality:{label:e.playerIdentity.countryShortCode,image:e.playerIdentity.countryImageUrl}}),\"getFormattedClubManager\",0,e=>{if(e)r"
+  },
+  {
+   "c": "0tnexs_f40daa.js",
+   "re": "/api\\/v\\d|\\/graphql|apollo|NEXT_PUBLIC_[A-Z_]+/g",
+   "ctx": "80).__importStar(e.r(191788)),s=(0,a.createContext)({});i.useConfig=()=>(0,a.useContext)(s),i.default=({children:e,loginUrl:t=r.default.env.NEXT_PUBLIC_AUTH0_LOGIN||\"/api/auth/login\"})=>a.default.createElement(s.Provider,{value:{loginUrl:t}},e)},628598,(e,t,i)=>{\"use strict\";var r=e.i(350461);Object.defineProperty(i,\"__esModule\",{value:!0"
+  },
+  {
+   "c": "0tnexs_f40daa.js",
+   "re": "/api\\/v\\d|\\/graphql|apollo|NEXT_PUBLIC_[A-Z_]+/g",
+   "ctx": "){throw new n(0)}if(204!=t.status){if(t.ok)return t.json();throw new n(t.status)}};i.default=({children:e,user:t,profileUrl:a=r.default.env.NEXT_PUBLIC_AUTH0_PROFILE||\"/api/auth/me\",loginUrl:n,fetcher:l=u})=>{let[c,d]=(0,s.useState)({user:t,isLoading:!t}),h=(0,s.useCallback)(async()=>{try{let e=await l(a);d(t=>Object.assign(Object.assign("
+  },
+  {
+   "c": "1z19xbxi8_3l3.js",
+   "re": "/ligue1\\.image/g",
+   "ctx": "L=`${l}${f}`,$=`https://ligue1.com${P}`;return w[23]===Symbol.for(\"react.memo_cache_sentinel\")?(d=[{url:\"https://s3.eu-west-3.amazonaws.com/ligue1.image/l1_banner.jpg\",width:1920,height:1080,alt:\"Ligue 1 McDonald's\"}],w[23]=d):d=w[23],w[24]!==$?(h={url:$,title:\"Ligue 1 McDonald's\",description:\"Ligue 1 McDonald's\",images:d,site_name:\"Ligue"
+  },
+  {
+   "c": "1z19xbxi8_3l3.js",
+   "re": "/api\\/v\\d|\\/graphql|apollo|NEXT_PUBLIC_[A-Z_]+/g",
+   "ctx": "g=(e={})=>{var t,r,o,l;let f=n.default.env.AUTH0_SECRET,d=n.default.env.AUTH0_ISSUER_BASE_URL,h=n.default.env.AUTH0_BASE_URL||n.default.env.NEXT_PUBLIC_AUTH0_BASE_URL,p=n.default.env.AUTH0_CLIENT_ID,b=n.default.env.AUTH0_CLIENT_SECRET,m=n.default.env.AUTH0_CLOCK_TOLERANCE,g=n.default.env.AUTH0_HTTP_TIMEOUT,y=n.default.env.AUTH0_ENABLE_TEL"
+  },
+  {
+   "c": "1z19xbxi8_3l3.js",
+   "re": "/api\\/v\\d|\\/graphql|apollo|NEXT_PUBLIC_[A-Z_]+/g",
+   "ctx": "t.assign({},Z),{organization:X||O,routes:Object.assign(Object.assign({},Z.routes),{login:(null==(l=Y.routes)?void 0:l.login)||n.default.env.NEXT_PUBLIC_AUTH0_LOGIN||\"/api/auth/login\"})})};let l=(e={},t)=>{let n;return i=>(n||(i.getCookies(),\"getUrl\"in i&&i.getUrl(),n=(0,r.getConfig)(Object.assign(Object.assign({},e),{session:Object.assign"
+  },
+  {
+   "c": "408kfpqt5gfd1.js",
+   "re": "/api\\/v\\d|\\/graphql|apollo|NEXT_PUBLIC_[A-Z_]+/g",
+   "ctx": "lector(`meta[name=\"${e}\"]`);t&&t.remove()}catch{}}}();let d={environment:e.environment||f.default.env.SENTRY_ENVIRONMENT||((t=f.default.env.NEXT_PUBLIC_VERCEL_ENV)?`vercel-${t}`:void 0)||\"production\",defaultIntegrations:(a=np(e),(\"u\"<typeof __SENTRY_TRACING__||__SENTRY_TRACING__)&&a.push(function(e={}){let t=((e={})=>{let t,n;\"enableEleme"
+  },
+  {
+   "c": "44l2wq6eu1p2f.js",
+   "re": "/ligue1\\.image/g",
+   "ctx": "_esModule\",{value:!0}),s.allEmptyStatesBustPicturesSet=void 0;let t=e.r(94500),o={default:{facePictures:\"https://s3.eu-west-3.amazonaws.com/ligue1.image/players/defaultAssets/default_facePicturesNB-125x125.png\",bustPictures:\"https://s3.eu-west-3.amazonaws.com/ligue1.image/players/defaultAssets/default_bustPicturesNB-400x300.png\",fullBodyP"
+  },
+  {
+   "c": "44l2wq6eu1p2f.js",
+   "re": "/ligue1\\.image/g",
+   "ctx": "est-3.amazonaws.com/ligue1.image/players/defaultAssets/default_facePicturesNB-125x125.png\",bustPictures:\"https://s3.eu-west-3.amazonaws.com/ligue1.image/players/defaultAssets/default_bustPicturesNB-400x300.png\",fullBodyPictures:\"https://s3.eu-west-3.amazonaws.com/ligue1.image/players/defaultAssets/default_fullBodyPicturesNB-400x600.png\"},"
+  },
+  {
+   "c": "44l2wq6eu1p2f.js",
+   "re": "/ligue1\\.image/g",
+   "ctx": "3.amazonaws.com/ligue1.image/players/defaultAssets/default_bustPicturesNB-400x300.png\",fullBodyPictures:\"https://s3.eu-west-3.amazonaws.com/ligue1.image/players/defaultAssets/default_fullBodyPicturesNB-400x600.png\"},\"9000000001\":{facePictures:\"https://s3.eu-west-1.amazonaws.com/image.mpg/assets/players/defaultAssets/2026-1-125x125_7360d64"
+  },
+  {
+   "c": "44l2wq6eu1p2f.js",
+   "re": "/ligue1\\.image/g",
+   "ctx": "e,a,s)=>{\"use strict\";Object.defineProperty(s,\"__esModule\",{value:!0}),s.default={default:{facePictures:\"https://s3.eu-west-3.amazonaws.com/ligue1.image/players/defaultAssets/default_facePicturesNB-125x125.png\",bustPictures:\"https://s3.eu-west-3.amazonaws.com/ligue1.image/players/defaultAssets/default_bustPicturesNB-400x300.png\",fullBodyP"
+  },
+  {
+   "c": "44l2wq6eu1p2f.js",
+   "re": "/bustPictures|facePictures|fullBodyPictures/g",
+   "ctx": "ssetsCategories=s.extraDataPlayerType=void 0,s.extraDataPlayerType=\"l1_extra_data_player\",s.extraDataPlayerAssetsCategories={FACE_PICTURES:\"facePictures\",BUST_PICTURES:\"bustPictures\",FULL_BODY_PICTURES:\"fullBodyPictures\",CELEBRATION_FACE_PICTURES:\"celebrationFacePictures\",CELEBRATION_BUST_PICTURES:\"celebrationBustPictures\",CELEBRATION_FUL"
+  },
+  {
+   "c": "44l2wq6eu1p2f.js",
+   "re": "/bustPictures|facePictures|fullBodyPictures/g",
+   "ctx": "ayerType=void 0,s.extraDataPlayerType=\"l1_extra_data_player\",s.extraDataPlayerAssetsCategories={FACE_PICTURES:\"facePictures\",BUST_PICTURES:\"bustPictures\",FULL_BODY_PICTURES:\"fullBodyPictures\",CELEBRATION_FACE_PICTURES:\"celebrationFacePictures\",CELEBRATION_BUST_PICTURES:\"celebrationBustPictures\",CELEBRATION_FULL_BODY_PICTURES:\"celebrationF"
+  },
+  {
+   "c": "44l2wq6eu1p2f.js",
+   "re": "/bustPictures|facePictures|fullBodyPictures/g",
+   "ctx": "ype=\"l1_extra_data_player\",s.extraDataPlayerAssetsCategories={FACE_PICTURES:\"facePictures\",BUST_PICTURES:\"bustPictures\",FULL_BODY_PICTURES:\"fullBodyPictures\",CELEBRATION_FACE_PICTURES:\"celebrationFacePictures\",CELEBRATION_BUST_PICTURES:\"celebrationBustPictures\",CELEBRATION_FULL_BODY_PICTURES:\"celebrationFullBodyPictures\",PERSO_CELEBRATION"
+  },
+  {
+   "c": "44l2wq6eu1p2f.js",
+   "re": "/bustPictures|facePictures|fullBodyPictures/g",
+   "ctx": "ries=s.championshipPlayerType=void 0,s.championshipPlayerType=\"l1_championship_player\",s.championshipPlayerAssetsCategories={FACE_PICTURES:\"facePictures\",BUST_PICTURES:\"bustPictures\",FULL_BODY_PICTURES:\"fullBodyPictures\",CELEBRATION_FULL_BODY_PICTURES:\"celebrationFullBodyPictures\",CELEBRATION_BUST_PICTURES:\"celebrationBustPictures\",ASSIST"
+  },
+  {
+   "c": "1o9ts736fvexh.js",
+   "re": "/api\\/v\\d|\\/graphql|apollo|NEXT_PUBLIC_[A-Z_]+/g",
+   "ctx": "PENID_PROVIDER:\"ligueun_auth0_sso\",L1_VESPER_WEB_URL:\"https://plus.ligue1.com/\",L1_VESPER_DRM_LICENSE_URL:\"https://shield-drm.imggaming.com/api/v2/license\",L1_VESPER_DRM_CERTIFICATE_URL:\"\"};t.s([\"appEnv\",0,r])},285700,t=>{\"use strict\";var e=t.i(191788),r=t.i(391398),i=e.createContext(void 0);t.s([\"QueryClientProvider\",0,({client:t,childre"
+  },
+  {
+   "c": "23np6o60gn0yk.js",
+   "re": "/api\\/v\\d|\\/graphql|apollo|NEXT_PUBLIC_[A-Z_]+/g",
+   "ctx": "token_type:\"idAccessRefresh\",subject_token:JSON.stringify({idToken:e,accessToken:t,providerName:n})}),a=await r.ligue1PlusAuthClient.post(`/api/v2/openid/${n}/exchange`,o,{headers:{\"Content-Type\":\"application/x-www-form-urlencoded\"}});return{accessToken:a.access_token,refreshToken:a.refresh_token}},logout:()=>{n.useLigue1PlusStore.getStat"
+  },
+  {
+   "c": "23np6o60gn0yk.js",
+   "re": "/api\\/v\\d|\\/graphql|apollo|NEXT_PUBLIC_[A-Z_]+/g",
+   "ctx": "643727,e=>{\"use strict\";var t=e.i(261576),r=e.i(893930),n=e.i(43131),i=e.i(408704),o=e.i(487358);let a=async()=>o.ligue1PlusApiClient.get(\"/api/v2/user/licence\"),s=\"ligue1Plus\",l=[s,\"licenses\"];function u(e){return!!e.token}function c(e){return e.licences}function d(e){return e.flatMap(c)}e.s([\"LIGUE1_PLUS_BASE_QUERY_KEY\",0,s,\"useLigue1Pl"
+  },
+  {
+   "c": "3i_r_pf4e7sza.js",
+   "re": "/player-sheet|playerSheet/g",
+   "ctx": "ify(n,{addQueryPrefix:!0})}`,clubPlayersRanking:(e,t)=>`/club-sheet/${e}/club-players-ranking${r.default.stringify(t,{addQueryPrefix:!0})}`,playerSheet:(e,t,n)=>`/player-sheet/${e}/${t}${r.default.stringify(n,{addQueryPrefix:!0})}`,articlesHome:e=>`/articles${r.default.stringify(e,{addQueryPrefix:!0})}`,article:(e,t)=>`/articles/${e}-${t}"
+  },
+  {
+   "c": "3i_r_pf4e7sza.js",
+   "re": "/player-sheet|playerSheet/g",
+   "ctx": "0})}`,clubPlayersRanking:(e,t)=>`/club-sheet/${e}/club-players-ranking${r.default.stringify(t,{addQueryPrefix:!0})}`,playerSheet:(e,t,n)=>`/player-sheet/${e}/${t}${r.default.stringify(n,{addQueryPrefix:!0})}`,articlesHome:e=>`/articles${r.default.stringify(e,{addQueryPrefix:!0})}`,article:(e,t)=>`/articles/${e}-${t}`,fantasyArticlesHome:e"
+  },
+  {
+   "c": "2isqb668l0or3.js",
+   "re": "/bustPictures|facePictures|fullBodyPictures/g",
+   "ctx": "HAMPIONSHIP_VALUE?$?.championships.allChampionships.allClubs.stats:ee,ei=H?.jerseyNumber,ea=H?.position,en=D?A?.championships?.[D]?.assets?.bustPictures?.small:null;return q[25]!==M||q[26]!==J||q[27]!==H||q[28]!==G||q[29]!==ei||q[30]!==D||q[31]!==er||q[32]!==es||q[33]!==W||q[34]!==e||q[35]!==A||q[36]!==en||q[37]!==ea||q[38]!==U?(L={id:e,p"
+  },
+  {
+   "c": "2isqb668l0or3.js",
+   "re": "/player-sheet|playerSheet/g",
+   "ctx": "ews:{article:\"\",\"squads-overview\":\"\",mercato:\"\",ballon:\"\"},fantasy:\"\",ligue1plus:\"\",[o[t.championshipsIds.FR_L1]]:{\"club-sheet-l1\":{[u]:\"\",\"player-sheet-l1\":\"\"}},[o[t.championshipsIds.FR_L2]]:{\"club-sheet-l2\":{[u]:\"\",\"player-sheet-l2\":\"\"}},[o[t.championshipsIds.FR_L3]]:\"\",[o[t.championshipsIds.EU_UC]]:\"\",[o[t.championshipsIds.EU_CL]]:\"\",["
+  },
+  {
+   "c": "2isqb668l0or3.js",
+   "re": "/player-sheet|playerSheet/g",
+   "ctx": "us:\"\",[o[t.championshipsIds.FR_L1]]:{\"club-sheet-l1\":{[u]:\"\",\"player-sheet-l1\":\"\"}},[o[t.championshipsIds.FR_L2]]:{\"club-sheet-l2\":{[u]:\"\",\"player-sheet-l2\":\"\"}},[o[t.championshipsIds.FR_L3]]:\"\",[o[t.championshipsIds.EU_UC]]:\"\",[o[t.championshipsIds.EU_CL]]:\"\",[o[t.championshipsIds.EU_CF]]:\"\",[o[t.championshipsIds.FR_FC]]:\"\",calendar:{\"ma"
+  },
+  {
+   "c": "2isqb668l0or3.js",
+   "re": "/player-sheet|playerSheet/g",
+   "ctx": "(),[o[t.championshipsIds.FR_L1]]:()=>n.routes.competition(t.championshipsIds.FR_L1,\"news\"),\"club-sheet-l1\":e=>n.routes.clubSheet(e,\"info\"),\"player-sheet-l1\":e=>n.routes.playerSheet(e,\"statistics\"),[o[t.championshipsIds.FR_L2]]:()=>n.routes.competition(t.championshipsIds.FR_L2,\"news\"),\"club-sheet-l2\":e=>n.routes.clubSheet(e,\"info\"),\"player"
+  },
+  {
+   "c": "2isqb668l0or3.js",
+   "re": "/player-sheet|playerSheet/g",
+   "ctx": "1]]:()=>n.routes.competition(t.championshipsIds.FR_L1,\"news\"),\"club-sheet-l1\":e=>n.routes.clubSheet(e,\"info\"),\"player-sheet-l1\":e=>n.routes.playerSheet(e,\"statistics\"),[o[t.championshipsIds.FR_L2]]:()=>n.routes.competition(t.championshipsIds.FR_L2,\"news\"),\"club-sheet-l2\":e=>n.routes.clubSheet(e,\"info\"),\"player-sheet-l2\":e=>n.routes.player"
+  },
+  {
+   "c": "_buildManifest.js",
+   "re": "/player-sheet|playerSheet/g",
+   "ctx": "hf5a4.js\" ], \"/page/[slug]\": [ \"static/chunks/02si9eio0h_of.js\" ], \"/partners\": [ \"static/chunks/0l0e_x5idfzs3.js\" ], \"/player-sheet/[id]\": [ \"static/chunks/2e_9orghb040h.js\" ], \"/player-sheet/[id]/[tab]\": [ \"static/chunks/2cwz6iik-mz0o.js\" ], \"/profile\": [ \"static/chunks/0becou10u7k_x.js\" ], \"/"
+  },
+  {
+   "c": "_buildManifest.js",
+   "re": "/player-sheet|playerSheet/g",
+   "ctx": "js\" ], \"/partners\": [ \"static/chunks/0l0e_x5idfzs3.js\" ], \"/player-sheet/[id]\": [ \"static/chunks/2e_9orghb040h.js\" ], \"/player-sheet/[id]/[tab]\": [ \"static/chunks/2cwz6iik-mz0o.js\" ], \"/profile\": [ \"static/chunks/0becou10u7k_x.js\" ], \"/profile/avatar\": [ \"static/chunks/0h-k7bcwzvxpl.js\" ], \"/sho"
+  },
+  {
+   "c": "_buildManifest.js",
+   "re": "/player-sheet|playerSheet/g",
+   "ctx": " \"/match-sheet/[id]/summary-video\", \"/match-sheet/[id]/[tab]\", \"/offres-ligue1plus\", \"/page/[slug]\", \"/partners\", \"/player-sheet/[id]\", \"/player-sheet/[id]/[tab]\", \"/profile\", \"/profile/avatar\", \"/showcase\", \"/videos\", \"/videos/live/[playId]\", \"/videos/search\", \"/videos/shorts/[id]\","
+  },
+  {
+   "c": "_buildManifest.js",
+   "re": "/player-sheet|playerSheet/g",
+   "ctx": "mmary-video\", \"/match-sheet/[id]/[tab]\", \"/offres-ligue1plus\", \"/page/[slug]\", \"/partners\", \"/player-sheet/[id]\", \"/player-sheet/[id]/[tab]\", \"/profile\", \"/profile/avatar\", \"/showcase\", \"/videos\", \"/videos/live/[playId]\", \"/videos/search\", \"/videos/shorts/[id]\", \"/videos/[id]\" ] };"
+  }
+ ],
+ "api": [],
+ "chunks": 46,
+ "nd": "{\"props\":{\"pageProps\":{\"player\":{\"id\":\"l1_championship_player_2026_1_103843\",\"name\":\"Jeffrey De Lange\"},\"club\":{\"id\":\"l1_championship_club_2026_1\",\"clubName\":\"Olympique De Marseille\"},\"mainChampionshipId\":1},\"isUserAuthenticated\":false,\"refresh_token\":false,\"language\":\"fr-FR\",\"viewport\":\"desktop\",\"__N_SSP\":true},\"page\":\"/player-sheet/[id]/[tab]\",\"query\":{\"id\":\"l1_championship_player_2026_1_103843\",\"tab\":\"statistics\"},\"buildId\":\"7ZMEmowvIGnVClK2vXzuh\",\"isFallback\":false,\"isExperimentalCompile\":false,\"gssp\":true,\"appGip\":true,\"locale\":\"fr\",\"locales\":[\"catchAll\",\"fr\",\"en\"],\"defaultLocale\":\"catchAll\",\"scriptLoader\":[{\"id\":\"gtm-init\",\"strategy\":\"afterInteractive\",\"dangerouslySetInnerHTML\":{\"__html\":\"\\n                  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\\n                  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\\n                  j=d.createElement(s),dl=l!='dataLayer'?'\\u0026l='+l:'';j.async=true;j.src=\\n                  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\\n                  })(window,document,'script','dataLayer','GTM-5RFCBRZK');\\n                \"}},{\"id\":\"adsbygoogle-init\",\"strategy\":\"afterInteractive\",\"crossOrigin\":\"anonymous\",\"src\":\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5491884602698158\"}]}",
+ "htmlImgs": [
+  "https://s3.eu-west-3.amazonaws.com/ligue1.image/l1_banner.jpg",
+  "https://www.lfp.fr/",
+  "https://www.lfp.fr/1-team-hub"
+ ]
+}
