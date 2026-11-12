@@ -1,0 +1,81 @@
+{
+ "players": {
+  "s": 200,
+  "len": 1896267,
+  "n": 3234,
+  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n      <urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xhtml=\"http://www.w3.org/1999/xhtml\">\n\n    <url>\n              <loc>https://ligue1.com/fr/player-sheet/l1_championship_player_2026_1_103843/statistics</loc>\n              <xhtml:link\n      ",
+  "sample": [
+   "https://ligue1.com/fr/player-sheet/l1_championship_player_2026_1_103843/statistics",
+   "https://ligue1.com/fr/player-sheet/l1_championship_player_2026_1_103843/matches",
+   "https://ligue1.com/fr/player-sheet/l1_championship_player_2026_1_103843",
+   "https://ligue1.com/fr/player-sheet/l1_championship_player_2026_1_98775/statistics",
+   "https://ligue1.com/fr/player-sheet/l1_championship_player_2026_1_98775/matches",
+   "https://ligue1.com/fr/player-sheet/l1_championship_player_2026_1_98775"
+  ],
+  "tail": [
+   "https://ligue1.com/fr/player-sheet/l1_championship_player_2026_84_505227/statistics",
+   "https://ligue1.com/fr/player-sheet/l1_championship_player_2026_84_505227/matches",
+   "https://ligue1.com/fr/player-sheet/l1_championship_player_2026_84_505227"
+  ]
+ },
+ "clubs": {
+  "s": 200,
+  "len": 99531,
+  "n": 180,
+  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n      <urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xhtml=\"http://www.w3.org/1999/xhtml\">\n\n    <url>\n            <loc>https://ligue1.com/fr/club-sheet/l1_championship_club_2026_1/info</loc>\n            <xhtml:link\n               rel=\"alterna",
+  "sample": [
+   "https://ligue1.com/fr/club-sheet/l1_championship_club_2026_1/info",
+   "https://ligue1.com/fr/club-sheet/l1_championship_club_2026_1/statistics",
+   "https://ligue1.com/fr/club-sheet/l1_championship_club_2026_1/calendar",
+   "https://ligue1.com/fr/club-sheet/l1_championship_club_2026_1/squad",
+   "https://ligue1.com/fr/club-sheet/l1_championship_club_2026_1",
+   "https://ligue1.com/fr/club-sheet/l1_championship_club_2026_13/info"
+  ],
+  "tail": [
+   "https://ligue1.com/fr/club-sheet/l1_championship_club_2026_84/calendar",
+   "https://ligue1.com/fr/club-sheet/l1_championship_club_2026_84/squad",
+   "https://ligue1.com/fr/club-sheet/l1_championship_club_2026_84"
+  ]
+ },
+ "pages": [
+  {
+   "u": "https://ligue1.com/fr/player-sheet/l1_championship_player_2026_1_103843/statistics",
+   "s": 200,
+   "len": 72788,
+   "imgs": [
+    "https://s3.eu-west-3.amazonaws.com/ligue1.image/l1_banner.jpg"
+   ],
+   "og": "https://s3.eu-west-3.amazonaws.com/ligue1.image/l1_banner.jpg",
+   "ndHead": "{\"props\":{\"pageProps\":{\"player\":{\"id\":\"l1_championship_player_2026_1_103843\",\"name\":\"Jeffrey De Lange\"},\"club\":{\"id\":\"l1_championship_club_2026_1\",\"clubName\":\"Olympique De Marseille\"},\"mainChampionshipId\":1},\"isUserAuthenticated\":false,\"refresh_token\":false,\"language\":\"fr-FR\",\"viewport\":\"desktop\",\"__N_SSP\":true},\"page\":\"/player-sheet/[id]/[tab]\",\"query\":{\"id\":\"l1_championship_player_2026_1_103843\",\"tab\":\"statistics\"},\"buildId\":\"7ZMEmowvIGnVClK2vXzuh\",\"isFallback\":false,\"isExperimentalCompile\":false,\"gssp\":true,\"appGip\":true,\"locale\":\"fr\",\"locales\":[\"catchAll\",\"fr\",\"en\"],\"defaultLocale\":\"catchAll\",\"scriptLoader\":[{\"id\":\"gtm-init\",\"strategy\":\"afterInteractive\",\"dangerouslySetInnerHTML\":{\"__html\":\"\\n                  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\\n                  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\\n                  j=d.createElement(s),dl=l!='dataLayer'?'\\u0026l='+l:'';j.async=true;j.src=\\n                  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\\n                  })(window,document,'script','dataLayer','GTM-5RFCBRZK');\\n                \"}},{\"id\":\"adsbygoogle-init\",\"strategy\":\"afterInteractive\",\"crossOrigin\":\"anonymous\",\"src\":\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5491884602698158\"}]}"
+  },
+  {
+   "u": "https://ligue1.com/fr/player-sheet/l1_championship_player_2026_1_103843/matches",
+   "s": 200,
+   "len": 72241,
+   "imgs": [
+    "https://s3.eu-west-3.amazonaws.com/ligue1.image/l1_banner.jpg"
+   ],
+   "og": "https://s3.eu-west-3.amazonaws.com/ligue1.image/l1_banner.jpg",
+   "ndHead": "{\"props\":{\"pageProps\":{\"player\":{\"id\":\"l1_championship_player_2026_1_103843\",\"name\":\"Jeffrey De Lange\"},\"club\":{\"id\":\"l1_championship_club_2026_1\",\"clubName\":\"Olympique De Marseille\"},\"mainChampionshipId\":1},\"isUserAuthenticated\":false,\"refresh_token\":false,\"language\":\"fr-FR\",\"viewport\":\"desktop\",\"__N_SSP\":true},\"page\":\"/player-sheet/[id]/[tab]\",\"query\":{\"id\":\"l1_championship_player_2026_1_103843\",\"tab\":\"matches\"},\"buildId\":\"7ZMEmowvIGnVClK2vXzuh\",\"isFallback\":false,\"isExperimentalCompile\":false,\"gssp\":true,\"appGip\":true,\"locale\":\"fr\",\"locales\":[\"catchAll\",\"fr\",\"en\"],\"defaultLocale\":\"catchAll\",\"scriptLoader\":[{\"id\":\"gtm-init\",\"strategy\":\"afterInteractive\",\"dangerouslySetInnerHTML\":{\"__html\":\"\\n                  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\\n                  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\\n                  j=d.createElement(s),dl=l!='dataLayer'?'\\u0026l='+l:'';j.async=true;j.src=\\n                  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\\n                  })(window,document,'script','dataLayer','GTM-5RFCBRZK');\\n                \"}},{\"id\":\"adsbygoogle-init\",\"strategy\":\"afterInteractive\",\"crossOrigin\":\"anonymous\",\"src\":\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5491884602698158\"}]}"
+  },
+  {
+   "u": "https://ligue1.com/fr/player-sheet/l1_championship_player_2026_1_103843",
+   "s": 200,
+   "len": 69752,
+   "imgs": [
+    "https://s3.eu-west-3.amazonaws.com/ligue1.image/l1_banner.jpg"
+   ],
+   "og": "https://s3.eu-west-3.amazonaws.com/ligue1.image/l1_banner.jpg",
+   "ndHead": "{\"props\":{\"pageProps\":{},\"isUserAuthenticated\":false,\"refresh_token\":false,\"language\":\"fr-FR\",\"viewport\":\"desktop\"},\"page\":\"/player-sheet/[id]\",\"query\":{\"id\":\"l1_championship_player_2026_1_103843\"},\"buildId\":\"7ZMEmowvIGnVClK2vXzuh\",\"isFallback\":false,\"isExperimentalCompile\":false,\"appGip\":true,\"locale\":\"fr\",\"locales\":[\"catchAll\",\"fr\",\"en\"],\"defaultLocale\":\"catchAll\",\"scriptLoader\":[{\"id\":\"gtm-init\",\"strategy\":\"afterInteractive\",\"dangerouslySetInnerHTML\":{\"__html\":\"\\n                  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\\n                  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\\n                  j=d.createElement(s),dl=l!='dataLayer'?'\\u0026l='+l:'';j.async=true;j.src=\\n                  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\\n                  })(window,document,'script','dataLayer','GTM-5RFCBRZK');\\n                \"}},{\"id\":\"adsbygoogle-init\",\"strategy\":\"afterInteractive\",\"crossOrigin\":\"anonymous\",\"src\":\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5491884602698158\"}]}"
+  }
+ ],
+ "clubPage": {
+  "u": "https://ligue1.com/fr/club-sheet/l1_championship_club_2026_1/info",
+  "s": 200,
+  "len": 72462,
+  "playerLinks": [],
+  "imgs": [
+   "https://s3.eu-west-3.amazonaws.com/ligue1.image/l1_banner.jpg"
+  ]
+ }
+}
