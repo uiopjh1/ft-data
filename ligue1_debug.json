@@ -21,6 +21,46 @@
   "As Monaco",
   "Paris Fc"
  ],
+ "keys": [
+  "id",
+  "shortLfpId",
+  "shortOptaId",
+  "firstName",
+  "lastName",
+  "birthDate",
+  "countryName",
+  "countryShortCode",
+  "countryImageUrl",
+  "preferredFoot",
+  "championships"
+ ],
+ "samples": [
+  {
+   "en": "Joao Neves",
+   "nick": null,
+   "others": {
+    "firstName": "Joao",
+    "lastName": "Neves"
+   }
+  },
+  {
+   "en": "Vitor Machado Ferreira",
+   "nick": "Vitinha",
+   "others": {
+    "firstName": "Vitor",
+    "lastName": "Machado Ferreira",
+    "knownName": "Vitinha"
+   }
+  },
+  {
+   "en": "Khvicha Kvaratskhelia",
+   "nick": null,
+   "others": {
+    "firstName": "Khvicha",
+    "lastName": "Kvaratskhelia"
+   }
+  }
+ ],
  "playersN": 466,
  "noImg": [
   "Rc Strasbourg Alsace:Genesis Antwi",
@@ -44,8 +84,8 @@
   "Angers Sco:Jules Bouffandeau",
   "Angers Sco:Mamadou Diallo",
   "Stade Brestois 29:Evan Mailly",
-  "Stade Brestois 29:Noah Edjouma",
   "Stade Brestois 29:Mathis Lainé",
+  "Stade Brestois 29:Noah Edjouma",
   "Stade Brestois 29:Enzo Monchatre",
   "Havre Athletic Club:Arnaud Bodart",
   "Havre Athletic Club:Alex Teixeira",
@@ -53,8 +93,8 @@
   "Havre Athletic Club:Thomas Rousseau",
   "Havre Athletic Club:Hakim Dongopandji",
   "Havre Athletic Club:Félix Mambimbi",
-  "Fc Lorient:Mamadou Kone",
   "Fc Lorient:Samir Haribou",
+  "Fc Lorient:Mamadou Kone",
   "Paris Fc:Ibrahim Meite"
  ],
  "noImgN": 33,
