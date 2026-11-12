@@ -1,0 +1,75 @@
+{
+ "paths": [
+  "get `/championship-calendar/${e}${t.default.stringify",
+  "get `/championship-calendar/${e}/nearest-game-weeks",
+  "get `/championship-club/${e}",
+  "get \"/championship-clubs",
+  "get \"/championships-order",
+  "get \"/championships-settings",
+  "`/championship-calendar/${e}/nearest-game-weeks`",
+  "`/championship-club/${e}`",
+  "\"/championship-clubs\"",
+  "\"/championships-order\"",
+  "\"/championships-settings\"",
+  "get `/championship-calendar/${t}${e.default.stringify",
+  "get `/championship-calendar/${t}/nearest-game-weeks",
+  "get `/championship-club/${t}",
+  "`/championship-calendar/${t}/nearest-game-weeks`",
+  "`/championship-club/${t}`",
+  "get `/championship-standings/${e}/${t}${r.default.stringify",
+  "get `/championship-players-pool/${e}/best-players",
+  "`/championship-players-pool/${e}/best-players`"
+ ],
+ "tests": [
+  {
+   "p": "/championship-clubs",
+   "s": 200,
+   "head": "{\"championshipsClubs\":{\"l1_championship_club_2026_1\":{\"id\":\"l1_championship_club_2026_1\",\"type\":\"l1_championship_club\",\"shortId\":1,\"season\":2026,\"shortOptaId\":144,\"optaUuid\":\"27xvwccz8kpmqsefjv2b2sc0o\",\"name\":\"Olympique de Marseille\",\"officialName\":\"Marseille\",\"shortName\":\"OM\",\"displayName\":\"Olympiq"
+  },
+  {
+   "p": "/championships",
+   "s": 404,
+   "head": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /championships</pre>\n</body>\n</html>\n"
+  },
+  {
+   "p": "/championship-players/l1_championship_club_2026_1",
+   "s": 404,
+   "head": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /championship-players/l1_championship_club_2026_1</pre>\n</body>\n</html>\n"
+  },
+  {
+   "p": "/championship-club/l1_championship_club_2026_1",
+   "s": 200,
+   "head": "{\"id\":\"l1_championship_club_2026_1\",\"type\":\"l1_championship_club\",\"shortId\":1,\"season\":2026,\"shortOptaId\":144,\"optaUuid\":\"27xvwccz8kpmqsefjv2b2sc0o\",\"name\":\"Olympique de Marseille\",\"officialName\":\"Marseille\",\"shortName\":\"OM\",\"displayName\":\"Olympique De Marseille\",\"businessName\":\"OM\",\"knownNames\":[\"O"
+  },
+  {
+   "p": "/championship-clubs/l1_championship_club_2026_1",
+   "s": 404,
+   "head": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /championship-clubs/l1_championship_club_2026_1</pre>\n</body>\n</html>\n"
+  },
+  {
+   "p": "/championship-clubs/l1_championship_club_2026_1/players",
+   "s": 404,
+   "head": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /championship-clubs/l1_championship_club_2026_1/players</pre>\n</body>\n</html>\n"
+  },
+  {
+   "p": "/championship-clubs/l1_championship_club_2026_1/squad",
+   "s": 404,
+   "head": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /championship-clubs/l1_championship_club_2026_1/squad</pre>\n</body>\n</html>\n"
+  },
+  {
+   "p": "/championship-players?clubId=l1_championship_club_2026_1",
+   "s": 404,
+   "head": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /championship-players</pre>\n</body>\n</html>\n"
+  },
+  {
+   "p": "/championship-player/l1_championship_player_2026_1_103843",
+   "s": 200,
+   "head": "{\"id\":\"l1_championship_player_2026_1_103843\",\"shortLfpId\":103843,\"shortOptaId\":216272,\"firstName\":\"Jeffrey\",\"lastName\":\"De Lange\",\"birthDate\":\"1998-04-01\",\"countryName\":\"Netherlands\",\"countryShortCode\":\"NLD\",\"countryImageUrl\":\"https://s3.eu-west-1.amazonaws.com/image.mpg/nl.png\",\"preferredFoot\":\"rig"
+  },
+  {
+   "p": "/championship-players/l1_championship_player_2026_1_103843",
+   "s": 404,
+   "head": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /championship-players/l1_championship_player_2026_1_103843</pre>\n</body>\n</html>\n"
+  }
+ ]
+}
