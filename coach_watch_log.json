@@ -1,5 +1,5 @@
 {
- "t": "2026-11-11T22:33:54.335053",
+ "t": "2026-11-12T03:42:05.450024",
  "seen": [
   {
    "club": "Al Ahli",
@@ -27,20 +27,19 @@
    ]
   },
   {
-   "club": "Manchester United",
-   "type": "sack",
-   "n": 2,
-   "hosts": [
-    "standard.co.uk",
-    "mirror.co.uk"
-   ]
-  },
-  {
    "club": "Crystal Palace",
    "type": "sack",
    "n": 1,
    "hosts": [
     "uk.sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Nottingham Forest",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "nytimes.com"
    ]
   },
   {
@@ -55,9 +54,10 @@
   {
    "club": "Sassuolo",
    "type": "sack",
-   "n": 5,
+   "n": 6,
    "hosts": [
     "corriere.it",
+    "amp.sportmediaset.mediaset.it",
     "tuttosport.com",
     "sports.yahoo.com",
     "football-italia.net",
@@ -83,20 +83,19 @@
    ]
   },
   {
-   "club": "Manchester United",
-   "type": "sack",
-   "n": 2,
-   "hosts": [
-    "standard.co.uk",
-    "mirror.co.uk"
-   ]
-  },
-  {
    "club": "Crystal Palace",
    "type": "sack",
    "n": 1,
    "hosts": [
     "uk.sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Nottingham Forest",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "nytimes.com"
    ]
   },
   {
@@ -111,9 +110,10 @@
   {
    "club": "Sassuolo",
    "type": "sack",
-   "n": 5,
+   "n": 6,
    "hosts": [
     "corriere.it",
+    "amp.sportmediaset.mediaset.it",
     "tuttosport.com",
     "sports.yahoo.com",
     "football-italia.net",
