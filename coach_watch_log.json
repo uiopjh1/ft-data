@@ -1,5 +1,5 @@
 {
- "t": "2026-11-12T12:24:54.224158",
+ "t": "2026-11-12T20:18:40.153636",
  "seen": [
   {
    "club": "Al Ahli",
@@ -14,37 +14,49 @@
    "type": "sack",
    "n": 2,
    "hosts": [
-    "alriyadh.com",
-    "arriyadiyah.com"
+    "arriyadiyah.com",
+    "alriyadh.com"
+   ]
+  },
+  {
+   "club": "Crystal Palace",
+   "type": "sack",
+   "n": 11,
+   "hosts": [
+    "skysports.com",
+    "bbc.com",
+    "france24.com",
+    "independent.co.uk",
+    "rfi.fr",
+    "espn.com",
+    "sports.yahoo.com",
+    "africa.espn.com",
+    "uk.sports.yahoo.com",
+    "sportsmole.co.uk",
+    "nytimes.com"
    ]
   },
   {
    "club": "Manchester United",
    "type": "sack",
-   "n": 9,
+   "n": 8,
    "hosts": [
-    "reuters.com",
-    "france24.com",
-    "skysports.com",
     "bbc.co.uk",
+    "skysports.com",
+    "bbc.com",
+    "france24.com",
+    "fourfourtwo.com",
     "sports.yahoo.com",
     "uk.sports.yahoo.com",
-    "cbssports.com",
-    "telegraph.co.uk",
     "nytimes.com"
    ]
   },
   {
    "club": "Sassuolo",
    "type": "sack",
-   "n": 6,
+   "n": 1,
    "hosts": [
-    "sport.sky.it",
-    "corriere.it",
-    "amp.sportmediaset.mediaset.it",
-    "tuttosport.com",
-    "football-italia.net",
-    "goal.com"
+    "sport.sky.it"
    ]
   },
   {
@@ -59,40 +71,54 @@
   {
    "club": "Le Havre AC",
    "type": "hire",
-   "n": 1,
+   "n": 3,
    "hosts": [
-    "madeinfoot.ouest-france.fr"
+    "footmercato.net",
+    "madeinfoot.ouest-france.fr",
+    "lequipe.fr"
    ]
   }
  ],
  "eu": [
   {
+   "club": "Crystal Palace",
+   "type": "sack",
+   "n": 11,
+   "hosts": [
+    "skysports.com",
+    "bbc.com",
+    "france24.com",
+    "independent.co.uk",
+    "rfi.fr",
+    "espn.com",
+    "sports.yahoo.com",
+    "africa.espn.com",
+    "uk.sports.yahoo.com",
+    "sportsmole.co.uk",
+    "nytimes.com"
+   ]
+  },
+  {
    "club": "Manchester United",
    "type": "sack",
-   "n": 9,
+   "n": 8,
    "hosts": [
-    "reuters.com",
-    "france24.com",
-    "skysports.com",
     "bbc.co.uk",
+    "skysports.com",
+    "bbc.com",
+    "france24.com",
+    "fourfourtwo.com",
     "sports.yahoo.com",
     "uk.sports.yahoo.com",
-    "cbssports.com",
-    "telegraph.co.uk",
     "nytimes.com"
    ]
   },
   {
    "club": "Sassuolo",
    "type": "sack",
-   "n": 6,
+   "n": 1,
    "hosts": [
-    "sport.sky.it",
-    "corriere.it",
-    "amp.sportmediaset.mediaset.it",
-    "tuttosport.com",
-    "football-italia.net",
-    "goal.com"
+    "sport.sky.it"
    ]
   },
   {
@@ -107,9 +133,11 @@
   {
    "club": "Le Havre AC",
    "type": "hire",
-   "n": 1,
+   "n": 3,
    "hosts": [
-    "madeinfoot.ouest-france.fr"
+    "footmercato.net",
+    "madeinfoot.ouest-france.fr",
+    "lequipe.fr"
    ]
   }
  ]
