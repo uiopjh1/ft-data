@@ -42,8 +42,11 @@ await Promise.all(Array.from({ length: 8 }, async () => {
     const en = [p.firstName, p.lastName].filter(Boolean).join(' ').trim();
     if (!en) continue;
     if (!img || /default/i.test(img)) { noImg.push(c.displayName + ':' + en); continue; }
+    if (!DBG.keys) DBG.keys = Object.keys(p);
+    if (/vitor|vitinha|joao neves|kvara/i.test(en)) { (DBG.samples = DBG.samples || []).push({ en, name: p.name, nick: p.nickname || p.nickName || p.knownName || p.shortName || p.displayName || p.commonName || null, others: Object.fromEntries(Object.entries(p).filter(([k, v]) => typeof v === 'string' && !/Url|birth|country|foot|id$/i.test(k)).slice(0, 14)) }); }
     const first = String(p.firstName || '').split(' ')[0];
-    const alt = [...new Set([first && p.lastName ? first + ' ' + p.lastName : '', p.lastName || ''].filter((x) => x && x !== en && x.split(' ').length >= 2))];
+    const nicks = ['nickname', 'nickName', 'knownName', 'shortName', 'displayName', 'commonName', 'matchName', 'name'].map((k) => p[k]).filter((x) => typeof x === 'string' && x.trim());
+    const alt = [...new Set([first && p.lastName ? first + ' ' + p.lastName : '', p.lastName || ''].filter((x) => x && x !== en && x.split(' ').length >= 2).concat(nicks.filter((x) => x !== en)))];
     const teamEn = [...new Set([c.name, c.officialName, c.displayName].filter(Boolean))].join(' ');
     players.push({ slug: slug(en), en, alt, ar: '', team: slug(c.officialName || c.name), teamEn, img });
   }
