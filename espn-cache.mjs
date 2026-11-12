@@ -1,6 +1,6 @@
 // يجلب ترتيب البطولات من ESPN مرة واحدة على خوادم GitHub ويحفظه ملفات يقرؤها التطبيق (بدل أن يطلبها كل جوال)
 import { writeFileSync, readFileSync, existsSync, mkdirSync } from 'node:fs';
-const SLUGS = ['ksa.1', 'eng.1', 'esp.1', 'ita.1', 'ger.1', 'fra.1', 'uefa.champions', 'uefa.europa', 'uefa.europa.conf', 'afc.champions'];
+const SLUGS = ['ksa.1', 'eng.1', 'esp.1', 'ita.1', 'ger.1', 'fra.1', 'uefa.champions', 'uefa.europa', 'uefa.europa.conf', 'afc.champions', 'ned.1', 'por.1', 'tur.1', 'bel.1', 'sco.1', 'eng.2'];
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 mkdirSync('espn/standings', { recursive: true });
 let ok = 0, bad = 0;
