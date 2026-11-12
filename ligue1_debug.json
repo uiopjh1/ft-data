@@ -1,0 +1,204 @@
+{
+ "steps": [],
+ "clubsN": 18,
+ "clubNames": [
+  "Olympique De Marseille",
+  "Paris Saint-Germain",
+  "Stade Rennais Fc",
+  "Rc Strasbourg Alsace",
+  "LOSC Lille",
+  "Olympique Lyonnais",
+  "Toulouse Fc",
+  "Aj Auxerre",
+  "Le Mans Fc",
+  "Ogc Nice",
+  "Estac Troyes",
+  "Angers Sco",
+  "Stade Brestois 29",
+  "Havre Athletic Club",
+  "Rc Lens",
+  "Fc Lorient",
+  "As Monaco",
+  "Paris Fc"
+ ],
+ "playersN": 466,
+ "noImg": [
+  "Rc Strasbourg Alsace:Genesis Antwi",
+  "Rc Strasbourg Alsace:Hermann Malonga",
+  "Rc Strasbourg Alsace:Pape Demba Diop",
+  "LOSC Lille:Zadig Lanssade",
+  "LOSC Lille:Thomas Sajous",
+  "LOSC Lille:Yéli Traoré",
+  "LOSC Lille:Dorinel Angel Yondjo Matah",
+  "Toulouse Fc:Théo Collin",
+  "Toulouse Fc:Niko Sigur",
+  "Toulouse Fc:Aymen Amaaouch",
+  "Aj Auxerre:Mohamed Coulibaly",
+  "Aj Auxerre:Salimou Danfakha",
+  "Aj Auxerre:Youssef Khoudda",
+  "Le Mans Fc:Joao Vitor Da Silva Almeida",
+  "Le Mans Fc:Lenny Videira",
+  "Le Mans Fc:Adnane Kharroubi",
+  "Ogc Nice:Nassim Laarej",
+  "Ogc Nice:Alidu Seidu",
+  "Angers Sco:Jules Bouffandeau",
+  "Angers Sco:Mamadou Diallo",
+  "Stade Brestois 29:Evan Mailly",
+  "Stade Brestois 29:Noah Edjouma",
+  "Stade Brestois 29:Mathis Lainé",
+  "Stade Brestois 29:Enzo Monchatre",
+  "Havre Athletic Club:Arnaud Bodart",
+  "Havre Athletic Club:Alex Teixeira",
+  "Havre Athletic Club:Mouhamed Lamine Ndiaye",
+  "Havre Athletic Club:Thomas Rousseau",
+  "Havre Athletic Club:Hakim Dongopandji",
+  "Havre Athletic Club:Félix Mambimbi",
+  "Fc Lorient:Mamadou Kone",
+  "Fc Lorient:Samir Haribou",
+  "Paris Fc:Ibrahim Meite"
+ ],
+ "noImgN": 33,
+ "failed": [],
+ "shared": [
+  "Anis Soubeir",
+  "Pape Cabral",
+  "Aymen Assab",
+  "Franjo Ivanovic",
+  "Moussa Diarra",
+  "Idrissa Soukouna",
+  "Jérémy Le Douaron",
+  "Christ Batola",
+  "Lassana Simakha",
+  "Noah Donkor",
+  "Enisio Carneiro",
+  "Cluver Sambi Mbungu",
+  "Tiago Goncalves",
+  "Angel Daniel Garcia",
+  "Yvann Konan",
+  "Matthias Da Silva",
+  "Elias Legendre Quinonez",
+  "Boulaye Dia",
+  "Ayanda Sishuba",
+  "Younes Idder",
+  "David Boly",
+  "Adam Mouak",
+  "Arthur Bar",
+  "Antoine Valero",
+  "Ugo Lamare El Kadmiri",
+  "Mathis Clement",
+  "Rayan Ouro Bang Na",
+  "Hilan Hamzaoui Slimani",
+  "Ibrahim Gomis",
+  "Anis Doubal"
+ ],
+ "teams": [
+  {
+   "slug": "marseille",
+   "en": "Olympique de Marseille Marseille Olympique De Marseille",
+   "ar": "",
+   "n": 25
+  },
+  {
+   "slug": "paris-saint-germain",
+   "en": "Paris Saint-Germain",
+   "ar": "",
+   "n": 24
+  },
+  {
+   "slug": "rennes",
+   "en": "Stade Rennais FC Rennes Stade Rennais Fc",
+   "ar": "",
+   "n": 23
+  },
+  {
+   "slug": "strasbourg",
+   "en": "RC Strasbourg Alsace Strasbourg Rc Strasbourg Alsace",
+   "ar": "",
+   "n": 30
+  },
+  {
+   "slug": "lille",
+   "en": "LOSC Lille Lille",
+   "ar": "",
+   "n": 25
+  },
+  {
+   "slug": "lyon",
+   "en": "Olympique Lyonnais Lyon",
+   "ar": "",
+   "n": 29
+  },
+  {
+   "slug": "toulouse",
+   "en": "Toulouse FC Toulouse Toulouse Fc",
+   "ar": "",
+   "n": 24
+  },
+  {
+   "slug": "auxerre",
+   "en": "AJ Auxerre Auxerre Aj Auxerre",
+   "ar": "",
+   "n": 32
+  },
+  {
+   "slug": "le-mans",
+   "en": "Le Mans FC Le Mans Le Mans Fc",
+   "ar": "",
+   "n": 28
+  },
+  {
+   "slug": "nice",
+   "en": "OGC Nice Nice Ogc Nice",
+   "ar": "",
+   "n": 29
+  },
+  {
+   "slug": "troyes",
+   "en": "Estac Troyes Troyes",
+   "ar": "",
+   "n": 22
+  },
+  {
+   "slug": "angers",
+   "en": "Angers SCO Angers Angers Sco",
+   "ar": "",
+   "n": 23
+  },
+  {
+   "slug": "brest",
+   "en": "Stade Brestois 29 Brest",
+   "ar": "",
+   "n": 23
+  },
+  {
+   "slug": "le-havre",
+   "en": "Havre Athletic Club Le Havre",
+   "ar": "",
+   "n": 24
+  },
+  {
+   "slug": "lens",
+   "en": "RC Lens Lens Rc Lens",
+   "ar": "",
+   "n": 28
+  },
+  {
+   "slug": "lorient",
+   "en": "FC Lorient Lorient Fc Lorient",
+   "ar": "",
+   "n": 26
+  },
+  {
+   "slug": "monaco",
+   "en": "AS Monaco Monaco As Monaco",
+   "ar": "",
+   "n": 26
+  },
+  {
+   "slug": "paris-fc",
+   "en": "Paris FC Paris Fc",
+   "ar": "",
+   "n": 25
+  }
+ ]
+}
