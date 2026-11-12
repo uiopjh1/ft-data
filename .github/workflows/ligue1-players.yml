@@ -1,0 +1,21 @@
+name: ligue1-players
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 4 * * *'
+permissions: { contents: write }
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: node ligue1-players.mjs
+        continue-on-error: true
+      - if: always()
+        run: |
+          git config user.name ft-bot; git config user.email ft-bot@users.noreply.github.com
+          git add ligue1_players.json ligue1_debug.json 2>/dev/null || git add ligue1_debug.json || true
+          git diff --cached --quiet && exit 0
+          git commit -qm "ligue1 players"; for i in 1 2 3 4 5 6; do git pull --rebase --autostash -q && git push -q && break; sleep 5; done
