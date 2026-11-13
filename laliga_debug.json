@@ -1,6 +1,6 @@
 {
  "steps": [],
- "pageLen": 294120,
+ "pageLen": 294117,
  "season": "2026",
  "teams": 20,
  "sub": "laliga-easports-2026",
@@ -38,16 +38,16 @@
   "getafe-cf:M. Achraf",
   "getafe-cf:J. Martínez",
   "getafe-cf:Danfakha",
+  "levante-ud:Luismi Perez",
+  "levante-ud:A. Moya",
   "r-racing-club:Belocian",
   "r-racing-club:Alvaro",
   "r-racing-club:Hector",
   "r-racing-club:Gaby",
   "r-racing-club:Solorzano",
-  "r-racing-club:Junior Bita",
-  "r-racing-club:Laso",
-  "rc-deportivo:M. Casadó"
+  "r-racing-club:Junior Bita"
  ],
- "playersN": 597,
+ "playersN": 601,
  "silhouettes": [
   "villarreal-cf:Cheikh",
   "villarreal-cf:Nizar",
@@ -61,6 +61,9 @@
   "real-sociedad:Maisano",
   "real-sociedad:H. Fort",
   "real-sociedad:M.sarr",
+  "real-betis:A. Postigo",
+  "real-betis:Á. De Pablo",
+  "real-betis:Yan",
   "rcd-espanyol:Cala",
   "rcd-espanyol:Kike G.",
   "rcd-espanyol:Vanja",
@@ -181,14 +184,14 @@
   "real-madrid:Rüdiger=40.00",
   "malaga-cf:Juani=40.27",
   "rc-deportivo:Leo Román=40.28",
-  "real-betis:Á. De Pablo=40.35",
   "malaga-cf:Otu Jr=40.39",
   "athletic-club:Djalo=40.39",
   "real-madrid:Thiago=40.65",
   "levante-ud:Nacho Perez=40.74",
   "rayo-vallecano:Kumbulla=40.80",
   "malaga-cf:Martínez=40.92",
-  "real-madrid:Arda Güler=40.97"
+  "real-madrid:Arda Güler=40.97",
+  "levante-ud:A. Primo=40.99"
  ],
  "visualDropped": [
   "real-madrid:Sergio=0.00",
