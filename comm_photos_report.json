@@ -102,7 +102,7 @@
   "ok": false
  },
  "عصام عبده": {
-  "cands": 3,
+  "cands": 2,
   "clusters": [
    [
     "ar.m.wikipedia.org"
@@ -121,6 +121,11 @@
   "ok": false
  },
  "ماهر المصطفى": {
+  "cands": 0,
+  "clusters": [],
+  "ok": false
+ },
+ "مةسى عيد": {
   "cands": 0,
   "clusters": [],
   "ok": false
