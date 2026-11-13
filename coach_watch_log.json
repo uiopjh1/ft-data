@@ -1,5 +1,5 @@
 {
- "t": "2026-11-13T17:02:28.007851",
+ "t": "2026-11-13T22:47:34.153631",
  "seen": [
   {
    "club": "Al Ahli",
@@ -12,10 +12,9 @@
   {
    "club": "Al Riyadh",
    "type": "sack",
-   "n": 2,
+   "n": 1,
    "hosts": [
-    "alriyadh.com",
-    "arriyadiyah.com"
+    "alriyadh.com"
    ]
   },
   {
@@ -29,13 +28,14 @@
   {
    "club": "Crystal Palace",
    "type": "sack",
-   "n": 7,
+   "n": 8,
    "hosts": [
     "skysports.com",
     "bbc.com",
+    "france24.com",
     "independent.co.uk",
-    "rfi.fr",
     "espn.com",
+    "sports.yahoo.com",
     "uk.sports.yahoo.com",
     "nytimes.com"
    ]
@@ -43,11 +43,12 @@
   {
    "club": "Manchester United",
    "type": "hire",
-   "n": 7,
+   "n": 8,
    "hosts": [
     "france24.com",
     "standard.co.uk",
     "nz.news.yahoo.com",
+    "uk.sports.yahoo.com",
     "skysports.com",
     "premierleague.com",
     "ca.sports.yahoo.com",
@@ -57,13 +58,14 @@
   {
    "club": "Manchester United",
    "type": "sack",
-   "n": 6,
+   "n": 7,
    "hosts": [
     "bbc.co.uk",
     "bbc.com",
+    "fourfourtwo.com",
     "uk.sports.yahoo.com",
-    "skysports.com",
     "sports.yahoo.com",
+    "skysports.com",
     "nytimes.com"
    ]
   },
@@ -72,9 +74,9 @@
    "type": "hire",
    "n": 3,
    "hosts": [
+    "lequipe.fr",
     "footmercato.net",
-    "madeinfoot.ouest-france.fr",
-    "lequipe.fr"
+    "madeinfoot.ouest-france.fr"
    ]
   }
  ],
@@ -82,13 +84,14 @@
   {
    "club": "Crystal Palace",
    "type": "sack",
-   "n": 7,
+   "n": 8,
    "hosts": [
     "skysports.com",
     "bbc.com",
+    "france24.com",
     "independent.co.uk",
-    "rfi.fr",
     "espn.com",
+    "sports.yahoo.com",
     "uk.sports.yahoo.com",
     "nytimes.com"
    ]
@@ -96,11 +99,12 @@
   {
    "club": "Manchester United",
    "type": "hire",
-   "n": 7,
+   "n": 8,
    "hosts": [
     "france24.com",
     "standard.co.uk",
     "nz.news.yahoo.com",
+    "uk.sports.yahoo.com",
     "skysports.com",
     "premierleague.com",
     "ca.sports.yahoo.com",
@@ -110,13 +114,14 @@
   {
    "club": "Manchester United",
    "type": "sack",
-   "n": 6,
+   "n": 7,
    "hosts": [
     "bbc.co.uk",
     "bbc.com",
+    "fourfourtwo.com",
     "uk.sports.yahoo.com",
-    "skysports.com",
     "sports.yahoo.com",
+    "skysports.com",
     "nytimes.com"
    ]
   },
@@ -125,9 +130,9 @@
    "type": "hire",
    "n": 3,
    "hosts": [
+    "lequipe.fr",
     "footmercato.net",
-    "madeinfoot.ouest-france.fr",
-    "lequipe.fr"
+    "madeinfoot.ouest-france.fr"
    ]
   }
  ]

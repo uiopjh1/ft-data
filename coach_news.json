@@ -1,24 +1,6 @@
 {
- "updated": 1794589395283,
+ "updated": 1794610101715,
  "items": [
-  {
-   "club": "Al Riyadh",
-   "club_ar": "الرياض",
-   "type": "sack",
-   "first": "2026-11-10T17:29:06",
-   "sources": [
-    {
-     "host": "alriyadh.com",
-     "title": "كورتوا: إقالة ألونسو «غير عادلة» ومورينيو أصبح أكثر هدوءاً ونضجاً - جريدة الرياض",
-     "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE85elRfdnVBRzFCWWFQNUt4TGZuZnQxNWowUWdpak14Q2ZTZjhXWlBNc1RFUnRqblQ3RHRmSV9tTVVsUkFEd0JN?oc=5"
-    },
-    {
-     "host": "arriyadiyah.com",
-     "title": "بعد الخسارة السادسة.. إقالة مدرب عبد الحميد - صحيفة الرياضية",
-     "link": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxQRjJVX1lXd0trT0hxdDFqWHlXLU9mSHl5M0VfeGxTekEwYUVJVlRhaTh4aXptM1NCcEhFVTN1bnFUVmZ2QU5jR2RPX1hBZHFyaEhET2FOZVAybzI2M2FMSEwyV1lGbGtTaWg5U2FYcm1WNHB6eVYzNm1zeUV3Z04zeXRpNHBJODdvbm0yRC12aUM3aThxbkdRUDVQcHkyYXZfcUhzV2pQRno1bzh2a2U0YWxjY3phcG5lbDM5bjdDckJ4Y3JtMkNDZlZ1c1JTX2x3eVNrV21mY0ZTYV9INlJWLThaR0l5MkQxQWR3WDFTa2I0cmpldUhjT2hOM3ZxN2x2QVVHaFFYNnp0bG1yTVh1ajk2V0ZQTlRsWlktbTJMT3NhenliaVV5Q2hTbjJYMlpNalNFX09sbkk1akJ0QWo3LVg2RDNkcmltTGEwUzJ3aG8xZG5RVW1USXYyVGJMOUJGV3lLQ0tIXzA?oc=5"
-    }
-   ]
-  },
   {
    "club": "Crystal Palace",
    "club_ar": "",
@@ -36,14 +18,14 @@
      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aR2R5Nkx1ZHVRLUFpWHhuSzc0VUpIUG9jVGlHbU16WUR3NUVZSjktSVBLVm1FM09PWDBITlJrWEtfcExTY3lUNmtGUlpVZ0dkXy1HaFdzblJ0YXFITnpwTm9LbXYwZGtJ?oc=5"
     },
     {
+     "host": "france24.com",
+     "title": "Crystal Palace sack manager Sage after just five months - France 24",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTmxPTnZzSGFxeEREcHFpUUsya3pYeEVwZkdxQVdKNVFaWTJjQXN1MDdiUEN6N0l5eUY3cGZrYzJ6b2U5RnY3T0xJcEtRR0xuZEYzM0xZUm5HMWhpN2l0UDhRdTdzYzZsZTNJem9FY01vTmRLMmdQUl9QQmdCVzAwdHViXzljQ1NSM2hxOHVPalVQY1ZzUTJCQlRnUkVvTFdJbEx1NA?oc=5"
+    },
+    {
      "host": "independent.co.uk",
      "title": "Pierre Sage sacked by Crystal Palace - The Independent",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMExiSmFDSGY4Yi05akt1M3JyZUNZNU81RGVZbE5xc2ZMMmE5di14Ui1vZEtkc0YtSGtJY2ZPY0RXTTEza2oyVFlwOVR5TzJudGxaVlg5N2ZpUFBzeUc1bUhlb3pBLTFOZW5MLW5RM09oWDY2TVpNUVk4MmtMQmZHeTVZVFJ5c24xMG1rb0VNTEQzd21xaXc1NHVUeFVDdUo1SGJoMzFuSWdzczg?oc=5"
-    },
-    {
-     "host": "rfi.fr",
-     "title": "Crystal Palace sack manager Sage after just five months - RFI",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbmQ5WXJmVGRibTkzcG1WRXpLSldiV0pRLXpidk80dW8yc2hMclFKZUNfS3ZadS1ZcHZhNkh5bmdxMDJNaHlYY0Zidm9LR3R4aFdFSXVTUFJidzF4M2NJR1hwWXE5QnpINGVoTnNhbXB2NHZDVjhBWnVWYlZBSFZWcHJhR05qZGFDZjFjMV80TUVVZGhYY2Fybw?oc=5"
     }
    ]
   },
@@ -69,9 +51,9 @@
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOanVzd3ZzWVFPRVNtOWQya3ctdDJ0TXl6eVU3NC03WFZMRmNaSWFrdE0tc284R0R4UWVRd2p0M19QMVdNbUZ6UUZPdDhZUjhHenl0NkkxM3BjSDV2bXhsRTdhekprTTNmaVRkcG9ZSjNnNWt1QzNhOThGcUxpbEVla2dNLVdRZ2o1WV9iZWpB?oc=5"
     },
     {
-     "host": "skysports.com",
-     "title": "Mauricio Pochettino appointed as Manchester United head coach after Michael Carrick's sacking at Old Trafford - Sky Sports",
-     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNVkRUTVhCRjBfS2RkWlMwWnAyeExES1hvRWJOVThOYVZWbVczaWQ2ZHJyUk9jZFVZNmFfZnpuZXNseXAwaTBDc3RWWHNRQkJEUjlEZG1BRTh2NlRvdGtYc0lQWXBuMVZWRkxqVFpoRDBCZG1iSUpzemF4ZnEycUxuVER3ZmpPM0dnU181ZC1VRW5HdHRFVWRweWpCQ3JPSVFaSndBRmVIa0ZnOTVqQndSNDl2S3lUak1heEJpWUlISnVnSmo0WlU5eUNqd0l2MlVHNmY3S1pha2tTUXBXWDU5dFFFNjBMbHlDUjNocW53?oc=5"
+     "host": "uk.sports.yahoo.com",
+     "title": "Mauricio Pochettino appointed Manchester United manager as INEOS confirm start date for Michael Carrick successor - Yahoo",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOUxlYTVabDV2YW14emV1MlViUXRrZ3VVNjZCNnBteXJVdVRKb3NBQm9LVE9nVWRUdXAwbjNEMkZpVWhPdGMzWXcwOXMydi1pZFRLdjVzUFViRGZqSUtJVC1xQ1RKemNHQ1ZKS1RpVlBhOUQ1VGlIaWplUk9HVWR0ckptUkNjdFItN1N6M1lWUmxVS0tJRDllR2N1Yw?oc=5"
     }
    ]
   },
@@ -79,7 +61,7 @@
    "club": "Manchester United",
    "club_ar": "",
    "type": "sack",
-   "first": "2026-11-12T00:00:00",
+   "first": "2026-11-12T10:21:29",
    "sources": [
     {
      "host": "bbc.co.uk",
@@ -92,14 +74,14 @@
      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9UUm9aT29OWjJWdUNSREpNajRsRkhUaXRJMXp0RkctLTVrRXdVb1B6U2dtVXQ5QVhRejR4M0h2MndraVZSVHI5cDhVLXBJRm8zazFtWE9OVmsxVGY0YU9IQVVLbjdPUXN2?oc=5"
     },
     {
+     "host": "fourfourtwo.com",
+     "title": "Manchester United sack manager Michael Carrick - FourFourTwo",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPM2x3WkNIVmVOdFRlUjZyY2tNbFZHd1hmR2oyTl90ZElWV0F5TGNpU211T3c3MnZIMHV0R3Q4dEVrRk9KTlQ4ZE9HbTlZZjFiQ09fWWFSWHZsWUl0VV81dEQ1MjJjMG1jUUswUzF2UTh1NHVQdzJYMFl6YS1mM3BnMUQ0UHZyV0x2R29PWlIyVUw1NmNzYWRTQnFxYV9SQTg?oc=5"
+    },
+    {
      "host": "uk.sports.yahoo.com",
      "title": "Michael Carrick SACKED! Man Utd axe club legend after disastrous run of form - Yahoo",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZmdCZjdtRElPU0tUNUJyS3Vpd2RPWmoyY3BvaHZUck1PTUFDMzFkY1NrbFQ4d0RRdmVrMk1BQWpHY3JhYTRHX2J5bHY0SHR2bnFka1Z6NnQ2Wm9IUWV5elFrMjZoVkJiT3FwT1ZjbVpPdHZXWjk5TzhrTzBXWVhfM3lzSkw?oc=5"
-    },
-    {
-     "host": "skysports.com",
-     "title": "Michael Carrick sacked by Man Utd: How his Old Trafford reign unravelled in worst start to a season in 40 years - Sky Sports",
-     "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNTk1RNmwySTZRcE5FaHFENkpkS0dVeC05WEt6RGdzc0Qxa05zUEJ3X3lUMGdDYmtBaF9nMV9EUmtIWDVRdkU0czFnOGVyazd1ck5QME1jTTJyQ1FHamtqci1uTVM2Z0YxUU4wYjRhMGQ3c1ZWN3E5blYyZmxqZkRnRTI2Z0lKaHhfSEJYOVJGSU13aXc3V0p2MHc0UzZ5ZGg1dWRhaVNvSzNYS0xobTE0bVNrdFVpdGpKWnB1eDgxaGFPMjFkZnRWUGlSOVFxVzVyNHNqNTFUeWxfTmZWX0hLU2lfUjdLSWdJSUNkSWhrUlE?oc=5"
     }
    ]
   },
@@ -110,6 +92,11 @@
    "first": "2026-11-11T18:38:00",
    "sources": [
     {
+     "host": "lequipe.fr",
+     "title": "Le Havre tient officiellement son nouvel entraîneur : Valérien Ismaël a signé son contrat - L'Équipe",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSWVUWThpRVV0dUhPMlRXVzhKT0VpNmVFdW9LWDBWREQ5bVRBZTA1NFBJelBjcm5tRmFzdVlBQThLRmlsbFlhVXBUekNxMWlLTzF5aU9uWHVZLWtwcENuTVlqN245di1vcERNa29xS24xaW51LVNmMG9DeXJIanl2ZkNqZDlRRV9CeTk3b3pNeGt0UjNybnhiZmhDUVNDSzNCOWdkMThGTHpBTzd4X3U3OEZWemFJUzVHel90U1JBUnE?oc=5"
+    },
+    {
      "host": "footmercato.net",
      "title": "Le Havre nomme Valérien Ismaël entraîneur - Foot Mercato",
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVkJ4dkNRVG9sQlI2MVZnTV9BR3FyY19ma09RSFlvdnlLMVU5bV9rclR3MGt2SmtQZGkwRUNaMVVGbXFfX014cDlGZlRIeDZ6OWFSMUVqMHE2NXkxOXhsSFBxaFRBNS11bmxWLTNIRlktZUgzZGRFT2MtSDUzZ0wzXzhDNmpoRzBpUzdrYncxeTZ0enRa?oc=5"
@@ -118,11 +105,6 @@
      "host": "madeinfoot.ouest-france.fr",
      "title": "Mercato Le Havre AC - Le HAC a trouvé son nouvel entraîneur ! - MadeInFoot",
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQmlwRGlIVUtDV3FSUDh4LXcyUl9yMlM5N3h3OFRxYnM2WWtMUWRiSkp2aWZDbnZVMHdRQnVHbFNrV0RaYjBWRmRWZTRkanlHV3FMQXZZcmxPN2VjcWlqSjk0WjMzODN4VEY1Z3E4LUlfbTJoMjZjcUx3WDhWemExTFBsd0tZX3ZBLVFKN2RPVm5KT3hJek5BV3ZwYmJQRDhUdzNlQXNYcjI2dG4wblVqSEVCcGlvRlFnd2c?oc=5"
-    },
-    {
-     "host": "lequipe.fr",
-     "title": "Le Havre tient officiellement son nouvel entraîneur : Valérien Ismaël a signé son contrat - L'Équipe",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSWVUWThpRVV0dUhPMlRXVzhKT0VpNmVFdW9LWDBWREQ5bVRBZTA1NFBJelBjcm5tRmFzdVlBQThLRmlsbFlhVXBUekNxMWlLTzF5aU9uWHVZLWtwcENuTVlqN245di1vcERNa29xS24xaW51LVNmMG9DeXJIanl2ZkNqZDlRRV9CeTk3b3pNeGt0UjNybnhiZmhDUVNDSzNCOWdkMThGTHpBTzd4X3U3OEZWemFJUzVHel90U1JBUnE?oc=5"
     }
    ]
   }
