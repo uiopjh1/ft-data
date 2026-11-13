@@ -1,5 +1,5 @@
 {
- "t": "2026-11-13T08:37:59.316570",
+ "t": "2026-11-13T17:02:28.007851",
  "seen": [
   {
    "club": "Al Ahli",
@@ -19,58 +19,52 @@
    ]
   },
   {
+   "club": "Al Riyadh",
+   "type": "hire",
+   "n": 1,
+   "hosts": [
+    "alriyadh.com"
+   ]
+  },
+  {
    "club": "Crystal Palace",
    "type": "sack",
-   "n": 9,
+   "n": 7,
    "hosts": [
     "skysports.com",
     "bbc.com",
-    "france24.com",
     "independent.co.uk",
     "rfi.fr",
     "espn.com",
-    "sports.yahoo.com",
     "uk.sports.yahoo.com",
     "nytimes.com"
    ]
   },
   {
    "club": "Manchester United",
-   "type": "sack",
+   "type": "hire",
    "n": 7,
+   "hosts": [
+    "france24.com",
+    "standard.co.uk",
+    "nz.news.yahoo.com",
+    "skysports.com",
+    "premierleague.com",
+    "ca.sports.yahoo.com",
+    "goal.com"
+   ]
+  },
+  {
+   "club": "Manchester United",
+   "type": "sack",
+   "n": 6,
    "hosts": [
     "bbc.co.uk",
     "bbc.com",
-    "fourfourtwo.com",
-    "sports.yahoo.com",
     "uk.sports.yahoo.com",
     "skysports.com",
+    "sports.yahoo.com",
     "nytimes.com"
-   ]
-  },
-  {
-   "club": "Deportivo",
-   "type": "hire",
-   "n": 1,
-   "hosts": [
-    "mundodeportivo.com"
-   ]
-  },
-  {
-   "club": "Sassuolo",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "sport.sky.it"
-   ]
-  },
-  {
-   "club": "Sassuolo",
-   "type": "hire",
-   "n": 2,
-   "hosts": [
-    "corrieredellosport.it",
-    "calciomercato.com"
    ]
   },
   {
@@ -80,7 +74,7 @@
    "hosts": [
     "footmercato.net",
     "madeinfoot.ouest-france.fr",
-    "sports.yahoo.com"
+    "lequipe.fr"
    ]
   }
  ],
@@ -88,56 +82,42 @@
   {
    "club": "Crystal Palace",
    "type": "sack",
-   "n": 9,
+   "n": 7,
    "hosts": [
     "skysports.com",
     "bbc.com",
-    "france24.com",
     "independent.co.uk",
     "rfi.fr",
     "espn.com",
-    "sports.yahoo.com",
     "uk.sports.yahoo.com",
     "nytimes.com"
    ]
   },
   {
    "club": "Manchester United",
-   "type": "sack",
+   "type": "hire",
    "n": 7,
+   "hosts": [
+    "france24.com",
+    "standard.co.uk",
+    "nz.news.yahoo.com",
+    "skysports.com",
+    "premierleague.com",
+    "ca.sports.yahoo.com",
+    "goal.com"
+   ]
+  },
+  {
+   "club": "Manchester United",
+   "type": "sack",
+   "n": 6,
    "hosts": [
     "bbc.co.uk",
     "bbc.com",
-    "fourfourtwo.com",
-    "sports.yahoo.com",
     "uk.sports.yahoo.com",
     "skysports.com",
+    "sports.yahoo.com",
     "nytimes.com"
-   ]
-  },
-  {
-   "club": "Deportivo",
-   "type": "hire",
-   "n": 1,
-   "hosts": [
-    "mundodeportivo.com"
-   ]
-  },
-  {
-   "club": "Sassuolo",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "sport.sky.it"
-   ]
-  },
-  {
-   "club": "Sassuolo",
-   "type": "hire",
-   "n": 2,
-   "hosts": [
-    "corrieredellosport.it",
-    "calciomercato.com"
    ]
   },
   {
@@ -147,7 +127,7 @@
    "hosts": [
     "footmercato.net",
     "madeinfoot.ouest-france.fr",
-    "sports.yahoo.com"
+    "lequipe.fr"
    ]
   }
  ]
