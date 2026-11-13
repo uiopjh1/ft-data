@@ -1,5 +1,5 @@
 {
- "t": "2026-11-13T01:23:19.277638",
+ "t": "2026-11-13T08:37:59.316570",
  "seen": [
   {
    "club": "Al Ahli",
@@ -37,10 +37,11 @@
   {
    "club": "Manchester United",
    "type": "sack",
-   "n": 6,
+   "n": 7,
    "hosts": [
     "bbc.co.uk",
     "bbc.com",
+    "fourfourtwo.com",
     "sports.yahoo.com",
     "uk.sports.yahoo.com",
     "skysports.com",
@@ -77,9 +78,9 @@
    "type": "hire",
    "n": 3,
    "hosts": [
-    "lequipe.fr",
     "footmercato.net",
-    "madeinfoot.ouest-france.fr"
+    "madeinfoot.ouest-france.fr",
+    "sports.yahoo.com"
    ]
   }
  ],
@@ -103,10 +104,11 @@
   {
    "club": "Manchester United",
    "type": "sack",
-   "n": 6,
+   "n": 7,
    "hosts": [
     "bbc.co.uk",
     "bbc.com",
+    "fourfourtwo.com",
     "sports.yahoo.com",
     "uk.sports.yahoo.com",
     "skysports.com",
@@ -143,9 +145,9 @@
    "type": "hire",
    "n": 3,
    "hosts": [
-    "lequipe.fr",
     "footmercato.net",
-    "madeinfoot.ouest-france.fr"
+    "madeinfoot.ouest-france.fr",
+    "sports.yahoo.com"
    ]
   }
  ]
