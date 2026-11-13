@@ -1,5 +1,5 @@
 {
- "t": "2026-11-12T20:18:40.153636",
+ "t": "2026-11-13T01:23:19.277638",
  "seen": [
   {
    "club": "Al Ahli",
@@ -14,14 +14,14 @@
    "type": "sack",
    "n": 2,
    "hosts": [
-    "arriyadiyah.com",
-    "alriyadh.com"
+    "alriyadh.com",
+    "arriyadiyah.com"
    ]
   },
   {
    "club": "Crystal Palace",
    "type": "sack",
-   "n": 11,
+   "n": 9,
    "hosts": [
     "skysports.com",
     "bbc.com",
@@ -30,25 +30,29 @@
     "rfi.fr",
     "espn.com",
     "sports.yahoo.com",
-    "africa.espn.com",
     "uk.sports.yahoo.com",
-    "sportsmole.co.uk",
     "nytimes.com"
    ]
   },
   {
    "club": "Manchester United",
    "type": "sack",
-   "n": 8,
+   "n": 6,
    "hosts": [
     "bbc.co.uk",
-    "skysports.com",
     "bbc.com",
-    "france24.com",
-    "fourfourtwo.com",
     "sports.yahoo.com",
     "uk.sports.yahoo.com",
+    "skysports.com",
     "nytimes.com"
+   ]
+  },
+  {
+   "club": "Deportivo",
+   "type": "hire",
+   "n": 1,
+   "hosts": [
+    "mundodeportivo.com"
    ]
   },
   {
@@ -73,9 +77,9 @@
    "type": "hire",
    "n": 3,
    "hosts": [
+    "lequipe.fr",
     "footmercato.net",
-    "madeinfoot.ouest-france.fr",
-    "lequipe.fr"
+    "madeinfoot.ouest-france.fr"
    ]
   }
  ],
@@ -83,7 +87,7 @@
   {
    "club": "Crystal Palace",
    "type": "sack",
-   "n": 11,
+   "n": 9,
    "hosts": [
     "skysports.com",
     "bbc.com",
@@ -92,25 +96,29 @@
     "rfi.fr",
     "espn.com",
     "sports.yahoo.com",
-    "africa.espn.com",
     "uk.sports.yahoo.com",
-    "sportsmole.co.uk",
     "nytimes.com"
    ]
   },
   {
    "club": "Manchester United",
    "type": "sack",
-   "n": 8,
+   "n": 6,
    "hosts": [
     "bbc.co.uk",
-    "skysports.com",
     "bbc.com",
-    "france24.com",
-    "fourfourtwo.com",
     "sports.yahoo.com",
     "uk.sports.yahoo.com",
+    "skysports.com",
     "nytimes.com"
+   ]
+  },
+  {
+   "club": "Deportivo",
+   "type": "hire",
+   "n": 1,
+   "hosts": [
+    "mundodeportivo.com"
    ]
   },
   {
@@ -135,9 +143,9 @@
    "type": "hire",
    "n": 3,
    "hosts": [
+    "lequipe.fr",
     "footmercato.net",
-    "madeinfoot.ouest-france.fr",
-    "lequipe.fr"
+    "madeinfoot.ouest-france.fr"
    ]
   }
  ]
