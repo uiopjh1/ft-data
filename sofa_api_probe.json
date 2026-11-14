@@ -1,0 +1,7 @@
+{
+ "https://api.sofascore.com/api/v1/unique-tournament/955/seasons": "403 {\"error\": {\"code\": 403, \"reason\": \"Forbidden\" }}",
+ "https://api.sofascore.com/api/v1/player/350060": "403 {\"error\": {\"code\": 403, \"reason\": \"Forbidden\" }}",
+ "https://api.sofascore.com/api/v1/search/all?q=%D8%A3%D8%AD%D9%85%D8%AF%20%D8%B9%D8%B3%D9%8A%D8%B1%D9%8A&page=0": "403 {\"error\": {\"code\": 403, \"reason\": \"Forbidden\" }}",
+ "https://api.sofascore.app/api/v1/player/350060": "200 ",
+ "https://www.sofascore.com/api/v1/player/350060": "403 {\"error\": {\"code\": 403, \"reason\": \"Forbidden\" }}"
+}
