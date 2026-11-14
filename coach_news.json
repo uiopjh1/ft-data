@@ -1,5 +1,5 @@
 {
- "updated": 1794650794306,
+ "updated": 1794674544920,
  "items": [
   {
    "club": "Crystal Palace",
@@ -41,14 +41,14 @@
      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1BUGpzeW9PUXZEYlVRaFhJMmNqaWtTSU9fbDNFZXJPVEpxZDZtdldLeFB2TE1VZ2ZCODZ4RjJueWJ6Ym1YaFBsenZPdTJ0eldmTXlTWHNTRms1aDBlakd6MlU4U2M?oc=5"
     },
     {
-     "host": "sports.yahoo.com",
-     "title": "🚨 Official: Manchester United part ways with Michael Carrick! - Yahoo Sports",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPczg2UGcwRmxRWEhqRjJScXVzSEJNaVE5STFrUEd4M2JJb0t3NTFCcldfTXhicTRXTWk5UHV0OUFEUVNGazZucjZNSEJyeFBJWWlnSVZhN2R2NHVvVXg5WnJlTWdwMDkxSDhFOUptRFRjVjlZZE80M3NxQ2l6bXZCS2djV1dyUjBjN29qRWZn?oc=5"
-    },
-    {
      "host": "reuters.com",
      "title": "Manchester United sack manager Carrick with club in relegation zone - Reuters",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQnljYk4zSGJ0TXZ5Szg1ZzRXY2hyWm8tZnozRFQzX3RrMmtJYWJqbkNHQWtKYTduMnBKbFpZRVdVOUhyOEhLSjNYUDdQUzNLTUk1QlhEdUJTN1ZtMHFMVUZZYzVqTktGdWVWT01ha3lpb2ZiTm40S3RVVlhDeGR4R2RoUHNwVzU4UXhnQlFHZzA2emZmSmZlTUs1bFMzY29jOGJSdVI3ZkFTU3U3Y0pxZ2RRcTdCZ042ekFxR0tLdl8xQQ?oc=5"
+    },
+    {
+     "host": "sports.yahoo.com",
+     "title": "🚨 Official: Manchester United part ways with Michael Carrick! - Yahoo Sports",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPczg2UGcwRmxRWEhqRjJScXVzSEJNaVE5STFrUEd4M2JJb0t3NTFCcldfTXhicTRXTWk5UHV0OUFEUVNGazZucjZNSEJyeFBJWWlnSVZhN2R2NHVvVXg5WnJlTWdwMDkxSDhFOUptRFRjVjlZZE80M3NxQ2l6bXZCS2djV1dyUjBjN29qRWZn?oc=5"
     },
     {
      "host": "bbc.com",
@@ -61,7 +61,7 @@
    "club": "Manchester United",
    "club_ar": "",
    "type": "hire",
-   "first": "2026-11-13T12:07:00",
+   "first": "2026-11-13T11:11:00",
    "sources": [
     {
      "host": "france24.com",

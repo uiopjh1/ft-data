@@ -1,9 +1,9 @@
 {
- "t": "2026-11-14T10:05:50.648369",
+ "t": "2026-11-14T16:41:37.009369",
  "seen": [
   {
    "club": "Al Riyadh",
-   "type": "sack",
+   "type": "hire",
    "n": 1,
    "hosts": [
     "alriyadh.com"
@@ -11,7 +11,7 @@
   },
   {
    "club": "Al Riyadh",
-   "type": "hire",
+   "type": "sack",
    "n": 1,
    "hosts": [
     "alriyadh.com"
@@ -35,13 +35,12 @@
   {
    "club": "Manchester United",
    "type": "sack",
-   "n": 8,
+   "n": 7,
    "hosts": [
     "bbc.co.uk",
-    "sports.yahoo.com",
     "reuters.com",
+    "sports.yahoo.com",
     "bbc.com",
-    "fourfourtwo.com",
     "uk.sports.yahoo.com",
     "skysports.com",
     "nytimes.com"
@@ -50,14 +49,15 @@
   {
    "club": "Manchester United",
    "type": "hire",
-   "n": 6,
+   "n": 7,
    "hosts": [
     "france24.com",
     "standard.co.uk",
     "skysports.com",
     "premierleague.com",
     "ca.sports.yahoo.com",
-    "goal.com"
+    "goal.com",
+    "sports.yahoo.com"
    ]
   },
   {
@@ -90,13 +90,12 @@
   {
    "club": "Manchester United",
    "type": "sack",
-   "n": 8,
+   "n": 7,
    "hosts": [
     "bbc.co.uk",
-    "sports.yahoo.com",
     "reuters.com",
+    "sports.yahoo.com",
     "bbc.com",
-    "fourfourtwo.com",
     "uk.sports.yahoo.com",
     "skysports.com",
     "nytimes.com"
@@ -105,14 +104,15 @@
   {
    "club": "Manchester United",
    "type": "hire",
-   "n": 6,
+   "n": 7,
    "hosts": [
     "france24.com",
     "standard.co.uk",
     "skysports.com",
     "premierleague.com",
     "ca.sports.yahoo.com",
-    "goal.com"
+    "goal.com",
+    "sports.yahoo.com"
    ]
   },
   {
