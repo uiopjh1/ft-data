@@ -1,0 +1,21 @@
+name: probe-spl-detail
+on:
+  workflow_dispatch:
+  push:
+    paths: ['probe-spl-detail.mjs']
+permissions: { contents: write }
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: timeout 300 node probe-spl-detail.mjs
+        continue-on-error: true
+      - if: always()
+        run: |
+          git config user.name ft-bot; git config user.email ft-bot@users.noreply.github.com
+          git add probe_spl_detail.json
+          git diff --cached --quiet && exit 0
+          git commit -qm "probe spl detail"; for i in 1 2 3 4 5 6; do git pull --rebase --autostash -q && git push -q && break; sleep 5; done
