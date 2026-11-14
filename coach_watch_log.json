@@ -1,5 +1,5 @@
 {
- "t": "2026-11-13T22:47:34.153631",
+ "t": "2026-11-14T02:57:47.564638",
  "seen": [
   {
    "club": "Al Ahli",
@@ -43,12 +43,10 @@
   {
    "club": "Manchester United",
    "type": "hire",
-   "n": 8,
+   "n": 6,
    "hosts": [
     "france24.com",
     "standard.co.uk",
-    "nz.news.yahoo.com",
-    "uk.sports.yahoo.com",
     "skysports.com",
     "premierleague.com",
     "ca.sports.yahoo.com",
@@ -99,12 +97,10 @@
   {
    "club": "Manchester United",
    "type": "hire",
-   "n": 8,
+   "n": 6,
    "hosts": [
     "france24.com",
     "standard.co.uk",
-    "nz.news.yahoo.com",
-    "uk.sports.yahoo.com",
     "skysports.com",
     "premierleague.com",
     "ca.sports.yahoo.com",
