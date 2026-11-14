@@ -18,10 +18,9 @@ async function get(u) {
 }
 const out = {};
 let ok = 0, noA = 0, noH = 0, fail = 0;
-for (const p of d.players) {
+async function one(p) {
   const h = await get(`https://www.spl.com.sa/en/players/${p.slug}/`);
-  await sleep(250);
-  if (!h) { fail++; if (prev[p.slug]) out[p.slug] = prev[p.slug]; continue; }
+  if (!h) { fail++; if (prev[p.slug]) out[p.slug] = prev[p.slug]; return; }
   const txt = h.replace(/<script[\s\S]*?<\/script>/g, ' ').replace(/<style[\s\S]*?<\/style>/g, ' ').replace(/<[^>]+>/g, ' | ').replace(/\s+/g, ' ');
   const am = txt.match(/\bAge\s*(?:\|\s*)+(\d{2})\b/);
   const hm = txt.match(/\bHeight\s*(?:\|\s*)+(\d)[.,](\d{1,2})\s*m\b/);
@@ -32,6 +31,10 @@ for (const p of d.players) {
   if (!rec.h) noH++;
   if (rec.a || rec.h) out[p.slug] = rec;
 }
+let idx = 0;
+await Promise.all(Array.from({ length: 6 }, async () => {
+  while (idx < d.players.length) { const p = d.players[idx++]; await one(p); await sleep(150); }
+}));
 console.log('players', d.players.length, 'age', ok, 'noAge', noA, 'noHeight', noH, 'fail', fail);
 if (fail > d.players.length * 0.5) throw new Error('too many failures');
 writeFileSync('spl_details.json', JSON.stringify({ updated: new Date().toISOString(), p: out }));
