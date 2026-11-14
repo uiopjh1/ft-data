@@ -1,5 +1,5 @@
 {
- "updated": 1794625112904,
+ "updated": 1794650794306,
  "items": [
   {
    "club": "Crystal Palace",
@@ -32,6 +32,34 @@
   {
    "club": "Manchester United",
    "club_ar": "",
+   "type": "sack",
+   "first": "2026-11-12T10:21:29",
+   "sources": [
+    {
+     "host": "bbc.co.uk",
+     "title": "Manchester United sack Michael Carrick after draw Villa result - BBC",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1BUGpzeW9PUXZEYlVRaFhJMmNqaWtTSU9fbDNFZXJPVEpxZDZtdldLeFB2TE1VZ2ZCODZ4RjJueWJ6Ym1YaFBsenZPdTJ0eldmTXlTWHNTRms1aDBlakd6MlU4U2M?oc=5"
+    },
+    {
+     "host": "sports.yahoo.com",
+     "title": "🚨 Official: Manchester United part ways with Michael Carrick! - Yahoo Sports",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPczg2UGcwRmxRWEhqRjJScXVzSEJNaVE5STFrUEd4M2JJb0t3NTFCcldfTXhicTRXTWk5UHV0OUFEUVNGazZucjZNSEJyeFBJWWlnSVZhN2R2NHVvVXg5WnJlTWdwMDkxSDhFOUptRFRjVjlZZE80M3NxQ2l6bXZCS2djV1dyUjBjN29qRWZn?oc=5"
+    },
+    {
+     "host": "reuters.com",
+     "title": "Manchester United sack manager Carrick with club in relegation zone - Reuters",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQnljYk4zSGJ0TXZ5Szg1ZzRXY2hyWm8tZnozRFQzX3RrMmtJYWJqbkNHQWtKYTduMnBKbFpZRVdVOUhyOEhLSjNYUDdQUzNLTUk1QlhEdUJTN1ZtMHFMVUZZYzVqTktGdWVWT01ha3lpb2ZiTm40S3RVVlhDeGR4R2RoUHNwVzU4UXhnQlFHZzA2emZmSmZlTUs1bFMzY29jOGJSdVI3ZkFTU3U3Y0pxZ2RRcTdCZ042ekFxR0tLdl8xQQ?oc=5"
+    },
+    {
+     "host": "bbc.com",
+     "title": "Michael Carrick sacked: Man Utd boss goes from signing two-year deal to being sacked 15 games later - BBC",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9UUm9aT29OWjJWdUNSREpNajRsRkhUaXRJMXp0RkctLTVrRXdVb1B6U2dtVXQ5QVhRejR4M0h2MndraVZSVHI5cDhVLXBJRm8zazFtWE9OVmsxVGY0YU9IQVVLbjdPUXN2?oc=5"
+    }
+   ]
+  },
+  {
+   "club": "Manchester United",
+   "club_ar": "",
    "type": "hire",
    "first": "2026-11-13T12:07:00",
    "sources": [
@@ -58,34 +86,6 @@
    ]
   },
   {
-   "club": "Manchester United",
-   "club_ar": "",
-   "type": "sack",
-   "first": "2026-11-12T10:21:29",
-   "sources": [
-    {
-     "host": "bbc.co.uk",
-     "title": "Manchester United sack Michael Carrick after draw Villa result - BBC",
-     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1BUGpzeW9PUXZEYlVRaFhJMmNqaWtTSU9fbDNFZXJPVEpxZDZtdldLeFB2TE1VZ2ZCODZ4RjJueWJ6Ym1YaFBsenZPdTJ0eldmTXlTWHNTRms1aDBlakd6MlU4U2M?oc=5"
-    },
-    {
-     "host": "bbc.com",
-     "title": "Michael Carrick sacked: Man Utd boss goes from signing two-year deal to being sacked 15 games later - BBC",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9UUm9aT29OWjJWdUNSREpNajRsRkhUaXRJMXp0RkctLTVrRXdVb1B6U2dtVXQ5QVhRejR4M0h2MndraVZSVHI5cDhVLXBJRm8zazFtWE9OVmsxVGY0YU9IQVVLbjdPUXN2?oc=5"
-    },
-    {
-     "host": "fourfourtwo.com",
-     "title": "Manchester United sack manager Michael Carrick - FourFourTwo",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPM2x3WkNIVmVOdFRlUjZyY2tNbFZHd1hmR2oyTl90ZElWV0F5TGNpU211T3c3MnZIMHV0R3Q4dEVrRk9KTlQ4ZE9HbTlZZjFiQ09fWWFSWHZsWUl0VV81dEQ1MjJjMG1jUUswUzF2UTh1NHVQdzJYMFl6YS1mM3BnMUQ0UHZyV0x2R29PWlIyVUw1NmNzYWRTQnFxYV9SQTg?oc=5"
-    },
-    {
-     "host": "uk.sports.yahoo.com",
-     "title": "Michael Carrick SACKED! Man Utd axe club legend after disastrous run of form - Yahoo",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZmdCZjdtRElPU0tUNUJyS3Vpd2RPWmoyY3BvaHZUck1PTUFDMzFkY1NrbFQ4d0RRdmVrMk1BQWpHY3JhYTRHX2J5bHY0SHR2bnFka1Z6NnQ2Wm9IUWV5elFrMjZoVkJiT3FwT1ZjbVpPdHZXWjk5TzhrTzBXWVhfM3lzSkw?oc=5"
-    }
-   ]
-  },
-  {
    "club": "Le Havre AC",
    "club_ar": "",
    "type": "hire",
@@ -93,8 +93,8 @@
    "sources": [
     {
      "host": "lequipe.fr",
-     "title": "Le Havre tient officiellement son nouvel entraîneur : Valérien Ismaël a signé son contrat - L'Équipe",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSWVUWThpRVV0dUhPMlRXVzhKT0VpNmVFdW9LWDBWREQ5bVRBZTA1NFBJelBjcm5tRmFzdVlBQThLRmlsbFlhVXBUekNxMWlLTzF5aU9uWHVZLWtwcENuTVlqN245di1vcERNa29xS24xaW51LVNmMG9DeXJIanl2ZkNqZDlRRV9CeTk3b3pNeGt0UjNybnhiZmhDUVNDSzNCOWdkMThGTHpBTzd4X3U3OEZWemFJUzVHel90U1JBUnE?oc=5"
+     "title": "Le Havre tient son nouvel entraîneur : Valérien Ismaël a signé son contrat | Foot - Ligue 1 - L'Équipe",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdlJkN1JaOVpTSWpUSHNIemNmZHM2TVdmZ0xtZWVBRmFRYkdHWkFVUUcwSm0xNHlTOWM4Y2ItRW8yU3RDTUg2MlV1WkduQWVCd294WHBBVXdlbUVzcFZ0UHBjZlNrNmxqS1g1MXdqdkQ3RjJja3lJMjBEcFZLMnFQWWtXWUN4RmJySk5XQURDd3VPWWVtVEFiNEYzTG9KZVhhaWt5MVRvWXFTRnJvWjFFcnNEemFOdTBJNkJLcw?oc=5"
     },
     {
      "host": "footmercato.net",
