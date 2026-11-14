@@ -2,7 +2,7 @@
  "steps": [
   "_middle:200"
  ],
- "playersRaw": 650,
+ "playersRaw": 652,
  "teamsRaw": 20,
  "playerSample": "{\"seasonId\":\"serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5\",\"playerId\":\"serie-a::Football_Player::e6156f9d23e84e7084a3e488b92521ac\",\"playerSlug\":\"bremer\",\"playerUrl\":\"https://en.legaseriea.it/players/bremer/\",\"mediaLastName\":\"Bremer\",\"shirtName\":\"Bremer\",\"shortName\":\"Bremer\",\"role\":\"2\",\"roleLabel\":\"Defender\",\"nationality\":\"Brazil\",\"nationalityIsoCode\":\"BRA\",\"dateOfBirth\":\"1997-03-18\",\"playerStatus\":\"Active\",\"bibNumber\":\"3\",\"teamId\":\"serie-a::Football_Team::0ae9210dce6f4f9b9d50aeeb19b0d371\",\"teamSlug\":\"juventus\",\"playerImage\":\"https://media-sdp.legaseriea.it/playerImages/ec93b94f74294dc98ab5bcfd67fc0d88/ed7fdc2a3e7b408b942ec177b7b956b5/0ae9210dce6f4f9b9d50aeeb19b0d371/home/e6156f9d23e84e7084a3e488b92521ac_left.webp\",\"nationalityImage\":\"https://images.legaseriea.it/image/private/{formatInstructions}/prd/assets/flags/BRA\",\"links\":{},\"socials\":{}}",
  "teamSample": "{\"seasonId\":\"serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5\",\"teamId\":\"serie-a::Football_Team::d0867ddf777c41789ca282b8276002b0\",\"teamSlug\":\"milan\",\"teamUrl\":\"https://en.legaseriea.it/team/milan/\",\"officialName\":\"Milan\",\"mediaName\":\"A.C. Milan S.P.A.\",\"mediaShortName\":\"Milan\",\"shortName\":\"Milan\",\"acronymName\":\"MIL\",\"acronymNameLocalized\":\"MIL\",\"countryCode\":\"IT\",\"teamType\":\"prima_squadra\",\"logo\":\"https://media-sdp.legaseriea.it/clubLogos/d0867ddf777c41789ca282b8276002b0.webp\",\"logoLight\":\"https://media-sdp.legaseriea.it/clubLogos/d0867ddf777c41789ca282b8276002b0_light.webp\",\"teamImage\":\"https://media-sdp.legaseriea.it/teamImages/d0867ddf777c41789ca282b8276002b0.webp\",\"primaryColor\":\"#A20827\",\"yearFoundation\":\"1899\",\"stadium\":{\"id\":\"serie-a::Football_Stadium::204cf83710c9461ba0328c76032ef8d8\",\"name\":\"Giuseppe Meazza\",\"city\":\"Milano\",\"capacity\":80018,\"yearOfConstruction\":1926,\"",
@@ -13,6 +13,7 @@
  "outN": 624,
  "teamsN": 20,
  "noImg": [
+  "Abdelaziz Madiq",
   "Alessandro Di Nunzio",
   "Andrea Chiummariello",
   "Arnis Ademi",
@@ -29,6 +30,7 @@
   "Lorenzo Ossola",
   "Lorenzo Paratici",
   "Luca Menon",
+  "Luca Scarlato",
   "Luca Lo Monaco",
   "Mandjou Camara",
   "Marton Prettenhoffer",
