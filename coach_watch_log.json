@@ -1,5 +1,5 @@
 {
- "t": "2026-11-15T08:18:33.807979",
+ "t": "2026-11-15T15:48:20.264295",
  "seen": [
   {
    "club": "Al Riyadh",
@@ -18,35 +18,6 @@
    ]
   },
   {
-   "club": "Crystal Palace",
-   "type": "sack",
-   "n": 9,
-   "hosts": [
-    "skysports.com",
-    "bbc.com",
-    "france24.com",
-    "independent.co.uk",
-    "espn.com",
-    "foxsports.com",
-    "sports.yahoo.com",
-    "uk.sports.yahoo.com",
-    "nytimes.com"
-   ]
-  },
-  {
-   "club": "Manchester United",
-   "type": "sack",
-   "n": 6,
-   "hosts": [
-    "bbc.co.uk",
-    "reuters.com",
-    "sports.yahoo.com",
-    "uk.sports.yahoo.com",
-    "skysports.com",
-    "nytimes.com"
-   ]
-  },
-  {
    "club": "Manchester United",
    "type": "hire",
    "n": 7,
@@ -58,6 +29,30 @@
     "ca.sports.yahoo.com",
     "goal.com",
     "sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Manchester United",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Crystal Palace",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "africa.espn.com"
+   ]
+  },
+  {
+   "club": "Torino",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "calciomercato.com"
    ]
   },
   {
@@ -72,35 +67,6 @@
  ],
  "eu": [
   {
-   "club": "Crystal Palace",
-   "type": "sack",
-   "n": 9,
-   "hosts": [
-    "skysports.com",
-    "bbc.com",
-    "france24.com",
-    "independent.co.uk",
-    "espn.com",
-    "foxsports.com",
-    "sports.yahoo.com",
-    "uk.sports.yahoo.com",
-    "nytimes.com"
-   ]
-  },
-  {
-   "club": "Manchester United",
-   "type": "sack",
-   "n": 6,
-   "hosts": [
-    "bbc.co.uk",
-    "reuters.com",
-    "sports.yahoo.com",
-    "uk.sports.yahoo.com",
-    "skysports.com",
-    "nytimes.com"
-   ]
-  },
-  {
    "club": "Manchester United",
    "type": "hire",
    "n": 7,
@@ -112,6 +78,30 @@
     "ca.sports.yahoo.com",
     "goal.com",
     "sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Manchester United",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Crystal Palace",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "africa.espn.com"
+   ]
+  },
+  {
+   "club": "Torino",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "calciomercato.com"
    ]
   },
   {
