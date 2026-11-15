@@ -1,5 +1,5 @@
 {
- "t": "2026-11-15T01:13:33.203134",
+ "t": "2026-11-15T08:18:33.807979",
  "seen": [
   {
    "club": "Al Riyadh",
@@ -27,20 +27,19 @@
     "france24.com",
     "independent.co.uk",
     "espn.com",
+    "foxsports.com",
     "sports.yahoo.com",
     "uk.sports.yahoo.com",
-    "ca.sports.yahoo.com",
     "nytimes.com"
    ]
   },
   {
    "club": "Manchester United",
    "type": "sack",
-   "n": 7,
+   "n": 6,
    "hosts": [
     "bbc.co.uk",
     "reuters.com",
-    "bbc.com",
     "sports.yahoo.com",
     "uk.sports.yahoo.com",
     "skysports.com",
@@ -64,9 +63,10 @@
   {
    "club": "Le Havre AC",
    "type": "hire",
-   "n": 1,
+   "n": 2,
    "hosts": [
-    "footmercato.net"
+    "footmercato.net",
+    "sports.yahoo.com"
    ]
   }
  ],
@@ -81,20 +81,19 @@
     "france24.com",
     "independent.co.uk",
     "espn.com",
+    "foxsports.com",
     "sports.yahoo.com",
     "uk.sports.yahoo.com",
-    "ca.sports.yahoo.com",
     "nytimes.com"
    ]
   },
   {
    "club": "Manchester United",
    "type": "sack",
-   "n": 7,
+   "n": 6,
    "hosts": [
     "bbc.co.uk",
     "reuters.com",
-    "bbc.com",
     "sports.yahoo.com",
     "uk.sports.yahoo.com",
     "skysports.com",
@@ -118,9 +117,10 @@
   {
    "club": "Le Havre AC",
    "type": "hire",
-   "n": 1,
+   "n": 2,
    "hosts": [
-    "footmercato.net"
+    "footmercato.net",
+    "sports.yahoo.com"
    ]
   }
  ]

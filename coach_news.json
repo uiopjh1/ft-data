@@ -1,5 +1,5 @@
 {
- "updated": 1794705258340,
+ "updated": 1794730757097,
  "items": [
   {
    "club": "Crystal Palace",
@@ -33,7 +33,7 @@
    "club": "Manchester United",
    "club_ar": "",
    "type": "sack",
-   "first": "2026-11-12T10:21:29",
+   "first": "2026-11-12T10:40:00",
    "sources": [
     {
      "host": "bbc.co.uk",
@@ -46,14 +46,14 @@
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQnljYk4zSGJ0TXZ5Szg1ZzRXY2hyWm8tZnozRFQzX3RrMmtJYWJqbkNHQWtKYTduMnBKbFpZRVdVOUhyOEhLSjNYUDdQUzNLTUk1QlhEdUJTN1ZtMHFMVUZZYzVqTktGdWVWT01ha3lpb2ZiTm40S3RVVlhDeGR4R2RoUHNwVzU4UXhnQlFHZzA2emZmSmZlTUs1bFMzY29jOGJSdVI3ZkFTU3U3Y0pxZ2RRcTdCZ042ekFxR0tLdl8xQQ?oc=5"
     },
     {
-     "host": "bbc.com",
-     "title": "Michael Carrick sacked: Man Utd boss goes from signing two-year deal to being sacked 15 games later - BBC",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9UUm9aT29OWjJWdUNSREpNajRsRkhUaXRJMXp0RkctLTVrRXdVb1B6U2dtVXQ5QVhRejR4M0h2MndraVZSVHI5cDhVLXBJRm8zazFtWE9OVmsxVGY0YU9IQVVLbjdPUXN2?oc=5"
-    },
-    {
      "host": "sports.yahoo.com",
      "title": "🚨 Official: Manchester United part ways with Michael Carrick! - Yahoo Sports",
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPczg2UGcwRmxRWEhqRjJScXVzSEJNaVE5STFrUEd4M2JJb0t3NTFCcldfTXhicTRXTWk5UHV0OUFEUVNGazZucjZNSEJyeFBJWWlnSVZhN2R2NHVvVXg5WnJlTWdwMDkxSDhFOUptRFRjVjlZZE80M3NxQ2l6bXZCS2djV1dyUjBjN29qRWZn?oc=5"
+    },
+    {
+     "host": "uk.sports.yahoo.com",
+     "title": "Former Swindon loanee sacked as Manchester United head coach - Yahoo",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYkptQVpFY3RkdVBUZHdybmYtUS0yVGcyckxNeTJPYVl1b0lGd0tNM0hzZkUxTjR0eVV1R0g1ZnRUb3dRem41dWFKeHlXUk42NXUtdFFoemtLcS12MWd5b21CaU53Y2hfYS15S1VkZzgya3hZdGRPcWYtYUJwckJTYUZqM2ptWWN3ZF81bkJjdWU?oc=5"
     }
    ]
   },
@@ -82,6 +82,24 @@
      "host": "premierleague.com",
      "title": "Man Utd appoint Pochettino as new head coach - Premier League",
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVzM5WTFLaU11RUJvZmpNTlBjUEJnVkZVUzFnZFlrVEFOQnBXWUpoay0tMTJkeWUwTFpzUzh3VzNmemNGZ2VlRjVfSlk3ZkFPR3gxM1h1eWk0dFB2ejFSSGc5cG4zN25yVnpFWV9pVGpTdktPTkRiV2lWUVlWUW1RVHlTQV9NSzJpR2RrZHo0WUhYXzZ4?oc=5"
+    }
+   ]
+  },
+  {
+   "club": "Le Havre AC",
+   "club_ar": "",
+   "type": "hire",
+   "first": "2026-11-12T17:58:02",
+   "sources": [
+    {
+     "host": "footmercato.net",
+     "title": "Le Havre nomme Valérien Ismaël entraîneur - Foot Mercato",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVkJ4dkNRVG9sQlI2MVZnTV9BR3FyY19ma09RSFlvdnlLMVU5bV9rclR3MGt2SmtQZGkwRUNaMVVGbXFfX014cDlGZlRIeDZ6OWFSMUVqMHE2NXkxOXhsSFBxaFRBNS11bmxWLTNIRlktZUgzZGRFT2MtSDUzZ0wzXzhDNmpoRzBpUzdrYncxeTZ0enRa?oc=5"
+    },
+    {
+     "host": "sports.yahoo.com",
+     "title": "American-owned Le Havre appoints Ismaël as coach to tackle crisis at French league's oldest club - Yahoo Sports",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNM3YxLXFqRnZ1MXRnWWJyazJQWkNCQ2YtV2RGSlFSRlQxS0lidWdjVnZQWDNxbm5UQlVrbG9GVEpiMW9SVTYxSUpsMk1mMkt3OG9WQUVtQ3VsUjc2Mk1rSlhncFB0X0xsX2dXTHV5YWYtMmhzWUctM1NSUXJfVEdicTNVT3pseVhp?oc=5"
     }
    ]
   }
