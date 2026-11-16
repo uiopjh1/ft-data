@@ -1,0 +1,19 @@
+{
+ "search": {
+  "status": 403,
+  "head": "{\"error\": {\"code\": 403, \"reason\": \"Forbidden\" }}"
+ },
+ "uniqueTournaments": [],
+ "espnCore": {
+  "status": 404,
+  "head": "{\"error\":{\"message\":\"application error\",\"code\":404}}"
+ },
+ "espnCore2": {
+  "status": 400,
+  "head": "{\"error\":{\"message\":\"getLeadersAllTime not supported for soccer/caf.nations_qual\",\"code\":400}}"
+ },
+ "espnSite": {
+  "status": 200,
+  "head": "{\"timestamp\":\"2026-11-16T14:16:08Z\",\"status\":\"success\",\"season\":{\"year\":2026,\"displayName\":\"2027 Africa Cup of Nations Qualifying\",\"type\":14019,\"name\":\"Group Stage\"},\"league\":{\"id\":\"8315\",\"name\":\"Africa Cup of Nations Qualifying\",\"abbreviation\":\"AFCON Qualifying\",\"shortName\":\"AFCON Qualifying\",\"midsizeName\":\"CAF.NATIONS_QUAL\",\"slug\":\"caf.nations_qual\",\"isTournament\":true,\"links\":[{\"language\":\"en-US\",\"rel\":[\"index\",\"desktop\",\"league\"],\"href\":\"https://www.espn.com/soccer/league/_/name/caf.nations_qual\",\"text\":\"Index\",\"shortText\":\"Index\",\"isExternal\":false,\"isPremium\":false},{\"language\":\"en-US\",\"rel\":[\"index\",\"sportscenter\",\"app\",\"league\"],\"href\":\"sportscenter://x-callback-url/showClubhouse?uid"
+ }
+}
