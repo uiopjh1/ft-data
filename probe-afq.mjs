@@ -5,7 +5,7 @@ const get = async (k, url) => {
   try {
     const r = await fetch(url, { headers: H });
     const t = await r.text();
-    out[k] = { status: r.status, head: t.slice(0, 700) };
+    out[k] = { status: r.status, head: t.slice(0, k === 'espnSite' ? 60000 : 700) };
     try { return JSON.parse(t); } catch (e) { return null; }
   } catch (e) { out[k] = { err: String(e) }; return null; }
 };
