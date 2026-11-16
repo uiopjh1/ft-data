@@ -1,5 +1,5 @@
 {
- "updated": 1794776173159,
+ "updated": 1794790454939,
  "items": [
   {
    "club": "Manchester United",
@@ -7,11 +7,6 @@
    "type": "hire",
    "first": "2026-11-13T08:18:23",
    "sources": [
-    {
-     "host": "sports.yahoo.com",
-     "title": "Manchester United confirm Mauricio Pochettino appointment as new head coach - Yahoo Sports",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQd3JxTG1pZmVDSTFPdEh6MTNwajJpSGJyNE9LSjl1bFVZSUJIVjNEaGVMVWZmN2NTOW5EM053N1RVaWYxb3NrNHBPVWZ5UzRUa19SQ3lGQXYzQU5IS0w5NGZnbDlxR3FNd2FEZDVxcDJoVGNoek9Eb0xydTg0TjY5Q1lnNmYwTHhTcUdhSkNQM3hqM0lXVkVTMFln?oc=5"
-    },
     {
      "host": "france24.com",
      "title": "Man Utd name Pochettino as new manager - France 24",
@@ -23,9 +18,14 @@
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeEl1X3AtcEJhT2JaY1ZJVUM1UFJqRkRwVkxFaUczMU9KOGdaNzRBMy0tNVhjTDBMQVN1b3BlSS1mUU8ycVAwdGJkU1dNaEhWRXh5UlZGbnNub3NLTmUxY1pFNnBmRjNBSmhnSmxVTTM2NW1yQkJfMUJtMUpZaFFNT0NPWjdyVFZRMHhBalEtNDQ5YXVW?oc=5"
     },
     {
-     "host": "skysports.com",
-     "title": "Mauricio Pochettino appointed as Manchester United head coach after Michael Carrick's sacking at Old Trafford - Sky Sports",
-     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNVkRUTVhCRjBfS2RkWlMwWnAyeExES1hvRWJOVThOYVZWbVczaWQ2ZHJyUk9jZFVZNmFfZnpuZXNseXAwaTBDc3RWWHNRQkJEUjlEZG1BRTh2NlRvdGtYc0lQWXBuMVZWRkxqVFpoRDBCZG1iSUpzemF4ZnEycUxuVER3ZmpPM0dnU181ZC1VRW5HdHRFVWRweWpCQ3JPSVFaSndBRmVIa0ZnOTVqQndSNDl2S3lUak1heEJpWUlISnVnSmo0WlU5eUNqd0l2MlVHNmY3S1pha2tTUXBXWDU5dFFFNjBMbHlDUjNocW53?oc=5"
+     "host": "sports.yahoo.com",
+     "title": "Manchester United confirm Mauricio Pochettino appointment as new head coach - Yahoo Sports",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQd3JxTG1pZmVDSTFPdEh6MTNwajJpSGJyNE9LSjl1bFVZSUJIVjNEaGVMVWZmN2NTOW5EM053N1RVaWYxb3NrNHBPVWZ5UzRUa19SQ3lGQXYzQU5IS0w5NGZnbDlxR3FNd2FEZDVxcDJoVGNoek9Eb0xydTg0TjY5Q1lnNmYwTHhTcUdhSkNQM3hqM0lXVkVTMFln?oc=5"
+    },
+    {
+     "host": "nz.news.yahoo.com",
+     "title": "Manchester United confirm Pochettino as new manager on two-and-a-half-year deal - Yahoo News New Zealand",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOanVzd3ZzWVFPRVNtOWQya3ctdDJ0TXl6eVU3NC03WFZMRmNaSWFrdE0tc284R0R4UWVRd2p0M19QMVdNbUZ6UUZPdDhZUjhHenl0NkkxM3BjSDV2bXhsRTdhekprTTNmaVRkcG9ZSjNnNWt1QzNhOThGcUxpbEVla2dNLVdRZ2o1WV9iZWpB?oc=5"
     }
    ]
   }

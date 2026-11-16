@@ -1,5 +1,5 @@
 {
- "t": "2026-11-15T20:55:27.108834",
+ "t": "2026-11-16T00:53:27.331330",
  "seen": [
   {
    "club": "Al Riyadh",
@@ -20,23 +20,16 @@
   {
    "club": "Manchester United",
    "type": "hire",
-   "n": 7,
+   "n": 8,
    "hosts": [
-    "sports.yahoo.com",
     "france24.com",
     "standard.co.uk",
+    "sports.yahoo.com",
+    "nz.news.yahoo.com",
     "skysports.com",
     "premierleague.com",
     "ca.sports.yahoo.com",
     "goal.com"
-   ]
-  },
-  {
-   "club": "Crystal Palace",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "africa.espn.com"
    ]
   },
   {
@@ -45,14 +38,6 @@
    "n": 1,
    "hosts": [
     "calciomercato.com"
-   ]
-  },
-  {
-   "club": "Le Havre AC",
-   "type": "hire",
-   "n": 1,
-   "hosts": [
-    "sports.yahoo.com"
    ]
   }
  ],
@@ -60,23 +45,16 @@
   {
    "club": "Manchester United",
    "type": "hire",
-   "n": 7,
+   "n": 8,
    "hosts": [
-    "sports.yahoo.com",
     "france24.com",
     "standard.co.uk",
+    "sports.yahoo.com",
+    "nz.news.yahoo.com",
     "skysports.com",
     "premierleague.com",
     "ca.sports.yahoo.com",
     "goal.com"
-   ]
-  },
-  {
-   "club": "Crystal Palace",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "africa.espn.com"
    ]
   },
   {
@@ -85,14 +63,6 @@
    "n": 1,
    "hosts": [
     "calciomercato.com"
-   ]
-  },
-  {
-   "club": "Le Havre AC",
-   "type": "hire",
-   "n": 1,
-   "hosts": [
-    "sports.yahoo.com"
    ]
   }
  ]
