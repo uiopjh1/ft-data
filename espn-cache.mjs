@@ -27,6 +27,31 @@ for (const slug of SLUGS) {
 }
 console.log('ok', ok, 'bad', bad);
 
+// هدافو بطولات لا يوفّر ESPN لها لوحة لاعبين كاملة: نأخذ "قادة الأهداف" من صفحة الإحصائيات
+mkdirSync('espn/scorers', { recursive: true });
+for (const slug of ['caf.nations_qual']) {
+  try {
+    const res = await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/${slug}/statistics`, { headers: { 'user-agent': 'Mozilla/5.0' } });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const j = await res.json();
+    const cat = (j.stats || []).find((c) => c.name === 'goalsLeaders');
+    const rows = ((cat && cat.leaders) || []).map((l) => {
+      const a = l.athlete || {};
+      const tm = a.team || {};
+      const m = /Matches:\s*(\d+)/.exec(l.displayValue || '');
+      return { name: a.displayName || '', team: tm.displayName || '', logo: (tm.logos && tm.logos[0] && tm.logos[0].href) || null, goals: Math.round(Number(l.value)), games: m ? Number(m[1]) : null };
+    }).filter((r) => r.name && r.goals > 0);
+    if (!rows.length) throw new Error('no rows');
+    const file = `espn/scorers/${slug}.json`;
+    let same = false;
+    if (existsSync(file)) { try { const o = JSON.parse(readFileSync(file, 'utf8')); same = JSON.stringify(o.rows) === JSON.stringify(rows) && Date.now() - (o._ts || 0) < 6 * 3600000; } catch (e) {} }
+    if (!same) writeFileSync(file, JSON.stringify({ _ts: Date.now(), rows }));
+  } catch (e) {
+    console.log('scorers', slug, String(e.message || e));
+  }
+  await sleep(500);
+}
+
 // ---- مباريات الأيام (scoreboard) تُنشر على فرع espn-data (يُستبدل كل مرة، فلا يتضخم تاريخ المستودع) ----
 const BOARD = ['ksa.1','eng.1','esp.1','ita.1','ger.1','fra.1','uefa.champions','uefa.europa','uefa.europa.conf','afc.champions','afc.cup','ksa.kings.cup','fifa.cwc','fifa.intercontinental_cup','eng.fa','esp.copa_del_rey','fifa.world','fifa.worldq.afc','fifa.worldq.uefa','afc.asian.cup','caf.nations','fifa.friendly','club.friendly','uefa.nations','caf.nations_qual'];
 const riyadh = new Date(Date.now() + 3 * 3600000);
