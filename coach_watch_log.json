@@ -1,35 +1,18 @@
 {
- "t": "2026-11-16T07:47:07.247004",
+ "t": "2026-11-16T18:11:43.309685",
  "seen": [
   {
-   "club": "Al Riyadh",
+   "club": "Crystal Palace",
    "type": "hire",
-   "n": 1,
+   "n": 7,
    "hosts": [
-    "alriyadh.com"
-   ]
-  },
-  {
-   "club": "Al Riyadh",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "alriyadh.com"
-   ]
-  },
-  {
-   "club": "Manchester United",
-   "type": "hire",
-   "n": 8,
-   "hosts": [
-    "france24.com",
+    "nytimes.com",
+    "theguardian.com",
+    "independent.co.uk",
     "standard.co.uk",
-    "sports.yahoo.com",
-    "nz.news.yahoo.com",
-    "skysports.com",
-    "premierleague.com",
-    "ca.sports.yahoo.com",
-    "goal.com"
+    "uk.sports.yahoo.com",
+    "espn.com",
+    "sports.yahoo.com"
    ]
   },
   {
@@ -43,18 +26,17 @@
  ],
  "eu": [
   {
-   "club": "Manchester United",
+   "club": "Crystal Palace",
    "type": "hire",
-   "n": 8,
+   "n": 7,
    "hosts": [
-    "france24.com",
+    "nytimes.com",
+    "theguardian.com",
+    "independent.co.uk",
     "standard.co.uk",
-    "sports.yahoo.com",
-    "nz.news.yahoo.com",
-    "skysports.com",
-    "premierleague.com",
-    "ca.sports.yahoo.com",
-    "goal.com"
+    "uk.sports.yahoo.com",
+    "espn.com",
+    "sports.yahoo.com"
    ]
   },
   {
