@@ -1,0 +1,22 @@
+name: probe-afq
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['probe-afq.mjs']
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node probe-afq.mjs
+      - run: |
+          git config user.name "ft-bot"
+          git config user.email "ft-bot@users.noreply.github.com"
+          git add probe_afq.json
+          git diff --cached --quiet || (git commit -m "probe afq" && git pull --rebase -q && git push)
