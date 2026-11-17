@@ -1,4 +1,9 @@
 {
+ "أحمد الخلايلة": {
+  "cands": 0,
+  "clusters": [],
+  "ok": false
+ },
  "أحمد النفيسة": {
   "cands": 0,
   "clusters": [],
@@ -36,6 +41,11 @@
   "clusters": [],
   "ok": false
  },
+ "حسين السعدي": {
+  "cands": 0,
+  "clusters": [],
+  "ok": false
+ },
  "زياد الدكروري": {
   "cands": 0,
   "clusters": [],
@@ -65,12 +75,22 @@
   "clusters": [],
   "ok": false
  },
+ "طارق الملا": {
+  "cands": 0,
+  "clusters": [],
+  "ok": false
+ },
  "طارق حسن": {
   "cands": 0,
   "clusters": [],
   "ok": false
  },
  "عانر الخوذيري": {
+  "cands": 0,
+  "clusters": [],
+  "ok": false
+ },
+ "عباس هادي": {
   "cands": 0,
   "clusters": [],
   "ok": false
@@ -166,6 +186,11 @@
   "ok": false
  },
  "منير العتيبي": {
+  "cands": 0,
+  "clusters": [],
+  "ok": false
+ },
+ "موسى عيد": {
   "cands": 0,
   "clusters": [],
   "ok": false
