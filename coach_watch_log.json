@@ -1,18 +1,27 @@
 {
- "t": "2026-11-16T18:11:43.309685",
+ "t": "2026-11-17T01:59:03.851832",
  "seen": [
+  {
+   "club": "Al Ahli",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "slaati.com"
+   ]
+  },
   {
    "club": "Crystal Palace",
    "type": "hire",
-   "n": 7,
+   "n": 8,
    "hosts": [
-    "nytimes.com",
     "theguardian.com",
+    "nytimes.com",
+    "espn.co.uk",
     "independent.co.uk",
     "standard.co.uk",
-    "uk.sports.yahoo.com",
     "espn.com",
-    "sports.yahoo.com"
+    "sports.yahoo.com",
+    "uk.sports.yahoo.com"
    ]
   },
   {
@@ -28,15 +37,16 @@
   {
    "club": "Crystal Palace",
    "type": "hire",
-   "n": 7,
+   "n": 8,
    "hosts": [
-    "nytimes.com",
     "theguardian.com",
+    "nytimes.com",
+    "espn.co.uk",
     "independent.co.uk",
     "standard.co.uk",
-    "uk.sports.yahoo.com",
     "espn.com",
-    "sports.yahoo.com"
+    "sports.yahoo.com",
+    "uk.sports.yahoo.com"
    ]
   },
   {
