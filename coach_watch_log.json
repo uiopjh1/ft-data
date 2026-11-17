@@ -1,5 +1,5 @@
 {
- "t": "2026-11-17T01:59:03.851832",
+ "t": "2026-11-17T10:33:44.455464",
  "seen": [
   {
    "club": "Al Ahli",
@@ -12,15 +12,16 @@
   {
    "club": "Crystal Palace",
    "type": "hire",
-   "n": 8,
+   "n": 9,
    "hosts": [
-    "theguardian.com",
     "nytimes.com",
     "espn.co.uk",
-    "independent.co.uk",
+    "theguardian.com",
     "standard.co.uk",
-    "espn.com",
+    "independent.co.uk",
     "sports.yahoo.com",
+    "espn.com",
+    "premierleague.com",
     "uk.sports.yahoo.com"
    ]
   },
@@ -37,15 +38,16 @@
   {
    "club": "Crystal Palace",
    "type": "hire",
-   "n": 8,
+   "n": 9,
    "hosts": [
-    "theguardian.com",
     "nytimes.com",
     "espn.co.uk",
-    "independent.co.uk",
+    "theguardian.com",
     "standard.co.uk",
-    "espn.com",
+    "independent.co.uk",
     "sports.yahoo.com",
+    "espn.com",
+    "premierleague.com",
     "uk.sports.yahoo.com"
    ]
   },
