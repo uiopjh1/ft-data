@@ -1,16 +1,16 @@
 {
- "updated": 1794911668905,
+ "updated": 1794944597171,
  "items": [
   {
    "club": "Crystal Palace",
    "club_ar": "",
    "type": "hire",
-   "first": "2026-11-16T12:38:04",
+   "first": "2026-11-16T11:53:00",
    "sources": [
     {
-     "host": "nytimes.com",
-     "title": "Crystal Palace name Thomas Frank as manager - The Athletic - The New York Times",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVi1vT0FndzBibUhVY19jbW5rbVpDSXZzaEV5ZW5RdU1zNzZzVFNqZk5wT0UxcW5kcmhTamt0RXFUbE1xeFhiSjZDd3JKUGxJNklicGtsUXp1em9IdlhoX2VCTEJRVkV2ZmVHMHY4Q0RiREpWc3pRNmVDUmxFNlpqUGQwVzJiNzZNcndNRkwyUEtHcTBxYmRONA?oc=5"
+     "host": "theguardian.com",
+     "title": "Thomas Frank confirmed as Crystal Palace manager after Pierre Sage’s sacking - The Guardian",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQY3RfOW8wQndFSDhpaXIwRWR5LXhBRVo2VjBuZm1nN2hjQ3ViaEVQNnk4czFCRUR2Wm1pRXN1YTFIWkpXY1lJeVM0c3VhT3hkRzAxYjRhWmJnME04b21PeUdiTTUtWkF5QW5SQlhQaWo3RnVuWENYdjRKc0dWZGZPdGRIN3luS0JkdzNFLUZRMV9jd2hDZ196eDNmUnQ3bGZYd3l2UUtOckQyUQ?oc=5"
     },
     {
      "host": "espn.co.uk",
@@ -18,14 +18,32 @@
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTF9VM0hBb1k4LWR1WDhyVklWRmVPclpQbW83SWl6XzhYOGstTThVV0dFNTBRbnBFOFVoSEJmVk05RTBXM1R4QTJSRVJGY3ZSWXpHVl9hSE9GOUFrRE84d1FLWU9pRm5ZV2FtRzdxb3JyNkpnVWZmd01MUTRDM0tvVmkzb05sMHBxbkRTV1FNbEU2QnA3RUFfSVE2WmQ4S1pTcDFN?oc=5"
     },
     {
-     "host": "theguardian.com",
-     "title": "Thomas Frank confirmed as Crystal Palace manager after Pierre Sage’s sacking - The Guardian",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQY3RfOW8wQndFSDhpaXIwRWR5LXhBRVo2VjBuZm1nN2hjQ3ViaEVQNnk4czFCRUR2Wm1pRXN1YTFIWkpXY1lJeVM0c3VhT3hkRzAxYjRhWmJnME04b21PeUdiTTUtWkF5QW5SQlhQaWo3RnVuWENYdjRKc0dWZGZPdGRIN3luS0JkdzNFLUZRMV9jd2hDZ196eDNmUnQ3bGZYd3l2UUtOckQyUQ?oc=5"
+     "host": "nytimes.com",
+     "title": "Crystal Palace name Thomas Frank as manager - The Athletic - The New York Times",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVi1vT0FndzBibUhVY19jbW5rbVpDSXZzaEV5ZW5RdU1zNzZzVFNqZk5wT0UxcW5kcmhTamt0RXFUbE1xeFhiSjZDd3JKUGxJNklicGtsUXp1em9IdlhoX2VCTEJRVkV2ZmVHMHY4Q0RiREpWc3pRNmVDUmxFNlpqUGQwVzJiNzZNcndNRkwyUEtHcTBxYmRONA?oc=5"
     },
     {
-     "host": "standard.co.uk",
-     "title": "Thomas Frank appointed new Crystal Palace manager on two-and-a-half year deal - London Evening Standard",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ0JSTkxKSG5EVUh3SUM1emlDcHZyei0yalBqTlZLb0t2cGhueGJYN1NZYjJwT1dCM2o5cU45eVViV1QwTTdiaVEwemxrUzBlYUpmSXVfeFYxMTlkd0J4Zlc3c3NtWUlYdVBtZ3EwWVBEaHNyLWttZFRiZXZKUVRlNUtmMXFlbkRtMGFsV0VseloyWmNMelZXNU5aWDljbWRUOGFXSEV2TUU?oc=5"
+     "host": "independent.co.uk",
+     "title": "Thomas Frank appointed Crystal Palace manager after nightmare Tottenham reign - The Independent",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd2s3U29IOE5lOHQtSENCSm9ja0pBRG53NC1OS0N3WkZLZEZTRlM5S2tmQWREMVpjbkM2NzJsOXlLUDBieTFYMUZLZ0JKZlVZU2J3bjUxQVZQbTFaZUhRZzVtVFdvMVNheTd5U2xGcGE0SGx3WkxaanliaklSeXhaZ2M5ZV8yTnBoWkRjTDdTeHFmajFoaFhiWGl6ZEUxREtRTUdzYS1FLUc1Zw?oc=5"
+    }
+   ]
+  },
+  {
+   "club": "Strasbourg",
+   "club_ar": "",
+   "type": "hire",
+   "first": "2026-11-17T10:33:57",
+   "sources": [
+    {
+     "host": "lequipe.fr",
+     "title": "Nouvel entraîneur à Strasbourg : le club s'est mis d'accord avec le coach de Swansea Vitor Matos pour remplacer Hugo Oliveira sur le banc - L'Équipe",
+     "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQYjhZLXBYekVrQU85MUtjcWFqcTZFa1NQOTlPNjNuYTNtdWdFMFRtcGNxRjVaVFdDcXhhbjliaVBucU5lLWZ2TDB1VlNPeTd5c2o0QnZyQzZLdjhTaVRwOTNRZ1phWUJBamoyVm8zalNwNG9jYmM5UEpHTS15bFJySjd6Wi1mNnM0SzlhVU82N0gwZ1lHY3NWLUZCMVZDbFFsTW1VTFBac0tHdEVWa2pMQ2MyTzRiU0p1X181NHJQMk4zaVZzVUhVMFZoM0R0MExqclI5QjJUcnI2VFRDY1BZQ2xzRnJhc25Bek1ic3lMVUdRYkdVcHBTVmR1VjNCZVJMOGF0QTdyODAyQnJ1dDh6MHdtcjlZZVVVTnc?oc=5"
+    },
+    {
+     "host": "footmercato.net",
+     "title": "Strasbourg s’est mis d’accord avec son nouvel entraîneur Vitor Matos - Foot Mercato",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOanRSa0c3SmlROGc0QVJVX09HWFlPX2EzZWVyam01YmFSb3VNUWVtMXFXalAwQnRoSlhSeVR1dHFGWW95RDdqVGhhbW9wY0FzdllPc09SRmhWWnVZSHNCc3Y5M1IzTjVKN0Rxc0o2WUhoS0hCWGZGNDVCOGNYRmlLRmdGTnQ3Z0JiT05reVo4VE9kMVBsSllCckp6Y2VkT0lmS2k0LXdOOS1nQlphUU92Uk1SSk5RQQ?oc=5"
     }
    ]
   }
