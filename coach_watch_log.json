@@ -1,5 +1,5 @@
 {
- "t": "2026-11-18T10:34:02.274601",
+ "t": "2026-11-18T19:17:59.854690",
  "seen": [
   {
    "club": "Al Ahli",
@@ -15,22 +15,22 @@
    "n": 9,
    "hosts": [
     "theguardian.com",
-    "nytimes.com",
     "espn.co.uk",
-    "sports.yahoo.com",
     "standard.co.uk",
+    "nytimes.com",
     "independent.co.uk",
+    "uk.sports.yahoo.com",
+    "sports.yahoo.com",
     "espn.com",
-    "premierleague.com",
-    "uk.sports.yahoo.com"
+    "premierleague.com"
    ]
   },
   {
-   "club": "Torino",
-   "type": "sack",
+   "club": "Le Havre AC",
+   "type": "hire",
    "n": 1,
    "hosts": [
-    "calciomercato.com"
+    "madeinfoot.ouest-france.fr"
    ]
   },
   {
@@ -38,8 +38,8 @@
    "type": "hire",
    "n": 2,
    "hosts": [
-    "lequipe.fr",
-    "footmercato.net"
+    "footmercato.net",
+    "lequipe.fr"
    ]
   }
  ],
@@ -50,22 +50,22 @@
    "n": 9,
    "hosts": [
     "theguardian.com",
-    "nytimes.com",
     "espn.co.uk",
-    "sports.yahoo.com",
     "standard.co.uk",
+    "nytimes.com",
     "independent.co.uk",
+    "uk.sports.yahoo.com",
+    "sports.yahoo.com",
     "espn.com",
-    "premierleague.com",
-    "uk.sports.yahoo.com"
+    "premierleague.com"
    ]
   },
   {
-   "club": "Torino",
-   "type": "sack",
+   "club": "Le Havre AC",
+   "type": "hire",
    "n": 1,
    "hosts": [
-    "calciomercato.com"
+    "madeinfoot.ouest-france.fr"
    ]
   },
   {
@@ -73,8 +73,8 @@
    "type": "hire",
    "n": 2,
    "hosts": [
-    "lequipe.fr",
-    "footmercato.net"
+    "footmercato.net",
+    "lequipe.fr"
    ]
   }
  ]
