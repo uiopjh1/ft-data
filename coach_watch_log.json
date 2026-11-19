@@ -1,5 +1,5 @@
 {
- "t": "2026-11-18T19:17:59.854690",
+ "t": "2026-11-19T01:22:54.129350",
  "seen": [
   {
    "club": "Al Ahli",
@@ -17,12 +17,22 @@
     "theguardian.com",
     "espn.co.uk",
     "standard.co.uk",
-    "nytimes.com",
     "independent.co.uk",
+    "nytimes.com",
     "uk.sports.yahoo.com",
     "sports.yahoo.com",
     "espn.com",
     "premierleague.com"
+   ]
+  },
+  {
+   "club": "Strasbourg",
+   "type": "hire",
+   "n": 3,
+   "hosts": [
+    "lequipe.fr",
+    "footmercato.net",
+    "reuters.com"
    ]
   },
   {
@@ -31,15 +41,6 @@
    "n": 1,
    "hosts": [
     "madeinfoot.ouest-france.fr"
-   ]
-  },
-  {
-   "club": "Strasbourg",
-   "type": "hire",
-   "n": 2,
-   "hosts": [
-    "footmercato.net",
-    "lequipe.fr"
    ]
   }
  ],
@@ -52,12 +53,22 @@
     "theguardian.com",
     "espn.co.uk",
     "standard.co.uk",
-    "nytimes.com",
     "independent.co.uk",
+    "nytimes.com",
     "uk.sports.yahoo.com",
     "sports.yahoo.com",
     "espn.com",
     "premierleague.com"
+   ]
+  },
+  {
+   "club": "Strasbourg",
+   "type": "hire",
+   "n": 3,
+   "hosts": [
+    "lequipe.fr",
+    "footmercato.net",
+    "reuters.com"
    ]
   },
   {
@@ -66,15 +77,6 @@
    "n": 1,
    "hosts": [
     "madeinfoot.ouest-france.fr"
-   ]
-  },
-  {
-   "club": "Strasbourg",
-   "type": "hire",
-   "n": 2,
-   "hosts": [
-    "footmercato.net",
-    "lequipe.fr"
    ]
   }
  ]
