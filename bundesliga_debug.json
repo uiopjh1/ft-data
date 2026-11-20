@@ -20,7 +20,7 @@
   "sv-elversberg",
   "sc-paderborn-07"
  ],
- "sample": "{\"externalPersonIds\":{\"dflDatalibraryPersonId\":\"DFL-OBJ-0002F5\"},\"id\":\"DFL-OBJ-0002F5\",\"lastUpdate\":null,\"name\":{\"alias\":\"Joshua Kimmich\",\"first\":\"Joshua Walter\",\"full\":\"Joshua Walter Kimmich\",\"last\":\"Kimmich\",\"shortName\":null,\"slugifiedFull\":\"joshua-kimmich\",\"slugifiedShort\":\"joshua-kimmich\"},\"nationality\":{\"firstNationality\":\"German\",\"firstNationalityCode\":\"DE\",\"secondNationality\":null,\"secondNationalityCode\":null,\"thirdNationality\":null,\"thirdNationalityCode\":null},\"playerImages\":{\"FACE_CIRCLE\":\"https://assets.bundesliga.com/player/dfl-obj-0002f5-dfl-clu-00000g-dfl-sea-0001ka-circle.png\"},\"shirtNumber\":\"6\"}",
- "playersN": 556,
+ "sample": "{\"externalPersonIds\":{\"dflDatalibraryPersonId\":\"DFL-OBJ-0000I4\"},\"id\":\"DFL-OBJ-0000I4\",\"lastUpdate\":null,\"name\":{\"alias\":\"Manuel Neuer\",\"first\":\"Manuel Peter\",\"full\":\"Manuel Peter Neuer\",\"last\":\"Neuer\",\"shortName\":null,\"slugifiedFull\":\"manuel-neuer\",\"slugifiedShort\":\"manuel-neuer\"},\"nationality\":{\"firstNationality\":\"German\",\"firstNationalityCode\":\"DE\",\"secondNationality\":null,\"secondNationalityCode\":null,\"thirdNationality\":null,\"thirdNationalityCode\":null},\"playerImages\":{\"FACE_CIRCLE\":\"https://assets.bundesliga.com/player/dfl-obj-0000i4-dfl-clu-00000g-dfl-sea-0001ka-circle.png\"},\"shirtNumber\":\"1\"}",
+ "playersN": 559,
  "teamsN": 18
 }
