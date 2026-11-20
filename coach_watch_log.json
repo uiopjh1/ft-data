@@ -1,6 +1,22 @@
 {
- "t": "2026-11-20T17:43:59.109868",
+ "t": "2026-11-20T23:51:35.775423",
  "seen": [
+  {
+   "club": "Liverpool",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "skysports.com"
+   ]
+  },
+  {
+   "club": "Troyes",
+   "type": "hire",
+   "n": 1,
+   "hosts": [
+    "lequipe.fr"
+   ]
+  },
   {
    "club": "Strasbourg",
    "type": "hire",
@@ -20,6 +36,22 @@
   }
  ],
  "eu": [
+  {
+   "club": "Liverpool",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "skysports.com"
+   ]
+  },
+  {
+   "club": "Troyes",
+   "type": "hire",
+   "n": 1,
+   "hosts": [
+    "lequipe.fr"
+   ]
+  },
   {
    "club": "Strasbourg",
    "type": "hire",
