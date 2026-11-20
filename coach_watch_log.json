@@ -1,31 +1,21 @@
 {
- "t": "2026-11-19T18:33:04.144462",
+ "t": "2026-11-20T01:07:13.639218",
  "seen": [
-  {
-   "club": "Al Ahli",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "slaati.com"
-   ]
-  },
   {
    "club": "Crystal Palace",
    "type": "hire",
-   "n": 2,
+   "n": 1,
    "hosts": [
-    "premierleague.com",
-    "global.espn.com"
+    "premierleague.com"
    ]
   },
   {
    "club": "Strasbourg",
    "type": "hire",
-   "n": 3,
+   "n": 2,
    "hosts": [
-    "lequipe.fr",
     "footmercato.net",
-    "reuters.com"
+    "lequipe.fr"
    ]
   },
   {
@@ -41,20 +31,18 @@
   {
    "club": "Crystal Palace",
    "type": "hire",
-   "n": 2,
+   "n": 1,
    "hosts": [
-    "premierleague.com",
-    "global.espn.com"
+    "premierleague.com"
    ]
   },
   {
    "club": "Strasbourg",
    "type": "hire",
-   "n": 3,
+   "n": 2,
    "hosts": [
-    "lequipe.fr",
     "footmercato.net",
-    "reuters.com"
+    "lequipe.fr"
    ]
   },
   {
