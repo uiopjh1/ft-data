@@ -1,14 +1,6 @@
 {
- "t": "2026-11-21T06:31:39.684490",
+ "t": "2026-11-21T15:11:34.670961",
  "seen": [
-  {
-   "club": "Liverpool",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "skysports.com"
-   ]
-  },
   {
    "club": "Strasbourg",
    "type": "hire",
@@ -36,14 +28,6 @@
   }
  ],
  "eu": [
-  {
-   "club": "Liverpool",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "skysports.com"
-   ]
-  },
   {
    "club": "Strasbourg",
    "type": "hire",
