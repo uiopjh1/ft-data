@@ -1,15 +1,6 @@
 {
- "t": "2026-11-21T15:11:34.670961",
+ "t": "2026-11-21T21:00:05.804647",
  "seen": [
-  {
-   "club": "Strasbourg",
-   "type": "hire",
-   "n": 2,
-   "hosts": [
-    "lequipe.fr",
-    "reuters.com"
-   ]
-  },
   {
    "club": "Troyes",
    "type": "hire",
@@ -19,25 +10,17 @@
    ]
   },
   {
-   "club": "Le Havre AC",
+   "club": "Strasbourg",
    "type": "hire",
-   "n": 1,
+   "n": 2,
    "hosts": [
-    "madeinfoot.ouest-france.fr"
+    "lequipe.fr",
+    "reuters.com"
    ]
   }
  ],
  "eu": [
   {
-   "club": "Strasbourg",
-   "type": "hire",
-   "n": 2,
-   "hosts": [
-    "lequipe.fr",
-    "reuters.com"
-   ]
-  },
-  {
    "club": "Troyes",
    "type": "hire",
    "n": 1,
@@ -46,11 +29,12 @@
    ]
   },
   {
-   "club": "Le Havre AC",
+   "club": "Strasbourg",
    "type": "hire",
-   "n": 1,
+   "n": 2,
    "hosts": [
-    "madeinfoot.ouest-france.fr"
+    "lequipe.fr",
+    "reuters.com"
    ]
   }
  ]
