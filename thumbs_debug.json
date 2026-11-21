@@ -1,1 +1,1 @@
-{"why":{"403":22,"404":11,"Input Buffer is empty":1},"total":2873,"ok":0,"skipped":2839,"fail":34,"have":2839,"avgBytes":3885,"maxBytes":8504}
+{"why":{"403":22,"404":11},"total":2873,"ok":1,"skipped":2839,"fail":33,"have":2840,"avgBytes":3884,"maxBytes":8504}
