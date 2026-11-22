@@ -1,5 +1,5 @@
 {
- "t": "2026-11-21T21:00:05.804647",
+ "t": "2026-11-22T01:10:17.318890",
  "seen": [
   {
    "club": "Troyes",
@@ -12,10 +12,9 @@
   {
    "club": "Strasbourg",
    "type": "hire",
-   "n": 2,
+   "n": 1,
    "hosts": [
-    "lequipe.fr",
-    "reuters.com"
+    "lequipe.fr"
    ]
   }
  ],
@@ -31,10 +30,9 @@
   {
    "club": "Strasbourg",
    "type": "hire",
-   "n": 2,
+   "n": 1,
    "hosts": [
-    "lequipe.fr",
-    "reuters.com"
+    "lequipe.fr"
    ]
   }
  ]
