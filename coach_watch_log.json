@@ -1,6 +1,30 @@
 {
- "t": "2026-11-23T03:00:02.724512",
+ "t": "2026-11-23T12:16:28.370905",
  "seen": [
+  {
+   "club": "Al Fateh",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "aawsat.com"
+   ]
+  },
+  {
+   "club": "Manchester United",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Troyes",
+   "type": "hire",
+   "n": 1,
+   "hosts": [
+    "lequipe.fr"
+   ]
+  },
   {
    "club": "Toulouse",
    "type": "hire",
@@ -11,14 +35,6 @@
   },
   {
    "club": "Strasbourg",
-   "type": "hire",
-   "n": 1,
-   "hosts": [
-    "lequipe.fr"
-   ]
-  },
-  {
-   "club": "Troyes",
    "type": "hire",
    "n": 1,
    "hosts": [
@@ -28,6 +44,22 @@
  ],
  "eu": [
   {
+   "club": "Manchester United",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Troyes",
+   "type": "hire",
+   "n": 1,
+   "hosts": [
+    "lequipe.fr"
+   ]
+  },
+  {
    "club": "Toulouse",
    "type": "hire",
    "n": 1,
@@ -37,14 +69,6 @@
   },
   {
    "club": "Strasbourg",
-   "type": "hire",
-   "n": 1,
-   "hosts": [
-    "lequipe.fr"
-   ]
-  },
-  {
-   "club": "Troyes",
    "type": "hire",
    "n": 1,
    "hosts": [
