@@ -29,6 +29,7 @@
 محمد اليعقوبي {'cands': 0, 'clusters': [], 'ok': False}
 محمد مصباح {'cands': 0, 'clusters': [], 'ok': False}
 محمد نضال {'cands': 0, 'clusters': [], 'ok': False}
+محمود أبو الركب {'cands': 0, 'clusters': [], 'ok': False}
 مصطفى العلوان {'cands': 0, 'clusters': [], 'ok': False}
 منتصر الأزهري {'cands': 0, 'clusters': [], 'ok': False}
 منير العتيبي {'cands': 0, 'clusters': [], 'ok': False}
