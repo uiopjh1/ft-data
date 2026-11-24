@@ -1,12 +1,12 @@
 {
- "t": "2026-11-23T12:16:28.370905",
+ "t": "2026-11-24T00:15:08.603777",
  "seen": [
   {
-   "club": "Al Fateh",
-   "type": "sack",
+   "club": "Al Riyadh",
+   "type": "hire",
    "n": 1,
    "hosts": [
-    "aawsat.com"
+    "goal.com"
    ]
   },
   {
@@ -18,23 +18,15 @@
    ]
   },
   {
-   "club": "Troyes",
-   "type": "hire",
+   "club": "Udinese",
+   "type": "sack",
    "n": 1,
    "hosts": [
-    "lequipe.fr"
+    "ilmessaggero.it"
    ]
   },
   {
    "club": "Toulouse",
-   "type": "hire",
-   "n": 1,
-   "hosts": [
-    "lequipe.fr"
-   ]
-  },
-  {
-   "club": "Strasbourg",
    "type": "hire",
    "n": 1,
    "hosts": [
@@ -52,23 +44,15 @@
    ]
   },
   {
-   "club": "Troyes",
-   "type": "hire",
+   "club": "Udinese",
+   "type": "sack",
    "n": 1,
    "hosts": [
-    "lequipe.fr"
+    "ilmessaggero.it"
    ]
   },
   {
    "club": "Toulouse",
-   "type": "hire",
-   "n": 1,
-   "hosts": [
-    "lequipe.fr"
-   ]
-  },
-  {
-   "club": "Strasbourg",
    "type": "hire",
    "n": 1,
    "hosts": [
