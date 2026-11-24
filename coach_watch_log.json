@@ -1,5 +1,5 @@
 {
- "t": "2026-11-24T00:15:08.603777",
+ "t": "2026-11-24T10:19:25.287137",
  "seen": [
   {
    "club": "Al Riyadh",
@@ -7,22 +7,6 @@
    "n": 1,
    "hosts": [
     "goal.com"
-   ]
-  },
-  {
-   "club": "Manchester United",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "sports.yahoo.com"
-   ]
-  },
-  {
-   "club": "Udinese",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "ilmessaggero.it"
    ]
   },
   {
@@ -35,22 +19,6 @@
   }
  ],
  "eu": [
-  {
-   "club": "Manchester United",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "sports.yahoo.com"
-   ]
-  },
-  {
-   "club": "Udinese",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "ilmessaggero.it"
-   ]
-  },
   {
    "club": "Toulouse",
    "type": "hire",
