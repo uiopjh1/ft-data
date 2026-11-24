@@ -1,12 +1,36 @@
 {
- "t": "2026-11-24T10:19:25.287137",
+ "t": "2026-11-24T20:47:42.821055",
  "seen": [
+  {
+   "club": "Al Ahli",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "kooora.com"
+   ]
+  },
   {
    "club": "Al Riyadh",
    "type": "hire",
    "n": 1,
    "hosts": [
     "goal.com"
+   ]
+  },
+  {
+   "club": "Manchester United",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Udinese",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "ilmessaggero.it"
    ]
   },
   {
@@ -19,6 +43,22 @@
   }
  ],
  "eu": [
+  {
+   "club": "Manchester United",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Udinese",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "ilmessaggero.it"
+   ]
+  },
   {
    "club": "Toulouse",
    "type": "hire",
