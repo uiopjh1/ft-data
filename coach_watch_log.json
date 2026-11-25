@@ -1,5 +1,5 @@
 {
- "t": "2026-11-25T14:50:09.295572",
+ "t": "2026-11-25T23:30:49.105992",
  "seen": [
   {
    "club": "Al Ahli",
@@ -24,22 +24,6 @@
    "hosts": [
     "nytimes.com"
    ]
-  },
-  {
-   "club": "Manchester United",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "sports.yahoo.com"
-   ]
-  },
-  {
-   "club": "Liverpool",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "espn.com"
-   ]
   }
  ],
  "eu": [
@@ -49,22 +33,6 @@
    "n": 1,
    "hosts": [
     "nytimes.com"
-   ]
-  },
-  {
-   "club": "Manchester United",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "sports.yahoo.com"
-   ]
-  },
-  {
-   "club": "Liverpool",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "espn.com"
    ]
   }
  ]
