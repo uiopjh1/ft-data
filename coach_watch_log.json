@@ -1,5 +1,5 @@
 {
- "t": "2026-11-25T04:02:05.149465",
+ "t": "2026-11-25T14:50:09.295572",
  "seen": [
   {
    "club": "Al Ahli",
@@ -18,21 +18,53 @@
    ]
   },
   {
-   "club": "Toulouse",
+   "club": "Crystal Palace",
    "type": "hire",
    "n": 1,
    "hosts": [
-    "lequipe.fr"
+    "nytimes.com"
+   ]
+  },
+  {
+   "club": "Manchester United",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Liverpool",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "espn.com"
    ]
   }
  ],
  "eu": [
   {
-   "club": "Toulouse",
+   "club": "Crystal Palace",
    "type": "hire",
    "n": 1,
    "hosts": [
-    "lequipe.fr"
+    "nytimes.com"
+   ]
+  },
+  {
+   "club": "Manchester United",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Liverpool",
+   "type": "sack",
+   "n": 1,
+   "hosts": [
+    "espn.com"
    ]
   }
  ]
