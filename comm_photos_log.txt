@@ -4,7 +4,7 @@
 أحمد سوكو {'cands': 0, 'clusters': [], 'ok': False}
 أنيس السحباني {'cands': 0, 'clusters': [], 'ok': False}
 بكر علوان {'cands': 0, 'clusters': [], 'ok': False}
-بلال علام {'cands': 3, 'clusters': [['zamalektoday.com'], ['deezer.com']], 'ok': False}
+بلال علام {'cands': 1, 'clusters': [['zamalektoday.com']], 'ok': False}
 حازم عبد السلام {'cands': 0, 'clusters': [], 'ok': False}
 حسين السعدي {'cands': 0, 'clusters': [], 'ok': False}
 زياد الدكروري {'cands': 0, 'clusters': [], 'ok': False}
