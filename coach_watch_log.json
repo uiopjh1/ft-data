@@ -1,14 +1,6 @@
 {
- "t": "2026-11-26T07:43:46.866293",
+ "t": "2026-11-26T18:16:24.163716",
  "seen": [
-  {
-   "club": "Al Ahli",
-   "type": "sack",
-   "n": 1,
-   "hosts": [
-    "kooora.com"
-   ]
-  },
   {
    "club": "Al Riyadh",
    "type": "hire",
@@ -16,24 +8,7 @@
    "hosts": [
     "goal.com"
    ]
-  },
-  {
-   "club": "Crystal Palace",
-   "type": "hire",
-   "n": 1,
-   "hosts": [
-    "nytimes.com"
-   ]
   }
  ],
- "eu": [
-  {
-   "club": "Crystal Palace",
-   "type": "hire",
-   "n": 1,
-   "hosts": [
-    "nytimes.com"
-   ]
-  }
- ]
+ "eu": []
 }
