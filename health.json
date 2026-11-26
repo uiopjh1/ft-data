@@ -1,36 +1,36 @@
 {
- "checked": "2026-11-25T14:16:32.007165+00:00",
+ "checked": "2026-11-26T13:51:12.547916+00:00",
  "all_ok": false,
  "items": [
   {
    "name": "الرؤساء (فحص ساعي)",
    "target": "pres-live.yml",
-   "last_ok": "2026-11-25T12:46:47+00:00",
-   "age_h": 1.5,
+   "last_ok": "2026-11-26T09:00:57+00:00",
+   "age_h": 4.8,
    "max_h": 3,
-   "ok": true
+   "ok": false
   },
   {
    "name": "المعلقون (الجدول)",
    "target": "commentators.yml",
-   "last_ok": "2026-11-25T08:52:38+00:00",
-   "age_h": 5.4,
+   "last_ok": "2026-11-26T03:39:33+00:00",
+   "age_h": 10.2,
    "max_h": 8,
-   "ok": true
+   "ok": false
   },
   {
    "name": "صور المعلقين (يومي)",
    "target": "comm-photos.yml",
-   "last_ok": "2026-11-25T12:46:47+00:00",
-   "age_h": 1.5,
+   "last_ok": "2026-11-26T12:40:31+00:00",
+   "age_h": 1.2,
    "max_h": 30,
    "ok": true
   },
   {
    "name": "ملف المعلقين commentators.json",
    "target": "commentators.json",
-   "last_ok": "2026-11-25T08:52:33+00:00",
-   "age_h": 5.4,
+   "last_ok": "2026-11-26T03:39:29+00:00",
+   "age_h": 10.2,
    "max_h": 12,
    "ok": true
   },
@@ -38,15 +38,15 @@
    "name": "ملف الرؤساء presidents.json",
    "target": "presidents.json",
    "last_ok": "2026-11-02T11:00:30+00:00",
-   "age_h": 555.3,
+   "age_h": 578.8,
    "max_h": 336,
    "ok": false
   },
   {
    "name": "نبضة فحص الرؤساء",
    "target": "pres_live_status.json",
-   "last_ok": "2026-11-25T13:48:23Z",
-   "age_h": 0.5,
+   "last_ok": "2026-11-26T13:04:29Z",
+   "age_h": 0.8,
    "max_h": 2,
    "ok": true
   }
