@@ -1,4 +1,23 @@
 {
- "updated": 1795776611881,
- "items": []
+ "updated": 1795809162565,
+ "items": [
+  {
+   "club": "Arsenal",
+   "club_ar": "",
+   "type": "sack",
+   "first": "2026-11-27T15:08:00",
+   "sources": [
+    {
+     "host": "telegraph.co.uk",
+     "title": "The five reasons Arsenal decided to sack Renee Slegers - The Telegraph",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcXcyRmtkVnM3V2hZZnRveXNsOWpCYThmZXRrV3UtbmtRVVJiemQ4RkpLT1FOTGRQS1dxZkhQUGJ5ZXhTY2JJOHJYWFBPak1kc203dlNlb3BVMm1EMUd6bEZla0k3bElrcFJyMmtHenpVeHlib2REUzZLUE90VU9scHU2NGhseTk1OVVXS1NJOVEtbkJGU0JqNi1aQmo5d3hrdTBFSWZlMklFSkVP?oc=5"
+    },
+    {
+     "host": "skysports.com",
+     "title": "Renee Slegers sacked by Arsenal only 18 months after winning Champions League following poor start to WSL season - Sky Sports",
+     "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQUWIza3JpTWNoWjNtVDdjVGRMbWVtVnNNYXBPQkZ1MzBYcmQ0Y1FGUGlaTmZkVjAtNUswM28zR3JuYmU1eV94WG1vTF9ucGtvWWV2eFZ5Rk9LRnIyaVFJNmVUZ21uUjRNZ1JMVnNRR3VIYUI1SkFTWWJ4eWxXMEZKR0hVVDdQMU9ZQWhmNFhZZkx4Zml3S1R5UGw5dEUxOTN5VG5zZWRlOE8xb0xsNGtTMWFqVHVlWm1MamU2TWZSREcxNVJYa3hidGRta3BtRE1OS2VTQWxfajFpNzhlOU9yZWE4Z29TRVNhNHJTRjdXQjJxUmFzUGJ6cFMxYw?oc=5"
+    }
+   ]
+  }
+ ]
 }
