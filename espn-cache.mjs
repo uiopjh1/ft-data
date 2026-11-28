@@ -123,9 +123,10 @@ mkdirSync('out/results', { recursive: true });
           }
           evs[e.id] = { id: e.id, d: e.date, h: { id: h.team.id, n: h.team.displayName, s: Number(h.score) }, a: { id: a.team.id, n: a.team.displayName, s: Number(a.score) }, g };
         }
-      } catch (er) { fail++; }
+      } catch (er) { fail++; if (fail < 3) console.log('results err', slug, String(er)); }
       await sleep(250);
     }
+    console.log('results', slug, Object.keys(evs).length, 'fail', fail);
     if (Object.keys(evs).length) writeFileSync(`out/results/${slug}.json`, JSON.stringify({ _ts: Date.now(), fail, events: Object.values(evs) }));
   }
   console.log('results done');
