@@ -20,7 +20,7 @@
   "sv-elversberg",
   "sc-paderborn-07"
  ],
- "sample": "{\"externalPersonIds\":{\"dflDatalibraryPersonId\":\"DFL-OBJ-0000I4\"},\"id\":\"DFL-OBJ-0000I4\",\"lastUpdate\":null,\"name\":{\"alias\":\"Manuel Neuer\",\"first\":\"Manuel Peter\",\"full\":\"Manuel Peter Neuer\",\"last\":\"Neuer\",\"shortName\":null,\"slugifiedFull\":\"manuel-neuer\",\"slugifiedShort\":\"manuel-neuer\"},\"nationality\":{\"firstNationality\":\"German\",\"firstNationalityCode\":\"DE\",\"secondNationality\":null,\"secondNationalityCode\":null,\"thirdNationality\":null,\"thirdNationalityCode\":null},\"playerImages\":{\"FACE_CIRCLE\":\"https://assets.bundesliga.com/player/dfl-obj-0000i4-dfl-clu-00000g-dfl-sea-0001ka-circle.png\"},\"shirtNumber\":\"1\"}",
+ "sample": "{\"externalPersonIds\":{\"dflDatalibraryPersonId\":\"DFL-OBJ-0027KL\"},\"id\":\"DFL-OBJ-0027KL\",\"lastUpdate\":null,\"name\":{\"alias\":\"Dayot Upamecano\",\"first\":\"Dayotchanculle Oswald\",\"full\":\"Dayotchanculle Oswald Upamecano\",\"last\":\"Upamecano\",\"shortName\":null,\"slugifiedFull\":\"dayot-upamecano\",\"slugifiedShort\":\"dayot-upamecano\"},\"nationality\":{\"firstNationality\":\"French\",\"firstNationalityCode\":\"FR\",\"secondNationality\":\"Guinea-Bissau\",\"secondNationalityCode\":null,\"thirdNationality\":null,\"thirdNationalityCode\":null},\"playerImages\":{\"FACE_CIRCLE\":\"https://assets.bundesliga.com/player/dfl-obj-0027kl-dfl-clu-00000g-dfl-sea-0001ka-circle.png\"},\"shirtNumber\":\"2\"}",
  "playersN": 560,
  "teamsN": 18
 }
