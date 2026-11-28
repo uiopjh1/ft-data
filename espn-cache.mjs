@@ -91,18 +91,26 @@ console.log('board ok', bOk, 'bad', bBad);
 
 
 // ---- نتائج الموسم مع أهداف اللاعبين (يقرؤها التطبيق لإكمال الهدافين: المباريات المؤجلة تغيب أحياناً عن Sofascore) ----
-mkdirSync('out/results', { recursive: true });
+// تدريجي: يُحفظ في espn/results على main، وكل تشغيل يجلب الأيام الناقصة + آخر 10 أيام فقط
+mkdirSync('espn/results', { recursive: true });
 {
   const now = new Date();
   const y0 = now.getUTCMonth() < 6 ? now.getUTCFullYear() - 1 : now.getUTCFullYear();
   const f = (d) => `${d.getUTCFullYear()}${String(d.getUTCMonth() + 1).padStart(2, '0')}${String(d.getUTCDate()).padStart(2, '0')}`;
+  const t0 = Date.now();
   for (const slug of ['ksa.1', 'eng.1', 'esp.1', 'ita.1', 'ger.1', 'fra.1']) {
-    const evs = {};
-    let fail = 0;
-    for (let d = new Date(Date.UTC(y0, 7, 1)); d <= now; d = new Date(d.getTime() + 7 * 86400000)) {
-      const to = new Date(Math.min(d.getTime() + 6 * 86400000, now.getTime()));
+    const file = `espn/results/${slug}.json`;
+    let st = { events: {}, done: {} };
+    try { if (existsSync(file)) st = JSON.parse(readFileSync(file, 'utf8')); } catch (er) {}
+    st.events = st.events || {}; st.done = st.done || {};
+    let fail = 0, got = 0;
+    for (let d = new Date(Date.UTC(y0, 7, 1)); d <= now; d = new Date(d.getTime() + 86400000)) {
+      if (Date.now() - t0 > 6 * 60 * 1000) break;
+      const k = f(d);
+      const recent = now.getTime() - d.getTime() < 10 * 86400000;
+      if (st.done[k] && !recent) continue;
       try {
-        const res = await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/${slug}/scoreboard?dates=${f(d)}-${f(to)}`, { headers: { 'user-agent': 'Mozilla/5.0' } });
+        const res = await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/${slug}/scoreboard?dates=${k}`, { headers: { 'user-agent': 'Mozilla/5.0' } });
         if (!res.ok) throw new Error('HTTP ' + res.status);
         const j = await res.json();
         for (const e of j.events || []) {
@@ -121,13 +129,15 @@ mkdirSync('out/results', { recursive: true });
             if (!at) continue;
             g.push({ id: at.id, n: at.displayName || at.fullName || '', t: x.team && x.team.id, p: /penalty/i.test(ty) ? 1 : 0 });
           }
-          evs[e.id] = { id: e.id, d: e.date, h: { id: h.team.id, n: h.team.displayName, s: Number(h.score) }, a: { id: a.team.id, n: a.team.displayName, s: Number(a.score) }, g };
+          st.events[e.id] = { id: e.id, d: e.date, h: { id: h.team.id, n: h.team.displayName, s: Number(h.score) }, a: { id: a.team.id, n: a.team.displayName, s: Number(a.score) }, g };
+          got++;
         }
-      } catch (er) { fail++; if (fail < 3) console.log('results err', slug, String(er)); }
-      await sleep(250);
+        st.done[k] = 1;
+      } catch (er) { fail++; if (fail < 3) console.log('results err', slug, k, String(er)); }
+      await sleep(150);
     }
-    console.log('results', slug, Object.keys(evs).length, 'fail', fail);
-    if (Object.keys(evs).length) writeFileSync(`out/results/${slug}.json`, JSON.stringify({ _ts: Date.now(), fail, events: Object.values(evs) }));
+    console.log('results', slug, Object.keys(st.events).length, 'new', got, 'fail', fail);
+    writeFileSync(file, JSON.stringify({ _ts: Date.now(), events: st.events, done: st.done }));
   }
   console.log('results done');
 }
