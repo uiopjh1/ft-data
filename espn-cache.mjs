@@ -89,6 +89,48 @@ for (const slug of BOARD) {
 }
 console.log('board ok', bOk, 'bad', bBad);
 
+
+// ---- نتائج الموسم مع أهداف اللاعبين (يقرؤها التطبيق لإكمال الهدافين: المباريات المؤجلة تغيب أحياناً عن Sofascore) ----
+mkdirSync('out/results', { recursive: true });
+{
+  const now = new Date();
+  const y0 = now.getUTCMonth() < 6 ? now.getUTCFullYear() - 1 : now.getUTCFullYear();
+  const f = (d) => `${d.getUTCFullYear()}${String(d.getUTCMonth() + 1).padStart(2, '0')}${String(d.getUTCDate()).padStart(2, '0')}`;
+  for (const slug of ['ksa.1', 'eng.1', 'esp.1', 'ita.1', 'ger.1', 'fra.1']) {
+    const evs = {};
+    let fail = 0;
+    for (let d = new Date(Date.UTC(y0, 7, 1)); d <= now; d = new Date(d.getTime() + 7 * 86400000)) {
+      const to = new Date(Math.min(d.getTime() + 6 * 86400000, now.getTime()));
+      try {
+        const res = await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/${slug}/scoreboard?dates=${f(d)}-${f(to)}&limit=100`, { headers: { 'user-agent': 'Mozilla/5.0' } });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const j = await res.json();
+        for (const e of j.events || []) {
+          if (!e.status || !e.status.type || e.status.type.state !== 'post') continue;
+          const c = e.competitions && e.competitions[0];
+          if (!c) continue;
+          const h = c.competitors.find((q) => q.homeAway === 'home');
+          const a = c.competitors.find((q) => q.homeAway === 'away');
+          if (!h || !a) continue;
+          const g = [];
+          for (const x of c.details || []) {
+            const ty = String((x.type && (x.type.text || x.type.id)) || '');
+            if (!x.scoringPlay && !/goal/i.test(ty)) continue;
+            if (/own/i.test(ty)) continue;
+            const at = (x.athletesInvolved || [])[0];
+            if (!at) continue;
+            g.push({ id: at.id, n: at.displayName || at.fullName || '', t: x.team && x.team.id, p: /penalty/i.test(ty) ? 1 : 0 });
+          }
+          evs[e.id] = { id: e.id, d: e.date, h: { id: h.team.id, n: h.team.displayName, s: Number(h.score) }, a: { id: a.team.id, n: a.team.displayName, s: Number(a.score) }, g };
+        }
+      } catch (er) { fail++; }
+      await sleep(250);
+    }
+    if (Object.keys(evs).length) writeFileSync(`out/results/${slug}.json`, JSON.stringify({ _ts: Date.now(), fail, events: Object.values(evs) }));
+  }
+  console.log('results done');
+}
+
 // شعارات بطولات إضافية (للبطاقات) من ESPN نفسه
 for (const slug of ['ksa.super_cup', 'eng.league_cup', 'ita.coppa_italia', 'ger.dfb_pokal', 'fra.coupe_de_france', 'ksa.crown.prince.cup']) {
   try {
