@@ -102,7 +102,7 @@ mkdirSync('out/results', { recursive: true });
     for (let d = new Date(Date.UTC(y0, 7, 1)); d <= now; d = new Date(d.getTime() + 7 * 86400000)) {
       const to = new Date(Math.min(d.getTime() + 6 * 86400000, now.getTime()));
       try {
-        const res = await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/${slug}/scoreboard?dates=${f(d)}-${f(to)}&limit=100`, { headers: { 'user-agent': 'Mozilla/5.0' } });
+        const res = await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/${slug}/scoreboard?dates=${f(d)}-${f(to)}`, { headers: { 'user-agent': 'Mozilla/5.0' } });
         if (!res.ok) throw new Error('HTTP ' + res.status);
         const j = await res.json();
         for (const e of j.events || []) {
