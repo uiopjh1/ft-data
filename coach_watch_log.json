@@ -1,5 +1,5 @@
 {
- "t": "2026-11-27T19:51:41.164003",
+ "t": "2026-11-28T02:33:18.131889",
  "seen": [
   {
    "club": "Chelsea",
@@ -12,9 +12,8 @@
   {
    "club": "Arsenal",
    "type": "sack",
-   "n": 2,
+   "n": 1,
    "hosts": [
-    "telegraph.co.uk",
     "skysports.com"
    ]
   },
@@ -29,8 +28,9 @@
   {
    "club": "Stade Rennais",
    "type": "sack",
-   "n": 1,
+   "n": 2,
    "hosts": [
+    "goal.com",
     "sports.yahoo.com"
    ]
   }
@@ -47,9 +47,8 @@
   {
    "club": "Arsenal",
    "type": "sack",
-   "n": 2,
+   "n": 1,
    "hosts": [
-    "telegraph.co.uk",
     "skysports.com"
    ]
   },
@@ -64,8 +63,9 @@
   {
    "club": "Stade Rennais",
    "type": "sack",
-   "n": 1,
+   "n": 2,
    "hosts": [
+    "goal.com",
     "sports.yahoo.com"
    ]
   }
