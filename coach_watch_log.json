@@ -1,12 +1,12 @@
 {
- "t": "2026-11-28T02:33:18.131889",
+ "t": "2026-11-28T11:30:37.253074",
  "seen": [
   {
-   "club": "Chelsea",
-   "type": "sack",
+   "club": "Arsenal",
+   "type": "hire",
    "n": 1,
    "hosts": [
-    "sports.yahoo.com"
+    "uk.sports.yahoo.com"
    ]
   },
   {
@@ -18,30 +18,31 @@
    ]
   },
   {
-   "club": "Arsenal",
+   "club": "Deportivo",
    "type": "hire",
    "n": 1,
    "hosts": [
-    "uk.sports.yahoo.com"
+    "mundodeportivo.com"
    ]
   },
   {
    "club": "Stade Rennais",
    "type": "sack",
-   "n": 2,
+   "n": 3,
    "hosts": [
     "goal.com",
+    "lequipe.fr",
     "sports.yahoo.com"
    ]
   }
  ],
  "eu": [
   {
-   "club": "Chelsea",
-   "type": "sack",
+   "club": "Arsenal",
+   "type": "hire",
    "n": 1,
    "hosts": [
-    "sports.yahoo.com"
+    "uk.sports.yahoo.com"
    ]
   },
   {
@@ -53,19 +54,20 @@
    ]
   },
   {
-   "club": "Arsenal",
+   "club": "Deportivo",
    "type": "hire",
    "n": 1,
    "hosts": [
-    "uk.sports.yahoo.com"
+    "mundodeportivo.com"
    ]
   },
   {
    "club": "Stade Rennais",
    "type": "sack",
-   "n": 2,
+   "n": 3,
    "hosts": [
     "goal.com",
+    "lequipe.fr",
     "sports.yahoo.com"
    ]
   }
