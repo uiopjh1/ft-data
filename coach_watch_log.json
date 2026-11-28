@@ -1,12 +1,12 @@
 {
- "t": "2026-11-28T11:30:37.253074",
+ "t": "2026-11-28T19:46:53.537615",
  "seen": [
   {
-   "club": "Arsenal",
-   "type": "hire",
+   "club": "Chelsea",
+   "type": "sack",
    "n": 1,
    "hosts": [
-    "uk.sports.yahoo.com"
+    "sports.yahoo.com"
    ]
   },
   {
@@ -15,6 +15,14 @@
    "n": 1,
    "hosts": [
     "skysports.com"
+   ]
+  },
+  {
+   "club": "Arsenal",
+   "type": "hire",
+   "n": 1,
+   "hosts": [
+    "uk.sports.yahoo.com"
    ]
   },
   {
@@ -33,16 +41,24 @@
     "goal.com",
     "lequipe.fr",
     "sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Stade Rennais",
+   "type": "hire",
+   "n": 1,
+   "hosts": [
+    "madeinfoot.ouest-france.fr"
    ]
   }
  ],
  "eu": [
   {
-   "club": "Arsenal",
-   "type": "hire",
+   "club": "Chelsea",
+   "type": "sack",
    "n": 1,
    "hosts": [
-    "uk.sports.yahoo.com"
+    "sports.yahoo.com"
    ]
   },
   {
@@ -51,6 +67,14 @@
    "n": 1,
    "hosts": [
     "skysports.com"
+   ]
+  },
+  {
+   "club": "Arsenal",
+   "type": "hire",
+   "n": 1,
+   "hosts": [
+    "uk.sports.yahoo.com"
    ]
   },
   {
@@ -69,6 +93,14 @@
     "goal.com",
     "lequipe.fr",
     "sports.yahoo.com"
+   ]
+  },
+  {
+   "club": "Stade Rennais",
+   "type": "hire",
+   "n": 1,
+   "hosts": [
+    "madeinfoot.ouest-france.fr"
    ]
   }
  ]
